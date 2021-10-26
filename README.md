@@ -21,8 +21,10 @@ categories:
 ## Adding an image
 1. Head over to [the images directory](https://github.com/ebi-uniprot/uniprot-manual/tree/main/images)
 2. You can drag and drop the image you would like to upload
-3. Once the image has finished uploading, click on the image file to open it, then right click it to copy its url (right click>copy link address)
+3. Once the image has finished uploading, copy its url (right click on the actual image > copy image address)
 4. You can then add that image to your article using [markdown syntax](https://guides.github.com/features/mastering-markdown/).
+
+Note: to make sure you have the right URL for the image, check that its URL starts with `https://raw.githubusercontent.com/`
 
 ## Editing categories
 Categories are used to group help articles, and are used to define filters in the search user interface. They are part of the meta-data snippet at the top of every page. Before adding or editing a category, check the syntax by looking at another article from the same category.
