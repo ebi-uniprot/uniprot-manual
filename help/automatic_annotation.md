@@ -1,4 +1,3 @@
-
 ---
 title: Automatic annotation
 categories: Automatic_annotation,Biocuration,UniProtKB,help
@@ -10,7 +9,7 @@ UniProt's Automatic Annotation pipeline enhances the unreviewed records in UniPr
 
 UniProt uses [InterPro](http://www.ebi.ac.uk/interpro) to classify sequences at superfamily, family and subfamily levels and to predict the occurrence of functional domains and important sites. InterPro integrates predictive models of protein function, so-called 'signatures', from a number of member databases. InterPro matches are automatically annotated to UniProtKB entries as database cross-references with every InterPro release.
 
-In UniProtKB/TrEMBL entries, [domains](http://www.uniprot.org/manual/domain) from the InterPro member databases PROSITE, SMART or Pfam are predicted and annotated automatically, and their [evidence/source](http://www.uniprot.org/help/evidences) labels indicate "InterPro annotation".
+In UniProtKB/TrEMBL entries, [domains](https://www.uniprot.org/help/domain) from the InterPro member databases PROSITE, SMART or Pfam are predicted and annotated automatically, and their [evidence/source](http://www.uniprot.org/help/evidences) labels indicate "InterPro annotation".
 
 ### Automatic annotation
 
@@ -18,8 +17,7 @@ UniProt has developed two prediction systems, [UniRule](http://www.uniprot.org/h
 
 Rules that constitute these two prediction systems can be browsed and queried in dedicated sections of the UniProt website:
 
-*   [UniRule](http://www.uniprot.org/unirule)
-*   [ARBA](http://www.uniprot.org/arba)
+-   [UniRule](http://www.uniprot.org/unirule)
+-   [ARBA](http://www.uniprot.org/arba)
 
 We also use a suite of [Sequence Analysis Methods (SAM)](http://www.uniprot.org/help/sam) to enrich the unreviewed TrEMBL records in the UniProt Knowledgebase with extra sequence-specific information. Predictions of sequence features such as Signal, Transmembrane and Coil regions are generated using software from external providers.
-        

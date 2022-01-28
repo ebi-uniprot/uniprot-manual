@@ -1,4 +1,3 @@
-
 ---
 title: Entry history
 categories: Entry_information,manual
@@ -6,7 +5,7 @@ categories: Entry_information,manual
 
 This subsection of the 'Entry information' section shows the date of integration of the entry into UniProtKB, the date of the last sequence update and the date of the last annotation modification ('Last modified'). The version number for both the entry and the [canonical sequence](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms) are also displayed.
 
-Example: [P55209](http://www.uniprot.org/uniprot/P55209#entry_information)
+Example: [P55209](https://www.uniprot.org/uniprotkb/p55209#entry%5Finformation)
 
 Sequence updates are always accompanied by manual annotation checks and updates. Hence, the date of the last annotation update will always be at least as recent as that of the last sequence update.
 
@@ -16,9 +15,8 @@ A comprehensive archive of UniProtKB/Swiss-Prot and UniProtKB/TrEMBL entry versi
 
 #### Related documents
 
-[How do I link to a specific version of a UniProtKB entry?](http://www.uniprot.org/faq/14)
+[How do I link to a specific version of a UniProtKB entry?](http://www.uniprot.org/help/link%5Fold%5Fversions)
 
-[How do I get notified automatically of updates to UniProtKB?](http://www.uniprot.org/faq/20)
+[How do I get notified automatically of updates to UniProtKB?](http://www.uniprot.org/help/update%5Fnotification)
 
-[When was sequence Xxxx entered in UniProtKB/Swiss-Prot?](http://www.uniprot.org/faq/36)
-        
+[When was sequence Xxxx entered in UniProtKB/Swiss-Prot?](http://www.uniprot.org/help/creation%5Fdate)
