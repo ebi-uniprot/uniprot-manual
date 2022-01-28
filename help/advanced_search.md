@@ -1,0 +1,954 @@
+---
+title: UniProtKB advanced search options
+categories: Website,Text_search,Technical,help
+---
+
+The advanced search interface allows to browse the different search fields and options within the dropdown menus. There is a search box right at the top when you open the blue dropdown menu that allows you to type a concept name (e.g. "structure") and receive some autocompleted suggestions from which you can then select the most suitable one:
+
+![image](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/advanced_structure.png?raw=true)
+
+The table below lists the different options available in the "Advanced search" menu for the UniProt Knowledgebase. Columns 2 to 4 correspond to the submenu levels that are provided for some sections, after clicking on the (sub-)section name in the advanced search interface.
+
+The 2-letter codes in square brackets (e.g. "\[DE\]", "\[CC\]") correspond to the line codes used in the flat text files.
+
+UniProtKB AC
+
+Entry name \[ID\]
+
+Protein name \[DE\]
+
+Gene name \[GN\]
+
+Organism \[OS\]
+
+Taxonomy \[OC\]
+
+Virus host
+
+Protein Existence \[PE\]
+
+
+
+Evidence at protein level
+
+
+
+Evidence at transcript level
+
+
+
+Inferred from homology
+
+
+
+Predicted
+
+
+
+Uncertain
+
+Function
+
+
+
+Enzyme Classification \[EC\]
+
+
+
+Biophysicochemical properties
+
+
+
+
+
+Any biophysicochemical property
+
+
+
+
+
+Absorption
+
+
+
+
+
+Kinetic parameters
+
+
+
+
+
+pH dependence
+
+
+
+
+
+Redox potential
+
+
+
+
+
+Temperature dependence
+
+
+
+Catalytic activity
+
+Evidence type
+
+
+
+Activity regulation
+
+Evidence type
+
+
+
+Function [\[CC\]](http://www.uniprot.org/help/general%5Fannotation)
+
+Evidence type
+
+
+
+Cofactors
+
+Cofactor
+
+
+
+
+
+Cofactor note
+
+
+
+
+
+Evidence type
+
+
+
+Caution
+
+
+
+Sites
+
+
+
+
+
+Any site
+
+Evidence type
+
+
+
+
+
+Active site
+
+Evidence type
+
+
+
+
+
+Metal binding
+
+Evidence type
+
+
+
+
+
+Binding site
+
+Evidence type
+
+
+
+
+
+Other
+
+Evidence type
+
+
+
+Calcium binding
+
+
+
+DNA binding
+
+
+
+Nucleotide binding
+
+
+
+Pathway
+
+
+
+Miscellaneous [\[CC\]](http://www.uniprot.org/help/general%5Fannotation)
+
+Subcellular location
+
+
+
+Subcellular location [\[CC\]](http://www.uniprot.org/help/general%5Fannotation)
+
+Evidence type
+
+
+
+Transmembrane
+
+Evidence type
+
+
+
+Topological domain
+
+Evidence type
+
+
+
+Intramembrane
+
+Evidence type
+
+Pathology & Biotech
+
+
+
+Disease
+
+Evidence type
+
+
+
+Allergenic properties
+
+Evidence type
+
+
+
+Toxic dose
+
+
+
+Biotechnological use
+
+
+
+Pharmaceutical use
+
+
+
+Disruption phenotype
+
+
+
+Mutagenesis
+
+Evidence type
+
+PTM / Processing
+
+
+
+[Post-translational modification](http://www.uniprot.org/help/post%2Dtranslational%5Fmodification) [\[CC\]](http://www.uniprot.org/help/general%5Fannotation])
+
+Evidence type
+
+
+
+[Modified residue](http://www.uniprot.org/help/mod%5Fres) [\[FT\]](http://www.uniprot.org/help/sequence%5Fannotation)
+
+Evidence type
+
+
+
+[Lipidation](http://www.uniprot.org/help/lipid) [\[FT\]](http://www.uniprot.org/help/sequence%5Fannotation)
+
+Evidence type
+
+
+
+[Glycosylation](http://www.uniprot.org/help/carbohyd) [\[FT\]](http://www.uniprot.org/help/sequence%5Fannotation)
+
+Evidence type
+
+
+
+[Disulfide bond](http://www.uniprot.org/help/disulfid) [\[FT\]](http://www.uniprot.org/help/sequence%5Fannotation)
+
+Evidence type
+
+
+
+[Cross-link](http://www.uniprot.org/help/crosslnk) [\[FT\]](http://www.uniprot.org/help/sequence%5Fannotation)
+
+Evidence type
+
+
+
+Molecule Processing
+
+
+
+
+
+Any molecule processing
+
+Evidence type
+
+
+
+
+
+[Chain](http://www.uniprot.org/help/chain)
+
+Evidence type
+
+
+
+
+
+[Initiator methionine](http://www.uniprot.org/help/init%5Fmet)
+
+Evidence type
+
+
+
+
+
+[Peptide](http://www.uniprot.org/help/peptide)
+
+Evidence type
+
+
+
+
+
+[Signal peptide](http://www.uniprot.org/help/signal)
+
+Evidence type
+
+
+
+
+
+[Propeptide](http://www.uniprot.org/help/propep)
+
+Evidence type
+
+
+
+
+
+[Transit peptide](http://www.uniprot.org/help/transit)
+
+Evidence type
+
+Expression
+
+
+
+Developmental stage
+
+
+
+Induction
+
+Evidence type
+
+
+
+Tissue specificity
+
+Interaction
+
+
+
+Binary interaction
+
+
+
+Subunit structure
+
+Evidence type
+
+Structure
+
+
+
+3D structure available
+
+
+
+Secondary structure
+
+
+
+
+
+Any secondary structure
+
+
+
+
+
+Helix
+
+
+
+
+
+Turn
+
+
+
+
+
+Beta strand
+
+Sequence
+
+
+
+Mass (Da)
+
+
+
+Sequence length
+
+
+
+Alternative products
+
+
+
+
+
+Any alternative product
+
+Evidence type
+
+
+
+
+
+Alternative promoter usage
+
+Evidence type
+
+
+
+
+
+Alternative splicing
+
+Evidence type
+
+
+
+
+
+Alternative initiation
+
+Evidence type
+
+
+
+
+
+Ribosomal frameshifting
+
+Evidence type
+
+
+
+Sequence caution
+
+
+
+
+
+Any sequence caution comment
+
+
+
+
+
+Frameshift
+
+
+
+
+
+Erroneous initiation
+
+
+
+
+
+Erroneous termination
+
+
+
+
+
+Erroneous gene model prediction
+
+
+
+
+
+Erroneous translation
+
+
+
+
+
+Miscellaneous discrepancy
+
+
+
+Mass spectrometry
+
+
+
+Polymorphism
+
+
+
+RNA Editing
+
+Evidence type
+
+
+
+Natural variations
+
+
+
+
+
+Any natural variation
+
+
+
+
+
+Natural variant
+
+
+
+
+
+Alternative sequence
+
+
+
+Non-standard residue
+
+Evidence type
+
+
+
+Non-terminal residue
+
+
+
+Non-adjacent residues
+
+
+
+Sequence conflict
+
+
+
+Sequence uncertainty
+
+
+
+Sequence features [\[FT\]](http://www.uniprot.org/help/sequence%5Fannotation)
+
+
+
+Fragment
+
+
+
+
+
+Sequence complete
+
+
+
+
+
+Sequence incomplete
+
+
+
+Encoded in
+
+
+
+
+
+Mitochondrion
+
+
+
+
+
+Plastid
+
+
+
+
+
+Chloroplast
+
+
+
+
+
+Cyanelle
+
+
+
+
+
+Apicoplast
+
+
+
+
+
+Organellar chromatophore
+
+
+
+
+
+Non-photosynthetic plastid
+
+
+
+
+
+Nucleomorph
+
+
+
+
+
+Hydrogenosome
+
+
+
+Precursor
+
+
+
+
+
+Sequence requires processing
+
+
+
+
+
+Sequence is mature
+
+
+
+Sequence from? \[RC\]
+
+
+
+
+
+Tissue
+
+
+
+
+
+Strain
+
+
+
+
+
+Plasmid
+
+
+
+
+
+Transposon
+
+Family and Domains
+
+
+
+Domain [\[FT\]](http://www.uniprot.org/help/sequence%5Fannotation)
+
+Evidence type
+
+
+
+Domain comments [\[CC\]](http://www.uniprot.org/help/general%5Fannotation)
+
+Evidence type
+
+
+
+Protein family
+
+
+
+Coiled-coil
+
+Evidence type
+
+
+
+Compositional bias
+
+
+
+Motif
+
+Evidence type
+
+
+
+Region
+
+Evidence type
+
+
+
+Repeat
+
+Evidence type
+
+
+
+Sequence similarities
+
+Evidence type
+
+
+
+Zinc finger
+
+Evidence type
+
+Cross-references
+
+
+
+Any cross-reference
+
+
+
+Sequence databases
+
+Database list
+
+
+
+3D structure databases
+
+Database list
+
+
+
+Protein-protein interaction databases
+
+Database list
+
+
+
+Chemistry databases
+
+Database list
+
+
+
+Protein family/group databases
+
+Database list
+
+
+
+PTM databases
+
+Database list
+
+
+
+Polymorphism databases
+
+Database list
+
+
+
+2D gel databases
+
+Database list
+
+
+
+Proteomic databases
+
+Database list
+
+
+
+Protocols and materials databases
+
+Database list
+
+
+
+Genome annotation databases
+
+Database list
+
+
+
+Organism-specific databases
+
+Database list
+
+
+
+Phylogenomic databases
+
+Database list
+
+
+
+Enzyme and pathways databases
+
+Database list
+
+
+
+Family and domain databases
+
+Database list
+
+
+
+Gene expression databases
+
+Database list
+
+
+
+Other databases
+
+Database list
+
+Web resource
+
+Date of
+
+
+
+Date of creation
+
+
+
+Date of last entry modification
+
+
+
+Date of last sequence modification
+
+Gene Ontology \[GO\]
+
+Small molecule
+
+Keyword \[KW\]
+
+Literature Citation
+
+Proteomes
+
+
+
+Proteome ID
+
+
+
+Proteome Component
+
+Cited for
+
+Reviewed
+
+
+
+Reviewed
+
+
+
+Unreviewed
+
+Active
+
+
+
+Active
+
+
+
+Not active
+
+Basket
+
+UniRef ID
+
+UniParc ID
+
+Jobs (last 7 days)
+
+
+
+Align
+
+
+
+Blast
+
+
+
+Retrieve/ID mapping
+
+
+
+Job
+
+See also:
+
+[Simple full text search](http://www.uniprot.org/help/text%2Dsearch)
+
+[Query fields for UniProtKB](http://www.uniprot.org/help/query%2Dfields)
+
+[How can I query UniProtKB annotations by evidence?](http://www.uniprot.org/help/evidence%5Ftable) - A guide to evidence codes and labels in entry view and advanced search

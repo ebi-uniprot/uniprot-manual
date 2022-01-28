@@ -1,0 +1,30 @@
+
+---
+title: Mass spectrometry-based proteomics data in UniProtKB
+categories: help
+---
+
+Data from high-throughput proteomics experiments constitute a rich potential source of annotations for UniProtKB, providing supporting evidence for the existence of specific protein isoforms and post-translational modifications. However, a number of challenges exist for integrating high-throughput proteomics data in UniProtKB. Publications and dataset reports from proteomics experiments exhibit highly variable levels of quality and reliability. This is due to the heterogeneity of proteomics experimental protocols on one side, and to the computational and interpretational stringency of results on the other side. UniProt runs two expert-driven analysis pipelines to map selected mass spectrometry-based proteomics data to UniProtKB sequences, taking into account experimental and predicted sequence annotations from UniProtKB/Swiss-Prot, including isoform differences, sequence processing events and natural variants. The peptides that have been identified by proteomics experiments may map to protein sequences originating from different genes. We use only peptides that map uniquely to one or several protein isoforms from a single gene for UniProtKB annotations.
+
+The pipelines are re-run at every UniProt release to take into account new and modified sequences in UniProtKB.
+
+### 1\. Data from public mass spectrometry-based proteomics resources
+
+UniProt has developed a pipeline to analyze data sets from selected public mass spectrometry-based proteomics resources (currently MaxQB, PeptideAtlas and EPD). These resources provide tools for processing sequence and spectral data from publicly deposited proteomics experiments and UniProt bioinformaticians with expertise in proteomics work collaboratively with them to identify high-quality peptides, using well-defined quality metrics, that are then extracted by the pipeline and mapped to UniProtKB sequences.  
+  
+An unreviewed UniProtKB (TrEMBL) entry whose gene is uniquely identified by a peptide is annotated with the keyword [Proteomics identification](http://www.uniprot.org/keywords/KW%2D1267), and the [Protein existence level](http://www.uniprot.org/help/protein%5Fexistence) is set to 'Experimental evidence at protein level'.
+
+Because this pipeline is not based on data curated from the scientific literature, it is not used to annotate reviewed UniProtKB (Swiss-Prot) entries, but the mappings for all UniProtKB entries can be [downloaded](ftp://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/proteomics%5Fmapping/) from the UniProt FTP site, and they are shown in the 'Proteomics' track of the [protein feature viewer](https://insideuniprot.blogspot.ch/2016/05/) in UniProtKB entries.
+
+UniProtKB entries also cross-reference the proteomics resources that are used by our pipeline. These cross-reference are compiled by these resources and may include links to peptides that map to several genes. For this reason and different update cycles it is possible that a UniProtKB entry has cross-references to a proteomics resource, but is not annotated with the keyword [Proteomics identification](http://www.uniprot.org/keywords/KW%2D1267) and vice-versa.
+
+### 2\. Mass spectrometry-based proteomics data from the scientific literature
+
+UniProt has also developed a pipeline for the integration of proteomics data in UniProtKB that is used to process data from the scientific literature that meets the criteria for UniProt manual curation. Curators with expertise in proteomics evaluate first whether a publication of interest is compliant with the [MIAPE](http://www.psidev.info/node/91) (Minimum Information About a Proteomics Experiment) standard for reporting proteomics experiments, providing access to the raw data and the associated metadata. The relevance of the scientific articles and the methods used, such as the precision of the instruments, the peptide identification software used, the selection cut-off values and the post-processing methods are also reviewed. After this evaluation step, the pipeline extracts the experimental peptide sequences and metadata from the publication, filters the peptides according to the criteria given by the curator and maps them to UniProtKB sequences. The pipeline also checks the biological relevance of PTMs (e.g. a phosphorylation site should not be located in a transmembrane region). The UniProtKB entries that are annotated by this pipeline cite the publication from which the data was extracted with scopes such as
+
+IDENTIFICATION BY MASS SPECTROMETRY \[LARGE SCALE ANALYSIS\]
+CLEAVAGE OF SIGNAL PEPTIDE \[LARGE SCALE ANALYSIS\] AFTER LEU-27
+PHOSPHORYLATION \[LARGE SCALE ANALYSIS\] AT SER-37 AND SER-438
+
+and the [Protein existence level](http://www.uniprot.org/help/protein%5Fexistence) is set to 'Experimental evidence at protein level'. PTM annotations are attributed the evidence [Combined sources](http://www.uniprot.org/help/evidences#ECO:0000244) (e.g. [Modified residues](http://www.uniprot.org/uniprot/?query=annotation%3A%28type%3Amod%5Fres+evidence%3AECO%5F0000244%29), [Cross-links](http://www.uniprot.org/uniprot/?query=annotation%3A%28type%3Acrosslnk+evidence%3AECO%5F0000244%29), [Signal](http://www.uniprot.org/uniprot/?query=annotation%3A%28type%3Asignal+evidence%3AECO%5F0000244%29), [Initiator methionine](http://www.uniprot.org/uniprot/?query=annotation%3A%28type%3Ainit%5Fmet+evidence%3AECO%5F0000244%29), [Transit peptide](http://www.uniprot.org/uniprot/?query=annotation%3A%28type%3Atransit+evidence%3AECO%5F0000244%29) etc).
+        

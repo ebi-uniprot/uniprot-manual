@@ -1,0 +1,46 @@
+
+---
+title: Motif
+categories: Family_and_domains,manual
+---
+
+This subsection of the 'Family and Domains' section describes a short (usually not more than 20 amino acids) conserved sequence motif of biological significance.
+
+Specific sequence motifs usually mediate a common function, such as protein-binding or targeting to a particular subcellular location, in a variety of proteins.
+
+Due to their short length and high level of sequence variability most motifs cannot be reliably predicted by computational means. Therefore we only annotate putative motifs when there is experimental evidence that the motif is functionally important or the presence of the putative motif is consistent with the function of the protein.  
+  
+Examples: [Q9FFX4](http://www.uniprot.org/uniprot/Q9FFX4#family_and_domains), [Q8K3W3](http://www.uniprot.org/uniprot/Q8K3W3#family_and_domains)
+
+**Some examples of specific motifs**
+
+Nuclear localization signals are characterized by a high content of basic residues. They are highly degenerate and are annotated only when there is experimental evidence demonstrating their targeting function.  
+  
+Example: [P54254](http://www.uniprot.org/uniprot/P54254#family_and_domains)
+
+C-terminal microbody targeting motifs are annotated in proteins that are known to be targeted to microbodies.  
+  
+Example: [Q8HYL8](http://www.uniprot.org/uniprot/Q8HYL8#family_and_domains)
+
+The C-terminal motif that prevents secretion from the endoplasmic reticulum is annotated in proteins that are known to act in the endoplasmic reticulum or Golgi (such as glycosyltransferases).  
+  
+Example: [O45293](http://www.uniprot.org/uniprot/O45293#family_and_domains)
+
+Certain motifs are specific for a particular family of proteins and are annotated when found in the appropriate family. For example, the DEXX motifs (DEAH, DEAD, DECH, etc.) are typical of helicases.  
+  
+Example: [Q60452](http://www.uniprot.org/uniprot/Q60452#family_and_domains)
+
+LXXLL motifs, which are essential for interaction with nuclear receptors, are only annotated in proteins known to participate in such interactions.  
+  
+Example: [Q9Y6Q9](http://www.uniprot.org/uniprot/Q9Y6Q9#family_and_domains)
+
+See also:
+
+[Domain](http://www.uniprot.org/help/domain)  
+  
+[Region](http://www.uniprot.org/help/region)  
+  
+[Repeat](http://www.uniprot.org/help/repeat)  
+  
+[Zinc finger](http://www.uniprot.org/help/zn%5Ffing)
+        
