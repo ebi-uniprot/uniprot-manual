@@ -1,33 +1,31 @@
-
 ---
 title: How can I get all green plant entries integrated in UniProtKB since release 12.0?
 categories: UniProtKB,Text_search,Release,faq
 ---
 
-1.  Go to the [news archive](http://www.uniprot.org/news) and find the date of the UniProt release under consideration, e.g. Release 12.0 was published on July 24, 2007
+1.  Go to the [news archive](http://www.uniprot.org/news) and find the date of the UniProt release under consideration, e.g. Release 12.0 was published on July 24, 2007
 2.  Use the query builder as described below.
 
 Retrieve all green plant entries:
 
-*   Select **Search in**: `Protein Knowledgebase (UniProtKB)`
-*   Click **Advanced** to open the query builder
-*   Select **Field**: `Taxonomy [OC]`
-*   Type `Viridiplantae` (use autocompletion)
+-   Select **Search in** : `Protein Knowledgebase (UniProtKB)`
+-   Click **Advanced** to open the query builder
+-   Select **Field** : `Taxonomy [OC]`
+-   Type `Viridiplantae` (use autocompletion)
 
 Restrict results to data integrated since release 12.0:
 
-*   Select **Field**: `Date of` - `Date of creation`
-*   Type **From**: `20070724`
-*   Click **Search**
+-   Select **Field** : `Date of` - `Date of creation`
+-   Type **From** : `20070724`
+-   Click **Search**
 
-You can choose to view only [reviewed](http://www.uniprot.org/uniprot?query=taxonomy:viridiplantae+created:[20070724+TO+%2A]+reviewed:yes) (UniProtKB/Swiss-Prot) or [unreviewed](http://www.uniprot.org/uniprot?query=taxonomy:viridiplantae+created:[20070724+TO+%2A]+reviewed:no) (UniProtKB/TrEMBL) entries.
+You can choose to view only [reviewed](http://www.uniprot.org/uniprot?query=taxonomy:viridiplantae+created:%5B20070724+TO+%2A%5D+reviewed:yes) (UniProtKB/Swiss-Prot) or [unreviewed](http://www.uniprot.org/uniprot?query=taxonomy:viridiplantae+created:%5B20070724+TO+%2A%5D+reviewed:no) (UniProtKB/TrEMBL) entries.
 
 Note that the date can be modified in the query box 'taxonomy:Viridiplantae AND created:\[20070724 TO \*\]' and that you can bookmark the result page.
 
 See also:
 
-*   [How do I get automatically notified of updates to UniProtKB?](http://www.uniprot.org/faq/20)
-*   [How do I link to a specific version of a UniProtKB entry?](http://www.uniprot.org/faq/14)
-*   [What are the date formats accepted in the relevant fields of the query builder (e.g. UniProtKB date integrated/date modified)?](http://www.uniprot.org/faq/27)
-*   [UniProtKB advanced search options](http://www.uniprot.org/help/advanced%5Fsearch)
-        
+-   [How do I get automatically notified of updates to UniProtKB?](http://www.uniprot.org/help/update%5Fnotification)
+-   [How do I link to a specific version of a UniProtKB entry?](http://www.uniprot.org/help/link%5Fold%5Fversions)
+-   [What are the date formats accepted in the relevant fields of the query builder (e.g. UniProtKB date integrated/date modified)?](http://www.uniprot.org/help/date%5Fformats/)
+-   [UniProtKB advanced search options](http://www.uniprot.org/help/advanced%5Fsearch)

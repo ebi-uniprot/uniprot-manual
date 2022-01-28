@@ -1,4 +1,3 @@
-
 ---
 title: Sequences
 categories: Sequence,manual
@@ -21,20 +20,20 @@ References:
 [IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN) and Nomenclature Committee of IUBMB (NC-IUBMB), newsletter 1999](http://dx.doi.org/doi:10.1046/j.1432-1327.1999.news99.x)
 
 Press W.H., Flannery B.P., Teukolsky S.A., Vetterling W.T.  
-  
 ["Numerical recipes in C", 2nd ed., pp896-902, Cambridge University Press (1993)](http://www.nrbook.com/a/bookcpdf.php)
 
 #### Related documents
 
-[Where do the UniProtKB protein sequences come from?](http://www.uniprot.org/faq/37)
+[Where do the UniProtKB protein sequences come from?](http://www.uniprot.org/help/sequence%5Forigin)
 
-[What are UniProtKB's criteria for defining a CDS as a protein?](http://www.uniprot.org/faq/25)
+[What are UniProtKB's criteria for defining a CDS as a protein?](http://www.uniprot.org/help/cds%5Fprotein%5Fdefinition)
 
-[What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](http://www.uniprot.org/faq/30)
+[What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 
-[Does UniProtKB contain all protein sequences?](http://www.uniprot.org/faq/8)
+[Does UniProtKB contain all protein sequences?](http://www.uniprot.org/help/uniprotkb%5Fcoverage)
 
-[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](http://www.uniprot.org/faq/35)
+[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](http://www.uniprot.org/help/canonical%5Fnucleotide)
 
-[How to retrieve a complete set of protein sequences?](http://www.uniprot.org/faq/38)
-        
+[How to retrieve a complete set of protein sequences?](http://www.uniprot.org/help/retrieve%5Fsets)
+
+[Non-standard residue](http://www.uniprot.org/help/non%5Fstd)
