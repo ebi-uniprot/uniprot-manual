@@ -1,4 +1,3 @@
-
 ---
 title: Homo sapiens
 categories: Human,Proteomes,Biocuration,help
@@ -6,12 +5,10 @@ categories: Human,Proteomes,Biocuration,help
 
 ### Human proteome
 
-In 2008, a draft of the complete human proteome was released from UniProtKB/Swiss-Prot: the approximately 20,000 putative human protein-coding genes were represented by one UniProtKB/Swiss-Prot entry, later linked to [proteome identifier](http://www.uniprot.org/manual/proteome%5Fid) UP000005640. This UniProtKB/Swiss-Prot H. sapiens proteome (manually reviewed) can be considered as complete in the sense that it contains one representative (canonical) sequence for each currently known human gene. About half of these 20'000 entries contain manually annotated alternative isoforms, representing over 22'000 additional sequences.
+In 2008, a draft of the complete human proteome was released from UniProtKB/Swiss-Prot: the approximately 20,000 putative human protein-coding genes were represented by one UniProtKB/Swiss-Prot entry, later linked to [proteome identifier](https://www.uniprot.org/help/proteome%5fid) UP000005640. This UniProtKB/Swiss-Prot H. sapiens proteome (manually reviewed) can be considered as complete in the sense that it contains one representative (canonical) sequence for each currently known human gene. About half of these 20'000 entries contain manually annotated alternative isoforms, representing over 22'000 additional sequences.
 
-[What is the human proteome?](http://www.uniprot.org/faq/48)  
-  
-[How to retrieve sets of protein sequences?](http://www.uniprot.org/faq/38)  
-  
+[What is the human proteome?](http://www.uniprot.org/help/human%5Fproteome)  
+[How to retrieve sets of protein sequences?](http://www.uniprot.org/help/retrieve%5Fsets)  
 UniProt web page: [Chordata protein annotation program](http://www.uniprot.org/program/Chordata)
 
 ### Human diseases
@@ -19,40 +16,22 @@ UniProt web page: [Chordata protein annotation program](http://www.uniprot.org/p
 This document lists the controlled vocabulary that is used for the annotation of human diseases in UniProtKB/Swiss-Prot. Each record in this file consists of a disease identifier, acronym, and description, as well as known disease synonyms, links to OMIM, Medical Subject Headings (MeSH) and associated UniProtKB keywords.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of human diseases](http://www.uniprot.org/docs/humdisease)  
-  
-Related keyword: [Disease mutation](http://www.uniprot.org/keywords/KW%2D0225)  
-  
-Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the OMIM database](http://www.uniprot.org/uniprot/?query=database%3Amim)
+Related keyword: [Disease variant](http://www.uniprot.org/keywords/KW-0225)  
+Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the OMIM database](https://www.uniprot.org/uniprotkb/?query=database%3Amim)
 
-[How can I get all the proteins involved in a given disease?](http://www.uniprot.org/faq/19)  
-  
-[How can I get medical advice from UniProtKB?](http://www.uniprot.org/faq/32)
+[How can I get all the proteins involved in a given disease?](http://www.uniprot.org/help/disease%5Fquery)  
+[How can I get medical advice from UniProtKB?](http://www.uniprot.org/help/medical%5Fadvice)
 
-### Human entries with polymorphisms or disease mutations
+### Human entries with variants
 
-This document lists UniProtKB/Swiss-Prot human entries that contain information on at least one sequence variant (polymorphism or disease-linked mutation).
-
-UniProtKB/Swiss-Prot document: [List of human entries with polymorphisms or mutations](http://www.uniprot.org/docs/humpvar)  
-  
-Related keyword: [Disease mutation](http://www.uniprot.org/keywords/KW%2D0225)  
-  
-Related keyword: [Polymorphism](http://www.uniprot.org/keywords/KW%2D0621)
-
-### Human polymorphisms and disease mutations
-
-This document lists the human polymorphisms and disease mutations with their corresponding SNP cross-references.
-
-UniProtKB/Swiss-Prot document: [List of human polymorphisms and disease mutations](http://www.uniprot.org/docs/humsavar)  
-  
-[Amino acid altering variants imported from Ensembl Variation databases](ftp://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/variants/)  
-  
-Related keyword: [Disease mutation](http://www.uniprot.org/keywords/KW%2D0225)  
-  
-Related keyword: [Polymorphism](http://www.uniprot.org/keywords/KW%2D0621)
+-   [List of human entries with genetic variants](http://www.uniprot.org/docs/humpvar)
+-   [Index of human variants curated from literature reports](http://www.uniprot.org/docs/humsavar) with their corresponding SNP cross-references
+-   [Amino acid altering variants imported from Ensembl Variation databases](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/variants/)
+-   Related keyword: [Disease variant](http://www.uniprot.org/keywords/KW-0225)
 
 ### MIM cross-references
 
-This document lists the UniProtKB/Swiss-Prot entries and their corresponding MIM cross-references.
+This document lists the UniProtKB/Swiss-Prot entries and their corresponding MIM (OMIM) cross-references.
 
 UniProtKB/Swiss-Prot document: [MIM cross-references in UniProtKB/Swiss-Prot](http://www.uniprot.org/docs/mimtosp)
 
@@ -61,76 +40,49 @@ UniProtKB/Swiss-Prot document: [MIM cross-references in UniProtKB/Swiss-Prot](ht
 Blood group antigens are surface markers on the outside of the red blood cell membrane. The relevant UniProtKB/Swiss-Prot entries are classified into 28 different blood group systems.
 
 UniProtKB/Swiss-Prot document: [Blood group antigen proteins](http://www.uniprot.org/docs/bloodgrp)  
-  
-Related keyword: [Blood group antigen](http://www.uniprot.org/keywords/KW%2D0095)
+Related keyword: [Blood group antigen](http://www.uniprot.org/keywords/KW-0095)
 
 ### Human and mouse protein kinases
 
-Phosphorylation by protein kinases is a universal cell-signaling fundamental process in eukaryotic cells. The list of all UniProtKB/Swiss-Prot human and mouse protein kinases, systematically classified (e.g. PKA, PKC, Tyr), is aimed at facilitating the retrieval of all kinases of the human and mouse kinomes.
+Phosphorylation by protein kinases is a universal cell-signaling fundamental process in eukaryotic cells. The list of all UniProtKB/Swiss-Prot human and mouse protein kinases, systematically classified (e.g. PKA, PKC, Tyr), is aimed at facilitating the retrieval of all kinases of the human and mouse kinomes.
 
 UniProtKB/Swiss-Prot document: [Human and mouse protein kinases](http://www.uniprot.org/docs/pkinfam)  
-  
-Related keywords: [Kinase](http://www.uniprot.org/keywords/KW%2D0418), [Serine/threonine-protein kinase](http://www.uniprot.org/keywords/KW%2D0723), [Tyrosine-protein kinase](http://www.uniprot.org/keywords/KW%2D0829)
+Related keywords: [Kinase](http://www.uniprot.org/keywords/KW-0418) , [Serine/threonine-protein kinase](http://www.uniprot.org/keywords/KW-0723) , [Tyrosine-protein kinase](http://www.uniprot.org/keywords/KW-0829)
 
 ### Human cell differentiation molecules (CD)
 
 The CD nomenclature was intended for the classification of the monoclonal antibodies (mAbs), generated by laboratories around the world, against various cell surface molecules on leukocytes (white blood cells). CD antibodies are used widely for research, differential diagnosis, monitoring and treatment of disease.
 
 UniProtKB/Swiss-Prot document: [CD nomenclature of surface proteins of human leucocytes and list of entries](http://www.uniprot.org/docs/cdlist)  
-  
-Relevant UniProtKB/Swiss-Prot entries with a [protein name](http://www.uniprot.org/manual/protein%5Fname) [CD\_antigen](http://www.uniprot.org/uniprot/?query=cdantigen%3A%2A)
+Relevant UniProtKB/Swiss-Prot entries with a [protein name](https://www.uniprot.org/help/protein%5fname) [CD\_antigen](https://www.uniprot.org/uniprotkb/?query=cdantigen%3A%2A)
 
 ### List of entries found on human chromosomes
 
 The following documents list the entries found on each human chromosome, with their chromosomal position, their corresponding gene and protein names and their cross-references to MIM.
 
 [Human chromosome 1](http://www.uniprot.org/docs/humchr01)  
-  
 [Human chromosome 2](http://www.uniprot.org/docs/humchr02)  
-  
 [Human chromosome 3](http://www.uniprot.org/docs/humchr03)  
-  
 [Human chromosome 4](http://www.uniprot.org/docs/humchr04)  
-  
 [Human chromosome 5](http://www.uniprot.org/docs/humchr05)  
-  
 [Human chromosome 6](http://www.uniprot.org/docs/humchr06)  
-  
 [Human chromosome 7](http://www.uniprot.org/docs/humchr07)  
-  
 [Human chromosome 8](http://www.uniprot.org/docs/humchr08)  
-  
 [Human chromosome 9](http://www.uniprot.org/docs/humchr09)  
-  
 [Human chromosome 10](http://www.uniprot.org/docs/humchr10)  
-  
 [Human chromosome 11](http://www.uniprot.org/docs/humchr11)  
-  
 [Human chromosome 12](http://www.uniprot.org/docs/humchr12)  
-  
 [Human chromosome 13](http://www.uniprot.org/docs/humchr13)  
-  
 [Human chromosome 14](http://www.uniprot.org/docs/humchr14)  
-  
 [Human chromosome 15](http://www.uniprot.org/docs/humchr15)  
-  
 [Human chromosome 16](http://www.uniprot.org/docs/humchr16)  
-  
 [Human chromosome 17](http://www.uniprot.org/docs/humchr17)  
-  
 [Human chromosome 18](http://www.uniprot.org/docs/humchr18)  
-  
 [Human chromosome 19](http://www.uniprot.org/docs/humchr19)  
-  
 [Human chromosome 20](http://www.uniprot.org/docs/humchr20)  
-  
 [Human chromosome 21](http://www.uniprot.org/docs/humchr21)  
-  
 [Human chromosome 22](http://www.uniprot.org/docs/humchr22)  
-  
 [Human chromosome X](http://www.uniprot.org/docs/humchrx)  
-  
 [Human chromosome Y](http://www.uniprot.org/docs/humchry)
 
 Related terms: humsavar.txt, humpvar.txt, humchr, bloodgrp.txt, mimtosp.txt
-        
