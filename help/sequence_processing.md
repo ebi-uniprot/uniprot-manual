@@ -1,4 +1,3 @@
-
 ---
 title: Sequence processing
 categories: Sequence,manual
@@ -9,18 +8,14 @@ This subsection of the [Sequence](http://www.uniprot.org/help/sequences%5Fsectio
 ### The canonical sequence is a precursor
 
 If the canonical sequence requires processing to become mature, the following comment is found in the 'Sequence processing' subsection: 'The displayed sequence is further processed into a mature form.'  
-  
-Example: [P01308](http://www.uniprot.org/uniprot/P01308#sequences)
+Example: [P01308](https://www.uniprot.org/uniprotkb/p01308#sequences)
 
 Processing of the precursor includes signal peptide and propeptide cleavage, transit peptide cleavage or initiator methionine cleavage. The processing required for maturation is described in the [PTM / Processing](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section.  
-  
-Examples: [P01308](http://www.uniprot.org/uniprot/P01308#ptm%5Fprocessing), [Q99K67](http://www.uniprot.org/uniprot/Q99K67#ptm%5Fprocessing), [P68250](http://www.uniprot.org/uniprot/P68250#ptm%5Fprocessing)
+Examples: [P01308](https://www.uniprot.org/uniprotkb/p01308#ptm%5Fprocessing) , [Q99K67](https://www.uniprot.org/uniprotkb/q99k67#ptm%5Fprocessing) , [P68250](https://www.uniprot.org/uniprotkb/p68250#ptm%5Fprocessing)
 
 ### Other case
 
-If there is no evidence for further processing (e.g. the canonical sequence represents the mature form), there is no 'Sequence processing' subsection.  
-  
-Example: [O60437](http://www.uniprot.org/uniprot/O60437#sequences)
+If there is no evidence for further processing (e.g. the canonical sequence represents the mature form), there is no 'Sequence processing' subsection.  
+Example: [O60437](https://www.uniprot.org/uniprotkb/o60437#sequences)
 
 Remark: There is also no 'Sequence processing' subsection if the canonical sequence is not yet known to require further processing.
-        

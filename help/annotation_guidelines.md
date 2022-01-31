@@ -1,4 +1,3 @@
-
 ---
 title: Annotation guidelines
 categories: Biocuration,UniProtKB,Protein_existence,Names_and_taxonomy,help
@@ -9,12 +8,10 @@ categories: Biocuration,UniProtKB,Protein_existence,Names_and_taxonomy,help
 This document describes the manual curation procedure used by the UniProt Consortium members. The UniProt manual curation process comprises manual review of results from a range of sequence analysis programs and literature curation of experimental data as well as attribution of all information to its original source.
 
 UniProtKB/Swiss-Prot document: [Standard operating procedure (SOP) for UniProt manual curation](http://www.uniprot.org/docs/sop%5Fmanual%5Fcuration.pdf)  
-  
 UniProt web page: [UniProt manual annotation program](http://www.uniprot.org/program/)
 
-[How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/faq/45)  
-  
-[Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](http://www.uniprot.org/faq/7)
+[How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/help/manual%5Fcuration)  
+[Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](http://www.uniprot.org/help/uniprotkb%5Fsections)
 
 #### Protein naming guidelines
 
@@ -24,9 +21,9 @@ The European Bioinformatics Institute (EMBL-EBI), the National Center for Biotec
 
 UniProtKB/Swiss-Prot document: [International protein nomenclature guidelines](http://www.uniprot.org/docs/International%5FProtein%5FNomenclature%5FGuidelines.pdf)
 
-User manual: [Protein names](http://www.uniprot.org/manual/protein%5Fnames)
+User manual: [Protein names](https://www.uniprot.org/help/protein%5fnames)
 
-[Why does the UniProtKB use so many different names for the same protein?](http://www.uniprot.org/faq/9)
+[Why does the UniProtKB use so many different names for the same protein?](http://www.uniprot.org/help/different%5Fprotein%5Fgene%5Fnames)
 
 The document ['Protein nomenclature publication list'](http://www.uniprot.org/docs/nomlist) lists references that are important in defining the nomenclature or terminology relative to proteins in general and in particular on specific family or groups of proteins.
 
@@ -35,8 +32,6 @@ The document ['Protein nomenclature publication list'](http://www.uniprot.org/do
 Some of protein sequences exhibit strong similarity to known proteins in closely related species. For other proteins there is experimental evidence, such as Edman sequencing, clear identification by mass spectrometry (MSI), X-ray or NMR structure, detection by antibodies, etc. However, for some other proteins, there is no evidence at all. To indicate these different levels of evidence for the existence of a protein, we have introduced a PE (Protein Existence) level. The following document lists the criteria used to assign a protein existence (PE) level to entries.
 
 UniProtKB/Swiss-Prot document: [Criteria used to assign the PE level of entries](http://www.uniprot.org/docs/pe%5Fcriteria)  
-  
-User manual: [Protein existence](http://www.uniprot.org/manual/protein%5Fexistence)
+User manual: [Protein existence](https://www.uniprot.org/help/protein%5fexistence)
 
-[Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](http://www.uniprot.org/faq/40)
-        
+[Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](http://www.uniprot.org/help/dubious%5Fsequences)
