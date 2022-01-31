@@ -7,7 +7,7 @@ categories: Taxonomy,Controlled_vocabulary,help
 
 The taxonomy database that is maintained by the UniProt group is based on the [NCBI taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy), which is supplemented with data specific to the UniProt Knowledgebase (UniProtKB). While the NCBI taxonomy is updated daily to be in sync with GenBank/EMBL-Bank/DDBJ, the UniProt taxonomy is updated only at UniProt releases to be in sync with UniProtKB. It may therefore happen that for the time period of a UniProt release, you can find new taxa at the NCBI that are not yet in UniProt (and vice versa for deleted taxa).
 
-Species with manually annotated and reviewed protein sequences in the Swiss-Prot section of UniProtKB are named according to [UniProt nomenclature](http://www.uniprot.org/help/taxonomy#organism-denomination) . In particular, we have adopted a systematic convention for naming viral and bacterial strains and isolates.
+Species with manually annotated and reviewed protein sequences in the Swiss-Prot section of UniProtKB are named according to [UniProt nomenclature](http://www.uniprot.org/help/taxonomy#organism-denomination). In particular, we have adopted a systematic convention for naming viral and bacterial strains and isolates.
 
 Links to external sites are chosen by the UniProt taxonomy team and show pictures and various scientific data of interest (taxonomy, biology, physiology, etc.). Due to the sheer volume of data present on the world-wide web, it is unfortunately not possible to contact each site individually. Should you wish to have your site linked from uniprot.org, or would prefer us to remove a link to your site, please do not hesitate to [contact us](http://www.uniprot.org/contact) .
 
@@ -29,7 +29,7 @@ In the case of viruses, the denomination does not follow the binomial system. Th
 
 #### Organism mnemonic
 
-A mnemonic organism identification code of at most 5 alphanumeric characters is used in the [entry name](https://www.uniprot.org/help/entry%5Fname) of UniProtKB entries, e.g. [SP0A\_ **BACSU**](https://www.uniprot.org/uniprotkb/P06534) . This code is generally made of the first three letters of the genus name and the first two letters of the species name.
+A mnemonic organism identification code of at most 5 alphanumeric characters is used in the [entry name](https://www.uniprot.org/help/entry%5Fname) of UniProtKB entries, e.g. [SP0A\_ **BACSU**](https://www.uniprot.org/uniprotkb/P06534). This code is generally made of the first three letters of the genus name and the first two letters of the species name.
 
 Examples:  
 **PSEPU** is for **Pse** udomonas **pu** tida  

@@ -3,7 +3,7 @@ title: Cross-references for isoform sequences
 categories: UniProtKB,Cross-references,manual
 ---
 
-Some of the resources to which we link contain information that is specific to an [isoform sequence](https://www.uniprot.org/help/alternative%5Fproducts) . Where this is known, we indicate the corresponding UniProtKB isoform sequence identifier in cross-references as described below.
+Some of the resources to which we link contain information that is specific to an [isoform sequence](https://www.uniprot.org/help/alternative%5Fproducts). Where this is known, we indicate the corresponding UniProtKB isoform sequence identifier in cross-references as described below.
 
 #### Text format
 

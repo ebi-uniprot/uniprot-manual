@@ -28,7 +28,7 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
 
     The identifier mapping service also has an option "Gene name" where you can submit your list of gene symbols and optionally specify an organism. Note that mapping results can also be filtered after submission, e.g. by organism or reviewed/unreviewed status.
 
-    Alternatively, to retrieve all entries corresponding to your query, you could build yourself a query string by concatenating all your gene names with `'or'` and prefixing them by `'gene:'` or `'gene_exact:'` . This can be done with a simple script or even using "find and replace" in a text processing program:
+    Alternatively, to retrieve all entries corresponding to your query, you could build yourself a query string by concatenating all your gene names with `'or'` and prefixing them by `'gene:'` or `'gene_exact:'`. This can be done with a simple script or even using "find and replace" in a text processing program:
 
         gene_exact:BRAF or
         gene_exact:BRCA1 or

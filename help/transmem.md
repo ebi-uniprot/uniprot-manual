@@ -16,14 +16,14 @@ In **UniProtKB/TrEMBL**, transmembrane domains are annotated automatically by ou
 
 ### 1. Annotation of experimentally proven transmembrane regions {\#1\_\_Annotation\_of\_experimentally\_proven\_transmembrane\_regions}
 
-Even when there is proof for the **existence** of transmembrane domains, it is difficult to determine their **boundaries** . Transmembrane regions are therefore generally annotated using the qualifier ['Sequence analysis'](http://www.uniprot.org/help/evidences#ECO:0000255) .  
+Even when there is proof for the **existence** of transmembrane domains, it is difficult to determine their **boundaries**. Transmembrane regions are therefore generally annotated using the qualifier ['Sequence analysis'](http://www.uniprot.org/help/evidences#ECO:0000255).  
 Example: [Q96BI3](https://www.uniprot.org/uniprotkb/Q96BI3#subcellular_location)
 
 However, when the experimental technique used allows the assignment of the boundary to a particular position (X-ray crystallography etc.), the transmembrane region is labeled with ['Experimental'](http://www.uniprot.org/help/evidences#ECO:0000269) or ['Curated'](http://www.uniprot.org/help/evidences#ECO:0000305) evidence. In such cases, the positions of the transmembrane regions can be propagated ['By similarity'](http://www.uniprot.org/help/evidences#ECO:0000250) to closely related homologs.
 
 Examples: [Q86V24](https://www.uniprot.org/uniprotkb/Q86V24#subcellular_location) (experimental), [Q8BQS5](https://www.uniprot.org/uniprotkb/Q8BQS5#subcellular_location) (propagated by similarity)
 
-Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have evidence](http://www.uniprot.org/help/evidence%5Fin%5Fswissprot) . The annotations which are missing evidence were created before we started to manually curate information with evidence in UniProtKB/Swiss-Prot, and manual attribution of evidence to these existing annotations was not possible due to the huge amount of existing data. In such cases, the absence of any evidence for topological domains may in many cases be interpreted as 'Experimental' or 'Curated'.
+Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have evidence](http://www.uniprot.org/help/evidence%5Fin%5Fswissprot). The annotations which are missing evidence were created before we started to manually curate information with evidence in UniProtKB/Swiss-Prot, and manual attribution of evidence to these existing annotations was not possible due to the huge amount of existing data. In such cases, the absence of any evidence for topological domains may in many cases be interpreted as 'Experimental' or 'Curated'.
 
 ### 2. Annotation of predicted transmembrane regions {\#2\_\_Annotation\_of\_predicted\_transmembrane\_regions}
 

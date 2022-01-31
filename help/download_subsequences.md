@@ -7,7 +7,7 @@ categories: UniProtKB,Download,Sequence,Text_search,Family_and_domains,faq
 
 Run your query, e.g. to retrieve the UniProtKB entries annotated to contain [disintegrin domains](https://www.uniprot.org/uniprotkb/?query=annotation%3a%28type%3a%22positional+domain%22+disintegrin%29&sort=score&format=*), (or alternatively, with a [list of identifiers](https://www.uniprot.org/uniprotkb/?query=ADA18_HUMAN+or+ADA19_HUMAN+or+ADA21_HUMAN+or+ADA22_HUMAN+or+ADA23_HUMAN&sort=score) ).
 
-Then click on "Download" and choose to download the results in [GFF format](http://biowiki.org/GffFormat) .  
+Then click on "Download" and choose to download the results in [GFF format](http://biowiki.org/GffFormat).  
 You can modify the GFF file as follows:
 
 Keep only the lines containing your domain/region, (e.g. "Disintegrin", "Cytoplasmic" or "Transit") and ignore all other lines (e.g. using grep). These lines include information about extent of the domains/regions.

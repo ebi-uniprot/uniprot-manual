@@ -5,7 +5,7 @@ categories: Cross-references,manual
 
 This section is used to point to information related to entries and found in data collections other than UniProtKB.
 
-The databases to which UniProtKB is cross-referenced can be listed and searched in ['Cross-referenced databases'](http://www.uniprot.org/database) . Each database is described by its name and abbreviation and a link to its web server is provided, as well as literature references where available.
+The databases to which UniProtKB is cross-referenced can be listed and searched in ['Cross-referenced databases'](http://www.uniprot.org/database). Each database is described by its name and abbreviation and a link to its web server is provided, as well as literature references where available.
 
 Additional and complementary information can be found in the subsection [Web resources](https://www.uniprot.org/help/web_resource) .
 

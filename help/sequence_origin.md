@@ -10,7 +10,7 @@ The translated CDS sequences are automatically transferred to the TrEMBL section
 In addition to translated CDS, UniProtKB protein sequences may come from:
 
 -   the [PDB](http://www.wwpdb.org/) database.
--   sequences experimentally obtained by direct protein sequencing, by Edman degradation or MS/MS experiments and [submitted to UniProtKB/Swiss-Prot](http://www.uniprot.org/help/submissions) . Only about 5% of the UniProtKB/Swiss-Prot entries contain sequence data obtained by direct protein sequencing ( [list of entries with the keyword `'Direct protein sequencing'`](https://www.uniprot.org/uniprotkb/?query=keyword:KW-0903) ).
+-   sequences experimentally obtained by direct protein sequencing, by Edman degradation or MS/MS experiments and [submitted to UniProtKB/Swiss-Prot](http://www.uniprot.org/help/submissions). Only about 5% of the UniProtKB/Swiss-Prot entries contain sequence data obtained by direct protein sequencing ( [list of entries with the keyword `'Direct protein sequencing'`](https://www.uniprot.org/uniprotkb/?query=keyword:KW-0903) ).
 -   sequences scanned from the literature (i.g. [PRF](http://www.genome.ad.jp/dbget-bin/www%5Fbfind?prf) or other journal scan project).
 -   sequences derived from gene prediction, not submitted to EMBL-Bank/GenBank/DDBJ ( [Ensembl](http://www.ensembl.org/), [Ensembl Genomes](http://ensemblgenomes.org/), [WormBase ParaSite](http://parasite.wormbase.org/) or [VectorBase](https://www.vectorbase.org/) ) (1), [RefSeq](https://www.ncbi.nlm.nih.gov/RefSeq/), [CCDS](https://www.ncbi.nlm.nih.gov/projects/CCDS/CcdsBrowse.cgi), etc).
 -   sequences derived from in-house gene prediction, in very specific cases.

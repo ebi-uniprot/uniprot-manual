@@ -3,7 +3,7 @@ title: Sequence section
 categories: Sequence,manual
 ---
 
-This section displays by default the canonical protein sequence and upon request all isoforms described in the entry. It also includes information pertinent to the sequence(s), including [length](http://www.uniprot.org/help/sequence%5Flength) and [molecular weight](http://www.uniprot.org/help/sequences) . The information is filed in different subsections. The current subsections and their content are listed below:
+This section displays by default the canonical protein sequence and upon request all isoforms described in the entry. It also includes information pertinent to the sequence(s), including [length](http://www.uniprot.org/help/sequence%5Flength) and [molecular weight](http://www.uniprot.org/help/sequences). The information is filed in different subsections. The current subsections and their content are listed below:
 
 |                                                                                                                      |                                                                                                                                                |
 |:---------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|

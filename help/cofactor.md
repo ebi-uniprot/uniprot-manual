@@ -24,7 +24,7 @@ Example: [Q90240](https://www.uniprot.org/uniprotkb/Q90240#function)
 **When an enzyme binds chemically different cofactors at different sites**, there is one 'Cofactor' annotation block for each site.  
 Example: [P38289](https://www.uniprot.org/uniprotkb/P38289#function)
 
-**When an enzyme binds a cofactor via a covalent linkage**, the name of the compound is indicated under 'Cofactor', while the name of the modification is described under [Post-translational modifications (Modified residue)](https://www.uniprot.org/help/mod%5Fres) .  
+**When an enzyme binds a cofactor via a covalent linkage**, the name of the compound is indicated under 'Cofactor', while the name of the modification is described under [Post-translational modifications (Modified residue)](https://www.uniprot.org/help/mod%5Fres).  
 Examples: [P9WP55](https://www.uniprot.org/uniprotkb/P9WP55#function), [B3QM53](https://www.uniprot.org/uniprotkb/B3QM53#function)
 
 **If there is isoform-specific or chain-specific cofactor information**, there will be separate 'Cofactor' annotation blocks for each isoform or chain.  

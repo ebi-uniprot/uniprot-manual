@@ -98,7 +98,7 @@ Related keyword: [Thioester bond](http://www.uniprot.org/keywords/882)
 
 #### e. Special cases
 
-Some cross-links may involve the rare [non-standard amino acid](http://www.uniprot.org/help/non%5Fstd) **selenocysteine** . Others may form between amino acids that undergo preliminary modification(s) prior to cross-link formation.  
+Some cross-links may involve the rare [non-standard amino acid](http://www.uniprot.org/help/non%5Fstd) **selenocysteine**. Others may form between amino acids that undergo preliminary modification(s) prior to cross-link formation.  
 Example: [Q9MYY8](https://www.uniprot.org/uniprotkb/Q9MYY8#ptm_processing) (Selenocysteine)
 
 **Tryptophan tryptophylquinone (TTQ)** is formed by oxidation of the indole ring of a tryptophan to form tryptophylquinone followed by covalent cross-linking with another tryptophan residue.  

@@ -9,7 +9,7 @@ The information stored in this subsection is used to automatically construct alt
 
 Example: [P04150](https://www.uniprot.org/uniprotkb/P04150#sequences)
 
-Each 'Alternative sequence' subsection has stable [feature identifiers (FTIds)](http://www.uniprot.org/help/sequence%5Fannotation#annotation%5Fid) . Isoform sequences can be **downloaded in FASTA format** from our [download index page](http://www.uniprot.org/downloads) (choose the file: 'Isoform sequences').
+Each 'Alternative sequence' subsection has stable [feature identifiers (FTIds)](http://www.uniprot.org/help/sequence%5Fannotation#annotation%5Fid). Isoform sequences can be **downloaded in FASTA format** from our [download index page](http://www.uniprot.org/downloads) (choose the file: 'Isoform sequences').
 
 Related keywords:
 

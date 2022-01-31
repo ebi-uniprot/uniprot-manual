@@ -3,7 +3,7 @@ title: Does UniProtKB contain all protein sequences?
 categories: UniProtKB,UniParc,Sequence,faq
 ---
 
-The two sections of UniProtKB - UniProtKB/Swiss-Prot and UniProtKB/TrEMBL - give access to [most protein sequences which are available to the public](http://www.uniprot.org/help/sequence%5Forigin) . However, UniProtKB excludes the following protein sequences:
+The two sections of UniProtKB - UniProtKB/Swiss-Prot and UniProtKB/TrEMBL - give access to [most protein sequences which are available to the public](http://www.uniprot.org/help/sequence%5Forigin). However, UniProtKB excludes the following protein sequences:
 
 1.  Most non-germline [immunoglobulins](http://www.uniprot.org/help/immunoglobulins) and T-cell receptors
 2.  Synthetic sequences
@@ -19,7 +19,7 @@ The first 5 are identified automatically by the UniProtKB/TrEMBL creation progra
 
 Protein sequences originating from proteomes that are considered [redundant](http://www.uniprot.org/help/proteome%5Fredundancy) or [low quality](https://www.ncbi.nlm.nih.gov/assembly/help/anomnotrefseq/) are identified automatically at every release, and are either removed from UniProtKB/TrEMBL, or never enter UniProtKB but stay in [UniParc](http://www.uniprot.org/help/uniparc) .
 
-Fusion/truncated proteins and those classified as not real proteins are only manually identified by the curators and removed from UniProtKB/TrEMBL or UniProtKB/Swiss-Prot. All these excluded sequences are available at [UniParc](http://www.uniprot.org/help/uniparc) . The corresponding UniParc entries have been flagged with the reason for the absence of that sequence from UniProtKB.
+Fusion/truncated proteins and those classified as not real proteins are only manually identified by the curators and removed from UniProtKB/TrEMBL or UniProtKB/Swiss-Prot. All these excluded sequences are available at [UniParc](http://www.uniprot.org/help/uniparc). The corresponding UniParc entries have been flagged with the reason for the absence of that sequence from UniProtKB.
 
 See also:
 

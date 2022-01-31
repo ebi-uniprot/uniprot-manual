@@ -64,7 +64,7 @@ categories: help
 <!-- -->
 
 -   PIRsitePredict  
-    PIRsitePredict predicts functional residues within uncharacterized proteins using position-specific site conditional template annotation rules (PIR Site Rules) derived from known protein structural and experimental data curated by structural biologists. PIR Site Rules are part of [UniRule](http://www.uniprot.org/help/unirule) .  
+    PIRsitePredict predicts functional residues within uncharacterized proteins using position-specific site conditional template annotation rules (PIR Site Rules) derived from known protein structural and experimental data curated by structural biologists. PIR Site Rules are part of [UniRule](http://www.uniprot.org/help/unirule).  
     URL: <https://research.bioinformatics.udel.edu/PIRSitePredict/download>  
     License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 

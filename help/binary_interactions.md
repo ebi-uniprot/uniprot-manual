@@ -3,7 +3,7 @@ title: Binary interactions
 categories: Interaction,manual
 ---
 
-This subsection of the ' [Interaction](http://www.uniprot.org/help/interaction%5Fsection) ' section provides information about binary protein-protein interactions. The data presented in this section are a quality-filtered subset of binary interactions automatically derived from the [IntAct database](https://www.ebi.ac.uk/intact/) . It is updated at every [UniProt release](http://www.uniprot.org/help/synchronization) .
+This subsection of the ' [Interaction](http://www.uniprot.org/help/interaction%5Fsection) ' section provides information about binary protein-protein interactions. The data presented in this section are a quality-filtered subset of binary interactions automatically derived from the [IntAct database](https://www.ebi.ac.uk/intact/). It is updated at every [UniProt release](http://www.uniprot.org/help/synchronization) .
 
 For UniProtKB/Swiss-Prot entries that describe more than one protein ( [isoforms](http://www.uniprot.org/help/alternative%5Fproducts) or/and products of proteolytic cleavage, i.e. [CHAIN](http://www.uniprot.org/help/chain) or [PEPTIDE](http://www.uniprot.org/help/peptide) ), each of these protein forms has its interactions listed in a separate block.
 
@@ -26,7 +26,7 @@ Example: [P62258](https://www.uniprot.org/uniprotkb/P62258#interaction)
 Homotypic interactions are listed before heteromeric interactions, which are sorted alphanumerically based on their gene name.  
 Example: [Q64279](https://www.uniprot.org/uniprotkb/Q64279#interaction)
 
-UniProtKB 'Binary interactions' are automatically derived from the IntAct database, but represent [only a subset of the binary interactions found in IntAct](http://www.uniprot.org/help/binary%5Finteractions%5Fimport) . The complete IntAct set can be accessed using the link in the 'Cross-references' section.  
+UniProtKB 'Binary interactions' are automatically derived from the IntAct database, but represent [only a subset of the binary interactions found in IntAct](http://www.uniprot.org/help/binary%5Finteractions%5Fimport). The complete IntAct set can be accessed using the link in the 'Cross-references' section.  
 Example: [P51617](https://www.uniprot.org/uniprotkb/P51617#cross-references) (Protein-protein interaction databases)
 
 More examples: [P62258](https://www.uniprot.org/uniprotkb/P62258#interaction), [Q8T4F7](https://www.uniprot.org/uniprotkb/Q8T4F7#interaction), [P02829](https://www.uniprot.org/uniprotkb/P02829#interaction), [O43521](https://www.uniprot.org/uniprotkb/O43521#interaction), [Q07817](https://www.uniprot.org/uniprotkb/Q07817#interaction)

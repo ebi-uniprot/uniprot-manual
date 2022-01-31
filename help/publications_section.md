@@ -54,7 +54,7 @@ The reference information contains the conventional citation information for the
 
 The reference information for a journal citation includes the journal abbreviation, the volume number, the page range and the year of publication.
 
-Journal names are abbreviated according to the conventions used by the National Library of Medicine (NLM) and are based on the existing ISO and ANSI standards. A list of the abbreviations currently in use is given in the document [Controlled vocabulary of journals](http://www.uniprot.org/docs/jourlist) .  
+Journal names are abbreviated according to the conventions used by the National Library of Medicine (NLM) and are based on the existing ISO and ANSI standards. A list of the abbreviations currently in use is given in the document [Controlled vocabulary of journals](http://www.uniprot.org/docs/jourlist).  
 Example: [P03024](http://www.uniprot.org/uniprot/P03024/publications)
 
 When a reference is made to a publication which is 'in press' at the time the database is released, the page range, and possibly the volume number, are indicated as '0' (zero).
@@ -147,7 +147,7 @@ The sequence origin is optional and indicates the strain(s), tissue(s), plasmid(
 
 The strains listed in the 'Strains' token are sorted alphabetically. All frequently occuring strains in UniProtKB are listed in the document ['Controlled vocabulary of strains'](http://www.uniprot.org/docs/strains) .
 
-The tissues listed in the 'Tissue' token are sorted alphabetically. All tissues indicated in this token in UniProtKB/Swiss-Prot are listed in the document ['Controlled vocabulary of tissues'](http://www.uniprot.org/docs/tisslist) . Whenever possible, UniProtKB/TrEMBL also makes use of this controlled tissue list, and efforts are made to automatically match tissues in UniProtKB/TrEMBL entries to tissues from this list. However, due to the nature of the data in UniProtKB/TrEMBL, this is not always possible.
+The tissues listed in the 'Tissue' token are sorted alphabetically. All tissues indicated in this token in UniProtKB/Swiss-Prot are listed in the document ['Controlled vocabulary of tissues'](http://www.uniprot.org/docs/tisslist). Whenever possible, UniProtKB/TrEMBL also makes use of this controlled tissue list, and efforts are made to automatically match tissues in UniProtKB/TrEMBL entries to tissues from this list. However, due to the nature of the data in UniProtKB/TrEMBL, this is not always possible.
 
 The 'Plasmid' token is only used if an entry describes an identical sequence encoded on more than one plasmid. The document ['Controlled vocabulary of plasmids'](http://www.uniprot.org/docs/plasmid) lists all the plasmids that are used in UniProtKB/Swiss-Prot in the context of the 'plasmid' token.  
 Examples: [P18445](http://www.uniprot.org/uniprot/P18445/publications), [Q28125](http://www.uniprot.org/uniprot/Q28125/publications), [P30867](http://www.uniprot.org/uniprot/P30867/publications), [P12121](http://www.uniprot.org/uniprot/P12121/publications), [P00810](http://www.uniprot.org/uniprot/P00810/publications), [Q9EVG8](http://www.uniprot.org/uniprot/Q9EVG8/publications) .

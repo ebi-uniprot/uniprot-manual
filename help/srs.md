@@ -3,7 +3,7 @@ title: Do I still need to use the Sequence Retrieval System (SRS)?
 categories: UniProtKB,UniParc,UniRef,Text_search,faq
 ---
 
-The UniProt search tool allows users to perform Google and SRS-like queries, on UniProtKB, UniRef and UniParc [\*](http://www.uniprot.org/#note-uniparc) . Note that it is also possible to upload a list of accession numbers and then perform a search in that subset.
+The UniProt search tool allows users to perform Google and SRS-like queries, on UniProtKB, UniRef and UniParc [\*](http://www.uniprot.org/#note-uniparc). Note that it is also possible to upload a list of accession numbers and then perform a search in that subset.
 
 Example: **Search for Saccharomyces cerevisiae membrane glycoproteins in UniProtKB**
 
