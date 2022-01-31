@@ -14,4 +14,4 @@ See also:
 -   [What is HAMAP?](http://www.uniprot.org/help/hamap)
 -   [How is orthology established in UniProtKB/Swiss-Prot?](http://www.uniprot.org/help/orthology)
 -   [How is protein family membership assigned in UniProtKB?](http://www.uniprot.org/help/family%5Fmembership)
--   [Sequence similarities](https://www.uniprot.org/help/sequence%5fsimilarities)
+-   [Sequence similarities](https://www.uniprot.org/help/sequence%5Fsimilarities)

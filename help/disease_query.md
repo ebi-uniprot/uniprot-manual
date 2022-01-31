@@ -38,6 +38,6 @@ Note 2: The keyword `'Disease variant'` is used for proteins with at least one d
 
 See also:
 
--   [Involvement in disease](https://www.uniprot.org/help/involvement%5fin%5fdisease)
+-   [Involvement in disease](https://www.uniprot.org/help/involvement%5Fin%5Fdisease)
 -   [Customize display options](http://www.uniprot.org/help/customize)
 -   [UniProtKB advanced search options](http://www.uniprot.org/help/advanced%5Fsearch)

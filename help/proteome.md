@@ -9,7 +9,7 @@ UniProt provides [proteome](http://www.uniprot.org/proteomes) sets of proteins w
 
 A proteome is the set of proteins thought to be expressed by an organism. The majority of the UniProt proteomes are based on the translation of a completely sequenced genome, and will normally include sequences that derive from extra-chromosomal elements such as plasmids or organellar genomes in organisms where these occur. Some proteomes may also include protein sequences based on high quality cDNAs that cannot be mapped to the current genome assembly due to sequencing errors or gaps. These are only included in the proteome following manual review of the supporting evidence, including careful analysis of homologous sequences from closely related organisms.
 
-As more and more genomes of the same organism are being sequenced, we introduced [unique proteome identifiers](http://www.uniprot.org/help/proteome%5Fid) to distinguish individual proteomes from the same [taxonomy identifier](https://www.uniprot.org/help/taxonomic%5fidentifier) .
+As more and more genomes of the same organism are being sequenced, we introduced [unique proteome identifiers](http://www.uniprot.org/help/proteome%5Fid) to distinguish individual proteomes from the same [taxonomy identifier](https://www.uniprot.org/help/taxonomic%5Fidentifier) .
 
 **What is the curation status of UniProt proteomes?**
 
@@ -88,5 +88,5 @@ See also:
 -   [Reducing proteome redundancy](http://www.uniprot.org/help/proteome%5Fredundancy)
 -   [REST API - Access the UniProt website programmatically](http://www.uniprot.org/help/api)
 -   [Sequences](https://www.uniprot.org/help/sequences)
--   [Alternative products](https://www.uniprot.org/help/alternative%5fproducts)
--   [Alternative sequence](https://www.uniprot.org/help/var%5fseq)
+-   [Alternative products](https://www.uniprot.org/help/alternative%5Fproducts)
+-   [Alternative sequence](https://www.uniprot.org/help/var%5Fseq)

@@ -9,7 +9,7 @@ The answer to these questions is dependent on what you really want this informat
 
 The [Entry history](http://www.uniprot.org/help/entry%5Fhistory) subsection of the [Entry information](http://www.uniprot.org/help/entry%5Finformation%5Fsection) section shows the date on which the entry was first integrated into the database, the date of the last sequence update and the date of the last annotation modification. The version number for both the entry and the sequence are also displayed.
 
-Example: [P55209](https://www.uniprot.org/uniprotkb/p55209#entry%5Finformation)
+Example: [P55209](https://www.uniprot.org/uniprotkb/P55209#entry%5Finformation)
 
     Integrated into UniProtKB/Swiss-Prot: October 1, 1996
     Last sequence update:                 October 1, 1996
@@ -38,7 +38,7 @@ See also:
 -   [How do I link to a specific version of a UniProtKB entry?](http://www.uniprot.org/help/link%5Fold%5Fversions)
 -   [How do I get notified automatically of updates to UniProtKB?](http://www.uniprot.org/help/update%5Fnotification)
 -   [How can I get all green plant entries integrated in UniProtKB since release 12.0?](http://www.uniprot.org/help/entries%5Fsince%5Frel%5Fx)
--   [Entry history](https://www.uniprot.org/help/entry%5fhistory)
+-   [Entry history](https://www.uniprot.org/help/entry%5Fhistory)
 -   [Sequences](https://www.uniprot.org/help/sequences)
 
 Related terms: creation date

@@ -22,4 +22,4 @@ See also:
 -   [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](http://www.uniprot.org/help/dubious%5Fsequences)
 -   [Why have some UniProtKB accession numbers been deleted? How can I track them?](http://www.uniprot.org/help/deleted%5Faccessions)
 -   [Sequences](https://www.uniprot.org/help/sequences)
--   [Alternative sequence](https://www.uniprot.org/help/var%5fseq)
+-   [Alternative sequence](https://www.uniprot.org/help/var%5Fseq)

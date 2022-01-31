@@ -25,10 +25,10 @@ The subsection consists of 2 categories and several subcategories of protein nam
 | **Alternative name(s)** | **INN**           | 0-n         | International nonproprietary name: a generic name for a pharmaceutical substance or active pharmaceutical ingredient that is a globally recognized public property. |
 
 If a protein is known to be cleaved into multiple functional components, the description starts with the name of the precursor protein, followed by ' **Cleaved into ...** ' section(s). Each component is described in a separate section. 'Alternative name(s)' are allowed for each individual component.  
-Example: [P01189](https://www.uniprot.org/uniprotkb/p01189#names_and_taxonomy) ('Cleaved into the following 11 chains:')
+Example: [P01189](https://www.uniprot.org/uniprotkb/P01189#names_and_taxonomy) ('Cleaved into the following 11 chains:')
 
 If a protein is known to include multiple functional domains, each of which described by a different name, the description starts with the name of the whole protein, followed by ' **Including** ' section(s). Each domain is described in a separate section. 'Alternative name(s)' are allowed for each individual domain.  
-Example: [P27708](https://www.uniprot.org/uniprotkb/p27708#names_and_taxonomy) ('Including the following 3 domains:')
+Example: [P27708](https://www.uniprot.org/uniprotkb/P27708#names_and_taxonomy) ('Including the following 3 domains:')
 
 #### UniProtKB/TrEMBL 'Protein names' subsection
 

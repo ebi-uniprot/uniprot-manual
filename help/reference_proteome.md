@@ -7,7 +7,7 @@ categories: Proteomes,Taxonomy,UniProtKB,Keywords,Sequence,faq
 
 UniProt provides several sets of proteins thought to be expressed by organisms whose genomes have been completely sequenced, termed "proteomes".
 
-As more and more genomes of the same organism are being sequenced, we introduced [unique proteome identifiers](http://www.uniprot.org/help/proteome%5Fid) to distinguish individual proteomes from the same [taxonomy identifier](https://www.uniprot.org/help/taxonomic%5fidentifier) .
+As more and more genomes of the same organism are being sequenced, we introduced [unique proteome identifiers](http://www.uniprot.org/help/proteome%5Fid) to distinguish individual proteomes from the same [taxonomy identifier](https://www.uniprot.org/help/taxonomic%5Fidentifier) .
 
 These proteomes can be queried and downloaded from the [Proteomes](http://www.uniprot.org/proteomes) section of the UniProt website. UniProtKB entries that are part of a proteome have a cross-reference to their proteome.
 

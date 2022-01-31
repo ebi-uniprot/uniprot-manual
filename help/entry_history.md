@@ -5,7 +5,7 @@ categories: Entry_information,manual
 
 This subsection of the 'Entry information' section shows the date of integration of the entry into UniProtKB, the date of the last sequence update and the date of the last annotation modification ('Last modified'). The version number for both the entry and the [canonical sequence](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms) are also displayed.
 
-Example: [P55209](https://www.uniprot.org/uniprotkb/p55209#entry%5Finformation)
+Example: [P55209](https://www.uniprot.org/uniprotkb/P55209#entry%5Finformation)
 
 Sequence updates are always accompanied by manual annotation checks and updates. Hence, the date of the last annotation update will always be at least as recent as that of the last sequence update.
 

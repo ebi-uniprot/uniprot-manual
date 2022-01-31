@@ -10,7 +10,7 @@ For UniProtKB/Swiss-Prot entries that describe more than one protein ( [isoforms
 Interactions with the displayed protein, or with one of its isoforms or proteolytic products, are shown in tables of 3 columns:
 
 -   The 'With' column reports the gene name and the UniProtKB accession number of the interacting protein. If the interaction partner is a specific isoform or a product of proteolytic cleavage, this information includes the isoform name and identifier, or the peptide/chain name and identifier. Interacting proteins may be derived from different species, e.g. due to the experimental design or reflecting a pathogen-host interaction. In such cases, the organism of the interacting protein is included.  
-    Example: [Q8WUM4](https://www.uniprot.org/uniprotkb/q8wum4#interaction)
+    Example: [Q8WUM4](https://www.uniprot.org/uniprotkb/Q8WUM4#interaction)
 
 <!-- -->
 
@@ -21,15 +21,15 @@ Interactions with the displayed protein, or with one of its isoforms or proteoly
 -   The 'IntAct' column contains the IntAct database accession numbers of the two interacting proteins.
 
 Homotypic interactions are indicated by the presence of the qualifier 'itself' in the 'With' column.  
-Example: [P62258](https://www.uniprot.org/uniprotkb/p62258#interaction)
+Example: [P62258](https://www.uniprot.org/uniprotkb/P62258#interaction)
 
 Homotypic interactions are listed before heteromeric interactions, which are sorted alphanumerically based on their gene name.  
-Example: [Q64279](https://www.uniprot.org/uniprotkb/q64279#interaction)
+Example: [Q64279](https://www.uniprot.org/uniprotkb/Q64279#interaction)
 
 UniProtKB 'Binary interactions' are automatically derived from the IntAct database, but represent [only a subset of the binary interactions found in IntAct](http://www.uniprot.org/help/binary%5Finteractions%5Fimport) . The complete IntAct set can be accessed using the link in the 'Cross-references' section.  
-Example: [P51617](https://www.uniprot.org/uniprotkb/p51617#cross-references) (Protein-protein interaction databases)
+Example: [P51617](https://www.uniprot.org/uniprotkb/P51617#cross-references) (Protein-protein interaction databases)
 
-More examples: [P62258](https://www.uniprot.org/uniprotkb/p62258#interaction) , [Q8T4F7](https://www.uniprot.org/uniprotkb/q8t4f7#interaction) , [P02829](https://www.uniprot.org/uniprotkb/p02829#interaction) , [O43521](https://www.uniprot.org/uniprotkb/o43521#interaction) , [Q07817](https://www.uniprot.org/uniprotkb/q07817#interaction)
+More examples: [P62258](https://www.uniprot.org/uniprotkb/P62258#interaction) , [Q8T4F7](https://www.uniprot.org/uniprotkb/Q8T4F7#interaction) , [P02829](https://www.uniprot.org/uniprotkb/P02829#interaction) , [O43521](https://www.uniprot.org/uniprotkb/O43521#interaction) , [Q07817](https://www.uniprot.org/uniprotkb/Q07817#interaction)
 
 #### Related documents
 

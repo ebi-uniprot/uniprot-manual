@@ -28,7 +28,7 @@ See also:
 -   [What is the canonical sequence? Are all isoforms described in one entry?](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 -   [How redundant are the UniProt databases?](http://www.uniprot.org/help/redundancy)
 -   [Sequences](https://www.uniprot.org/help/sequences)
--   [Alternative sequence](https://www.uniprot.org/help/var%5fseq)
+-   [Alternative sequence](https://www.uniprot.org/help/var%5Fseq)
 -   [Sequence conflict](https://www.uniprot.org/help/conflict)
 -   [Cross-references section](http://www.uniprot.org/help/cross%5Freferences%5Fsection)
 -   [Cross-references for isoform sequences](http://www.uniprot.org/help/isoform%5Fcrossreferences)

@@ -8,13 +8,13 @@ This subsection of the [Function](http://www.uniprot.org/help/function%5Fsection
 Historically, UniProt has followed the recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology ( [NC-IUBMB](http://www.chem.qmul.ac.uk/iubmb/enzyme/) ) for the description of enzymatic activities, except for reactions that are described in the scientific literature, but that are not (yet) covered by the NC-IUBMB. The focus of the NC-IUBMB is the nomenclature and classification of enzymes by the reactions they catalyze. For this purpose the NC-IUBMB typically describes an exemplary reaction for each class of enzymes, with the understanding that individual members of the class may use alternative reactants. The NC-IUBMB use their own names for the reactants.
 
 To allow the curation of reactions at the level of specific enzymes instead of enzyme classes, and to use standardized names for reactants, we use chemical reaction descriptions from the [Rhea](https://www.rhea-db.org/) database whenever possible.  
-Example: [O36015](https://www.uniprot.org/uniprotkb/o36015)
+Example: [O36015](https://www.uniprot.org/uniprotkb/O36015)
 
 For catalytic activities that can only be described in the form of free text, we continue to follow the NC-IUBMB descriptions.  
-Example: [P17050](https://www.uniprot.org/uniprotkb/p17050)
+Example: [P17050](https://www.uniprot.org/uniprotkb/P17050)
 
 We also curate the physiological direction of a reaction, i.e. the direction of the net flow of reactants *in vivo* , where evidence is available for it.  
-Example: [A0A0S3QTD0](https://www.uniprot.org/uniprotkb/a0a0s3qtd0)
+Example: [A0A0S3QTD0](https://www.uniprot.org/uniprotkb/A0A0S3QTD0)
 
 Due to their focus on nomenclature, cross-references to [Enzyme Commission (EC) numbers](https://en.wikipedia.org/wiki/Enzyme%5FCommission%5Fnumber) have historically been added to the [Protein names](http://www.uniprot.org/help/protein%5Fnames) subsection of UniProtKB entries. To link the EC numbers to the reactions on which they are based, they are also added to 'Catalytic activity' annotations.
 

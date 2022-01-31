@@ -9,7 +9,7 @@ We try to attribute a recommended name to all the proteins of UniProtKB/Swiss-Pr
 
 We have however to be as exhaustive as possible and to also list synonym names (alternative names) for a given protein. These alternative names are manually added if they are found in publication or other databases, including the EMBL database. This is essential for protein sequence retrieval and tracking.
 
-The protein name always starts with the recommended name of the protein. Alternative names are indicated. Example: [P08758](https://www.uniprot.org/uniprotkb/p08758#names_and_taxonomy)
+The protein name always starts with the recommended name of the protein. Alternative names are indicated. Example: [P08758](https://www.uniprot.org/uniprotkb/P08758#names_and_taxonomy)
 
     Recommended name:  Annexin A5
     Alternative names: Anchorin CII
@@ -31,11 +31,11 @@ The format of the protein name in UniProtKB/TrEMBL follows closely the format us
 
 **Protein isoform name**
 
-Given that for most genes there is no accepted, standardized nomenclature that covers all individual isoforms, our policy is to identify them using simple numbering, beginning with isoform 1. Example: [Q15406](https://www.uniprot.org/uniprotkb/q15406#sequences)
+Given that for most genes there is no accepted, standardized nomenclature that covers all individual isoforms, our policy is to identify them using simple numbering, beginning with isoform 1. Example: [Q15406](https://www.uniprot.org/uniprotkb/Q15406#sequences)
 
-When a comprehensive nomenclature does exist for all isoforms, then this will be applied. Example: [P04150](https://www.uniprot.org/uniprotkb/p04150#sequences)
+When a comprehensive nomenclature does exist for all isoforms, then this will be applied. Example: [P04150](https://www.uniprot.org/uniprotkb/P04150#sequences)
 
-In either case all isoform-specific synonyms used in the literature will also be recorded, in order to facilitate the identification of specific isoform sequences by users. Example: [P08235](https://www.uniprot.org/uniprotkb/p08235#sequences)
+In either case all isoform-specific synonyms used in the literature will also be recorded, in order to facilitate the identification of specific isoform sequences by users. Example: [P08235](https://www.uniprot.org/uniprotkb/P08235#sequences)
 
 See also:
 

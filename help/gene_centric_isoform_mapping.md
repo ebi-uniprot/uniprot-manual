@@ -16,4 +16,4 @@ See also:
 -   [What is the canonical sequence? Are all isoforms described in one entry?](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 -   [What are reference proteomes?](http://www.uniprot.org/help/reference%5Fproteome)
 -   [Sequences](http://www.uniprot.org/help/sequences)
--   [Alternative products](https://www.uniprot.org/help/alternative%5fproducts)
+-   [Alternative products](https://www.uniprot.org/help/alternative%5Fproducts)

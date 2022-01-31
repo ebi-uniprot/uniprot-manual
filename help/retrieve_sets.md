@@ -11,9 +11,9 @@ See also:
 
 [What is the canonical sequence? Are all isoforms described in one entry?](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 
-[Alternative products](https://www.uniprot.org/help/alternative%5fproducts)
+[Alternative products](https://www.uniprot.org/help/alternative%5Fproducts)
 
-[Alternative sequence](https://www.uniprot.org/help/var%5fseq)
+[Alternative sequence](https://www.uniprot.org/help/var%5Fseq)
 
 **Retrieving sequences from the website**
 

@@ -19,7 +19,7 @@ Keywords are classified in 10 categories:
 -   Technical term
 
 An entry often contains several keywords. Inside a category, the keywords are stored in alphabetical order.  
-Example: [P80643](https://www.uniprot.org/uniprotkb/p80643#function)
+Example: [P80643](https://www.uniprot.org/uniprotkb/P80643#function)
 
 Keywords can be used to retrieve subsets of protein entries or to generate indexes of entries based on functional, structural, or other categories.
 

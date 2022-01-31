@@ -3,7 +3,7 @@ title: What is UniProt's human proteome?
 categories: Proteomes,Download,UniProtKB,Keywords,Sequence,Human,faq
 ---
 
-In 2008, a draft of the complete human proteome was released from UniProtKB/Swiss-Prot: the approximately 20,000 putative human protein-coding genes were represented by one UniProtKB/Swiss-Prot entry each, tagged with the keyword 'Complete proteome' (now obsolete) and later linked to [proteome identifier](https://www.uniprot.org/help/proteome%5fid) [UP000005640](http://www.uniprot.org/proteomes/UP000005640) .
+In 2008, a draft of the complete human proteome was released from UniProtKB/Swiss-Prot: the approximately 20,000 putative human protein-coding genes were represented by one UniProtKB/Swiss-Prot entry each, tagged with the keyword 'Complete proteome' (now obsolete) and later linked to [proteome identifier](https://www.uniprot.org/help/proteome%5Fid) [UP000005640](http://www.uniprot.org/proteomes/UP000005640) .
 
 The **UniProtKB/Swiss-Prot *Homo sapiens* proteome** contains one representative ( [canonical](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms) ) protein sequence for each known protein-coding gene. Close to 40% of these 20,000 protein sequence records also contain manually annotated alternative isoforms representing over 22'000 additional sequences (see [What is the canonical sequence? Are all isoforms described in one entry?](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms) ).
 
@@ -57,5 +57,5 @@ See also:
 -   [What are proteomes?](http://www.uniprot.org/help/proteome)
 -   [What are reference proteomes?](http://www.uniprot.org/help/reference%5Fproteome)
 -   [How to retrieve sets of UniProtKB protein sequences?](http://www.uniprot.org/help/retrieve%5Fsets)
--   [Alternative products](https://www.uniprot.org/help/alternative%5fproducts)
--   [Alternative sequence](https://www.uniprot.org/help/var%5fseq)
+-   [Alternative products](https://www.uniprot.org/help/alternative%5Fproducts)
+-   [Alternative sequence](https://www.uniprot.org/help/var%5Fseq)

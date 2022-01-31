@@ -13,6 +13,6 @@ The following information items are provided:
 -   link to the corresponding publication.
 
 Additional information, if available, is provided to complement the above information items.  
-Example: [O44185](https://www.uniprot.org/uniprotkb/o44185#sequences)
+Example: [O44185](https://www.uniprot.org/uniprotkb/O44185#sequences)
 
-We do not provide mass spectrometry information for digested peptides, but link to tools which allow to predict the cleavage products, e.g. [PeptideMass](http://web.expasy.org/peptide%5Fmass) or [PeptideCutter](http://web.expasy.org/peptide%5Fcutter) . These links are available from the 'Sequence' section (e.g. [O44185](https://www.uniprot.org/uniprotkb/o44185#sequences) ), via the tools menu whose default selection is "Blast".
+We do not provide mass spectrometry information for digested peptides, but link to tools which allow to predict the cleavage products, e.g. [PeptideMass](http://web.expasy.org/peptide%5Fmass) or [PeptideCutter](http://web.expasy.org/peptide%5Fcutter) . These links are available from the 'Sequence' section (e.g. [O44185](https://www.uniprot.org/uniprotkb/O44185#sequences) ), via the tools menu whose default selection is "Blast".

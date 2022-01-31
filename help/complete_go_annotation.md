@@ -10,5 +10,5 @@ UniProt is [released every eight weeks](http://www.uniprot.org/help/synchronizat
 See also:
 
 -   [What are the differences between UniProtKB keywords and the GO terms?](http://www.uniprot.org/help/keywords%5Fvs%5Fgo)
--   [Gene Ontology (GO)](https://www.uniprot.org/help/gene%5fontology)
+-   [Gene Ontology (GO)](https://www.uniprot.org/help/gene%5Fontology)
 -   [How frequently is UniProt released? What is the synchronization delay with other databases?](http://www.uniprot.org/help/synchronization)

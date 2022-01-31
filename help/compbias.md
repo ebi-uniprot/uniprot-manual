@@ -9,7 +9,7 @@ Regions of compositional bias are predicted by the [MobiDB-lite method](https://
 
 The over-represented type of amino acid within the annotated computationally biased region are further characterized, e.g. as "Cys residues", "Pro residues", "Polar residues", "Basic residues", "Acidic residues" or "Basic and acidic residues".
 
-Examples: [Q9Y2N7](https://www.uniprot.org/uniprotkb/q9y2n7#family%5Fand%5Fdomains) , [P62521](https://www.uniprot.org/uniprotkb/p62521#family%5Fand%5Fdomains) , [Q9W705](https://www.uniprot.org/uniprotkb/q9w705#family%5Fand%5Fdomains)
+Examples: [Q9Y2N7](https://www.uniprot.org/uniprotkb/Q9Y2N7#family%5Fand%5Fdomains) , [P62521](https://www.uniprot.org/uniprotkb/P62521#family%5Fand%5Fdomains) , [Q9W705](https://www.uniprot.org/uniprotkb/Q9W705#family%5Fand%5Fdomains)
 
 See also:
 

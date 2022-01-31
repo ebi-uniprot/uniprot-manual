@@ -9,32 +9,32 @@ Disease name (Disease abbreviation) \[Link to OMIM\]: Disease description.
 
 An optional "Note=" field is used to describe the role of the gene/protein in disease pathogenesis and distinguish, when possible, between causative, susceptibility and modifier genes according to literature and OMIM reports.
 
-Examples: [Q01718](https://www.uniprot.org/uniprotkb/q01718#pathology%5Fand%5Fbiotech) , [Q15198](https://www.uniprot.org/uniprotkb/q15198#pathology%5Fand%5Fbiotech) , [P51800](https://www.uniprot.org/uniprotkb/p51800#pathology%5Fand%5Fbiotech) and [P51801](https://www.uniprot.org/uniprotkb/p51801#pathology%5Fand%5Fbiotech) , [Q6W5P4](https://www.uniprot.org/uniprotkb/q6w5p4#pathology%5Fand%5Fbiotech) , [P52895](https://www.uniprot.org/uniprotkb/p52895#pathology%5Fand%5Fbiotech) and [P17516](https://www.uniprot.org/uniprotkb/p17516#pathology%5Fand%5Fbiotech) .
+Examples: [Q01718](https://www.uniprot.org/uniprotkb/Q01718#pathology%5Fand%5Fbiotech) , [Q15198](https://www.uniprot.org/uniprotkb/Q15198#pathology%5Fand%5Fbiotech) , [P51800](https://www.uniprot.org/uniprotkb/P51800#pathology%5Fand%5Fbiotech) and [P51801](https://www.uniprot.org/uniprotkb/P51801#pathology%5Fand%5Fbiotech) , [Q6W5P4](https://www.uniprot.org/uniprotkb/Q6W5P4#pathology%5Fand%5Fbiotech) , [P52895](https://www.uniprot.org/uniprotkb/P52895#pathology%5Fand%5Fbiotech) and [P17516](https://www.uniprot.org/uniprotkb/P17516#pathology%5Fand%5Fbiotech) .
 
 The "Note=" field is also used to indicate the role of a protein in disease manifestation in cases where the protein is functionally impaired although the corresponding coding gene does not contain any mutation.
 
 Examples:  
-[P15289](https://www.uniprot.org/uniprotkb/p15289#pathology%5Fand%5Fbiotech) (causative gene [Q8NBK3](https://www.uniprot.org/uniprotkb/q8nbk3#pathology%5Fand%5Fbiotech) )  
-[Q15465](https://www.uniprot.org/uniprotkb/q15465#pathology%5Fand%5Fbiotech) (causative gene [Q8WVP7](https://www.uniprot.org/uniprotkb/q8wvp7#pathology%5Fand%5Fbiotech) )  
-[Q9NR56](https://www.uniprot.org/uniprotkb/q9nr56#pathology%5Fand%5Fbiotech) (causative gene [Q09013](https://www.uniprot.org/uniprotkb/q09013#pathology%5Fand%5Fbiotech) )
+[P15289](https://www.uniprot.org/uniprotkb/P15289#pathology%5Fand%5Fbiotech) (causative gene [Q8NBK3](https://www.uniprot.org/uniprotkb/Q8NBK3#pathology%5Fand%5Fbiotech) )  
+[Q15465](https://www.uniprot.org/uniprotkb/Q15465#pathology%5Fand%5Fbiotech) (causative gene [Q8WVP7](https://www.uniprot.org/uniprotkb/Q8WVP7#pathology%5Fand%5Fbiotech) )  
+[Q9NR56](https://www.uniprot.org/uniprotkb/Q9NR56#pathology%5Fand%5Fbiotech) (causative gene [Q09013](https://www.uniprot.org/uniprotkb/Q09013#pathology%5Fand%5Fbiotech) )
 
-The accession numbers of OMIM entries that describe a phenotype (or a gene and phenotype) are shown in this subsection, as well as in the 'Organism-Specific Databases' subsection of the ['Cross-references'](https://www.uniprot.org/help/cross%5freferences%5fsection) section, which also provides links to OMIM entries that describe the gene itself.
+The accession numbers of OMIM entries that describe a phenotype (or a gene and phenotype) are shown in this subsection, as well as in the 'Organism-Specific Databases' subsection of the ['Cross-references'](https://www.uniprot.org/help/cross%5Freferences%5Fsection) section, which also provides links to OMIM entries that describe the gene itself.
 
-Examples: [Q01718](https://www.uniprot.org/uniprotkb/q01718#pathology%5Fand%5Fbiotech) , [P84996](https://www.uniprot.org/uniprotkb/p84996#pathology%5Fand%5Fbiotech)
+Examples: [Q01718](https://www.uniprot.org/uniprotkb/Q01718#pathology%5Fand%5Fbiotech) , [P84996](https://www.uniprot.org/uniprotkb/P84996#pathology%5Fand%5Fbiotech)
 
 Chromosomal rearrangements (translocations, inversions) are also described in this subsection.
 
-Examples: [P11308](https://www.uniprot.org/uniprotkb/p11308#pathology%5Fand%5Fbiotech) , [Q15532](https://www.uniprot.org/uniprotkb/q15532#pathology%5Fand%5Fbiotech) , [Q16385](https://www.uniprot.org/uniprotkb/q16385#pathology%5Fand%5Fbiotech)
+Examples: [P11308](https://www.uniprot.org/uniprotkb/P11308#pathology%5Fand%5Fbiotech) , [Q15532](https://www.uniprot.org/uniprotkb/Q15532#pathology%5Fand%5Fbiotech) , [Q16385](https://www.uniprot.org/uniprotkb/Q16385#pathology%5Fand%5Fbiotech)
 
 If the sequence position of the translocation breakpoint is known and causes a fusion protein, it is annotated in the ['Site'](https://www.uniprot.org/help/site) subsection.
 
-Example: In Q8IZP0 the annotation in the ['Pathology and Biotech'](https://www.uniprot.org/uniprotkb/q8izp0#pathology%5Fand%5Fbiotech%5Fsection) section is completed by information at the sequence level ( ['Site'](https://www.uniprot.org/help/site) subsection).
+Example: In Q8IZP0 the annotation in the ['Pathology and Biotech'](https://www.uniprot.org/uniprotkb/Q8IZP0#pathology%5Fand%5Fbiotech%5Fsection) section is completed by information at the sequence level ( ['Site'](https://www.uniprot.org/help/site) subsection).
 
 Related keyword: [Chromosomal rearrangement](http://www.uniprot.org/keywords/160) .
 
 Disease information that is not described in OMIM is annotated as free text.
 
-Examples: [P00395](https://www.uniprot.org/uniprotkb/p00395#pathology%5Fand%5Fbiotech) , [Q02388](https://www.uniprot.org/uniprotkb/q02388#pathology%5Fand%5Fbiotech)
+Examples: [P00395](https://www.uniprot.org/uniprotkb/P00395#pathology%5Fand%5Fbiotech) , [Q02388](https://www.uniprot.org/uniprotkb/Q02388#pathology%5Fand%5Fbiotech)
 
 #### Related documents
 

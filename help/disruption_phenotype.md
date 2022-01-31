@@ -7,6 +7,6 @@ This subsection of the 'Pathology and Biotech' section describes the in vivo eff
 
 This subsection contains information on null mutants caused by random or targeted deletions using classic techniques, such as homologous recombination and insertions of a transposable elements, as well as newer methods such as nuclease-directed genome editing. In specific cases, such as embryonic lethality, conditional knockouts, such as those produced by the Cre-Lox recombination system, are also reported. Morpholino knockdown (e.g. in zebrafish or frog) or RNAi (e.g. in *C. elegans* ) performed at the level of the entire organism are reported in this subsection. By contrast, RNA interference experiments performed at the single-cell level are not described.
 
-Example: [Q8K1M6](https://www.uniprot.org/uniprotkb/q8k1m6#pathology%5Fand%5Fbiotech)
+Example: [Q8K1M6](https://www.uniprot.org/uniprotkb/Q8K1M6#pathology%5Fand%5Fbiotech)
 
 To avoid description of phenotypes due to partial or dominant negative mutants, missense mutations are not described in this subsection, but in the [Mutagenesis](https://www.uniprot.org/help/mutagen) subsection.

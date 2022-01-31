@@ -29,7 +29,7 @@ User manual: [Keywords](http://www.uniprot.org/help/keywords)
 The [Controlled vocabulary of subcellular locations and membrane topologies and orientations](http://www.uniprot.org/docs/subcell) lists the UniProtKB controlled vocabulary used for the subcellular locations (including the membrane topologies and orientations terms) in the 'Subcellular location' section.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of subcellular locations and membrane topologies and orientations](http://www.uniprot.org/docs/subcell)  
-User manual: [Subcellular location](https://www.uniprot.org/help/subcellular%5flocation)  
+User manual: [Subcellular location](https://www.uniprot.org/help/subcellular%5Flocation)  
 UniProt web page: [Subcellular locations](http://www.uniprot.org/locations/)
 
 ### Pathways
@@ -43,10 +43,10 @@ User manual: [Pathway](https://www.uniprot.org/help/pathway)
 
 ### Plasmids
 
-The [Controlled vocabulary of plasmids](http://www.uniprot.org/docs/plasmid) lists the currently valid values for the plasmids cited in the [Encoded on](https://www.uniprot.org/help/encoded%5fon) subsection of the 'Names and origin' section and in the [Reference](https://www.uniprot.org/help/references) section of UniProtKB/Swiss-Prot entries.
+The [Controlled vocabulary of plasmids](http://www.uniprot.org/docs/plasmid) lists the currently valid values for the plasmids cited in the [Encoded on](https://www.uniprot.org/help/encoded%5Fon) subsection of the 'Names and origin' section and in the [Reference](https://www.uniprot.org/help/references) section of UniProtKB/Swiss-Prot entries.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of plasmids](http://www.uniprot.org/docs/plasmid)  
-User manual: [Encoded on](https://www.uniprot.org/help/encoded%5fon)
+User manual: [Encoded on](https://www.uniprot.org/help/encoded%5Fon)
 
 ### Post-translational modifications
 

@@ -13,7 +13,7 @@ where the value of `dataset` is either uniprot, uniparc or uniref
 
 Examples:
 
--   [https://www.uniprot.org/uniprot/P99999](https://www.uniprot.org/uniprotkb/p99999)
+-   [https://www.uniprot.org/uniprot/P99999](https://www.uniprot.org/uniprotkb/P99999)
 -   [https://www.uniprot.org/uniref/UniRef100\_P99999](http://www.uniprot.org/uniref/UniRef100%5FP99999) (cf remark 2)
 -   [https://www.uniprot.org/uniref/UniRef90\_P99999](http://www.uniprot.org/uniref/UniRef90%5FP99999) (cf remark 2)
 -   [https://www.uniprot.org/uniref/UniRef50\_P99999](http://www.uniprot.org/uniref/UniRef50%5FP99999) (cf remark 2)
@@ -51,11 +51,11 @@ The following `format` values are valid:
 
 Examples:
 
--   [https://www.uniprot.org/uniprot/P99999.txt](https://www.uniprot.org/uniprotkb/p99999.txt)
+-   [https://www.uniprot.org/uniprot/P99999.txt](https://www.uniprot.org/uniprotkb/P99999.txt)
 -   [https://www.uniprot.org/uniref/UniRef100\_P99999.xml](https://www.uniprot.org/uniref/UniRef100%5FP99999.xml)
--   [https://www.uniprot.org/uniprot/P99999.fasta](https://www.uniprot.org/uniprotkb/p99999.fasta)
+-   [https://www.uniprot.org/uniprot/P99999.fasta](https://www.uniprot.org/uniprotkb/P99999.fasta)
 -   <https://www.uniprot.org/uniparc/UPI00000002E4.rdf>
--   [https://www.uniprot.org/uniprot/P99999.gff](https://www.uniprot.org/uniprotkb/p99999.gff)
+-   [https://www.uniprot.org/uniprot/P99999.gff](https://www.uniprot.org/uniprotkb/P99999.gff)
 -   [https://www.uniprot.org/uniref/UniRef100\_P99999.tab](https://www.uniprot.org/uniref/UniRef100%5FP99999.tab)
 -   <https://www.uniprot.org/uniparc/UPI00000002E4.tab>
 
@@ -64,5 +64,5 @@ Note that all individual records and queries are accessible using simple URLs (R
 See also:
 
 -   [REST API - Access the UniProt website programmatically](http://www.uniprot.org/help/api)
--   [Accession number](https://www.uniprot.org/help/accession%5fnumbers)
+-   [Accession number](https://www.uniprot.org/help/accession%5Fnumbers)
 -   [How do I link to a specific version of a UniProtKB entry?](http://www.uniprot.org/help/link%5Fold%5Fversions)

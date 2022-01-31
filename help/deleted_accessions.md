@@ -11,9 +11,9 @@ Another frequent deletion reason in UniProtKB/TrEMBL is [proteome redundancy red
 
 Deleted entries in **UniProtKB/Swiss-Prot** are mostly Open Reading Frames (ORFs) or pseudogenes that have been wrongly predicted to code for proteins.
 
-Deleted protein sequences can be found in UniParc. Example: [O00597](https://www.uniprot.org/uniprotkb/o00597) can be found in [UniParc](http://www.uniprot.org/uniparc/UPI000013C29B) (with the tag 'Active=No').
+Deleted protein sequences can be found in UniParc. Example: [O00597](https://www.uniprot.org/uniprotkb/O00597) can be found in [UniParc](http://www.uniprot.org/uniparc/UPI000013C29B) (with the tag 'Active=No').
 
-The history of a deleted entry can be tracked (example: [O00597](https://www.uniprot.org/uniprotkb/o00597?version=%2A) ), and previous entry and sequence versions displayed.
+The history of a deleted entry can be tracked (example: [O00597](https://www.uniprot.org/uniprotkb/O00597?version=%2A) ), and previous entry and sequence versions displayed.
 
 Two documents list the deleted accession numbers:
 
@@ -26,4 +26,4 @@ See also:
 -   [Does UniProtKB contain all protein sequences?](http://www.uniprot.org/help/uniprotkb%5Fcoverage)
 -   [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](http://www.uniprot.org/help/dubious%5Fsequences)
 -   [How frequently is UniProt released? What is the synchronization delay with other databases?](http://www.uniprot.org/help/synchronization)
--   [Accession number](https://www.uniprot.org/help/accession%5fnumbers)
+-   [Accession number](https://www.uniprot.org/help/accession%5Fnumbers)

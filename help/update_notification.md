@@ -13,4 +13,4 @@ Related terms: monitor changes, watch an entry, watch a page
 
 See also:
 
--   [Entry history](https://www.uniprot.org/help/entry%5fhisto)
+-   [Entry history](https://www.uniprot.org/help/entry%5Fhisto)

@@ -39,27 +39,27 @@ If a sequence submitted to EMBL/GenBank/DDBJ present some discrepancies with the
 Four different tags are used to mark problematic sequences submitted to the EMBL/GenBank/DDBJ databases:
 
 -   'Frameshift': discrepancies are due to the insertion or deletion of one or more nucleotides in the submitted nucleotide sequence.  
-    Example: [O14467](https://www.uniprot.org/uniprotkb/o14467#cross-references)
+    Example: [O14467](https://www.uniprot.org/uniprotkb/O14467#cross-references)
 
 <!-- -->
 
 -   'Different initiation': discrepancies are due to an erroneous initiation codon choice in the submitted sequence.  
-    Example: [Q9LEH8](https://www.uniprot.org/uniprotkb/q9leh8#cross-references)
+    Example: [Q9LEH8](https://www.uniprot.org/uniprotkb/Q9LEH8#cross-references)
 
 <!-- -->
 
 -   'Different termination': the termination codon of the submitted sequence differs from that of the sequence displayed  
-    Example: [P35545](https://www.uniprot.org/uniprotkb/p35545#cross-references)
+    Example: [P35545](https://www.uniprot.org/uniprotkb/P35545#cross-references)
 
 <!-- -->
 
 -   'Sequence problems': discrepancies are due to an erroneous gene model prediction, erroneous ORF assignement, miscellaneous discrepancy, etc.  
-    Example: [Q7XR80](https://www.uniprot.org/uniprotkb/q7xr80#cross-references) , [Q8TBF5](https://www.uniprot.org/uniprotkb/q8tbf5#cross-references)
+    Example: [Q7XR80](https://www.uniprot.org/uniprotkb/Q7XR80#cross-references) , [Q8TBF5](https://www.uniprot.org/uniprotkb/Q8TBF5#cross-references)
 
-The discrepancies are described in more details in the ['Sequence Caution'](https://www.uniprot.org/help/sequence%5fcaution) section.
+The discrepancies are described in more details in the ['Sequence Caution'](https://www.uniprot.org/help/sequence%5Fcaution) section.
 
 If no CoDing Sequence (CDS) has been annotated in a submitted nucleotide sequence (most frequently genomic sequence), the corresponding cross-reference is tagged with the label: 'No translation available'.  
-Example: [B2RU33](https://www.uniprot.org/uniprotkb/b2ru33#cross-references)
+Example: [B2RU33](https://www.uniprot.org/uniprotkb/B2RU33#cross-references)
 
 #### Related documents
 

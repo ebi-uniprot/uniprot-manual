@@ -7,7 +7,7 @@ This subsection of the 'Sequence' section describes the sequence of naturally oc
 
 The information stored in this subsection is used to automatically construct alternative protein sequence(s) for display. We describe the amino acid changes and the alternative isoform in the 'Description' field of each 'Alternative sequence' subsection. Note that several 'Alternative sequence' subsections may be required to completely describe a given isoform. Conversely, a particular sequence alteration may be found in more than one isoform.
 
-Example: [P04150](https://www.uniprot.org/uniprotkb/p04150#sequences)
+Example: [P04150](https://www.uniprot.org/uniprotkb/P04150#sequences)
 
 Each 'Alternative sequence' subsection has stable [feature identifiers (FTIds)](http://www.uniprot.org/help/sequence%5Fannotation#annotation%5Fid) . Isoform sequences can be **downloaded in FASTA format** from our [download index page](http://www.uniprot.org/downloads) (choose the file: 'Isoform sequences').
 

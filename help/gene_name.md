@@ -21,7 +21,7 @@ Note that we write the gene name in uppercase when there is no casing rule for a
 
 In this subsection we list, in alphabetical order, all the names, but the recommended one, that are or were used to represent the gene.
 
-Example: [Q04609](https://www.uniprot.org/uniprotkb/q04609#names_and_taxonomy)
+Example: [Q04609](https://www.uniprot.org/uniprotkb/Q04609#names_and_taxonomy)
 
 We try to provide an exhaustive list of synonyms. This allows users to mine the scientific literature for articles describing their biological object of interest. Note, however, that we do not always propagate a synonym across orthologous proteins. This is the case when a synonym is ambiguous, obsolete or has been used in a very restricted manner. We also do not store misnomers or spelling-deficient names.
 
@@ -29,19 +29,19 @@ We try to provide an exhaustive list of synonyms. This allows users to mine the 
 
 We call 'Ordered locus name' (OLN) the naming systems that are used to sequentially assign an identifier to each predicted gene of a completely sequenced genome or chromosome. The OLN is generally based on a prefix representing the organism followed by a number which usually represents the sequential ordering of genes on the chromosome. Depending on the genome-sequencing center, OLNs are only attributed to protein-coding genes, or also to pseudogenes, and also to tRNA-coding genes and others. If two predicted genes have been merged to form a new gene, both OLNs are indicated, separated by a slash.
 
-Examples: [HI0934](https://www.uniprot.org/uniprotkb/p44942#names%5Fand%5Ftaxonomy) , [Rv3245c](https://www.uniprot.org/uniprotkb/q50496#names%5Fand%5Ftaxonomy) , [ECs2657/ECs2658](https://www.uniprot.org/uniprotkb/q8xbc7#names%5Fand%5Ftaxonomy)
+Examples: [HI0934](https://www.uniprot.org/uniprotkb/P44942#names%5Fand%5Ftaxonomy) , [Rv3245c](https://www.uniprot.org/uniprotkb/Q50496#names%5Fand%5Ftaxonomy) , [ECs2657/ECs2658](https://www.uniprot.org/uniprotkb/Q8XBC7#names%5Fand%5Ftaxonomy)
 
 Note that OLNs are sometimes referred to as 'ORF numbers', 'CDS numbers' or 'Gene numbers'.
 
 There can be more than one OLN per gene as it sometimes happens that one genome has been the target of distinct sequencing projects. In such cases, the order of the names in the 'Ordered Locus Names:' token reflects the order of the corresponding references in the entry.
 
-Example: [Q50496](https://www.uniprot.org/uniprotkb/q50496#names%5Fand%5Ftaxonomy)
+Example: [Q50496](https://www.uniprot.org/uniprotkb/Q50496#names%5Fand%5Ftaxonomy)
 
 ### 4. ORF Names {\#4\_\_ORF\_Names}
 
 The 'ORF names' section is used to alphabetically list the names that are temporarily attributed to an open reading frame (ORF) by a sequencing project. This name can be based on a cosmid numbering system, on the clone name attributed by large-scale cDNA projects or on any other type of naming system.
 
-Examples: [SYGP-ORF50](https://www.uniprot.org/uniprotkb/p32634#names_and_taxonomy) , [SpBC2F12.04](https://www.uniprot.org/uniprotkb/o14339#names_and_taxonomy) , [C06E1.1](https://www.uniprot.org/uniprotkb/p34296#names_and_taxonomy) , [CG10954](https://www.uniprot.org/uniprotkb/q9vim5#names_and_taxonomy)
+Examples: [SYGP-ORF50](https://www.uniprot.org/uniprotkb/P32634#names_and_taxonomy) , [SpBC2F12.04](https://www.uniprot.org/uniprotkb/O14339#names_and_taxonomy) , [C06E1.1](https://www.uniprot.org/uniprotkb/P34296#names_and_taxonomy) , [CG10954](https://www.uniprot.org/uniprotkb/Q9VIM5#names_and_taxonomy)
 
 ORF names are not propagated across species.
 
@@ -64,5 +64,5 @@ ORF names are not propagated across species.
 
 <!-- -->
 
--   It can happen that multiple genes can be translated to produce identical proteins in one species. In such cases, all gene products were historically often merged into a single UniProtKB entry and there are as many 'Name' tokens in the 'Gene names' subsection as the number of genes encoding the protein of interest, e.g. [P68431](https://www.uniprot.org/uniprotkb/p68431#names%5Fand%5Ftaxonomy) .  
+-   It can happen that multiple genes can be translated to produce identical proteins in one species. In such cases, all gene products were historically often merged into a single UniProtKB entry and there are as many 'Name' tokens in the 'Gene names' subsection as the number of genes encoding the protein of interest, e.g. [P68431](https://www.uniprot.org/uniprotkb/P68431#names%5Fand%5Ftaxonomy) .  
     However, we tend to demerge many of these entries, and for newly annotated proteins we generate separate sequence entries in case of multiple genes coding for identical protein sequences, e.g. [P08409](https://www.uniprot.org/uniprotkb/?query=replaces:P08409) .

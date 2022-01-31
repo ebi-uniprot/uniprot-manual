@@ -11,7 +11,7 @@ The UniProtKB database provides for certain entries a 'Biotechnological use' sub
 
 The UniProtKB database also provides for certain entries a 'Pharmaceutical use' subsection which describes the name under which the protein is available as a the drug and the name of the firm that commercializes it.
 
-Example: [P01275](https://www.uniprot.org/uniprotkb/p01275#pathology_and_biotech)
+Example: [P01275](https://www.uniprot.org/uniprotkb/P01275#pathology_and_biotech)
 
          Available under the names Glucagon (Eli Lilly) and
          GlucaGen or Glucagon Novo Nordisk (Novo Nordisk). Used to treat
