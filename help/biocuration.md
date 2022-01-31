@@ -1,4 +1,3 @@
-
 ---
 title: Biocuration in UniProt
 categories: Biocuration,Automatic_annotation,UniProtKB,help
@@ -12,19 +11,17 @@ One of the central activities of the UniProt Consortium is the biocuration of th
 
 Manual curation consists of a critical review of experimental and predicted data for each protein as well as manual verification of each protein sequence. Curation methods applied to UniProtKB/Swiss-Prot include manual extraction and structuring of information from the literature, manual verification of results from computational analyses, mining and integration of large-scale data sets, and continuous updating as new information becomes available.
 
-See also:  
-  
-[How do we manually annotate a UniProtKB entry](http://www.uniprot.org/help/manual%5Fcuration)  
-  
-[Standard operating procedure (SOP) for UniProt manual curation](http://www.uniprot.org/docs/sop%5Fmanual%5Fcuration.pdf)  
-  
-[Manual curation priorities and projects](http://www.uniprot.org/help/?fil=section:biocuration)
+See also:
+
+-   [How do we manually annotate a UniProtKB entry](http://www.uniprot.org/help/manual%5Fcuration)
+-   [Standard operating procedure (SOP) for UniProt manual curation](http://www.uniprot.org/docs/sop%5Fmanual%5Fcuration.pdf)
+-   [Manual curation projects](http://www.uniprot.org/help/?fil=section:biocuration)
+-   [Prioritizing curation - how do we decide which UniProtKB entries to manually annotate? (UniProt blog)](https://insideuniprot.blogspot.com/2021/05/)
 
 #### UniProt automatic annotation
 
-UniProt has developed two complementary approaches to automatically annotate protein sequences with a high degree of accuracy. [UniRule](http://www.uniprot.org/help/unirule) is a collection of manually curated annotation rules which define annotations that can be propagated based on specific conditions while the [Statistical Automatic Annotation System (SAAS)](http://www.uniprot.org/help/saas) is an automatic decision-tree based rule-generating system. The central components of these approaches are rules based on [InterPro](http://www.ebi.ac.uk/interpro) classification and the manually curated data in UniProtKB/Swiss-Prot. [More...](http://www.uniprot.org/help/automatic%5Fannotation)
+UniProt has developed two complementary approaches to automatically annotate protein sequences with a high degree of accuracy. [UniRule](http://www.uniprot.org/help/unirule) is a collection of manually curated annotation rules which define annotations that can be propagated based on specific conditions while the [Association-Rule-Based Annotator (ARBA)](http://www.uniprot.org/help/arba) is an automatic decision-tree based rule-generating system. The central components of these approaches are rules based on [InterPro](https://www.ebi.ac.uk/interpro) classification and the manually curated data in UniProtKB/Swiss-Prot. [More...](http://www.uniprot.org/help/automatic%5Fannotation)
 
 #### UniProt annotation flow diagram
 
-![UniProt annotation flow diagram](http://www.uniprot.org/images/annotation.png)
-        
+![UniProt annotation flow diagram](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/annotation.png)

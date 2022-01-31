@@ -1,4 +1,3 @@
-
 ---
 title: Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?
 categories: UniProtKB,Biocuration,Automatic_annotation,About_UniProt,Entry_information,faq
@@ -10,7 +9,6 @@ The TrEMBL section of UniProtKB was introduced in 1996 in response to the increa
 
 See also:
 
-*   [Entry status](http://www.uniprot.org/manual/entry%5Fstatus)
-*   [How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/faq/45)
-*   [Automatic annotation](http://www.uniprot.org/help/automatic%5Fannotation)
-        
+-   [Entry status](https://www.uniprot.org/help/entry%5fstatus)
+-   [How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/help/manual%5Fcuration)
+-   [Automatic annotation](http://www.uniprot.org/help/automatic%5Fannotation)

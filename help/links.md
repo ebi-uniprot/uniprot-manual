@@ -1,4 +1,3 @@
-
 ---
 title: Links
 categories: help
@@ -6,9 +5,8 @@ categories: help
 
 Links provided by the UniProt Consortium members
 
-[EMBL-EBI Services](http://www.ebi.ac.uk/services/)
-
-[ExPASy: Bioinformatics resource portal of SIB Swiss Institute of Bioinformatics](http://www.expasy.org/)
-
-[PIR Resources](http://proteininformationresource.org/)
-        
+|                                                                                                           |
+|:----------------------------------------------------------------------------------------------------------|
+| [EMBL-EBI Services](http://www.ebi.ac.uk/services/)                                                       |
+| [ExPASy: Bioinformatics resource portal of SIB Swiss Institute of Bioinformatics](http://www.expasy.org/) |
+| [PIR Resources](http://proteininformationresource.org/)                                                   |
