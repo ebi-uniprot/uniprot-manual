@@ -18,10 +18,10 @@ Most naturally occurring variants are due to a single nucleotide change (SNP) at
 Example: [Q96CV9](https://www.uniprot.org/uniprotkb/Q96CV9#sequences)
 
 Validated human variants from the NCBI [dbSNP](http://www.uniprot.org/www.ncbi.nlm.nih.gov/projects/SNP/) database are annotated and tagged with the dbSNP identifier in the 'Description' field.  
-Examples: [P15516](https://www.uniprot.org/uniprotkb/P15516#sequences) , [O43593](https://www.uniprot.org/uniprotkb/O43593#sequences)
+Examples: [P15516](https://www.uniprot.org/uniprotkb/P15516#sequences), [O43593](https://www.uniprot.org/uniprotkb/O43593#sequences)
 
 Additional information, such as the cell type or tissue of origin of the variant, the distribution or the frequency of the allele in a given population, is indicated in the 'Description' field, when available.  
-Examples: [P30154](https://www.uniprot.org/uniprotkb/P30154#sequences) , [O14896](https://www.uniprot.org/uniprotkb/O14896#sequences)
+Examples: [P30154](https://www.uniprot.org/uniprotkb/P30154#sequences), [O14896](https://www.uniprot.org/uniprotkb/O14896#sequences)
 
 When several natural variants exist for a single position, they are annotated in distinct 'Natural variant' subsections.  
 Example: [Q8NET6](https://www.uniprot.org/uniprotkb/Q8NET6#sequences)
@@ -36,7 +36,7 @@ Note that artificial mutants resulting from (large-scale) mutagenesis screens of
 Information on disease-linked variants is mostly restricted to human proteins and is usually found in the 'Pathology and Biotech' section. We describe the amino acid change, the abbreviation of the associated disease and the effect(s) of the variation on the protein, the cell and/or the organism, if known. The large majority of curated human disease-linked variants are germline - not somatic - changes involved in Mendelian disease and linked to phenotypes described in the [OMIM database](https://www.omim.org/) .
 
 Additional information about the disease itself is provided in the ['Involvement in disease'](https://www.uniprot.org/help/involvement_in_disease) subsection of the 'Pathology and Biotech' section.  
-Examples: [O43593](https://www.uniprot.org/uniprotkb/O43593#pathology_and_biotech) , [P26439](https://www.uniprot.org/uniprotkb/P26439#pathology_and_biotech)
+Examples: [O43593](https://www.uniprot.org/uniprotkb/O43593#pathology_and_biotech), [P26439](https://www.uniprot.org/uniprotkb/P26439#pathology_and_biotech)
 
 Related keyword: [Disease variant](http://www.uniprot.org/keywords/KW-0225)
 
@@ -52,7 +52,7 @@ Related keyword: [RNA editing](http://www.uniprot.org/keywords/691)
 ### 4. Variations between strains, isolates or cultivars {\#4\_\_Variations\_between\_strains\_\_isolates\_or\_cultivars}
 
 Variations between strains, isolates or cultivars (cv) are described and the strain/isolate/cultivar exhibiting the variation is indicated in the 'Description' field.  
-Examples: [Q8MMF9](https://www.uniprot.org/uniprotkb/Q8MMF9#sequences) , [Q9QNF7](https://www.uniprot.org/uniprotkb/Q9QNF7#sequences) , [Q8W4J9](https://www.uniprot.org/uniprotkb/Q8W4J9#sequences)
+Examples: [Q8MMF9](https://www.uniprot.org/uniprotkb/Q8MMF9#sequences), [Q9QNF7](https://www.uniprot.org/uniprotkb/Q9QNF7#sequences), [Q8W4J9](https://www.uniprot.org/uniprotkb/Q8W4J9#sequences)
 
 #### Related documents
 

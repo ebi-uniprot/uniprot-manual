@@ -18,7 +18,7 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
 
 2.  **gene symbols to UniProtKB identifiers**
 
-    If your genes are all from an organism for which a model organism database exists and is cross-referenced to UniProtKB (e.g. HGNC, MGI, FlyBase), it is possible to retrieve all the UniProtKB entries for your genes if you have the corresponding remote database identifiers: You can upload this list to our server under [Retrieve/ID mapping](http://www.uniprot.org/uploadlists) , and map the identifiers from that remote database to UniProtKB.
+    If your genes are all from an organism for which a model organism database exists and is cross-referenced to UniProtKB (e.g. HGNC, MGI, FlyBase), it is possible to retrieve all the UniProtKB entries for your genes if you have the corresponding remote database identifiers: You can upload this list to our server under [Retrieve/ID mapping](http://www.uniprot.org/uploadlists), and map the identifiers from that remote database to UniProtKB.
 
     See also:
 

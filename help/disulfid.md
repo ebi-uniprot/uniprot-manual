@@ -24,7 +24,7 @@ In some cases, it is unclear which cysteines participate in disulfide bond forma
 Example: [Q9U8R2](https://www.uniprot.org/uniprotkb/Q9U8R2#ptm%5Fprocessing)
 
 When available, specific information regarding the properties or the function of a specific disulfide bond is indicated.  
-Examples: [P19880](https://www.uniprot.org/uniprotkb/P19880#ptm_processing) , [P09478](https://www.uniprot.org/uniprotkb/P09478#ptm_processing)
+Examples: [P19880](https://www.uniprot.org/uniprotkb/P19880#ptm_processing), [P09478](https://www.uniprot.org/uniprotkb/P09478#ptm_processing)
 
 ### 2. Interchain disulfide bonds (between homo- and heterodimers) {\#2\_\_Interchain\_disulfide\_bonds\_\_between\_homo\_*and\_heterodimers*}
 
@@ -59,7 +59,7 @@ Example: [P09930](https://www.uniprot.org/uniprotkb/P09930#ptm_processing)
 
 Some disulfide bonds constitute a redox-active center and participate directly in redox reactions, usually via reversible oxidation of a  
 cysteine residue leading to a cysteine-sulfenic acid.  
-Examples: [Q96HE7](https://www.uniprot.org/uniprotkb/Q96HE7#ptm_processing) , [Q06530](https://www.uniprot.org/uniprotkb/Q06530#ptm_processing)
+Examples: [Q96HE7](https://www.uniprot.org/uniprotkb/Q96HE7#ptm_processing), [Q06530](https://www.uniprot.org/uniprotkb/Q06530#ptm_processing)
 
 Related keyword: [Redox-active center](http://www.uniprot.org/keywords/676)
 

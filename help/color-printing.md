@@ -7,7 +7,7 @@ To print a sequence alignment from an *Align* or *Blast* job result in color, yo
 
 -   Microsoft Internet Explorer: Turn on the *Print background colors and images* option
     1.  In the *Tools* menu, click *Internet Options* and then click the *Advanced* tab.
-    2.  In the *Settings* box under *Printing* , tick the *Print background colors* option and then click *OK* .
+    2.  In the *Settings* box under *Printing*, tick the *Print background colors* option and then click *OK* .
     3.  Select *File* / *Print* in the normal way.
 -   Firefox: Turn on the *Print Background Colors* option
     1.  Select *File* / *Print* in the normal way.

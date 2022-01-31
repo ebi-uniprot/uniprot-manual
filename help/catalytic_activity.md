@@ -13,7 +13,7 @@ Example: [O36015](https://www.uniprot.org/uniprotkb/O36015)
 For catalytic activities that can only be described in the form of free text, we continue to follow the NC-IUBMB descriptions.  
 Example: [P17050](https://www.uniprot.org/uniprotkb/P17050)
 
-We also curate the physiological direction of a reaction, i.e. the direction of the net flow of reactants *in vivo* , where evidence is available for it.  
+We also curate the physiological direction of a reaction, i.e. the direction of the net flow of reactants *in vivo*, where evidence is available for it.  
 Example: [A0A0S3QTD0](https://www.uniprot.org/uniprotkb/A0A0S3QTD0)
 
 Due to their focus on nomenclature, cross-references to [Enzyme Commission (EC) numbers](https://en.wikipedia.org/wiki/Enzyme%5FCommission%5Fnumber) have historically been added to the [Protein names](http://www.uniprot.org/help/protein%5Fnames) subsection of UniProtKB entries. To link the EC numbers to the reactions on which they are based, they are also added to 'Catalytic activity' annotations.

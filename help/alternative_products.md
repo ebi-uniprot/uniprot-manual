@@ -24,7 +24,7 @@ Each isoform is characterized by a unique identifier, which is composed of the p
 Example: [P04150-2](https://www.uniprot.org/uniprotkb/P04150#sequences)
 
 When alternative protein sequences differ significantly, we create separate entries and list all isoforms in each of them. Consequently, isoforms produced from a single gene listed in one entry may have identifiers derived from different primary accession numbers.  
-Examples: [P42166](https://www.uniprot.org/uniprotkb/P42166#sequences) , [P42167](https://www.uniprot.org/uniprotkb/P42167#sequences)
+Examples: [P42166](https://www.uniprot.org/uniprotkb/P42166#sequences), [P42167](https://www.uniprot.org/uniprotkb/P42167#sequences)
 
 #### Name and synomym(s)
 
@@ -42,7 +42,7 @@ Example: [P21836](https://www.uniprot.org/uniprotkb/P21836#sequences) (Isoform H
 
 When isoforms (or products of proteolytic cleavage) are known to differ significantly in their function, localization or any other characteristics with respect to the canonical sequence, these are described in the corresponding sections of the entry. In case of positional annotations such as PTMs or variants, positions are provided with respect to the isoform sequence they refer to.
 
-Examples: [P19021](https://www.uniprot.org/uniprotkb/P19021#ptm%5Fprocessing) , [Q9NZU7](https://www.uniprot.org/uniprotkb/Q9NZU7#ptm%5Fprocessing) , [Q13510](https://www.uniprot.org/uniprotkb/Q13510##pathology%5Fand%5Fbiotech)
+Examples: [P19021](https://www.uniprot.org/uniprotkb/P19021#ptm%5Fprocessing), [Q9NZU7](https://www.uniprot.org/uniprotkb/Q9NZU7#ptm%5Fprocessing), [Q13510](https://www.uniprot.org/uniprotkb/Q13510##pathology%5Fand%5Fbiotech)
 
 #### Information in free text can be provided to complement the above items
 
@@ -54,7 +54,7 @@ For the description of the isoforms at the amino acid level, see the ['Alternati
 
 Isoform sequences can be **downloaded in FASTA format** from our [download page](http://www.uniprot.org/downloads) (choose the file: 'Isoform sequences').
 
-Related keywords: [Alternative splicing](http://www.uniprot.org/keywords/25) , [Alternative promoter usage](http://www.uniprot.org/keywords/877) , [Alternative initiation](http://www.uniprot.org/keywords/24) , [Ribosomal frameshifting](http://www.uniprot.org/keywords/688) .
+Related keywords: [Alternative splicing](http://www.uniprot.org/keywords/25), [Alternative promoter usage](http://www.uniprot.org/keywords/877), [Alternative initiation](http://www.uniprot.org/keywords/24), [Ribosomal frameshifting](http://www.uniprot.org/keywords/688) .
 
 #### Related documents
 

@@ -5,14 +5,14 @@ categories: Subcellular_location,manual
 
 This subsection of the ['Subcellular location'](http://www.uniprot.org/help/subcellular%5Flocation%5Fsection) section describes the extent of a membrane-spanning region of the protein. It denotes the presence of both alpha-helical transmembrane regions and the membrane spanning regions of beta-barrel transmembrane proteins.
 
-In **UniProtKB/Swiss-Prot** , we annotate transmembrane domains, when:  
+In **UniProtKB/Swiss-Prot**, we annotate transmembrane domains, when:  
 1. the transmembrane domains have been experimentally determined; there is some experimental evidence for the number, location and range of transmembrane domains; the structure of a protein family has been reviewed.  
 2. a protein is related to a well-characterized family known to contain transmembranes. In some families, such a G-protein coupled receptors, ion channels, transmembrane domains can be propagated by similarity, when there is some experimental evidence for the number, location and topology of transmembrane domains.  
 3. transmembrane domains are predicted by different prediction tools, provided their presence is consistent with the function of the protein and is detected by several prediction tools.
 
 For multi-pass membrane proteins, we do not number transmembrane regions except in cases when an accepted numbering system exists, such as for seven-transmembrane proteins, ion channels, bacteriorhodopsin and others. In these cases we use the numbering system applied to the specific protein family concerned.
 
-In **UniProtKB/TrEMBL** , transmembrane domains are annotated automatically by our [sequence annotation module using TMHMM.](http://www.uniprot.org/help/sam)
+In **UniProtKB/TrEMBL**, transmembrane domains are annotated automatically by our [sequence annotation module using TMHMM.](http://www.uniprot.org/help/sam)
 
 ### 1. Annotation of experimentally proven transmembrane regions {\#1\_\_Annotation\_of\_experimentally\_proven\_transmembrane\_regions}
 

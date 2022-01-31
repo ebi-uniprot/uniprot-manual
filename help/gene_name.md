@@ -29,7 +29,7 @@ We try to provide an exhaustive list of synonyms. This allows users to mine the 
 
 We call 'Ordered locus name' (OLN) the naming systems that are used to sequentially assign an identifier to each predicted gene of a completely sequenced genome or chromosome. The OLN is generally based on a prefix representing the organism followed by a number which usually represents the sequential ordering of genes on the chromosome. Depending on the genome-sequencing center, OLNs are only attributed to protein-coding genes, or also to pseudogenes, and also to tRNA-coding genes and others. If two predicted genes have been merged to form a new gene, both OLNs are indicated, separated by a slash.
 
-Examples: [HI0934](https://www.uniprot.org/uniprotkb/P44942#names%5Fand%5Ftaxonomy) , [Rv3245c](https://www.uniprot.org/uniprotkb/Q50496#names%5Fand%5Ftaxonomy) , [ECs2657/ECs2658](https://www.uniprot.org/uniprotkb/Q8XBC7#names%5Fand%5Ftaxonomy)
+Examples: [HI0934](https://www.uniprot.org/uniprotkb/P44942#names%5Fand%5Ftaxonomy), [Rv3245c](https://www.uniprot.org/uniprotkb/Q50496#names%5Fand%5Ftaxonomy), [ECs2657/ECs2658](https://www.uniprot.org/uniprotkb/Q8XBC7#names%5Fand%5Ftaxonomy)
 
 Note that OLNs are sometimes referred to as 'ORF numbers', 'CDS numbers' or 'Gene numbers'.
 
@@ -41,7 +41,7 @@ Example: [Q50496](https://www.uniprot.org/uniprotkb/Q50496#names%5Fand%5Ftaxonom
 
 The 'ORF names' section is used to alphabetically list the names that are temporarily attributed to an open reading frame (ORF) by a sequencing project. This name can be based on a cosmid numbering system, on the clone name attributed by large-scale cDNA projects or on any other type of naming system.
 
-Examples: [SYGP-ORF50](https://www.uniprot.org/uniprotkb/P32634#names_and_taxonomy) , [SpBC2F12.04](https://www.uniprot.org/uniprotkb/O14339#names_and_taxonomy) , [C06E1.1](https://www.uniprot.org/uniprotkb/P34296#names_and_taxonomy) , [CG10954](https://www.uniprot.org/uniprotkb/Q9VIM5#names_and_taxonomy)
+Examples: [SYGP-ORF50](https://www.uniprot.org/uniprotkb/P32634#names_and_taxonomy), [SpBC2F12.04](https://www.uniprot.org/uniprotkb/O14339#names_and_taxonomy), [C06E1.1](https://www.uniprot.org/uniprotkb/P34296#names_and_taxonomy), [CG10954](https://www.uniprot.org/uniprotkb/Q9VIM5#names_and_taxonomy)
 
 ORF names are not propagated across species.
 

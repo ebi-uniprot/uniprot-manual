@@ -4,7 +4,7 @@ categories: Expression,manual
 ---
 
 This subsection of the 'Expression' section provides information on the expression of a gene at the mRNA or protein level in cells or in tissues of multicellular organisms. By default, the information is derived from experiments at the mRNA level, unless specified 'at protein level'.  
-Examples: [P92958](https://www.uniprot.org/uniprotkb/P92958#expression) , [Q8TDN4](https://www.uniprot.org/uniprotkb/Q8TDN4#expression) , [O14734](https://www.uniprot.org/uniprotkb/O14734#expression)
+Examples: [P92958](https://www.uniprot.org/uniprotkb/P92958#expression), [Q8TDN4](https://www.uniprot.org/uniprotkb/Q8TDN4#expression), [O14734](https://www.uniprot.org/uniprotkb/O14734#expression)
 
 The documented absence of a given gene product in a tissue is also indicated.  
 Example: [Q8K3X6](https://www.uniprot.org/uniprotkb/Q8K3X6#expression)

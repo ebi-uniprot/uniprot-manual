@@ -34,7 +34,7 @@ The databases are categorized for easy user perusal and understanding of how the
 
 ### Cross-references to 'Sequence databases'
 
-If a sequence submitted to EMBL/GenBank/DDBJ present some discrepancies with the [canonical sequence](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms) , these latter are documented in the ['Sequence conflict'](https://www.uniprot.org/help/conflict) subsection of the 'Sequence' section. However, if these discrepancies are severe, the underlying cross-reference to EMBL/GenBank/DDBJ is tagged.
+If a sequence submitted to EMBL/GenBank/DDBJ present some discrepancies with the [canonical sequence](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms), these latter are documented in the ['Sequence conflict'](https://www.uniprot.org/help/conflict) subsection of the 'Sequence' section. However, if these discrepancies are severe, the underlying cross-reference to EMBL/GenBank/DDBJ is tagged.
 
 Four different tags are used to mark problematic sequences submitted to the EMBL/GenBank/DDBJ databases:
 
@@ -54,7 +54,7 @@ Four different tags are used to mark problematic sequences submitted to the EMBL
 <!-- -->
 
 -   'Sequence problems': discrepancies are due to an erroneous gene model prediction, erroneous ORF assignement, miscellaneous discrepancy, etc.  
-    Example: [Q7XR80](https://www.uniprot.org/uniprotkb/Q7XR80#cross-references) , [Q8TBF5](https://www.uniprot.org/uniprotkb/Q8TBF5#cross-references)
+    Example: [Q7XR80](https://www.uniprot.org/uniprotkb/Q7XR80#cross-references), [Q8TBF5](https://www.uniprot.org/uniprotkb/Q8TBF5#cross-references)
 
 The discrepancies are described in more details in the ['Sequence Caution'](https://www.uniprot.org/help/sequence%5Fcaution) section.
 

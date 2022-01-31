@@ -5,7 +5,7 @@ categories: Names_and_taxonomy,manual
 
 This subsection of the [Names and taxonomy](http://www.uniprot.org/help/names%5Fand%5Ftaxonomy%5Fsection) section indicates if the gene coding for the protein originates from the hydrogenosome, the mitochondrion, the nucleomorph, different plastids or a plasmid. The absence of this section means that the gene is located in one of the main chromosomal element(s).
 
-Examples: [Hydrogenosome](https://www.uniprot.org/uniprotkb/Q5DUX5#names%5Fand%5Ftaxonomy) , [Nucleomorph](https://www.uniprot.org/uniprotkb/Q9SCC7#names%5Fand%5Ftaxonomy)
+Examples: [Hydrogenosome](https://www.uniprot.org/uniprotkb/Q5DUX5#names%5Fand%5Ftaxonomy), [Nucleomorph](https://www.uniprot.org/uniprotkb/Q9SCC7#names%5Fand%5Ftaxonomy)
 
 6 categories exist for plastids:
 

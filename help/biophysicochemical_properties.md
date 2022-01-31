@@ -11,7 +11,7 @@ We report the following biophysical and chemical properties:
 ### 1. Absorption {\#1\_\_Absorption}
 
 The 'Absorption' subsection is mainly used to indicate the wavelength at which photoreactive proteins, such as fluorescent proteins, opsins, and DNA photolyases, show maximal light absorption. Additional information, such as other observed absorbance maxima (of lesser importance), lambda(max) for light emission, experimental or environmental remarks may also be included in this subsection.  
-Examples: [O61303](https://www.uniprot.org/uniprotkb/O61303#function) , [P16102](https://www.uniprot.org/uniprotkb/P16102#function)
+Examples: [O61303](https://www.uniprot.org/uniprotkb/O61303#function), [P16102](https://www.uniprot.org/uniprotkb/P16102#function)
 
 ### 2. Kinetic parameters {\#2\_\_Kinetic\_parameters}
 
@@ -23,7 +23,7 @@ The Michaelis constant (KM) is defined as the substrate concentration at which t
 Example: [Q9YHY9](https://www.uniprot.org/uniprotkb/Q9YHY9#function)
 
 The maximal velocity of the reaction (or maximal rate) Vmax is the rate attained when the enzyme sites are saturated with substrate, i.e. when the substrate concentration is much higher than the KM.  
-Examples: [Q8W1X2](https://www.uniprot.org/uniprotkb/Q8W1X2#function) , [Q9V2Z6](https://www.uniprot.org/uniprotkb/Q9V2Z6#function)
+Examples: [Q8W1X2](https://www.uniprot.org/uniprotkb/Q8W1X2#function), [Q9V2Z6](https://www.uniprot.org/uniprotkb/Q9V2Z6#function)
 
 The Vmax value depends on environmental conditions, such as pH, temperature and ionic strength. This information may be added in brackets at the end of the line, when known.  
 Example: [Q9V2Z6](https://www.uniprot.org/uniprotkb/Q9V2Z6#function)
@@ -34,7 +34,7 @@ Example: [P37744](https://www.uniprot.org/uniprotkb/P37744#function)
 ### 3. pH dependence {\#3\_\_pH\_dependence}
 
 The 'pH dependence' subsection is used to describe the optimum pH for protein activity, the variation of activity with pH variation and the pH stability of the protein.  
-Examples: [P76316](https://www.uniprot.org/uniprotkb/P76316#function) , [Q58576](https://www.uniprot.org/uniprotkb/Q58576#function)
+Examples: [P76316](https://www.uniprot.org/uniprotkb/P76316#function), [Q58576](https://www.uniprot.org/uniprotkb/Q58576#function)
 
 ### 4. Redox potential {\#4\_\_Redox\_potential}
 
@@ -47,6 +47,6 @@ The 'Temperature dependence' subsection indicates the optimal temperature for en
 Example: [Q38857](https://www.uniprot.org/uniprotkb/Q38857#function)
 
 Note that when kinetic data were defined for a variant protein sequence, either containing a specific polymorphism or obtained by site-directed mutagenesis, they are described in the 'Natural variant' or 'Mutagenesis' subsections, respectively.  
-Examples: [P05062](https://www.uniprot.org/uniprotkb/P05062#function) , [Q9S4K9](https://www.uniprot.org/uniprotkb/Q9S4K9#function)
+Examples: [P05062](https://www.uniprot.org/uniprotkb/P05062#function), [Q9S4K9](https://www.uniprot.org/uniprotkb/Q9S4K9#function)
 
 Dissociation constant (Kd) values or inhibition constant (Ki) values are not considered in this section.

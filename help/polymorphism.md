@@ -12,9 +12,9 @@ This subsection may contain OMIM accession numbers, if available.
 Example: [P59533](https://www.uniprot.org/uniprotkb/P59533#sequences)
 
 It can be used to describe global variations in the population, such as blood group systems or polymorphic repeats.  
-Example: [Q92482](https://www.uniprot.org/uniprotkb/Q92482#sequences) , [P10275](https://www.uniprot.org/uniprotkb/P10275#sequences)  
+Example: [Q92482](https://www.uniprot.org/uniprotkb/Q92482#sequences), [P10275](https://www.uniprot.org/uniprotkb/P10275#sequences)  
 Since repeat expansion may lead to disease onset, both subsections ' [Polymorphism](https://www.uniprot.org/help/polymorphism) ' and ' [Involvement in disease](https://www.uniprot.org/help/involvement_in_disease) ' may be present in an entry.  
-Examples: [P54259](https://www.uniprot.org/uniprotkb/P54259#sequences) , [P42858](https://www.uniprot.org/uniprotkb/P42858#sequences)
+Examples: [P54259](https://www.uniprot.org/uniprotkb/P54259#sequences), [P42858](https://www.uniprot.org/uniprotkb/P42858#sequences)
 
 Alleles described in this subsection follow the official nomenclature.  
 Example: [Q03519](https://www.uniprot.org/uniprotkb/Q03519#sequences)

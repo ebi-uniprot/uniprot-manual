@@ -40,4 +40,4 @@ Remarks:
 
 Three [UniRef](http://www.uniprot.org/help/uniref) databases - UniRef100, UniRef90 and UniRef50 - merge sequences automatically across species.
 
-UniRef100 is 'non-redundant' in the sense that identical sequences and subfragments are presented as a single entry. For example, see the UniRef100 cluster for [ubiquitin](http://www.uniprot.org/uniref/?query=member%3aP62975+identity:1.0) , which contains 100% identical sequences from many different organisms.
+UniRef100 is 'non-redundant' in the sense that identical sequences and subfragments are presented as a single entry. For example, see the UniRef100 cluster for [ubiquitin](http://www.uniprot.org/uniref/?query=member%3aP62975+identity:1.0), which contains 100% identical sequences from many different organisms.

@@ -3,7 +3,7 @@ title: How can I download data at every UniProt release?
 categories: UniProtKB,UniRef,UniParc,Download,Technical,Release,faq
 ---
 
-If the data sets you need are available on our [ftp site](https://ftp.uniprot.org/pub/databases/uniprot/) , we recommend that you download them from there. Other data sets can be downloaded by querying this website (read [how to retrieve entries via queries programmatically](http://www.uniprot.org/help/api%5Fqueries) ), but please use a [tool](http://www.uniprot.org/help/api%5Fdownloading) that makes use of the HTTP protocol's `If-Modified-Since` header to avoid more than one download per release.
+If the data sets you need are available on our [ftp site](https://ftp.uniprot.org/pub/databases/uniprot/), we recommend that you download them from there. Other data sets can be downloaded by querying this website (read [how to retrieve entries via queries programmatically](http://www.uniprot.org/help/api%5Fqueries) ), but please use a [tool](http://www.uniprot.org/help/api%5Fdownloading) that makes use of the HTTP protocol's `If-Modified-Since` header to avoid more than one download per release.
 
 See also:
 

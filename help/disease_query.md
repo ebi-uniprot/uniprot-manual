@@ -11,7 +11,7 @@ You can use three methods to search proteins associated with a given disease.
 
 -   Select `Protein Knowledgebase (UniProtKB)` from the dataset dropdown next to the search box
 -   Click **Advanced** to open the query builder
--   Select **Field** : `Pathology and Biotech` , or start typing "disease" in the text box with the grey text "Search for field"
+-   Select **Field** : `Pathology and Biotech`, or start typing "disease" in the text box with the grey text "Search for field"
 -   Type the name of a disease in the **Term** box (e.g. 'adrenal hyperplasia')
 -   Click on the looking glass icon to launch the search
 -   **[result](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3Adisease+%22adrenal+hyperplasia%22%29)**
@@ -24,7 +24,7 @@ You can use three methods to search proteins associated with a given disease.
 
 3\) Browse by keyword:
 
-Some proteins involved in a specific non-monogenic disease are associated with specialized 'disease' keywords ( ['Diabetes mellitus'](http://www.uniprot.org/keywords/219) , ['Cataract'](http://www.uniprot.org/keywords/898) , ['Alzheimer disease'](http://www.uniprot.org/keywords/26) ...)
+Some proteins involved in a specific non-monogenic disease are associated with specialized 'disease' keywords ( ['Diabetes mellitus'](http://www.uniprot.org/keywords/219), ['Cataract'](http://www.uniprot.org/keywords/898), ['Alzheimer disease'](http://www.uniprot.org/keywords/26) ...)
 
 -   Go to the [keywords page](http://www.uniprot.org/keywords/)
 -   Click the keyword category `'Disease'`

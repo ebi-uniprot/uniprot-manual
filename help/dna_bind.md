@@ -9,7 +9,7 @@ We annotate experimentally defined DNA-binding domains and conserved DNA-binding
 
 ### 1. Predicted DNA-binding domains {\#1\_\_Predicted\_DNA\_binding\_domains}
 
-Examples: [P10103](https://www.uniprot.org/uniprotkb/P10103#function) , [P46200](https://www.uniprot.org/uniprotkb/P46200#function) , [Q9SGJ6](https://www.uniprot.org/uniprotkb/Q9SGJ6#function) , [P14921](https://www.uniprot.org/uniprotkb/P14921#function) , [P55317](https://www.uniprot.org/uniprotkb/P55317#function) , [P30658](https://www.uniprot.org/uniprotkb/P30658#function)
+Examples: [P10103](https://www.uniprot.org/uniprotkb/P10103#function), [P46200](https://www.uniprot.org/uniprotkb/P46200#function), [Q9SGJ6](https://www.uniprot.org/uniprotkb/Q9SGJ6#function), [P14921](https://www.uniprot.org/uniprotkb/P14921#function), [P55317](https://www.uniprot.org/uniprotkb/P55317#function), [P30658](https://www.uniprot.org/uniprotkb/P30658#function)
 
 #### Special types of DNA-binding domain
 
@@ -21,15 +21,15 @@ For bHLH proteins, the basic region is usually directly followed by the HLH doma
 Example: [P35869](https://www.uniprot.org/uniprotkb/P35869#family%5Fand%5Fdomains)
 
 In bZIP proteins, the basic region is followed by the leucine-zipper domain, characterized by an LXXXXXXL motif, and begins with the first Leu/Ile and stops with the last Leu/Ile residues.  
-Examples: [P18289](https://www.uniprot.org/uniprotkb/P18289#family_and_domains) , [P15407](https://www.uniprot.org/uniprotkb/P15407#family_and_domains)
+Examples: [P18289](https://www.uniprot.org/uniprotkb/P18289#family_and_domains), [P15407](https://www.uniprot.org/uniprotkb/P15407#family_and_domains)
 
 ##### b. Homeobox proteins
 
 Homeobox proteins constitute a large family which contains several subtypes. When a homeobox belongs to a subtype, it is indicated in the 'Description' field after 'Homeobox' preceded by a semicolon.  
-Examples: [Q9H2P0](https://www.uniprot.org/uniprotkb/Q9H2P0#function) , [O81788](https://www.uniprot.org/uniprotkb/O81788#function) , [Q90655](https://www.uniprot.org/uniprotkb/Q90655#function) , [P20823](https://www.uniprot.org/uniprotkb/P20823#function)
+Examples: [Q9H2P0](https://www.uniprot.org/uniprotkb/Q9H2P0#function), [O81788](https://www.uniprot.org/uniprotkb/O81788#function), [Q90655](https://www.uniprot.org/uniprotkb/Q90655#function), [P20823](https://www.uniprot.org/uniprotkb/P20823#function)
 
 When a particular homeobox is incomplete or differs significantly from the consensus it may be annotated as either 'partial' or 'atypical'.  
-Examples: [Q6WRX8](https://www.uniprot.org/uniprotkb/Q6WRX8#function) , [Q8MJD5](https://www.uniprot.org/uniprotkb/Q8MJD5#function)
+Examples: [Q6WRX8](https://www.uniprot.org/uniprotkb/Q6WRX8#function), [Q8MJD5](https://www.uniprot.org/uniprotkb/Q8MJD5#function)
 
 ### 2. Experimentally determined DNA-binding domains {\#2\_\_Experimentally\_determined\_DNA\_binding\_domains}
 

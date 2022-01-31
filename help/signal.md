@@ -36,7 +36,7 @@ Predicted TAT signal sequences are identified using the PROSITE profile [PS51318
 Predicted cleavage sites are tagged with evidence ['Sequence analysis'](http://www.uniprot.org/help/evidences#ECO:0000255) or with the [automatic annotation](http://www.uniprot.org/help/automatic%5Fannotation) rule from which the predicted result was propagated.  
 Example: [P36649](https://www.uniprot.org/uniprotkb/P36649#ptm_processing)
 
-In **UniProtKB/TrEMBL** , signal peptides are annotated automatically by our [sequence annotation module using SignalP.](http://www.uniprot.org/help/sam)
+In **UniProtKB/TrEMBL**, signal peptides are annotated automatically by our [sequence annotation module using SignalP.](http://www.uniprot.org/help/sam)
 
 Related keyword:  
 [Signal](http://www.uniprot.org/keywords/732)

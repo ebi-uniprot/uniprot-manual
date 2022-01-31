@@ -44,7 +44,7 @@ Note: Some of the human entries in UniProtKB/Swiss-Prot are not included in the 
 
 -   Query: [proteome:up000005640 AND reviewed:yes](https://www.uniprot.org/uniprotkb/?query=proteome:up000005640+AND+reviewed:yes&format=fasta&include=yes)
 
-3\) <u>additional predicted and unreviewed sequences in UniProtKB/TrEMBL</u> , flagged to be part of the proteome, which may correspond to novel isoform sequences for genes present in UniProtKB/Swiss-Prot (derived from the Ensembl pipeline):
+3\) <u>additional predicted and unreviewed sequences in UniProtKB/TrEMBL</u>, flagged to be part of the proteome, which may correspond to novel isoform sequences for genes present in UniProtKB/Swiss-Prot (derived from the Ensembl pipeline):
 
 -   Query: [proteome:up000005640 AND reviewed:no](https://www.uniprot.org/uniprotkb/?query=proteome:up000005640+AND+reviewed%3Ano)
 

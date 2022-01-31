@@ -8,7 +8,7 @@ This subsection of the [Function](http://www.uniprot.org/help/function%5Fsection
 Example: [P17289](https://www.uniprot.org/uniprotkb/P17289#function)
 
 A regulation can be allosteric, performed by natural or synthetic products or may be due to a post-translational modification (PTM).  
-Examples: [P0A9C5](https://www.uniprot.org/uniprotkb/P0A9C5#function) , [Q96EB6](https://www.uniprot.org/uniprotkb/Q96EB6#function)
+Examples: [P0A9C5](https://www.uniprot.org/uniprotkb/P0A9C5#function), [Q96EB6](https://www.uniprot.org/uniprotkb/Q96EB6#function)
 
 This subsection describes the regulation at the protein level. We do not describe genetic regulation.
 

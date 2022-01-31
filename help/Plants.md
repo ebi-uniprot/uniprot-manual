@@ -29,6 +29,6 @@ We are working on the establishment and annotation of a comprehensive, non-redun
 
 Rice contains two major subspecies: the sticky, short grained [japonica](http://www.uniprot.org/taxonomy/39947) or sinica variety, and the non-sticky, long-grained [indica](http://www.uniprot.org/taxonomy/39946) variety. A first draft of the complete sequences of both genomes was published in 2002 while improved versions were released in 2005.
 
-Our major effort is currently directed towards the annotation of the proteins encoded by the genome of [*Oryza sativa* subspecies *japonica*](http://www.uniprot.org/taxonomy/39947) , cultivar *nipponbare* .
+Our major effort is currently directed towards the annotation of the proteins encoded by the genome of [*Oryza sativa* subspecies *japonica*](http://www.uniprot.org/taxonomy/39947), cultivar *nipponbare* .
 
 -   The *Oryza sativa* subsp. *japonica* entries which have been manually annotated are [listed here](http://www.uniprot.org/docs/rice) [(statistics)](http://www.uniprot.org/biocuration%5Fproject/Plants/statistics/#Oryzasativasubspjaponica) .

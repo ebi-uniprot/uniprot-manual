@@ -5,7 +5,7 @@ categories: Taxonomy,Controlled_vocabulary,help
 
 <div>
 
-The taxonomy database that is maintained by the UniProt group is based on the [NCBI taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy) , which is supplemented with data specific to the UniProt Knowledgebase (UniProtKB). While the NCBI taxonomy is updated daily to be in sync with GenBank/EMBL-Bank/DDBJ, the UniProt taxonomy is updated only at UniProt releases to be in sync with UniProtKB. It may therefore happen that for the time period of a UniProt release, you can find new taxa at the NCBI that are not yet in UniProt (and vice versa for deleted taxa).
+The taxonomy database that is maintained by the UniProt group is based on the [NCBI taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy), which is supplemented with data specific to the UniProt Knowledgebase (UniProtKB). While the NCBI taxonomy is updated daily to be in sync with GenBank/EMBL-Bank/DDBJ, the UniProt taxonomy is updated only at UniProt releases to be in sync with UniProtKB. It may therefore happen that for the time period of a UniProt release, you can find new taxa at the NCBI that are not yet in UniProt (and vice versa for deleted taxa).
 
 Species with manually annotated and reviewed protein sequences in the Swiss-Prot section of UniProtKB are named according to [UniProt nomenclature](http://www.uniprot.org/help/taxonomy#organism-denomination) . In particular, we have adopted a systematic convention for naming viral and bacterial strains and isolates.
 
@@ -70,7 +70,7 @@ Organism nomenclature has always been an area where the creativity of biologists
 
 #### Lineage and taxonomy node rank
 
-Taxonomy is organized in a tree structure that represents the taxonomic lineage. The position of each node on the tree is determined by its rank in the taxonomy hierarchy, so that the last ranks (usually `    species   ` or `    subspecies   ` ) represent the leaves on the tree's branches and higher ranks (e.g. `    phylum   ` , `    order   ` and `    family   ` ) are placed higher on the tree. The ordered list of the nodes forms the lineage.
+Taxonomy is organized in a tree structure that represents the taxonomic lineage. The position of each node on the tree is determined by its rank in the taxonomy hierarchy, so that the last ranks (usually `    species   ` or `    subspecies   ` ) represent the leaves on the tree's branches and higher ranks (e.g. `    phylum   `, `    order   ` and `    family   ` ) are placed higher on the tree. The ordered list of the nodes forms the lineage.
 
 The UniProt taxonomy database stores the taxonomy tree structure, thus making it possible to navigate from one node to another and to access the lineage for each node.
 

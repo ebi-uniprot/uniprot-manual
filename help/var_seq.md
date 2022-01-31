@@ -13,7 +13,7 @@ Each 'Alternative sequence' subsection has stable [feature identifiers (FTIds)](
 
 Related keywords:
 
-[Alternative splicing](http://www.uniprot.org/keywords/25) , [Alternative initiation](http://www.uniprot.org/keywords/24) , [Alternative promoter usage](http://www.uniprot.org/keywords/877) , [Ribosomal frameshifting](http://www.uniprot.org/keywords/688) .
+[Alternative splicing](http://www.uniprot.org/keywords/25), [Alternative initiation](http://www.uniprot.org/keywords/24), [Alternative promoter usage](http://www.uniprot.org/keywords/877), [Ribosomal frameshifting](http://www.uniprot.org/keywords/688) .
 
 Related terms: splice variant, splice isoform
 

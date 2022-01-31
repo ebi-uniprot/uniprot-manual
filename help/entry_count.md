@@ -3,7 +3,7 @@ title: How can I (programmatically) obtain the number of results returned by my 
 categories: Programmatic_access,Text_search,Technical,faq
 ---
 
-If you are accessing UniProt programmatically, using our [REST API](http://www.uniprot.org/help/api) , and are just interested in the number of entries returned by your query, but not in downloading or listing all the hits, you can check the `X-Total-Results` header like in the PERL code example [Download all UniProt sequences for a given organism in FASTA format](http://www.uniprot.org/help/programmatic%5Faccess#downloading) .
+If you are accessing UniProt programmatically, using our [REST API](http://www.uniprot.org/help/api), and are just interested in the number of entries returned by your query, but not in downloading or listing all the hits, you can check the `X-Total-Results` header like in the PERL code example [Download all UniProt sequences for a given organism in FASTA format](http://www.uniprot.org/help/programmatic%5Faccess#downloading) .
 
 This returns the entry count, allowing you to count the hits without actually retrieving them.
 

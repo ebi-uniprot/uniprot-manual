@@ -5,11 +5,11 @@ categories: Subcellular_location,manual
 
 This subsection provides information on the location and the topology of the mature protein in the cell.
 
-The information contained in this subsection uses a structured hierarchy of [controlled vocabulary](http://www.uniprot.org/locations) , except for the 'Note' which allows free text.  
+The information contained in this subsection uses a structured hierarchy of [controlled vocabulary](http://www.uniprot.org/locations), except for the 'Note' which allows free text.  
 Example: [Q9ULX6](https://www.uniprot.org/uniprotkb/Q9ULX6#subcellular%5Flocation)
 
 The whole ontology is described, if known.  
-Example: [Q02630](https://www.uniprot.org/uniprotkb/Q02630#subcellular%5Flocation) , [P38182](https://www.uniprot.org/uniprotkb/P38182#subcellular%5Flocation)
+Example: [Q02630](https://www.uniprot.org/uniprotkb/Q02630#subcellular%5Flocation), [P38182](https://www.uniprot.org/uniprotkb/P38182#subcellular%5Flocation)
 
 The subcellular location generally concerns the mature protein. When specific alternative products (isoforms or derived peptides for example) have a specific location, that is clearly indicated.  
 Example: [O43687](https://www.uniprot.org/uniprotkb/O43687#subcellular_location)

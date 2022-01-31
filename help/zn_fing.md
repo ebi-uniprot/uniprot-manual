@@ -10,7 +10,7 @@ A zinc finger is a small, functional, independently folded domain that coordinat
 ### 1. Types of zinc finger {\#1\_\_Types\_of\_zinc\_finger}
 
 There are more than 40 types of zinc fingers annotated in UniProtKB. The most frequent are the C2H2-type, the CCHC-type, the PHD-type and the RING-type.  
-Examples: [Q7Z142](https://www.uniprot.org/uniprotkb/Q7Z142#function) , [P55197](https://www.uniprot.org/uniprotkb/P55197#function) , [Q9P2R3](https://www.uniprot.org/uniprotkb/Q9P2R3#function) , [Q9P2G1](https://www.uniprot.org/uniprotkb/Q9P2G1#function) , [Q9P2S6](https://www.uniprot.org/uniprotkb/Q9P2S6#function) , [Q8IUH5](https://www.uniprot.org/uniprotkb/Q8IUH5#function) , [P19811](https://www.uniprot.org/uniprotkb/P19811#function) , [Q92793](https://www.uniprot.org/uniprotkb/Q92793#function) , [P36406](https://www.uniprot.org/uniprotkb/P36406#function) , [O95081](https://www.uniprot.org/uniprotkb/O95081#function) , [Q9ULV3](https://www.uniprot.org/uniprotkb/Q9ULV3#function)
+Examples: [Q7Z142](https://www.uniprot.org/uniprotkb/Q7Z142#function), [P55197](https://www.uniprot.org/uniprotkb/P55197#function), [Q9P2R3](https://www.uniprot.org/uniprotkb/Q9P2R3#function), [Q9P2G1](https://www.uniprot.org/uniprotkb/Q9P2G1#function), [Q9P2S6](https://www.uniprot.org/uniprotkb/Q9P2S6#function), [Q8IUH5](https://www.uniprot.org/uniprotkb/Q8IUH5#function), [P19811](https://www.uniprot.org/uniprotkb/P19811#function), [Q92793](https://www.uniprot.org/uniprotkb/Q92793#function), [P36406](https://www.uniprot.org/uniprotkb/P36406#function), [O95081](https://www.uniprot.org/uniprotkb/O95081#function), [Q9ULV3](https://www.uniprot.org/uniprotkb/Q9ULV3#function)
 
 ### 2. Annotation of zinc fingers predicted using InterPro resources {\#2\_\_Annotation\_of\_zinc\_fingers\_predicted\_using\_InterPro\_resources}
 
@@ -43,7 +43,7 @@ Atypical zinc fingers are those which deviate from a consensus profile or patter
 Example: [P47043](https://www.uniprot.org/uniprotkb/P47043#function)
 
 Degenerate zinc fingers are those which deviate from a consensus profile or pattern and which have also lost the ability to bind zinc. These may include zinc fingers in which cysteine is replaced by amino acids other than histidine or where the spacing between cysteine or histidine residues is outside the range of normal or atypical zinc fingers, or truncated zinc fingers.  
-Examples: [Q80ZQ5](https://www.uniprot.org/uniprotkb/Q80ZQ5#function) , [Q19203](https://www.uniprot.org/uniprotkb/Q19203#function) , [Q15911](https://www.uniprot.org/uniprotkb/Q15911#function)
+Examples: [Q80ZQ5](https://www.uniprot.org/uniprotkb/Q80ZQ5#function), [Q19203](https://www.uniprot.org/uniprotkb/Q19203#function), [Q15911](https://www.uniprot.org/uniprotkb/Q15911#function)
 
 ### 3. Annotation of zinc fingers not represented in InterPro {\#3\_\_Annotation\_of\_zinc\_fingers\_not\_represented\_in\_InterPro}
 
@@ -56,11 +56,11 @@ C4-type zinc fingers are characterized by 4 cysteine residues that coordinate zi
 Example: [P10827](https://www.uniprot.org/uniprotkb/P10827#function)
 
 In archaea and bacteria, C4-type zinc fingers are found in a limited number of proteins, including some conserved protein families. These include the UvrA subfamily of ABC transporters (MF\_00205 family), the clpX chaperone family (MF\_00175 family) and the recR family (MF\_00017 family). We annotate these highly conserved C4-type zinc fingers, but those not found in other proteins, unless there is some good evidence.  
-Examples: [Q8UF86](https://www.uniprot.org/uniprotkb/Q8UF86#function) , [P0A6H1](https://www.uniprot.org/uniprotkb/P0A6H1#function) , [P24277](https://www.uniprot.org/uniprotkb/P24277#function)
+Examples: [Q8UF86](https://www.uniprot.org/uniprotkb/Q8UF86#function), [P0A6H1](https://www.uniprot.org/uniprotkb/P0A6H1#function), [P24277](https://www.uniprot.org/uniprotkb/P24277#function)
 
 Related keywords:  
-[Metal-binding](http://www.uniprot.org/keywords/479) ,  
-[Zinc](http://www.uniprot.org/keywords/862) ,  
+[Metal-binding](http://www.uniprot.org/keywords/479),  
+[Zinc](http://www.uniprot.org/keywords/862),  
 [Zinc finger](http://www.uniprot.org/keywords/863) .
 
 See also:

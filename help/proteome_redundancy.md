@@ -17,7 +17,7 @@ See also: [Elimination of redundant proteomes (UniProt blog)](https://insideunip
 
 ### What is the impact on UniProtKB?
 
-Since UniProt [release 2015\_04](http://www.uniprot.org/news/2015/04/01/release) , we have been using the Proteome Redundancy Detector to discard entries belonging to redundant proteomes of bacterial, and later also archaeal and fungal species in the unreviewed UniProtKB (TrEMBL) set. Redundant proteomes are flagged as redundant in the UniProt [Proteomes](http://www.uniprot.org/proteomes) portal (example: [UP000008521](http://www.uniprot.org/proteomes/UP000008521) is redundant to [UP000008520](http://www.uniprot.org/proteomes/UP000008520) ) and are labelled with a specific icon
+Since UniProt [release 2015\_04](http://www.uniprot.org/news/2015/04/01/release), we have been using the Proteome Redundancy Detector to discard entries belonging to redundant proteomes of bacterial, and later also archaeal and fungal species in the unreviewed UniProtKB (TrEMBL) set. Redundant proteomes are flagged as redundant in the UniProt [Proteomes](http://www.uniprot.org/proteomes) portal (example: [UP000008521](http://www.uniprot.org/proteomes/UP000008521) is redundant to [UP000008520](http://www.uniprot.org/proteomes/UP000008520) ) and are labelled with a specific icon
 
 .
 

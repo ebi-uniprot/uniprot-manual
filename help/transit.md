@@ -44,7 +44,7 @@ Example: [Q6GQ48](https://www.uniprot.org/uniprotkb/Q6GQ48#ptm%5Fprocessing)
 
 ### 2. Annotation of predicted transit peptides: {\#2\_*Annotation\_of\_predicted\_transit\_peptides*}
 
-We also annotate transit peptides which are predicted by the application of the predictive tools [Mitofates](http://mitf.cbrc.jp/MitoFates/cgi-bin/top.cgi) , [Predotar](http://urgi.versailles.inra.fr/predotar/predotar.html) and [TargetP](http://www.cbs.dtu.dk/services/TargetP/) , but only when such predictions are consistent with the known or presumed subcellular location of the protein concerned. The predicted positions of the transit peptide are annotated with evidence ['Sequence analysis'](http://www.uniprot.org/help/evidences#ECO:0000255) .  
+We also annotate transit peptides which are predicted by the application of the predictive tools [Mitofates](http://mitf.cbrc.jp/MitoFates/cgi-bin/top.cgi), [Predotar](http://urgi.versailles.inra.fr/predotar/predotar.html) and [TargetP](http://www.cbs.dtu.dk/services/TargetP/), but only when such predictions are consistent with the known or presumed subcellular location of the protein concerned. The predicted positions of the transit peptide are annotated with evidence ['Sequence analysis'](http://www.uniprot.org/help/evidences#ECO:0000255) .  
 Example: [P91929](https://www.uniprot.org/uniprotkb/P91929#ptm_processing)
 
 See also:
@@ -54,11 +54,11 @@ See also:
 -   [Sequence annotation (features)](http://www.uniprot.org/help/sequence%5Fannotation)
 
 Related keywords:  
-[Transit peptide](http://www.uniprot.org/keywords/809) ,  
-[Chloroplast](http://www.uniprot.org/keywords/150) ,  
-[Cyanelle](http://www.uniprot.org/keywords/194) ,  
-[Glyoxysome](http://www.uniprot.org/keywords/330) ,  
-[Hydrogenosome](http://www.uniprot.org/keywords/377) ,  
-[Mitochondrion](http://www.uniprot.org/keywords/496) ,  
-[Peroxisome](http://www.uniprot.org/keywords/576) ,  
+[Transit peptide](http://www.uniprot.org/keywords/809),  
+[Chloroplast](http://www.uniprot.org/keywords/150),  
+[Cyanelle](http://www.uniprot.org/keywords/194),  
+[Glyoxysome](http://www.uniprot.org/keywords/330),  
+[Hydrogenosome](http://www.uniprot.org/keywords/377),  
+[Mitochondrion](http://www.uniprot.org/keywords/496),  
+[Peroxisome](http://www.uniprot.org/keywords/576),  
 [Thylakoid](http://www.uniprot.org/keywords/793) .

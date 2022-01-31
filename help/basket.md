@@ -16,7 +16,7 @@ The UniProt basket allows you to
 
 You can add proteins to your basket **from search result pages** for the UniProtKB, UniRef or UniParc datasets. Simply select them in the result table and click on the 'Add to basket' button.
 
-You can also add proteins to your basket **from the protein entry pages** , using the 'Add to basket' button towards the top of the page.  
+You can also add proteins to your basket **from the protein entry pages**, using the 'Add to basket' button towards the top of the page.  
 Once you add entries to your basket, you will see a small basket icon appear under the entry ID. You will also see the number on the basket changing to show that new proteins have been added.
 
 ### Using the basket

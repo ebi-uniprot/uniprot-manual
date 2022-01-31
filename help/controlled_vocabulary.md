@@ -60,7 +60,7 @@ UniProtKB/Swiss-Prot document: [Controlled vocabulary of posttranslational modif
 
 #### Species
 
-The [Controlled vocabulary of species](http://www.uniprot.org/docs/speclist) contains two sublists: the *Real organism codes* , which are used in both UniProtKB/Swiss-Prot and UniProtKB/TrEMBL and which correspond to a specific and specified organism; the *Virtual organism codes* that regroup organisms at a certain taxonomic level. They generally correspond to a 'pool' of organisms and are used only in UniProtKB/TrEMBL.
+The [Controlled vocabulary of species](http://www.uniprot.org/docs/speclist) contains two sublists: the *Real organism codes*, which are used in both UniProtKB/Swiss-Prot and UniProtKB/TrEMBL and which correspond to a specific and specified organism; the *Virtual organism codes* that regroup organisms at a certain taxonomic level. They generally correspond to a 'pool' of organisms and are used only in UniProtKB/TrEMBL.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of species](http://www.uniprot.org/docs/speclist)  
 UniProt web page: [Taxonomy](http://www.uniprot.org/taxonomy/)

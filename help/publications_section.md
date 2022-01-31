@@ -44,7 +44,7 @@ The author(s) names are cited as completely as possible: we keep all initials an
 We also try to be as consistent as possible with author(s) names: when an author name is misspelled, we correct it and homogenize it in the database.
 
 In some cases, the name provided is actually the name of a consortium, and not of individual authors. That is mainly used for direct submissions to databases but can also be used in full references, when the consortium is cited as an author. Note that consortium and authors names may coexist in a single reference.  
-Examples: [Q7TQA9](http://www.uniprot.org/uniprot/Q7TQA9/publications) , [O60260](http://www.uniprot.org/uniprot/O60260/publications)
+Examples: [Q7TQA9](http://www.uniprot.org/uniprot/Q7TQA9/publications), [O60260](http://www.uniprot.org/uniprot/O60260/publications)
 
 ### 4. Reference information {\#4\_\_Reference\_information}
 
@@ -62,12 +62,12 @@ When a reference is made to a publication which is 'in press' at the time the da
 #### b) Electronic publications
 
 The reference information for an electronic publication includes an '(er)'prefix.  
-Examples: [O64948](http://www.uniprot.org/uniprot/O64948/publications) , [Q09517](http://www.uniprot.org/uniprot/Q09517/publications)
+Examples: [O64948](http://www.uniprot.org/uniprot/O64948/publications), [Q09517](http://www.uniprot.org/uniprot/Q09517/publications)
 
 #### c) Book citations
 
 The reference information for articles found in books or other types of publication includes the book name, the volume number, the page range, the publisher, the city and the year.  
-Examples: [P00065](http://www.uniprot.org/uniprot/P00065/publications) , [P04560](http://www.uniprot.org/uniprot/P04560/publications) , [P02675](http://www.uniprot.org/uniprot/P02675/publications)
+Examples: [P00065](http://www.uniprot.org/uniprot/P00065/publications), [P04560](http://www.uniprot.org/uniprot/P04560/publications), [P02675](http://www.uniprot.org/uniprot/P02675/publications)
 
 #### d) Unpublished observations
 
@@ -97,7 +97,7 @@ We report the data submitted to the following databases:
 -   the PDB data bank
 -   the PIR data bank
 
-Examples: [P50388](http://www.uniprot.org/uniprot/P50388/publications) , [P83886](http://www.uniprot.org/uniprot/P83886/publications) , [P38013](http://www.uniprot.org/uniprot/P38013/publications)
+Examples: [P50388](http://www.uniprot.org/uniprot/P50388/publications), [P83886](http://www.uniprot.org/uniprot/P83886/publications), [P38013](http://www.uniprot.org/uniprot/P38013/publications)
 
 ### 5. Cross-references {\#5\_\_Cross\_references}
 
@@ -110,7 +110,7 @@ When present, it provides cross-references to:
 -   the abstract as supplied by the publishers
 -   the article from publisher, which corresponds to the digital Object Identifier (DOI)
 
-Examples: [P02675](http://www.uniprot.org/uniprot/P02675/publications) , [Q10670](http://www.uniprot.org/uniprot/Q10670/publications) , [Q9LFB2](http://www.uniprot.org/uniprot/Q9LFB2/publications) , [Q3EDJ0](http://www.uniprot.org/uniprot/Q3EDJ0/publications)
+Examples: [P02675](http://www.uniprot.org/uniprot/P02675/publications), [Q10670](http://www.uniprot.org/uniprot/Q10670/publications), [Q9LFB2](http://www.uniprot.org/uniprot/Q9LFB2/publications), [Q3EDJ0](http://www.uniprot.org/uniprot/Q3EDJ0/publications)
 
 ### 6. Cited for {\#6\_\_Cited\_for}
 
@@ -136,10 +136,10 @@ The qualifier '\[LARGE SCALE ANALYSIS\]' indicates that the reference reports la
 Example: [Q9JIX8](http://www.uniprot.org/uniprot/Q9JIX8/publications)
 
 Protein-protein interactions (using the official gene name when it exists), mutagenesis experiments, natural variants and post-translational modifications (PTMs) information is also precisely indicated.  
-Examples: [Q96BI3](http://www.uniprot.org/uniprot/Q96BI3/publications) , [Q96EP1](http://www.uniprot.org/uniprot/Q96EP1/publications) , [P62739](http://www.uniprot.org/uniprot/P62739/publications)
+Examples: [Q96BI3](http://www.uniprot.org/uniprot/Q96BI3/publications), [Q96EP1](http://www.uniprot.org/uniprot/Q96EP1/publications), [P62739](http://www.uniprot.org/uniprot/P62739/publications)
 
 When 3D structure information has been retrieved from the reference, we indicate the method used and - for X-ray crystallography - the highest resolution, the range of the domain, and the structure that has been determined.  
-Examples: [P17427](http://www.uniprot.org/uniprot/P17427/publications) , [P00831](http://www.uniprot.org/uniprot/P00831/publications)
+Examples: [P17427](http://www.uniprot.org/uniprot/P17427/publications), [P00831](http://www.uniprot.org/uniprot/P00831/publications)
 
 ### 7. Sequence origin {\#7\_\_Sequence\_origin}
 
@@ -150,7 +150,7 @@ The strains listed in the 'Strains' token are sorted alphabetically. All frequen
 The tissues listed in the 'Tissue' token are sorted alphabetically. All tissues indicated in this token in UniProtKB/Swiss-Prot are listed in the document ['Controlled vocabulary of tissues'](http://www.uniprot.org/docs/tisslist) . Whenever possible, UniProtKB/TrEMBL also makes use of this controlled tissue list, and efforts are made to automatically match tissues in UniProtKB/TrEMBL entries to tissues from this list. However, due to the nature of the data in UniProtKB/TrEMBL, this is not always possible.
 
 The 'Plasmid' token is only used if an entry describes an identical sequence encoded on more than one plasmid. The document ['Controlled vocabulary of plasmids'](http://www.uniprot.org/docs/plasmid) lists all the plasmids that are used in UniProtKB/Swiss-Prot in the context of the 'plasmid' token.  
-Examples: [P18445](http://www.uniprot.org/uniprot/P18445/publications) , [Q28125](http://www.uniprot.org/uniprot/Q28125/publications) , [P30867](http://www.uniprot.org/uniprot/P30867/publications) , [P12121](http://www.uniprot.org/uniprot/P12121/publications) , [P00810](http://www.uniprot.org/uniprot/P00810/publications) , [Q9EVG8](http://www.uniprot.org/uniprot/Q9EVG8/publications) .
+Examples: [P18445](http://www.uniprot.org/uniprot/P18445/publications), [Q28125](http://www.uniprot.org/uniprot/Q28125/publications), [P30867](http://www.uniprot.org/uniprot/P30867/publications), [P12121](http://www.uniprot.org/uniprot/P12121/publications), [P00810](http://www.uniprot.org/uniprot/P00810/publications), [Q9EVG8](http://www.uniprot.org/uniprot/Q9EVG8/publications) .
 
 Many bacterial or fungal strains have names composed of an acronym (ATCC, DSM, NRRL...) followed by a number. These strains are maintained in specific culture collections. The most frequently cited are the following:
 
@@ -182,7 +182,7 @@ In order to keep up with the explosive growth of literature and to give our user
 
 ### <span id="community_bibliography">Community-submitted bibliography</span> {\#\_a\_name\_\_community\_bibliography\_\_Community\_submitted\_bibliography\_\_a\_}
 
-UniProt users have always actively engaged with us and provide important feedback to the resource. The significant number of requests we receive through the helpdesk for articles and annotations to be added to protein entries prompted the development of the [Community submission](https://community.uniprot.org/bbsub/bbsub.html) pipeline ('Add a publication' link in the entry view), where researchers are able to add articles that they deem relevant to an entry and provide optional basic annotation by selecting the topics relevant to each paper from a controlled list and/or adding short statements about protein name, function, and disease, as described in the publication. Contributors are asked to supply their [ORCID](https://orcid.org/) , a researcher personal ID, which is used to both validate that the submission is genuine and to give credit to the submitter for their work. Publications submitted in this manner are included, after a [synchronization delay](http://www.uniprot.org/help/synchronization) , in the list of publications for the relevant entry.
+UniProt users have always actively engaged with us and provide important feedback to the resource. The significant number of requests we receive through the helpdesk for articles and annotations to be added to protein entries prompted the development of the [Community submission](https://community.uniprot.org/bbsub/bbsub.html) pipeline ('Add a publication' link in the entry view), where researchers are able to add articles that they deem relevant to an entry and provide optional basic annotation by selecting the topics relevant to each paper from a controlled list and/or adding short statements about protein name, function, and disease, as described in the publication. Contributors are asked to supply their [ORCID](https://orcid.org/), a researcher personal ID, which is used to both validate that the submission is genuine and to give credit to the submitter for their work. Publications submitted in this manner are included, after a [synchronization delay](http://www.uniprot.org/help/synchronization), in the list of publications for the relevant entry.
 
 #### Related documents
 

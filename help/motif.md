@@ -8,7 +8,7 @@ This subsection of the 'Family and Domains' section describes a short (usually n
 Specific sequence motifs usually mediate a common function, such as protein-binding or targeting to a particular subcellular location, in a variety of proteins.
 
 Due to their short length and high level of sequence variability most motifs cannot be reliably predicted by computational means. Therefore we only annotate putative motifs when there is experimental evidence that the motif is functionally important or the presence of the putative motif is consistent with the function of the protein.  
-Examples: [Q9FFX4](https://www.uniprot.org/uniprotkb/Q9FFX4#family_and_domains) , [Q8K3W3](https://www.uniprot.org/uniprotkb/Q8K3W3#family_and_domains)
+Examples: [Q9FFX4](https://www.uniprot.org/uniprotkb/Q9FFX4#family_and_domains), [Q8K3W3](https://www.uniprot.org/uniprotkb/Q8K3W3#family_and_domains)
 
 **Some examples of specific motifs**
 

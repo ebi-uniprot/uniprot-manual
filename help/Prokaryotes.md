@@ -7,7 +7,7 @@ The Prokaryotic protein annotation project focuses on the manual annotation of b
 
 See: [How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/faq/45)
 
-Our major effort is currently directed towards the annotation of proteins from the already well-characterized model bacteria *[Escherichia coli](http://www.uniprot.org/taxonomy/83333)* and *[Bacillus subtilis](http://www.uniprot.org/taxonomy/224308)* , as well as the annotation of pathogens such as *[Mycobacterium tuberculosis](http://www.uniprot.org/taxonomy/1773)* .
+Our major effort is currently directed towards the annotation of proteins from the already well-characterized model bacteria *[Escherichia coli](http://www.uniprot.org/taxonomy/83333)* and *[Bacillus subtilis](http://www.uniprot.org/taxonomy/224308)*, as well as the annotation of pathogens such as *[Mycobacterium tuberculosis](http://www.uniprot.org/taxonomy/1773)* .
 
 -   All manually reviewed *Escherichia coli* entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:83333+AND+reviewed:yes) [(statistics)](http://www.uniprot.org/biocuration%5Fproject/Prokaryotes/statistics#Escherichiacoli)
 -   All manually reviewed *Bacillus subtilis* entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:224308+AND+reviewed:yes) [(statistics)](http://www.uniprot.org/biocuration%5Fproject/Prokaryotes/statistics#Bacillussubtilis)

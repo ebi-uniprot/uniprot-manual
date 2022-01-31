@@ -6,7 +6,7 @@ categories: Function,manual
 This subsection of the [Function](http://www.uniprot.org/help/function%5Fsection) describes the function(s) of a protein.
 
 When a protein is a precursor of different chains/peptides having different functions, we specify the role of each peptide in separate paragraphs.  
-Examples: [Q8MMJ7](https://www.uniprot.org/uniprotkb/Q8MMJ7#function) , [Q9UBU3](https://www.uniprot.org/uniprotkb/Q9UBU3#function)
+Examples: [Q8MMJ7](https://www.uniprot.org/uniprotkb/Q8MMJ7#function), [Q9UBU3](https://www.uniprot.org/uniprotkb/Q9UBU3#function)
 
 The same holds true for isoform-specific functions.  
 Example: [P16157](https://www.uniprot.org/uniprotkb/P16157#function)

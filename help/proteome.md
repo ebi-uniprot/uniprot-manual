@@ -68,14 +68,14 @@ Please note that there may be several proteomes per [taxonomic identifier](http:
 
 **How can I download proteomes?**
 
-Our [FTP server](http://www.uniprot.org/downloads) allows to download precomputed [data sets for reference proteomes](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/reference%5Fproteomes/README) , based on a gene-centric perspective. For each reference proteome, protein FASTA files (composed of canonical and additional sequences), gene mapping files, Coding DNA Sequence (CDS) FASTA files and database mapping files are available. It may be advisable to prefer an FTP download of these precomputed sets over the HTTP download of query results on the website, because HTTP streams for large datasets tend to fail after a while due to packet loss.
+Our [FTP server](http://www.uniprot.org/downloads) allows to download precomputed [data sets for reference proteomes](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/reference%5Fproteomes/README), based on a gene-centric perspective. For each reference proteome, protein FASTA files (composed of canonical and additional sequences), gene mapping files, Coding DNA Sequence (CDS) FASTA files and database mapping files are available. It may be advisable to prefer an FTP download of these precomputed sets over the HTTP download of query results on the website, because HTTP streams for large datasets tend to fail after a while due to packet loss.
 
 To download the results of a text search in UniProtKB:
 
 -   Click the **Download** button
 -   Choose the download format
 
-To download your favorite proteomes programmatically, please go to the help page [Downloading data at every UniProt release](http://www.uniprot.org/help/api%5Fdownloading) , where you will find a code example that illustrates how to download the proteomes for all organisms below a given taxonomic node in FASTA format.
+To download your favorite proteomes programmatically, please go to the help page [Downloading data at every UniProt release](http://www.uniprot.org/help/api%5Fdownloading), where you will find a code example that illustrates how to download the proteomes for all organisms below a given taxonomic node in FASTA format.
 
 Note that the download formats which describe complete UniProtKB entries (flat text, XML, RDF/XML) include only the ['canonical'](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms) or displayed protein sequences of UniProtKB entries. These canonical sequences can also be downloaded in FASTA format (option `Canonical sequence data in FASTA format` ), as can a set of protein sequences including both canonical and manually reviewed 'isoform sequences' from UniProtKB/Swiss-Prot (where available) using the option `Canonical and isoform sequence data in FASTA format` .
 

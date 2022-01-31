@@ -31,9 +31,9 @@ When mapping from a source database external to UniProt, you can submit any iden
 
 #### Further queries involving your UniProtKB data sets
 
-After you have submitted your data, you are forwarded to a query result page showing the correspondence of submitted identifiers (from external databases, or obsolete UniProtKB identifiers) with current UniProtKB accession numbers. You can use the [basket](http://www.uniprot.org/help/basket) , download and align services like in any query result, as well as [reconfigure the table layout](http://www.uniprot.org/help/customize) ("Columns") or add additional constraints to your query.
+After you have submitted your data, you are forwarded to a query result page showing the correspondence of submitted identifiers (from external databases, or obsolete UniProtKB identifiers) with current UniProtKB accession numbers. You can use the [basket](http://www.uniprot.org/help/basket), download and align services like in any query result, as well as [reconfigure the table layout](http://www.uniprot.org/help/customize) ("Columns") or add additional constraints to your query.
 
-Jobs have unique **identifiers** , which (depending on the job type) can be used in queries (e.g. to get the intersection of two sequence similarity searches). Job identifiers and the related data are kept for 7 days, and are then deleted.
+Jobs have unique **identifiers**, which (depending on the job type) can be used in queries (e.g. to get the intersection of two sequence similarity searches). Job identifiers and the related data are kept for 7 days, and are then deleted.
 
 #### Unmapped identifiers
 

@@ -18,7 +18,7 @@ Note that for EF-hand containing proteins at least one of the EF-hands must reta
 Additional information concerning for example, relative affinity for calcium, may also be indicated.  
 Example: [P02639](https://www.uniprot.org/uniprotkb/P02639#function)
 
-EF-hand motifs are routinely detected using the PROSITE profile [PS50222](http://prosite.expasy.org/PDOC00018) , which covers the entire EF-hand and which also detects EF-hands that no longer retain the ability to bind calcium. A complementary pattern ( [PS00018](http://prosite.expasy.org/PDOC00018) ,) is used to determine whether the EF-hand has the ability to coordinate calcium. The consensus pattern for calcium-binding is:
+EF-hand motifs are routinely detected using the PROSITE profile [PS50222](http://prosite.expasy.org/PDOC00018), which covers the entire EF-hand and which also detects EF-hands that no longer retain the ability to bind calcium. A complementary pattern ( [PS00018](http://prosite.expasy.org/PDOC00018),) is used to determine whether the EF-hand has the ability to coordinate calcium. The consensus pattern for calcium-binding is:
 
     D-x-[DNS]-{ILVFYW}-[DENSTG]-[DNQGHRK]-{GP}-[LIVMC]-[DENQSTAGC]-x(2)-[DE]
 

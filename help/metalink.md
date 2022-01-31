@@ -10,7 +10,7 @@ Every folder on our [FTP server](https://ftp.uniprot.org/) contains a file calle
 
 [Metalink](http://en.wikipedia.org/wiki/Metalink) is an extensible metadata file format that describes one or more computer files available for download. It facilitates file verification and recovery from data corruption and lists alternate download sources (mirror URIs).
 
-Various command line download tools, e.g. [cURL](http://curl.haxx.se/) version 7.30 or higher and [aria2](http://aria2.sourceforge.net/) , support metalink.
+Various command line download tools, e.g. [cURL](http://curl.haxx.se/) version 7.30 or higher and [aria2](http://aria2.sourceforge.net/), support metalink.
 
 Example: The following command will download all files in the `current_release/` folder and verify their MD5 checksums:
 

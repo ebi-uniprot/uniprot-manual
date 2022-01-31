@@ -11,7 +11,7 @@ If the canonical sequence requires processing to become mature, the following co
 Example: [P01308](https://www.uniprot.org/uniprotkb/P01308#sequences)
 
 Processing of the precursor includes signal peptide and propeptide cleavage, transit peptide cleavage or initiator methionine cleavage. The processing required for maturation is described in the [PTM / Processing](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section.  
-Examples: [P01308](https://www.uniprot.org/uniprotkb/P01308#ptm%5Fprocessing) , [Q99K67](https://www.uniprot.org/uniprotkb/Q99K67#ptm%5Fprocessing) , [P68250](https://www.uniprot.org/uniprotkb/P68250#ptm%5Fprocessing)
+Examples: [P01308](https://www.uniprot.org/uniprotkb/P01308#ptm%5Fprocessing), [Q99K67](https://www.uniprot.org/uniprotkb/Q99K67#ptm%5Fprocessing), [P68250](https://www.uniprot.org/uniprotkb/P68250#ptm%5Fprocessing)
 
 ### Other case
 

@@ -13,7 +13,7 @@ UniProt provides several application programming interfaces (APIs) to query and 
 
 ### Proteins REST API
 
-**What:** Extended REST API with a service providing [genomic coordinates](https://www.ebi.ac.uk/proteins/api/doc/#coordinatesApi) of UniProtKB sequences, and other services providing annotations imported and mapped from Large Scale data Sources (LSS), such as 1000Genomes, ExAC, PeptideAtlas, MaxQB and HPA via the [variation](http://www.ebi.ac.uk/proteins/api/doc/#/variation) , [proteomics](http://www.ebi.ac.uk/proteins/api/doc/#proteomics) , and [antigen](http://www.ebi.ac.uk/proteins/api/doc/#/antigen) services.  
+**What:** Extended REST API with a service providing [genomic coordinates](https://www.ebi.ac.uk/proteins/api/doc/#coordinatesApi) of UniProtKB sequences, and other services providing annotations imported and mapped from Large Scale data Sources (LSS), such as 1000Genomes, ExAC, PeptideAtlas, MaxQB and HPA via the [variation](http://www.ebi.ac.uk/proteins/api/doc/#/variation), [proteomics](http://www.ebi.ac.uk/proteins/api/doc/#proteomics), and [antigen](http://www.ebi.ac.uk/proteins/api/doc/#/antigen) services.  
 **Why:** Access data sets mapped to UniProt and integrated through a single service.  
 **Documentation:** <https://www.ebi.ac.uk/proteins/api/doc/>
 

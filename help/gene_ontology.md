@@ -13,7 +13,7 @@ UniProtKB lists selected terms derived from the GO project. The GO terms derived
 
 GO terms can be manually or electronically assigned to a UniProtKB entry:
 
--   Manually assigned GO terms found in UniProtKB/Swiss-Prot are associated with one of 15 [GO evidence codes](http://www.geneontology.org/GO.evidence.shtml?all) , as well as with a link to the relevant publication, when available. These GO annotations are tagged with a yellow source/evidence label.
+-   Manually assigned GO terms found in UniProtKB/Swiss-Prot are associated with one of 15 [GO evidence codes](http://www.geneontology.org/GO.evidence.shtml?all), as well as with a link to the relevant publication, when available. These GO annotations are tagged with a yellow source/evidence label.
 
 <!-- -->
 

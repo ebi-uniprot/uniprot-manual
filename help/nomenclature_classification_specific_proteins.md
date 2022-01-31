@@ -31,7 +31,7 @@ Related keyword: [Blood group antigen](http://www.uniprot.org/keywords/KW-0095)
 Phosphorylation by protein kinases is a universal cell-signaling fundamental process in eukaryotic cells. The list of all UniProtKB/Swiss-Prot human and mouse protein kinases, systematically classified (e.g. PKA, PKC, Tyr), is aimed at facilitating the retrieval of all kinases of the human and mouse kinomes.
 
 UniProtKB/Swiss-Prot document: [Human and mouse protein kinases](http://www.uniprot.org/docs/pkinfam)  
-Related keywords: [Kinase](http://www.uniprot.org/keywords/KW-0418) , [Serine/threonine-protein kinase](http://www.uniprot.org/keywords/KW-0723) , [Tyrosine-protein kinase](http://www.uniprot.org/keywords/KW-0829)
+Related keywords: [Kinase](http://www.uniprot.org/keywords/KW-0418), [Serine/threonine-protein kinase](http://www.uniprot.org/keywords/KW-0723), [Tyrosine-protein kinase](http://www.uniprot.org/keywords/KW-0829)
 
 ### Human cell differentiation molecules (CD)
 

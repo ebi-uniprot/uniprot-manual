@@ -7,7 +7,7 @@ UniProt's [Automatic Annotation pipeline](http://www.uniprot.org/help/automatic%
 
 ### Methods
 
-Predictions of sequence features such as [Signal](http://www.uniprot.org/help/signal) , [Transmembrane](http://www.uniprot.org/help/transmem) , [Coiled coil](http://www.uniprot.org/help/coiled) and [intrinsically disordered](https://en.wikipedia.org/wiki/Intrinsically%5Fdisordered%5Fproteins) regions (the latter described in [Region](http://www.uniprot.org/help/region) and [Compositional bias](http://www.uniprot.org/help/compbias) annotations) are generated using the following software from external providers:
+Predictions of sequence features such as [Signal](http://www.uniprot.org/help/signal), [Transmembrane](http://www.uniprot.org/help/transmem), [Coiled coil](http://www.uniprot.org/help/coiled) and [intrinsically disordered](https://en.wikipedia.org/wiki/Intrinsically%5Fdisordered%5Fproteins) regions (the latter described in [Region](http://www.uniprot.org/help/region) and [Compositional bias](http://www.uniprot.org/help/compbias) annotations) are generated using the following software from external providers:
 
 -   [TMHMM](http://www.cbs.dtu.dk/services/TMHMM/)
 -   [SignalP](http://www.cbs.dtu.dk/services/SignalP/)

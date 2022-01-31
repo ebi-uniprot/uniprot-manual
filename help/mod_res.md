@@ -3,7 +3,7 @@ title: Modified residue
 categories: PTM_processing,manual
 ---
 
-This subsection of the 'PTM / Processing' section specifies the position and type of each modified residue excluding [lipids](https://www.uniprot.org/help/lipid) , [glycans](https://www.uniprot.org/help/carbohyd) and [protein cross-links](https://www.uniprot.org/help/crosslnk) .
+This subsection of the 'PTM / Processing' section specifies the position and type of each modified residue excluding [lipids](https://www.uniprot.org/help/lipid), [glycans](https://www.uniprot.org/help/carbohyd) and [protein cross-links](https://www.uniprot.org/help/crosslnk) .
 
 Common modifications include phosphorylation, methylation, acetylation, amidation, formation of pyrrolidone carboxylic acid, isomerization, hydroxylation, sulfation, flavin-binding, cysteine oxidation and nitrosylation.
 
@@ -11,7 +11,7 @@ We describe the chemical nature of the modified residue using a controlled vocab
 
 We provide additional information concerning the modification, such as:
 
-1.  the **form of the protein** which undergoes the modification; this may be either a specific **isoform** , a particular **processed or modified form** of the protein, or a specific **sequence variant** ;  
+1.  the **form of the protein** which undergoes the modification; this may be either a specific **isoform**, a particular **processed or modified form** of the protein, or a specific **sequence variant** ;  
     Examples: [P41500](https://www.uniprot.org/uniprotkb/P41500#ptm%5Fprocessing) (isoform), [P84715](https://www.uniprot.org/uniprotkb/P84715#ptm%5Fprocessing) (processed form), [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm%5Fprocessing) (sequence variant)
 2.  the **enzyme** which carries out the modification ('by...'). For proteins of infectious organisms, such as viruses, phages and bacteria, we also indicate whether the modification is carried out by a **host** protein;  
     Examples: [P03279](https://www.uniprot.org/uniprotkb/P03279#ptm%5Fprocessing) (modifying enzyme indicated), [Q53EZ4](https://www.uniprot.org/uniprotkb/Q53EZ4#ptm%5Fprocessing) (viral protein modified by host protein)
@@ -38,7 +38,7 @@ P0A6N3 (orthologous entry)
 **Sites that are not modified**
 
 When a site is found not to be modified, and if this is of biological significance, we indicate it in the 'Site' subsection. This information is not propagated in related entries.  
-Examples: [Q10471](https://www.uniprot.org/uniprotkb/Q10471#ptm_processing) , [P62152](https://www.uniprot.org/uniprotkb/P62152#ptm_processing) , [P32457](https://www.uniprot.org/uniprotkb/P32457#ptm_processing) , [P07173](https://www.uniprot.org/uniprotkb/P07173#ptm_processing) .
+Examples: [Q10471](https://www.uniprot.org/uniprotkb/Q10471#ptm_processing), [P62152](https://www.uniprot.org/uniprotkb/P62152#ptm_processing), [P32457](https://www.uniprot.org/uniprotkb/P32457#ptm_processing), [P07173](https://www.uniprot.org/uniprotkb/P07173#ptm_processing) .
 
 **Unknown sites bearing unknown modifications**
 
@@ -56,11 +56,11 @@ Example: [O15350](https://www.uniprot.org/uniprotkb/O15350#ptm%5Fprocessing)
 
 Since phosphorylation (phosphoserine, phosphothreonine and phosphotyrosine) is a reversible modification, phosphorylation sites are never annotated as 'partial'.
 
-Examples: [Q9RQQ9](https://www.uniprot.org/uniprotkb/Q9RQQ9#ptm%5Fprocessing) , [P02662](https://www.uniprot.org/uniprotkb/P02662#ptm%5Fprocessing) , [P04859](https://www.uniprot.org/uniprotkb/P04859#ptm%5Fprocessing) , [P68433](https://www.uniprot.org/uniprotkb/P68433#ptm%5Fprocessing)
+Examples: [Q9RQQ9](https://www.uniprot.org/uniprotkb/Q9RQQ9#ptm%5Fprocessing), [P02662](https://www.uniprot.org/uniprotkb/P02662#ptm%5Fprocessing), [P04859](https://www.uniprot.org/uniprotkb/P04859#ptm%5Fprocessing), [P68433](https://www.uniprot.org/uniprotkb/P68433#ptm%5Fprocessing)
 
 Histidine can be phosphorylated on either of its two nitrogen atoms. We refer to 'Pros-phosphohistidine', when phosphorylation occurs on the nitrogen atom that is closest to the alpha-carbon and 'Tele-phosphohistidine', where it occurs on the most distal one. When the exact position of phosphate attachment on histidine is not known we simply use the term 'Phosphohistidine'.
 
-Examples: [P0AA06](https://www.uniprot.org/uniprotkb/P0AA06#ptm_processing) , [P39928](https://www.uniprot.org/uniprotkb/P39928#ptm_processing) , [P16575](https://www.uniprot.org/uniprotkb/P16575#ptm_processing) , [P26762](https://www.uniprot.org/uniprotkb/P26762#ptm_processing) , [P0A0E2](https://www.uniprot.org/uniprotkb/P0A0E2#ptm_processing)
+Examples: [P0AA06](https://www.uniprot.org/uniprotkb/P0AA06#ptm_processing), [P39928](https://www.uniprot.org/uniprotkb/P39928#ptm_processing), [P16575](https://www.uniprot.org/uniprotkb/P16575#ptm_processing), [P26762](https://www.uniprot.org/uniprotkb/P26762#ptm_processing), [P0A0E2](https://www.uniprot.org/uniprotkb/P0A0E2#ptm_processing)
 
 Note that phosphorylation of aspartate follows a specific syntax:
 
@@ -78,7 +78,7 @@ Related keyword: [Methylation](http://www.uniprot.org/keywords/488)
 
 Carboxyl methylation can occur either on a C-terminal cysteine, leucine or lysine residue, or on the side chain of a glutamate residue (or glutamine, after deamidation). It can affect protein-protein interactions and protein function.
 
-Examples: [P67775](https://www.uniprot.org/uniprotkb/P67775#ptm_processing) , [P02994](https://www.uniprot.org/uniprotkb/P02994#ptm_processing)
+Examples: [P67775](https://www.uniprot.org/uniprotkb/P67775#ptm_processing), [P02994](https://www.uniprot.org/uniprotkb/P02994#ptm_processing)
 
 Cysteine carboxymethylation frequently occurs after prenylation of the CAAX (Cys - aliphatic\_twice - any residue) sequence and proteolytic cleavage of the C-A bond.
 
@@ -92,13 +92,13 @@ Example: [P07018](https://www.uniprot.org/uniprotkb/P07018#ptm%5Fprocessing)
 
 Nitrogen methylation can occur on the N-terminus of a polypeptide chain on a phenylalanine, isoleucine, leucine, methionine, tyrosine, proline or alanine residue. It can also occur on the side chain of lysine, arginine or histidine residues. In eukaryotes, arginine and lysine methylation have been found mainly on histones and play an important role in signal transduction processes, nuclear transport and regulation of transcription.
 
-Examples: [P0A7N9](https://www.uniprot.org/uniprotkb/P0A7N9#ptm_processing) , [P00873](https://www.uniprot.org/uniprotkb/P00873#ptm_processing)
+Examples: [P0A7N9](https://www.uniprot.org/uniprotkb/P0A7N9#ptm_processing), [P00873](https://www.uniprot.org/uniprotkb/P00873#ptm_processing)
 
 #### Histidine methylation
 
 Histidine methylation can occur on two positions, which are specified as 'Pros-methylhistidine' and 'Tele-methylhistidine'. When the exact position of the methylation is not known, we simply indicate 'Methylhistidine'.
 
-Examples: [P31725](https://www.uniprot.org/uniprotkb/P31725#ptm_processing) , [P62739](https://www.uniprot.org/uniprotkb/P62739#ptm_processing) , [P24020](https://www.uniprot.org/uniprotkb/P24020#ptm_processing)
+Examples: [P31725](https://www.uniprot.org/uniprotkb/P31725#ptm_processing), [P62739](https://www.uniprot.org/uniprotkb/P62739#ptm_processing), [P24020](https://www.uniprot.org/uniprotkb/P24020#ptm_processing)
 
 #### Lysine methylation
 
@@ -112,11 +112,11 @@ Lysine methylation can compete with acetylation on the same residue. In this cas
 
 Arginine can be monomethylated or dimethylated in two ways which leads to four different descriptions: 'Omega-N-methylarginine', 'Dimethylated arginine', 'Symmetric dimethylarginine' and 'Asymmetric dimethylarginine'. If the residue is dimethylated, but the position of the methyl groups is unknown, it is annotated as 'Dimethylated arginine'. If the number of methyl groups is unknown, the ambiguous description 'Omega-N-methylated arginine' is used. This general description is also used when propagating information to homologous proteins.
 
-Examples: [Q07666](https://www.uniprot.org/uniprotkb/Q07666#ptm_processing) , [P11940](https://www.uniprot.org/uniprotkb/P11940#ptm_processing) , [Q60487](https://www.uniprot.org/uniprotkb/Q60487#ptm_processing) , [P45481](https://www.uniprot.org/uniprotkb/P45481#ptm_processing)
+Examples: [Q07666](https://www.uniprot.org/uniprotkb/Q07666#ptm_processing), [P11940](https://www.uniprot.org/uniprotkb/P11940#ptm_processing), [Q60487](https://www.uniprot.org/uniprotkb/Q60487#ptm_processing), [P45481](https://www.uniprot.org/uniprotkb/P45481#ptm_processing)
 
 #### Other rare examples of side chain methylation
 
-Examples: [P00318](https://www.uniprot.org/uniprotkb/P00318#ptm_processing) , [P0A287](https://www.uniprot.org/uniprotkb/P0A287#ptm_processing)
+Examples: [P00318](https://www.uniprot.org/uniprotkb/P00318#ptm_processing), [P0A287](https://www.uniprot.org/uniprotkb/P0A287#ptm_processing)
 
 ### 3. Acetylation {\#3\_\_Acetylation}
 
@@ -130,7 +130,7 @@ N-terminal acetylation is one of the most common post-translational modification
 
 We annotate experimentally determined sites of N-terminal acetylation and this information is propagated 'By similarity' to homologous proteins in related species.
 
-Examples: [P23542](https://www.uniprot.org/uniprotkb/P23542#ptm_processing) , [P68251](https://www.uniprot.org/uniprotkb/P68251#ptm_processing) , [P01201](https://www.uniprot.org/uniprotkb/P01201#ptm_processing) , [P41682](https://www.uniprot.org/uniprotkb/P41682#ptm_processing) , [Q71SP7](https://www.uniprot.org/uniprotkb/Q71SP7#ptm_processing)
+Examples: [P23542](https://www.uniprot.org/uniprotkb/P23542#ptm_processing), [P68251](https://www.uniprot.org/uniprotkb/P68251#ptm_processing), [P01201](https://www.uniprot.org/uniprotkb/P01201#ptm_processing), [P41682](https://www.uniprot.org/uniprotkb/P41682#ptm_processing), [Q71SP7](https://www.uniprot.org/uniprotkb/Q71SP7#ptm_processing)
 
 #### Internal acetylation
 
@@ -140,7 +140,7 @@ Lysine acetylation can compete with acetylation on the same residue, in which ca
 
 We annotate experimentally determined sites of internal acetylation and propagate the information 'By similarity' to homologous proteins in related species.
 
-Examples: [P0C0S9](https://www.uniprot.org/uniprotkb/P0C0S9#ptm_processing) , [Q12158](https://www.uniprot.org/uniprotkb/Q12158#ptm_processing) , [Q9NHD5](https://www.uniprot.org/uniprotkb/Q9NHD5#ptm_processing) , [Q8ZKF6](https://www.uniprot.org/uniprotkb/Q8ZKF6#ptm_processing) , [Q88EH6](https://www.uniprot.org/uniprotkb/Q88EH6#ptm_processing)
+Examples: [P0C0S9](https://www.uniprot.org/uniprotkb/P0C0S9#ptm_processing), [Q12158](https://www.uniprot.org/uniprotkb/Q12158#ptm_processing), [Q9NHD5](https://www.uniprot.org/uniprotkb/Q9NHD5#ptm_processing), [Q8ZKF6](https://www.uniprot.org/uniprotkb/Q8ZKF6#ptm_processing), [Q88EH6](https://www.uniprot.org/uniprotkb/Q88EH6#ptm_processing)
 
 ### 4. Amidation {\#4\_\_Amidation}
 
@@ -152,11 +152,11 @@ The sequence including the amidated position generally conforms to the consensus
 
 We annotate experimentally determined sites of amidation, which may be propagated to homologous proteins in related species. For each amidation, we specify the position of the glycine which provides the amide group, provided it is present within the mature protein chain. We also specify the position at which the protein is cleaved, if that is known, and the limits of the peptide which is removed by cleavage. For aspartate and glutamate amides the position of the amide is also indicated as the side chains of these amino acids can theoretically be modified to amides by a different reaction.
 
-Examples: [P58913](https://www.uniprot.org/uniprotkb/P58913#ptm_processing) , [P09859](https://www.uniprot.org/uniprotkb/P09859#ptm_processing)
+Examples: [P58913](https://www.uniprot.org/uniprotkb/P58913#ptm_processing), [P09859](https://www.uniprot.org/uniprotkb/P09859#ptm_processing)
 
 #### Terminal amidation
 
-Examples: [P69148](https://www.uniprot.org/uniprotkb/P69148#ptm_processing) , [P82387](https://www.uniprot.org/uniprotkb/P82387#ptm_processing)
+Examples: [P69148](https://www.uniprot.org/uniprotkb/P69148#ptm_processing), [P82387](https://www.uniprot.org/uniprotkb/P82387#ptm_processing)
 
 #### Glutamate amidation
 
@@ -172,7 +172,7 @@ This modification has been observed in eukaryotes (including mammals, plants, in
 Synonyms: pyrrolidone carboxylic acid (Pca), pyroglutamic acid (Pga), pyroglutamate (pyro-Glu, pGlu, Pyr).  
 *Note* : Pyro-Glu is often indicated in papers as 'pGlu' and sometimes, in one-letter code as "U", although this is now used for selenocysteine. In figures of publications, it may be cited as Z, pQ or E.
 
-Examples: [P30233](https://www.uniprot.org/uniprotkb/P30233#ptm_processing) , [P68000](https://www.uniprot.org/uniprotkb/P68000#ptm_processing) , [P02945](https://www.uniprot.org/uniprotkb/P02945#ptm_processing)
+Examples: [P30233](https://www.uniprot.org/uniprotkb/P30233#ptm_processing), [P68000](https://www.uniprot.org/uniprotkb/P68000#ptm_processing), [P02945](https://www.uniprot.org/uniprotkb/P02945#ptm_processing)
 
 Related keyword: [Pyrrolidone carboxylic acid](http://www.uniprot.org/keywords/873)
 
@@ -190,14 +190,14 @@ Related keyword: [D-amino acid](http://www.uniprot.org/keywords/208)
 
 D-alanine can originate from both alanine and serine. The name of the original amino acid is given in brackets in the 'Description' field.
 
-Examples: [O93456](https://www.uniprot.org/uniprotkb/O93456#ptm_processing) , [P23826](https://www.uniprot.org/uniprotkb/P23826#ptm_processing)
+Examples: [O93456](https://www.uniprot.org/uniprotkb/O93456#ptm_processing), [P23826](https://www.uniprot.org/uniprotkb/P23826#ptm_processing)
 
 2 stereoisomers of L-isoleucine can exist: D-allo-isoleucine and D-threo-isoleucine. However, only the allo-isomer has been observed so far.
 
 Example: [P29006](https://www.uniprot.org/uniprotkb/P29006#ptm_processing)
 
 When D-amino acids are found as partners of a cross-link, it is indicated in the 'Cross-link' subsection.  
-Examples: [P08136](https://www.uniprot.org/uniprotkb/P08136#ptm_processing) , [O07623](https://www.uniprot.org/uniprotkb/O07623#ptm_processing)
+Examples: [P08136](https://www.uniprot.org/uniprotkb/P08136#ptm_processing), [O07623](https://www.uniprot.org/uniprotkb/O07623#ptm_processing)
 
 ### 7. Hydroxylation {\#7\_\_Hydroxylation}
 
@@ -215,11 +215,11 @@ Both C3 and C4 of proline can be hydroxylated. The carbon bearing the hydroxyl g
 
 **4-hydroxyproline**
 
-Examples: [Q5E9E3](https://www.uniprot.org/uniprotkb/Q5E9E3#ptm_processing) , [P60245](https://www.uniprot.org/uniprotkb/P60245#ptm_processing)
+Examples: [Q5E9E3](https://www.uniprot.org/uniprotkb/Q5E9E3#ptm_processing), [P60245](https://www.uniprot.org/uniprotkb/P60245#ptm_processing)
 
 **3-hydroxyproline**
 
-Examples: [P30754](https://www.uniprot.org/uniprotkb/P30754#ptm_processing) , [Q9S8M0](https://www.uniprot.org/uniprotkb/Q9S8M0#ptm_processing) , [Q16665](https://www.uniprot.org/uniprotkb/Q16665#ptm_processing)
+Examples: [P30754](https://www.uniprot.org/uniprotkb/P30754#ptm_processing), [Q9S8M0](https://www.uniprot.org/uniprotkb/Q9S8M0#ptm_processing), [Q16665](https://www.uniprot.org/uniprotkb/Q16665#ptm_processing)
 
 The information on hydroxyproline may be propagated 'By similarity' to closely related organisms.
 
@@ -235,13 +235,13 @@ Example: [Q3Y5Z3](https://www.uniprot.org/uniprotkb/Q3Y5Z3#ptm_processing)
 
 **4,5-dihydroxylysine, 3',4'-dihydroxyphenylalanine (DOPA), 3,4-dihydroxyarginine**
 
-Examples: [O18495](https://www.uniprot.org/uniprotkb/O18495#ptm_processing) , [Q25460](https://www.uniprot.org/uniprotkb/Q25460#ptm_processing) , [O18496](https://www.uniprot.org/uniprotkb/O18496#ptm_processing)
+Examples: [O18495](https://www.uniprot.org/uniprotkb/O18495#ptm_processing), [Q25460](https://www.uniprot.org/uniprotkb/Q25460#ptm_processing), [O18496](https://www.uniprot.org/uniprotkb/O18496#ptm_processing)
 
 #### Hydroxyasparagine
 
-**3-hydroxyasparagine** , **3-hydroxyaspartate** .
+**3-hydroxyasparagine**, **3-hydroxyaspartate** .
 
-Examples: [Q8CG16](https://www.uniprot.org/uniprotkb/Q8CG16#ptm_processing) , [O88278](https://www.uniprot.org/uniprotkb/O88278#ptm_processing)
+Examples: [Q8CG16](https://www.uniprot.org/uniprotkb/Q8CG16#ptm_processing), [O88278](https://www.uniprot.org/uniprotkb/O88278#ptm_processing)
 
 ### 8. Sulfation {\#8\_\_Sulfation}
 
@@ -258,7 +258,7 @@ Example: [Q7LZ52](https://www.uniprot.org/uniprotkb/Q7LZ52#ptm_processing)
 
 #### Serine and threonine sulfation:
 
-Examples: [Q01974](https://www.uniprot.org/uniprotkb/Q01974#ptm_processing) , [Q8IIJ9](https://www.uniprot.org/uniprotkb/Q8IIJ9#ptm_processing)
+Examples: [Q01974](https://www.uniprot.org/uniprotkb/Q01974#ptm_processing), [Q8IIJ9](https://www.uniprot.org/uniprotkb/Q8IIJ9#ptm_processing)
 
 We annotate not only experimentally determined sites of tyrosine sulfation (as well as that on serine and threonine residues), but also tyrosine sulfation sites predicted with the ['Sulfinator'](http://web.expasy.org/sulfinator/) tool. Sulfation prediction is taken into account only when this modification is known to occur on the protein concerned but the exact site is not known. The annotation of a predicted site is flagged with 'Sequence Analysis' (Sequence Model).  
 Example: [P30443](https://www.uniprot.org/uniprotkb/P30443#ptm_processing)
@@ -267,9 +267,9 @@ Example: [P30443](https://www.uniprot.org/uniprotkb/P30443#ptm_processing)
 
 Enzymes involved in electron transport, oxidation and reduction often contain a flavin group (flavin mononucleotide \[FMN\]) or flavin adenine dinucleotide \[FAD\]) as a cofactor. When the cofactor is covalently bound to the protein, this is considered as a post-translational modification and is annotated in the 'Amino acid modifications' subsection. When the cofactor is not covalently bound, the binding region is annotated in the ['Nucleotide binding'](https://www.uniprot.org/help/np%5Fbind) subsection. The flavin can be transferred to the hydroxyl group of a serine, threonine or tyrosine, to the one or the other nitrogen of a histidine or to the sulfhydryl group of a cysteine. Flavin-binding has been observed in all organisms.
 
-Examples: [P21398](https://www.uniprot.org/uniprotkb/P21398#ptm%5Fprocessing) , [P09788](https://www.uniprot.org/uniprotkb/P09788#ptm%5Fprocessing) , [Q9UI17](https://www.uniprot.org/uniprotkb/Q9UI17#ptm%5Fprocessing) , [Q752Y3](https://www.uniprot.org/uniprotkb/Q752Y3#ptm%5Fprocessing) , [Q9K0M5](https://www.uniprot.org/uniprotkb/Q9K0M5#ptm%5Fprocessing) , [Q9KPS2](https://www.uniprot.org/uniprotkb/Q9KPS2#ptm%5Fprocessing) , [O34627](https://www.uniprot.org/uniprotkb/O34627#ptm%5Fprocessing) , [Q48303](https://www.uniprot.org/uniprotkb/Q48303#ptm%5Fprocessing) , [P40875](https://www.uniprot.org/uniprotkb/P40875#ptm%5Fprocessing)
+Examples: [P21398](https://www.uniprot.org/uniprotkb/P21398#ptm%5Fprocessing), [P09788](https://www.uniprot.org/uniprotkb/P09788#ptm%5Fprocessing), [Q9UI17](https://www.uniprot.org/uniprotkb/Q9UI17#ptm%5Fprocessing), [Q752Y3](https://www.uniprot.org/uniprotkb/Q752Y3#ptm%5Fprocessing), [Q9K0M5](https://www.uniprot.org/uniprotkb/Q9K0M5#ptm%5Fprocessing), [Q9KPS2](https://www.uniprot.org/uniprotkb/Q9KPS2#ptm%5Fprocessing), [O34627](https://www.uniprot.org/uniprotkb/O34627#ptm%5Fprocessing), [Q48303](https://www.uniprot.org/uniprotkb/Q48303#ptm%5Fprocessing), [P40875](https://www.uniprot.org/uniprotkb/P40875#ptm%5Fprocessing)
 
-Related keywords: [Flavoprotein](http://www.uniprot.org/keywords/285) , [FAD](http://www.uniprot.org/keywords/274) , [FMN](http://www.uniprot.org/keywords/288)
+Related keywords: [Flavoprotein](http://www.uniprot.org/keywords/285), [FAD](http://www.uniprot.org/keywords/274), [FMN](http://www.uniprot.org/keywords/288)
 
 ### 10. Cysteine oxidation and nitrosylation {\#10\_\_Cysteine\_oxidation\_and\_nitrosylation}
 
@@ -282,13 +282,13 @@ In response to severe oxidative stress, cysteines are irreversibly oxidized to c
 
 #### Sulfenic and sulfinic acid
 
-Examples: [P13448](https://www.uniprot.org/uniprotkb/P13448#ptm%5Fprocessing) , [P03122](https://www.uniprot.org/uniprotkb/P03122#ptm%5Fprocessing)
+Examples: [P13448](https://www.uniprot.org/uniprotkb/P13448#ptm%5Fprocessing), [P03122](https://www.uniprot.org/uniprotkb/P03122#ptm%5Fprocessing)
 
 Related keyword: [Oxidation](http://www.uniprot.org/keywords/558)
 
 #### S-nitrosocysteine
 
-Examples: [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm%5Fprocessing) , [P0ACQ6](https://www.uniprot.org/uniprotkb/P0ACQ6#ptm%5Fprocessing)
+Examples: [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm%5Fprocessing), [P0ACQ6](https://www.uniprot.org/uniprotkb/P0ACQ6#ptm%5Fprocessing)
 
 Related keyword: [S-nitrosylation](http://www.uniprot.org/keywords/702)
 
@@ -296,4 +296,4 @@ Related keyword: [S-nitrosylation](http://www.uniprot.org/keywords/702)
 
 The nature of the post-translationally formed amino acid is annotated by using a controlled vocabulary. The currently defined list of controlled vocabulary, as well as other information, such as the target amino acid, the related keyword, the taxonomic range and the subcellular location of the modification, are available in [ptmlist.txt](http://www.uniprot.org/docs/ptmlist) document. Links to the RESID database are also provided to help gain a better insight into every modification.
 
-See also: [Evidence](https://www.uniprot.org/help/evidences) , [Post-translational modifications](http://www.uniprot.org/help/post-translational%5Fmodification) , [Advanced search](http://www.uniprot.org/help/advanced%5Fsearch)
+See also: [Evidence](https://www.uniprot.org/help/evidences), [Post-translational modifications](http://www.uniprot.org/help/post-translational%5Fmodification), [Advanced search](http://www.uniprot.org/help/advanced%5Fsearch)

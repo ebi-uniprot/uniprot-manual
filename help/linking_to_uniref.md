@@ -13,7 +13,7 @@ You can link directly to UniRef using the cluster ID:
 
 `https://www.uniprot.org/uniref/UniRef90_P99999`
 
-A more stable way of referring to the UniRef90 cluster containing [P99999](https://www.uniprot.org/uniprotkb/P99999) , however, is to use query URLs as in this example:
+A more stable way of referring to the UniRef90 cluster containing [P99999](https://www.uniprot.org/uniprotkb/P99999), however, is to use query URLs as in this example:
 
 Link to the UniRef90 cluster containing UniProtKB P99999:
 

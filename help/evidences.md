@@ -7,13 +7,13 @@ categories: manual
 
 Most information in UniProtKB has one or several "evidence tags" which describe the source of the information, e.g. an experiment that has been published in the scientific literature, an orthologous protein, a record from another database, etc.
 
-Formally, an evidence is described by a mandatory **evidence type** , represented by a code from the [Evidence and Conclusion Ontology](http://www.evidenceontology.org/) (ECO) and, where applicable, the **source of the information** , which is usually a database record (articles from the scientific literature are represented as PubMed records, but in the case of publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number).
+Formally, an evidence is described by a mandatory **evidence type**, represented by a code from the [Evidence and Conclusion Ontology](http://www.evidenceontology.org/) (ECO) and, where applicable, the **source of the information**, which is usually a database record (articles from the scientific literature are represented as PubMed records, but in the case of publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number).
 
 ECO comprises two high-level classes, **evidence** and **assertion method** . Evidence is defined as a type of information that is used to support an assertion and assertion method is defined as a means by which a statement is made about an entity. Together evidence and assertion method can be used to describe both the support for an assertion and whether that assertion was made by a human being or a computer. UniProtKB is using only codes that combine evidence and assertion method.
 
 Here are some examples of how evidence descriptions look in the UniProtKB flat file format:
 
--   An evidence type without source: `{type}` , e.g.
+-   An evidence type without source: `{type}`, e.g.
 
         {ECO:0000305}
         {ECO:0000250}
@@ -21,7 +21,7 @@ Here are some examples of how evidence descriptions look in the UniProtKB flat f
 
 <!-- -->
 
--   An evidence type with source: `{type|source}` , e.g.
+-   An evidence type with source: `{type|source}`, e.g.
 
         {ECO:0000269|PubMed:24356955}
         {ECO:0000303|Ref.6}
@@ -36,7 +36,7 @@ Here are some examples of how evidence descriptions look in the UniProtKB flat f
 
 <!-- -->
 
--   Several evidence attributions: `{type|source, type|source, ...}` , e.g.
+-   Several evidence attributions: `{type|source, type|source, ...}`, e.g.
 
         {ECO:0000269|PubMed:10433554, ECO:0000303|Ref.6}
 
@@ -101,8 +101,8 @@ Example: [D9N129](https://www.uniprot.org/uniprotkb/D9N129#function)
 Manual assertion based on experiment
 
 -   **"The WD40-repeat proteins WDR-20 and WDR-48 bind and activate the deubiquitinating enzyme USP-46 to promote the abundance of the glutamate receptor GLR-1 in the ventral nerve cord of Caenorhabditis elegans."**  
-    [Moremen K.W.](https://www.uniprot.org/uniprotkb/?query=author:%22Moremen+K.W.%22&sort=score) , [Touster O.](https://www.uniprot.org/uniprotkb/?query=author:%22Touster+O.%22&sort=score) , [Robbins P.W.](https://www.uniprot.org/uniprotkb/?query=author:%22Robbins+P.W.%22&sort=score)  
-    J. Biol. Chem. 266:16876-16885(1991) \[ [PubMed](https://pubmed.ncbi.nlm.nih.gov/1885615) \] \[ [Europe PMC](https://europepmc.org/abstract/MED/1885615) \] \[ [Abstract](http://www.uniprot.org/citations/1885615) \] **Cited for:** PROTEIN SEQUENCE OF <a href="http://www.uniprot.org/blast/?about=P28494%5B107-136%5D" class="tooltipped blastSubsequences" title="View this subsequence or run a BLAST search on it.">107-136</a> AND <a href="http://www.uniprot.org/blast/?about=P28494%5B478-496%5D" class="tooltipped blastSubsequences" title="View this subsequence or run a BLAST search on it.">478-496</a> , CATALYTIC ACTIVITY, ACTIVITY REGULATION, SUBUNIT, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, GLYCOSYLATION.
+    [Moremen K.W.](https://www.uniprot.org/uniprotkb/?query=author:%22Moremen+K.W.%22&sort=score), [Touster O.](https://www.uniprot.org/uniprotkb/?query=author:%22Touster+O.%22&sort=score), [Robbins P.W.](https://www.uniprot.org/uniprotkb/?query=author:%22Robbins+P.W.%22&sort=score)  
+    J. Biol. Chem. 266:16876-16885(1991) \[ [PubMed](https://pubmed.ncbi.nlm.nih.gov/1885615) \] \[ [Europe PMC](https://europepmc.org/abstract/MED/1885615) \] \[ [Abstract](http://www.uniprot.org/citations/1885615) \] **Cited for:** PROTEIN SEQUENCE OF <a href="http://www.uniprot.org/blast/?about=P28494%5B107-136%5D" class="tooltipped blastSubsequences" title="View this subsequence or run a BLAST search on it.">107-136</a> AND <a href="http://www.uniprot.org/blast/?about=P28494%5B478-496%5D" class="tooltipped blastSubsequences" title="View this subsequence or run a BLAST search on it.">478-496</a>, CATALYTIC ACTIVITY, ACTIVITY REGULATION, SUBUNIT, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, GLYCOSYLATION.
 
 <!-- -->
 
@@ -122,7 +122,7 @@ Example: [P28494](https://www.uniprot.org/uniprotkb/P28494#function)
 Manual assertion based on opinion
 
 -   **"Novel purification of the catalytic domain of Golgi alpha-mannosidase II. Characterization and comparison with the intact enzyme."**  
-    [Ferrante A.W. Jr.](http://www.uniprot.org/?query=author:%22Ferrante+A.W.+Jr.%22) , [Reinke R.](http://www.uniprot.org/?query=author:%22Reinke+R.%22) , [Stanley E.R.](http://www.uniprot.org/?query=author:%22Stanley+E.R.%22)  
+    [Ferrante A.W. Jr.](http://www.uniprot.org/?query=author:%22Ferrante+A.W.+Jr.%22), [Reinke R.](http://www.uniprot.org/?query=author:%22Reinke+R.%22), [Stanley E.R.](http://www.uniprot.org/?query=author:%22Stanley+E.R.%22)  
     [Proc. Natl. Acad. Sci. U.S.A. 92:1911-1915(1995)](http://dx.doi.org/10.1073/pnas.92.6.1911) \[ [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/7892198) \] \[ [Europe PMC](http://europepmc.org/abstract/MED/7892198) \] \[ [Abstract](http://www.uniprot.org/citations/7892198) \] **Cited for** : NUCLEOTIDE SEQUENCE \[MRNA\], FUNCTION, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, DEVELOPMENTAL STAGE.
 
 <!-- -->
@@ -143,7 +143,7 @@ Example: [Q9UKV3](https://www.uniprot.org/uniprotkb/Q9UKV3#miscellaneous)
 Manual assertion inferred from experiment in
 
 -   **"The structure of the ASAP core complex reveals the existence of a Pinin-containing PSAP complex."**  
-    [Murachelli A.G.](http://www.uniprot.org/?query=author:%22Murachelli+A.G.%22) , [Ebert J.](http://www.uniprot.org/?query=author:%22Ebert+J.%22) , [Basquin C.](http://www.uniprot.org/?query=author:%22Basquin+C.%22) , [Le Hir H.](http://www.uniprot.org/?query=author:%22Le+Hir+H.%22) , [Conti E.](http://www.uniprot.org/?query=author:%22Conti+E.%22)  
+    [Murachelli A.G.](http://www.uniprot.org/?query=author:%22Murachelli+A.G.%22), [Ebert J.](http://www.uniprot.org/?query=author:%22Ebert+J.%22), [Basquin C.](http://www.uniprot.org/?query=author:%22Basquin+C.%22), [Le Hir H.](http://www.uniprot.org/?query=author:%22Le+Hir+H.%22), [Conti E.](http://www.uniprot.org/?query=author:%22Conti+E.%22)  
     [Nat. Struct. Mol. Biol. 19:378-386(2012)](http://dx.doi.org/10.1038/nsmb.2242) \[ [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22388736) \] \[ [Europe PMC](http://europepmc.org/abstract/MED/22388736) \] \[ [Abstract](http://www.uniprot.org/citations/22388736) \] **Cited for** : INTERACTION WITH RNPS1, COMPOSITION OF THE ASAP COMPLEX, FUNCTION OF THE ASAP COMPLEX.
 
 <!-- -->
@@ -160,7 +160,7 @@ Example: [P62196](https://www.uniprot.org/uniprotkb/P62196#ptm%5Fprocessing)
 Manual assertion inferred from experiment in
 
 -   **"Mapping the murine cardiac 26S proteasome complexes."**  
-    [Gomes A.V.](http://www.uniprot.org/?query=author:%22Gomes+A.V.%22) , [Zong C.](http://www.uniprot.org/?query=author:%22Zong+C.%22) , [Edmondson R.D.](http://www.uniprot.org/?query=author:%22Edmondson+R.D.%22) , [Li X.](http://www.uniprot.org/?query=author:%22Li+X.%22) , [Stefani E.](http://www.uniprot.org/?query=author:%22Stefani+E.%22) , [Zhang J.](http://www.uniprot.org/?query=author:%22Zhang+J.%22) , [Jones R.C.](http://www.uniprot.org/?query=author:%22Jones+R.C.%22) , [Thyparambil S.](http://www.uniprot.org/?query=author:%22Thyparambil+S.%22) , [Wang G.W.](http://www.uniprot.org/?query=author:%22Wang+G.W.%22) , [Qiao X.](http://www.uniprot.org/?query=author:%22Qiao+X.%22) , [Bardag-Gorce F.](http://www.uniprot.org/?query=author:%22Bardag-Gorce+F.%22) , [Ping P.](http://www.uniprot.org/?query=author:%22Ping+P.%22)  
+    [Gomes A.V.](http://www.uniprot.org/?query=author:%22Gomes+A.V.%22), [Zong C.](http://www.uniprot.org/?query=author:%22Zong+C.%22), [Edmondson R.D.](http://www.uniprot.org/?query=author:%22Edmondson+R.D.%22), [Li X.](http://www.uniprot.org/?query=author:%22Li+X.%22), [Stefani E.](http://www.uniprot.org/?query=author:%22Stefani+E.%22), [Zhang J.](http://www.uniprot.org/?query=author:%22Zhang+J.%22), [Jones R.C.](http://www.uniprot.org/?query=author:%22Jones+R.C.%22), [Thyparambil S.](http://www.uniprot.org/?query=author:%22Thyparambil+S.%22), [Wang G.W.](http://www.uniprot.org/?query=author:%22Wang+G.W.%22), [Qiao X.](http://www.uniprot.org/?query=author:%22Qiao+X.%22), [Bardag-Gorce F.](http://www.uniprot.org/?query=author:%22Bardag-Gorce+F.%22), [Ping P.](http://www.uniprot.org/?query=author:%22Ping+P.%22)  
     [Circ. Res. 99:362-371(2006)](http://dx.doi.org/10.1161/01.RES.0000237386.98506.f7) \[ [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16857966) \] \[ [Europe PMC](http://europepmc.org/abstract/MED/16857966) \] \[ [Abstract](http://www.uniprot.org/citations/16857966) \] **Cited for** : IDENTIFICATION IN THE 19S PROTEASOME REGULATORY COMPLEX, ACETYLATION AT ALA-2.
 
 <!-- -->

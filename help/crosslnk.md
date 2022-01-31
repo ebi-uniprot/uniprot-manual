@@ -3,7 +3,7 @@ title: Cross-link
 categories: PTM_processing,manual
 ---
 
-This subsection of the [PTM / Processing](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section describes **covalent linkages** of various types formed **between two proteins (interchain cross-links)** or **between two parts of the same protein (intrachain cross-links)** , except the disulfide bonds that are annotated in the ['Disulfide bond'](https://www.uniprot.org/help/disulfid) subsection.
+This subsection of the [PTM / Processing](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section describes **covalent linkages** of various types formed **between two proteins (interchain cross-links)** or **between two parts of the same protein (intrachain cross-links)**, except the disulfide bonds that are annotated in the ['Disulfide bond'](https://www.uniprot.org/help/disulfid) subsection.
 
 Interchain cross-links are involved in the formation of covalently linked protein complexes. Common cross-links include ubiquitin (and ubiquitin-like)(Ubl) conjugation, SUMOylation, transglutamination, thioether bonds and thioester bonds.
 
@@ -12,7 +12,7 @@ For each cross-link, we specify the name of the conjugate and the identity of th
 ### 1. Intrachain cross-links {\#1\_\_Intrachain\_cross\_links}
 
 For intrachain cross-links, we cite the amino acids involved in their order of appearance in the sequence.  
-Examples: [P36503](https://www.uniprot.org/uniprotkb/P36503#ptm_processing) , [P36499](https://www.uniprot.org/uniprotkb/P36499#ptm_processing)
+Examples: [P36503](https://www.uniprot.org/uniprotkb/P36503#ptm_processing), [P36499](https://www.uniprot.org/uniprotkb/P36499#ptm_processing)
 
 Note that the intrachain cross-link of the C-terminus with the N-terminus results in the formation of a cyclopeptide:  
 Example: [O07623](https://www.uniprot.org/uniprotkb/O07623#ptm_processing)
@@ -20,7 +20,7 @@ Example: [O07623](https://www.uniprot.org/uniprotkb/O07623#ptm_processing)
 ### 2. Interchain cross-links {\#2\_\_Interchain\_cross\_links}
 
 For interchain cross-links we give the identity of the two amino acids involved, the amino acid in the partner protein cited in second position. We also indicate that the linkage is interchain and provide the name of the partner protein.  
-Examples: [P16893](https://www.uniprot.org/uniprotkb/P16893#ptm_processing) , [P08697](https://www.uniprot.org/uniprotkb/P08697#ptm_processing) , [P02671](https://www.uniprot.org/uniprotkb/P02671#ptm_processing)
+Examples: [P16893](https://www.uniprot.org/uniprotkb/P16893#ptm_processing), [P08697](https://www.uniprot.org/uniprotkb/P08697#ptm_processing), [P02671](https://www.uniprot.org/uniprotkb/P02671#ptm_processing)
 
 #### a. Cross-link between homodimers
 

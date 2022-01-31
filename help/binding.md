@@ -14,7 +14,7 @@ When the chemical entity that binds the amino acid is a metal, this information 
 Example: [P24146](https://www.uniprot.org/uniprotkb/P24146#function)
 
 By default, the interaction involves the amino acid side chain. For interactions mediated via the nitrogen atoms of the histidine side chain, we indicate, when known, which nitrogen is involved: Pros is the term used for the nitrogen atom that is closest to the alpha-carbon, and tele for the other.  
-Example: [Q57I19](https://www.uniprot.org/uniprotkb/Q57I19#function) , [P73925](https://www.uniprot.org/uniprotkb/P73925#function)
+Example: [Q57I19](https://www.uniprot.org/uniprotkb/Q57I19#function), [P73925](https://www.uniprot.org/uniprotkb/P73925#function)
 
 Interactions which occur via the backbone oxygen or nitrogen are also specified.  
 Example: [Q8CFV9](https://www.uniprot.org/uniprotkb/Q8CFV9#function)
