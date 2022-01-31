@@ -3,7 +3,7 @@ title: Post-translational modification
 categories: PTM_processing,manual
 ---
 
-This subsection of the [PTM/processing](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section describes post-translational modifications (PTMs). This subsection **complements** the information provided at the sequence level or describes modifications for which **position-specific data is not yet available** .
+This subsection of the [PTM/processing](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section describes post-translational modifications (PTMs). This subsection **complements** the information provided at the sequence level or describes modifications for which **position-specific data is not yet available**.
 
 Examples: [P17590](https://www.uniprot.org/uniprotkb/P17590#ptm%5Fprocessing), [P56524](https://www.uniprot.org/uniprotkb/P56524#ptm%5Fprocessing)
 

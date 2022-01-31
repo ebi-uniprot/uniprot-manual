@@ -17,7 +17,7 @@ The two sections of UniProtKB - UniProtKB/Swiss-Prot and UniProtKB/TrEMBL - give
 
 The first 5 are identified automatically by the UniProtKB/TrEMBL creation program and never enter UniProtKB. However some proteins belonging to these classes are also identified during the UniProtKB/Swiss-Prot annotation process by the curators and then removed from UniProtKB.
 
-Protein sequences originating from proteomes that are considered [redundant](http://www.uniprot.org/help/proteome%5Fredundancy) or [low quality](https://www.ncbi.nlm.nih.gov/assembly/help/anomnotrefseq/) are identified automatically at every release, and are either removed from UniProtKB/TrEMBL, or never enter UniProtKB but stay in [UniParc](http://www.uniprot.org/help/uniparc) .
+Protein sequences originating from proteomes that are considered [redundant](http://www.uniprot.org/help/proteome%5Fredundancy) or [low quality](https://www.ncbi.nlm.nih.gov/assembly/help/anomnotrefseq/) are identified automatically at every release, and are either removed from UniProtKB/TrEMBL, or never enter UniProtKB but stay in [UniParc](http://www.uniprot.org/help/uniparc).
 
 Fusion/truncated proteins and those classified as not real proteins are only manually identified by the curators and removed from UniProtKB/TrEMBL or UniProtKB/Swiss-Prot. All these excluded sequences are available at [UniParc](http://www.uniprot.org/help/uniparc). The corresponding UniParc entries have been flagged with the reason for the absence of that sequence from UniProtKB.
 

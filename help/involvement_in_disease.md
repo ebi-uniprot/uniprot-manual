@@ -9,7 +9,7 @@ Disease name (Disease abbreviation) \[Link to OMIM\]: Disease description.
 
 An optional "Note=" field is used to describe the role of the gene/protein in disease pathogenesis and distinguish, when possible, between causative, susceptibility and modifier genes according to literature and OMIM reports.
 
-Examples: [Q01718](https://www.uniprot.org/uniprotkb/Q01718#pathology%5Fand%5Fbiotech), [Q15198](https://www.uniprot.org/uniprotkb/Q15198#pathology%5Fand%5Fbiotech), [P51800](https://www.uniprot.org/uniprotkb/P51800#pathology%5Fand%5Fbiotech) and [P51801](https://www.uniprot.org/uniprotkb/P51801#pathology%5Fand%5Fbiotech), [Q6W5P4](https://www.uniprot.org/uniprotkb/Q6W5P4#pathology%5Fand%5Fbiotech), [P52895](https://www.uniprot.org/uniprotkb/P52895#pathology%5Fand%5Fbiotech) and [P17516](https://www.uniprot.org/uniprotkb/P17516#pathology%5Fand%5Fbiotech) .
+Examples: [Q01718](https://www.uniprot.org/uniprotkb/Q01718#pathology%5Fand%5Fbiotech), [Q15198](https://www.uniprot.org/uniprotkb/Q15198#pathology%5Fand%5Fbiotech), [P51800](https://www.uniprot.org/uniprotkb/P51800#pathology%5Fand%5Fbiotech) and [P51801](https://www.uniprot.org/uniprotkb/P51801#pathology%5Fand%5Fbiotech), [Q6W5P4](https://www.uniprot.org/uniprotkb/Q6W5P4#pathology%5Fand%5Fbiotech), [P52895](https://www.uniprot.org/uniprotkb/P52895#pathology%5Fand%5Fbiotech) and [P17516](https://www.uniprot.org/uniprotkb/P17516#pathology%5Fand%5Fbiotech).
 
 The "Note=" field is also used to indicate the role of a protein in disease manifestation in cases where the protein is functionally impaired although the corresponding coding gene does not contain any mutation.
 
@@ -30,7 +30,7 @@ If the sequence position of the translocation breakpoint is known and causes a f
 
 Example: In Q8IZP0 the annotation in the ['Pathology and Biotech'](https://www.uniprot.org/uniprotkb/Q8IZP0#pathology%5Fand%5Fbiotech%5Fsection) section is completed by information at the sequence level ( ['Site'](https://www.uniprot.org/help/site) subsection).
 
-Related keyword: [Chromosomal rearrangement](http://www.uniprot.org/keywords/160) .
+Related keyword: [Chromosomal rearrangement](http://www.uniprot.org/keywords/160).
 
 Disease information that is not described in OMIM is annotated as free text.
 

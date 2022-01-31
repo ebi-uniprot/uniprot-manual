@@ -4,7 +4,7 @@ title: Programmatic access - Retrieving individual entries
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,help
 ---
 
-The web address for an entry consists of a data set name (e.g. `uniprot`, `uniref`, `uniparc`, `taxonomy`, ...) and the 
+The web address for an entry consists of a data set name (e.g. `uniprot`, `uniref`, `uniparc`, `taxonomy`,...) and the 
 entry's unique identifier, e.g.:
 
 https://beta.uniprot.org/uniprot/P12345

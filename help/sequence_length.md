@@ -3,7 +3,7 @@ title: Sequence length
 categories: Sequence,manual
 ---
 
-This indicates the number of amino acids in the canonical sequence displayed by default in the entry's [Sequence section](http://www.uniprot.org/help/sequences%5Fsection) .
+This indicates the number of amino acids in the canonical sequence displayed by default in the entry's [Sequence section](http://www.uniprot.org/help/sequences%5Fsection).
 
 #### Related document
 

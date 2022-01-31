@@ -9,15 +9,15 @@ The taxonomy database that is maintained by the UniProt group is based on the [N
 
 Species with manually annotated and reviewed protein sequences in the Swiss-Prot section of UniProtKB are named according to [UniProt nomenclature](http://www.uniprot.org/help/taxonomy#organism-denomination). In particular, we have adopted a systematic convention for naming viral and bacterial strains and isolates.
 
-Links to external sites are chosen by the UniProt taxonomy team and show pictures and various scientific data of interest (taxonomy, biology, physiology, etc.). Due to the sheer volume of data present on the world-wide web, it is unfortunately not possible to contact each site individually. Should you wish to have your site linked from uniprot.org, or would prefer us to remove a link to your site, please do not hesitate to [contact us](http://www.uniprot.org/contact) .
+Links to external sites are chosen by the UniProt taxonomy team and show pictures and various scientific data of interest (taxonomy, biology, physiology, etc.). Due to the sheer volume of data present on the world-wide web, it is unfortunately not possible to contact each site individually. Should you wish to have your site linked from uniprot.org, or would prefer us to remove a link to your site, please do not hesitate to [contact us](http://www.uniprot.org/contact).
 
 #### Search
 
-You can query the UniProt taxonomy by taxon names or NCBI taxonomy identifiers. Searches by names are case-insensitive and you may use asterisks as wildcards anywhere in the query. When you search for taxon names, the results that match a UniProt [organism denomination](http://www.uniprot.org/help/taxonomy#organism-denomination) are ranked higher than those which match [other organism names](http://www.uniprot.org/help/taxonomy#other-names) .
+You can query the UniProt taxonomy by taxon names or NCBI taxonomy identifiers. Searches by names are case-insensitive and you may use asterisks as wildcards anywhere in the query. When you search for taxon names, the results that match a UniProt [organism denomination](http://www.uniprot.org/help/taxonomy#organism-denomination) are ranked higher than those which match [other organism names](http://www.uniprot.org/help/taxonomy#other-names).
 
 #### Organism denomination
 
-The organism denomination used in UniProtKB consists of the Latin scientific name, usually composed of the <span style="color: orange;"> genus </span> and <span style="color: brown;"> species </span> names (binomial system developed by Linnaeus), followed optionally by the English <span style="color: magenta;"> common name </span> and a <span style="color: green;"> synonym </span> .
+The organism denomination used in UniProtKB consists of the Latin scientific name, usually composed of the <span style="color: orange;"> genus </span> and <span style="color: brown;"> species </span> names (binomial system developed by Linnaeus), followed optionally by the English <span style="color: magenta;"> common name </span> and a <span style="color: green;"> synonym </span>.
 
 Example: <span style="color: orange;"> Cardamine </span> <span style="color: brown;"> pratensis </span> ( <span style="color: magenta;"> Cuckoo flower </span> ) ( <span style="color: green;"> Alpine bitter cress </span> )
 
@@ -25,7 +25,7 @@ The synonym can be a common name in English or in Latin in the case of some hist
 
 Example: <span style="color: orange;"> Radianthus </span> <span style="color: brown;"> magnifica </span> ( <span style="color: magenta;"> Magnificent sea anemone </span> ) ( <span style="color: green;"> Heteractis magnifica </span> )
 
-In the case of viruses, the denomination does not follow the binomial system. The English common name is used as the scientific name, sometimes followed by an acronym. Where possible, viruses are named according to the nomenclature of the [International Committee on Taxonomy of Viruses (ICTV)](https://talk.ictvonline.org/) .
+In the case of viruses, the denomination does not follow the binomial system. The English common name is used as the scientific name, sometimes followed by an acronym. Where possible, viruses are named according to the nomenclature of the [International Committee on Taxonomy of Viruses (ICTV)](https://talk.ictvonline.org/).
 
 #### Organism mnemonic
 
@@ -56,7 +56,7 @@ However, for a number of species commonly encountered in UniProtKB, we use self-
 
 Since the above rules cannot apply to viruses, we give them arbitrary, but generally easy-to-remember, identification codes.
 
-A full list of organism mnemonics is available in our [Controlled vocabulary of species](http://www.uniprot.org/docs/speclist) .
+A full list of organism mnemonics is available in our [Controlled vocabulary of species](http://www.uniprot.org/docs/speclist).
 
 Codes starting with the digit 9 are used for higher nodes that group together organisms at a given taxonomic level.
 

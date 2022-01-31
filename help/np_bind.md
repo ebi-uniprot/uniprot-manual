@@ -22,7 +22,7 @@ We also annotate predicted ATP-binding sites using 'Sequence analysis' evidence,
 Example: [P30621](https://www.uniprot.org/uniprotkb/P30621#function)
 
 Related keywords:  
-For all proteins that bind a nucleotide phosphate: [Nucleotide-binding](http://www.uniprot.org/keywords/547) .
+For all proteins that bind a nucleotide phosphate: [Nucleotide-binding](http://www.uniprot.org/keywords/547).
 
 Specific keywords related to the identity of the bound nucleotide:  
-[ATP-binding](http://www.uniprot.org/keywords/67), [cAMP-binding](http://www.uniprot.org/keywords/116), [cGMP-binding](http://www.uniprot.org/keywords/142), [FAD](http://www.uniprot.org/keywords/274), [FMN](http://www.uniprot.org/keywords/288), [GTP-binding](http://www.uniprot.org/keywords/342), [NAD](http://www.uniprot.org/keywords/520), [NADP](http://www.uniprot.org/keywords/521) .
+[ATP-binding](http://www.uniprot.org/keywords/67), [cAMP-binding](http://www.uniprot.org/keywords/116), [cGMP-binding](http://www.uniprot.org/keywords/142), [FAD](http://www.uniprot.org/keywords/274), [FMN](http://www.uniprot.org/keywords/288), [GTP-binding](http://www.uniprot.org/keywords/342), [NAD](http://www.uniprot.org/keywords/520), [NADP](http://www.uniprot.org/keywords/521).

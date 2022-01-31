@@ -63,7 +63,7 @@ Continuing the above example, we can use the `jobId` to find out the status of t
 > Location: https://rest.uniprot.org/beta/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300
 > Content-Type: application/json
 > Access-Control-Allow-Origin: *
-> ...
+>...
 > {"jobStatus":"FINISHED"}
 > ```
 
@@ -95,7 +95,7 @@ For example, when mapping [P21802, P12345 to UniRef90](#example) could do:
 >         "name": "Cluster: Fibroblast growth factor receptor 2",
 >         "updated": "2021-06-02",
 >         "entryType": "UniRef90",
->   ...
+>  ...
 > ```
                                                                                  
 Note the `from` and `to` attributes, denoting the source identifiers and corresponding mapped identifier. Also,
@@ -125,7 +125,7 @@ Continuing our [example above](#example), we would download the results by makin
 >         "name": "Cluster: Fibroblast growth factor receptor 2",
 >         "updated": "2021-06-02",
 >         "entryType": "UniRef90",
->   ...
+>  ...
 > ```
        
 > **NOTE** to add the content-disposition header, e.g., so that a download file dialogue appears in a browser, include

@@ -54,7 +54,7 @@ For the description of the isoforms at the amino acid level, see the ['Alternati
 
 Isoform sequences can be **downloaded in FASTA format** from our [download page](http://www.uniprot.org/downloads) (choose the file: 'Isoform sequences').
 
-Related keywords: [Alternative splicing](http://www.uniprot.org/keywords/25), [Alternative promoter usage](http://www.uniprot.org/keywords/877), [Alternative initiation](http://www.uniprot.org/keywords/24), [Ribosomal frameshifting](http://www.uniprot.org/keywords/688) .
+Related keywords: [Alternative splicing](http://www.uniprot.org/keywords/25), [Alternative promoter usage](http://www.uniprot.org/keywords/877), [Alternative initiation](http://www.uniprot.org/keywords/24), [Ribosomal frameshifting](http://www.uniprot.org/keywords/688).
 
 #### Related documents
 

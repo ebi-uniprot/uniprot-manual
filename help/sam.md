@@ -3,7 +3,7 @@ title: SAM - Sequence Analysis Methods for automatic annotation
 categories: help
 ---
 
-UniProt's [Automatic Annotation pipeline](http://www.uniprot.org/help/automatic%5Fannotation) has been designed to enhance the **unreviewed records (in UniProtKB/TrEMBL** by enriching them with automatic classification and annotation. In this context, we use a suite of Sequence Analysis Methods (SAM) to annotate extra sequence-specific information, some of which are also applied to **reviewed records (in UniProtKB/Swiss-Prot)** .
+UniProt's [Automatic Annotation pipeline](http://www.uniprot.org/help/automatic%5Fannotation) has been designed to enhance the **unreviewed records (in UniProtKB/TrEMBL** by enriching them with automatic classification and annotation. In this context, we use a suite of Sequence Analysis Methods (SAM) to annotate extra sequence-specific information, some of which are also applied to **reviewed records (in UniProtKB/Swiss-Prot)**.
 
 ### Methods
 

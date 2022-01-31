@@ -3,7 +3,7 @@ title: Modified residue
 categories: PTM_processing,manual
 ---
 
-This subsection of the 'PTM / Processing' section specifies the position and type of each modified residue excluding [lipids](https://www.uniprot.org/help/lipid), [glycans](https://www.uniprot.org/help/carbohyd) and [protein cross-links](https://www.uniprot.org/help/crosslnk) .
+This subsection of the 'PTM / Processing' section specifies the position and type of each modified residue excluding [lipids](https://www.uniprot.org/help/lipid), [glycans](https://www.uniprot.org/help/carbohyd) and [protein cross-links](https://www.uniprot.org/help/crosslnk).
 
 Common modifications include phosphorylation, methylation, acetylation, amidation, formation of pyrrolidone carboxylic acid, isomerization, hydroxylation, sulfation, flavin-binding, cysteine oxidation and nitrosylation.
 
@@ -18,7 +18,7 @@ We provide additional information concerning the modification, such as:
 3.  information on the **frequency** of the modification or the **relationship with another feature** ('partial', 'alternate', 'transient'). The term **'partial'** indicates that not all protein molecules are modified, **'alternate'** means that the same amino acid can be modified in more than one way, and **'transient'** is applied to exceptional cases of otherwise stable modifications. For partial modifications, we do not propagate this comment to homologous proteins and we do not specify the fraction of proteins modified, as this may depend on the experimental conditions.  
     Examples: [P16157](https://www.uniprot.org/uniprotkb/P16157#ptm%5Fprocessing) (partial modification), [Q9UKV3](https://www.uniprot.org/uniprotkb/Q9UKV3#ptm%5Fprocessing) (alternate modification), [Q9FX54](https://www.uniprot.org/uniprotkb/Q9FX54#ptm%5Fprocessing) (transient modification)
 
-See also the subsection [Post-translational modifications](http://www.uniprot.org/help/post-translational%5Fmodification) for additional information on modifications for which **position-specific data is not yet available** .
+See also the subsection [Post-translational modifications](http://www.uniprot.org/help/post-translational%5Fmodification) for additional information on modifications for which **position-specific data is not yet available**.
 
 **Data sources and propagation of modified residue annotation**
 
@@ -38,7 +38,7 @@ P0A6N3 (orthologous entry)
 **Sites that are not modified**
 
 When a site is found not to be modified, and if this is of biological significance, we indicate it in the 'Site' subsection. This information is not propagated in related entries.  
-Examples: [Q10471](https://www.uniprot.org/uniprotkb/Q10471#ptm_processing), [P62152](https://www.uniprot.org/uniprotkb/P62152#ptm_processing), [P32457](https://www.uniprot.org/uniprotkb/P32457#ptm_processing), [P07173](https://www.uniprot.org/uniprotkb/P07173#ptm_processing) .
+Examples: [Q10471](https://www.uniprot.org/uniprotkb/Q10471#ptm_processing), [P62152](https://www.uniprot.org/uniprotkb/P62152#ptm_processing), [P32457](https://www.uniprot.org/uniprotkb/P32457#ptm_processing), [P07173](https://www.uniprot.org/uniprotkb/P07173#ptm_processing).
 
 **Unknown sites bearing unknown modifications**
 
@@ -239,7 +239,7 @@ Examples: [O18495](https://www.uniprot.org/uniprotkb/O18495#ptm_processing), [Q2
 
 #### Hydroxyasparagine
 
-**3-hydroxyasparagine**, **3-hydroxyaspartate** .
+**3-hydroxyasparagine**, **3-hydroxyaspartate**.
 
 Examples: [Q8CG16](https://www.uniprot.org/uniprotkb/Q8CG16#ptm_processing), [O88278](https://www.uniprot.org/uniprotkb/O88278#ptm_processing)
 

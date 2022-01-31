@@ -7,7 +7,7 @@ This subsection of the 'Family and domains' section provides information about t
 
 This subsection only states sequence similarity, thus excluding proteins with a related name that may function in the same biological pathway, but do not share sequence similarities.
 
-The 'Sequence similarities' subsection provides information on protein families the protein **belongs to** .
+The 'Sequence similarities' subsection provides information on protein families the protein **belongs to**.
 
 The lines are listed in alphanumerical order.
 

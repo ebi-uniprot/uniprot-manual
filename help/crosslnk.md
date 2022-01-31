@@ -107,4 +107,4 @@ Related keyword: [TTQ](http://www.uniprot.org/keywords/824)
 
 Analagous cross-links have been observed between tryptophylquinone and cysteine (related keyword: [CTQ](http://www.uniprot.org/keywords/885) ) and between tyrosylquinone and lysine (related keyword: [LTQ](http://www.uniprot.org/keywords/886) ).
 
-See also the subsection [Post-translational modifications](http://www.uniprot.org/help/post-translational%5Fmodification) for additional information on modifications for which **position-specific data is not yet available** .
+See also the subsection [Post-translational modifications](http://www.uniprot.org/help/post-translational%5Fmodification) for additional information on modifications for which **position-specific data is not yet available**.

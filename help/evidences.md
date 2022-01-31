@@ -36,7 +36,7 @@ Here are some examples of how evidence descriptions look in the UniProtKB flat f
 
 <!-- -->
 
--   Several evidence attributions: `{type|source, type|source, ...}`, e.g.
+-   Several evidence attributions: `{type|source, type|source,...}`, e.g.
 
         {ECO:0000269|PubMed:10433554, ECO:0000303|Ref.6}
 

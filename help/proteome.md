@@ -9,7 +9,7 @@ UniProt provides [proteome](http://www.uniprot.org/proteomes) sets of proteins w
 
 A proteome is the set of proteins thought to be expressed by an organism. The majority of the UniProt proteomes are based on the translation of a completely sequenced genome, and will normally include sequences that derive from extra-chromosomal elements such as plasmids or organellar genomes in organisms where these occur. Some proteomes may also include protein sequences based on high quality cDNAs that cannot be mapped to the current genome assembly due to sequencing errors or gaps. These are only included in the proteome following manual review of the supporting evidence, including careful analysis of homologous sequences from closely related organisms.
 
-As more and more genomes of the same organism are being sequenced, we introduced [unique proteome identifiers](http://www.uniprot.org/help/proteome%5Fid) to distinguish individual proteomes from the same [taxonomy identifier](https://www.uniprot.org/help/taxonomic%5Fidentifier) .
+As more and more genomes of the same organism are being sequenced, we introduced [unique proteome identifiers](http://www.uniprot.org/help/proteome%5Fid) to distinguish individual proteomes from the same [taxonomy identifier](https://www.uniprot.org/help/taxonomic%5Fidentifier).
 
 **What is the curation status of UniProt proteomes?**
 
@@ -46,7 +46,7 @@ The [Proteomes portal](http://www.uniprot.org/proteomes/) offers protein sequenc
 -   The genome is annotated and a set of coding sequences is available.
 -   The number of predicted coding sequences falls within a statistically significant range of published proteomes from neighbouring species.
 
-All proteomes generated in this manner go through our [Proteomes redundancy reduction pipeline](http://www.uniprot.org/help/proteome%5Fredundancy) .
+All proteomes generated in this manner go through our [Proteomes redundancy reduction pipeline](http://www.uniprot.org/help/proteome%5Fredundancy).
 
 See also:
 
@@ -77,7 +77,7 @@ To download the results of a text search in UniProtKB:
 
 To download your favorite proteomes programmatically, please go to the help page [Downloading data at every UniProt release](http://www.uniprot.org/help/api%5Fdownloading), where you will find a code example that illustrates how to download the proteomes for all organisms below a given taxonomic node in FASTA format.
 
-Note that the download formats which describe complete UniProtKB entries (flat text, XML, RDF/XML) include only the ['canonical'](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms) or displayed protein sequences of UniProtKB entries. These canonical sequences can also be downloaded in FASTA format (option `Canonical sequence data in FASTA format` ), as can a set of protein sequences including both canonical and manually reviewed 'isoform sequences' from UniProtKB/Swiss-Prot (where available) using the option `Canonical and isoform sequence data in FASTA format` .
+Note that the download formats which describe complete UniProtKB entries (flat text, XML, RDF/XML) include only the ['canonical'](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms) or displayed protein sequences of UniProtKB entries. These canonical sequences can also be downloaded in FASTA format (option `Canonical sequence data in FASTA format` ), as can a set of protein sequences including both canonical and manually reviewed 'isoform sequences' from UniProtKB/Swiss-Prot (where available) using the option `Canonical and isoform sequence data in FASTA format`.
 
 See also:
 

@@ -16,7 +16,7 @@ Where:
 -   *EntryName* is the [entry name](http://www.uniprot.org/help/entry%5Fname) of the UniProtKB entry.
 -   *ProteinName* is the [recommended name](http://www.uniprot.org/help/protein%5Fnames) of the UniProtKB entry as annotated in the `RecName` field. For UniProtKB/TrEMBL entries without a `RecName` field, the `SubName` field is used. In case of multiple `SubNames`, the first one is used. The 'precursor' attribute is excluded, 'Fragment' is included with the name if applicable.
 -   *OrganismName* is the [scientific name of the organism](http://www.uniprot.org/help/organism-name) of the UniProtKB entry.
--   *OrganismIdentifier* is the [unique identifier of the source organism, assigned by the NCBI](http://www.uniprot.org/help/taxonomic%5Fidentifier) .
+-   *OrganismIdentifier* is the [unique identifier of the source organism, assigned by the NCBI](http://www.uniprot.org/help/taxonomic%5Fidentifier).
 -   *GeneName* is the first [gene name](http://www.uniprot.org/help/gene%5Fname) of the UniProtKB entry. If there is no gene name, `OrderedLocusName` or `ORFname`, the `GN` field is not listed.
 -   *ProteinExistence* is the numerical value describing the [evidence for the existence](http://www.uniprot.org/help/protein%5Fexistence) of the protein.
 -   *SequenceVersion* is the [version number](http://www.uniprot.org/help/entry%5Fhistory) of the sequence.

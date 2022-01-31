@@ -16,7 +16,7 @@ Examples: [Hydrogenosome](https://www.uniprot.org/uniprotkb/Q5DUX5#names%5Fand%5
 -   'Organellar chromatophore' is used for the plastid of the thecate amoeba Paulinella chromatophora, which has a very large endosymbiont genome (1.0 Mb, encoding almost 900 proteins).
 -   'Plastid' (without any qualifier) is used for some parasitic plants (mostly from the genus Cuscuta) which may be briefly photosynthetic when very young.
 
-Being quite small plastids are easily sequenced. A list of fully sequenced plastid genomes, of their genes and the nomenclature of known plastid-encoded proteins can be found in the document [Nomenclature of plastid-encoded proteins](http://www.uniprot.org/docs/plastid) .
+Being quite small plastids are easily sequenced. A list of fully sequenced plastid genomes, of their genes and the nomenclature of known plastid-encoded proteins can be found in the document [Nomenclature of plastid-encoded proteins](http://www.uniprot.org/docs/plastid).
 
 If an entry reports the sequence of a protein encoded on a number of plasmids, the names of all plasmids are listed.  
 Example: [P04958](https://www.uniprot.org/uniprotkb/P04958#names_and_taxonomy)

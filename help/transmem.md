@@ -29,7 +29,7 @@ Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have e
 
 We also annotate transmembrane regions which are predicted by the application of the predictive tools TMHMM, Memsat, Phobius and the hydrophobic moment plot method of Eisenberg and coworkers. Note that these tools predict only alpha-helical membrane spanning regions: the positions of membrane spanning beta-sheet regions are annotated strictly according to experimental information.
 
-For predicted alpha-helical transmembrane regions at least two methods must return a positive prediction in order for a region to be annotated as transmembrane in UniProtKB/Swiss-Prot. When predicted N-terminal signal peptides and transmembrane domains overlap, then the Phobius prediction is used to discriminate between the two. In all cases predicted transmembrane domains are annotated with evidence ['Sequence analysis'](http://www.uniprot.org/help/evidences#ECO:0000255) .
+For predicted alpha-helical transmembrane regions at least two methods must return a positive prediction in order for a region to be annotated as transmembrane in UniProtKB/Swiss-Prot. When predicted N-terminal signal peptides and transmembrane domains overlap, then the Phobius prediction is used to discriminate between the two. In all cases predicted transmembrane domains are annotated with evidence ['Sequence analysis'](http://www.uniprot.org/help/evidences#ECO:0000255).
 
 See also: [Evidence](https://www.uniprot.org/help/evidences)
 

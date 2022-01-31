@@ -7,7 +7,7 @@ An accession number (AC) is assigned to each protein sequence upon inclusion int
 
 Most **UniProtKB/TrEMBL** deletions are due to the deletion of the corresponding coding sequence (CDS) in the source nucleotide sequence databases EMBL-Bank/DDBJ/GenBank as requested by the original submitters, or due to the deletion of the sequence prediction from Ensembl. It occasionally happens that the same data is resubmitted at a later date, and UniProt works closely with EMBL-Bank/DDBJ/GenBank and Ensembl to ensure appropriate tracking of deletions and updates. However this is not always possible. In addition, some protein sequences are recognized by curators to be Open Reading frames (ORFs) that have been wrongly predicted to code for proteins or to be pseudogenes. When there is enough evidence that these hypothetical proteins are not real, we take the decision to remove them from UniProtKB/TrEMBL.
 
-Another frequent deletion reason in UniProtKB/TrEMBL is [proteome redundancy reduction](http://www.uniprot.org/help/proteome%5Fredundancy) .
+Another frequent deletion reason in UniProtKB/TrEMBL is [proteome redundancy reduction](http://www.uniprot.org/help/proteome%5Fredundancy).
 
 Deleted entries in **UniProtKB/Swiss-Prot** are mostly Open Reading Frames (ORFs) or pseudogenes that have been wrongly predicted to code for proteins.
 

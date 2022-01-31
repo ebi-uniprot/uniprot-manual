@@ -61,4 +61,4 @@ Related keywords:
 [Hydrogenosome](http://www.uniprot.org/keywords/377),  
 [Mitochondrion](http://www.uniprot.org/keywords/496),  
 [Peroxisome](http://www.uniprot.org/keywords/576),  
-[Thylakoid](http://www.uniprot.org/keywords/793) .
+[Thylakoid](http://www.uniprot.org/keywords/793).

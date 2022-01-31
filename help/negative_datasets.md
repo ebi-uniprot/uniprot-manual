@@ -3,7 +3,7 @@ title: I would like to test the performance of a sequence-based prediction metho
 categories: UniProtKB,Text_search,Non-experimental_qualifiers,Sequence,Biocuration,faq
 ---
 
-The manual curation process of UniProtKB/Swiss-Prot includes extensive literature curation, and the annotation items with experimental evidence can be used to construct positive data sets for predictors of post-translational modifications (PTM) and other events, e.g. [all human entries with experimentally determined signal sequences](https://www.uniprot.org/uniprotkb/?query=organism%3A%22homo+sapiens%22+AND+annotation%3A%28type%3Asignal+evidence%3Aexperimental%29+reviewed%3Ayes&sort=score) .
+The manual curation process of UniProtKB/Swiss-Prot includes extensive literature curation, and the annotation items with experimental evidence can be used to construct positive data sets for predictors of post-translational modifications (PTM) and other events, e.g. [all human entries with experimentally determined signal sequences](https://www.uniprot.org/uniprotkb/?query=organism%3A%22homo+sapiens%22+AND+annotation%3A%28type%3Asignal+evidence%3Aexperimental%29+reviewed%3Ayes&sort=score).
 
 However, the absence of annotation should not be used to build negative data sets: It is only in very rare cases that negative annotation is applied, e.g. entries which are known [not to be glycosylated](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3Aptm%20%22not%20glycosylated%22%20evidence%3Aexperimental%29&columns=id%2Centry%20name%2Creviewed%2Cprotein%20names%2Cgenes%2Clength%2Ccomment%28POST-TRANSLATIONAL%20MODIFICATION%29), either the intact protein, or an isoform, or a cleavage product, under certain conditions.
 

@@ -29,7 +29,7 @@ UniProtKB/TrEMBL makes use of the same list of keywords as UniProtKB/Swiss-Prot 
 
 -   The underlying nucleotide entry. The nucleotide databases (e.g. EMBL) contain keywords that are transferred to the corresponding UniProtKB/TrEMBL entry provided they are also present in the UniProtKB keyword list.
 -   The program which creates UniProtKB/TrEMBL entries. This adds keywords based on information in the underlying nucleotide entry. For example, if a nucleotide entry contains the word "kinase" in the description field, the program will add the keyword "Kinase" to the corresponding UniProtKB/TrEMBL entry.
--   [Automatic annotation](http://www.uniprot.org/help/automatic%5Fannotation) .
+-   [Automatic annotation](http://www.uniprot.org/help/automatic%5Fannotation).
 
 #### Related documents
 

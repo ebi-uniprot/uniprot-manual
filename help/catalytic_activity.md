@@ -18,7 +18,7 @@ Example: [A0A0S3QTD0](https://www.uniprot.org/uniprotkb/A0A0S3QTD0)
 
 Due to their focus on nomenclature, cross-references to [Enzyme Commission (EC) numbers](https://en.wikipedia.org/wiki/Enzyme%5FCommission%5Fnumber) have historically been added to the [Protein names](http://www.uniprot.org/help/protein%5Fnames) subsection of UniProtKB entries. To link the EC numbers to the reactions on which they are based, they are also added to 'Catalytic activity' annotations.
 
-A description of how Catalytic activity annotation is represented in the various formats in which UniProt entries are distributed, is included in the corresponding [news article from release 2018\_11](http://www.uniprot.org/news/2018/12/05/release) .
+A description of how Catalytic activity annotation is represented in the various formats in which UniProt entries are distributed, is included in the corresponding [news article from release 2018\_11](http://www.uniprot.org/news/2018/12/05/release).
 
 See also:
 

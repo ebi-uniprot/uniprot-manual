@@ -61,7 +61,7 @@ Examples: [Q8UF86](https://www.uniprot.org/uniprotkb/Q8UF86#function), [P0A6H1](
 Related keywords:  
 [Metal-binding](http://www.uniprot.org/keywords/479),  
 [Zinc](http://www.uniprot.org/keywords/862),  
-[Zinc finger](http://www.uniprot.org/keywords/863) .
+[Zinc finger](http://www.uniprot.org/keywords/863).
 
 See also:
 

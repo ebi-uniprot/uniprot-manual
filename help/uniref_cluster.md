@@ -14,4 +14,4 @@ For example, UniRef50 contains sequences clusters where all members are at least
 -   the lowest common taxonomy of all members, and
 -   common Gene Ontology terms, if any.
 
-For a full list of properties see this example: [P99999](http://www.uniprot.org/uniref/UniRef100%5FP99999) ( [XML](http://www.uniprot.org/uniref/UniRef100%5FP99999.xml) ) .
+For a full list of properties see this example: [P99999](http://www.uniprot.org/uniref/UniRef100%5FP99999) ( [XML](http://www.uniprot.org/uniref/UniRef100%5FP99999.xml) ).

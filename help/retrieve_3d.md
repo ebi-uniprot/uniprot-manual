@@ -13,7 +13,7 @@ Using the query builder:
 -   Select **Database** : `PDB`
 -   Click **Add & Search**
 -   Depending on your interests, choose amongst the following: Show only `reviewed` (UniProtKB/Swiss-Prot) or `unreviewed` (UniProtKB/TrEMBL) entries
--   **[result (reviewed entries only)](https://www.uniprot.org/uniprotkb/?query=database%3Apdb+AND+reviewed%3Ayes)** .
+-   **[result (reviewed entries only)](https://www.uniprot.org/uniprotkb/?query=database%3Apdb+AND+reviewed%3Ayes)**.
 
 2 - Retrieve all proteins with 3D structures determined by Electron microscopy (EM)
 
@@ -25,6 +25,6 @@ Using the query builder:
 -   Type `Method:EM`
 -   Click **Search**
 -   Depending on your interests, choose amongst the following: Show only `reviewed` (UniProtKB/Swiss-Prot) or `unreviewed` (UniProtKB/TrEMBL) entries
--   **[result (reviewed entries only)](https://www.uniprot.org/uniprotkb/?query=method%3Aem+AND+reviewed%3Ayes)** .
+-   **[result (reviewed entries only)](https://www.uniprot.org/uniprotkb/?query=method%3Aem+AND+reviewed%3Ayes)**.
 -   You can combine query such as: "myoglobin AND method:X-ray":
--   **[result](https://www.uniprot.org/uniprotkb/?query=myoglobin+AND+method%3AX-ray)** .
+-   **[result](https://www.uniprot.org/uniprotkb/?query=myoglobin+AND+method%3AX-ray)**.

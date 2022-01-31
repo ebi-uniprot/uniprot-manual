@@ -90,7 +90,7 @@ curl "https://rest.uniprot.org/beta/uniprotkb/search?query=human&format=gff"
 *   Click [Customize data](http://beta.uniprot.org/help/customize) on the search results page to select the columns to show in the results table.
 *   You can also look up your relevant column names in the full list of [UniProtKB column names for programmatic access](http://beta.uniprot.org/help/uniprotkb%5Fcolumn%5Fnames).
 
-The URL for a query result consists of a data set name (e.g. `uniprot`, `uniref`, `uniparc`, `taxonomy`, ...) and the actual query. The following query parameters are supported:
+The URL for a query result consists of a data set name (e.g. `uniprot`, `uniref`, `uniparc`, `taxonomy`,...) and the actual query. The following query parameters are supported:
           
 |Parameter|Values|Description|
 |---------|------|-----------|

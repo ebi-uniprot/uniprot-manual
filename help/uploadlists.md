@@ -39,7 +39,7 @@ Jobs have unique **identifiers**, which (depending on the job type) can be used 
 
 The list of identifiers that could not be mapped can be retrieved for further inspection or analysis.
 
-When mapping popular sequence database identifiers such as RefSeq, gi numbers, EMBL, EMBLCDS to UniProtKB, unmapped identifiers can be further mapped to [UniParc](http://www.uniprot.org/help/uniparc). This can be particularly useful for proteins from [redundant proteomes](http://www.uniprot.org/help/proteome%5Fredundancy) .
+When mapping popular sequence database identifiers such as RefSeq, gi numbers, EMBL, EMBLCDS to UniProtKB, unmapped identifiers can be further mapped to [UniParc](http://www.uniprot.org/help/uniparc). This can be particularly useful for proteins from [redundant proteomes](http://www.uniprot.org/help/proteome%5Fredundancy).
 
 #### Programmatic access
 
@@ -49,11 +49,11 @@ Code examples for programmatic access are available in the relevant API help pag
 
 #### Notes
 
--   Very large mapping requests (&gt;50,000 identifiers) are likely to fail. Please do verify that your list does not contain any duplicates, and try to split it into smaller chunks (&lt;20,000) in case of problems. If you prefer to run your mapping locally, you can also [download the data underlying this service](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/idmapping/) .
+-   Very large mapping requests (&gt;50,000 identifiers) are likely to fail. Please do verify that your list does not contain any duplicates, and try to split it into smaller chunks (&lt;20,000) in case of problems. If you prefer to run your mapping locally, you can also [download the data underlying this service](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/idmapping/).
 
 <!-- -->
 
--   For performance reasons, databases where the mapping relationship to UniProtKB identifiers is one-to-many, e.g. GO, InterPro or PubMed, are not supported. For limited lists of such identifiers, it is possible to query UniProtKB using the text search form with identifiers combined by "or", e.g. ["interpro IPR014000" OR "interpro IPR014002" OR "interpro IPR014003"](https://www.uniprot.org/uniprotkb/?query=%22interpro+IPR014000%22+or+%22interpro+IPR014002%22+or+%22interpro+IPR014003%22). One can then further use the [Columns](http://www.uniprot.org/help/customize) button to remove unwanted columns from the table view, or edit the query string (URL) to add "&columns=id,database(interpro)" to it. The same addition can be made to the URL for download of the tab-separated view, e.g. [/uniprot/?query=%22interpro+IPR014000%22+or+%22interpro+IPR014002%22+or+%22interpro+IPR014003%22&format=tab&columns=id,database(interpro)](https://www.uniprot.org/uniprotkb/?query=%22interpro+IPR014000%22+or+%22interpro+IPR014002%22+or+%22interpro+IPR014003%22&format=tab&columns=id,database(interpro)) .
+-   For performance reasons, databases where the mapping relationship to UniProtKB identifiers is one-to-many, e.g. GO, InterPro or PubMed, are not supported. For limited lists of such identifiers, it is possible to query UniProtKB using the text search form with identifiers combined by "or", e.g. ["interpro IPR014000" OR "interpro IPR014002" OR "interpro IPR014003"](https://www.uniprot.org/uniprotkb/?query=%22interpro+IPR014000%22+or+%22interpro+IPR014002%22+or+%22interpro+IPR014003%22). One can then further use the [Columns](http://www.uniprot.org/help/customize) button to remove unwanted columns from the table view, or edit the query string (URL) to add "&columns=id,database(interpro)" to it. The same addition can be made to the URL for download of the tab-separated view, e.g. [/uniprot/?query=%22interpro+IPR014000%22+or+%22interpro+IPR014002%22+or+%22interpro+IPR014003%22&format=tab&columns=id,database(interpro)](https://www.uniprot.org/uniprotkb/?query=%22interpro+IPR014000%22+or+%22interpro+IPR014002%22+or+%22interpro+IPR014003%22&format=tab&columns=id,database(interpro)).
 
 See also: [Related questions from our FAQ](http://www.uniprot.org/help/?query=(batch+OR+%22id+mapping%22+OR+%22upload+lists%22)+AND+section%3Afaq)
 

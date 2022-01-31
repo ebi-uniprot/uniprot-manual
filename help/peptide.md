@@ -14,7 +14,7 @@ The 'Description' field of each 'Peptide' corresponds to the peptide name listed
 There can be more than one 'Peptide' subsection per protein entry.  
 Example: [Q9SE35](https://www.uniprot.org/uniprotkb/Q9SE35#ptm%5Fprocessing)
 
-Each peptide has a [stable identifier](http://www.uniprot.org/help/sequence%5Fannotation#annotation%5Fid) .
+Each peptide has a [stable identifier](http://www.uniprot.org/help/sequence%5Fannotation#annotation%5Fid).
 
 See also:
 

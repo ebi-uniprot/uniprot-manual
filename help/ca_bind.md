@@ -36,4 +36,4 @@ Example: [P22002](https://www.uniprot.org/uniprotkb/P22002#function)
 In the following example the calcium-binding domain is structurally similar to that of EF-hand proteins, but is in two parts, with the last calcium ligand provided by a single distal residue.  
 Example: [P23925](https://www.uniprot.org/uniprotkb/P23925#function)
 
-Related keyword: [Calcium](http://www.uniprot.org/keywords/106) .
+Related keyword: [Calcium](http://www.uniprot.org/keywords/106).

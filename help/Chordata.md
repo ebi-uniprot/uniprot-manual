@@ -3,7 +3,7 @@ title: Chordata protein annotation project
 categories: biocuration,project
 ---
 
-The Chordata protein annotation project focuses on the manual annotation of chordata-specific proteins as well as those that are widely conserved. The aim of this project is twofold: 1. to keep the existing human entries up-to-date and 2. to broaden the manual annotation to other vertebrate species, especially model organisms, including great apes, cow, mouse, rat, chicken, zebrafish, as well as *Xenopus laevis* and *Xenopus tropicalis* .
+The Chordata protein annotation project focuses on the manual annotation of chordata-specific proteins as well as those that are widely conserved. The aim of this project is twofold: 1. to keep the existing human entries up-to-date and 2. to broaden the manual annotation to other vertebrate species, especially model organisms, including great apes, cow, mouse, rat, chicken, zebrafish, as well as *Xenopus laevis* and *Xenopus tropicalis*.
 
 See: [How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/faq/45)
 

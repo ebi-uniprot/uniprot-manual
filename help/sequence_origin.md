@@ -15,7 +15,7 @@ In addition to translated CDS, UniProtKB protein sequences may come from:
 -   sequences derived from gene prediction, not submitted to EMBL-Bank/GenBank/DDBJ ( [Ensembl](http://www.ensembl.org/), [Ensembl Genomes](http://ensemblgenomes.org/), [WormBase ParaSite](http://parasite.wormbase.org/) or [VectorBase](https://www.vectorbase.org/) ) (1), [RefSeq](https://www.ncbi.nlm.nih.gov/RefSeq/), [CCDS](https://www.ncbi.nlm.nih.gov/projects/CCDS/CcdsBrowse.cgi), etc).
 -   sequences derived from in-house gene prediction, in very specific cases.
 
-The FAQ [Does UniProtKB contain all protein sequences?](http://www.uniprot.org/help/uniprotkb%5Fcoverage) gives information on our UniProtKB protein sequence exclusion policies, e.g. for [redundant proteomes](http://www.uniprot.org/help/proteome%5Fredundancy) .
+The FAQ [Does UniProtKB contain all protein sequences?](http://www.uniprot.org/help/uniprotkb%5Fcoverage) gives information on our UniProtKB protein sequence exclusion policies, e.g. for [redundant proteomes](http://www.uniprot.org/help/proteome%5Fredundancy).
 
 \(1\) Complementary pipelines for import of protein sequences have been developed in collaboration with Ensembl for vertebrate species, Ensembl Genomes for non-vertebrate species, WormBase ParaSite for parasitic nematodes and VectorBase for pathogen vector genomes. In addition, a new pipeline imports selected non-redundant genomes annotated by NCBI RefSeq. These sources provide proteome sequences for a number of key genomes of special interest where the INSDC submission is lacking gene model annotation.
 

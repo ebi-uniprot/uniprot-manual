@@ -3,7 +3,7 @@ title: How can I get all the proteins involved in a given disease?
 categories: UniProtKB,Keywords,Text_search,Human,Pathology_and_biotech,faq
 ---
 
-Information relevant to diseases associated with a given protein are found in the section 'Pathology and Biotech'. The information given (including the disease name) is consistent with the literature and the [OMIM database](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim) .
+Information relevant to diseases associated with a given protein are found in the section 'Pathology and Biotech'. The information given (including the disease name) is consistent with the literature and the [OMIM database](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim).
 
 You can use three methods to search proteins associated with a given disease.
 
@@ -24,7 +24,7 @@ You can use three methods to search proteins associated with a given disease.
 
 3\) Browse by keyword:
 
-Some proteins involved in a specific non-monogenic disease are associated with specialized 'disease' keywords ( ['Diabetes mellitus'](http://www.uniprot.org/keywords/219), ['Cataract'](http://www.uniprot.org/keywords/898), ['Alzheimer disease'](http://www.uniprot.org/keywords/26) ...)
+Some proteins involved in a specific non-monogenic disease are associated with specialized 'disease' keywords ( ['Diabetes mellitus'](http://www.uniprot.org/keywords/219), ['Cataract'](http://www.uniprot.org/keywords/898), ['Alzheimer disease'](http://www.uniprot.org/keywords/26)...)
 
 -   Go to the [keywords page](http://www.uniprot.org/keywords/)
 -   Click the keyword category `'Disease'`

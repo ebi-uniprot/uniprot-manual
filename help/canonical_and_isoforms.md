@@ -13,7 +13,7 @@ Each UniProtKB/Swiss-Prot entry contains all curated protein products encoded by
 4.  It is identical to consensus sequences chosen by other resources and genome curation efforts such as CCDS and MANE (see also [UniProt's human proteome](http://www.uniprot.org/help/human%5Fproteome) )
 5.  In the absence of any information, we choose the longest sequence.
 
-Sequences chosen according to these criteria generally allow the description of the majority of functionally important [domains](http://www.uniprot.org/help/domain), [motifs](http://www.uniprot.org/help/motif), [sites](http://www.uniprot.org/help/site), and [post-translational modifications](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection), naturally occurring [variants](http://www.uniprot.org/help/variant) with functional and clinical significance, and other [sequence features](http://www.uniprot.org/help/sequence%5Fannotation) .
+Sequences chosen according to these criteria generally allow the description of the majority of functionally important [domains](http://www.uniprot.org/help/domain), [motifs](http://www.uniprot.org/help/motif), [sites](http://www.uniprot.org/help/site), and [post-translational modifications](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection), naturally occurring [variants](http://www.uniprot.org/help/variant) with functional and clinical significance, and other [sequence features](http://www.uniprot.org/help/sequence%5Fannotation).
 
 Additional information can be found in the ['Alternative sequence'](http://www.uniprot.org/help/var%5Fseq) subsection.
 

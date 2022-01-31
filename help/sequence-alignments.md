@@ -28,7 +28,7 @@ Instead of entering identifiers into the form, you can collect sequences by clic
 
 ![](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/align_select.png)
 
-Similarly, you can align the sequences that you have collected into your [basket](http://www.uniprot.org/help/basket) .
+Similarly, you can align the sequences that you have collected into your [basket](http://www.uniprot.org/help/basket).
 
 After you have submitted your data, a status page is shown. This page is reloaded in regular intervals until the alignment is complete. The final result page shows a colored version of the alignment and allows to download in Clustal format.
 

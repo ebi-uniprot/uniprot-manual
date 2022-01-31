@@ -63,7 +63,7 @@ Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have e
 We also annotate topological domains based on the predictions provided by the program TMHMM, which returns a probability that non-transmembrane regions of a protein are in a cytoplasmic compartment (specified as 'in') or a non-cytoplasmic compartment (specified as 'out'). When TMHMM returns a high confidence topology prediction for a protein of known subcellular location, the notional 'in' and 'out' predictions from TMHMM are specified using a controlled vocabulary as described above. For instance, we may specify 'in' as 'cytoplasmic' and 'out' as 'periplasmic'.  
 Example: [Q8BJ48](https://www.uniprot.org/uniprotkb/Q8BJ48#subcellular%5Flocation)
 
-When nothing is known about the subcellular location of the protein, we annotate the topological domains based on TMHMM predictions using the default values of 'cytoplasmic' and 'extracellular'. In all cases, predicted topological domains are annotated with ['Sequence analysis'](http://www.uniprot.org/help/evidences#ECO:0000255) .
+When nothing is known about the subcellular location of the protein, we annotate the topological domains based on TMHMM predictions using the default values of 'cytoplasmic' and 'extracellular'. In all cases, predicted topological domains are annotated with ['Sequence analysis'](http://www.uniprot.org/help/evidences#ECO:0000255).
 
 See also:
 

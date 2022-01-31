@@ -12,7 +12,7 @@ When a metal is known to interact with a protein via a backbone oxygen or nitrog
 Example: [P04746](https://www.uniprot.org/uniprotkb/P04746#function)
 
 If known, we indicate if the amino acid involved in metal ligation binds to the distal or proximal side of heme. If unknown, we use the term 'axial'.  
-Example: [P01966](https://www.uniprot.org/uniprotkb/P01966#function), [P00163](https://www.uniprot.org/uniprotkb/P00163#function) .
+Example: [P01966](https://www.uniprot.org/uniprotkb/P01966#function), [P00163](https://www.uniprot.org/uniprotkb/P00163#function).
 
 Related keywords:
 

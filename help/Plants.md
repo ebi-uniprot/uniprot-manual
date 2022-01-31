@@ -19,7 +19,7 @@ Our major effort is currently focused on manual annotation of the proteomes of b
 
 We are working on the establishment and annotation of a comprehensive, non-redundant proteome of Arabidopsis. As a first step towards achieving this goal we have compared the content of UniProtKB with the list of proteins established by [The Arabidopsis Information Resource](http://www.arabidopsis.org/) (TAIR). In several cases this led us to complement the sequence information that was already present in UniProtKB with data available at TAIR. Since then, UniProtKB and TAIR have been kept manually synchronized. Based on our family annotation, changes to the current gene model predictions are sometimes necessary and all our gene model improvements are transmitted to TAIR for integration in their database.
 
--   The *Arabidopsis thaliana* entries which have been manually annotated are [listed here](http://www.uniprot.org/docs/arath) [(statistics)](http://www.uniprot.org/biocuration%5Fproject/Plants/statistics/#Arabidopsisthaliana) .
+-   The *Arabidopsis thaliana* entries which have been manually annotated are [listed here](http://www.uniprot.org/docs/arath) [(statistics)](http://www.uniprot.org/biocuration%5Fproject/Plants/statistics/#Arabidopsisthaliana).
 
 ## About rice
 
@@ -29,6 +29,6 @@ We are working on the establishment and annotation of a comprehensive, non-redun
 
 Rice contains two major subspecies: the sticky, short grained [japonica](http://www.uniprot.org/taxonomy/39947) or sinica variety, and the non-sticky, long-grained [indica](http://www.uniprot.org/taxonomy/39946) variety. A first draft of the complete sequences of both genomes was published in 2002 while improved versions were released in 2005.
 
-Our major effort is currently directed towards the annotation of the proteins encoded by the genome of [*Oryza sativa* subspecies *japonica*](http://www.uniprot.org/taxonomy/39947), cultivar *nipponbare* .
+Our major effort is currently directed towards the annotation of the proteins encoded by the genome of [*Oryza sativa* subspecies *japonica*](http://www.uniprot.org/taxonomy/39947), cultivar *nipponbare*.
 
--   The *Oryza sativa* subsp. *japonica* entries which have been manually annotated are [listed here](http://www.uniprot.org/docs/rice) [(statistics)](http://www.uniprot.org/biocuration%5Fproject/Plants/statistics/#Oryzasativasubspjaponica) .
+-   The *Oryza sativa* subsp. *japonica* entries which have been manually annotated are [listed here](http://www.uniprot.org/docs/rice) [(statistics)](http://www.uniprot.org/biocuration%5Fproject/Plants/statistics/#Oryzasativasubspjaponica).
