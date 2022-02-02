@@ -67,9 +67,8 @@ The UniProtKB/TrEMBL entry name consists of up to 16 uppercase alphanumeric char
 
 Since it is impossible to manually assign organism codes to all species represented in UniProtKB/TrEMBL, 'virtual' codes have been defined that group organisms at a certain taxonomic level. Such codes are prefixed by the number '9' and generally correspond to a 'pool' of organisms, which can be as wide as a kingdom. Here are some examples of such codes:
 
-|                    |                          |               |
+| Mnemomnic code     | Taxonomic identifier     | Scope         |
 |:-------------------|:-------------------------|:--------------|
-| **Mnemomnic code** | **Taxonomic identifier** | **Scope**     |
 | 9BACT              | 2                        | Bacteria      |
 | 9CNID              | 6073                     | Cnidaria      |
 | 9FUNG              | 4751                     | Fungi         |
@@ -86,5 +85,5 @@ An 'entry name tracker' tool is included in the UniProt website search engine. I
 
 #### Related documents
 
-[Controlled vocabulary of species](http://www.uniprot.org/docs/speclist)  
-[What is the difference between an accession number (AC) and the entry name?](http://www.uniprot.org/help/difference%5Faccession%5Fentryname)
+-   [Controlled vocabulary of species](http://www.uniprot.org/docs/speclist)  
+-   [What is the difference between an accession number (AC) and the entry name?](http://www.uniprot.org/help/difference%5Faccession%5Fentryname)
