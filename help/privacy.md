@@ -12,29 +12,29 @@ The UniProt Consortium is formed by three institutions that are joint data contr
 
 The EMBL-EBI data controller's contact details are:   
 Rolf Apweiler and Ewan Birney, EMBL-EBI Directors  
-Email: data-controller@ebi.ac.uk  
+Email: <span>data-controller</span><span>&nbsp;*[at]*&nbsp;</span><span>ebi.ac.uk</span>  
 EMBL-EBI, Wellcome Genome Campus, CB10 1SD Hinxton, Cambridgeshire, UK.
 
 The EMBL Data Protection Officer's contact details are:   
 EMBL Data Protection Officer   
 Tel: +49 6221 387-0  
-Email: dpo@embl.org  
+Email: <span>dpo</span><span>&nbsp;*[at]*&nbsp;</span><span>embl.org</span>  
 EMBL Heidelberg, Meyerhofstraße 1, 69117 Heidelberg, Germany.
 
 The SIB data controller's contact details are:  
 Alan Bridge, Director SIB Swiss-Prot Group  
-Email: Alan.Bridge@sib.swiss  
+Email: <span>Alan.Bridge</span><span>&nbsp;*[at]*&nbsp;</span><span>sib.swiss</span>  
 SIB Swiss Institute of Bioinformatics, CMU, 1 rue Michel Servet, 1211 Geneva, Switzerland.
 
 The SIB Data Protection Officer's contact details are:  
 Marc Filliettaz  
 Tel: +41 21 692 40 50  
-Email: dpo@sib.swiss  
+Email: <span>dpo</span><span>&nbsp;*[at]*&nbsp;</span><span>sib.swiss</span>  
 SIB Swiss Institute of Bioinformatics, Quartier Sorge - Batiment Genopode, 1015 Lausanne, Switzerland.
 
 The Protein Information Resource data controller's contact details are:  
 Peter McGarvey  
-Email: peter.mcgarvey@georgetown.edu 
+Email: <span>peter.mcgarvey</span><span>&nbsp;*[at]*&nbsp;</span><span>georgetown.edu</span>  
 Georgetown University Medical Center, 2115 Wisconsin Ave NW, G1, Suite 050 
 Washington DC 20007, United States.
 
