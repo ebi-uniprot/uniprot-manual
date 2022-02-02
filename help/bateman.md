@@ -5,13 +5,7 @@ categories: help
 
 Senior Team Leader [Protein Sequence Resources](http://www.ebi.ac.uk/about/people/alex-bateman) and Group Leader [Bateman Research Group](http://www.ebi.ac.uk/research/bateman).
 
-E-mail:
-
-agb
-
-null @ebi.
-
-null ac.uk
+E-mail: <span>agb</span><span>&nbsp;*[at]*&nbsp;</span><span>ebi.ac.uk</span>
 
 EMBL Outstation European Bioinformatics Institute (EMBL/EBI)  
 Wellcome Trust Genome Campus  

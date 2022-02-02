@@ -5,13 +5,7 @@ categories: help
 
 Group Leader [Swiss-Prot](https://www.sib.swiss/alan-bridge-group)
 
-E-mail:
-
-alan.bridge@
-
-null sib.
-
-null swiss
+E-mail: <span>alan.bridge</span><span>&nbsp;*[at]*&nbsp;</span><span>sib.swiss</span>
 
 SIB Swiss Institute of Bioinformatics  
 CMU, Rue Michel Servet, 1  

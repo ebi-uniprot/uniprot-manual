@@ -124,7 +124,7 @@ example:
 
 ### 500 Internal server error
 The `500 Internal server error` status code indicates that the processing of the request on the server failed unexpectedly.
-If you are able to replicate this error consistently, please [report it to us](mailto:help@uniprot.org).
+If you are able to replicate this error consistently, please report it to us through our [contact page](https://www.uniprot.org/contact).
 
 
 ## x-release-date
