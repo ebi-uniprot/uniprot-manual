@@ -13,7 +13,7 @@ The [Advanced search](http://www.uniprot.org/help/advanced%5Fsearch) can be used
 
 Click on "Advanced" and select "Catalytic activity" under "Function". When starting to type the name of a chemical compound, e.g. "L-lys.…" the autocompletion mechanism suggests several compounds from ChEBI, and others from Rhea:
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chemical_data_search-2.png)
+![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chem_search.png)
 
 ### Search for a given reaction by Rhea identifier
 
@@ -24,13 +24,13 @@ Click on "Advanced" and select "Catalytic activity" under "Function". When start
 All proteins annotated to catalyze this reaction in UniProtKB can be retrieved with this query:  
 [annotation:(type:"catalytic activity" rhea:20856)](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22+RHEA%3A20856%29&sort=score)
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chemical_data_search-3.png)
+![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chem_rhea.png)
 
 ### Search for reactions based on parent-child relationships defined in ChEBI
 
 To retrieve entries catalyzing reactions involving sugars, it is possible to use the auto-completion functionality, e.g. with the word "sugar".
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chemical_data_search-4.png)
+![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chem_data_1a.png)
 
 To retrieve all entries catalyzing reactions involving any monosaccharide, it is also possible to search with the high-level term "monosaccharide":
 
@@ -40,7 +40,7 @@ To retrieve all entries catalyzing reactions involving any monosaccharide, it is
 
 You can search UniProtKB for small molecule reaction participants and cofactors using the InChIKey, a standard hashed representation of the IUPAC International Chemical Identifier ( [InChI](https://www.inchi-trust.org/about-the-inchi-standard/) ) that provides a unique and compact representation of chemical structure data. Flexible chemical structure searches are possible with the complete InChIKey, as well as with the connectivity and stereochemistry layers, or the connectivity layer alone. You can search our "Catalytic activity" or "Cofactor" annotations, or both combined, by using the "Small molecule" advanced search field:
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chemical_data_search-5.png)
+![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chem_data_2a.png)
 
 #### Chemical structure search with a complete InChIKey
 
