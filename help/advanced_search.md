@@ -5,7 +5,7 @@ categories: Website,Text_search,Technical,help
 
 The advanced search interface allows to browse the different search fields and options within the dropdown menus. There is a search box right at the top when you open the blue dropdown menu that allows you to type a concept name (e.g. "structure") and receive some autocompleted suggestions from which you can then select the most suitable one:
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/advanced_search-14.png)
+![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/advanced_structure.png)
 
 The table below lists the different options available in the "Advanced search" menu for the UniProt Knowledgebase. Columns 2 to 4 correspond to the submenu levels that are provided for some sections, after clicking on the (sub-)section name in the advanced search interface.
 
