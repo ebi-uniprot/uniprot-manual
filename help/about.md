@@ -29,23 +29,23 @@ UniProt activities at PIR have benefited from NIH grants HHSN266200400061C (2004
 
 #### Further information
 
--   [The Universal Protein Resource](http://www.uniprot.org/docs/uniprot%5Fflyer.pdf)
+-   [The Universal Protein Resource](http://www.uniprot.org/docs/uniprot%5Fflyer.pdf) printable reference card for the UniProt databases
 
-    Printable reference card for the UniProt databases
-
-<!-- -->
 
 -   [How to cite us](http://www.uniprot.org/help/publications)
 
 #### Contact the UniProt consortium members
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/embl-logo.png)  
+<img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/embl-logo.png" width=150 />
+
 [European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/)  
 Wellcome Trust Genome Campus  
 Hinxton Cambridge CB10 1SD  
 United Kingdom  
 Phone: (+44 1223) 494 444  
 Fax: (+44 1223) 494 468
+
+<br/>
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/logo_sib.png)
 
@@ -56,6 +56,8 @@ Centre Medical Universitaire
 Switzerland  
 Phone: (+41 22) 379 50 50  
 Fax: (+41 22) 379 58 58
+
+<br/>
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/logo_pir.png)
 
