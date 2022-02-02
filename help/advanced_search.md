@@ -208,4 +208,4 @@ See also:
 
 -   [Simple full text search](http://www.uniprot.org/help/text-search)
 -   [Query fields for UniProtKB](http://www.uniprot.org/help/query-fields)
--   [How can I query UniProtKB annotations by evidence?](http://www.uniprot.org/help/evidence%5Ftable) - a guide to evidence codes and labels in entry view and advanced search
+-   [How can I query UniProtKB annotations by evidence?](http://www.uniprot.org/help/evidence_table) - a guide to evidence codes and labels in entry view and advanced search
