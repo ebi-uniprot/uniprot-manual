@@ -48,9 +48,13 @@ A request for an address such as
 
     http://purl.uniprot.org/uniprot/P12345
 
-will be resolved, where possible, by redirection to the corresponding resource (see previous section). For UniProt resources, entries are returned in RDF/XML format if the HTTP [`'Accept'` request header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) is set to `'application/rdf+xml'`.
+will be resolved, where possible, by redirection to the corresponding resource (see previous section). For UniProt resources, entries are returned in RDF/XML format if the HTTP [`'Accept'` request header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) is set to `'application/rdf+xml'`.
 
 See also:
 
--   [REST API - Access the UniProt website programmatically](http://www.uniprot.org/help/api)
--   batch retrieval, ID mapping, queries, downloads, etc
+-   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
+-   [REST API - Retrieve entries](https://www.uniprot.org/help/api_retrieve_entries.md)
+-   [REST API - ID Mapping](https://www.uniprot.org/help/id_mapping.md)
+-   [REST API - Retrieving entries via queries](https://www.uniprot.org/help/api_queries.md)
+-   [REST API - Downloading](https://www.uniprot.org/help/api_downloading.md)
+
