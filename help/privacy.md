@@ -5,7 +5,7 @@ categories: About_UniProt,help
 
 This Privacy Notice explains what personal data is collected by the specific service you are requesting, for what purposes, how it is processed, and how we keep it secure.
 
-### 1. Who controls your personal data and how to contact us? {\#1\_*Who\_controls\_your\_personal\_data\_and\_how\_to\_contact\_us*}
+### 1. Who controls your personal data and how to contact us?
 
 The UniProt Consortium is formed by three institutions that are joint data controllers.
 
@@ -68,11 +68,11 @@ null @georgetown
 null.edu  
 Georgetown University Medical Center, 3300 Whitehaven Street, NW, Suite 1200, Washington, WA DC 20007, United States.
 
-### 2. Which is the lawful basis for processing personal data? {\#2\_*Which\_is\_the\_lawful\_basis\_for\_processing\_personal\_data*}
+### 2. Which is the lawful basis for processing personal data?
 
 Processing your personal data is necessary for our legitimate interests in providing services to you, to help improve our resources and for the purposes of day-to-day running of the UniProt resource and underlying infrastructure.
 
-### 3. What personal data is collected from users of the service? How do we use this personal data? {\#3\_\_What\_personal\_data\_is\_collected\_from\_users\_of\_the\_service\_\_How\_do\_we\_use\_this\_personal\_data\_}
+### 3. What personal data is collected from users of the service? How do we use this personal data?
 
 The personal data collected from the services listed below is as follows:
 
@@ -98,21 +98,21 @@ The data controller will use your personal data for the following purposes:
 -   To conduct and monitor data protection activities
 -   To conduct and monitor security activities
 
-### 4. Who will have access to your personal data? {\#4\_*Who\_will\_have\_access\_to\_your\_personal\_data*}
+### 4. Who will have access to your personal data?
 
 Personal data will only be disclosed to authorized staff at the institutions that form the UniProt Consortium.
 
-### 5. Will your personal data be transferred to third countries (i.e. countries not part of EU/EAA) and/or international organisations? {\#5\_\_Will\_your\_personal\_data\_be\_transferred\_to\_third\_countries\_\_i\_e\_\_countries\_not\_part\_of\_EU\_EAA\_\_and\_or\_international\_organisations\_}
+### 5. Will your personal data be transferred to third countries (i.e. countries not part of EU/EAA) and/or international organisations?
 
 There are no personal data transfers to international organisations outside of the UniProt Consortium.
 
 UniProt uses Google Analytics as a third-party analytics service to collect information about website performance and how users navigate through and use our sites to help us design better interfaces. We do not use Google Analytics to track you individually or collect personal data.
 
-### 6. How long do we keep your personal data? {\#6\_*How\_long\_do\_we\_keep\_your\_personal\_data*}
+### 6. How long do we keep your personal data?
 
 Any personal data directly obtained from you will be retained as long as the service is live, even if you stop using the service. We will keep the personal data for the minimum amount of time possible to ensure legal compliance and to facilitate internal and external audits if they arise.
 
-### 7. The joint Data Controllers provide these rights regarding your personal data {\#7\_\_The\_joint\_Data\_Controllers\_provide\_these\_rights\_regarding\_your\_personal\_data}
+### 7. The joint Data Controllers provide these rights regarding your personal data
 
 You have the right to:
 
