@@ -1,4 +1,3 @@
-
 ---
 title: General annotation (Comments)
 categories: manual
@@ -8,8 +7,8 @@ Position-independent general annotations used to be found in the 'General annota
 
 The current entry view disp lays annotation by subject (Function, PTM & processing, etc), and the various "general" annotations are now distributed to the relevant new sections.
 
-**Subsection**|**Query Field**|**Content**
-:-----:|:-----:|:-----:
+Subsection | Query Field | Content
+:--------- | :---------- | :----- 
 [Function](https://beta.uniprot.org/help/function)|cc\_function|General function(s) of a protein
 [Catalytic activity](https://beta.uniprot.org/help/catalytic\_activity)|cc\_catalytic\_activity|Reaction(s) catalyzed by an enzyme
 [Cofactor](https://beta.uniprot.org/help/cofactor)|cc\_cofactor|Non-protein substance required for enzyme activity

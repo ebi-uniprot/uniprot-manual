@@ -1,4 +1,3 @@
-
 ---
 title: Sequence annotation (Features)
 categories: manual,Technical
@@ -144,5 +143,3 @@ Feature identifiers currently exist for the following annotation topics: Propept
 |**Natural variations**||||
 |[Alternative sequence](https://beta.uniprot.org/help/var_seq)|VSP|Any sequence with an ‘Alternative sequence’ feature|[P81278](https://beta.uniprot.org/uniprotkb/P81278/entry#sequences)|
 |[Natural variant](https://beta.uniprot.org/help/variant)|VAR|Only for protein sequence variants of Hominidae (great apes and humans)|[P11171](https://beta.uniprot.org/uniprotkb/P11171/entry#sequences)|
-
-        
