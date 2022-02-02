@@ -53,4 +53,4 @@ will be resolved, where possible, by redirection to the corresponding resource (
 See also:
 
 -   [REST API - Access the UniProt website programmatically](http://www.uniprot.org/help/api)
--   \- batch retrieval, ID mapping, queries, downloads, etc
+-   batch retrieval, ID mapping, queries, downloads, etc
