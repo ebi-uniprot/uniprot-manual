@@ -1,0 +1,25 @@
+stages:
+  - index-help
+
+fb-index-help:downstream:
+  stage: index-help
+  trigger: uniprot/deployment/unp.ci.api.k8s
+  when: on_success
+  variables:
+    CI_PIPELINE_TASKS: index-help
+    ARTIFACT: uniprot-indexer
+    DC: HX
+  only:
+    - master
+
+prod-index-help:downstream:
+  stage: index-help
+  trigger: uniprot/deployment/unp.ci.api.k8s
+  when: on_success
+  variables:
+    CI_PIPELINE_TASKS: index-help
+    ARTIFACT: uniprot-indexer
+    DEPLOY_ENV: prod
+    DC: HH
+  only:
+    - master
