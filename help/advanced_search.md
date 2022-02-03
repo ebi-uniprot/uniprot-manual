@@ -11,8 +11,8 @@ The table below lists the different options available in the "Advanced search" m
 
 The 2-letter codes in square brackets (e.g. "\[DE\]", "\[CC\]") correspond to the line codes used in the flat text files.
 
-|                          |                                                                                                                                                                |                                                                |               |
-|:-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|---------------|
+| Top menu | Submenu 1 | Submenu 2 | Submenu 3 |
+|:---------|-----------|-----------|-----------|
 | UniProtKB AC             |                                                                                                                                                                |                                                                |               |
 | Entry name \[ID\]        |                                                                                                                                                                |                                                                |               |
 | Protein name \[DE\]      |                                                                                                                                                                |                                                                |               |
