@@ -2,6 +2,7 @@
 title: Fungal protein annotation project
 categories: biocuration,project
 ---
+Bananas
 
 The Fungal protein annotation project focuses on the manual annotation of fungi-specific proteins and protein families.
 
