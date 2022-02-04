@@ -20,7 +20,7 @@ please refer to the comprehensive [API documentation](http://rest.uniprot.org/be
 
 > POST /idmapping/run
 
-For example, to map UniProtKB entries P21802, P12345, we could POST a request to the above REST end-point as follows: 
+For example, to map UniProtKB entries P21802 and P12345, we could POST a request to the above REST end-point as follows: 
    
 
 > **Request**
