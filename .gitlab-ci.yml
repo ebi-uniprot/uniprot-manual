@@ -10,7 +10,7 @@ fb-index-help:downstream:
     ARTIFACT: uniprot-indexer
     DC: HX
   only:
-    - master
+    - main
 
 prod-index-help:downstream:
   stage: index-help
@@ -22,4 +22,4 @@ prod-index-help:downstream:
     DEPLOY_ENV: prod
     DC: HH
   only:
-    - master
+    - main
