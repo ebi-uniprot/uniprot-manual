@@ -33,7 +33,7 @@ Manual annotation consists of a critical review of experimentally proven or comp
 
 [How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/help/manual_curation)
 
-[Standard operating procedure (SOP) for UniProt manual curation](http://www.uniprot.org/docs/sop_manual_curation.pdf)
+[Standard operating procedure (SOP) for UniProt manual curation](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf)
 
 [UniProt Manual Annotation Programs](http://www.uniprot.org/program)
 
@@ -47,4 +47,4 @@ Archived versions of a UniProtKB entry are accessible through the *Previous vers
 -   [How to cite UniProt](http://www.uniprot.org/help/publications)
 -   [Submissions and updates to UniProtKB](http://www.uniprot.org/help/submissions)
 -   [UniProtKB entry view manual](http://www.uniprot.org/manual)
--   [Printable Quick Guide to UniProtKB](http://www.uniprot.org/docs/uniprotkb_quickguide.pdf)
+-   [Printable Quick Guide to UniProtKB](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/uniprotkb_quickguide.pdf)

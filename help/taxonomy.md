@@ -56,7 +56,7 @@ However, for a number of species commonly encountered in UniProtKB, we use self-
 
 Since the above rules cannot apply to viruses, we give them arbitrary, but generally easy-to-remember, identification codes.
 
-A full list of organism mnemonics is available in our [Controlled vocabulary of species](http://www.uniprot.org/docs/speclist).
+A full list of organism mnemonics is available in our [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist).
 
 Codes starting with the digit 9 are used for higher nodes that group together organisms at a given taxonomic level.
 
@@ -80,7 +80,7 @@ For convenience reasons, both GenBank/EMBL-Bank/DDBJ and UniProtKB entries store
 
 A list of strains may be provided for organisms with at least one entry in UniProtKB/Swiss-Prot. Where available, synonyms for particular strain names are listed in grey after the main name (see example [ECOLX](http://www.uniprot.org/taxonomy/562) ). In UniProtKB entries, strain names are displayed in the Strain lines under 'Publications' (see example [P42652](https://www.uniprot.org/uniprotkb/P42652#publications) ).
 
-Note: Some of the strains present in the [strain list](http://www.uniprot.org/docs/strains) might have their own taxon in the NCBI taxonomy database. The policy for the description of the source organism for a sequence has changed over the years from species to strain and back to species and you will therefore find a mixture of species and strain assignments in the nucleotide and protein databases.
+Note: Some of the strains present in the [strain list](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains) might have their own taxon in the NCBI taxonomy database. The policy for the description of the source organism for a sequence has changed over the years from species to strain and back to species and you will therefore find a mixture of species and strain assignments in the nucleotide and protein databases.
 
 #### Viral hosts
 
@@ -98,6 +98,6 @@ There are numerous virus-host interactions:
 
 These interactions appear in the annotation of viral UniProtKB entries under various annotation types such as function, subunit, subcellular location and PTM.
 
-Related document: [Controlled vocabulary of species](http://www.uniprot.org/docs/speclist)
+Related document: [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)
 
 </div>

@@ -26,7 +26,7 @@ Here are the main sections of our FTP site, with links to README files and help 
 | Variants [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/variants/README)                                 | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/variants/)                                                                                                                                                                                                                                                               |
 | Genome annotation tracks [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/README) | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/)                                                                                                                                                                                                                                               |
 | Documents                                                                                                                                      | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/)                                                                                                                                                                                                                                                          |
-| XML                                                                                                                                            | [XML schema](https://www.uniprot.org/docs/uniprot.xsd)                                                                                                                                                                                                                                                                                                     |
+| XML                                                                                                                                            | [XML schema](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot.xsd)                                                                                                                                                                                                                                                                                                     |
 
 # UniRef
 
@@ -46,7 +46,7 @@ Here are the main sections of our FTP site, with links to README files and help 
 | Resource | Download |
 | -------- | -------- |
 | UniParc (Sequence Archive) [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/README) [Help](/help/uniparc) | [xml](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/uniparc_all.xml.gz) [fasta](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/uniparc_active.fasta.gz) |
-| XML | [xml schema](https://www.uniprot.org/docs/uniparc.xsd) |
+| XML | [xml schema](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/uniparc.xsd) |
 
 # UniProt RDF distribution
 

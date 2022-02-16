@@ -22,7 +22,7 @@ Note that the proteome for a given organism, when available, can be accessed thr
 
 [Taxonomy](http://www.uniprot.org/taxonomy)
 
-[Controlled vocabulary of species](http://www.uniprot.org/docs/speclist)
+[Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)
 
 [What are proteomes?](http://www.uniprot.org/help/proteome)
 

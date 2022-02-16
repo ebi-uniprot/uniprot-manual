@@ -14,4 +14,4 @@ Related keyword: [Allergen](http://www.uniprot.org/keywords/20)
 
 #### Related document
 
-[Nomenclature of allergens and list of entries](http://www.uniprot.org/docs/allergen)
+[Nomenclature of allergens and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/allergen)
