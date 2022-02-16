@@ -29,7 +29,7 @@ UniProt activities at PIR have benefited from NIH grants HHSN266200400061C (2004
 
 #### Further information
 
--   [The Universal Protein Resource](http://www.uniprot.org/docs/uniprot%5Fflyer.pdf) printable reference card for the UniProt databases
+-   [The Universal Protein Resource](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/uniprot_flyer.pdf) printable reference card for the UniProt databases
 
 
 -   [How to cite us](http://www.uniprot.org/help/publications)

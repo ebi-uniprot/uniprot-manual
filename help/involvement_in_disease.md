@@ -38,9 +38,9 @@ Examples: [P00395](https://www.uniprot.org/uniprotkb/P00395#pathology%5Fand%5Fbi
 
 #### Related documents
 
-[Online Mendelian Inheritance in Man (MIM) cross-references in UniProtKB/Swiss-Prot](http://www.uniprot.org/docs/mimtosp)
+[Online Mendelian Inheritance in Man (MIM) cross-references in UniProtKB/Swiss-Prot](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/mimtosp)
 
-Controlled vocabulary used for the annotation of genetic diseases in UniProtKB/Swiss-Prot: [List](http://www.uniprot.org/docs/humdisease) / [Search](http://www.uniprot.org/diseases)
+Controlled vocabulary used for the annotation of genetic diseases in UniProtKB/Swiss-Prot: [List](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humdisease) / [Search](http://www.uniprot.org/diseases)
 
 [How can I get all the proteins involved in a given disease?](http://www.uniprot.org/help/disease%5Fquery)
 

@@ -9,7 +9,7 @@ User manual for the UniProtKB entry view.
 [UniProtKB flat file manual](https://web.expasy.org/docs/userman.html)  
 User manual for the UniProtKB flat file format.
 
-[UniProt XML schemas](http://www.uniprot.org/docs/?query=schema)  
+[UniProt XML schemas](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/?query=schema)  
 [XSD](https://en.wikipedia.org/wiki/XML%5FSchema%5F%28W3C%29) files for the UniProt databases.
 
 [UniProt RDF schema ontology](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/rdf/core.owl)  

@@ -33,6 +33,6 @@ UniProtKB/TrEMBL makes use of the same list of keywords as UniProtKB/Swiss-Prot 
 
 #### Related documents
 
-[Controlled vocabulary of keywords](http://www.uniprot.org/docs/keywlist)
+[Controlled vocabulary of keywords](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist)
 
 [What are the differences between UniProtKB keywords and the GO terms?](http://www.uniprot.org/help/keywords%5Fvs%5Fgo)

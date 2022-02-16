@@ -5,7 +5,7 @@ categories: UniProtKB,Nomenclature,Names_and_taxonomy,Biocuration,faq
 
 Ambiguities regarding gene/protein names are a major problem in the literature and in the sequence databases which tend to propagate the confusion. As administrators of UniProt we feel that we can play a major role in standardization of protein nomenclature.
 
-We try to attribute a recommended name to all the proteins of UniProtKB/Swiss-Prot, following as far as possible the [International protein nomenclature guidelines](http://www.uniprot.org/docs/International_Protein_Nomenclature_Guidelines.pdf).
+We try to attribute a recommended name to all the proteins of UniProtKB/Swiss-Prot, following as far as possible the [International protein nomenclature guidelines](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/International_Protein_Nomenclature_Guidelines.pdf).
 
 We have however to be as exhaustive as possible and to also list synonym names (alternative names) for a given protein. These alternative names are manually added if they are found in publication or other databases, including the EMBL database. This is essential for protein sequence retrieval and tracking.
 

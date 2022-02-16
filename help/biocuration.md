@@ -14,7 +14,7 @@ Manual curation consists of a critical review of experimental and predicted data
 See also:
 
 -   [How do we manually annotate a UniProtKB entry](http://www.uniprot.org/help/manual%5Fcuration)
--   [Standard operating procedure (SOP) for UniProt manual curation](http://www.uniprot.org/docs/sop%5Fmanual%5Fcuration.pdf)
+-   [Standard operating procedure (SOP) for UniProt manual curation](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf)
 -   [Manual curation projects](http://www.uniprot.org/help/?fil=section:biocuration)
 -   [Prioritizing curation - how do we decide which UniProtKB entries to manually annotate? (UniProt blog)](https://insideuniprot.blogspot.com/2021/05/)
 
