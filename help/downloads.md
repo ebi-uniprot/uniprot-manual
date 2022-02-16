@@ -34,10 +34,10 @@ Here are the main sections of our FTP site, with links to README files and help 
 
 | Resource                                                                                  | Download                                                                                                                                                                          |
 | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| UniRef100 [README](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/README) | [xml](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/uniref100.xml.gz) [fasta](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/uniref100.fasta.gz) |
-| UniRef90 [README](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/README)   | [xml](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.xml.gz) [fasta](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz)     |
-| UniRef50 [README](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/README)   | [xml](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.xml.gz) [fasta](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.fasta.gz)     |
-| XML                                                                                       | [xml schema](https://www.uniprot.org/docs/uniref.xsd)                                                                                                                             |
+| UniRef100 [README](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/README) | [xml](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/uniref100.xml.gz) [xml-schema](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniref/uniref100/uniref.xsd) [fasta](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/uniref100.fasta.gz) |
+| UniRef90 [README](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/README)   | [xml](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.xml.gz) [xml-schema](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniref/uniref90/uniref.xsd) [fasta](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz)     |
+| UniRef50 [README](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/README)   | [xml](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.xml.gz) [xml-schema](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniref/uniref50/uniref.xsd) [fasta](https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.fasta.gz)     |
+
 
 # UniParc
 
