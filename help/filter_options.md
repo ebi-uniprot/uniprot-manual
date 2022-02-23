@@ -39,4 +39,4 @@ If you have performed a full text search and your search terms can be found in o
 
 -   Only filters which would further narrow down your search results will appear. For example, in a full text search with [polytrichum commune](https://www.uniprot.org/uniprotkb/?query=polytrichum%20commune), the result only contains entries from the organism [Polytrichum commune (Haircap moss)](http://www.uniprot.org/taxonomy/3213) and there will not be a filter to restrict the terms to the organism field.
 
-[UniProtKB tutorial/video](https://www.youtube.com/watch?v=ado1r8IDm3U)
+[UniProtKB tutorial/video](https://www.youtube.com/watch?v=BHu88Sv--mc&t=6s)
