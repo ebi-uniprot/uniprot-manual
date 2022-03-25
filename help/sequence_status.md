@@ -3,7 +3,7 @@ title: Sequence status
 categories: Sequence,manual
 ---
 
-This subsection of the [Sequence](http://www.uniprot.org/help/sequences%5Fsection) section indicates if the [canonical sequence](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms) displayed by default in the entry is complete or not.
+This subsection of the [Sequence](https://www.uniprot.org/help/sequences%5Fsection) section indicates if the [canonical sequence](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms) displayed by default in the entry is complete or not.
 
 -   If the sequence is complete, the term 'Complete' is used.  
     Example: [Q04826](https://www.uniprot.org/uniprotkb/Q04826#sequences)
@@ -23,5 +23,5 @@ To exclude fragments from your query results, you can add the search term `fragm
 
 [Non-terminal residue](https://www.uniprot.org/help/non%5Fter)  
 [Non-adjacent residues](https://www.uniprot.org/help/non%5Fcons)  
-[UniProtKB query fields](http://www.uniprot.org/help/query-fields)  
-[What is the canonical sequence? Are all isoforms described in one entry?](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
+[UniProtKB query fields](https://www.uniprot.org/help/query-fields)  
+[What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)

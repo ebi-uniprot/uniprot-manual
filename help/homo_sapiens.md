@@ -7,27 +7,27 @@ categories: Human,Proteomes,Biocuration,help
 
 In 2008, a draft of the complete human proteome was released from UniProtKB/Swiss-Prot: the approximately 20,000 putative human protein-coding genes were represented by one UniProtKB/Swiss-Prot entry, later linked to [proteome identifier](https://www.uniprot.org/help/proteome%5Fid) UP000005640. This UniProtKB/Swiss-Prot H. sapiens proteome (manually reviewed) can be considered as complete in the sense that it contains one representative (canonical) sequence for each currently known human gene. About half of these 20'000 entries contain manually annotated alternative isoforms, representing over 22'000 additional sequences.
 
-[What is the human proteome?](http://www.uniprot.org/help/human%5Fproteome)  
-[How to retrieve sets of protein sequences?](http://www.uniprot.org/help/retrieve%5Fsets)  
-UniProt web page: [Chordata protein annotation program](http://www.uniprot.org/program/Chordata)
+[What is the human proteome?](https://www.uniprot.org/help/human%5Fproteome)  
+[How to retrieve sets of protein sequences?](https://www.uniprot.org/help/retrieve%5Fsets)  
+UniProt web page: [Chordata protein annotation program](https://www.uniprot.org/program/Chordata)
 
 ### Human diseases
 
 This document lists the controlled vocabulary that is used for the annotation of human diseases in UniProtKB/Swiss-Prot. Each record in this file consists of a disease identifier, acronym, and description, as well as known disease synonyms, links to OMIM, Medical Subject Headings (MeSH) and associated UniProtKB keywords.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of human diseases](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humdisease)  
-Related keyword: [Disease variant](http://www.uniprot.org/keywords/KW-0225)  
+Related keyword: [Disease variant](https://www.uniprot.org/keywords/KW-0225)  
 Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the OMIM database](https://www.uniprot.org/uniprotkb/?query=database%3Amim)
 
-[How can I get all the proteins involved in a given disease?](http://www.uniprot.org/help/disease%5Fquery)  
-[How can I get medical advice from UniProtKB?](http://www.uniprot.org/help/medical%5Fadvice)
+[How can I get all the proteins involved in a given disease?](https://www.uniprot.org/help/disease%5Fquery)  
+[How can I get medical advice from UniProtKB?](https://www.uniprot.org/help/medical%5Fadvice)
 
 ### Human entries with variants
 
 -   [List of human entries with genetic variants](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humpvar)
 -   [Index of human variants curated from literature reports](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humsavar) with their corresponding SNP cross-references
 -   [Amino acid altering variants imported from Ensembl Variation databases](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/variants/)
--   Related keyword: [Disease variant](http://www.uniprot.org/keywords/KW-0225)
+-   Related keyword: [Disease variant](https://www.uniprot.org/keywords/KW-0225)
 
 ### MIM cross-references
 
@@ -40,14 +40,14 @@ UniProtKB/Swiss-Prot document: [MIM cross-references in UniProtKB/Swiss-Prot](ht
 Blood group antigens are surface markers on the outside of the red blood cell membrane. The relevant UniProtKB/Swiss-Prot entries are classified into 28 different blood group systems.
 
 UniProtKB/Swiss-Prot document: [Blood group antigen proteins](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/bloodgrp)  
-Related keyword: [Blood group antigen](http://www.uniprot.org/keywords/KW-0095)
+Related keyword: [Blood group antigen](https://www.uniprot.org/keywords/KW-0095)
 
 ### Human and mouse protein kinases
 
 Phosphorylation by protein kinases is a universal cell-signaling fundamental process in eukaryotic cells. The list of all UniProtKB/Swiss-Prot human and mouse protein kinases, systematically classified (e.g. PKA, PKC, Tyr), is aimed at facilitating the retrieval of all kinases of the human and mouse kinomes.
 
 UniProtKB/Swiss-Prot document: [Human and mouse protein kinases](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pkinfam)  
-Related keywords: [Kinase](http://www.uniprot.org/keywords/KW-0418), [Serine/threonine-protein kinase](http://www.uniprot.org/keywords/KW-0723), [Tyrosine-protein kinase](http://www.uniprot.org/keywords/KW-0829)
+Related keywords: [Kinase](https://www.uniprot.org/keywords/KW-0418), [Serine/threonine-protein kinase](https://www.uniprot.org/keywords/KW-0723), [Tyrosine-protein kinase](https://www.uniprot.org/keywords/KW-0829)
 
 ### Human cell differentiation molecules (CD)
 

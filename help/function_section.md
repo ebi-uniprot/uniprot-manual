@@ -26,8 +26,8 @@ The information is filed in different subsections. The current subsections and t
 | [Zinc finger](https://www.uniprot.org/help/zn_fing)                                         | Position(s) and type(s) of zinc fingers within the protein                        |
 | [DNA binding](https://www.uniprot.org/help/dna_bind)                                        | Position and type of a DNA-binding domain                                         |
 | [GO 'Molecular function'](https://www.uniprot.org/help/gene_ontology)                       | Selection of Gene Ontology (GO) terms                                             |
-| [Keywords 'Molecular function'](http://www.uniprot.org/keywords/KW-9992)                    | Selection of controlled vocabulary which summarises the content of an entry       |
-| [Keywords 'Biological process'](http://www.uniprot.org/keywords/KW-9999)                    | Selection of controlled vocabulary which summarises the content of an entry       |
-| [Keywords 'Ligand'](http://www.uniprot.org/keywords/KW-9993)                                | Selection of controlled vocabulary which summarises the content of an entry       |
+| [Keywords 'Molecular function'](https://www.uniprot.org/keywords/KW-9992)                    | Selection of controlled vocabulary which summarises the content of an entry       |
+| [Keywords 'Biological process'](https://www.uniprot.org/keywords/KW-9999)                    | Selection of controlled vocabulary which summarises the content of an entry       |
+| [Keywords 'Ligand'](https://www.uniprot.org/keywords/KW-9993)                                | Selection of controlled vocabulary which summarises the content of an entry       |
 | [Enzyme and pathway databases](https://www.uniprot.org/help/cross_references_section)       | Selection of cross-references that point to data collections other than UniProtKB |
 | [Family databases](https://www.uniprot.org/help/cross_references_section)                   | Selection of cross-references that point to data collections other than UniProtKB |

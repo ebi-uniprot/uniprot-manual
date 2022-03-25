@@ -3,7 +3,7 @@ title: Zinc finger
 categories: Function,manual
 ---
 
-This subsection of the [Function](http://www.uniprot.org/help/function%5Fsection) section specifies the position(s) and type(s) of zinc fingers within the protein.
+This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section specifies the position(s) and type(s) of zinc fingers within the protein.
 
 A zinc finger is a small, functional, independently folded domain that coordinates one or more zinc ions to stabilize its structure through cysteine and/or histidine residues. Zinc fingers are structurally diverse and exhibit a wide range of functions, from DNA- or RNA-binding to protein-protein interactions and membrane association.
 
@@ -59,14 +59,14 @@ In archaea and bacteria, C4-type zinc fingers are found in a limited number of p
 Examples: [Q8UF86](https://www.uniprot.org/uniprotkb/Q8UF86#function), [P0A6H1](https://www.uniprot.org/uniprotkb/P0A6H1#function), [P24277](https://www.uniprot.org/uniprotkb/P24277#function)
 
 Related keywords:  
-[Metal-binding](http://www.uniprot.org/keywords/479),  
-[Zinc](http://www.uniprot.org/keywords/862),  
-[Zinc finger](http://www.uniprot.org/keywords/863).
+[Metal-binding](https://www.uniprot.org/keywords/479),  
+[Zinc](https://www.uniprot.org/keywords/862),  
+[Zinc finger](https://www.uniprot.org/keywords/863).
 
 See also:
 
-[DNA binding](http://www.uniprot.org/help/dna%5Fbind)  
-[Domain](http://www.uniprot.org/help/domain)  
-[Motif](http://www.uniprot.org/help/motif)  
-[Region](http://www.uniprot.org/help/region)  
-[Repeat](http://www.uniprot.org/help/repeat)
+[DNA binding](https://www.uniprot.org/help/dna%5Fbind)  
+[Domain](https://www.uniprot.org/help/domain)  
+[Motif](https://www.uniprot.org/help/motif)  
+[Region](https://www.uniprot.org/help/region)  
+[Repeat](https://www.uniprot.org/help/repeat)

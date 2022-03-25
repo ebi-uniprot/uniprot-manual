@@ -22,9 +22,9 @@ Non-redundancy means in:
 
 See also:
 
--   [How are protein sequence variety and protein diversity represented in UniProtKB?](http://www.uniprot.org/help/protein%5Fdiversity)
--   [What is the canonical sequence? Are all isoforms described in one entry?](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
--   [Reducing proteome redundancy](http://www.uniprot.org/help/proteome%5Fredundancy)
+-   [How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein%5Fdiversity)
+-   [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
+-   [Reducing proteome redundancy](https://www.uniprot.org/help/proteome%5Fredundancy)
 
 Remarks:
 
@@ -34,10 +34,10 @@ Remarks:
 
 **UniParc**
 
-[UniParc](http://www.uniprot.org/help/uniparc) is 'non-redundant' in the sense that all identical protein sequences are stored in a single record regardless of the species. Each record is characterized by a unique identifier, UPI. For example, identical ubiquitin sequences from various organisms can be found in UniParc record [UPI00000006C4](http://www.uniprot.org/uniparc/UPI00000006C4).
+[UniParc](https://www.uniprot.org/help/uniparc) is 'non-redundant' in the sense that all identical protein sequences are stored in a single record regardless of the species. Each record is characterized by a unique identifier, UPI. For example, identical ubiquitin sequences from various organisms can be found in UniParc record [UPI00000006C4](https://www.uniprot.org/uniparc/UPI00000006C4).
 
 **UniRef**
 
-Three [UniRef](http://www.uniprot.org/help/uniref) databases - UniRef100, UniRef90 and UniRef50 - merge sequences automatically across species.
+Three [UniRef](https://www.uniprot.org/help/uniref) databases - UniRef100, UniRef90 and UniRef50 - merge sequences automatically across species.
 
-UniRef100 is 'non-redundant' in the sense that identical sequences and subfragments are presented as a single entry. For example, see the UniRef100 cluster for [ubiquitin](http://www.uniprot.org/uniref/?query=member%3aP62975+identity:1.0), which contains 100% identical sequences from many different organisms.
+UniRef100 is 'non-redundant' in the sense that identical sequences and subfragments are presented as a single entry. For example, see the UniRef100 cluster for [ubiquitin](https://www.uniprot.org/uniref/?query=member%3aP62975+identity:1.0), which contains 100% identical sequences from many different organisms.

@@ -123,6 +123,6 @@ Additional information: [GO evidence codes](http://www.geneontology.org/GO.evide
 
 [Controlled vocabulary of keywords](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist)
 
-[What are the differences between UniProtKB keywords and the GO terms?](http://www.uniprot.org/help/keywords%5Fvs%5Fgo)
+[What are the differences between UniProtKB keywords and the GO terms?](https://www.uniprot.org/help/keywords%5Fvs%5Fgo)
 
-[What is the difference between the GO annotation included in UniProtKB's 'Ontologies' section, and the information accessible via the link 'Complete GO annotation'?](http://www.uniprot.org/help/complete%5Fgo%5Fannotation)
+[What is the difference between the GO annotation included in UniProtKB's 'Ontologies' section, and the information accessible via the link 'Complete GO annotation'?](https://www.uniprot.org/help/complete%5Fgo%5Fannotation)

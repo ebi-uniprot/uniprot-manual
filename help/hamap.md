@@ -11,5 +11,5 @@ More information on the [HAMAP website](http://hamap.expasy.org/).
 
 See also:
 
--   [How is orthology established in UniProtKB/Swiss-Prot?](http://www.uniprot.org/help/orthology)
--   [How is protein family membership assigned in UniProtKB?](http://www.uniprot.org/help/family%5Fmembership)
+-   [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)
+-   [How is protein family membership assigned in UniProtKB?](https://www.uniprot.org/help/family%5Fmembership)

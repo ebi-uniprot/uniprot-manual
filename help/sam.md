@@ -3,11 +3,11 @@ title: SAM - Sequence Analysis Methods for automatic annotation
 categories: help
 ---
 
-UniProt's [Automatic Annotation pipeline](http://www.uniprot.org/help/automatic%5Fannotation) has been designed to enhance the **unreviewed records (in UniProtKB/TrEMBL** by enriching them with automatic classification and annotation. In this context, we use a suite of Sequence Analysis Methods (SAM) to annotate extra sequence-specific information, some of which are also applied to **reviewed records (in UniProtKB/Swiss-Prot)**.
+UniProt's [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic%5Fannotation) has been designed to enhance the **unreviewed records (in UniProtKB/TrEMBL** by enriching them with automatic classification and annotation. In this context, we use a suite of Sequence Analysis Methods (SAM) to annotate extra sequence-specific information, some of which are also applied to **reviewed records (in UniProtKB/Swiss-Prot)**.
 
 ### Methods
 
-Predictions of sequence features such as [Signal](http://www.uniprot.org/help/signal), [Transmembrane](http://www.uniprot.org/help/transmem), [Coiled coil](http://www.uniprot.org/help/coiled) and [intrinsically disordered](https://en.wikipedia.org/wiki/Intrinsically%5Fdisordered%5Fproteins) regions (the latter described in [Region](http://www.uniprot.org/help/region) and [Compositional bias](http://www.uniprot.org/help/compbias) annotations) are generated using the following software from external providers:
+Predictions of sequence features such as [Signal](https://www.uniprot.org/help/signal), [Transmembrane](https://www.uniprot.org/help/transmem), [Coiled coil](https://www.uniprot.org/help/coiled) and [intrinsically disordered](https://en.wikipedia.org/wiki/Intrinsically%5Fdisordered%5Fproteins) regions (the latter described in [Region](https://www.uniprot.org/help/region) and [Compositional bias](https://www.uniprot.org/help/compbias) annotations) are generated using the following software from external providers:
 
 -   [TMHMM](http://www.cbs.dtu.dk/services/TMHMM/)
 -   [SignalP](http://www.cbs.dtu.dk/services/SignalP/)
@@ -15,7 +15,7 @@ Predictions of sequence features such as [Signal](http://www.uniprot.org/help/si
 -   [Coils](http://embnet.vital-it.ch/software/COILS%5Fform.html)
 -   [MobiDB-lite](http://protein.bio.unipd.it/mobidblite/)
 
-These methods are applied to UniProtKB sequences by [InterPro](http://www.ebi.ac.uk/interpro) to predict sequence features. More annotations (mainly [keywords](http://www.uniprot.org/help/keywords) ) are then added automatically to enrich the generated predictions. The new predictions are propagated to all the UniProtKB/TrEMBL records that do not already contain such feature predictions from the [UniRule](http://www.uniprot.org/help/unirule) automatic annotation system.
+These methods are applied to UniProtKB sequences by [InterPro](https://www.ebi.ac.uk/interpro) to predict sequence features. More annotations (mainly [keywords](https://www.uniprot.org/help/keywords) ) are then added automatically to enrich the generated predictions. The new predictions are propagated to all the UniProtKB/TrEMBL records that do not already contain such feature predictions from the [UniRule](https://www.uniprot.org/help/unirule) automatic annotation system.
 
 ### Overlaps and sanity checks
 
@@ -27,7 +27,7 @@ TMHMM and Phobius predictors are used to infer transmembrane regions. If there i
 
 See also:
 
--   [Transmembrane regions in reviewed entries](http://www.uniprot.org/help/transmem)
+-   [Transmembrane regions in reviewed entries](https://www.uniprot.org/help/transmem)
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/sam-13.png)
 
@@ -40,7 +40,7 @@ In all the above cases, we annotate the sequence region predicted by SignalP.
 
 See also:
 
--   [Signal peptides in reviewed entries](http://www.uniprot.org/help/signal)
+-   [Signal peptides in reviewed entries](https://www.uniprot.org/help/signal)
 
 #### Coiled coil region
 
@@ -48,7 +48,7 @@ Only the Coils method is used to predict coiled coil regions. If a disordered re
 
 See also:
 
--   [Coiled coil regions in reviewed entries](http://www.uniprot.org/help/coiled)
+-   [Coiled coil regions in reviewed entries](https://www.uniprot.org/help/coiled)
 
 #### Intrinsically disordered region
 
@@ -56,5 +56,5 @@ The [MobiDB-lite method](https://doi.org/10.1093/bioinformatics/btx015) uses sev
 
 See also:
 
--   [Region](http://www.uniprot.org/help/region)
--   [Compositional bias](http://www.uniprot.org/help/compbias)
+-   [Region](https://www.uniprot.org/help/region)
+-   [Compositional bias](https://www.uniprot.org/help/compbias)

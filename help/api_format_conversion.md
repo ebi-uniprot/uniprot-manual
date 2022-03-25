@@ -3,7 +3,7 @@ title: Programmatic access - Format conversion
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Technical,help
 ---
 
-This service allows you to convert data between different formats. Note that at the moment only single entries are supported. Here is a [Java example](http://www.uniprot.org/help/api_format_conversion#conversion_java_example) (using the [Jakarta Commons HttpClient](http://jakarta.apache.org/commons/httpclient/) library) to convert a UniProtKB entry from `txt` to `rdf` format.
+This service allows you to convert data between different formats. Note that at the moment only single entries are supported. Here is a [Java example](https://www.uniprot.org/help/api_format_conversion#conversion_java_example) (using the [Jakarta Commons HttpClient](http://jakarta.apache.org/commons/httpclient/) library) to convert a UniProtKB entry from `txt` to `rdf` format.
 
     PostMethod method = new PostMethod("https://www.uniprot.org/convert");
     Part[] parts =
@@ -25,6 +25,6 @@ This service allows you to convert data between different formats. Note that at 
 
 See also:
 
-[REST API - Access the UniProt website programmatically](http://www.uniprot.org/help/api) - batch retrieval, ID mapping, queries, downloads, etc
+[REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api) - batch retrieval, ID mapping, queries, downloads, etc
 
 Related terms: programmatic access, program, script, wget, curl, web services, API

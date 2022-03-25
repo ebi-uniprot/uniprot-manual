@@ -54,23 +54,23 @@ categories: help
 
 ### Automatic annotation
 
-[UniProt's automatic annotation pipeline](http://www.uniprot.org/help/automatic%5Fannotation) enhances the unreviewed records in UniProtKB by enriching them with automatic classification and annotation. A stand-alone version of this system, and parts thereof, are available to annotate protein sequences.
+[UniProt's automatic annotation pipeline](https://www.uniprot.org/help/automatic%5Fannotation) enhances the unreviewed records in UniProtKB by enriching them with automatic classification and annotation. A stand-alone version of this system, and parts thereof, are available to annotate protein sequences.
 
 -   UniFIRE  
-    UniFIRE (The UniProt Functional annotation Inference Rule Engine) is an engine to execute rules in the UniProt Rule Markup Language (URML) format. It can be used to execute the UniProt annotation rules ( [UniRule](http://www.uniprot.org/help/unirule) and [ARBA](http://www.uniprot.org/help/arba) ).  
+    UniFIRE (The UniProt Functional annotation Inference Rule Engine) is an engine to execute rules in the UniProt Rule Markup Language (URML) format. It can be used to execute the UniProt annotation rules ( [UniRule](https://www.uniprot.org/help/unirule) and [ARBA](https://www.uniprot.org/help/arba) ).  
     URL: <https://gitlab.ebi.ac.uk/uniprot-public/unifire>  
     License: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 <!-- -->
 
 -   PIRsitePredict  
-    PIRsitePredict predicts functional residues within uncharacterized proteins using position-specific site conditional template annotation rules (PIR Site Rules) derived from known protein structural and experimental data curated by structural biologists. PIR Site Rules are part of [UniRule](http://www.uniprot.org/help/unirule).  
+    PIRsitePredict predicts functional residues within uncharacterized proteins using position-specific site conditional template annotation rules (PIR Site Rules) derived from known protein structural and experimental data curated by structural biologists. PIR Site Rules are part of [UniRule](https://www.uniprot.org/help/unirule).  
     URL: <https://research.bioinformatics.udel.edu/PIRSitePredict/download>  
     License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 <!-- -->
 
 -   HAMAP as SPARQL rules  
-    [HAMAP](https://hamap.expasy.org/) is a system for the classification and annotation of protein sequences. It consists of a collection of expert-curated protein family signatures and rules that specify annotations that apply to family members. HAMAP rules are part of [UniRule](http://www.uniprot.org/help/unirule) and are also published in the W3C standard SPARQL 1.1 syntax to allow to execute the rules with freely available SPARQL engines (see [PMID:32034905](https://pubmed.ncbi.nlm.nih.gov/32034905/) for more details).  
+    [HAMAP](https://hamap.expasy.org/) is a system for the classification and annotation of protein sequences. It consists of a collection of expert-curated protein family signatures and rules that specify annotations that apply to family members. HAMAP rules are part of [UniRule](https://www.uniprot.org/help/unirule) and are also published in the W3C standard SPARQL 1.1 syntax to allow to execute the rules with freely available SPARQL engines (see [PMID:32034905](https://pubmed.ncbi.nlm.nih.gov/32034905/) for more details).  
     URL: <https://github.com/sib-swiss/HAMAP-SPARQL>  
     License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (supplementary code), [CC-BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) (rules)

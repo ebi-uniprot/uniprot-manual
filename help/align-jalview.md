@@ -8,7 +8,7 @@ The Jalview application, which is available on alignment result pages via the "D
 Java Web Start is installed with Java. You can download Java at [java.com](http://www.java.com/).  
 After installing Java you may still need to associate the '\*.jnlp' files with the program javaws. When selecting jalview from the dropdown, most operating systems will let you open the '\*.jnlp' file with a program or to save it on disk:
 
--   If presented with an option to [open with](http://www.uniprot.org/use) the dropdown list or file dialog to select javaws (Java Web Start). If it is not present in the list, see below for common locations to find javaws.
+-   If presented with an option to [open with](https://www.uniprot.org/use) the dropdown list or file dialog to select javaws (Java Web Start). If it is not present in the list, see below for common locations to find javaws.
 
 <!-- -->
 

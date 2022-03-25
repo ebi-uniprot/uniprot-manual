@@ -41,19 +41,19 @@ Subsection | Query Field | Content
 Individual comments can be queried using the query fields described in the tables above. Querying is of the form:
 
 ```bash
-curl "http://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=FIELD:VALUE"
+curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=FIELD:VALUE"
 ```
 
 For example, to find all Human entries with catalyctic activity, we could run the following `curl` command:
 
 ```bash
-curl "http://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=cc_catalytic_activity:* AND organism_id:9606"
+curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=cc_catalytic_activity:* AND organism_id:9606"
 ```
 
 
 ### Comments evidences
-For any comment field, a corresponding field exists denoting its attached evidences (for a complete list of evidences, refer to [Evidences](evidences.md). Given a comment, `cc_XXXX`, its evidences can be queried via, `ccev_XXXX`. For example, to find Human entries with comment catalytic activity and a non-traceable evidence, we can execute the following command:
+For any comment field, a corresponding field exists denoting its attached evidences (for a complete list of evidences, refer to [Evidences](https://www.uniprot.org/help/evidences). Given a comment, `cc_XXXX`, its evidences can be queried via, `ccev_XXXX`. For example, to find Human entries with comment catalytic activity and a non-traceable evidence, we can execute the following command:
 ```
-curl "http://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=cc_catalytic_activity:* AND ccev_catalytic_activity:ECO_0000303 AND organism_id:9606"
+curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=cc_catalytic_activity:* AND ccev_catalytic_activity:ECO_0000303 AND organism_id:9606"
 ```
         

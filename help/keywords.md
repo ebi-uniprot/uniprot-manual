@@ -3,7 +3,7 @@ title: Keywords
 categories: Controlled_vocabulary,Keywords,help
 ---
 
-UniProtKB Keywords constitute a [controlled vocabulary](http://www.uniprot.org/keywords) with a hierarchical structure. Keywords summarise the content of a UniProtKB entry and facilitate the search for proteins of interest.
+UniProtKB Keywords constitute a [controlled vocabulary](https://www.uniprot.org/keywords) with a hierarchical structure. Keywords summarise the content of a UniProtKB entry and facilitate the search for proteins of interest.
 
 Keywords are classified in 10 categories:
 
@@ -29,10 +29,10 @@ UniProtKB/TrEMBL makes use of the same list of keywords as UniProtKB/Swiss-Prot 
 
 -   The underlying nucleotide entry. The nucleotide databases (e.g. EMBL) contain keywords that are transferred to the corresponding UniProtKB/TrEMBL entry provided they are also present in the UniProtKB keyword list.
 -   The program which creates UniProtKB/TrEMBL entries. This adds keywords based on information in the underlying nucleotide entry. For example, if a nucleotide entry contains the word "kinase" in the description field, the program will add the keyword "Kinase" to the corresponding UniProtKB/TrEMBL entry.
--   [Automatic annotation](http://www.uniprot.org/help/automatic%5Fannotation).
+-   [Automatic annotation](https://www.uniprot.org/help/automatic%5Fannotation).
 
 #### Related documents
 
 [Controlled vocabulary of keywords](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist)
 
-[What are the differences between UniProtKB keywords and the GO terms?](http://www.uniprot.org/help/keywords%5Fvs%5Fgo)
+[What are the differences between UniProtKB keywords and the GO terms?](https://www.uniprot.org/help/keywords%5Fvs%5Fgo)

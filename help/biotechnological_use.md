@@ -15,4 +15,4 @@ Examples:
 
 #### Related document
 
-[Where can I buy protein X? Which company sells protein Y? Where can I buy strain Z?](http://www.uniprot.org/help/where%5Fto%5Fbuy)
+[Where can I buy protein X? Which company sells protein Y? Where can I buy strain Z?](https://www.uniprot.org/help/where%5Fto%5Fbuy)

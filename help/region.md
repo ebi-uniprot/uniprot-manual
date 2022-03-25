@@ -11,8 +11,8 @@ Examples: [Q8CJF7](https://www.uniprot.org/uniprotkb/Q8CJF7#family_and_domains),
 
 See also:
 
-[DNA binding](http://www.uniprot.org/help/dna%5Fbind)  
-[Domain](http://www.uniprot.org/help/domain)  
-[Motif](http://www.uniprot.org/help/motif)  
-[Repeat](http://www.uniprot.org/help/repeat)  
-[Zinc finger](http://www.uniprot.org/help/zn%5Ffing)
+[DNA binding](https://www.uniprot.org/help/dna%5Fbind)  
+[Domain](https://www.uniprot.org/help/domain)  
+[Motif](https://www.uniprot.org/help/motif)  
+[Repeat](https://www.uniprot.org/help/repeat)  
+[Zinc finger](https://www.uniprot.org/help/zn%5Ffing)

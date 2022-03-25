@@ -7,8 +7,8 @@ This documents lists the column names for programmatic (RESTful) access to tab-s
 
 See also:
 
--   [How can I access resources on this website programmatically?](http://www.uniprot.org/help/api)
--   [Customize display options](http://www.uniprot.org/help/customize)
+-   [How can I access resources on this website programmatically?](https://www.uniprot.org/help/api)
+-   [Customize display options](https://www.uniprot.org/help/customize)
 -   [Customise and share your search results (UniProt blog)](https://insideuniprot.blogspot.com/2015/03/)
 
 ### Names & Taxonomy

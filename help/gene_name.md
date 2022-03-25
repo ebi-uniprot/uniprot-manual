@@ -3,7 +3,7 @@ title: Gene names
 categories: Names_and_taxonomy,manual
 ---
 
-This subsection of the [Names and taxonomy](http://www.uniprot.org/help/names%5Fand%5Ftaxonomy%5Fsection) section indicates the name(s) of the gene(s) that code for the protein sequence(s) described in the entry. Four distinct tokens exist: 'Name', 'Synonyms', 'Ordered locus names' and 'ORF names'.
+This subsection of the [Names and taxonomy](https://www.uniprot.org/help/names%5Fand%5Ftaxonomy%5Fsection) section indicates the name(s) of the gene(s) that code for the protein sequence(s) described in the entry. Four distinct tokens exist: 'Name', 'Synonyms', 'Ordered locus names' and 'ORF names'.
 
 ### 1. Name {\#1\_\_Name}
 

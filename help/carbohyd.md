@@ -3,7 +3,7 @@ title: Glycosylation
 categories: PTM_processing,manual
 ---
 
-This subsection of the [PTM / Processing](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section specifies the position and type of each covalently attached glycan group (mono-, di-, or polysaccharide).
+This subsection of the [PTM / Processing](https://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section specifies the position and type of each covalently attached glycan group (mono-, di-, or polysaccharide).
 
 Glycosylation types are classified according to the identity of the atom of the amino acid which binds the carbohydrate chain, i.e. C-linked, N-linked, O-linked or S-linked. N-, C- and S-glycosylation take place in the endoplasmic reticulum and/or the Golgi apparatus and only extracellular or secreted proteins are concerned. In contrast, both intracellular and extracellular proteins can be O-glycosylated. The sugar directly bound to the protein is termed the reducing sugar, as it reduces the amino acid it binds to, and the structure of an oligosaccharide is written from the non-reducing end to the reducing end. We indicate the type of linkage to the protein and specify the nature of the reducing terminal sugar (if known) in brackets in the 'Description' field. For monosaccharides, the name of the reducing terminal sugar appears alone, while for di- and polysaccharides the name is followed by three periods '...'.
 
@@ -15,7 +15,7 @@ Examples for polysaccharides: [Q15293](https://www.uniprot.org/uniprotkb/Q15293#
 
 If the site of glycosylation is **not known or if the consequences of the modifications require further comments**, the information is stored in the ['Post-translational modification'](https://www.uniprot.org/help/post-translational%5Fmodification) subsection.
 
-Related keyword: [Glycoprotein](http://www.uniprot.org/keywords/325)
+Related keyword: [Glycoprotein](https://www.uniprot.org/keywords/325)
 
 We annotate the following types of glycosylation:
 
@@ -64,7 +64,7 @@ We annotate experimentally identified O-glycosylation sites and predicted mucin-
 C-linked glycosylation refers to the covalent attachment of a mannose residue to a tryptophan residue within an extracellular protein. Two recognition signals for C-mannosylation have been proposed: W-X-X-W (in which the first or both tryptophan residues become mannosylated), and W-S/T-X-C.  
 Example: [P13671](https://www.uniprot.org/uniprotkb/P13671#ptm_processing)
 
-We only annotate C-linked glycosylation when there is experimental [evidence](http://www.uniprot.org/help/evidences) for the modification.
+We only annotate C-linked glycosylation when there is experimental [evidence](https://www.uniprot.org/help/evidences) for the modification.
 
 ### 4. S-linked glycosylation {\#4\_\_S\_linked\_glycosylation}
 
@@ -76,6 +76,6 @@ Example: [P19827](https://www.uniprot.org/uniprotkb/P19827#ptm%5Fprocessing)
 Glycation refers to the non-enzymatic attachment of reducing sugars to the nitrogen atoms of proteins (both to the N-terminus and to lysine and histidine side chains). This modification is also known as the "Maillard" reaction. Over time, the sugar moieties bound to glycated proteins are gradually modified to become Advanced Glycation Endproducts (AGEs), some of which are implicated in a variety of diseases, such as type II diabetes mellitus, cancer, atherosclerosis, Alzheimer disease and Parkinson disease.  
 Examples: [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm_processing), [P10636](https://www.uniprot.org/uniprotkb/P10636#ptm_processing)
 
-We only annotate glycation when there is experimental [evidence](http://www.uniprot.org/help/evidences). Further information regarding the effect of glycation can be found in the ['Post-translational modification'](https://www.uniprot.org/help/post-translational_modification) subsection.
+We only annotate glycation when there is experimental [evidence](https://www.uniprot.org/help/evidences). Further information regarding the effect of glycation can be found in the ['Post-translational modification'](https://www.uniprot.org/help/post-translational_modification) subsection.
 
-See also: [Evidence](https://www.uniprot.org/help/evidences), [Modified residue](https://www.uniprot.org/help/mod_res), [lipidation](https://www.uniprot.org/help/lipid), [Post-translational modifications](http://www.uniprot.org/help/post-translational%5Fmodification)
+See also: [Evidence](https://www.uniprot.org/help/evidences), [Modified residue](https://www.uniprot.org/help/mod_res), [lipidation](https://www.uniprot.org/help/lipid), [Post-translational modifications](https://www.uniprot.org/help/post-translational%5Fmodification)

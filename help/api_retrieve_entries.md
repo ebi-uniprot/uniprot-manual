@@ -25,7 +25,7 @@ By default, a web page is returned. Depending on the data set, other formats may
     https://www.uniprot.org/uniparc/UPI000000001F.fasta
     https://www.uniprot.org/uniparc/UPI000000001F.tab
 
-Note that UniRef identifiers cannot be guaranteed to be stable, since the sequence clusters are recomputed at every release, and the representative protein may change. See also: [How to link to UniProt entries](http://www.uniprot.org/help/linking%5Fto%5Funiprot).
+Note that UniRef identifiers cannot be guaranteed to be stable, since the sequence clusters are recomputed at every release, and the representative protein may change. See also: [How to link to UniProt entries](https://www.uniprot.org/help/linking%5Fto%5Funiprot).
 
 For the RDF/XML format there is an option to include data from referenced data sets directly in the returned data:
 

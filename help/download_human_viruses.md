@@ -10,6 +10,6 @@ Using the query builder:
 -   Select `Virus host` from the dropdown menu
 -   Type `human` (use autocompletion)
 -   Click on the **search button**
--   **[result](http://www.uniprot.org/taxonomy/?query=host%3A%22Human+%5B9606%5D%22)**.
+-   **[result](https://www.uniprot.org/taxonomy/?query=host%3A%22Human+%5B9606%5D%22)**.
 
-Direct query by [viral host using the taxonomy identifier for human (9606)](http://www.uniprot.org/taxonomy/?query=host:9606).
+Direct query by [viral host using the taxonomy identifier for human (9606)](https://www.uniprot.org/taxonomy/?query=host:9606).

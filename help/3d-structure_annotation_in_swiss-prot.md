@@ -13,8 +13,8 @@ Manual annotation of entries with 3D-structures has high priority, for the follo
 -   3D-structures pinpoint the exact position of a residue that causes a genetic disease when it is mutated.
 
 UniProtKB/Swiss-Prot document: [Index of PDB cross-references in UniProtKB/Swiss-Prot](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pdbtosp)  
-Related keywords: [3D-structure](http://www.uniprot.org/keywords/KW-0002)  
-[3D-structure databases](http://www.uniprot.org/database/?query=category:%223D+structure+databases%22)
+Related keywords: [3D-structure](https://www.uniprot.org/keywords/KW-0002)  
+[3D-structure databases](https://www.uniprot.org/database/?query=category:%223D+structure+databases%22)
 
-[How can I retrieve all UniProtKB entries for which the 3D structure is known?](http://www.uniprot.org/help/retrieve%5F3d)  
-[Why do I find many cross-references to PDB in UniProtKB/Swiss-Prot?](http://www.uniprot.org/help/multiple%5Fpdb%5Fxrefs)
+[How can I retrieve all UniProtKB entries for which the 3D structure is known?](https://www.uniprot.org/help/retrieve%5F3d)  
+[Why do I find many cross-references to PDB in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/multiple%5Fpdb%5Fxrefs)

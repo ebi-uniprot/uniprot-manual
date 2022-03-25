@@ -29,7 +29,7 @@ Example: [Q9Y6Q9](https://www.uniprot.org/uniprotkb/Q9Y6Q9#family_and_domains)
 
 See also:
 
-[Domain](http://www.uniprot.org/help/domain)  
-[Region](http://www.uniprot.org/help/region)  
-[Repeat](http://www.uniprot.org/help/repeat)  
-[Zinc finger](http://www.uniprot.org/help/zn%5Ffing)
+[Domain](https://www.uniprot.org/help/domain)  
+[Region](https://www.uniprot.org/help/region)  
+[Repeat](https://www.uniprot.org/help/repeat)  
+[Zinc finger](https://www.uniprot.org/help/zn%5Ffing)

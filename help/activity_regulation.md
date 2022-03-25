@@ -3,7 +3,7 @@ title: Activity regulation
 categories: Function,manual
 ---
 
-This subsection of the [Function](http://www.uniprot.org/help/function%5Fsection) section describes regulatory mechanisms for enzymes, transporters or microbial transcription factors, and reports the components which regulate (by activation or inhibition) the reaction.
+This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section describes regulatory mechanisms for enzymes, transporters or microbial transcription factors, and reports the components which regulate (by activation or inhibition) the reaction.
 
 Example: [P17289](https://www.uniprot.org/uniprotkb/P17289#function)
 

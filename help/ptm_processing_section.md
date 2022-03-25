@@ -22,5 +22,5 @@ The information is filed in different subsections. The current subsections and t
 | [Disulfide bond](https://www.uniprot.org/help/disulfid)                                         | Cysteine residues participating in disulfide bonds                                |
 | [Cross-link](https://www.uniprot.org/help/crosslnk)                                             | Residues participating in covalent linkage(s) between proteins                    |
 | [Post-translational modification](https://www.uniprot.org/help/post-translational_modification) | Description of post-translational modifications                                   |
-| [Keywords 'PTM'](http://www.uniprot.org/keywords/KW-9991)                                       | Selection of controlled vocabulary which summarises the content of an entry       |
+| [Keywords 'PTM'](https://www.uniprot.org/keywords/KW-9991)                                       | Selection of controlled vocabulary which summarises the content of an entry       |
 | [Proteomics and PTM databases](https://www.uniprot.org/help/cross_references_section)           | Selection of cross-references that point to data collections other than UniProtKB |

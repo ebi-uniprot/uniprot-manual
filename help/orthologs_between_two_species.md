@@ -5,7 +5,7 @@ categories: UniProtKB,Text_search,Cross-references,Taxonomy,faq
 
 There are no such ready-made files available from UniProt, but a number of phylogenomic databases exist which may be in a better position to answer this question. There is quite a useful [thread on the BioStars website.](http://www.biostars.org/p/7568/)
 
-If you want to use UniProtKB, you should first find out which of the [phylogenomic databases cross-referenced by UniProtKB](http://www.uniprot.org/database/?query=category:%22Phylogenomic+databases%22) provides the best coverage for your organisms.
+If you want to use UniProtKB, you should first find out which of the [phylogenomic databases cross-referenced by UniProtKB](https://www.uniprot.org/database/?query=category:%22Phylogenomic+databases%22) provides the best coverage for your organisms.
 
 Once you have selected such a database, e.g. OrthoDB, you can include it in a query that allows you to retrieve all entries from Xenopus laevis and all human Swiss-Prot entries with a cross-reference to the phylogenomic database OrthoDB:
 
@@ -25,6 +25,6 @@ If you want to sort on the OrthoDB identifiers instead, this cannot be done via 
 
 See also:
 
--   [How is orthology established in UniProtKB/Swiss-Prot?](http://www.uniprot.org/help/orthology)
--   [List of phylogenomic databases cross-referenced in UniProtKB](http://www.uniprot.org/database/?query=category:%22Phylogenomic+databases%22)
--   [Customize display options](http://www.uniprot.org/help/customize)
+-   [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)
+-   [List of phylogenomic databases cross-referenced in UniProtKB](https://www.uniprot.org/database/?query=category:%22Phylogenomic+databases%22)
+-   [Customize display options](https://www.uniprot.org/help/customize)

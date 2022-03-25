@@ -25,8 +25,8 @@ A large number of repeated domains have been modelled by InterPro and by the REP
 See also:
 
 [Evidence](https://www.uniprot.org/help/evidences)  
-[DNA binding](http://www.uniprot.org/help/dna%5Fbind)  
-[Domain](http://www.uniprot.org/help/domain)  
-[Motif](http://www.uniprot.org/help/motif)  
-[Region](http://www.uniprot.org/help/region)  
-[Zinc finger](http://www.uniprot.org/help/zn%5Ffing)
+[DNA binding](https://www.uniprot.org/help/dna%5Fbind)  
+[Domain](https://www.uniprot.org/help/domain)  
+[Motif](https://www.uniprot.org/help/motif)  
+[Region](https://www.uniprot.org/help/region)  
+[Zinc finger](https://www.uniprot.org/help/zn%5Ffing)

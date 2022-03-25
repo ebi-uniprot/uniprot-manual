@@ -11,7 +11,7 @@ Specialized papers on chromosome location, genetics, gene regulation are usually
 
 Each time a journal article is added, we list the extracted information in the 'RP line' (flat file format) or 'cited for' subsection.
 
-See for example: [P02768](http://www.uniprot.org/uniprot/P02768/publications).
+See for example: [P02768](https://www.uniprot.org/uniprot/P02768/publications).
 
 In the flat file format, these are some of the scopes of the references in the P02768 entry:
 
@@ -47,9 +47,9 @@ In the flat file format, these are some of the scopes of the references in the P
         RP   VARIANT TYR-73, AND MASS SPECTROMETRY.
         RP   CHARACTERIZATION OF VARIANT KENITRA.
 
-In order to keep up with the explosive growth of literature and to give our users access to additional publications, we decided to integrate additional sources of literature from other annotated databases into UniProtKB, such as Entrez Gene (GeneRIFs), SGD, MGI, GAD and PDB. This additional bibliography is available from the 'Publications' section, e.g. [P03875](http://www.uniprot.org/uniprot/P03875/publications).
+In order to keep up with the explosive growth of literature and to give our users access to additional publications, we decided to integrate additional sources of literature from other annotated databases into UniProtKB, such as Entrez Gene (GeneRIFs), SGD, MGI, GAD and PDB. This additional bibliography is available from the 'Publications' section, e.g. [P03875](https://www.uniprot.org/uniprot/P03875/publications).
 
-If you see that a (or your) publication is missing, do not hesitate to [contact us](http://www.uniprot.org/contact).
+If you see that a (or your) publication is missing, do not hesitate to [contact us](https://www.uniprot.org/contact).
 
 ### Query UniProtKB
 
@@ -57,11 +57,11 @@ UniProtKB entries containing a given publication can be searched by the title or
 
 Example: \[Kuopio ischaemic heart disease risk factor study\](https://www.uniprot.org/uniprotkb/?query=citation%3A(%22Kuopio+ischaemic+heart+disease+risk+factor+study%22)
 
-Publications cited in UniProtKB can be searched by their title or abstract content, author name, journal abbreviation, year of publication, PubMed ID and DOI on [https://www.uniprot.org/citations/](http://www.uniprot.org/citations/).
+Publications cited in UniProtKB can be searched by their title or abstract content, author name, journal abbreviation, year of publication, PubMed ID and DOI on [https://www.uniprot.org/citations/](https://www.uniprot.org/citations/).
 
-Example: [Kuopio ischaemic heart disease risk factor study](http://www.uniprot.org/citations/?query=%22Kuopio+ischaemic+heart+disease+risk+factor+study%22)
+Example: [Kuopio ischaemic heart disease risk factor study](https://www.uniprot.org/citations/?query=%22Kuopio+ischaemic+heart+disease+risk+factor+study%22)
 
 See also:
 
--   [How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/help/manual%5Fcuration)
+-   [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual%5Fcuration)
 -   [References](https://www.uniprot.org/help/references)

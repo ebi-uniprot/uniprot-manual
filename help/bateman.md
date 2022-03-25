@@ -3,7 +3,7 @@ title: Alex Bateman
 categories: help
 ---
 
-Senior Team Leader [Protein Sequence Resources](http://www.ebi.ac.uk/about/people/alex-bateman) and Group Leader [Bateman Research Group](http://www.ebi.ac.uk/research/bateman).
+Senior Team Leader [Protein Sequence Resources](https://www.ebi.ac.uk/about/people/alex-bateman) and Group Leader [Bateman Research Group](https://www.ebi.ac.uk/research/bateman).
 
 E-mail: <span>agb</span><span>&nbsp;*[at]*&nbsp;</span><span>ebi.ac.uk</span>
 

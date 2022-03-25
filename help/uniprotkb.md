@@ -7,15 +7,15 @@ The UniProt Knowledgebase (UniProtKB) is the central hub for the collection of f
 
 The UniProt Knowledgebase consists of two sections: a section containing manually-annotated records with information extracted from literature and curator-evaluated computational analysis, and a section with computationally analyzed records that await full manual annotation. For the sake of continuity and name recognition, the two sections are referred to as "UniProtKB/Swiss-Prot" (reviewed, manually annotated) and "UniProtKB/TrEMBL" (unreviewed, automatically annotated), respectively.
 
-[Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](http://www.uniprot.org/help/uniprotkb_sections)
+[Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb_sections)
 
 # Where do the protein sequences come from?
 
 More than 95 % of the protein sequences provided by UniProtKB are derived from the translation of the coding sequences (CDS) which have been submitted to the public nucleic acid databases, the EMBL-Bank/GenBank/DDBJ databases ( [INSDC](http://www.insdc.org/) ). All these sequences, as well as the related data submitted by the authors, are automatically integrated into UniProtKB/TrEMBL.
 
-[Where do the UniProtKB protein sequences come from?](http://www.uniprot.org/help/sequence_origin)
+[Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence_origin)
 
-[Does UniProtKB contain all protein sequences?](http://www.uniprot.org/help/uniprot_coverage)
+[Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprot_coverage)
 
 # What are the differences between UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?
 
@@ -25,17 +25,17 @@ UniProtKB/TrEMBL (unreviewed) contains protein sequences associated with computa
 
 In order to have minimal redundancy and to improve sequence reliability, all protein sequences encoded by a same gene are merged into a single UniProtKB/Swiss-Prot entry. Differences found between various sequencing reports are analysed and fully described in the feature table (alternative splicing events, genetic variations or conflicts for example). Once in UniProtKB/Swiss-Prot, a protein entry is removed from UniProtKB/TrEMBL.
 
-[How redundant are the UniProt databases?](http://www.uniprot.org/help/redundancy)
+[How redundant are the UniProt databases?](https://www.uniprot.org/help/redundancy)
 
 # What is manual annotation?
 
 Manual annotation consists of a critical review of experimentally proven or computer-predicted data about each protein, including the protein sequences. Data are continuously updated by an expert team of biologists.
 
-[How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/help/manual_curation)
+[How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual_curation)
 
 [Standard operating procedure (SOP) for UniProt manual curation](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf)
 
-[UniProt Manual Annotation Programs](http://www.uniprot.org/program)
+[UniProt Manual Annotation Programs](https://www.uniprot.org/program)
 
 # How are entry versions archived?
 
@@ -44,7 +44,7 @@ Archived versions of a UniProtKB entry are accessible through the *Previous vers
 
 # Further information
 
--   [How to cite UniProt](http://www.uniprot.org/help/publications)
--   [Submissions and updates to UniProtKB](http://www.uniprot.org/help/submissions)
--   [UniProtKB entry view manual](http://www.uniprot.org/manual)
+-   [How to cite UniProt](https://www.uniprot.org/help/publications)
+-   [Submissions and updates to UniProtKB](https://www.uniprot.org/help/submissions)
+-   [UniProtKB entry view manual](https://www.uniprot.org/manual)
 -   [Printable Quick Guide to UniProtKB](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/uniprotkb_quickguide.pdf)

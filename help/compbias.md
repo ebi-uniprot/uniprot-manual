@@ -13,4 +13,4 @@ Examples: [Q9Y2N7](https://www.uniprot.org/uniprotkb/Q9Y2N7#family%5Fand%5Fdomai
 
 See also:
 
--   [SAM - Sequence Analysis Methods for automatic annotation](http://www.uniprot.org/help/sam)
+-   [SAM - Sequence Analysis Methods for automatic annotation](https://www.uniprot.org/help/sam)

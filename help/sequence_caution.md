@@ -5,7 +5,7 @@ categories: Sequence,manual
 
 This subsection of the 'Sequence' section reports difference(s) between the protein sequence shown in the UniProtKB entry and other available protein sequences derived from the same gene.
 
-The sequence discrepancies described in this subsection are generally severe and thus distinct from those that are described in the ['Sequence conflict'](https://www.uniprot.org/help/conflict) subsection. In this subsection, we list the differences between the [canonical sequence](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms), displayed by default in the entry, and the sequence reported in the indicated reference (be it a paper, a submitted sequence or a prediction).
+The sequence discrepancies described in this subsection are generally severe and thus distinct from those that are described in the ['Sequence conflict'](https://www.uniprot.org/help/conflict) subsection. In this subsection, we list the differences between the [canonical sequence](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms), displayed by default in the entry, and the sequence reported in the indicated reference (be it a paper, a submitted sequence or a prediction).
 
 We annotate 6 different types of sequence discrepancies in this subsection:
 

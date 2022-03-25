@@ -3,7 +3,7 @@ title: HTTP Status Codes in the REST API
 categories: Technical,Website,help
 ---
 
-This document explains the HTTP response headers returned by the [UniProt REST API](http://rest.uniprot.org/beta/docs/)
+This document explains the HTTP response headers returned by the [UniProt REST API](https://rest.uniprot.org/beta/docs/)
 and gives some examples to make explicit what they mean. 
 
 ## HTTP Status Headers
@@ -80,7 +80,7 @@ The following two subsections give examples of bad requests:
 > **Response**
 > ```json
 > {
->   "url": "http://rest.uniprot.org/beta/uniprotkb/search",
+>   "url": "https://rest.uniprot.org/beta/uniprotkb/search",
 >   "messages": [
 >     "'query' is a required parameter"
 >   ]
@@ -95,7 +95,7 @@ The following two subsections give examples of bad requests:
 > **Response**
 > ```json
 > {
->   "url": "http://rest.uniprot.org/beta/uniprotkb/search",
+>   "url": "https://rest.uniprot.org/beta/uniprotkb/search",
 >   "messages": [
 >     "'invalidQueryField' is not a valid search field",
 >     "The 'accession' filter value 'invalidValue' has invalid format. It should be a valid UniProtKB accession",
@@ -115,7 +115,7 @@ example:
 > **Response**
 > ```json
 > {
->   "url": "http://rest.uniprot.org/beta/uniprotkb/accession/P99997",
+>   "url": "https://rest.uniprot.org/beta/uniprotkb/accession/P99997",
 >   "messages": [
 >     "Resource not found"
 >   ]
@@ -142,7 +142,7 @@ This response header indicates the current UniProt data release number.
 > ```
 
 ## x-total-records
-This response header indicates the number of entities found in your search. See more details in the [Paginating results](rest-pagination) 
+This response header indicates the number of entities found in your search. See more details in the [Paginating results](https://www.uniprot.org/help/rest-pagination) 
 help page.
 
 > ```bash
@@ -150,7 +150,7 @@ help page.
 > ```
 
 ## link
-This response header indicates the URL link to the next page of entities. See more details in the [Paginating results](rest-pagination) 
+This response header indicates the URL link to the next page of entities. See more details in the [Paginating results](https://www.uniprot.org/help/rest-pagination) 
 help page.
 
 > ```bash

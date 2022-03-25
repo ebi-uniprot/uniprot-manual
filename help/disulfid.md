@@ -37,7 +37,7 @@ Examples: [P25703](https://www.uniprot.org/uniprotkb/P25703#ptm_processing) (Par
 
 #### b. Disulfide bonds between 2 chains or peptides from the same protein precursor
 
-Disulfide bonds formed between 2 proteolytically generated parts of the same protein are considered as interchain. The 2 chains are named in the 'Description' field using the syntax 'between X and Y'. Note that the names of all cleavage products are given in the ' [Protein names](https://www.uniprot.org/help/protein_names) ' subsection of the [Names and taxonomy](http://www.uniprot.org/help/names%5Fand%5Ftaxonomy%5Fsection) section.  
+Disulfide bonds formed between 2 proteolytically generated parts of the same protein are considered as interchain. The 2 chains are named in the 'Description' field using the syntax 'between X and Y'. Note that the names of all cleavage products are given in the ' [Protein names](https://www.uniprot.org/help/protein_names) ' subsection of the [Names and taxonomy](https://www.uniprot.org/help/names%5Fand%5Ftaxonomy%5Fsection) section.  
 Example: [P11140](https://www.uniprot.org/uniprotkb/P11140#ptm_processing)
 
 A few proteins form an intrachain disulfide bond when monomeric, and an interchain disulfide bond when dimeric.  
@@ -61,7 +61,7 @@ Some disulfide bonds constitute a redox-active center and participate directly i
 cysteine residue leading to a cysteine-sulfenic acid.  
 Examples: [Q96HE7](https://www.uniprot.org/uniprotkb/Q96HE7#ptm_processing), [Q06530](https://www.uniprot.org/uniprotkb/Q06530#ptm_processing)
 
-Related keyword: [Redox-active center](http://www.uniprot.org/keywords/676)
+Related keyword: [Redox-active center](https://www.uniprot.org/keywords/676)
 
 ### 4. Annotation of predicted disulfide bonds {\#4\_\_Annotation\_of\_predicted\_disulfide\_bonds}
 

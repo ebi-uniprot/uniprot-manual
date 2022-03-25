@@ -5,7 +5,7 @@ categories: Sequence,manual
 
 This subsection of the 'Sequence' section lists the alternative protein sequences (isoforms) that can be generated from the same gene by a single or by the combination of up to four biological events (alternative promoter usage, alternative splicing, alternative initiation and ribosomal frameshifting). Additionally, this section gives relevant information on each alternative protein isoform.
 
-In addition to expertly curated isoforms, present in reviewed entries only, this section may include [computationally mapped potential isoform sequences](http://www.uniprot.org/help/gene%5Fcentric%5Fisoform%5Fmapping) if the protein is a member of a eukaryotic reference proteome (reviewed or unreviewed).
+In addition to expertly curated isoforms, present in reviewed entries only, this section may include [computationally mapped potential isoform sequences](https://www.uniprot.org/help/gene%5Fcentric%5Fisoform%5Fmapping) if the protein is a member of a eukaryotic reference proteome (reviewed or unreviewed).
 
 The following text refers to expert-curated isoforms in reviewed entries, i.e. in UniProtKB/Swiss-Prot.
 
@@ -32,8 +32,8 @@ We provide the name and synomym(s) of the isoform, which are used in the literat
 
 #### Description of the sequence differences
 
-We clearly describe the alternative sequences with respect to the [canonical sequence](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms) displayed by default in the entry.  
-*Note* : The so-called 'canonical' sequence is selected on the basis of several criteria including its function, expression, and/or conservation across orthologous species. Unless otherwise stated, [positional information](http://www.uniprot.org/help/sequence%5Fannotation) in the entry refers to it.
+We clearly describe the alternative sequences with respect to the [canonical sequence](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms) displayed by default in the entry.  
+*Note* : The so-called 'canonical' sequence is selected on the basis of several criteria including its function, expression, and/or conservation across orthologous species. Unless otherwise stated, [positional information](https://www.uniprot.org/help/sequence%5Fannotation) in the entry refers to it.
 
 *Note* : If an isoform has been reported to exist in the literature, but we are not able to determine its sequence, we add the tag 'Sequence is not available'.  
 Example: [P21836](https://www.uniprot.org/uniprotkb/P21836#sequences) (Isoform H)
@@ -52,24 +52,24 @@ Example: [P04150](https://www.uniprot.org/uniprotkb/P04150#sequences)
 
 For the description of the isoforms at the amino acid level, see the ['Alternative sequence'](https://www.uniprot.org/help/var%5Fseq) subsection.
 
-Isoform sequences can be **downloaded in FASTA format** from our [download page](http://www.uniprot.org/downloads) (choose the file: 'Isoform sequences').
+Isoform sequences can be **downloaded in FASTA format** from our [download page](https://www.uniprot.org/downloads) (choose the file: 'Isoform sequences').
 
-Related keywords: [Alternative splicing](http://www.uniprot.org/keywords/25), [Alternative promoter usage](http://www.uniprot.org/keywords/877), [Alternative initiation](http://www.uniprot.org/keywords/24), [Ribosomal frameshifting](http://www.uniprot.org/keywords/688).
+Related keywords: [Alternative splicing](https://www.uniprot.org/keywords/25), [Alternative promoter usage](https://www.uniprot.org/keywords/877), [Alternative initiation](https://www.uniprot.org/keywords/24), [Ribosomal frameshifting](https://www.uniprot.org/keywords/688).
 
 #### Related documents
 
-[What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
+[What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 
-[How are protein sequence variety and protein diversity represented in UniProtKB?](http://www.uniprot.org/help/protein%5Fdiversity)
+[How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein%5Fdiversity)
 
-[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](http://www.uniprot.org/help/canonical%5Fnucleotide)
+[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical%5Fnucleotide)
 
-[Cross-references for isoform sequences](http://www.uniprot.org/help/isoform%5Fcrossreferences)
+[Cross-references for isoform sequences](https://www.uniprot.org/help/isoform%5Fcrossreferences)
 
-[How to retrieve a complete set of protein sequences?](http://www.uniprot.org/help/retrieve%5Fsets)
+[How to retrieve a complete set of protein sequences?](https://www.uniprot.org/help/retrieve%5Fsets)
 
-[Automatic gene-centric isoform mapping for eukaryotic reference proteome entries](http://www.uniprot.org/help/gene%5Fcentric%5Fisoform%5Fmapping)
+[Automatic gene-centric isoform mapping for eukaryotic reference proteome entries](https://www.uniprot.org/help/gene%5Fcentric%5Fisoform%5Fmapping)
 
-[What are UniProtKB's criteria for defining a CDS as a protein?](http://www.uniprot.org/help/cds%5Fprotein%5Fdefinition)
+[What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds%5Fprotein%5Fdefinition)
 
 Related terms: splice variant, splice isoform

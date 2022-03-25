@@ -19,6 +19,6 @@ Sequence conflicts are usually of unknown origin: they may originate from sequen
 
 #### Related documents
 
-[What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
+[What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 
-[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](http://www.uniprot.org/help/canonical%5Fnucleotide)
+[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical%5Fnucleotide)

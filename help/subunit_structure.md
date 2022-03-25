@@ -3,7 +3,7 @@ title: Subunit structure
 categories: Interaction,manual
 ---
 
-This subsection of the ['Interaction'](http://www.uniprot.org/help/interaction%5Fsection) section provides information about the protein quaternary structure and interaction(s) with other proteins or protein complexes (with the exception of physiological receptor-ligand interactions which are annotated in the ['Function'](http://www.uniprot.org/help/function%5Fsection) section).
+This subsection of the ['Interaction'](https://www.uniprot.org/help/interaction%5Fsection) section provides information about the protein quaternary structure and interaction(s) with other proteins or protein complexes (with the exception of physiological receptor-ligand interactions which are annotated in the ['Function'](https://www.uniprot.org/help/function%5Fsection) section).
 
 ### 1. Quaternary structure {\#1\_\_Quaternary\_structure}
 
@@ -25,14 +25,14 @@ Examples: [Q9Y3D6](https://www.uniprot.org/uniprotkb/Q9Y3D6#interaction), [O6023
 For interactions with viral proteins, the viral gene name is preceded by an indication of its viral origin, typically the virus name abbreviation from the ' [Organism](https://www.uniprot.org/help/organism-name) ' section.  
 Example: [O60238](https://www.uniprot.org/uniprotkb/O60238#interaction)
 
-Related keyword: [Host-virus interaction](http://www.uniprot.org/keywords/945)
+Related keyword: [Host-virus interaction](https://www.uniprot.org/keywords/945)
 
 ### 4. Protein-complex interactions {\#4\_\_Protein\_complex\_interactions}
 
 Stable complexes are described with a list of all known participating subunits, including the protein is described in the entry.  
 Examples: [Q13098](https://www.uniprot.org/uniprotkb/Q13098#interaction), [Q6P2C8](https://www.uniprot.org/uniprotkb/Q6P2C8#interaction)
 
-Interactions can be propagated ['By similarity'](http://www.uniprot.org/help/evidences#ECO:0000250) to closely related species.
+Interactions can be propagated ['By similarity'](https://www.uniprot.org/help/evidences#ECO:0000250) to closely related species.
 
 See also:
 

@@ -8,7 +8,7 @@ categories: Nomenclature,Biocuration,Family_and_domains,Human,UniProtKB,help
 A nomenclature system exists for antigens (allergens) that cause IgE-mediated atopic allergies in humans and is applied to UniProtKB/Swiss-Prot entries.
 
 UniProtKB/Swiss-Prot document: [Nomenclature of allergens and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/allergen)  
-Related keyword: [Allergen](http://www.uniprot.org/keywords/KW-0020)  
+Related keyword: [Allergen](https://www.uniprot.org/keywords/KW-0020)  
 Relevant UniProtKB/Swiss-Prot entries [cross-referenced to Allergome](https://www.uniprot.org/uniprotkb/?query=database:allergome)
 
 ### Glycosyl hydrolases
@@ -16,7 +16,7 @@ Relevant UniProtKB/Swiss-Prot entries [cross-referenced to Allergome](https://ww
 O-Glycosyl hydrolases ( [EC 3.2.1.-](http://enzyme.expasy.org/EC/3.2.1.-) ) are a widespread group of enzymes which hydrolyse the glycosidic bond between two or more carbohydrates or between a carbohydrate and a non-carbohydrate moiety. The IUB-MB Enzyme nomenclature of glycosyl hydrolases is based on their substrate specificity and occasionally on their molecular mechanism; such a classification does not reflect (and was not intended to) the structural features of these enzymes. A classification of glycosyl hydrolases in families based on amino acid sequence similarities has been proposed.
 
 UniProtKB/Swiss-Prot document: [Classification of glycosyl hydrolase families and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/glycosid)  
-Related keyword: [Glycosidase](http://www.uniprot.org/keywords/KW-0326)  
+Related keyword: [Glycosidase](https://www.uniprot.org/keywords/KW-0326)  
 Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the CAZy database of glycosyl hydrolases](https://www.uniprot.org/uniprotkb/?query=database%3Acazy)
 
 ### Human blood group antigen proteins
@@ -24,14 +24,14 @@ Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the CAZy database of 
 Blood group antigens are surface markers on the outside of the red blood cell membrane. The relevant UniProtKB/Swiss-Prot entries are classified into 28 different blood group systems.
 
 UniProtKB/Swiss-Prot document: [Blood group antigen proteins](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/bloodgrp)  
-Related keyword: [Blood group antigen](http://www.uniprot.org/keywords/KW-0095)
+Related keyword: [Blood group antigen](https://www.uniprot.org/keywords/KW-0095)
 
 ### Human and mouse protein kinases
 
 Phosphorylation by protein kinases is a universal cell-signaling fundamental process in eukaryotic cells. The list of all UniProtKB/Swiss-Prot human and mouse protein kinases, systematically classified (e.g. PKA, PKC, Tyr), is aimed at facilitating the retrieval of all kinases of the human and mouse kinomes.
 
 UniProtKB/Swiss-Prot document: [Human and mouse protein kinases](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pkinfam)  
-Related keywords: [Kinase](http://www.uniprot.org/keywords/KW-0418), [Serine/threonine-protein kinase](http://www.uniprot.org/keywords/KW-0723), [Tyrosine-protein kinase](http://www.uniprot.org/keywords/KW-0829)
+Related keywords: [Kinase](https://www.uniprot.org/keywords/KW-0418), [Serine/threonine-protein kinase](https://www.uniprot.org/keywords/KW-0723), [Tyrosine-protein kinase](https://www.uniprot.org/keywords/KW-0829)
 
 ### Human cell differentiation molecules (CD)
 
@@ -51,7 +51,7 @@ UniProtKB/Swiss-Prot document: [Classification of metallothioneins and list of e
 Peptidases (also termed proteases, proteinases and proteolytic enzymes) are enzymes that conduct proteolysis, i.e. hydrolysis of the peptide bonds.
 
 UniProtKB/Swiss-Prot document: [Classification of peptidase families and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/peptidas)  
-Related keyword: [Protease](http://www.uniprot.org/keywords/KW-0645)  
+Related keyword: [Protease](https://www.uniprot.org/keywords/KW-0645)  
 Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the MEROPS database of peptidases](https://www.uniprot.org/uniprotkb/?query=database%3Amerops)
 
 ### Restriction enzymes and methylases
@@ -66,18 +66,18 @@ Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the REBASE database o
 Ribosomal proteins are the proteins that, in conjunction with rRNA, make up the large and small ribosomal subunits involved in the cellular process of translation.
 
 UniProtKB/Swiss-Prot document: [Ribosomal proteins families and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ribosomp)  
-Related keyword: [Ribosomal protein](http://www.uniprot.org/keywords/KW-0689)
+Related keyword: [Ribosomal protein](https://www.uniprot.org/keywords/KW-0689)
 
 ### Scorpion potassium channel toxins
 
 Nomenclature systems exist to classify the potassium channel-specific scorpion toxins alpha-, gamma- and kappa-KTx.
 
 UniProtKB/Swiss-Prot document: [Nomenclature of scorpion potassium channel toxins and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/scorpktx)  
-[UniProtKB/Swiss-Prot Animal toxin annotation program](http://www.uniprot.org/program/Toxins)
+[UniProtKB/Swiss-Prot Animal toxin annotation program](https://www.uniprot.org/program/Toxins)
 
 ### Vertebrate homeotic Hox proteins
 
 The homeotic Hox proteins are sequence-specific transcription factor which are part of a developmental regulatory system that provides cells with specific positional identities on the anterior-posterior (A-P) axis.
 
 UniProtKB/Swiss-Prot document: [Nomenclature of vertebrate homeotic Hox proteins and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/hoxlist)  
-Related keyword: [Homeobox](http://www.uniprot.org/keywords/KW-0371)
+Related keyword: [Homeobox](https://www.uniprot.org/keywords/KW-0371)

@@ -86,4 +86,4 @@ An 'entry name tracker' tool is included in the UniProt website search engine. I
 #### Related documents
 
 -   [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)  
--   [What is the difference between an accession number (AC) and the entry name?](http://www.uniprot.org/help/difference%5Faccession%5Fentryname)
+-   [What is the difference between an accession number (AC) and the entry name?](https://www.uniprot.org/help/difference%5Faccession%5Fentryname)

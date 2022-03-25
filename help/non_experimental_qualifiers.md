@@ -3,7 +3,7 @@ title: Non-experimental qualifiers
 categories: Non-experimental_qualifiers,manual
 ---
 
-Obsolete. Website redirects to http://www.uniprot.org/help/evidences
+Obsolete. Website redirects to https://www.uniprot.org/help/evidences
 
 Three types of qualifiers are used in the flat text file and advanced search to describe information that is not based on experimental findings:
 

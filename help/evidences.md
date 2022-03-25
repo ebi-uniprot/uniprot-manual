@@ -102,7 +102,7 @@ Manual assertion based on experiment
 
 -   **"The WD40-repeat proteins WDR-20 and WDR-48 bind and activate the deubiquitinating enzyme USP-46 to promote the abundance of the glutamate receptor GLR-1 in the ventral nerve cord of Caenorhabditis elegans."**  
     [Moremen K.W.](https://www.uniprot.org/uniprotkb/?query=author:%22Moremen+K.W.%22&sort=score), [Touster O.](https://www.uniprot.org/uniprotkb/?query=author:%22Touster+O.%22&sort=score), [Robbins P.W.](https://www.uniprot.org/uniprotkb/?query=author:%22Robbins+P.W.%22&sort=score)  
-    J. Biol. Chem. 266:16876-16885(1991) \[ [PubMed](https://pubmed.ncbi.nlm.nih.gov/1885615) \] \[ [Europe PMC](https://europepmc.org/abstract/MED/1885615) \] \[ [Abstract](http://www.uniprot.org/citations/1885615) \] **Cited for:** PROTEIN SEQUENCE OF <a href="http://www.uniprot.org/blast/?about=P28494%5B107-136%5D" class="tooltipped blastSubsequences" title="View this subsequence or run a BLAST search on it.">107-136</a> AND <a href="http://www.uniprot.org/blast/?about=P28494%5B478-496%5D" class="tooltipped blastSubsequences" title="View this subsequence or run a BLAST search on it.">478-496</a>, CATALYTIC ACTIVITY, ACTIVITY REGULATION, SUBUNIT, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, GLYCOSYLATION.
+    J. Biol. Chem. 266:16876-16885(1991) \[ [PubMed](https://pubmed.ncbi.nlm.nih.gov/1885615) \] \[ [Europe PMC](https://europepmc.org/abstract/MED/1885615) \] \[ [Abstract](https://www.uniprot.org/citations/1885615) \] **Cited for:** PROTEIN SEQUENCE OF <a href="https://www.uniprot.org/blast/?about=P28494%5B107-136%5D" class="tooltipped blastSubsequences" title="View this subsequence or run a BLAST search on it.">107-136</a> AND <a href="https://www.uniprot.org/blast/?about=P28494%5B478-496%5D" class="tooltipped blastSubsequences" title="View this subsequence or run a BLAST search on it.">478-496</a>, CATALYTIC ACTIVITY, ACTIVITY REGULATION, SUBUNIT, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, GLYCOSYLATION.
 
 <!-- -->
 
@@ -122,8 +122,8 @@ Example: [P28494](https://www.uniprot.org/uniprotkb/P28494#function)
 Manual assertion based on opinion
 
 -   **"Novel purification of the catalytic domain of Golgi alpha-mannosidase II. Characterization and comparison with the intact enzyme."**  
-    [Ferrante A.W. Jr.](http://www.uniprot.org/?query=author:%22Ferrante+A.W.+Jr.%22), [Reinke R.](http://www.uniprot.org/?query=author:%22Reinke+R.%22), [Stanley E.R.](http://www.uniprot.org/?query=author:%22Stanley+E.R.%22)  
-    [Proc. Natl. Acad. Sci. U.S.A. 92:1911-1915(1995)](http://dx.doi.org/10.1073/pnas.92.6.1911) \[ [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/7892198) \] \[ [Europe PMC](http://europepmc.org/abstract/MED/7892198) \] \[ [Abstract](http://www.uniprot.org/citations/7892198) \] **Cited for** : NUCLEOTIDE SEQUENCE \[MRNA\], FUNCTION, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, DEVELOPMENTAL STAGE.
+    [Ferrante A.W. Jr.](https://www.uniprot.org/?query=author:%22Ferrante+A.W.+Jr.%22), [Reinke R.](https://www.uniprot.org/?query=author:%22Reinke+R.%22), [Stanley E.R.](https://www.uniprot.org/?query=author:%22Stanley+E.R.%22)  
+    [Proc. Natl. Acad. Sci. U.S.A. 92:1911-1915(1995)](http://dx.doi.org/10.1073/pnas.92.6.1911) \[ [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/7892198) \] \[ [Europe PMC](http://europepmc.org/abstract/MED/7892198) \] \[ [Abstract](https://www.uniprot.org/citations/7892198) \] **Cited for** : NUCLEOTIDE SEQUENCE \[MRNA\], FUNCTION, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, DEVELOPMENTAL STAGE.
 
 <!-- -->
 
@@ -143,8 +143,8 @@ Example: [Q9UKV3](https://www.uniprot.org/uniprotkb/Q9UKV3#miscellaneous)
 Manual assertion inferred from experiment in
 
 -   **"The structure of the ASAP core complex reveals the existence of a Pinin-containing PSAP complex."**  
-    [Murachelli A.G.](http://www.uniprot.org/?query=author:%22Murachelli+A.G.%22), [Ebert J.](http://www.uniprot.org/?query=author:%22Ebert+J.%22), [Basquin C.](http://www.uniprot.org/?query=author:%22Basquin+C.%22), [Le Hir H.](http://www.uniprot.org/?query=author:%22Le+Hir+H.%22), [Conti E.](http://www.uniprot.org/?query=author:%22Conti+E.%22)  
-    [Nat. Struct. Mol. Biol. 19:378-386(2012)](http://dx.doi.org/10.1038/nsmb.2242) \[ [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22388736) \] \[ [Europe PMC](http://europepmc.org/abstract/MED/22388736) \] \[ [Abstract](http://www.uniprot.org/citations/22388736) \] **Cited for** : INTERACTION WITH RNPS1, COMPOSITION OF THE ASAP COMPLEX, FUNCTION OF THE ASAP COMPLEX.
+    [Murachelli A.G.](https://www.uniprot.org/?query=author:%22Murachelli+A.G.%22), [Ebert J.](https://www.uniprot.org/?query=author:%22Ebert+J.%22), [Basquin C.](https://www.uniprot.org/?query=author:%22Basquin+C.%22), [Le Hir H.](https://www.uniprot.org/?query=author:%22Le+Hir+H.%22), [Conti E.](https://www.uniprot.org/?query=author:%22Conti+E.%22)  
+    [Nat. Struct. Mol. Biol. 19:378-386(2012)](http://dx.doi.org/10.1038/nsmb.2242) \[ [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22388736) \] \[ [Europe PMC](http://europepmc.org/abstract/MED/22388736) \] \[ [Abstract](https://www.uniprot.org/citations/22388736) \] **Cited for** : INTERACTION WITH RNPS1, COMPOSITION OF THE ASAP COMPLEX, FUNCTION OF THE ASAP COMPLEX.
 
 <!-- -->
 
@@ -160,8 +160,8 @@ Example: [P62196](https://www.uniprot.org/uniprotkb/P62196#ptm%5Fprocessing)
 Manual assertion inferred from experiment in
 
 -   **"Mapping the murine cardiac 26S proteasome complexes."**  
-    [Gomes A.V.](http://www.uniprot.org/?query=author:%22Gomes+A.V.%22), [Zong C.](http://www.uniprot.org/?query=author:%22Zong+C.%22), [Edmondson R.D.](http://www.uniprot.org/?query=author:%22Edmondson+R.D.%22), [Li X.](http://www.uniprot.org/?query=author:%22Li+X.%22), [Stefani E.](http://www.uniprot.org/?query=author:%22Stefani+E.%22), [Zhang J.](http://www.uniprot.org/?query=author:%22Zhang+J.%22), [Jones R.C.](http://www.uniprot.org/?query=author:%22Jones+R.C.%22), [Thyparambil S.](http://www.uniprot.org/?query=author:%22Thyparambil+S.%22), [Wang G.W.](http://www.uniprot.org/?query=author:%22Wang+G.W.%22), [Qiao X.](http://www.uniprot.org/?query=author:%22Qiao+X.%22), [Bardag-Gorce F.](http://www.uniprot.org/?query=author:%22Bardag-Gorce+F.%22), [Ping P.](http://www.uniprot.org/?query=author:%22Ping+P.%22)  
-    [Circ. Res. 99:362-371(2006)](http://dx.doi.org/10.1161/01.RES.0000237386.98506.f7) \[ [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16857966) \] \[ [Europe PMC](http://europepmc.org/abstract/MED/16857966) \] \[ [Abstract](http://www.uniprot.org/citations/16857966) \] **Cited for** : IDENTIFICATION IN THE 19S PROTEASOME REGULATORY COMPLEX, ACETYLATION AT ALA-2.
+    [Gomes A.V.](https://www.uniprot.org/?query=author:%22Gomes+A.V.%22), [Zong C.](https://www.uniprot.org/?query=author:%22Zong+C.%22), [Edmondson R.D.](https://www.uniprot.org/?query=author:%22Edmondson+R.D.%22), [Li X.](https://www.uniprot.org/?query=author:%22Li+X.%22), [Stefani E.](https://www.uniprot.org/?query=author:%22Stefani+E.%22), [Zhang J.](https://www.uniprot.org/?query=author:%22Zhang+J.%22), [Jones R.C.](https://www.uniprot.org/?query=author:%22Jones+R.C.%22), [Thyparambil S.](https://www.uniprot.org/?query=author:%22Thyparambil+S.%22), [Wang G.W.](https://www.uniprot.org/?query=author:%22Wang+G.W.%22), [Qiao X.](https://www.uniprot.org/?query=author:%22Qiao+X.%22), [Bardag-Gorce F.](https://www.uniprot.org/?query=author:%22Bardag-Gorce+F.%22), [Ping P.](https://www.uniprot.org/?query=author:%22Ping+P.%22)  
+    [Circ. Res. 99:362-371(2006)](http://dx.doi.org/10.1161/01.RES.0000237386.98506.f7) \[ [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16857966) \] \[ [Europe PMC](http://europepmc.org/abstract/MED/16857966) \] \[ [Abstract](https://www.uniprot.org/citations/16857966) \] **Cited for** : IDENTIFICATION IN THE 19S PROTEASOME REGULATORY COMPLEX, ACETYLATION AT ALA-2.
 
 <!-- -->
 
@@ -169,7 +169,7 @@ Manual assertion inferred from experiment in
 
 ##### Sequence similarity evidence
 
-We use the ECO code [ECO:0000250](http://purl.obolibrary.org/obo/ECO%5F0000250) for manually curated information which has been propagated from a related experimentally characterized protein. The accession number of the experimental source is provided (except for some historic UniProtKB/Swiss-Prot annotations, see [Why don't all UniProtKB/Swiss-Prot annotations have evidence?](http://www.uniprot.org/faq/evidence%5Fin%5Fswissprot) ).
+We use the ECO code [ECO:0000250](http://purl.obolibrary.org/obo/ECO%5F0000250) for manually curated information which has been propagated from a related experimentally characterized protein. The accession number of the experimental source is provided (except for some historic UniProtKB/Swiss-Prot annotations, see [Why don't all UniProtKB/Swiss-Prot annotations have evidence?](https://www.uniprot.org/faq/evidence%5Fin%5Fswissprot) ).
 
 Example: [D3DJ41](https://www.uniprot.org/uniprotkb/D3DJ41#ptm%5Fprocessing)
 
@@ -188,7 +188,7 @@ Manual assertion inferred from sequence similarity
 
 ##### Sequence model evidence
 
-We use the ECO code [ECO:0000255](http://purl.obolibrary.org/obo/ECO%5F0000255) in manual assertions and [ECO:0000256](http://purl.obolibrary.org/obo/ECO%5F0000256) (and its descendant code [ECO:0000259](http://purl.obolibrary.org/obo/ECO%5F0000259) ) in automatic assertions, respectively, for information which has been generated by the UniProtKB [automatic annotation](http://www.uniprot.org/help/automatic%5Fannotation) system. The database name and identifier of the sequence model rule that has been used by the system are provided.
+We use the ECO code [ECO:0000255](http://purl.obolibrary.org/obo/ECO%5F0000255) in manual assertions and [ECO:0000256](http://purl.obolibrary.org/obo/ECO%5F0000256) (and its descendant code [ECO:0000259](http://purl.obolibrary.org/obo/ECO%5F0000259) ) in automatic assertions, respectively, for information which has been generated by the UniProtKB [automatic annotation](https://www.uniprot.org/help/automatic%5Fannotation) system. The database name and identifier of the sequence model rule that has been used by the system are provided.
 
 The ECO code [ECO:0000255](http://purl.obolibrary.org/obo/ECO%5F0000255) is also used for information which has been generated by various sequence analysis programs that are used during the manual curation process and which has been verified by a curator.
 
@@ -229,7 +229,7 @@ UniRule annotation
 
 Automatic assertion according to rules
 
--   [PIRSR000106-3](http://www.uniprot.org/unirule/UR000176873)
+-   [PIRSR000106-3](https://www.uniprot.org/unirule/UR000176873)
 
   
 
@@ -237,7 +237,7 @@ UniRule annotation
 
 Automatic assertion according to rules
 
--   [RuleBase:RU003426](http://www.uniprot.org/unirule/UR000000446)
+-   [RuleBase:RU003426](https://www.uniprot.org/unirule/UR000000446)
 
   
 
@@ -245,7 +245,7 @@ Sequence analysis
 
 Automatic assertion according to rules
 
--   [SAM:Phobius](http://www.uniprot.org/help/sam)
+-   [SAM:Phobius](https://www.uniprot.org/help/sam)
 
 <!-- -->
 
@@ -300,7 +300,7 @@ Combined sources
 
 Manual assertion inferred from algorithms based on publications or databases entries
 
--   [PDB:1V90](http://www.ebi.ac.uk/pdbe-srv/view/entry/1V90)
+-   [PDB:1V90](https://www.ebi.ac.uk/pdbe-srv/view/entry/1V90)
 
 <!-- -->
 
@@ -310,5 +310,5 @@ Manual assertion inferred from algorithms based on publications or databases ent
 
 #### Related documents
 
-[Why don't all UniProtKB/Swiss-Prot annotations have evidence?](http://www.uniprot.org/help/evidence%5Fin%5Fswissprot)  
-[How can I query UniProtKB annotations by evidence?](http://www.uniprot.org/help/evidence%5Ftable) - A guide to evidence codes and labels in entry view and advanced search
+[Why don't all UniProtKB/Swiss-Prot annotations have evidence?](https://www.uniprot.org/help/evidence%5Fin%5Fswissprot)  
+[How can I query UniProtKB annotations by evidence?](https://www.uniprot.org/help/evidence%5Ftable) - A guide to evidence codes and labels in entry view and advanced search

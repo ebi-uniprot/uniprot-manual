@@ -3,7 +3,7 @@ title: DNA binding
 categories: Function,manual
 ---
 
-This subsection of the [Function](http://www.uniprot.org/help/function%5Fsection) section specifies the position and type of each DNA-binding domain present within the protein.
+This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section specifies the position and type of each DNA-binding domain present within the protein.
 
 We annotate experimentally defined DNA-binding domains and conserved DNA-binding domains defined by the InterPro resources PROSITE, Pfam and SMART; examples include the AP2/ERF domain, the ETS domain, the Fork-Head domain, the HMG box and the Myb domain.
 
@@ -40,13 +40,13 @@ Such domains are transferred to close species using the 'By similarity' qualifie
 Example: [Q08400](https://www.uniprot.org/uniprotkb/Q08400#function)
 
 Related keywords:  
-[DNA-binding](http://www.uniprot.org/keywords/238)  
-[Homeobox](http://www.uniprot.org/keywords/371)
+[DNA-binding](https://www.uniprot.org/keywords/238)  
+[Homeobox](https://www.uniprot.org/keywords/371)
 
 See also:
 
--   [Domain](http://www.uniprot.org/help/domain)
--   [Motif](http://www.uniprot.org/help/motif)
--   [Region](http://www.uniprot.org/help/region)
--   [Repeat](http://www.uniprot.org/help/repeat)
--   [Zinc finger](http://www.uniprot.org/help/zn%5Ffing)
+-   [Domain](https://www.uniprot.org/help/domain)
+-   [Motif](https://www.uniprot.org/help/motif)
+-   [Region](https://www.uniprot.org/help/region)
+-   [Repeat](https://www.uniprot.org/help/repeat)
+-   [Zinc finger](https://www.uniprot.org/help/zn%5Ffing)

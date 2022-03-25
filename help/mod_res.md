@@ -18,7 +18,7 @@ We provide additional information concerning the modification, such as:
 3.  information on the **frequency** of the modification or the **relationship with another feature** ('partial', 'alternate', 'transient'). The term **'partial'** indicates that not all protein molecules are modified, **'alternate'** means that the same amino acid can be modified in more than one way, and **'transient'** is applied to exceptional cases of otherwise stable modifications. For partial modifications, we do not propagate this comment to homologous proteins and we do not specify the fraction of proteins modified, as this may depend on the experimental conditions.  
     Examples: [P16157](https://www.uniprot.org/uniprotkb/P16157#ptm%5Fprocessing) (partial modification), [Q9UKV3](https://www.uniprot.org/uniprotkb/Q9UKV3#ptm%5Fprocessing) (alternate modification), [Q9FX54](https://www.uniprot.org/uniprotkb/Q9FX54#ptm%5Fprocessing) (transient modification)
 
-See also the subsection [Post-translational modifications](http://www.uniprot.org/help/post-translational%5Fmodification) for additional information on modifications for which **position-specific data is not yet available**.
+See also the subsection [Post-translational modifications](https://www.uniprot.org/help/post-translational%5Fmodification) for additional information on modifications for which **position-specific data is not yet available**.
 
 **Data sources and propagation of modified residue annotation**
 
@@ -48,7 +48,7 @@ Here is an example of a feature where the identity of the amino acid is unknown 
 
 Phosphorylation refers to the transfer of a gamma-phosphate to an amino acid. It is a key mechanism for signaling in both eukaryotic and prokaryotic cells. It can occur on a number of cytoplasmic and nuclear residues, i.e. on the hydroxyl group of serine, threonine or tyrosine, on the nitrogen of arginine, histidine or lysine, on the carboxyl group of aspartate, or on the sulfhydryl group of cysteine.
 
-Related keyword: [Phosphoprotein](http://www.uniprot.org/keywords/597)
+Related keyword: [Phosphoprotein](https://www.uniprot.org/keywords/597)
 
 Phosphorylation is frequent on serine, threonine, and tyrosine from eukaryotic proteins, serine phosphorylation being the most common. Phosphorylation of histidine and aspartate is known to occur as part of the two-component signalling in prokaryotes and has also been described in eukaryotes (mainly fungi and plants).
 
@@ -72,7 +72,7 @@ We annotate experimentally determined phosphorylation sites and transfer this in
 
 Cytoplasmic and nuclear proteins can be enzymatically modified in several ways by the addition of methyl groups from S-adenosylmethionine. Methylation reactions occurring on carboxyl groups can be reversible and modulate the activity of the target protein, while those on nitrogen atoms at the N-terminus and on side-chains are usually irreversible.
 
-Related keyword: [Methylation](http://www.uniprot.org/keywords/488)
+Related keyword: [Methylation](https://www.uniprot.org/keywords/488)
 
 #### Carboxyl methylation
 
@@ -122,7 +122,7 @@ Examples: [P00318](https://www.uniprot.org/uniprotkb/P00318#ptm_processing), [P0
 
 We annotate both N-terminal acetylation and acetylation on internal residues.
 
-Related keyword: [Acetylation](http://www.uniprot.org/keywords/7)
+Related keyword: [Acetylation](https://www.uniprot.org/keywords/7)
 
 #### N-terminal acetylation
 
@@ -146,7 +146,7 @@ Examples: [P0C0S9](https://www.uniprot.org/uniprotkb/P0C0S9#ptm_processing), [Q1
 
 The C-terminus of secreted proteins is often modified by cleavage between the amino group and the alpha carbon of a C-terminal glycine, resulting in the amidation of the precedent amino acid. This modification protects the C-terminus from degradation by proteases. Amidated proteins contain a signal peptide and are often processed prior to amidation in order to expose a glycine at C-terminus. Amidation has been observed in eukaryotes including mammals, non-mammalian vertebrates and insects, but not in plants.
 
-Related keyword: [Amidation](http://www.uniprot.org/keywords/27)
+Related keyword: [Amidation](https://www.uniprot.org/keywords/27)
 
 The sequence including the amidated position generally conforms to the consensus cleavage sequence for proconvertases, which is G\[RK\] or G\[RK\]\[RK\]. Following proconvertase cleavage, removal of the pair of basic residues is accomplished by carboxypeptidase H, while the terminal glycine is converted to a new C-terminal amide by the bifunctional peptidylglycine alpha-amidating monooxygenase (PAM).
 
@@ -174,7 +174,7 @@ Synonyms: pyrrolidone carboxylic acid (Pca), pyroglutamic acid (Pga), pyroglutam
 
 Examples: [P30233](https://www.uniprot.org/uniprotkb/P30233#ptm_processing), [P68000](https://www.uniprot.org/uniprotkb/P68000#ptm_processing), [P02945](https://www.uniprot.org/uniprotkb/P02945#ptm_processing)
 
-Related keyword: [Pyrrolidone carboxylic acid](http://www.uniprot.org/keywords/873)
+Related keyword: [Pyrrolidone carboxylic acid](https://www.uniprot.org/keywords/873)
 
 We annotate experimentally identified pyrrolidone carboxylic acid modifications, which may be propagated to homologous proteins in related species. When the N-terminal glutamine of an extracellular protein is known to be blocked, we annotate it as a pyrrolidone carboxylic acid with the evidence 'Curated'.
 
@@ -186,7 +186,7 @@ In the translation process, only L-amino acids are incorporated into nascent pol
 
 Example: [P35904](https://www.uniprot.org/uniprotkb/P35904#ptm_processing)
 
-Related keyword: [D-amino acid](http://www.uniprot.org/keywords/208)
+Related keyword: [D-amino acid](https://www.uniprot.org/keywords/208)
 
 D-alanine can originate from both alanine and serine. The name of the original amino acid is given in brackets in the 'Description' field.
 
@@ -207,7 +207,7 @@ In animals, 3-hydroxyproline, 4-hydroxyproline and 5-hydroxylysine are mostly fo
 
 3-hydroxyaspartate and 3-hydroxyasparagine have been found in EGF-like domain-containing proteins, e.g. blood coagulation protein factors VII, IX and X, proteins C, S, and Z, the LDL receptor and thrombomodulin.
 
-Related keyword: [Hydroxylation](http://www.uniprot.org/keywords/379)
+Related keyword: [Hydroxylation](https://www.uniprot.org/keywords/379)
 
 #### Hydroxyproline
 
@@ -248,7 +248,7 @@ Examples: [Q8CG16](https://www.uniprot.org/uniprotkb/Q8CG16#ptm_processing), [O8
 Extracellular tyrosines of secreted and multi-pass membrane proteins can  
 be modified by the addition of a sulfate group. Cytoplasmic serine and threonine residues can also undergo sulfation, although very rarely. Although the function of this modification has not yet been fully elucidated, it may serve to enhance protein stability and modulate protein-protein interactions. When carbohydrates attached to proteins are sulfated, we indicate this fact in the ' [Post-translational modification](https://www.uniprot.org/help/post-translational_modification) ' subsection. Sulfation has been observed in eukaryotes only.
 
-Related keyword: [Sulfation](http://www.uniprot.org/keywords/765)
+Related keyword: [Sulfation](https://www.uniprot.org/keywords/765)
 
 Carbohydrates attached to proteins can also be sulfated, this is annotated in the 'Post-translational modification' subsection, but won't lead to the attribution of the keyword 'Sulfation', which applies only to the modification of the protein itself, but not to the attached carbohydrate groups.
 
@@ -269,7 +269,7 @@ Enzymes involved in electron transport, oxidation and reduction often contain a 
 
 Examples: [P21398](https://www.uniprot.org/uniprotkb/P21398#ptm%5Fprocessing), [P09788](https://www.uniprot.org/uniprotkb/P09788#ptm%5Fprocessing), [Q9UI17](https://www.uniprot.org/uniprotkb/Q9UI17#ptm%5Fprocessing), [Q752Y3](https://www.uniprot.org/uniprotkb/Q752Y3#ptm%5Fprocessing), [Q9K0M5](https://www.uniprot.org/uniprotkb/Q9K0M5#ptm%5Fprocessing), [Q9KPS2](https://www.uniprot.org/uniprotkb/Q9KPS2#ptm%5Fprocessing), [O34627](https://www.uniprot.org/uniprotkb/O34627#ptm%5Fprocessing), [Q48303](https://www.uniprot.org/uniprotkb/Q48303#ptm%5Fprocessing), [P40875](https://www.uniprot.org/uniprotkb/P40875#ptm%5Fprocessing)
 
-Related keywords: [Flavoprotein](http://www.uniprot.org/keywords/285), [FAD](http://www.uniprot.org/keywords/274), [FMN](http://www.uniprot.org/keywords/288)
+Related keywords: [Flavoprotein](https://www.uniprot.org/keywords/285), [FAD](https://www.uniprot.org/keywords/274), [FMN](https://www.uniprot.org/keywords/288)
 
 ### 10. Cysteine oxidation and nitrosylation {\#10\_\_Cysteine\_oxidation\_and\_nitrosylation}
 
@@ -284,16 +284,16 @@ In response to severe oxidative stress, cysteines are irreversibly oxidized to c
 
 Examples: [P13448](https://www.uniprot.org/uniprotkb/P13448#ptm%5Fprocessing), [P03122](https://www.uniprot.org/uniprotkb/P03122#ptm%5Fprocessing)
 
-Related keyword: [Oxidation](http://www.uniprot.org/keywords/558)
+Related keyword: [Oxidation](https://www.uniprot.org/keywords/558)
 
 #### S-nitrosocysteine
 
 Examples: [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm%5Fprocessing), [P0ACQ6](https://www.uniprot.org/uniprotkb/P0ACQ6#ptm%5Fprocessing)
 
-Related keyword: [S-nitrosylation](http://www.uniprot.org/keywords/702)
+Related keyword: [S-nitrosylation](https://www.uniprot.org/keywords/702)
 
 #### Related documents
 
 The nature of the post-translationally formed amino acid is annotated by using a controlled vocabulary. The currently defined list of controlled vocabulary, as well as other information, such as the target amino acid, the related keyword, the taxonomic range and the subcellular location of the modification, are available in [ptmlist.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist) document. Links to the RESID database are also provided to help gain a better insight into every modification.
 
-See also: [Evidence](https://www.uniprot.org/help/evidences), [Post-translational modifications](http://www.uniprot.org/help/post-translational%5Fmodification), [Advanced search](http://www.uniprot.org/help/advanced%5Fsearch)
+See also: [Evidence](https://www.uniprot.org/help/evidences), [Post-translational modifications](https://www.uniprot.org/help/post-translational%5Fmodification), [Advanced search](https://www.uniprot.org/help/advanced%5Fsearch)

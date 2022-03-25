@@ -3,15 +3,15 @@ title: About UniProt
 categories: About_UniProt,Staff,UniProtKB,UniRef,UniParc,help
 ---
 
-The Universal Protein Resource (UniProt) is a comprehensive resource for protein sequence and annotation data. The UniProt databases are the [UniProt Knowledgebase (UniProtKB)](http://www.uniprot.org/help/uniprotkb), the [UniProt Reference Clusters (UniRef)](http://www.uniprot.org/help/uniref), and the [UniProt Archive (UniParc)](http://www.uniprot.org/help/uniparc). The UniProt consortium and host institutions EMBL-EBI, SIB and PIR are committed to the long-term preservation of the UniProt databases.
+The Universal Protein Resource (UniProt) is a comprehensive resource for protein sequence and annotation data. The UniProt databases are the [UniProt Knowledgebase (UniProtKB)](https://www.uniprot.org/help/uniprotkb), the [UniProt Reference Clusters (UniRef)](https://www.uniprot.org/help/uniref), and the [UniProt Archive (UniParc)](https://www.uniprot.org/help/uniparc). The UniProt consortium and host institutions EMBL-EBI, SIB and PIR are committed to the long-term preservation of the UniProt databases.
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/overview.png)
 
-UniProt is a collaboration between the [European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/), the [SIB Swiss Institute of Bioinformatics](https://www.sib.swiss/) and the [Protein Information Resource (PIR)](http://pir.georgetown.edu/). Across the three institutes more than [100 people](http://www.uniprot.org/help/uniprot%5Fstaff) are involved through different tasks such as database curation, software development and support.
+UniProt is a collaboration between the [European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/), the [SIB Swiss Institute of Bioinformatics](https://www.sib.swiss/) and the [Protein Information Resource (PIR)](https://proteininformationresource.org/). Across the three institutes more than [100 people](https://www.uniprot.org/help/uniprot%5Fstaff) are involved through different tasks such as database curation, software development and support.
 
 EMBL-EBI and SIB together used to produce Swiss-Prot and TrEMBL, while PIR produced the Protein Sequence Database (PIR-PSD). These two data sets coexisted with different protein sequence coverage and annotation priorities. TrEMBL (Translated EMBL Nucleotide Sequence Data Library) was originally created because sequence data was being generated at a pace that exceeded Swiss-Prot's ability to keep up. Meanwhile, PIR maintained the PIR-PSD and related databases, including iProClass, a database of protein sequences and curated families. In 2002 the three institutes decided to pool their resources and expertise and formed the UniProt consortium.
 
-The UniProt consortium is headed by [Alex Bateman](http://www.uniprot.org/bateman), [Alan Bridge](http://www.uniprot.org/help/bridge) and [Cathy Wu](http://pir.georgetown.edu/pirwww/aboutpir/wubio.shtml), supported by [key staff](http://www.uniprot.org/help/key%5Fstaff), and receives valuable input from an independent [Scientific Advisory Board](http://www.uniprot.org/help/sab).
+The UniProt consortium is headed by [Alex Bateman](https://www.uniprot.org/bateman), [Alan Bridge](https://www.uniprot.org/help/bridge) and [Cathy Wu](http://pir.georgetown.edu/pirwww/aboutpir/wubio.shtml), supported by [key staff](https://www.uniprot.org/help/key%5Fstaff), and receives valuable input from an independent [Scientific Advisory Board](https://www.uniprot.org/help/sab).
 
 #### Funding
 
@@ -32,7 +32,7 @@ UniProt activities at PIR have benefited from NIH grants HHSN266200400061C (2004
 -   [The Universal Protein Resource](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/uniprot_flyer.pdf) printable reference card for the UniProt databases
 
 
--   [How to cite us](http://www.uniprot.org/help/publications)
+-   [How to cite us](https://www.uniprot.org/help/publications)
 
 #### Contact the UniProt consortium members
 
@@ -61,7 +61,7 @@ Fax: (+41 22) 379 58 58
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/logo_pir.png)
 
-[Protein Information Resource (PIR)](http://pir.georgetown.edu/)  
+[Protein Information Resource (PIR)](https://proteininformationresource.org/)  
 Georgetown University Medical Center  
 3300 Whitehaven Street NW  
 Suite 1200  

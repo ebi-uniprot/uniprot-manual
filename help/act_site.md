@@ -3,7 +3,7 @@ title: Active site
 categories: Function,manual
 ---
 
-This subsection of the [Function](http://www.uniprot.org/help/function%5Fsection) section is used for enzymes and indicates the residues directly involved in catalysis.
+This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section is used for enzymes and indicates the residues directly involved in catalysis.
 
 Example: [Q9F6D4](https://www.uniprot.org/uniprotkb/Q9F6D4#function)
 

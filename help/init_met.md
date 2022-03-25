@@ -3,7 +3,7 @@ title: Initiator methionine
 categories: PTM_processing,manual
 ---
 
-This subsection of the [PTM / Processing](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section indicates that the initiator methionine is cleaved from the mature protein.
+This subsection of the [PTM / Processing](https://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section indicates that the initiator methionine is cleaved from the mature protein.
 
 Example: [Q9H425](https://www.uniprot.org/uniprotkb/Q9H425#ptm_processing)
 

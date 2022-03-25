@@ -9,7 +9,7 @@ categories: Text_search,Technical,Website,help
 
 This document also explains about differences in the names of the returned fields between new and old APIs.
 This document is only for external cross-references. <br />
-Please see example in [Return Fields](return_fields) for usage in API.
+Please see example in [Return Fields](https://www.uniprot.org/help/return_fields) for usage in API.
 
 ### Sequences
 

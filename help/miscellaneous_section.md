@@ -10,5 +10,5 @@ The information is filed in different subsections. The current subsections and t
 |                                                                      |                                                                             |
 |:---------------------------------------------------------------------|:----------------------------------------------------------------------------|
 | **Subsection**                                                       | **Content**                                                                 |
-| [Keywords 'Technical term'](http://www.uniprot.org/keywords/KW-9990) | Selection of controlled vocabulary which summarises the content of an entry |
+| [Keywords 'Technical term'](https://www.uniprot.org/keywords/KW-9990) | Selection of controlled vocabulary which summarises the content of an entry |
 | Documents                                                            | Selected documents (protein list by organism, family, chromosome, etc.)     |

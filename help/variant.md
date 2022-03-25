@@ -17,7 +17,7 @@ The sequence displayed by default in the entry (also called the canonical sequen
 Most naturally occurring variants are due to a single nucleotide change (SNP) at the codon level. When a variant results from more than one nucleotide change, it is indicated in the 'Description' field.  
 Example: [Q96CV9](https://www.uniprot.org/uniprotkb/Q96CV9#sequences)
 
-Validated human variants from the NCBI [dbSNP](http://www.uniprot.org/www.ncbi.nlm.nih.gov/projects/SNP/) database are annotated and tagged with the dbSNP identifier in the 'Description' field.  
+Validated human variants from the NCBI [dbSNP](https://www.uniprot.org/www.ncbi.nlm.nih.gov/projects/SNP/) database are annotated and tagged with the dbSNP identifier in the 'Description' field.  
 Examples: [P15516](https://www.uniprot.org/uniprotkb/P15516#sequences), [O43593](https://www.uniprot.org/uniprotkb/O43593#sequences)
 
 Additional information, such as the cell type or tissue of origin of the variant, the distribution or the frequency of the allele in a given population, is indicated in the 'Description' field, when available.  
@@ -38,7 +38,7 @@ Information on disease-linked variants is mostly restricted to human proteins an
 Additional information about the disease itself is provided in the ['Involvement in disease'](https://www.uniprot.org/help/involvement_in_disease) subsection of the 'Pathology and Biotech' section.  
 Examples: [O43593](https://www.uniprot.org/uniprotkb/O43593#pathology_and_biotech), [P26439](https://www.uniprot.org/uniprotkb/P26439#pathology_and_biotech)
 
-Related keyword: [Disease variant](http://www.uniprot.org/keywords/KW-0225)
+Related keyword: [Disease variant](https://www.uniprot.org/keywords/KW-0225)
 
 ### 3. RNA editing {\#3\_\_RNA\_editing}
 
@@ -47,7 +47,7 @@ Example: [P28335](https://www.uniprot.org/uniprotkb/P28335#sequences)
 
 Additional information on RNA editing events can be found in the ['RNA editing'](https://www.uniprot.org/help/rna_editing) subsection.
 
-Related keyword: [RNA editing](http://www.uniprot.org/keywords/691)
+Related keyword: [RNA editing](https://www.uniprot.org/keywords/691)
 
 ### 4. Variations between strains, isolates or cultivars {\#4\_\_Variations\_between\_strains\_\_isolates\_or\_cultivars}
 

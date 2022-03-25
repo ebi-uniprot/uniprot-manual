@@ -8,10 +8,10 @@ categories: Biocuration,UniProtKB,Protein_existence,Names_and_taxonomy,help
 This document describes the manual curation procedure used by the UniProt Consortium members. The UniProt manual curation process comprises manual review of results from a range of sequence analysis programs and literature curation of experimental data as well as attribution of all information to its original source.
 
 UniProtKB/Swiss-Prot document: [Standard operating procedure (SOP) for UniProt manual curation](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf)  
-UniProt web page: [UniProt manual annotation program](http://www.uniprot.org/program/)
+UniProt web page: [UniProt manual annotation program](https://www.uniprot.org/program/)
 
-[How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/help/manual%5Fcuration)  
-[Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](http://www.uniprot.org/help/uniprotkb%5Fsections)
+[How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual%5Fcuration)  
+[Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb%5Fsections)
 
 #### Protein naming guidelines
 
@@ -23,7 +23,7 @@ UniProtKB/Swiss-Prot document: [International protein nomenclature guidelines](h
 
 User manual: [Protein names](https://www.uniprot.org/help/protein%5Fnames)
 
-[Why does the UniProtKB use so many different names for the same protein?](http://www.uniprot.org/help/different%5Fprotein%5Fgene%5Fnames)
+[Why does the UniProtKB use so many different names for the same protein?](https://www.uniprot.org/help/different%5Fprotein%5Fgene%5Fnames)
 
 The document ['Protein nomenclature publication list'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist) lists references that are important in defining the nomenclature or terminology relative to proteins in general and in particular on specific family or groups of proteins.
 
@@ -34,4 +34,4 @@ Some of protein sequences exhibit strong similarity to known proteins in closely
 UniProtKB/Swiss-Prot document: [Criteria used to assign the PE level of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pe%5Fcriteria)  
 User manual: [Protein existence](https://www.uniprot.org/help/protein%5Fexistence)
 
-[Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](http://www.uniprot.org/help/dubious%5Fsequences)
+[Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious%5Fsequences)

@@ -17,9 +17,9 @@ Gene prediction performance largely depends on current biological knowledge. We 
 
 See also:
 
--   [Where do the UniProtKB protein sequences come from?](http://www.uniprot.org/help/sequence%5Forigin)
--   [Does UniProtKB contain all protein sequences?](http://www.uniprot.org/help/uniprotkb%5Fcoverage)
--   [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](http://www.uniprot.org/help/dubious%5Fsequences)
--   [Why have some UniProtKB accession numbers been deleted? How can I track them?](http://www.uniprot.org/help/deleted%5Faccessions)
+-   [Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence%5Forigin)
+-   [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb%5Fcoverage)
+-   [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious%5Fsequences)
+-   [Why have some UniProtKB accession numbers been deleted? How can I track them?](https://www.uniprot.org/help/deleted%5Faccessions)
 -   [Sequences](https://www.uniprot.org/help/sequences)
 -   [Alternative sequence](https://www.uniprot.org/help/var%5Fseq)

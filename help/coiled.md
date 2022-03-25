@@ -19,7 +19,7 @@ Examples: [O15697](https://www.uniprot.org/uniprotkb/O15697#family_and_domains),
 Leucine-zippers constitute a subtype of coiled coil in which the amino acid leucine is predominant at the 'd' position of the heptad repeat. They may be shorter than 28 amino acids. When a paper reports the existence of a leucine-zipper, we usually annotate this as a coiled coil unless the proposed leucine-zipper is proven to be important for the function of the protein. In that case, we annotate the leucine-zipper in the ['Domains and repeats'](https://www.uniprot.org/help/domain) subsection.  
 Examples: [P18289](https://www.uniprot.org/uniprotkb/P18289#family_and_domains), [P15407](https://www.uniprot.org/uniprotkb/P15407#family_and_domains)
 
-In **UniProtKB/TrEMBL**, coiled coil regions are annotated automatically by our [sequence annotation module using COILS.](http://www.uniprot.org/help/sam)
+In **UniProtKB/TrEMBL**, coiled coil regions are annotated automatically by our [sequence annotation module using COILS.](https://www.uniprot.org/help/sam)
 
 Related keyword:  
-[Coiled coil](http://www.uniprot.org/keywords/175)
+[Coiled coil](https://www.uniprot.org/keywords/175)

@@ -4,7 +4,7 @@ categories: Website,Text_search,Technical,help
 ---
 
 Searches in the Protein Knowledgebase (UniProtKB) display results in a tabular format.  
-You can configure which columns are shown in the result table, and have your selection reflected in the **download** of your data in form of a tab-separated file. You can also use the resulting URL [programmatically](http://www.uniprot.org/help/api).
+You can configure which columns are shown in the result table, and have your selection reflected in the **download** of your data in form of a tab-separated file. You can also use the resulting URL [programmatically](https://www.uniprot.org/help/api).
 
 When you click on "Columns", or on the pencil icon at the far left of your result table header, you will obtain a screen containing two sections:
 
@@ -29,5 +29,5 @@ The same applies if you have an URL originating from a previous bookmark or shar
 See also:
 
 -   [UniProtKB tutorial/video](https://www.youtube.com/watch?v=ado1r8IDm3U)
--   [UniProtKB column names for programmatic access](http://www.uniprot.org/help/uniprotkb%5Fcolumn%5Fnames)
+-   [UniProtKB column names for programmatic access](https://www.uniprot.org/help/uniprotkb%5Fcolumn%5Fnames)
 -   [Customise and share your search results (UniProt blog)](https://insideuniprot.blogspot.com/2015/03)

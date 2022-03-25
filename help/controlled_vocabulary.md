@@ -8,21 +8,21 @@ categories: Controlled_vocabulary,Ontology,Biocuration,Nomenclature,help
 The [Controlled vocabulary of journals](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/jourlist) lists the journal abbreviations used in UniProtKB/Swiss-Prot. The abbreviations are those proposed by the ISO (International Organization for Standardization) and they generally correspond to those used by the National Library of Medicine (NLM) in PubMed.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of journals](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/jourlist)  
-UniProt web page: [Literature citations](http://www.uniprot.org/citations/)  
+UniProt web page: [Literature citations](https://www.uniprot.org/citations/)  
 User manual: [References](https://www.uniprot.org/help/references)
 
-[What journal abbreviations are used in UniProtKB?](http://www.uniprot.org/help/journal%5Fabbreviations)  
-[On what basis are literature references inserted in UniProtKB/Swiss-Prot entries?](http://www.uniprot.org/help/literature%5Freferences)
+[What journal abbreviations are used in UniProtKB?](https://www.uniprot.org/help/journal%5Fabbreviations)  
+[On what basis are literature references inserted in UniProtKB/Swiss-Prot entries?](https://www.uniprot.org/help/literature%5Freferences)
 
 ### Keywords
 
 The [Controlled vocabulary of keywords](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist) lists the keywords and keyword categories used in the UniProt knowledgebase (Swiss-Prot and TrEMBL).
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of keywords](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist)  
-UniProt web page: [Keywords](http://www.uniprot.org/keywords/)  
-User manual: [Keywords](http://www.uniprot.org/help/keywords)
+UniProt web page: [Keywords](https://www.uniprot.org/keywords/)  
+User manual: [Keywords](https://www.uniprot.org/help/keywords)
 
-[What are the differences between UniProtKB keywords and the GO terms?](http://www.uniprot.org/help/keywords%5Fvs%5Fgo)
+[What are the differences between UniProtKB keywords and the GO terms?](https://www.uniprot.org/help/keywords%5Fvs%5Fgo)
 
 ### Subcellular locations
 
@@ -30,7 +30,7 @@ The [Controlled vocabulary of subcellular locations and membrane topologies and 
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of subcellular locations and membrane topologies and orientations](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/subcell)  
 User manual: [Subcellular location](https://www.uniprot.org/help/subcellular%5Flocation)  
-UniProt web page: [Subcellular locations](http://www.uniprot.org/locations/)
+UniProt web page: [Subcellular locations](https://www.uniprot.org/locations/)
 
 ### Pathways
 
@@ -54,7 +54,7 @@ The [Controlled vocabulary of posttranslational modifications (PTM)](https://ftp
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of posttranslational modifications (PTM)](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist)
 
-[How are protein sequence variety and protein diversity represented in UniProtKB?](http://www.uniprot.org/help/protein%5Fdiversity)
+[How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein%5Fdiversity)
 
 ### Taxonomy
 
@@ -63,14 +63,14 @@ UniProtKB/Swiss-Prot document: [Controlled vocabulary of posttranslational modif
 The [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist) contains two sublists: the *Real organism codes*, which are used in both UniProtKB/Swiss-Prot and UniProtKB/TrEMBL and which correspond to a specific and specified organism; the *Virtual organism codes* that regroup organisms at a certain taxonomic level. They generally correspond to a 'pool' of organisms and are used only in UniProtKB/TrEMBL.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)  
-UniProt web page: [Taxonomy](http://www.uniprot.org/taxonomy/)
+UniProt web page: [Taxonomy](https://www.uniprot.org/taxonomy/)
 
 #### Strains
 
 The [Controlled vocabulary of strains](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains) lists the most frequently occurring values for the 'Strain' topic in the [Reference](https://www.uniprot.org/help/references) section of UniProtKB/Swiss-Prot entries.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of strains](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains)  
-UniProt web page: [Taxonomy/strains](http://www.uniprot.org/help/taxonomy#strain)
+UniProt web page: [Taxonomy/strains](https://www.uniprot.org/help/taxonomy#strain)
 
 ### Tissues
 
@@ -82,13 +82,13 @@ UniProtKB/Swiss-Prot document: [Controlled vocabulary of tissues](https://ftp.un
 
 The [Controlled vocabulary of human diseases](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humdisease) lists the controlled vocabulary that is used for the annotation of human diseases in UniProtKB/Swiss-Prot. Each record in this file consists of a disease identifier, acronym, and description, as well as known disease synonyms, links to OMIM, Medical Subject Headings (MeSH) and associated UniProtKB keywords.
 
-UniProt web page: [Human diseases](http://www.uniprot.org/diseases/)  
+UniProt web page: [Human diseases](https://www.uniprot.org/diseases/)  
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of human diseases](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humdisease)  
-Related keyword: [Disease variant](http://www.uniprot.org/keywords/KW-0225)  
+Related keyword: [Disease variant](https://www.uniprot.org/keywords/KW-0225)  
 Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the OMIM database](https://www.uniprot.org/uniprotkb/?query=database%3Amim)
 
-[How can I get all the proteins involved in a given disease?](http://www.uniprot.org/help/disease%5Fquery)  
-[How can I get medical advice from UniProtKB?](http://www.uniprot.org/help/medical%5Fadvice)
+[How can I get all the proteins involved in a given disease?](https://www.uniprot.org/help/disease%5Fquery)  
+[How can I get medical advice from UniProtKB?](https://www.uniprot.org/help/medical%5Fadvice)
 
 ### Extracellular domains
 

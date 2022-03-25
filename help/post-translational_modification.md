@@ -3,7 +3,7 @@ title: Post-translational modification
 categories: PTM_processing,manual
 ---
 
-This subsection of the [PTM/processing](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section describes post-translational modifications (PTMs). This subsection **complements** the information provided at the sequence level or describes modifications for which **position-specific data is not yet available**.
+This subsection of the [PTM/processing](https://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section describes post-translational modifications (PTMs). This subsection **complements** the information provided at the sequence level or describes modifications for which **position-specific data is not yet available**.
 
 Examples: [P17590](https://www.uniprot.org/uniprotkb/P17590#ptm%5Fprocessing), [P56524](https://www.uniprot.org/uniprotkb/P56524#ptm%5Fprocessing)
 
@@ -14,6 +14,6 @@ Although proteins can be modified pre-, co- or post-translationally, all protein
 #### Related documents:
 
 [Controlled vocabulary of post-translational modifications (PTM)](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist)  
-[Modified residue](http://www.uniprot.org/help/mod%5Fres)  
-[Lipidation](http://www.uniprot.org/help/lipid)  
-[Glycosylation](http://www.uniprot.org/help/carbohyd)
+[Modified residue](https://www.uniprot.org/help/mod%5Fres)  
+[Lipidation](https://www.uniprot.org/help/lipid)  
+[Glycosylation](https://www.uniprot.org/help/carbohyd)

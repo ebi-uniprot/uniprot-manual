@@ -7,7 +7,7 @@ The annotation score provides a heuristic measure of the annotation content of a
 
 The annotation score is computed in the following way:
 
--   Different UniProtKB annotation types (e.g. [protein names](http://www.uniprot.org/help/protein%5Fnames), [gene names](http://www.uniprot.org/help/gene%5Fname), [functional annotations (comments)](http://www.uniprot.org/help/general%5Fannotation) and [sequence annotations (features)](http://www.uniprot.org/help/sequence%5Fannotation), [GO annotations](http://www.uniprot.org/help/gene%5Fontology), [cross-references](http://www.uniprot.org/help/cross%5Freferences%5Fsection) ) are scored either by presence or by number of occurrences. Annotations with experimental [evidence](http://www.uniprot.org/help/evidences) score higher than equivalent predicted/inferred annotations, thereby favoring expert [literature-based curation](http://www.uniprot.org/help/biocuration) over [automatic annotation](http://www.uniprot.org/help/automatic%5Fannotation).
+-   Different UniProtKB annotation types (e.g. [protein names](https://www.uniprot.org/help/protein%5Fnames), [gene names](https://www.uniprot.org/help/gene%5Fname), [functional annotations (comments)](https://www.uniprot.org/help/general%5Fannotation) and [sequence annotations (features)](https://www.uniprot.org/help/sequence%5Fannotation), [GO annotations](https://www.uniprot.org/help/gene%5Fontology), [cross-references](https://www.uniprot.org/help/cross%5Freferences%5Fsection) ) are scored either by presence or by number of occurrences. Annotations with experimental [evidence](https://www.uniprot.org/help/evidences) score higher than equivalent predicted/inferred annotations, thereby favoring expert [literature-based curation](https://www.uniprot.org/help/biocuration) over [automatic annotation](https://www.uniprot.org/help/automatic%5Fannotation).
 
 <!-- -->
 
@@ -25,18 +25,18 @@ by splitting it into 5 sub-intervals. Scores in the first interval are represent
 
 There are several contexts in which annotation scores can be used:
 
--   [UniProtKB](http://www.uniprot.org/help/uniprotkb)  
+-   [UniProtKB](https://www.uniprot.org/help/uniprotkb)  
     The annotation scores can help you to get a quick idea of the relative level of annotation of the entries in your search results. Please note that search results are not ranked by the annotation score, but by a query score that considers not only the annotation scores of the entries that match your query, but also how often (and where) your query term(s) appear in a matching entry and across the whole database, and the importance of a term according to the total number of terms. For this reason, the best ranked entries are not necessarily those with the highest annotation scores.
 
 <!-- -->
 
--   [UniRef](http://www.uniprot.org/help/uniref)  
+-   [UniRef](https://www.uniprot.org/help/uniref)  
     UniProt is using annotation scores to select the representative member of a UniRef cluster.
 
 <!-- -->
 
--   [Reference proteomes](http://www.uniprot.org/proteomes)  
-    UniProt is using annotation scores to assist the selection of [reference proteomes](http://www.uniprot.org/proteomes).
+-   [Reference proteomes](https://www.uniprot.org/proteomes)  
+    UniProt is using annotation scores to assist the selection of [reference proteomes](https://www.uniprot.org/proteomes).
 
 Please note that the annotation score **cannot** be used as a measure of the accuracy of the annotation - as we cannot define the 'correct annotation' for any given protein.
 

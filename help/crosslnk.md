@@ -3,7 +3,7 @@ title: Cross-link
 categories: PTM_processing,manual
 ---
 
-This subsection of the [PTM / Processing](http://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section describes **covalent linkages** of various types formed **between two proteins (interchain cross-links)** or **between two parts of the same protein (intrachain cross-links)**, except the disulfide bonds that are annotated in the ['Disulfide bond'](https://www.uniprot.org/help/disulfid) subsection.
+This subsection of the [PTM / Processing](https://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section describes **covalent linkages** of various types formed **between two proteins (interchain cross-links)** or **between two parts of the same protein (intrachain cross-links)**, except the disulfide bonds that are annotated in the ['Disulfide bond'](https://www.uniprot.org/help/disulfid) subsection.
 
 Interchain cross-links are involved in the formation of covalently linked protein complexes. Common cross-links include ubiquitin (and ubiquitin-like)(Ubl) conjugation, SUMOylation, transglutamination, thioether bonds and thioester bonds.
 
@@ -43,8 +43,8 @@ Cross-links formed between two proteolytically generated parts of the same prote
 
 Ubiquitin (Ubl) conjugation includes conjugation of ubiquitin and of related proteins, which are collectively referred to as modifiers. Ubl conjugation requires the concerted action of several enzymes which act in a stepwise process. Ubl is activated by an E1 ubiquitin-activating enzyme and then transferred from E1 to the active site cysteine of a Ubl-conjugating enzyme E2. The final step of the ubiquitylation process generally requires the activity of a specific E3 ubiquitin-protein ligase, which functions as a specific substrate recognition module of the system. Ubl conjugation is reversible.
 
-Related keyword: [Ubl conjugation](http://www.uniprot.org/keywords/832)  
-Note that the keyword ['Ubl conjugation pathway'](http://www.uniprot.org/keywords/833) is applied to proteins involved in conjugating/deconjugating the Ubl, and not to the ubl conjugation target proteins.
+Related keyword: [Ubl conjugation](https://www.uniprot.org/keywords/832)  
+Note that the keyword ['Ubl conjugation pathway'](https://www.uniprot.org/keywords/833) is applied to proteins involved in conjugating/deconjugating the Ubl, and not to the ubl conjugation target proteins.
 
 **Ubiquitination**  
 Ubiquitination often leads to the degradation of the modified protein by the proteasome.
@@ -87,24 +87,24 @@ Protein 2: [P08697](https://www.uniprot.org/uniprotkb/P08697#ptm_processing)
 Thioether bond type cross-links are mainly found in antimicrobial peptides, or lantibiotics. Lantibiotic thioether bonds are formed between a cysteine and a threonine or a serine.  
 Example: [P36503](https://www.uniprot.org/uniprotkb/P36503#ptm_processing)
 
-Related keyword: [Thioether bond](http://www.uniprot.org/keywords/883)
+Related keyword: [Thioether bond](https://www.uniprot.org/keywords/883)
 
 #### d. Thioester bond
 
 Thioester bonds are formed between a cysteine and a glutamine; they are mainly found in eukaryotic proteins.  
 Example: [P14046](https://www.uniprot.org/uniprotkb/P14046#ptm_processing)
 
-Related keyword: [Thioester bond](http://www.uniprot.org/keywords/882)
+Related keyword: [Thioester bond](https://www.uniprot.org/keywords/882)
 
 #### e. Special cases
 
-Some cross-links may involve the rare [non-standard amino acid](http://www.uniprot.org/help/non%5Fstd) **selenocysteine**. Others may form between amino acids that undergo preliminary modification(s) prior to cross-link formation.  
+Some cross-links may involve the rare [non-standard amino acid](https://www.uniprot.org/help/non%5Fstd) **selenocysteine**. Others may form between amino acids that undergo preliminary modification(s) prior to cross-link formation.  
 Example: [Q9MYY8](https://www.uniprot.org/uniprotkb/Q9MYY8#ptm_processing) (Selenocysteine)
 
 **Tryptophan tryptophylquinone (TTQ)** is formed by oxidation of the indole ring of a tryptophan to form tryptophylquinone followed by covalent cross-linking with another tryptophan residue.  
 Example: [P00372](https://www.uniprot.org/uniprotkb/P00372#ptm_processing)  
-Related keyword: [TTQ](http://www.uniprot.org/keywords/824)
+Related keyword: [TTQ](https://www.uniprot.org/keywords/824)
 
-Analagous cross-links have been observed between tryptophylquinone and cysteine (related keyword: [CTQ](http://www.uniprot.org/keywords/885) ) and between tyrosylquinone and lysine (related keyword: [LTQ](http://www.uniprot.org/keywords/886) ).
+Analagous cross-links have been observed between tryptophylquinone and cysteine (related keyword: [CTQ](https://www.uniprot.org/keywords/885) ) and between tyrosylquinone and lysine (related keyword: [LTQ](https://www.uniprot.org/keywords/886) ).
 
-See also the subsection [Post-translational modifications](http://www.uniprot.org/help/post-translational%5Fmodification) for additional information on modifications for which **position-specific data is not yet available**.
+See also the subsection [Post-translational modifications](https://www.uniprot.org/help/post-translational%5Fmodification) for additional information on modifications for which **position-specific data is not yet available**.

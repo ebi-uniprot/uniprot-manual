@@ -5,11 +5,11 @@ categories: UniProtKB,Text_search,Pathology_and_biotech,faq
 
 UniProtKB is a protein sequence database and our staff consists of biologists and biochemists that are not trained to give medical advice.
 
-UniProtKB/Swiss-Prot contains a limited amount of **information concerning genetic diseases** (in the [Pathology and Biotech](http://www.uniprot.org/help/pathology%5Fand%5Fbiotech%5Fsection) section, [Involvement in disease](http://www.uniprot.org/help/involvement%5Fin%5Fdisease) subsection), as well as **sequence information on some disease-linked variations** (see [Sequence](http://www.uniprot.org/help/sequences%5Fsection) section, or [Natural variant](http://www.uniprot.org/help/variant) ' under 'Pathology and Biotech').
+UniProtKB/Swiss-Prot contains a limited amount of **information concerning genetic diseases** (in the [Pathology and Biotech](https://www.uniprot.org/help/pathology%5Fand%5Fbiotech%5Fsection) section, [Involvement in disease](https://www.uniprot.org/help/involvement%5Fin%5Fdisease) subsection), as well as **sequence information on some disease-linked variations** (see [Sequence](https://www.uniprot.org/help/sequences%5Fsection) section, or [Natural variant](https://www.uniprot.org/help/variant) ' under 'Pathology and Biotech').
 
 see:
 
--   [How can I get all the proteins involved in a given disease?](http://www.uniprot.org/help/disease%5Fquery)
+-   [How can I get all the proteins involved in a given disease?](https://www.uniprot.org/help/disease%5Fquery)
 
 Much more information on diseases is available from the [OMIM database](http://www.omim.org/).
 

@@ -3,7 +3,7 @@ title: Calcium binding
 categories: Function,manual
 ---
 
-This subsection of the [Function](http://www.uniprot.org/help/function%5Fsection) section specifies the position(s) of the calcium-binding region(s) within the protein. One common calcium-binding motif is the EF-hand, but other calcium-binding motifs also exist.
+This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section specifies the position(s) of the calcium-binding region(s) within the protein. One common calcium-binding motif is the EF-hand, but other calcium-binding motifs also exist.
 
 ### 1. Annotation of EF-hands {\#1\_\_Annotation\_of\_EF\_hands}
 
@@ -13,7 +13,7 @@ During evolution, some EF-hand structures may have lost the ability to coordinat
 When a protein contains degenerate EF-hands which may have lost the ability to bind calcium, then the number of EF-hand domains will differ from the number of calcium-binding motifs.  
 Example: [P05937](https://www.uniprot.org/uniprotkb/P05937#function)
 
-Note that for EF-hand containing proteins at least one of the EF-hands must retain the ability to bind calcium for the keyword [Calcium](http://www.uniprot.org/keywords/106) to be present.
+Note that for EF-hand containing proteins at least one of the EF-hands must retain the ability to bind calcium for the keyword [Calcium](https://www.uniprot.org/keywords/106) to be present.
 
 Additional information concerning for example, relative affinity for calcium, may also be indicated.  
 Example: [P02639](https://www.uniprot.org/uniprotkb/P02639#function)
@@ -36,4 +36,4 @@ Example: [P22002](https://www.uniprot.org/uniprotkb/P22002#function)
 In the following example the calcium-binding domain is structurally similar to that of EF-hand proteins, but is in two parts, with the last calcium ligand provided by a single distal residue.  
 Example: [P23925](https://www.uniprot.org/uniprotkb/P23925#function)
 
-Related keyword: [Calcium](http://www.uniprot.org/keywords/106).
+Related keyword: [Calcium](https://www.uniprot.org/keywords/106).

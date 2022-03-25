@@ -3,9 +3,9 @@ title: Automatic annotation using UniRule
 categories: Automatic_annotation,Biocuration,UniProtKB,help
 ---
 
-UniProt's [Automatic Annotation pipeline](http://www.uniprot.org/help/automatic%5Fannotation) enhances the unreviewed records in UniProtKB by enriching them with automatic classification and annotation.
+UniProt's [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic%5Fannotation) enhances the unreviewed records in UniProtKB by enriching them with automatic classification and annotation.
 
-The Unified Rule (UniRule) system is one of the contributors to this pipeline, and rules are devised and tested by experienced curators using experimental data from manually annotated entries. UniRule has been developed by merging existing manual rule-based systems ( [HAMAP](https://hamap.expasy.org/), [PIR name and site rules](http://www.uniprot.org/help/pir%5Frules), and RuleBase rules) into one system which stores, applies, and evaluates all rules. Although originally developed independently, these rule systems all share a common scientific approach, using the presence of specific protein signatures together with taxonomy to predict the biochemical features and biological role of a protein.
+The Unified Rule (UniRule) system is one of the contributors to this pipeline, and rules are devised and tested by experienced curators using experimental data from manually annotated entries. UniRule has been developed by merging existing manual rule-based systems ( [HAMAP](https://hamap.expasy.org/), [PIR name and site rules](https://www.uniprot.org/help/pir%5Frules), and RuleBase rules) into one system which stores, applies, and evaluates all rules. Although originally developed independently, these rule systems all share a common scientific approach, using the presence of specific protein signatures together with taxonomy to predict the biochemical features and biological role of a protein.
 
 UniRule rules can annotate protein properties such as the protein name, function, catalytic activity, pathway membership, and subcellular location, along with sequence specific information, such as the positions of post-translational modifications and active sites. All predictions are refreshed with each UniProtKB release to ensure the latest state-of-knowledge predictions.
 
@@ -23,13 +23,13 @@ In the example shown above, the UniRule rule comes from RuleBase. UniRule is com
 
 ### Searching UniRule
 
-The UniRule dataset is available from the [UniProt](http://www.uniprot.org/) website. In order to search the dataset to view rules of interest, click on the dropdown next to the search box and select 'UniRule'. Now enter a rule ID or search term. You can also use the advanced search to build your query.
+The UniRule dataset is available from the [UniProt](https://www.uniprot.org/) website. In order to search the dataset to view rules of interest, click on the dropdown next to the search box and select 'UniRule'. Now enter a rule ID or search term. You can also use the advanced search to build your query.
 
 ![](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/search_dropdown.png)
 
 ### Exploring the UniRule rule pages
 
-[Example](http://www.uniprot.org/unirule/UR000124451)
+[Example](https://www.uniprot.org/unirule/UR000124451)
 
 A UniRule rule page contains the unique UniRule ID, the source rule's ID, a link to search the UniProtKB entries annotated by the rule and the rule content which consists of a set of conditions and corresponding annotations that apply to a protein entry if the conditions are true.
 

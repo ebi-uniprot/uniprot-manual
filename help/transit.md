@@ -33,10 +33,10 @@ The particular organelle to which a protein is targeted is indicated in the ['Su
 We annotate experimentally proven transit peptides when the cleavage site has been determined by direct protein sequencing.  
 Example: [P15690](https://www.uniprot.org/uniprotkb/P15690#ptm_processing)
 
-Large-scale proteomics data are used to annotate transit peptides through the combination of experimental and computational methods, tagged with evidence from ['Combined sources'](http://www.uniprot.org/help/evidences#ECO:00007744).  
+Large-scale proteomics data are used to annotate transit peptides through the combination of experimental and computational methods, tagged with evidence from ['Combined sources'](https://www.uniprot.org/help/evidences#ECO:00007744).  
 Example: [P28331](https://www.uniprot.org/uniprotkb/P28331#ptm_processing)
 
-This information can then be propagated ['By similarity'](http://www.uniprot.org/help/evidences#ECO:0000250) to closely related homologs provided that the transit peptide sequence is conserved.  
+This information can then be propagated ['By similarity'](https://www.uniprot.org/help/evidences#ECO:0000250) to closely related homologs provided that the transit peptide sequence is conserved.  
 Example: [Q0MQG1](https://www.uniprot.org/uniprotkb/Q0MQG1#ptm_processing)
 
 When a protein contains a transit peptide (according to experimental data or its similarity with a family of proteins), but the precise cleavage position has not been experimentally determined, we use a question mark instead of a precise position.  
@@ -44,21 +44,21 @@ Example: [Q6GQ48](https://www.uniprot.org/uniprotkb/Q6GQ48#ptm%5Fprocessing)
 
 ### 2. Annotation of predicted transit peptides: {\#2\_*Annotation\_of\_predicted\_transit\_peptides*}
 
-We also annotate transit peptides which are predicted by the application of the predictive tools [Mitofates](http://mitf.cbrc.jp/MitoFates/cgi-bin/top.cgi), [Predotar](http://urgi.versailles.inra.fr/predotar/predotar.html) and [TargetP](http://www.cbs.dtu.dk/services/TargetP/), but only when such predictions are consistent with the known or presumed subcellular location of the protein concerned. The predicted positions of the transit peptide are annotated with evidence ['Sequence analysis'](http://www.uniprot.org/help/evidences#ECO:0000255).  
+We also annotate transit peptides which are predicted by the application of the predictive tools [Mitofates](http://mitf.cbrc.jp/MitoFates/cgi-bin/top.cgi), [Predotar](http://urgi.versailles.inra.fr/predotar/predotar.html) and [TargetP](http://www.cbs.dtu.dk/services/TargetP/), but only when such predictions are consistent with the known or presumed subcellular location of the protein concerned. The predicted positions of the transit peptide are annotated with evidence ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).  
 Example: [P91929](https://www.uniprot.org/uniprotkb/P91929#ptm_processing)
 
 See also:
 
 -   [Evidence](https://www.uniprot.org/help/evidences)
 -   [Peptide (describing small active peptides)](https://www.uniprot.org/help/peptide)
--   [Sequence annotation (features)](http://www.uniprot.org/help/sequence%5Fannotation)
+-   [Sequence annotation (features)](https://www.uniprot.org/help/sequence%5Fannotation)
 
 Related keywords:  
-[Transit peptide](http://www.uniprot.org/keywords/809),  
-[Chloroplast](http://www.uniprot.org/keywords/150),  
-[Cyanelle](http://www.uniprot.org/keywords/194),  
-[Glyoxysome](http://www.uniprot.org/keywords/330),  
-[Hydrogenosome](http://www.uniprot.org/keywords/377),  
-[Mitochondrion](http://www.uniprot.org/keywords/496),  
-[Peroxisome](http://www.uniprot.org/keywords/576),  
-[Thylakoid](http://www.uniprot.org/keywords/793).
+[Transit peptide](https://www.uniprot.org/keywords/809),  
+[Chloroplast](https://www.uniprot.org/keywords/150),  
+[Cyanelle](https://www.uniprot.org/keywords/194),  
+[Glyoxysome](https://www.uniprot.org/keywords/330),  
+[Hydrogenosome](https://www.uniprot.org/keywords/377),  
+[Mitochondrion](https://www.uniprot.org/keywords/496),  
+[Peroxisome](https://www.uniprot.org/keywords/576),  
+[Thylakoid](https://www.uniprot.org/keywords/793).

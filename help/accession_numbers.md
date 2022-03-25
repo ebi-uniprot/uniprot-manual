@@ -37,8 +37,8 @@ We remind users that they should always use the primary accession number of an e
 
 [Index of UniProtKB secondary accession numbers](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/complete/docs/sec%5Fac.txt)
 
-[What is the difference between an accession number (AC) and the entry name?](http://www.uniprot.org/help/difference%5Faccession%5Fentryname)
+[What is the difference between an accession number (AC) and the entry name?](https://www.uniprot.org/help/difference%5Faccession%5Fentryname)
 
-[Why have some UniProtKB accession numbers been deleted? How can I track them?](http://www.uniprot.org/help/deleted%5Faccessions)
+[Why have some UniProtKB accession numbers been deleted? How can I track them?](https://www.uniprot.org/help/deleted%5Faccessions)
 
-[How to link to UniProt entries (UniProtKB, UniParc and UniRef)?](http://www.uniprot.org/help/linking%5Fto%5Funiprot)
+[How to link to UniProt entries (UniProtKB, UniParc and UniRef)?](https://www.uniprot.org/help/linking%5Fto%5Funiprot)

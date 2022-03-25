@@ -4,25 +4,25 @@ categories: Staff,help
 ---
 
 **Principal investigators:**  
-[Alex Bateman](http://www.uniprot.org/help/bateman)  
-[Alan J. Bridge](http://www.uniprot.org/help/bridge)  
+[Alex Bateman](https://www.uniprot.org/help/bateman)  
+[Alan J. Bridge](https://www.uniprot.org/help/bridge)  
 [Cathy H. Wu](http://pir.georgetown.edu/pirwww/aboutpir/wubio.shtml)
 
 **Key staff:**  
-[Cecilia Arighi](http://www.uniprot.org/help/key%5Fstaff#arighi)  
-[Lionel Breuza](http://www.uniprot.org/help/key%5Fstaff#breuza)  
-[Elisabeth Coudert](http://www.uniprot.org/help/key%5Fstaff#coudert)  
-[Hongzhan Huang](http://www.uniprot.org/help/key%5Fstaff#huang)  
-[Damien Lieberherr](http://www.uniprot.org/help/key%5Fstaff#lieberherr)  
-[Michele Magrane](http://www.uniprot.org/help/key%5Fstaff#magrane)  
-[Maria J. Martin](http://www.uniprot.org/help/key%5Fstaff#martin)  
-[Peter McGarvey](http://www.uniprot.org/help/key%5Fstaff#mcgarvey)  
-[Darren Natale](http://www.uniprot.org/help/key%5Fstaff#natale)  
-[Sandra E. Orchard](http://www.uniprot.org/help/key%5Fstaff#orchard)  
-[Ivo Pedruzzi](http://www.uniprot.org/help/key%5Fstaff#pedruzzi)  
-[Sylvain Poux](http://www.uniprot.org/help/key%5Fstaff#poux)  
-[Shriya Raj](http://www.uniprot.org/help/key%5Fstaff#raj)  
-[Nicole Redaschi](http://www.uniprot.org/help/key%5Fstaff#redaschi)
+[Cecilia Arighi](https://www.uniprot.org/help/key%5Fstaff#arighi)  
+[Lionel Breuza](https://www.uniprot.org/help/key%5Fstaff#breuza)  
+[Elisabeth Coudert](https://www.uniprot.org/help/key%5Fstaff#coudert)  
+[Hongzhan Huang](https://www.uniprot.org/help/key%5Fstaff#huang)  
+[Damien Lieberherr](https://www.uniprot.org/help/key%5Fstaff#lieberherr)  
+[Michele Magrane](https://www.uniprot.org/help/key%5Fstaff#magrane)  
+[Maria J. Martin](https://www.uniprot.org/help/key%5Fstaff#martin)  
+[Peter McGarvey](https://www.uniprot.org/help/key%5Fstaff#mcgarvey)  
+[Darren Natale](https://www.uniprot.org/help/key%5Fstaff#natale)  
+[Sandra E. Orchard](https://www.uniprot.org/help/key%5Fstaff#orchard)  
+[Ivo Pedruzzi](https://www.uniprot.org/help/key%5Fstaff#pedruzzi)  
+[Sylvain Poux](https://www.uniprot.org/help/key%5Fstaff#poux)  
+[Shriya Raj](https://www.uniprot.org/help/key%5Fstaff#raj)  
+[Nicole Redaschi](https://www.uniprot.org/help/key%5Fstaff#redaschi)
 
 **Biocurators:**  
 Ghislaine Argoud-Puy  

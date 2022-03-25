@@ -18,5 +18,5 @@ The information is filed in different subsections. The current subsections and t
 | [Pharmaceutical use](https://www.uniprot.org/help/pharmaceutical_use)                                   | Description of the use of a protein as a pharmaceutical drug                              |
 | [Disruption phenotype](https://www.uniprot.org/help/disruption_phenotype)                               | Description of the effects caused by the disruption of a protein-encoding gene            |
 | [Mutagenesis](https://www.uniprot.org/help/mutagen)                                                     | Site which has been experimentally altered by mutagenesis                                 |
-| [Keywords 'Disease'](http://www.uniprot.org/keywords/KW-9995)                                           | Selection of controlled vocabulary which summarises the content of an entry               |
+| [Keywords 'Disease'](https://www.uniprot.org/keywords/KW-9995)                                           | Selection of controlled vocabulary which summarises the content of an entry               |
 | [Some chemistry and organism-specific databases](https://www.uniprot.org/help/cross_references_section) | Selection of cross-references that point to data collections other than UniProtKB         |

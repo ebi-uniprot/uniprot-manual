@@ -12,13 +12,13 @@ Examples: [P24183](https://www.uniprot.org/uniprotkb/P24183) (selenocysteine), [
 
 This subsection is only present when the incorporation of the non-standard amino acid has been experimentally proven. It can be propagated 'By similarity' to closely related homologs.
 
-If a selenocysteine is present in an enzyme where it is part of the active site (as in glutathione peroxidase or iodothyronine deiodinase), then the position is annotated both in the 'Non-standard residue' and ' [Active site](https://www.uniprot.org/help/act_site) ' subsections of the [Function](http://www.uniprot.org/help/function%5Fsection) section.  
+If a selenocysteine is present in an enzyme where it is part of the active site (as in glutathione peroxidase or iodothyronine deiodinase), then the position is annotated both in the 'Non-standard residue' and ' [Active site](https://www.uniprot.org/help/act_site) ' subsections of the [Function](https://www.uniprot.org/help/function%5Fsection) section.  
 Example: [P07203](https://www.uniprot.org/uniprotkb/P07203)
 
-See also: [Non-standard residue](http://www.uniprot.org/help/non%5Fstd)
+See also: [Non-standard residue](https://www.uniprot.org/help/non%5Fstd)
 
 Related keywords:
 
-In all entries whose sequences contain pyrrolysine: [Pyrrolysine](http://www.uniprot.org/keywords/KW-0669)  
-In all entries whose sequences contain selenocysteine: [Selenocysteine](http://www.uniprot.org/keywords/KW-0712)  
-In all entries describing proteins that bind or contain selenium, or whose function is selenium-dependent: [Selenium](http://www.uniprot.org/keywords/KW-0711)
+In all entries whose sequences contain pyrrolysine: [Pyrrolysine](https://www.uniprot.org/keywords/KW-0669)  
+In all entries whose sequences contain selenocysteine: [Selenocysteine](https://www.uniprot.org/keywords/KW-0712)  
+In all entries describing proteins that bind or contain selenium, or whose function is selenium-dependent: [Selenium](https://www.uniprot.org/keywords/KW-0711)

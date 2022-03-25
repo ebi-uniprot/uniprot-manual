@@ -17,4 +17,4 @@ UniProt excludes certain proteomes where the assembly has been excluded from the
 | genome length too large    | Total non-gapped sequence length of the assembly is more than 1.5 times that of the average for the genomes in the Assembly resource from the same species, more than 15 Mbp, or is otherwise suspiciously long. |
 | genome length too small    | Total non-gapped sequence length of the assembly is less than half that of the average for the genomes in the Assembly resource from the same species, less than 300 Kbp, or is otherwise suspiciously short.    |
 
-The exclusion reason is provided in the proteome page for an excluded proteome, e.g. [UP000004469](http://www.uniprot.org/proteomes/UP000004469).
+The exclusion reason is provided in the proteome page for an excluded proteome, e.g. [UP000004469](https://www.uniprot.org/proteomes/UP000004469).

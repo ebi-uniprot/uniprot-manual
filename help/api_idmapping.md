@@ -3,7 +3,7 @@ title: Programmatic access - Mapping database identifiers
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Technical,help
 ---
 
-To use our [database identifier mapping ('Retrieve/ID mapping')](http://www.uniprot.org/help/uploadlists) service programmatically you need to know the abbreviations for the database names. Some databases map only one way. You can find this table below the links to our code examples.
+To use our [database identifier mapping ('Retrieve/ID mapping')](https://www.uniprot.org/help/uploadlists) service programmatically you need to know the abbreviations for the database names. Some databases map only one way. You can find this table below the links to our code examples.
 
 Here are some examples for querying the database mapping service using:
 
@@ -229,11 +229,11 @@ When mapping between UniProtKB accession numbers and gene names, it is possible 
     query => 'BRCA1, ALB, TP53',  # list of gene names
     taxon => '9606',              # taxonomy identifier for Homo sapiens (Human).
 
-Alternatively, you can download the data underlying our [database identifier service mapping service](http://www.uniprot.org/uploadlists) from [https://ftp.uniprot.org/pub/databases/uniprot/current\_release/knowledgebase/idmapping/](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/idmapping/)
+Alternatively, you can download the data underlying our [database identifier service mapping service](https://www.uniprot.org/uploadlists) from [https://ftp.uniprot.org/pub/databases/uniprot/current\_release/knowledgebase/idmapping/](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/idmapping/)
 
 See also:
 
--   [REST API - Access the UniProt website programmatically](http://www.uniprot.org/help/api)
+-   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
 -   \- batch retrieval, ID mapping, queries, downloads, etc
 
 Related terms: programmatic access, program, script, wget, curl, web services, API, uploadlists
@@ -246,7 +246,7 @@ Direction
 
 See also:
 
--   [REST API - Access the UniProt website programmatically](http://www.uniprot.org/help/api)
+-   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
 -   \- batch retrieval, ID mapping, queries, downloads, etc
 
 Related terms: programmatic access, program, script, wget, curl, web services, API, uploadlists, ID converter, convert identifiers

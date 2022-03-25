@@ -7,7 +7,7 @@ This subsection of the 'Function' section provides information relevant to cofac
 
 Cofactors are generally either bound tightly to active sites, or may bind loosely with the enzyme. They may also be important for structural integrity, i.e. if they are not present, the enzyme does not fold properly or becomes unstable.
 
-The 'Cofactor' subsection is used when ions and other small ligands bind to the enzyme. These cofactor molecules are mapped to [ChEBI](http://www.ebi.ac.uk/chebi/) identifiers. In the case of multimers, cofactors can be bound either to only one subunit of the enzyme or to the interface. In the former case, the cofactor is only annotated for the subunit to which it binds.
+The 'Cofactor' subsection is used when ions and other small ligands bind to the enzyme. These cofactor molecules are mapped to [ChEBI](https://www.ebi.ac.uk/chebi/) identifiers. In the case of multimers, cofactors can be bound either to only one subunit of the enzyme or to the interface. In the former case, the cofactor is only annotated for the subunit to which it binds.
 
 Substrates for a reaction (NAD, FAD, ATP) that are listed in the [Catalytic activity](https://www.uniprot.org/help/catalytic%5Factivity) subsection are not listed as cofactors, with the exception of the rare cases in which an enzyme binds the same type of molecule as a substrate at one site and as a cofactor at other sites.
 

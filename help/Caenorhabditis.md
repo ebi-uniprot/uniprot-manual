@@ -5,12 +5,12 @@ categories: biocuration,project
 
 The Caenorhabditis protein annotation project focuses on the manual annotation of *C. elegans* and *C. briggsae* proteins.
 
-See: [How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/faq/45)
+See: [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/faq/45)
 
 UniProtKB works closely both with the worm research community and with [WormBase](http://www.wormbase.org/), the database of the biology and genome of *C. elegans* and related nematode species, to ensure that UniProtKB data remains complete and up-to-date. The focus in the nematode research community is on the characterisation of *C. elegans* proteins. This means that there is more literature available for this species which explains the more detailed annotation available in UniProtKB. The majority of *C. briggsae* proteins are uncharacterised and the annotation in UniProtKB/Swiss-Prot for these uncharacterised proteins is propagated from the *C. elegans* orthologs.
 
--   All manually reviewed *C. elegans* entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:6239+AND+reviewed:yes) [(statistics)](http://www.uniprot.org/biocuration%5Fproject/Caenorhabditis/statistics/#Caenorhabditiselegans)
--   All manually reviewed *C. briggsae* entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:6238+AND+reviewed:yes) [(statistics)](http://www.uniprot.org/biocuration%5Fproject/Caenorhabditis/statistics/#Caenorhabditisbriggsae)
+-   All manually reviewed *C. elegans* entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:6239+AND+reviewed:yes) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Caenorhabditis/statistics/#Caenorhabditiselegans)
+-   All manually reviewed *C. briggsae* entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:6238+AND+reviewed:yes) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Caenorhabditis/statistics/#Caenorhabditisbriggsae)
 
 ## About Caenorhabditis
 

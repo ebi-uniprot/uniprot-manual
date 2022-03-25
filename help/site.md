@@ -19,7 +19,7 @@ Example: [Q8K1S2](https://www.uniprot.org/uniprotkb/Q8K1S2)
 Autocatalytic cleavages are specified:  
 Example: [Q02936](https://www.uniprot.org/uniprotkb/Q02936)
 
-Related keyword: [Autocatalytic cleavage](http://www.uniprot.org/keywords/68)
+Related keyword: [Autocatalytic cleavage](https://www.uniprot.org/keywords/68)
 
 ### 2. Inhibitory sites for proteases {\#2\_\_Inhibitory\_sites\_for\_proteases}
 
@@ -28,12 +28,12 @@ Example: [P00995](https://www.uniprot.org/uniprotkb/P00995)
 When the protease that is subject to inhibition is known, it is specified:  
 Example: [P01070](https://www.uniprot.org/uniprotkb/P01070)
 
-Related keyword: [Protease inhibitor](http://www.uniprot.org/keywords/646)
+Related keyword: [Protease inhibitor](https://www.uniprot.org/keywords/646)
 
 ### 3. Breakpoint sites for fusion proteins due to chromosomal rearrangement {\#3\_\_Breakpoint\_sites\_for\_fusion\_proteins\_due\_to\_chromosomal\_rearrangement}
 
 Example: [Q9UDY8](https://www.uniprot.org/uniprotkb/Q9UDY8)
 
-Related keyword: [Chromosomal rearrangement](http://www.uniprot.org/keywords/160)
+Related keyword: [Chromosomal rearrangement](https://www.uniprot.org/keywords/160)
 
 Each 'Site' subsection may refer to a single amino acid or to a peptide bond, which is represented by the positions of the two flanking amino acids.

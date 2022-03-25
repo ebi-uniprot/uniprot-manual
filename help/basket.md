@@ -30,7 +30,7 @@ You can also use the 'Full View' button to transfer the entries to a full result
 
 The contents of the basket will remain there until you delete your browser's cookies or clear the basket yourself.
 
-Note that we are not using the basket concept in a commercial context, and that the [UniProt consortium does not sell any biological products, neither proteins nor organisms](http://www.uniprot.org/help/where%5Fto%5Fbuy).
+Note that we are not using the basket concept in a commercial context, and that the [UniProt consortium does not sell any biological products, neither proteins nor organisms](https://www.uniprot.org/help/where%5Fto%5Fbuy).
 
 See also:
 

@@ -5,7 +5,7 @@ categories: Cross-references,manual
 
 This section is used to point to information related to entries and found in data collections other than UniProtKB.
 
-The databases to which UniProtKB is cross-referenced can be listed and searched in ['Cross-referenced databases'](http://www.uniprot.org/database). Each database is described by its name and abbreviation and a link to its web server is provided, as well as literature references where available.
+The databases to which UniProtKB is cross-referenced can be listed and searched in ['Cross-referenced databases'](https://www.uniprot.org/database). Each database is described by its name and abbreviation and a link to its web server is provided, as well as literature references where available.
 
 Additional and complementary information can be found in the subsection [Web resources](https://www.uniprot.org/help/web_resource).
 
@@ -34,7 +34,7 @@ The databases are categorized for easy user perusal and understanding of how the
 
 ### Cross-references to 'Sequence databases'
 
-If a sequence submitted to EMBL/GenBank/DDBJ present some discrepancies with the [canonical sequence](http://www.uniprot.org/help/canonical%5Fand%5Fisoforms), these latter are documented in the ['Sequence conflict'](https://www.uniprot.org/help/conflict) subsection of the 'Sequence' section. However, if these discrepancies are severe, the underlying cross-reference to EMBL/GenBank/DDBJ is tagged.
+If a sequence submitted to EMBL/GenBank/DDBJ present some discrepancies with the [canonical sequence](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms), these latter are documented in the ['Sequence conflict'](https://www.uniprot.org/help/conflict) subsection of the 'Sequence' section. However, if these discrepancies are severe, the underlying cross-reference to EMBL/GenBank/DDBJ is tagged.
 
 Four different tags are used to mark problematic sequences submitted to the EMBL/GenBank/DDBJ databases:
 
@@ -63,6 +63,6 @@ Example: [B2RU33](https://www.uniprot.org/uniprotkb/B2RU33#cross-references)
 
 #### Related documents
 
-[Databases cross-referenced in UniProtKB](http://www.uniprot.org/database)  
-[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](http://www.uniprot.org/help/canonical%5Fnucleotide)  
-[Cross-references for isoform sequences](http://www.uniprot.org/help/isoform%5Fcrossreferences)
+[Databases cross-referenced in UniProtKB](https://www.uniprot.org/database)  
+[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical%5Fnucleotide)  
+[Cross-references for isoform sequences](https://www.uniprot.org/help/isoform%5Fcrossreferences)

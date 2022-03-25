@@ -26,9 +26,9 @@ to
 
 and ignore all other lines.
 
-You will then be able to use the [Retrieve/ID mapping](http://www.uniprot.org/uploadlists) service to upload the file you obtained from modifying the GFF, and retrieve the corresponding entries. To download the subsequences, select the format "FASTA (source list)" from the download menu.
+You will then be able to use the [Retrieve/ID mapping](https://www.uniprot.org/uploadlists) service to upload the file you obtained from modifying the GFF, and retrieve the corresponding entries. To download the subsequences, select the format "FASTA (source list)" from the download menu.
 
-If you only have a short list of entries, you can also select the domains manually from the entry views by clicking on "Add to basket" at the right hand side of the feature descriptions in the section "Family and domains" of these entries. When you have finished selecting your domains, open the [basket](http://www.uniprot.org/help/basket) and click on "Download".
+If you only have a short list of entries, you can also select the domains manually from the entry views by clicking on "Add to basket" at the right hand side of the feature descriptions in the section "Family and domains" of these entries. When you have finished selecting your domains, open the [basket](https://www.uniprot.org/help/basket) and click on "Download".
 
 #### Download the sequences of all mature chains or peptides
 

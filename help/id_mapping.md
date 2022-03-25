@@ -5,7 +5,7 @@ categories: Text_search,Technical,Website,help
 
 To explore and try out the ID Mapping services, please refer to:
 * The [ID Mapping website tool](http://beta.uniprot.org/id-mapping)
-* Our interactive [API documentation](http://rest.uniprot.org/beta/docs/?urls.primaryName=idmapping)
+* Our interactive [API documentation](https://rest.uniprot.org/beta/docs/?urls.primaryName=idmapping)
 
 ## Overview
 
@@ -14,7 +14,7 @@ Ensembl to PomBase. If you map to UniProtKB, UniParc or UniRef data, the full en
 for convenience.
 
 This document serves as a basic guide to using the ID Mapping services offered. For more information about the API,
-please refer to the comprehensive [API documentation](http://rest.uniprot.org/beta/docs/).
+please refer to the comprehensive [API documentation](https://rest.uniprot.org/beta/docs/).
 
 ## Submitting an ID Mapping job
 
@@ -25,7 +25,7 @@ For example, to map UniProtKB entries P21802, P12345, we could POST a request to
 
 > **Request**
 > ```bash
-> % curl --request POST 'http://rest.uniprot.org/beta/idmapping/run' --form 'ids="P21802,P12345"' --form 'from="UniProtKB_AC-ID"' --form 'to="UniRef90"'
+> % curl --request POST 'https://rest.uniprot.org/beta/idmapping/run' --form 'ids="P21802,P12345"' --form 'from="UniProtKB_AC-ID"' --form 'to="UniRef90"'
 > ```
 > **Reponse**
 > ```bash
@@ -54,7 +54,7 @@ Continuing the above example, we can use the `jobId` to find out the status of t
 
 > **Request**
 > ```bash
-> % curl -i 'http://rest.uniprot.org/beta/idmapping/status/27a020f6334184c4eb382111fbcad0e848f40300'
+> % curl -i 'https://rest.uniprot.org/beta/idmapping/status/27a020f6334184c4eb382111fbcad0e848f40300'
 > ```
 > **Response**
 > ```bash
@@ -247,7 +247,7 @@ optional `taxonId` (taxonomy identifier) when submitting the job.
 3. Putting the findings into practice, we can now construct ID mapping POST requests as follows:
 
 ```bash
-% curl --request POST 'http://rest.uniprot.org/beta/idmapping/run' \
+% curl --request POST 'https://rest.uniprot.org/beta/idmapping/run' \
     --form 'ids="<YOUR UNIPARC ID LIST IN COMMA SEPARATED FORM>"' \ 
     --form 'from="UniParc"' \
     --form 'to="<UniProtKB or UniProtKB-Swiss-Prot or UniParc>"'
@@ -255,7 +255,7 @@ optional `taxonId` (taxonomy identifier) when submitting the job.
 Giving a concrete example:
 
 ```bash
-% curl --request POST 'http://rest.uniprot.org/beta/idmapping/run' \ 
+% curl --request POST 'https://rest.uniprot.org/beta/idmapping/run' \ 
    --form 'ids="UPI0000000001,UPI0000000002"' \ 
    --form 'from="UniParc"' \ 
    --form 'to="UniProtKB"'

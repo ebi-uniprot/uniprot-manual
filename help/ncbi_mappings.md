@@ -22,6 +22,6 @@ Apart from the UniProtKB-RefSeq mappings that the UniProt Consortium provides to
 
 See also:
 
--   [Identifier mapping service ('Retrieve/ID mapping')](http://www.uniprot.org/uploadlists)
--   [Cross-references in UniProtKB](http://www.uniprot.org/help/cross-references%5Fin%5Funiprotkb)
--   [Cross-references for isoform sequences](http://www.uniprot.org/help/isoform%5Fcrossreferences)
+-   [Identifier mapping service ('Retrieve/ID mapping')](https://www.uniprot.org/uploadlists)
+-   [Cross-references in UniProtKB](https://www.uniprot.org/help/cross-references%5Fin%5Funiprotkb)
+-   [Cross-references for isoform sequences](https://www.uniprot.org/help/isoform%5Fcrossreferences)

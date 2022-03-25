@@ -3,14 +3,14 @@ title: Assessing proteome completeness and quality
 categories: help
 ---
 
-In order to assess quality and completeness of [proteomes](http://www.uniprot.org/proteomes), we provide two values:
+In order to assess quality and completeness of [proteomes](https://www.uniprot.org/proteomes), we provide two values:
 
 -   Statistical evaluation and classification of the proteome by the **Complete Proteome Detector (CPD)** algorithm (developed by UniProt)
 -   The [BUSCO score](https://www.sib.swiss/about-sib/news/10131-gauging-the-completeness-of-genomics-data-with-busco) of the proteome, which was developed to quantify genomic data completeness in terms of expected gene content.
 
 ### Complete Proteome Detector (CPD)
 
-CPD statistically analyses each proteome against a group of closely related proteomes in order to determine completeness. For each proteome, CPD uses [taxonomic lineage](http://www.uniprot.org/help/taxonomic%5Flineage) information to identify the group of proteomes taxonomically closest to it. A valid group is required to contain a minimum of thirty proteomes and all proteomes in the group must be in the same taxonomic class or more closely related. For the proteome being analyzed, the algorithm considers the quartiles of the protein count of all other proteomes in its group.
+CPD statistically analyses each proteome against a group of closely related proteomes in order to determine completeness. For each proteome, CPD uses [taxonomic lineage](https://www.uniprot.org/help/taxonomic%5Flineage) information to identify the group of proteomes taxonomically closest to it. A valid group is required to contain a minimum of thirty proteomes and all proteomes in the group must be in the same taxonomic class or more closely related. For the proteome being analyzed, the algorithm considers the quartiles of the protein count of all other proteomes in its group.
 
 This evaluation classifies each proteome into one of six possible categories (in terms of the proteome's protein count vs the protein counts of the other proteomes in its group): **Standard** ; **Close to standard (high value)** ; **Close to standard (low value)** ; **Outlier (high value)** ; **Outlier (low value)** or **Unknown**. The categories are defined by closeness of the protein count to the group median. The closest category to the median is **Standard**, followed by **Close to standard** and then **Outlier**. The subcategories of **high** and **low** reflect whether a proteome has above or below average protein count respectively. Proteomes are marked **unknown** if a score could not be calculated for example if we don't have enough closely related proteomes in the database.
 

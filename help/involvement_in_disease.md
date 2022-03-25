@@ -3,7 +3,7 @@ title: Involvement in disease
 categories: Pathology_and_biotech,manual
 ---
 
-This subsection of the 'Pathology and Biotech' section provides information on the disease(s) associated with genetic variations in a given protein. The information is extracted from the scientific literature and diseases that are also described in the [OMIM](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim) database are represented with a [controlled vocabulary](http://www.uniprot.org/diseases) in the following way:
+This subsection of the 'Pathology and Biotech' section provides information on the disease(s) associated with genetic variations in a given protein. The information is extracted from the scientific literature and diseases that are also described in the [OMIM](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim) database are represented with a [controlled vocabulary](https://www.uniprot.org/diseases) in the following way:
 
 Disease name (Disease abbreviation) \[Link to OMIM\]: Disease description.
 
@@ -30,7 +30,7 @@ If the sequence position of the translocation breakpoint is known and causes a f
 
 Example: In Q8IZP0 the annotation in the ['Pathology and Biotech'](https://www.uniprot.org/uniprotkb/Q8IZP0#pathology%5Fand%5Fbiotech%5Fsection) section is completed by information at the sequence level ( ['Site'](https://www.uniprot.org/help/site) subsection).
 
-Related keyword: [Chromosomal rearrangement](http://www.uniprot.org/keywords/160).
+Related keyword: [Chromosomal rearrangement](https://www.uniprot.org/keywords/160).
 
 Disease information that is not described in OMIM is annotated as free text.
 
@@ -40,8 +40,8 @@ Examples: [P00395](https://www.uniprot.org/uniprotkb/P00395#pathology%5Fand%5Fbi
 
 [Online Mendelian Inheritance in Man (MIM) cross-references in UniProtKB/Swiss-Prot](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/mimtosp)
 
-Controlled vocabulary used for the annotation of genetic diseases in UniProtKB/Swiss-Prot: [List](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humdisease) / [Search](http://www.uniprot.org/diseases)
+Controlled vocabulary used for the annotation of genetic diseases in UniProtKB/Swiss-Prot: [List](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humdisease) / [Search](https://www.uniprot.org/diseases)
 
-[How can I get all the proteins involved in a given disease?](http://www.uniprot.org/help/disease%5Fquery)
+[How can I get all the proteins involved in a given disease?](https://www.uniprot.org/help/disease%5Fquery)
 
-[How can I get medical advice from UniProtKB?](http://www.uniprot.org/help/medical%5Fadvice)
+[How can I get medical advice from UniProtKB?](https://www.uniprot.org/help/medical%5Fadvice)

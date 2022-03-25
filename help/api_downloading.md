@@ -5,7 +5,7 @@ categories: UniProtKB,UniRef,UniParc,Programmatic_access,Download,help
 
 The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-Modified:` will avoid that you download data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here are examples of how to do this in Perl:
 
--   [Download all UniProt sequences for a given organism in FASTA format](http://www.uniprot.org/help/api_downloading#download_perl_example1)  
+-   [Download all UniProt sequences for a given organism in FASTA format](https://www.uniprot.org/help/api_downloading#download_perl_example1)  
 
         use strict;
         use warnings;
@@ -35,7 +35,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-
             ' for ' . $response->request->uri . "\n";
         }
 
--   [Download the UniProt reference proteomes for all organisms below a given taxonomy node in compressed FASTA format](http://www.uniprot.org/help/api_downloading#download_perl_example2)  
+-   [Download the UniProt reference proteomes for all organisms below a given taxonomy node in compressed FASTA format](https://www.uniprot.org/help/api_downloading#download_perl_example2)  
 
         use strict;
         use warnings;
@@ -104,6 +104,6 @@ If you would like to record the UniProt release number and/or date of the data w
 
 See also:
 
--   [REST API - Access the UniProt website programmatically](http://www.uniprot.org/help/api)
+-   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
 -   \- batch retrieval, ID mapping, queries, downloads, etc
--   [How can I (programmatically) obtain the number of results returned by my query?](http://www.uniprot.org/help/entry%5Fcount)
+-   [How can I (programmatically) obtain the number of results returned by my query?](https://www.uniprot.org/help/entry%5Fcount)

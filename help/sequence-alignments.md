@@ -5,7 +5,7 @@ categories: Website,help
 
 <a href="https://www.youtube.com/watch?v=IAYFLfPQ0Gs" class="icon icon-generic namespaceIcons">Tutorial/Video</a>
 
-Select the *Align* tab of the toolbar to align two or more protein sequences with the [Clustal Omega program](http://www.clustal.org/) (cf also this [ClustalO FAQ](http://www.ebi.ac.uk/Tools/msa/clustalo/help/faq.html) ):
+Select the *Align* tab of the toolbar to align two or more protein sequences with the [Clustal Omega program](http://www.clustal.org/) (cf also this [ClustalO FAQ](https://www.ebi.ac.uk/Tools/msa/clustalo/help/faq.html) ):
 
 1.  Enter either protein sequences in FASTA format or UniProt identifiers into the form field.
 2.  Click the *Run Align* button.
@@ -28,7 +28,7 @@ Instead of entering identifiers into the form, you can collect sequences by clic
 
 ![](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/align_select.png)
 
-Similarly, you can align the sequences that you have collected into your [basket](http://www.uniprot.org/help/basket).
+Similarly, you can align the sequences that you have collected into your [basket](https://www.uniprot.org/help/basket).
 
 After you have submitted your data, a status page is shown. This page is reloaded in regular intervals until the alignment is complete. The final result page shows a colored version of the alignment and allows to download in Clustal format.
 
@@ -54,4 +54,4 @@ If you want to use another sequence alignment service, click on the *Download* i
 
 #### Related services
 
-<table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><p><strong><a href="http://pir.georgetown.edu/pirwww/search/multaln.html">ClustalW</a> (PIR)</strong></p><p>Multiple sequence alignment</p></td></tr><tr class="even"><td><p><strong><a href="http://www.ebi.ac.uk/clustalw/index.html">ClustalW</a> (EBI)</strong></p><p>Multiple sequence alignment</p></td></tr><tr class="odd"><td><p><strong><a href="http://pir.georgetown.edu/pirwww/search/pairwise.html">SSEARCH</a> (PIR)</strong></p><p>Align two sequences using the Smith-Waterman algorithm</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><p><strong><a href="http://pir.georgetown.edu/pirwww/search/multaln.html">ClustalW</a> (PIR)</strong></p><p>Multiple sequence alignment</p></td></tr><tr class="even"><td><p><strong><a href="https://www.ebi.ac.uk/clustalw/index.html">ClustalW</a> (EBI)</strong></p><p>Multiple sequence alignment</p></td></tr><tr class="odd"><td><p><strong><a href="http://pir.georgetown.edu/pirwww/search/pairwise.html">SSEARCH</a> (PIR)</strong></p><p>Align two sequences using the Smith-Waterman algorithm</p></td></tr></tbody></table>

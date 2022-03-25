@@ -15,6 +15,6 @@ See also:
 
 -   [Evidence attribution](https://www.uniprot.org/help/evidences)
 -   [Modified residue](https://www.uniprot.org/help/mod%5Fres)
--   [How do we manually annotate a UniProtKB entry?](http://www.uniprot.org/help/manual%5Fcuration)
--   [How to retrieve sets of protein sequences?](http://www.uniprot.org/help/retrieve%5Fsets)
--   [Release cycle, synchronization issues and archival of previous releases](http://www.uniprot.org/help/synchronization)
+-   [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual%5Fcuration)
+-   [How to retrieve sets of protein sequences?](https://www.uniprot.org/help/retrieve%5Fsets)
+-   [Release cycle, synchronization issues and archival of previous releases](https://www.uniprot.org/help/synchronization)

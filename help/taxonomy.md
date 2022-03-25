@@ -7,13 +7,13 @@ categories: Taxonomy,Controlled_vocabulary,help
 
 The taxonomy database that is maintained by the UniProt group is based on the [NCBI taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy), which is supplemented with data specific to the UniProt Knowledgebase (UniProtKB). While the NCBI taxonomy is updated daily to be in sync with GenBank/EMBL-Bank/DDBJ, the UniProt taxonomy is updated only at UniProt releases to be in sync with UniProtKB. It may therefore happen that for the time period of a UniProt release, you can find new taxa at the NCBI that are not yet in UniProt (and vice versa for deleted taxa).
 
-Species with manually annotated and reviewed protein sequences in the Swiss-Prot section of UniProtKB are named according to [UniProt nomenclature](http://www.uniprot.org/help/taxonomy#organism-denomination). In particular, we have adopted a systematic convention for naming viral and bacterial strains and isolates.
+Species with manually annotated and reviewed protein sequences in the Swiss-Prot section of UniProtKB are named according to [UniProt nomenclature](https://www.uniprot.org/help/taxonomy#organism-denomination). In particular, we have adopted a systematic convention for naming viral and bacterial strains and isolates.
 
-Links to external sites are chosen by the UniProt taxonomy team and show pictures and various scientific data of interest (taxonomy, biology, physiology, etc.). Due to the sheer volume of data present on the world-wide web, it is unfortunately not possible to contact each site individually. Should you wish to have your site linked from uniprot.org, or would prefer us to remove a link to your site, please do not hesitate to [contact us](http://www.uniprot.org/contact).
+Links to external sites are chosen by the UniProt taxonomy team and show pictures and various scientific data of interest (taxonomy, biology, physiology, etc.). Due to the sheer volume of data present on the world-wide web, it is unfortunately not possible to contact each site individually. Should you wish to have your site linked from uniprot.org, or would prefer us to remove a link to your site, please do not hesitate to [contact us](https://www.uniprot.org/contact).
 
 #### Search
 
-You can query the UniProt taxonomy by taxon names or NCBI taxonomy identifiers. Searches by names are case-insensitive and you may use asterisks as wildcards anywhere in the query. When you search for taxon names, the results that match a UniProt [organism denomination](http://www.uniprot.org/help/taxonomy#organism-denomination) are ranked higher than those which match [other organism names](http://www.uniprot.org/help/taxonomy#other-names).
+You can query the UniProt taxonomy by taxon names or NCBI taxonomy identifiers. Searches by names are case-insensitive and you may use asterisks as wildcards anywhere in the query. When you search for taxon names, the results that match a UniProt [organism denomination](https://www.uniprot.org/help/taxonomy#organism-denomination) are ranked higher than those which match [other organism names](https://www.uniprot.org/help/taxonomy#other-names).
 
 #### Organism denomination
 
@@ -66,7 +66,7 @@ Examples:
 
 #### Other organism names
 
-Organism nomenclature has always been an area where the creativity of biologists has consistently reached unsuspected heights. Practically, this means that one organism is frequently described by many different names. In addition to the [organism denomination](http://www.uniprot.org/help/taxonomy#organism-denomination) that is displayed in UniProtKB entries, the UniProt taxonomy entries also show all other names that are archived in the NCBI taxonomy database. This includes names classified as misspelling and misnomers that have been collected from various external sources and can be considered legacy data.
+Organism nomenclature has always been an area where the creativity of biologists has consistently reached unsuspected heights. Practically, this means that one organism is frequently described by many different names. In addition to the [organism denomination](https://www.uniprot.org/help/taxonomy#organism-denomination) that is displayed in UniProtKB entries, the UniProt taxonomy entries also show all other names that are archived in the NCBI taxonomy database. This includes names classified as misspelling and misnomers that have been collected from various external sources and can be considered legacy data.
 
 #### Lineage and taxonomy node rank
 
@@ -78,7 +78,7 @@ For convenience reasons, both GenBank/EMBL-Bank/DDBJ and UniProtKB entries store
 
 #### Organism strains
 
-A list of strains may be provided for organisms with at least one entry in UniProtKB/Swiss-Prot. Where available, synonyms for particular strain names are listed in grey after the main name (see example [ECOLX](http://www.uniprot.org/taxonomy/562) ). In UniProtKB entries, strain names are displayed in the Strain lines under 'Publications' (see example [P42652](https://www.uniprot.org/uniprotkb/P42652#publications) ).
+A list of strains may be provided for organisms with at least one entry in UniProtKB/Swiss-Prot. Where available, synonyms for particular strain names are listed in grey after the main name (see example [ECOLX](https://www.uniprot.org/taxonomy/562) ). In UniProtKB entries, strain names are displayed in the Strain lines under 'Publications' (see example [P42652](https://www.uniprot.org/uniprotkb/P42652#publications) ).
 
 Note: Some of the strains present in the [strain list](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains) might have their own taxon in the NCBI taxonomy database. The policy for the description of the source organism for a sequence has changed over the years from species to strain and back to species and you will therefore find a mixture of species and strain assignments in the nucleotide and protein databases.
 
@@ -86,7 +86,7 @@ Note: Some of the strains present in the [strain list](https://ftp.uniprot.org/p
 
 A list of natural hosts is given for all viruses with at least one entry in UniProtKB/Swiss-Prot. Viral hosts data appears in the 'Virus host' field of UniProtKB entries (see example [Q8JP02](https://www.uniprot.org/uniprotkb/Q8JP02) ).
 
-A virus is an inert particle outside its hosts. The virion (so called because it is not visible under the microscope), on its own, has neither metabolism, nor any replication capability, nor autonomous evolution. A virus cannot be considered a living organism outside its host. The viral taxonomy is arbitrarily based on the nature of viral genomes, and viruses in a same family can infect a wide range of hosts, from mammals to insects. The nature of the host does not always appear in the virus name, e.g. the hosts of the [Yellow head virus](http://www.uniprot.org/taxonomy/96029) are shrimps.  
+A virus is an inert particle outside its hosts. The virion (so called because it is not visible under the microscope), on its own, has neither metabolism, nor any replication capability, nor autonomous evolution. A virus cannot be considered a living organism outside its host. The viral taxonomy is arbitrarily based on the nature of viral genomes, and viruses in a same family can infect a wide range of hosts, from mammals to insects. The nature of the host does not always appear in the virus name, e.g. the hosts of the [Yellow head virus](https://www.uniprot.org/taxonomy/96029) are shrimps.  
 There are numerous virus-host interactions:
 
 -   shut-off of traduction
