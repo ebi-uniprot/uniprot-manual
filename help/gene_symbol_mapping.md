@@ -12,7 +12,7 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
         genes(OLN)
         genes(ORF)
 
-    See also:
+    See also
 
     -   [Gene names](https://www.uniprot.org/help/gene%5Fname)
 
@@ -20,7 +20,7 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
 
     If your genes are all from an organism for which a model organism database exists and is cross-referenced to UniProtKB (e.g. HGNC, MGI, FlyBase), it is possible to retrieve all the UniProtKB entries for your genes if you have the corresponding remote database identifiers: You can upload this list to our server under [Retrieve/ID mapping](https://www.uniprot.org/uploadlists), and map the identifiers from that remote database to UniProtKB.
 
-    See also:
+    See also
 
     -   [Organism-specific databases](https://www.uniprot.org/database/?query=category:%22Organism-specific+databases%22)
     -   [Database identifier mapping (via 'Retrieve/ID mapping')](https://www.uniprot.org/help/uploadlists)
@@ -46,7 +46,7 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
 
     With long query strings, you may reach supported query string length limits. Should you run into problems (e.g. empty pages) please consider making POST requests, or splitting up your query.
 
-    See also:
+    See also
 
     -   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
     -   [Programmatic access - Mapping database identifiers](https://www.uniprot.org/help/api%5Fidmapping)

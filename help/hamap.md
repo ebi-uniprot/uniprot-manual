@@ -9,7 +9,7 @@ UniProtKB/TrEMBL sequences that match one of the HAMAP profiles are annotated us
 
 More information on the [HAMAP website](http://hamap.expasy.org/).
 
-See also:
+# See also
 
 -   [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)
 -   [How is protein family membership assigned in UniProtKB?](https://www.uniprot.org/help/family%5Fmembership)

@@ -26,7 +26,7 @@ In case of an ID mapping or batch retrieval result, this allows you to customize
 
 The same applies if you have an URL originating from a previous bookmark or shared by a colleague. Such URLs may contain some information about column settings that differ from your current settings ( [example](https://www.uniprot.org/uniprotkb/?query=database:%28type:hgnc%29&sort=score&columns=id,entry%20name,reviewed,genes,database%28HGNC%29) ), and using the column customization interface allows you to merge the columns specified in the URL with your current settings.
 
-See also:
+# See also
 
 -   [UniProtKB tutorial/video](https://www.youtube.com/watch?v=ado1r8IDm3U)
 -   [UniProtKB column names for programmatic access](https://www.uniprot.org/help/uniprotkb%5Fcolumn%5Fnames)

@@ -17,7 +17,7 @@ Related keywords:
 
 Related terms: splice variant, splice isoform
 
-#### Related documents
+# Related documents
 
 [What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 

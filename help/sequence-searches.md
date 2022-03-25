@@ -25,7 +25,7 @@ If you select the *Blast* tab of the toolbar from a UniProtKB, UniRef or UniParc
 
 Jobs have unique identifiers, which (depending on the job type) can be used in queries (e.g. to get the intersection of two sequence similarity searches). Job identifiers and the related data are kept for 7 days, and are then deleted.
 
-#### Options
+# Options
 
 |               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |:--------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -36,7 +36,7 @@ Jobs have unique identifiers, which (depending on the job type) can be used in q
 | **Gapped**    | This will allow gaps to be introduced in the sequences when the comparison is done.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Hits**      | Limits the number of returned alignments.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
-#### Related services
+# Related services
 
 |                                                                                                      |
 |:-----------------------------------------------------------------------------------------------------|

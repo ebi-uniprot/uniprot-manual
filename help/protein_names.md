@@ -7,7 +7,7 @@ This subsection of the [Names and taxonomy](https://www.uniprot.org/help/names%5
 
 This subsection also includes information on the activity of the protein, such as a precise description of the catalytic mechanism of enzymes, or information about individual protein chains or functional domains contained within it, if pertinent.
 
-#### UniProtKB/Swiss-Prot 'Protein names' subsection
+# UniProtKB/Swiss-Prot 'Protein names' subsection
 
 The subsection consists of 2 categories and several subcategories of protein names and abbreviations. It always begins with the 'Recommended name' ('RecName' in the flat text file). Alternative names are listed under the heading 'Alternative name(s)' ('AltName' in the flat text file).
 
@@ -30,11 +30,11 @@ Example: [P01189](https://www.uniprot.org/uniprotkb/P01189#names_and_taxonomy) (
 If a protein is known to include multiple functional domains, each of which described by a different name, the description starts with the name of the whole protein, followed by ' **Including** ' section(s). Each domain is described in a separate section. 'Alternative name(s)' are allowed for each individual domain.  
 Example: [P27708](https://www.uniprot.org/uniprotkb/P27708#names_and_taxonomy) ('Including the following 3 domains:')
 
-#### UniProtKB/TrEMBL 'Protein names' subsection
+# UniProtKB/TrEMBL 'Protein names' subsection
 
 The format of the 'Protein names' section in UniProtKB/TrEMBL closely follows the format used in UniProtKB/Swiss-Prot. However, as UniProtKB/TrEMBL is not manually annotated, the description is imported directly from the underlying nucleotide entry and its accuracy relies on the information provided by the submitter of the nucleotide entry. This is why UniProtKB/TrEMBL entries usually have ' **Submitted name** ' ('SubName' in the flat text file) instead of 'Recommended name'. There can be more than one 'Submitted name'. 'Submitted names' may later be improved by [automatic annotation](https://www.uniprot.org/help/automatic%5Fannotation) procedures (the label will then change from 'SubName' to 'RecName'), but if not, it remains as provided by the submitter until the entry is manually annotated and integrated to UniProtKB/Swiss-Prot.
 
-#### Related documents
+# Related documents
 
 [International protein nomenclature guidelines](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/International%5FProtein%5FNomenclature%5FGuidelines.pdf)  
 [Protein nomenclature information](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist)  

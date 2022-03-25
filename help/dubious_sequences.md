@@ -19,7 +19,7 @@ However, many putative pseudogene sequences may be expected to remain in UniProt
 
 The PE subsection is included in the UniProtKB search engine. It is thus possible to retrieve all entries corresponding to a defined PE level - and thereby exclude all PE5 proteins. For human proteins, for instance, this can be achieved by searching for: [(organism:"Homo sapiens (Human) \[9606\]" AND reviewed:yes) NOT existence:uncertain](https://www.uniprot.org/uniprotkb/?query=taxonomy:9606+AND+reviewed:yes+NOT+existence:uncertain).
 
-**Important remark:**
+# Important remark
 
 The PE assignment is made at the level of the UniProtKB entry and not at the level of individual isoform sequences; hence, dubious alternative isoform sequences cannot be excluded from a protein set by the UniProtKB search engine.
 
@@ -27,7 +27,7 @@ However, comments about the evidence supporting the existence of any given isofo
 
 Note that UniProtKB may include isoforms that contain retained introns (as these may be physiologically relevant) as well as isoforms that contain a premature stop codon and thus could be the target for nonsense-mediated mRNA decay (NMD). The mechanism of NMD involves a first round of translation before the premature stop codon is detected (often referred to as "pioneer translation"), and so at least one protein is synthesized from each NMD target mRNA. In addition, some of the predicted NMD targets appear to be the most abundant isoforms in certain tissues (see for instance the human GABA-B receptor 1 [isoform 1E](https://www.uniprot.org/uniprotkb/Q9UBS5#sequences) ).
 
-See also:
+# See also
 
 -   [Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence_origin)
 -   [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds_protein_definition)

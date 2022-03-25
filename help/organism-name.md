@@ -18,7 +18,7 @@ The organism name can differ from that given by the international nucleotide seq
 
 Note that the proteome for a given organism, when available, can be accessed through the [proteomes](https://www.uniprot.org/proteome/) page of our website.
 
-#### Related documents
+# Related documents
 
 [Taxonomy](https://www.uniprot.org/taxonomy)
 

@@ -3,7 +3,7 @@ title: Downloaded data seems incomplete or corrupted - how can I get help with d
 categories: Download,Technical,faq
 ---
 
-**FTP downloads**
+# FTP downloads
 
 Every folder on our [FTP server](https://ftp.uniprot.org/) contains a file called RELEASE.metalink that specifies the size and MD5 checksum of every file in that folder, e.g.  
 <https://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/RELEASE.metalink>
@@ -24,7 +24,7 @@ USA: <https://ftp.uniprot.org/pub/databases/uniprot>
 UK: <ftp://ftp.ebi.ac.uk/pub/databases/uniprot>  
 Switzerland: <https://ftp.expasy.org/databases/uniprot>
 
-**HTTP downloads**
+# HTTP downloads
 
 Due to HTTP transport unreliability (HTTP streams tend to fail after a while due to packet loss), large downloads should be split into smaller chunks using the "offset" and "limit" functions. These are described in our API help page [Retrieving entries via queries](https://www.uniprot.org/help/api%5Fqueries).
 

@@ -7,7 +7,7 @@ A search result page is subdivided into a filter panel on the left, and the actu
 
 You can use the filter panel to filter your search results in UniProtKB by **reviewed/unreviewed** status, or by organism, or you can restrict your search terms to certain query fields.
 
-### Organism filters
+# Organism filters
 
 Under the heading **"Popular organisms"**, your query results are broken down by organism. Filters allow you to see the matches from the 5 best represented organisms among a list of 12 organisms.
 
@@ -19,23 +19,17 @@ For performance reasons it is currently not possible to provide a **complete** b
 
 If you are interested in another organism, you can specify its name in the search field under **"Other organisms"**, which supports auto-completion.
 
-### Search term filters
+# Search term filters
 
 If you have performed a full text search and your search terms can be found in one or more [query fields](https://www.uniprot.org/help/query-fields), you can use the **"Search term"** filters to make your query more specific. This restricts search results to entries which have structured data that exactly matches your term.
 
-#### Notes
+## Notes
 
 -   An active filter is graphically highlighted in the filter panel.
 
-<!-- -->
-
 -   All the filters described here can be un-selected by clicking on the cross to their right.
 
-<!-- -->
-
 -   Only filters which are valid for your search results will appear. For example, if the search term is not found in the gene name of any of your results, the gene name filter will not appear.
-
-<!-- -->
 
 -   Only filters which would further narrow down your search results will appear. For example, in a full text search with [polytrichum commune](https://www.uniprot.org/uniprotkb/?query=polytrichum%20commune), the result only contains entries from the organism [Polytrichum commune (Haircap moss)](https://www.uniprot.org/taxonomy/3213) and there will not be a filter to restrict the terms to the organism field.
 

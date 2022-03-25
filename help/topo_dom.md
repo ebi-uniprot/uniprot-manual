@@ -45,7 +45,7 @@ Note that in each case the subcellular location of the protein as a whole is def
 
 We annotate both experimentally determined and predicted topological domains.
 
-### 1. Annotation of experimentally proven topological domains: {\#1\_*Annotation\_of\_experimentally\_proven\_topological\_domains*}
+# 1. Annotation of experimentally proven topological domains: {\#1\_*Annotation\_of\_experimentally\_proven\_topological\_domains*}
 
 Most often, there is proof for the **existence** of transmembrane domains, but not for their **boundaries**. As a consequence, the **extents** of [transmembrane regions](https://www.uniprot.org/help/transmem) and the corresponding neighboring topological domains are predicted. Even when supporting experimental evidence is available for the assignment of a particular region of a protein to a particular cellular compartment, the topological domains of a protein are therefore generally annotated using the evidence ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).  
 Example: [Q96BI3](https://www.uniprot.org/uniprotkb/Q96BI3#subcellular_location)
@@ -58,14 +58,14 @@ Examples: [P63142](https://www.uniprot.org/uniprotkb/P63142#subcellular_location
 
 Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have evidence](https://www.uniprot.org/help/evidence%5Fin%5Fswissprot). The annotations which are missing evidence were created before we started to manually curate information with evidence in UniProtKB/Swiss-Prot, and manual attribution of evidence to these existing annotations was not possible due to the huge amount of existing data. In such cases, the absence of any evidence for topological domains may in many cases be interpreted as 'Experimental' or 'Curated'.
 
-### 2. Annotation of predicted topological domains: {\#2\_*Annotation\_of\_predicted\_topological\_domains*}
+# 2. Annotation of predicted topological domains: {\#2\_*Annotation\_of\_predicted\_topological\_domains*}
 
 We also annotate topological domains based on the predictions provided by the program TMHMM, which returns a probability that non-transmembrane regions of a protein are in a cytoplasmic compartment (specified as 'in') or a non-cytoplasmic compartment (specified as 'out'). When TMHMM returns a high confidence topology prediction for a protein of known subcellular location, the notional 'in' and 'out' predictions from TMHMM are specified using a controlled vocabulary as described above. For instance, we may specify 'in' as 'cytoplasmic' and 'out' as 'periplasmic'.  
 Example: [Q8BJ48](https://www.uniprot.org/uniprotkb/Q8BJ48#subcellular%5Flocation)
 
 When nothing is known about the subcellular location of the protein, we annotate the topological domains based on TMHMM predictions using the default values of 'cytoplasmic' and 'extracellular'. In all cases, predicted topological domains are annotated with ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).
 
-See also:
+# See also
 
 -   [Evidence](https://www.uniprot.org/help/evidences)
 -   [Transmembrane](https://www.uniprot.org/help/transmem)

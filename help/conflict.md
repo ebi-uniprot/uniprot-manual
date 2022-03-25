@@ -17,7 +17,7 @@ The sequence differences described in this subsection complement those in the ['
 
 Sequence conflicts are usually of unknown origin: they may originate from sequencing errors or may be a yet uncharacterized natural polymorphism (Single Amino-acid Polymorphism, SAP). If a sequence conflict turns out to be an actual SAP, the annotation is updated: the conflict is deleted from this subsection and reported in the 'Natural variations' instead.
 
-#### Related documents
+# Related documents
 
 [What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 

@@ -15,7 +15,7 @@ The information is filed in different subsections. The current subsections and t
 | [Helix](https://www.uniprot.org/help/helix)                                     | Helical regions within the experimentally determined protein structure          |
 | [3D structure databases](https://www.uniprot.org/help/cross_references_section) | Cross-references that point to data collections other than UniProtKB (i.e. PDB) |
 
-See also:
+# See also
 
 [Why do some UniProtKB/Swiss-Prot records contain cross-references to many PDB entries?](https://www.uniprot.org/help/multiple%5Fpdb%5Fxrefs)  
 [How can I retrieve all UniProtKB entries for which the 3D structure is known?](https://www.uniprot.org/help/retrieve%5F3d)  

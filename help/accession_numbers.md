@@ -23,8 +23,6 @@ Entries can have more than one accession number. This can be due to two distinct
 
 -   a\) When two or more entries are merged, the accession numbers from all entries are kept. The first accession number is referred to as the 'Primary (citable) accession number', while the others are referred to as 'Secondary accession numbers'. These are listed in alphanumerical order.
 
-<!-- -->
-
 -   b\) If an existing entry is split into two or more entries ('demerged'), new 'primary' accession numbers are attributed to all the split entries while all original accession numbers are retained as 'secondary' accession numbers.
 
 Example: [P29358](https://www.uniprot.org/uniprotkb/P29358) which has been 'demerged' into [P68250](https://www.uniprot.org/uniprotkb/P68250#entry_information) and [P68251](https://www.uniprot.org/uniprotkb/P68251#entry_information).
@@ -33,7 +31,7 @@ An accession number is only deleted when the entry to which it was assigned has 
 
 We remind users that they should always use the primary accession number of an entry in any citation and link since it is the only unique stable identifier for an entry.
 
-#### Related documents
+# Related documents
 
 [Index of UniProtKB secondary accession numbers](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/complete/docs/sec%5Fac.txt)
 

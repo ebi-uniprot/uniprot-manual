@@ -11,7 +11,7 @@ Due to the polyploid nature of [plant](https://www.uniprot.org/taxonomy/33090) g
 
 Our major effort is currently focused on manual annotation of the proteomes of both a [dicot](https://www.uniprot.org/taxonomy/71240) ( [*Arabidopsis thaliana*](https://www.uniprot.org/taxonomy/3702) ) and a [monocot](https://www.uniprot.org/taxonomy/4447) ( [*Oryza sativa*](https://www.uniprot.org/taxonomy/4530) ). Later on we will then propagate the relevant annotation to orthologous proteins from other plant species. We will also annotate all the proteins involved in specific pathways not present in our two model plants, such as the [nitrogen fixation pathway](https://www.uniprot.org/keywords/KW-0536) of [*Medicago truncatula*](https://www.uniprot.org/taxonomy/3880) once the sequences and the gene predictions are reliable.
 
-## About Arabidopsis
+# About Arabidopsis
 
 <figure><img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/arabidopsis.jpg" title="Arabidopsis thaliana picture kindly provided by Volker Knoop" width="150" alt="Arabidopsis thaliana (Mouse-ear cress)" /><figcaption aria-hidden="true">Arabidopsis thaliana (Mouse-ear cress)</figcaption></figure>
 
@@ -21,7 +21,7 @@ We are working on the establishment and annotation of a comprehensive, non-redun
 
 -   The *Arabidopsis thaliana* entries which have been manually annotated are [listed here](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/arath) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Plants/statistics/#Arabidopsisthaliana).
 
-## About rice
+# About rice
 
 ![Oryza sativa (Rice)](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/rice.jpg "Rice picture kindly provided by Sharon Stern")
 

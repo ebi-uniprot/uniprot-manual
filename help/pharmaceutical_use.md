@@ -9,6 +9,6 @@ Examples: [P01275](https://www.uniprot.org/uniprotkb/P01275#pathology%5Fand%5Fbi
 
 Related keyword: [Pharmaceutical](https://www.uniprot.org/keywords/582)
 
-#### Related document
+# Related document
 
 [Where can I buy protein X? Which company sells protein Y? Where can I buy strain Z?](https://www.uniprot.org/help/where%5Fto%5Fbuy)

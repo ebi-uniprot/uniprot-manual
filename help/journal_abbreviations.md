@@ -9,6 +9,6 @@ The journal abbreviation used in UniProtKB/Swiss-Prot are those proposed by the 
 
 UniProtKB/TrEMBL can contain additional journals for which there is no controlled vocabulary for their abbreviation yet.
 
-See also:
+# See also
 
 -   [References](https://www.uniprot.org/help/references)

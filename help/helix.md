@@ -9,7 +9,7 @@ We annotate the positions of alpha-helices, 3(10) helices and Pi-helices in this
 
 In UniProtKB, the positions of helical regions are neither predicted by computational means, nor propagated 'By similarity' to related species.
 
-See also:
+# See also
 
 [Turn](https://www.uniprot.org/help/turn)  
 [Beta strand](https://www.uniprot.org/help/strand)

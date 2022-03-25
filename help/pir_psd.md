@@ -12,6 +12,6 @@ All PIR-PSD data were imported into [UniParc](https://www.uniprot.org/help/unipa
 
 You can access the archived version of PIR-PSD entries via UniProtKB cross-references to PIR-PSD.
 
-See also:
+# See also
 
 -   [Cross references](https://www.uniprot.org/help/cross_references_section)

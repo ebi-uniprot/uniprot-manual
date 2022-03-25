@@ -52,6 +52,6 @@ If you want to use another sequence alignment service, click on the *Download* i
 
 'Annotation' and 'Amino acid properties' highlighting options are available on the left column. This allows to highlight key regions in the sequence alignment.
 
-#### Related services
+# Related services
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><p><strong><a href="http://pir.georgetown.edu/pirwww/search/multaln.html">ClustalW</a> (PIR)</strong></p><p>Multiple sequence alignment</p></td></tr><tr class="even"><td><p><strong><a href="https://www.ebi.ac.uk/clustalw/index.html">ClustalW</a> (EBI)</strong></p><p>Multiple sequence alignment</p></td></tr><tr class="odd"><td><p><strong><a href="http://pir.georgetown.edu/pirwww/search/pairwise.html">SSEARCH</a> (PIR)</strong></p><p>Align two sequences using the Smith-Waterman algorithm</p></td></tr></tbody></table>

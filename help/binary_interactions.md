@@ -12,11 +12,7 @@ Interactions with the displayed protein, or with one of its isoforms or proteoly
 -   The 'With' column reports the gene name and the UniProtKB accession number of the interacting protein. If the interaction partner is a specific isoform or a product of proteolytic cleavage, this information includes the isoform name and identifier, or the peptide/chain name and identifier. Interacting proteins may be derived from different species, e.g. due to the experimental design or reflecting a pathogen-host interaction. In such cases, the organism of the interacting protein is included.  
     Example: [Q8WUM4](https://www.uniprot.org/uniprotkb/Q8WUM4#interaction)
 
-<!-- -->
-
 -   The '\#Exp' column indicates the number of experiments in the IntAct database which support the interaction.
-
-<!-- -->
 
 -   The 'IntAct' column contains the IntAct database accession numbers of the two interacting proteins.
 
@@ -31,7 +27,7 @@ Example: [P51617](https://www.uniprot.org/uniprotkb/P51617#cross-references) (Pr
 
 More examples: [P62258](https://www.uniprot.org/uniprotkb/P62258#interaction), [Q8T4F7](https://www.uniprot.org/uniprotkb/Q8T4F7#interaction), [P02829](https://www.uniprot.org/uniprotkb/P02829#interaction), [O43521](https://www.uniprot.org/uniprotkb/O43521#interaction), [Q07817](https://www.uniprot.org/uniprotkb/Q07817#interaction)
 
-#### Related documents
+# Related documents
 
 [Why are only a subset of binary interactions from the IntAct database reported in UniProtKB?](https://www.uniprot.org/help/binary%5Finteractions%5Fimport)  
 [Subunit structure - information about the protein quaternary structure and interaction(s) with other proteins or protein complexes](https://www.uniprot.org/help/subunit%5Fstructure)

@@ -10,7 +10,7 @@ Specific sequence motifs usually mediate a common function, such as protein-bind
 Due to their short length and high level of sequence variability most motifs cannot be reliably predicted by computational means. Therefore we only annotate putative motifs when there is experimental evidence that the motif is functionally important or the presence of the putative motif is consistent with the function of the protein.  
 Examples: [Q9FFX4](https://www.uniprot.org/uniprotkb/Q9FFX4#family_and_domains), [Q8K3W3](https://www.uniprot.org/uniprotkb/Q8K3W3#family_and_domains)
 
-**Some examples of specific motifs**
+# Some examples of specific motifs
 
 Nuclear localization signals are characterized by a high content of basic residues. They are highly degenerate and are annotated only when there is experimental evidence demonstrating their targeting function.  
 Example: [P54254](https://www.uniprot.org/uniprotkb/P54254#family_and_domains)
@@ -27,7 +27,7 @@ Example: [Q60452](https://www.uniprot.org/uniprotkb/Q60452#family_and_domains)
 LXXLL motifs, which are essential for interaction with nuclear receptors, are only annotated in proteins known to participate in such interactions.  
 Example: [Q9Y6Q9](https://www.uniprot.org/uniprotkb/Q9Y6Q9#family_and_domains)
 
-See also:
+# See also
 
 [Domain](https://www.uniprot.org/help/domain)  
 [Region](https://www.uniprot.org/help/region)  

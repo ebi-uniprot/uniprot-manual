@@ -11,6 +11,6 @@ The over-represented type of amino acid within the annotated computationally bia
 
 Examples: [Q9Y2N7](https://www.uniprot.org/uniprotkb/Q9Y2N7#family%5Fand%5Fdomains), [P62521](https://www.uniprot.org/uniprotkb/P62521#family%5Fand%5Fdomains), [Q9W705](https://www.uniprot.org/uniprotkb/Q9W705#family%5Fand%5Fdomains)
 
-See also:
+# See also
 
 -   [SAM - Sequence Analysis Methods for automatic annotation](https://www.uniprot.org/help/sam)

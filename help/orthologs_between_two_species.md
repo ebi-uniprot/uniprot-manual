@@ -23,7 +23,7 @@ Once you are happy with the view, click on "Download" and select the tab-separat
 
 If you want to sort on the OrthoDB identifiers instead, this cannot be done via the web interface, but once you have downloaded the file, you can open it in Excel and sort there.
 
-See also:
+# See also
 
 -   [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)
 -   [List of phylogenomic databases cross-referenced in UniProtKB](https://www.uniprot.org/database/?query=category:%22Phylogenomic+databases%22)

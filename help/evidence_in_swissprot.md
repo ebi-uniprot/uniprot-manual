@@ -7,7 +7,7 @@ The annotations which are missing evidence were created before we started to man
 
 The website's search engine handles annotations without evidence by assigning them a "default evidence" that depends on the annotation type. For example, some annotation types such as "Disease" are only annotated when there is experimental evidence so this annotation type will always be assigned an experimental evidence. For annotation types where several types of evidence attribution are possible, we use the type that occurs most often as the default.
 
-See also:
+# See also
 
 -   [Evidence attribution](https://www.uniprot.org/help/evidences)
 

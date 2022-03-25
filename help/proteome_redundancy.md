@@ -9,13 +9,13 @@ To reduce this redundancy, we have developed a procedure to identify highly redu
 
 All proteomes remain searchable through the [Proteomes](https://www.uniprot.org/proteomes) pages. Sequences corresponding to redundant proteomes are available for download from [UniParc](https://www.uniprot.org/help/uniparc) and queries are directed to alternate non-redundant proteome(s) available for the same species. The history (i.e. previous versions) of redundant UniProtKB records remains available.
 
-### How does this procedure work?
+# How does this procedure work?
 
 In order to solve the issue of rising redundancy, UniProt designed a Proteome Redundancy Detector. This algorithm detects redundant proteomes, which are then either **skipped** or **deleted** from UniProtKB/TrEMBL. The algorithm first creates clusters of proteomes at the species level, based on taxonomy. Then within each cluster of proteomes, it computes proteome similarity using pairwise alignment, calculates redundancy and plots these values onto a directed weighted graph. So a cluster is now a graph where nodes are proteomes and edges are the redundancy values. By using graph reduction methods, the graph is reduced until it only consists of non-redundant proteome nodes.
 
 See also: [Elimination of redundant proteomes (UniProt blog)](https://insideuniprot.blogspot.com/2015/05/)
 
-### What is the impact on UniProtKB?
+# What is the impact on UniProtKB?
 
 Since UniProt [release 2015\_04](https://www.uniprot.org/news/2015/04/01/release), we have been using the Proteome Redundancy Detector to discard entries belonging to redundant proteomes of bacterial, and later also archaeal and fungal species in the unreviewed UniProtKB (TrEMBL) set. Redundant proteomes are flagged as redundant in the UniProt [Proteomes](https://www.uniprot.org/proteomes) portal (example: [UP000008521](https://www.uniprot.org/proteomes/UP000008521) is redundant to [UP000008520](https://www.uniprot.org/proteomes/UP000008520) ) and are labelled with a specific icon
 
@@ -23,6 +23,6 @@ Since UniProt [release 2015\_04](https://www.uniprot.org/news/2015/04/01/release
 
 The Proteomes advanced search allows searching within redundant proteomes by selecting the option "Redundant" from the dropdown and setting it to "Yes". Proteins of redundant proteomes are available in UniParc only (and not in UniProtKB). Redundant proteome pages link to UniParc for the entire proteome and each proteome component (chromosomes, plasmids, etc.). They also allow directly downloading of the proteome sequences (coming from UniParc) through the "Download" button. Obsolete UniProtKB accessions from redundant proteomes remain as cross-references in UniParc.
 
-See also:
+# See also
 
 -   [What is a redundant proteome? Can reference proteomes become redundant? Can reviewed entries be deleted because of the proteome redundancy reduction?](https://www.uniprot.org/help/proteome%5Fredundancy%5Ffaq)

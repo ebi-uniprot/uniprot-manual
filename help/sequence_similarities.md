@@ -17,7 +17,7 @@ A protein may belong to two (or even more) different families. In this case, we 
 
 Example: [P40939](https://www.uniprot.org/uniprotkb/P40939#family_and_domains), [O75521](https://www.uniprot.org/uniprotkb/O75521#family_and_domains)
 
-#### Related documents
+# Related documents
 
 [Index of protein families](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/similar)  
 [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)  

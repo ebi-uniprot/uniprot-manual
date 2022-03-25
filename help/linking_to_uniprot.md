@@ -3,7 +3,7 @@ title: How to link to UniProt entries (UniProtKB, UniParc and UniRef)
 categories: UniProtKB,UniRef,UniParc,Technical,faq
 ---
 
-### Standard format
+# Standard format
 
 The standard way of linking to UniProt databases, displaying the UniProt HTML view is:
 
@@ -30,7 +30,7 @@ Remarks:
       
     How to link to the UniRef100 cluster containing a given UniProtKB entry, e.g. P99999: <https://www.uniprot.org/uniref/?query=member:P99999+AND+identity:1.0>
 
-### Other formats
+# Other formats
 
 Additional formats for entries and queries can be displayed by adding an extension to the URL:
 
@@ -61,7 +61,7 @@ Examples:
 
 Note that all individual records and queries are accessible using simple URLs (REST). All pages (in particular query results) can therefore be bookmarked and linked. Example: [https://www.uniprot.org/uniprot/?query=gene:at2g37710](https://www.uniprot.org/uniprotkb/?query=gene:at2g37710)
 
-See also:
+# See also
 
 -   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
 -   [Accession number](https://www.uniprot.org/help/accession%5Fnumbers)

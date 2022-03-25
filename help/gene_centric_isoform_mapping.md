@@ -9,7 +9,7 @@ Some proteomes have been (manually and algorithmically) selected as [reference p
 
 A single gene can code for multiple proteins through biological events such as [alternative splicing, initiation and promoter usage](https://www.uniprot.org/help/alternative%5Fproducts). While the UniProtKB/Swiss-Prot expert curation process includes the identification and review of different forms of a protein and their description in a single UniProtKB/Swiss-Prot entry, its focus is the functional annotation of proteins. For this reason, not all potential isoforms of a protein that are available in UniProtKB/TrEMBL can be reviewed and merged into a single entry. This results in a larger number of UniProtKB entries than genes for many of the eukaryotic reference proteomes. In order to identify potential isoforms that have not (yet) been reviewed by a biocurator, we have established an **automatic gene-centric mapping between entries from eukaryotic reference proteomes that are likely to belong to the same gene**. This mapping is based on gene identifiers from Ensembl, EnsemblGenomes and model organism databases and, in cases where none of these are available, on gene names assigned by the original sequencing projects.
 
-See also:
+# See also
 
 -   [Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb%5Fsections)
 -   [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual%5Fcuration)

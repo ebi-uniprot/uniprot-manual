@@ -5,7 +5,7 @@ categories: UniParc,UniProtKB,Sequence,UniRef,Biocuration,faq
 
 Each of the 3 UniProt databases - UniProtKB (Swiss-Prot and TrEMBL), UniParc and UniRef - is 'non-redundant'. However, the definition of 'redundancy' varies among the 3.
 
-**Summary:**
+# Summary
 
 Non-redundancy means in:
 
@@ -14,29 +14,29 @@ Non-redundancy means in:
 -   UniParc: one record for 100% identical sequences over the entire length, regardless of the species;
 -   UniRef100: one record for 100% identical sequences, including fragments, regardless of the species.
 
-**UniProtKB**
+# UniProtKB
 
 \- UniProtKB/TrEMBL is 'non-redundant' in the sense that all identical, full-length protein sequences, provided they come from the same species, are represented in a single record. Fragments, isoforms, variants and so on, encoded by the same gene, are stored in separate entries.
 
 \- UniProtKB/Swiss-Prot is 'non-redundant' in the sense that all protein products encoded by one gene in a given species are represented in a single record. This includes alternative splicing isoforms, fragments, genetic variations, sequence conflicts, etc. Differences between sequence reports are analyzed, fully documented and reported in the entry. Cross-references to the original submissions to EMBL-Bank/GenBank/DDBJ databases are kept (see for instance, [Q9BXB7](https://www.uniprot.org/uniprotkb/Q9BXB7#cross-references) ).
 
-See also:
+## See also
 
 -   [How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein%5Fdiversity)
 -   [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 -   [Reducing proteome redundancy](https://www.uniprot.org/help/proteome%5Fredundancy)
 
-Remarks:
+## Remarks
 
 -   When different genes in the same species give rise to the same protein sequence, they were merged in a single UniProtKB/Swiss-Prot record and the gene names listed in the gene name subsection. See for example the entry for human histone H3.1 ( [P68431](https://www.uniprot.org/uniprotkb/P68431#names%5Fand%5Ftaxonomy) ). However, we tend to demerge many of these entries, and for newly annotated proteins, generate separate sequence entries in case of multiple genes coding for identical protein sequences, e.g. [P08409](https://www.uniprot.org/uniprotkb/?query=replaces:P08409).
 -   'Non-redundancy' in UniProtKB/Swiss-Prot implies that identical sequences are represented in a single record. However, if identical protein sequences are produced in different species, they are stored in different records (e.g. [ubiquitin](https://www.uniprot.org/uniprotkb/?query=(cluster%3A(member%3AP62975+identity%3A1.0)+length%3A76)+AND+reviewed%3Ayes) ).
 -   Manual annotation in UniProtKB/Swiss-Prot consists of merging all UniProtKB/TrEMBL entries corresponding to protein products encoded by the same gene and documenting all differences. Once the manually annotated UniProtKB/TrEMBL entries are integrated into UniProtKB/Swiss-Prot, they are automatically removed from UniProtKB/TrEMBL. In this sense, Swiss-Prot and TrEMBL are not redundant with one another. However, merging of new UniProtKB/TrEMBL to existing UniProtKB/Swiss-Prot entries is performed manually - at least partially - in order to ensure that all information contained in the UniProtKB/TrEMBL entry is correctly integrated into UniProtKB/Swiss-Prot. For example, additional publications present in the new UniProtKB/TrEMBL entry have to be critically reviewed and the UniProtKB/Swiss-Prot entry updated accordingly. Given this manual curation effort and the increasing amount of protein sequence data from high-throughput cDNA or genome sequencing projects, it is not possible to ensure non-redundancy at this level. Therefore there can be 100% identical sequences for the same species in UniProtKB/Swiss-Prot and UniProtKB/TrEMBL.
 
-**UniParc**
+# UniParc
 
 [UniParc](https://www.uniprot.org/help/uniparc) is 'non-redundant' in the sense that all identical protein sequences are stored in a single record regardless of the species. Each record is characterized by a unique identifier, UPI. For example, identical ubiquitin sequences from various organisms can be found in UniParc record [UPI00000006C4](https://www.uniprot.org/uniparc/UPI00000006C4).
 
-**UniRef**
+# UniRef
 
 Three [UniRef](https://www.uniprot.org/help/uniref) databases - UniRef100, UniRef90 and UniRef50 - merge sequences automatically across species.
 

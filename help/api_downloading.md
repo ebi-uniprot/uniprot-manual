@@ -76,7 +76,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-
           }
         }
 
-#### Release number and date
+# Release number and date
 
 If you would like to record the UniProt release number and/or date of the data which you retrieve, you can extract this information from the [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) of the response (see this Perl example):
 
@@ -102,7 +102,7 @@ If you would like to record the UniProt release number and/or date of the data w
 -   `X-UniProt-Release:` contains the UniProt release number, e.g. `2010_08`
 -   `Last-Modified:` contains the UniProt release date, e.g. `Tue, 13 Jul 2010 00:00:00 GMT`
 
-See also:
+# See also
 
 -   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
 -   \- batch retrieval, ID mapping, queries, downloads, etc

@@ -28,7 +28,7 @@ Transit peptides are generally cleaved from the mature protein and so will logic
 
 The particular organelle to which a protein is targeted is indicated in the ['Subcellular location'](https://www.uniprot.org/help/subcellular_location) subsection and by the presence of a specific keyword.
 
-### 1. Annotation of experimentally proven transit peptides: {\#1\_*Annotation\_of\_experimentally\_proven\_transit\_peptides*}
+# 1. Annotation of experimentally proven transit peptides: {\#1\_*Annotation\_of\_experimentally\_proven\_transit\_peptides*}
 
 We annotate experimentally proven transit peptides when the cleavage site has been determined by direct protein sequencing.  
 Example: [P15690](https://www.uniprot.org/uniprotkb/P15690#ptm_processing)
@@ -42,12 +42,12 @@ Example: [Q0MQG1](https://www.uniprot.org/uniprotkb/Q0MQG1#ptm_processing)
 When a protein contains a transit peptide (according to experimental data or its similarity with a family of proteins), but the precise cleavage position has not been experimentally determined, we use a question mark instead of a precise position.  
 Example: [Q6GQ48](https://www.uniprot.org/uniprotkb/Q6GQ48#ptm%5Fprocessing)
 
-### 2. Annotation of predicted transit peptides: {\#2\_*Annotation\_of\_predicted\_transit\_peptides*}
+# 2. Annotation of predicted transit peptides: {\#2\_*Annotation\_of\_predicted\_transit\_peptides*}
 
 We also annotate transit peptides which are predicted by the application of the predictive tools [Mitofates](http://mitf.cbrc.jp/MitoFates/cgi-bin/top.cgi), [Predotar](http://urgi.versailles.inra.fr/predotar/predotar.html) and [TargetP](http://www.cbs.dtu.dk/services/TargetP/), but only when such predictions are consistent with the known or presumed subcellular location of the protein concerned. The predicted positions of the transit peptide are annotated with evidence ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).  
 Example: [P91929](https://www.uniprot.org/uniprotkb/P91929#ptm_processing)
 
-See also:
+# See also
 
 -   [Evidence](https://www.uniprot.org/help/evidences)
 -   [Peptide (describing small active peptides)](https://www.uniprot.org/help/peptide)

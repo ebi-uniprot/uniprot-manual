@@ -204,7 +204,7 @@ The 2-letter codes in square brackets (e.g. "\[DE\]", "\[CC\]") correspond to t
 |                          | Retrieve/ID mapping                                                                                                                                            |                                                                |               |
 |                          | Job                                                                                                                                                            |                                                                |               |
 
-See also:
+# See also
 
 -   [Simple full text search](https://www.uniprot.org/help/text-search)
 -   [Query fields for UniProtKB](https://www.uniprot.org/help/query-fields)

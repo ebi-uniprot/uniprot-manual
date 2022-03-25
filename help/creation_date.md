@@ -3,7 +3,7 @@ title: When was sequence Xxxx entered in UniProtKB/Swiss-Prot?
 categories: UniProtKB,Sequence,Text_search,Release,Entry_information,faq
 ---
 
-### When was sequence Xxxx published? When was sequence Xxxx submitted?
+# When was sequence Xxxx published? When was sequence Xxxx submitted?
 
 The answer to these questions is dependent on what you really want this information for! If it is for legal reasons, this is a non-issue: most sequence data is NOT directly deposited in UniProtKB/Swiss-Prot, but originates from translation of a DNA sequence entry which has been itself deposited in EMBL-Bank, GenBank or DDBJ.
 
@@ -28,11 +28,11 @@ Example:
 
     Curr. Microbiol. 36:158-163(2003).
 
-**Entry complete history**
+## Entry complete history
 
 A comprehensive archive of UniProtKB/Swiss-Prot and UniProtKB/TrEMBL entry versions is available (click on the 'History' button, and then on 'Previous versions'). Unlike the UniProt Knowledgebase, which contains only the latest Swiss-Prot and TrEMBL entry and sequence versions, this archive provides access to all versions of UniProtKB entries. This allows the tracking of sequence changes and analysis of the way annotation has evolved for any given entry.
 
-See also:
+# See also
 
 -   [Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence%5Forigin)
 -   [How do I link to a specific version of a UniProtKB entry?](https://www.uniprot.org/help/link%5Fold%5Fversions)

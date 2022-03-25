@@ -16,7 +16,7 @@ Example: [O43687](https://www.uniprot.org/uniprotkb/O43687#subcellular_location)
 
 Cell images from the [SwissBioPics](https://www.swissbiopics.org/) library of interactive biological images are included this section to enhance the representation of UniProt and Gene Ontology (GO) subcellular location annotations. SwissBioPics covers cell types from all kingdoms of life - ranging from muscle, neuronal and epithelial cells of animals, to the rods, cocci, clubs, spirals and other more exotic forms of bacteria and archaea.
 
-#### Related documents
+# Related documents
 
 [Controlled vocabulary of subcellular locations and membrane topologies and orientations (subcell.txt)](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/subcell)
 

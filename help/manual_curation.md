@@ -32,7 +32,7 @@ A well-defined manual curation process is essential to ensure that all manually 
 
 -   [How do I get notified automatically of updates to UniProtKB?](https://www.uniprot.org/help/update_notification)  
 
-See also:
+# See also
 
 -   [Standard operating procedure (SOP) for UniProt manual curation](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf)
 -   [Entry status](https://www.uniprot.org/help/entry_status)

@@ -3,7 +3,7 @@ title: How can I download the sequences corresponding to a specified domain or r
 categories: UniProtKB,Download,Sequence,Text_search,Family_and_domains,faq
 ---
 
-#### Download the sequences of all annotated disintegrin domains
+## Download the sequences of all annotated disintegrin domains
 
 Run your query, e.g. to retrieve the UniProtKB entries annotated to contain [disintegrin domains](https://www.uniprot.org/uniprotkb/?query=annotation%3a%28type%3a%22positional+domain%22+disintegrin%29&sort=score&format=*), (or alternatively, with a [list of identifiers](https://www.uniprot.org/uniprotkb/?query=ADA18_HUMAN+or+ADA19_HUMAN+or+ADA21_HUMAN+or+ADA22_HUMAN+or+ADA23_HUMAN&sort=score) ).
 
@@ -30,7 +30,7 @@ You will then be able to use the [Retrieve/ID mapping](https://www.uniprot.org/u
 
 If you only have a short list of entries, you can also select the domains manually from the entry views by clicking on "Add to basket" at the right hand side of the feature descriptions in the section "Family and domains" of these entries. When you have finished selecting your domains, open the [basket](https://www.uniprot.org/help/basket) and click on "Download".
 
-#### Download the sequences of all mature chains or peptides
+## Download the sequences of all mature chains or peptides
 
 There is no pre-computed database carrying the sequence data for mature chains or peptides.  
 However, for any given query or even for the complete database, you can proceed as described above and download the gff format and when following the subsequent steps, just replace "Domain" by "Chain" and / or "Peptide".

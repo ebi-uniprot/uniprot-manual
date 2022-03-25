@@ -5,7 +5,7 @@ categories: UniProtKB,Cross-references,manual
 
 Some of the resources to which we link contain information that is specific to an [isoform sequence](https://www.uniprot.org/help/alternative%5Fproducts). Where this is known, we indicate the corresponding UniProtKB isoform sequence identifier in cross-references as described below.
 
-#### Text format
+# Text format
 
 The UniProtKB isoform sequence identifier is shown in square brackets at the end of the DR line as an optional field:
 

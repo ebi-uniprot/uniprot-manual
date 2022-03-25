@@ -7,6 +7,6 @@ The imported subset of binary interactions is determined using a simple scoring 
 
 This simple score-based filter is used in combination with a set of defined rules that exclude certain types of data, such as interactions that are only ever observed in larger complexes, or interactions that have been inferred but not experimentally proven. These stringent criteria reduce the amount of interaction data that is imported into UniProtKB, which is composed solely of experimentally proven binary interactions supported by multiple observations.
 
-See also:
+# See also
 
 -   [Binary interactions](https://www.uniprot.org/help/binary_interactions)

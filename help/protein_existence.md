@@ -29,7 +29,7 @@ Only the highest or most reliable level of supporting evidence for the existence
 
 The 'protein existence' value is assigned automatically, based on the annotation elements present in the entry. The criteria used by this automatic procedure are listed in the document ['Criteria used to assign the PE level of entries'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pe_criteria).
 
-#### Related documents
+# Related documents
 
 [Criteria description for protein existence](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pe%5Fcriteria)  
 [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious%5Fsequences)

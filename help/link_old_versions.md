@@ -13,7 +13,7 @@ To link to a particular version of an entry, use the **version** parameter in th
 
 [https://www.uniprot.org/uniprot/P00750.txt?version=109](https://www.uniprot.org/uniprotkb/P00750.txt?version=109)
 
-See also:
+# See also
 
 -   [Entry history](https://www.uniprot.org/help/entry%5Fhistory)
 -   [How to link to UniProt entries (UniProtKB, UniParc and UniRef)](https://www.uniprot.org/help/linking%5Fto%5Funiprot)

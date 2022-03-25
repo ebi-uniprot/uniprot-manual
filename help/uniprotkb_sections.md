@@ -7,7 +7,7 @@ Swiss-Prot (created in 1986) is a high quality manually annotated and non-redund
 
 The TrEMBL section of UniProtKB was introduced in 1996 in response to the increased dataflow resulting from genome projects. It was already recognized at that time that the traditional time- and labour-intensive manual curation process which is the hallmark of Swiss-Prot could not be broadened to encompass all available protein sequences. UniProtKB/TrEMBL contains high quality computationally analyzed records that are enriched with [automatic annotation](https://www.uniprot.org/help/automatic%5Fannotation) and classification. These UniProtKB/TrEMBL unreviewed entries are kept separated from the UniProtKB/Swiss-Prot manually reviewed entries so that the high quality data of the latter is not diluted in any way. Automatic processing of the data enables the records to be made available to the public quickly.
 
-See also:
+# See also
 
 -   [Entry status](https://www.uniprot.org/help/entry%5Fstatus)
 -   [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual%5Fcuration)

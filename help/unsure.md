@@ -10,7 +10,7 @@ Example: [P56576](https://www.uniprot.org/uniprotkb/P56576#sequences)
 When a protein belongs to a family, we display the most frequent amino acid found at that position in other family members. This is indicated in the 'description' field.  
 Example: [P00279](https://www.uniprot.org/uniprotkb/P00279#sequences)
 
-#### Related documents
+# Related documents
 
 [What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 

@@ -7,7 +7,7 @@ GO annotations are displayed in the [Function](https://www.uniprot.org/help/func
 
 UniProt is [released every eight weeks](https://www.uniprot.org/help/synchronization), with each release including an updated display of GO annotation data. However at each UniProt release, the GO annotation dataset provided is approximately three months older than that displayed on the [QuickGO browser](https://www.ebi.ac.uk/QuickGO/), which updates its annotation display weekly. Therefore differences in GO annotation displays on these websites can sometimes be attributed to such an update time lag.
 
-See also:
+# See also
 
 -   [What are the differences between UniProtKB keywords and the GO terms?](https://www.uniprot.org/help/keywords%5Fvs%5Fgo)
 -   [Gene Ontology (GO)](https://www.uniprot.org/help/gene%5Fontology)

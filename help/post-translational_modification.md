@@ -11,7 +11,7 @@ A post-translational modification is a covalent processing event resulting from 
 
 Although proteins can be modified pre-, co- or post-translationally, all protein modifications are generally referred to as PTMs, because a majority of them are made post-translationally, after the protein is folded.
 
-#### Related documents:
+# Related documents:
 
 [Controlled vocabulary of post-translational modifications (PTM)](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist)  
 [Modified residue](https://www.uniprot.org/help/mod%5Fres)  

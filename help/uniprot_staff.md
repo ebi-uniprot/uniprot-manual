@@ -3,12 +3,14 @@ title: UniProt staff
 categories: Staff,help
 ---
 
-**Principal investigators:**  
+# Principal investigators
+
 [Alex Bateman](https://www.uniprot.org/help/bateman)  
 [Alan J. Bridge](https://www.uniprot.org/help/bridge)  
 [Cathy H. Wu](http://pir.georgetown.edu/pirwww/aboutpir/wubio.shtml)
 
-**Key staff:**  
+# Key staff
+
 [Cecilia Arighi](https://www.uniprot.org/help/key%5Fstaff#arighi)  
 [Lionel Breuza](https://www.uniprot.org/help/key%5Fstaff#breuza)  
 [Elisabeth Coudert](https://www.uniprot.org/help/key%5Fstaff#coudert)  
@@ -24,7 +26,8 @@ categories: Staff,help
 [Shriya Raj](https://www.uniprot.org/help/key%5Fstaff#raj)  
 [Nicole Redaschi](https://www.uniprot.org/help/key%5Fstaff#redaschi)
 
-**Biocurators:**  
+# Biocurators
+
 Ghislaine Argoud-Puy  
 Andrea Auchincloss  
 Kristian Axelsen  
@@ -60,7 +63,8 @@ Nidhi Tyagi
 Kate Warner  
 Rossana Zaru
 
-**Software developers:**  
+# Software developers
+
 Shadab Ahmad  
 Parit Bansal  
 Delphine Baratin  
@@ -76,7 +80,7 @@ Alexandr Ignatchenko
 Rizwan Ishtiaq  
 Vishal Joshi  
 Arnaud Kerhornou  
-Aurelien Luciani  
+Aurélien Luciani  
 Jie Luo  
 Mahdi Mahmoudy  
 Katie Moulang  
@@ -89,7 +93,8 @@ Yuqi (Michael) Wang
 Xavier Watkins  
 Hermann Zellner
 
-**Bioinformaticians:**  
+# Bioinformaticians
+
 Emanuele Alpi  
 Chuming Chen  
 Yongxing Chen  
@@ -103,17 +108,21 @@ Qinghua Wang
 Ying (Yumi) Yan  
 Jian Zhang
 
-**User support:**  
+# User support
+
 Marie-Claude Blatter  
 Anne Estreicher  
 Elisabeth Gasteiger
 
-**Usability expert:**  
+# Usability expert
+
 Marija Lugaric
 
-**Grant administrator:**  
+# Grant administrator
+
 Manuela Pruess
 
-**System administrators:**  
+# System administrators
+
 Leslie Arminski  
 Monica Pozzato

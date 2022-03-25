@@ -13,7 +13,7 @@ For any other kind of feedback, use our [contact form](https://www.uniprot.org/c
 
 <div id="guidelines">
 
-#### Guidelines for submitting updates or corrections to UniProtKB data.
+# Guidelines for submitting updates or corrections to UniProtKB data.
 
 <table class="two-column"><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><th>What to send?</th><td>We are grateful for <strong>any feedback</strong>, but welcome especially:<br />
 › sequence updates<br />

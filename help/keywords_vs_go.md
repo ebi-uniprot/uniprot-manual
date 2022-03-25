@@ -9,7 +9,7 @@ The Gene Ontology project ( [GO](http://www.geneontology.org/) ) provides a cont
 
 In UniProtKB, GO terms are manually mapped to keywords, EC number, InterPro matches or HAMAP family rules and only then transferred automatically to the entries. Direct GO annotation in UniProtKB/Swiss-Prot entries is entirely manual.
 
-See also:
+# See also
 
 -   [Keywords](https://www.uniprot.org/help/keywords)
 -   [Gene Ontology (GO)](https://www.uniprot.org/help/gene_ontology)

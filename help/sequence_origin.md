@@ -21,7 +21,7 @@ The FAQ [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/
 
 To date, these pipeline have been used to populate UniProtKB with additional predicted sequences for the human and mouse proteomes as well as a number of other important vertebrate and non-vertebrate species. See: [What are proteomes?](https://www.uniprot.org/help/proteome)
 
-See also:
+# See also
 
 -   [Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb%5Fsections)
 -   [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb%5Fcoverage)

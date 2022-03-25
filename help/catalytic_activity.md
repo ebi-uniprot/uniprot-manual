@@ -20,6 +20,6 @@ Due to their focus on nomenclature, cross-references to [Enzyme Commission (EC) 
 
 A description of how Catalytic activity annotation is represented in the various formats in which UniProt entries are distributed, is included in the corresponding [news article from release 2018\_11](https://www.uniprot.org/news/2018/12/05/release).
 
-See also:
+# See also
 
 [How can I search UniProt for chemical or reaction data?](https://www.uniprot.org/help/chemical%5Fdata%5Fsearch) ( [Video tutorial](https://www.youtube.com/watch?v=5eW-eZJ08wc) )

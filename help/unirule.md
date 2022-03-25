@@ -9,7 +9,7 @@ The Unified Rule (UniRule) system is one of the contributors to this pipeline, a
 
 UniRule rules can annotate protein properties such as the protein name, function, catalytic activity, pathway membership, and subcellular location, along with sequence specific information, such as the positions of post-translational modifications and active sites. All predictions are refreshed with each UniProtKB release to ensure the latest state-of-knowledge predictions.
 
-### Rule-based evidence for UniProtKB annotation
+# Rule-based evidence for UniProtKB annotation
 
 UniProtKB entries contain evidence tags that describe the provenance of a given annotation and provide links to a reference where applicable. When an annotation is added to an entry based on an automatic annotation UniRule rule, the evidence tag indicates this:
 
@@ -21,13 +21,13 @@ When you click on the tag, you see a link to the relevant UniRule rule:
 
 In the example shown above, the UniRule rule comes from RuleBase. UniRule is comprised of several rule systems (HAMAP, PIR name and site rules, and RuleBase rules) and each rule has a unique UniRule ID as well as a source rule ID coming from the system which created the rule.
 
-### Searching UniRule
+# Searching UniRule
 
 The UniRule dataset is available from the [UniProt](https://www.uniprot.org/) website. In order to search the dataset to view rules of interest, click on the dropdown next to the search box and select 'UniRule'. Now enter a rule ID or search term. You can also use the advanced search to build your query.
 
 ![](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/search_dropdown.png)
 
-### Exploring the UniRule rule pages
+# Exploring the UniRule rule pages
 
 [Example](https://www.uniprot.org/unirule/UR000124451)
 
@@ -47,6 +47,6 @@ For example, if you click on the annotation under 'Catalytic activity' in the sc
 
 ![](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/unirule_annotation.png)
 
-See also:
+# See also
 
 [UniRule automatic annotation system in UniProt (UniProt blog)](https://insideuniprot.blogspot.com/2015/11/)

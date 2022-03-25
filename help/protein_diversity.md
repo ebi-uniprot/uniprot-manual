@@ -22,7 +22,7 @@ Note: Examples on the website might differ slightly from those printed in the ar
 
 Related terms: post-translational modification, posttranslational modification, PTM, alternative splicing, variant, isoform, mRNA editing, ribosomal frameshifting.
 
-See also:
+# See also
 
 -   [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical_and_isoforms)
 -   [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual_curation)

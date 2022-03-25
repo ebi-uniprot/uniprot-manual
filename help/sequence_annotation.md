@@ -9,9 +9,9 @@ Sequence annotations (position-specific annotations) used to be found in the 'Se
 
 The current entry view displays annotation by subject (Function, PTM & processing, etc), and the various position-specific annotations are now distributed to the relevant new sections.
 
-## Feature types
+# Feature types
 
-### Molecule processing
+## Molecule processing
 
 | **Subsection** | **Query Field** | **Content** |
 |----------------|-----------------|-------------|
@@ -22,7 +22,7 @@ The current entry view displays annotation by subject (Function, PTM & processin
 | [Chain](https://www.uniprot.org/help/chain) | ft_chain | Extent of a polypeptide chain in the mature protein                          |
 | [Peptide](https://www.uniprot.org/help/peptide) | ft_peptide | Extent of an active peptide in the mature protein                        |
 
-### Regions
+## Regions
 
 | **Subsection** | **Query Field** | **Content** |
 |----------------|-----------------|-------------|
@@ -40,7 +40,7 @@ The current entry view displays annotation by subject (Function, PTM & processin
 | [Motif](https://www.uniprot.org/help/motif) | ft_motif | Short (up to 20 amino acids) sequence motif of biological interest           |
 | [Compositional bias](https://www.uniprot.org/help/compbias) | ft_compbias | Region of compositional bias in the protein                  |
 
-### Sites
+## Sites
 
 | **Subsection** | **Query Field** | **Content** |
 |----------------|-----------------|-------------|
@@ -49,7 +49,7 @@ The current entry view displays annotation by subject (Function, PTM & processin
 | [Binding site](https://www.uniprot.org/help/binding) | ft_binding | Binding site for any chemical group (co-enzyme, prosthetic group, etc.)
 | [Site](https://www.uniprot.org/help/site) | ft_site | Any interesting single amino acid site on the sequence
 
-### Amino acid modifications
+## Amino acid modifications
 
 | **Subsection** | **Query Field** | **Content** |
 |----------------|-----------------|-------------|
@@ -60,14 +60,14 @@ The current entry view displays annotation by subject (Function, PTM & processin
 | [Disulfide bond](https://www.uniprot.org/help/disulfid) | ft_disulfid | Cysteine residues participating in disulfide bonds                                                   | 
 | [Cross-link](https://www.uniprot.org/help/crosslnk) | ft_crosslnk | Residues participating in covalent linkage(s) between proteins                                           | 
 
-### Natural variations
+## Natural variations
 
 | **Subsection** | **Query Field** | **Content** |
 |----------------|-----------------|-------------|
 | [Alternative sequence](https://www.uniprot.org/help/var_seq) | ft_var_seq | Amino acid change(s) producing alternate protein isoforms | 
 | [Natural variant](https://www.uniprot.org/help/variant) | ft_variant | Description of a natural variant of the protein                |
 
-### Experimental info
+## Experimental info
 
 | **Subsection** | **Query Field** | **Content** |
 |----------------|-----------------|-------------|
@@ -77,7 +77,7 @@ The current entry view displays annotation by subject (Function, PTM & processin
 | [Non-adjacent residues](https://www.uniprot.org/help/non_cons) | ft_non_cons | Indicates that two residues in a sequence are not consecutive|
 | [Non-terminal residue](https://www.uniprot.org/help/non_ter) | ft_non_ter | The sequence is incomplete. Indicate that a residue is not the terminal residue of the complete protein|
 
-### Secondary structure
+## Secondary structure
 
 | **Subsection** | **Query Field** | **Content** |
 |----------------|-----------------|-------------|
@@ -97,7 +97,7 @@ Uncertain endpoints are denoted by a question mark '?' before the position, e.g.
 
 Example: [Q3ZC31](https://www.uniprot.org/uniprot/Q3ZC31#ptm%5Fprocessing)
 
-## Querying Features
+# Querying Features
 
 Individual features can be queried using the query fields described in the tables above. Querying is of the form:
 
@@ -110,14 +110,14 @@ For example, to find all Human entries with variants, we could run the following
 ```bash
 curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=ft_variant:* AND organism_id:9606"
 ```
-### Feature Lengths
+## Feature Lengths
 For any feature field, a corresponding field exists denoting its length. Given a feature, `ft_XXXX`, its length can be queried via, `ftlen_XXXX`. For example, to find Human entries with a sequence length of between 198 and 200 residues, we can execute the following command:
 
 ```bash
 curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=ftlen_variant:[198 TO 200] AND organism_id:9606"
 ```
 
-### Feature evidences
+## Feature evidences
 For any feature field, a corresponding field exists denoting its attached evidences (for a complete list of evidences, refer to [Evidences](https://www.uniprot.org/help/evidences). Given a feature, `ft_XXXX`, its evidences can be queried via, `ftev_XXXX`. For example, to find Human entries with a non-traceable evidence, we can execute the following command:
 
 ```bash
@@ -125,7 +125,7 @@ curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=ftev_variant:ECO_
 ```
 
 
-## Feature identifiers
+# Feature identifiers
 
 Some features are associated with a unique and stable identifier that allows to construct links between these position-specific annotations and specialized protein-related databases.
 

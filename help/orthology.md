@@ -7,7 +7,7 @@ categories: UniProtKB,Family_and_domains,Cross-references,faq
 
 Information is combined from a variety of complementary sources to establish orthology relationships. Potential orthologs are initially identified using sequence similarity search programs such as BLAST. Orthology relationships are then verified manually using a combination of resources including scientific literature, sequence analysis tools, phylogenetic and comparative genomics databases such as Ensembl Compara, and other specialised databases such as species-specific collections.
 
-See also:
+# See also
 
 -   [What is HAMAP?](https://www.uniprot.org/help/hamap)
 -   [How is protein family membership assigned in UniProtKB?](https://www.uniprot.org/help/family%5Fmembership)

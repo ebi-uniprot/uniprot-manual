@@ -23,7 +23,7 @@ You can choose to view only [reviewed](https://www.uniprot.org/uniprot?query=tax
 
 Note that the date can be modified in the query box 'taxonomy:Viridiplantae AND created:\[20070724 TO \*\]' and that you can bookmark the result page.
 
-See also:
+# See also
 
 -   [How do I get automatically notified of updates to UniProtKB?](https://www.uniprot.org/help/update%5Fnotification)
 -   [How do I link to a specific version of a UniProtKB entry?](https://www.uniprot.org/help/link%5Fold%5Fversions)

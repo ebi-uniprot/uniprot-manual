@@ -7,7 +7,7 @@ The Chordata protein annotation project focuses on the manual annotation of chor
 
 See: [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/faq/45)
 
-### Update of the human proteome
+# Update of the human proteome
 
 A draft of the [human proteome](https://www.uniprot.org/uniprotkb/?query=organism:9606+AND+keyword:kW-1185+AND+reviewed:yes) has been available in UniProtKB/Swiss-Prot since 2008 and one of the current priorities of the Chordata protein annotation project is to improve the quality of human sequences provided.
 
@@ -19,7 +19,7 @@ We also continuously update human entries with functional annotation, including 
 
 -   All manually reviewed human entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:9606+AND+reviewed:yes) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Chordata/statistics/#Homosapiens)
 
-### Annotation of other mammalian and chordata proteins
+# Annotation of other mammalian and chordata proteins
 
 In addition to the review of the human proteome, other mammalian and non-mammalian chordata proteins are increasingly being manually annotated with special emphasis on species such as *Xenopus laevis*, *Xenopus tropicalis* and *Danio rerio* (Zebrafish) which are important model organisms for studying embryonic development and cell biology. We work in close collaboration with species-specific resources and model organism databases, such as [HGNC](http://www.genenames.org/), [MGI](http://www.informatics.jax.org/), [RGD](http://rgd.mcw.edu/), [Zfin](http://zfin.org/) and [Xenbase](http://www.xenbase.org/), to ensure consistency between UniProt and these resources.
 

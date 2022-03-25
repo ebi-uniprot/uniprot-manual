@@ -15,7 +15,7 @@ Example: [P07683, 'PTM / Processing'](https://www.uniprot.org/uniprotkb/P07683#p
 
 Each chain has a [stable identifier](https://www.uniprot.org/help/sequence%5Fannotation#annotation%5Fid).
 
-See also:
+# See also
 
 -   [Peptide (describing small active peptides)](https://www.uniprot.org/help/peptide)
 -   [Sequence annotation (features)](https://www.uniprot.org/help/sequence%5Fannotation)

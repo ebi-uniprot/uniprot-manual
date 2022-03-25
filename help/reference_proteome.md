@@ -3,7 +3,7 @@ title: What are reference proteomes?
 categories: Proteomes,Taxonomy,UniProtKB,Keywords,Sequence,faq
 ---
 
-### Proteomes
+# Proteomes
 
 UniProt provides several sets of proteins thought to be expressed by organisms whose genomes have been completely sequenced, termed "proteomes".
 
@@ -11,7 +11,7 @@ As more and more genomes of the same organism are being sequenced, we introduced
 
 These proteomes can be queried and downloaded from the [Proteomes](https://www.uniprot.org/proteomes) section of the UniProt website. UniProtKB entries that are part of a proteome have a cross-reference to their proteome.
 
-### Reference proteomes
+# Reference proteomes
 
 With the significant increase in the number of complete genomes sequenced and thus for the number of proteomes as described above, it is critically important to organise this data in a way that allows users to effectively navigate the growing number of available proteome sequences. The approach adopted by UniProt to meet this challenge is to define a set of "reference proteomes" which are "landmarks" in proteome space.
 
@@ -19,11 +19,11 @@ Reference proteomes have been selected among all proteomes (manually and algorit
 
 UniProtKB entries from these reference proteomes are tagged with the keyword [Reference proteome](https://www.uniprot.org/keywords/KW-1185).
 
-### Reference proteome download
+# Reference proteome download
 
 Our [FTP server](https://www.uniprot.org/downloads) allows to download precomputed [data sets for reference proteomes](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/reference%5Fproteomes/README), based on a gene-centric perspective.
 
-See also:
+# See also
 
 [What are proteomes?](https://www.uniprot.org/help/proteome)  
 [Search and browse proteomes](https://www.uniprot.org/proteomes)  

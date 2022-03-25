@@ -19,7 +19,7 @@ When a protein participates in different pathways or in different steps of the s
 
 Example: [P00562](https://www.uniprot.org/uniprotkb/P00562#function)
 
-#### Related documents
+# Related documents
 
 [Index of metabolic and biosynthesis pathways](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pathway)  
 [Controlled vocabulary of metabolic pathways](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pathlist)  

@@ -22,7 +22,7 @@ References:
 Press W.H., Flannery B.P., Teukolsky S.A., Vetterling W.T.  
 ["Numerical recipes in C", 2nd ed., pp896-902, Cambridge University Press (1993)](http://www.nrbook.com/a/bookcpdf.php)
 
-#### Related documents
+# Related documents
 
 [Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence%5Forigin)
 

@@ -21,6 +21,6 @@ Being quite small plastids are easily sequenced. A list of fully sequenced plast
 If an entry reports the sequence of a protein encoded on a number of plasmids, the names of all plasmids are listed.  
 Example: [P04958](https://www.uniprot.org/uniprotkb/P04958#names_and_taxonomy)
 
-#### Related documents
+# Related documents
 
 [Nomenclature of plastid-encoded proteins](https://www.uniprot.org/docs/plastid)

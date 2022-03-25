@@ -15,11 +15,11 @@ The data for the website is provided by our REST API. For the above example, the
 https://rest.uniprot.org/beta/uniprotkb/search?query=reviewed:true+AND+organism_id:9606
 ```
 
-## Formats
+# Formats
 
 Formats for search results / an entry can be requested in several ways.
      
-### Format Parameter
+## Format Parameter
 All requests allow the `format` parameter, which can be used to indicate the desired format. For example:
 
 ```bash
@@ -30,7 +30,7 @@ All requests allow the `format` parameter, which can be used to indicate the des
 "https://rest.uniprot.org/beta/uniprotkb/P12345?format=xml"
 ```
 
-### File Extensions
+## File Extensions
 Entries for any data-set can be displayed in different formats by specifying a suffix/file-extension. For example:        
 
 ```bash
@@ -38,7 +38,7 @@ Entries for any data-set can be displayed in different formats by specifying a s
 "https://rest.uniprot.org/beta/uniprotkb/P12345.xml"
 ```
                                  
-### Accept Header
+## Accept Header
 As is typical with REST requests, the desired format can be specified as an Accept header. For example:
 
 ```bash
@@ -49,13 +49,13 @@ curl -H "Accept: text/tsv" "https://rest.uniprot.org/beta/uniprotkb/search?query
 curl -H "Accept: application/xml" "https://rest.uniprot.org/beta/uniprotkb/P12345"
 ```
                    
-## What formats are available?
+# What formats are available?
 
 The different end-points in our API provide different formats, though generally, JSON and tab-separated-values formats (TSV) are
 available throughout. 
 
 Please refer to [our comprehensive guide](https://rest.uniprot.org/beta/docs/) to see the formats available to specific end-points.
-### List of all formats
+## List of all formats
 
 | Description | Accept Header Media Type | Format Parameter | File Extension |
 |-----|-----|-----|-----|
@@ -83,7 +83,7 @@ curl "https://rest.uniprot.org/beta/uniprotkb/P12345.txt"
 curl "https://rest.uniprot.org/beta/uniprotkb/search?query=human&format=gff"
 ```
 
-## Tips
+# Tips
 
 *   Familiarise oneself with the [advanced search builder](http://beta.uniprot.org/help/advanced%5Fsearch) by clicking on **Advanced**.
 *   Click [Customize data](http://beta.uniprot.org/help/customize) on the search results page to select the columns to show in the results table.

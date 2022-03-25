@@ -4,7 +4,7 @@ title: UniProtKB return fields
 categories: Text_search,Technical,Website,help
 ---
 
-### UniProtKB column names for programmatic access
+# UniProtKB column names for programmatic access
 
 This document lists the differences between the returned columns by RESTful APIs.
 User can ask required columns returned by an API by passing the _Returned Field_ in the request url 
@@ -20,7 +20,7 @@ https://www.uniprot.org/uniprot/?query=human&columns=id,proteome
 ```
 The `Label` is the readable name of the returned field. The `Label`  is shown on the website/TSV or in Excel format.
 
-### Names & Taxonomy
+# Names & Taxonomy
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -40,7 +40,7 @@ Virus hosts|virus hosts|virus\_hosts
 
 _* Label in old and new API unless otherwise specified_
 
-### Sequences
+# Sequences
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -64,7 +64,7 @@ Sequence conflict|feature(SEQUENCE CONFLICT)|ft\_conflict
 Sequence uncertainty|feature(SEQUENCE UNCERTAINTY)|ft\_unsure
 Sequence version|version(sequence)|sequence\_version
 
-### Function
+# Function
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -88,7 +88,7 @@ Rhea ID|rhea-id|rhea\_id
 Site|feature(SITE)|ft\_site
 Temperature dependence|comment(TEMPERATURE DEPENDENCE)|temp\_dependence
 
-### Miscellaneous
+# Miscellaneous
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -106,14 +106,14 @@ Reviewed|reviewed|reviewed
 Tools|tools|tools
 UniParc|uniparcid|uniparc\_id
 
-### Interaction
+# Interaction
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
 Interacts with|interactor|cc\_interaction
 Subunit structure[CC]|comment(SUBUNIT)|cc\_subunit
 
-### Expression
+# Expression
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -121,7 +121,7 @@ Developmental stage|comment(DEVELOPMENTAL STAGE)|cc\_developmental\_stage
 Induction|comment(INDUCTION)|cc\_induction
 Tissue specificity|comment(TISSUE SPECIFICITY)|cc\_tissue\_specificity
 
-### Gene Ontology (GO)
+# Gene Ontology (GO)
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -131,7 +131,7 @@ Gene ontology (GO)|go|go
 Gene ontology (molecular function)|go(molecular function)|go\_f
 Gene ontology IDs|go-id|go\_id
 
-### Pathology & Biotech
+# Pathology & Biotech
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -143,7 +143,7 @@ Mutagenesis|feature(MUTAGENESIS)|ft\_mutagen
 Pharmaceutical use|comment(PHARMACEUTICAL)|cc\_pharmaceutical
 Toxic dose|comment(TOXIC DOSE)|cc\_toxic\_dose
 
-### Subcellular location
+# Subcellular location
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -152,7 +152,7 @@ Subcellular location[CC]|comment(SUBCELLULAR LOCATION)|cc\_subcellular\_location
 Topological domain|feature(TOPOLOGICAL DOMAIN)|ft\_topo\_dom
 Transmembrane|feature(TRANSMEMBRANE)|ft\_transmem
 
-### PTM / Processsing
+# PTM / Processsing
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -169,7 +169,7 @@ Propeptide|feature(PROPEPTIDE)|ft\_propep
 Signal peptide|feature(SIGNAL)|ft\_signal
 Transit peptide|feature(TRANSIT)|ft\_transit
 
-### Structure
+# Structure
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -178,14 +178,14 @@ Beta strand|feature(BETA STRAND)|ft\_strand
 Helix|feature(HELIX)|ft\_helix
 Turn|feature(TURN)|ft\_turn
 
-### Publications
+# Publications
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
 Mapped PubMed ID|citationmapping|NA
 PubMed ID|citation|lit\_pubmed\_id
 
-### Date of
+# Date of
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -194,7 +194,7 @@ Date of last modification|last-modified|date\_modified
 Date of last sequence modification|sequence-modified|date\_sequence\_modified
 Entry version|version(entry)|version
 
-### Family & Domains
+# Family & Domains
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:

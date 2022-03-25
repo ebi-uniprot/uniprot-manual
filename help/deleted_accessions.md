@@ -20,7 +20,7 @@ Two documents list the deleted accession numbers:
 -   [delac\_sp.txt](https://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/docs/delac%5Fsp.txt) for deleted ACs in UniProtKB/Swiss-Prot
 -   [delac\_tr.txt.gz](https://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/docs/delac%5Ftr.txt.gz) for deleted ACs in UniProtKB/TrEMBL
 
-See also:
+# See also
 
 -   [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds%5Fprotein%5Fdefinition)
 -   [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb%5Fcoverage)

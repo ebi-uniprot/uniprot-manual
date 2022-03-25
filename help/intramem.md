@@ -10,7 +10,7 @@ Examples: [Q03135](https://www.uniprot.org/uniprotkb/Q03135#subcellular_location
 Related keyword:  
 [Membrane](https://www.uniprot.org/keywords/472)
 
-See also:
+# See also
 
 -   [Evidence](https://www.uniprot.org/help/evidences)
 -   [Transmembrane](https://www.uniprot.org/help/transmem)

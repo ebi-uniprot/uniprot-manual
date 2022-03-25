@@ -5,7 +5,7 @@ categories: Entry_information,manual
 
 This subsection of the 'Entry information' section provides a mnemonic identifier for a UniProtKB entry, but it is not a stable identifier. Each reviewed entry is assigned a unique entry name upon integration into UniProtKB/Swiss-Prot.
 
-### UniProtKB/Swiss-Prot entry name
+# UniProtKB/Swiss-Prot entry name
 
 The UniProtKB/Swiss-Prot entry name consists of up to 11 uppercase alphanumeric characters with a naming convention that can be symbolized as X\_Y, where:
 
@@ -57,7 +57,7 @@ Since the above rules cannot apply to viruses, we give them arbitrary, but gener
 
 The names of all the currently defined species identification codes are listed in the document ['Controlled vocabulary of species'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist).
 
-### UniProtKB/TrEMBL entry names
+# UniProtKB/TrEMBL entry names
 
 The UniProtKB/TrEMBL entry name consists of up to 16 uppercase alphanumeric characters with a naming convention similar to that of UniProtKB/Swiss-Prot, where:
 
@@ -78,12 +78,12 @@ Since it is impossible to manually assign organism codes to all species represen
 
 The 'virtual' codes are listed in the document [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)
 
-**Important tip**
+## Important tip
 
 The entry name is a useful mnemonic means of identifying a sequence, but, unlike the [accession number](https://www.uniprot.org/help/accession%5Fnumbers), it is not a stable identifier. It is sometimes necessary, for reasons of consistency, to change the entry name (for instance to ensure that related entries have similar names or when a UniProtKB/TrEMBL entry is integrated into UniProtKB/Swiss-Prot). We remind users that they should **always use the primary accession number** of an entry in any citation and link since it is the only unique stable identifier for an entry.  
 An 'entry name tracker' tool is included in the UniProt website search engine. It allows the tracking of UniProtKB entry names that are no longer in use.
 
-#### Related documents
+# Related documents
 
 -   [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)  
 -   [What is the difference between an accession number (AC) and the entry name?](https://www.uniprot.org/help/difference%5Faccession%5Fentryname)

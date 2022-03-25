@@ -10,8 +10,6 @@ After installing Java you may still need to associate the '\*.jnlp' files with t
 
 -   If presented with an option to [open with](https://www.uniprot.org/use) the dropdown list or file dialog to select javaws (Java Web Start). If it is not present in the list, see below for common locations to find javaws.
 
-<!-- -->
-
 -   If you are only given the option to save the '\*.jnlp' file, do so. After saving you need to manually associate the javaws program with the file extension '\*.jnlp'. How this is done depends on your operating system and desktop environment. Most often it can be done by right-clicking on the downloaded file and choosing "open with".
 
 Java Web Start is often installed in the following locations:

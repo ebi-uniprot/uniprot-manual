@@ -3,7 +3,7 @@ title: Annotation guidelines
 categories: Biocuration,UniProtKB,Protein_existence,Names_and_taxonomy,help
 ---
 
-#### Standard operating procedure (SOP) for UniProt manual curation
+# Standard operating procedure (SOP) for UniProt manual curation
 
 This document describes the manual curation procedure used by the UniProt Consortium members. The UniProt manual curation process comprises manual review of results from a range of sequence analysis programs and literature curation of experimental data as well as attribution of all information to its original source.
 
@@ -13,7 +13,7 @@ UniProt web page: [UniProt manual annotation program](https://www.uniprot.org/pr
 [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual%5Fcuration)  
 [Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb%5Fsections)
 
-#### Protein naming guidelines
+# Protein naming guidelines
 
 Ambiguities regarding gene/protein names are a major problem in the literature and in the sequence databases which tend to propagate the confusion. As administrators of UniProt we feel that we can play a major role in standardization of protein nomenclature.
 
@@ -27,7 +27,7 @@ User manual: [Protein names](https://www.uniprot.org/help/protein%5Fnames)
 
 The document ['Protein nomenclature publication list'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist) lists references that are important in defining the nomenclature or terminology relative to proteins in general and in particular on specific family or groups of proteins.
 
-#### Criteria description for protein existence
+# Criteria description for protein existence
 
 Some of protein sequences exhibit strong similarity to known proteins in closely related species. For other proteins there is experimental evidence, such as Edman sequencing, clear identification by mass spectrometry (MSI), X-ray or NMR structure, detection by antibodies, etc. However, for some other proteins, there is no evidence at all. To indicate these different levels of evidence for the existence of a protein, we have introduced a PE (Protein Existence) level. The following document lists the criteria used to assign a protein existence (PE) level to entries.
 

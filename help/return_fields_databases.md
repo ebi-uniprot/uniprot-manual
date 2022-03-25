@@ -5,13 +5,13 @@ categories: Text_search,Technical,Website,help
 ---
 
 
-## Databases/External links
+# Databases/External links
 
 This document also explains about differences in the names of the returned fields between new and old APIs.
 This document is only for external cross-references. <br />
 Please see example in [Return Fields](https://www.uniprot.org/help/return_fields) for usage in API.
 
-### Sequences
+## Sequences
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -21,7 +21,7 @@ PIR|database(PIR)|xref\_pir
 RefSeq|database(RefSeq)|xref\_refseq
 
 _* Label in the old and new API unless otherwise specified_
-### 3D structure
+## 3D structure
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -32,7 +32,7 @@ PDBsum|database(PDBsum)|xref\_pdbsum
 SASBDB|database(SASBDB)|xref\_sasbdb
 SMR|database(SMR)|xref\_smr
 
-### Protein-protein interaction
+## Protein-protein interaction
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -45,7 +45,7 @@ IntAct|database(IntAct)|xref\_intact
 MINT|database(MINT)|xref\_mint
 STRING|database(STRING)|xref\_string
 
-### Chemistry
+## Chemistry
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -56,7 +56,7 @@ DrugCentral|database(DrugCentral)|xref\_drugcentral
 GuidetoPHARMACOLOGY|database(GuidetoPHARMACOLOGY)|xref\_guidetopharmacology
 SwissLipids|database(SwissLipids)|xref\_swisslipids
 
-### Protein family/group
+## Protein family/group
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -74,7 +74,7 @@ REBASE|database(REBASE)|xref\_rebase
 TCDB|database(TCDB)|xref\_tcdb
 UniLectin|database(UniLectin)|xref\_unilectin
 
-### PTM
+## PTM
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -88,7 +88,7 @@ PhosphoSitePlus|database(PhosphoSitePlus)|xref\_phosphositeplus
 SwissPalm|database(SwissPalm)|xref\_swisspalm
 UniCarbKB|NA|xref\_unicarbkb
 
-### Genetic variation/Polymorphism and mutation
+## Genetic variation/Polymorphism and mutation
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -96,7 +96,7 @@ BioMuta|database(BioMuta)|xref\_biomuta
 dbSNP|database(dbSNP)|xref\_dbsnp
 DMDM|database(DMDM)|xref\_dmdm
 
-### 2D gel
+## 2D gel
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -108,7 +108,7 @@ SWISS-2DPAGE|database(SWISS-2DPAGE)|xref\_swiss-2dpage
 UCD-2DPAGE|database(UCD-2DPAGE)|xref\_ucd-2dpage
 World-2DPAGE|database(World-2DPAGE)|xref\_world-2dpage
 
-### Proteomic
+## Proteomic
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -124,7 +124,7 @@ ProMEX|database(ProMEX)|xref\_proteomicsdb
 ProteomicsDB|database(ProteomicsDB)|xref\_topdownproteomics
 TopDownProteomics|database(TopDownProteomics)|xref\_jpost
 
-### Protocols and materials
+## Protocols and materials
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -133,7 +133,7 @@ Antibodypedia|database(Antibodypedia)|xref\_antibodypedia
 CPTC|database(CPTC)|xref\_cptc
 DNASU|database(DNASU)|xref\_dnasu
 
-### Genome annotation
+## Genome annotation
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -152,7 +152,7 @@ UCSC|database(UCSC)|xref\_ucsc
 VectorBase|NA|xref\_vectorbase
 WBParaSite|database(WBParaSite)|xref\_wbparasite
 
-### Organism-specific
+## Organism-specific
 
 **ArachnoServer**|**database(ArachnoServer)**|**xref\_arachnoserver**
 :-----:|:-----:|:-----:
@@ -194,7 +194,7 @@ WormBase|database(WormBase)|xref\_wormbase
 Xenbase|database(Xenbase)|xref\_xenbase
 ZFIN|database(ZFIN)|xref\_zfin
 
-### Phylogenomic
+## Phylogenomic
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -208,7 +208,7 @@ OrthoDB|database(OrthoDB)|xref\_orthodb
 PhylomeDB|database(PhylomeDB)|xref\_phylomedb
 TreeFam|database(TreeFam)|xref\_treefam
 
-### Enzyme and pathway
+## Enzyme and pathway
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -222,7 +222,7 @@ SignaLink|database(SignaLink)|xref\_signalink
 SIGNOR|database(SIGNOR)|xref\_signor
 UniPathway|database(UniPathway)|xref\_unipathway
 
-### Miscellaneous
+## Miscellaneous
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -236,7 +236,7 @@ PHI-base|database(PHI-base)|**See Organism-specific**
 PRO|database(PRO)|xref\_pro
 RNAct|database(RNAct)|xref\_rnact
 
-### Gene expression
+## Gene expression
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:
@@ -246,7 +246,7 @@ ExpressionAtlas|database(ExpressionAtlas)|xref\_expressionatlas
 Genevisible|database(Genevisible)|xref\_genevisible
 CleanEx|NA|xref\_cleanex
 
-### Family and domain
+## Family and domain
 
 **Label***|**Returned Field**|**New Returned Field**
 :-----:|:-----:|:-----:

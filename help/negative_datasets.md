@@ -11,7 +11,7 @@ Curating a negative data set requires about as much manual curation as building 
 
 In order to obtain a reliable predictor, we recommend to be extremely conservative when trying to build your set, and in case of doubt contact us about the function or modification you are trying to predict.
 
-See also:
+# See also
 
 -   [Evidence attribution](https://www.uniprot.org/help/evidences)
 -   [Modified residue](https://www.uniprot.org/help/mod%5Fres)

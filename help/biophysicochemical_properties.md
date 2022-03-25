@@ -8,12 +8,12 @@ This subsection of the 'Function' section describes biophysical and chemical pro
 Example: [Q8W1X2](https://www.uniprot.org/uniprotkb/Q8W1X2#function)  
 We report the following biophysical and chemical properties:
 
-### 1. Absorption {\#1\_\_Absorption}
+# 1. Absorption {\#1\_\_Absorption}
 
 The 'Absorption' subsection is mainly used to indicate the wavelength at which photoreactive proteins, such as fluorescent proteins, opsins, and DNA photolyases, show maximal light absorption. Additional information, such as other observed absorbance maxima (of lesser importance), lambda(max) for light emission, experimental or environmental remarks may also be included in this subsection.  
 Examples: [O61303](https://www.uniprot.org/uniprotkb/O61303#function), [P16102](https://www.uniprot.org/uniprotkb/P16102#function)
 
-### 2. Kinetic parameters {\#2\_\_Kinetic\_parameters}
+# 2. Kinetic parameters {\#2\_\_Kinetic\_parameters}
 
 The 'Kinetic parameters' subsection is mostly used to describe kinetic data, such as Michaelis-Menten constant (KM) and maximal velocity (Vmax). Additional information (such as the substrate that shows the best catalytic efficiency, etc...) may also be included in this subsection.  
 For enzymes having a broad substrate specificity, we indicate KM and Vmax values for each substrate tested.  
@@ -31,17 +31,17 @@ Example: [Q9V2Z6](https://www.uniprot.org/uniprotkb/Q9V2Z6#function)
 If the enzyme is multifunctional or if the reaction is reversible, we annotate the Vmax for different reactions or for each direction of one reaction.  
 Example: [P37744](https://www.uniprot.org/uniprotkb/P37744#function)
 
-### 3. pH dependence {\#3\_\_pH\_dependence}
+# 3. pH dependence {\#3\_\_pH\_dependence}
 
 The 'pH dependence' subsection is used to describe the optimum pH for protein activity, the variation of activity with pH variation and the pH stability of the protein.  
 Examples: [P76316](https://www.uniprot.org/uniprotkb/P76316#function), [Q58576](https://www.uniprot.org/uniprotkb/Q58576#function)
 
-### 4. Redox potential {\#4\_\_Redox\_potential}
+# 4. Redox potential {\#4\_\_Redox\_potential}
 
 The 'Redox potential' subsection reports the value of the standard (midpoint) oxido-reduction potential(s) for electron transport proteins.  
 Example: [Q96JJ7](https://www.uniprot.org/uniprotkb/Q96JJ7#function)
 
-### 5. Temperature dependence {\#5\_\_Temperature\_dependence}
+# 5. Temperature dependence {\#5\_\_Temperature\_dependence}
 
 The 'Temperature dependence' subsection indicates the optimal temperature for enzyme activity and/or the variation of enzyme activity with temperature variation; the thermostability of the enzyme is also mentioned in this subsection, when known.  
 Example: [Q38857](https://www.uniprot.org/uniprotkb/Q38857#function)

@@ -24,7 +24,7 @@ Query:
 
 Remark: The number of entries in the human proteome may vary from one release to the other, especially the manually reviewed set. This is due to our continuous manual updates thanks to the availability of new information. On a regular basis, we have to merge entries that were originally thought to be encoded by two separate genes, but later appeared to be actually a single gene. An entry can also be deleted when there is increasing evidence that it is an erroneous translation derived from a pseudogene. We keep dubious sequences in UniProtKB until there is enough evidence to decide whether we should delete them (see [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious%5Fsequences) ).
 
-**Access to human sequence sets**
+# Access to human sequence sets
 
 Our [FTP server](https://www.uniprot.org/downloads) allows to download expanded FASTA sets, containing both the canonical and manually reviewed isoform sequences, for a selection of the most widely used proteomes, including human.
 
@@ -52,7 +52,7 @@ Note: Additional human sequences in UniProtKB/TrEMBL are not flagged to be part 
 
 -   Query: [organism:9606 AND reviewed:no NOT proteome:up000005640](https://www.uniprot.org/uniprotkb/?query=organism%3A9606+AND+reviewed%3Ano+NOT+proteome:up000005640)
 
-See also:
+# See also
 
 -   [What are proteomes?](https://www.uniprot.org/help/proteome)
 -   [What are reference proteomes?](https://www.uniprot.org/help/reference%5Fproteome)

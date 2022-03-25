@@ -7,7 +7,7 @@ This document describes how this website can be accessed with programs. All reso
 
 Please consider providing a contact email address as part of the User-Agent header that your programs set. This will allow us to contact you in case of problems (see our [privacy notice](https://www.uniprot.org/help/privacy)).
 
-### Overview of the services that can be accessed programmatically
+# Overview of the services that can be accessed programmatically
 
 Please click on the links below for documentation for the specific topics, including code examples:
 

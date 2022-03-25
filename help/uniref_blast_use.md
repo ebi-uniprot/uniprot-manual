@@ -9,6 +9,6 @@ This helps to minimize the time required for [BLAST](https://www.uniprot.org/bla
 
 Searching against UniRef helps ensure that the hits in the result are both distinct and meaningful at the corresponding identity level. Combining BLAST with UniRef cluster expansion as on the UniProt website has shown to increase the sensitivity when looking for more remote similarities. Please see [Suzek et al (2014)](https://academic.oup.com/bioinformatics/article/31/6/926/214968) for details.
 
-**What sequences are considered when running BLAST against a UniRef database?**
+# What sequences are considered when running BLAST against a UniRef database?
 
 The sequences used for the BLAST search against a UniRef database are the representative sequences, not the [seeds](https://www.uniprot.org/help/uniref%5Fseed).

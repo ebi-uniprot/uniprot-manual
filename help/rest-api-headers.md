@@ -6,12 +6,12 @@ categories: Technical,Website,help
 This document explains the HTTP response headers returned by the [UniProt REST API](https://rest.uniprot.org/beta/docs/)
 and gives some examples to make explicit what they mean. 
 
-## HTTP Status Headers
+# HTTP Status Headers
 [HTTP statuses](https://httpstatuses.com/) are standard numeric codes indicating whether a specific HTTP request successfully 
 completed. In the following sections, we describe all status codes returned by the UniProt REST API.
 
 
-### 200 OK 
+## 200 OK 
 The `200 OK` status code indicates the request succeeded. For example:
 
 > **Request**
@@ -46,11 +46,11 @@ The `200 OK` status code indicates the request succeeded. For example:
 > }
 > ```
 
-### 303 See Other
+## 303 See Other
 The `303 See Other` status code indicates that you are being redirected to another resource via the "Location" response
 header.
 
-#### UniProtKB inactive entry example:
+### UniProtKB inactive entry example:
 > **Request**
 > ```bash
 > curl -X GET "https://rest.uniprot.org/beta/uniprotkb/accession/Q00015" -H "accept: application/json"
@@ -65,14 +65,14 @@ header.
 >  ...
 > ```
 
-### 400 Bad request
+## 400 Bad request
 The `400 Bad request` status code indicates that the server was unable to process the request due to invalid information
 sent by the client. In other words, the client request needs modification. If this happens, please refer to our
 [API documentation](https://rest.uniprot.org/beta/docs/) for guidance.
 
 The following two subsections give examples of bad requests: 
 
-#### Missing required request parameter
+### Missing required request parameter
 > **Request**
 > ```bash
 > curl -X GET "https://rest.uniprot.org/beta/uniprotkb/search" -H "accept: application/json"
@@ -87,7 +87,7 @@ The following two subsections give examples of bad requests:
 > }
 > ```
 
-#### Invalid parameter value 
+### Invalid parameter value 
 > **Request**
 > ```bash
 > curl -X GET "https://rest.uniprot.org/beta/uniprotkb/search?query=invalidQueryField%3Avalue+AND+accession%3AinvalidValue&fields=invalidField" -H "accept: application/json"
@@ -104,7 +104,7 @@ The following two subsections give examples of bad requests:
 > }
 > ```
 
-### 404 Resource not found 
+## 404 Resource not found 
 The `404 Resource not found` status code indicates the server was unable to find the resource that was requested. For
 example:
 
@@ -122,12 +122,12 @@ example:
 > }
 > ```
 
-### 500 Internal server error
+## 500 Internal server error
 The `500 Internal server error` status code indicates that the processing of the request on the server failed unexpectedly.
 If you are able to replicate this error consistently, please report it to us through our [contact page](https://www.uniprot.org/contact).
 
 
-## x-release-date
+# x-release-date
 This response header indicates the last date that the API was updated. Refer to, [200 OK above](#200-ok), to see an example 
 of its generation.
 
@@ -135,13 +135,13 @@ of its generation.
 > x-release-date: 25-July-2021
 > ```
 
-## x-release-number
+# x-release-number
 This response header indicates the current UniProt data release number.
 > ```bash
 > x-release-number: 2021_03 
 > ```
 
-## x-total-records
+# x-total-records
 This response header indicates the number of entities found in your search. See more details in the [Paginating results](https://www.uniprot.org/help/rest-pagination) 
 help page.
 
@@ -149,7 +149,7 @@ help page.
 > x-total-records: 49524 
 > ```
 
-## link
+# link
 This response header indicates the URL link to the next page of entities. See more details in the [Paginating results](https://www.uniprot.org/help/rest-pagination) 
 help page.
 

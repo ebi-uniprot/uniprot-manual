@@ -36,7 +36,7 @@ Disease information that is not described in OMIM is annotated as free text.
 
 Examples: [P00395](https://www.uniprot.org/uniprotkb/P00395#pathology%5Fand%5Fbiotech), [Q02388](https://www.uniprot.org/uniprotkb/Q02388#pathology%5Fand%5Fbiotech)
 
-#### Related documents
+# Related documents
 
 [Online Mendelian Inheritance in Man (MIM) cross-references in UniProtKB/Swiss-Prot](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/mimtosp)
 

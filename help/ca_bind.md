@@ -5,7 +5,7 @@ categories: Function,manual
 
 This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section specifies the position(s) of the calcium-binding region(s) within the protein. One common calcium-binding motif is the EF-hand, but other calcium-binding motifs also exist.
 
-### 1. Annotation of EF-hands {\#1\_\_Annotation\_of\_EF\_hands}
+# 1. Annotation of EF-hands {\#1\_\_Annotation\_of\_EF\_hands}
 
 The EF-hand is a helix-loop-helix calcium-binding motif in which two helices pack together at an angle of approximately 90 degrees. The two helices are separated by a loop region where calcium actually binds. The "EF" notation for the motif is derived from the notation applied to the structure of parvalbumin, in which the "E" and "F" helices were originally identified as forming this calcium-binding motif.
 
@@ -25,7 +25,7 @@ EF-hand motifs are routinely detected using the PROSITE profile [PS50222](http:/
 Matches to this pattern within an EF-hand motif are annotated in the 'Calcium binding' subsection. We annotate the calcium-binding region from the first Asp residue to the last Asp/Glu residue in the pattern.  
 Example: [Q96P71](https://www.uniprot.org/uniprotkb/Q96P71#function)
 
-### 2. Annotation of other calcium-binding regions {\#2\_\_Annotation\_of\_other\_calcium\_binding\_regions}
+# 2. Annotation of other calcium-binding regions {\#2\_\_Annotation\_of\_other\_calcium\_binding\_regions}
 
 We also annotate other known calcium-binding regions that are not EF-hands. The presence of such regions may have been determined experimentally.  
 Example: [P15381](https://www.uniprot.org/uniprotkb/P15381#function)

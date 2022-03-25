@@ -3,7 +3,7 @@ title: How is protein family membership assigned in UniProtKB?
 categories: UniProtKB,Family_and_domains,Cross-references,faq
 ---
 
-**How is protein family membership assigned in UniProtKB?**
+# How is protein family membership assigned in UniProtKB?
 
 The task of assigning proteins to families makes use of a range of sources including protein family databases, sequence analysis tools, scientific literature and sequence similarity search tools.
 
@@ -13,7 +13,7 @@ Protein families for which no predictive signatures exist are defined through se
 
 The full list of protein families in UniProtKB and the entries which belong to each family is available [here](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/similar).
 
-See also:
+# See also
 
 -   [What is HAMAP?](https://www.uniprot.org/help/hamap)
 -   [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)

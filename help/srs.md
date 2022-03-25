@@ -7,7 +7,7 @@ The UniProt search tool allows users to perform Google and SRS-like queries, on 
 
 Example: **Search for Saccharomyces cerevisiae membrane glycoproteins in UniProtKB**
 
-**Google-like queries**
+# Google-like queries
 
 -   Click the **Search** tab of the toolbar
 -   Select `UniProtKB` from the main search menu
@@ -22,7 +22,7 @@ Example: **Search for Saccharomyces cerevisiae membrane glycoproteins in UniProt
 -   Click **Columns** to choose the columns to show in the result table
 -   This URL can be bookmarked.
 
-**SRS-like queries ( [Advanced search](https://www.uniprot.org/help/advanced_search) )**
+# SRS-like queries ( [Advanced search](https://www.uniprot.org/help/advanced_search) )
 
 -   Select `UniProtKB` from the search menu
 -   Click **Advanced** to open the query builder
@@ -34,7 +34,7 @@ Example: **Search for Saccharomyces cerevisiae membrane glycoproteins in UniProt
 -   Click **Columns** to choose the columns to show in the result table
 -   This URL can be bookmarked.
 
-**Queries on your personal UniProt dataset**
+# Queries on your personal UniProt dataset
 
 -   Click on [Retrieve/ID mapping](https://www.uniprot.org/uploadlists) in the toolbar
 
@@ -52,7 +52,7 @@ Example: **Search for Saccharomyces cerevisiae membrane glycoproteins in UniProt
 
 \* Note that UniParc can be searched only with database names, taxonomy, checksum (CRC64) and accession numbers (ACs) or UniProtKB, UniRef and UniParc IDs.
 
-Examples:
+# Examples
 
 -   [Search UniParc with P12345](https://www.uniprot.org/uniparc/?query=P12345)
 -   [Search UniParc with TaxID for Eukaryota](https://www.uniprot.org/uniparc/?query=taxonomy:2759)

@@ -21,7 +21,7 @@ Protein sequences originating from proteomes that are considered [redundant](htt
 
 Fusion/truncated proteins and those classified as not real proteins are only manually identified by the curators and removed from UniProtKB/TrEMBL or UniProtKB/Swiss-Prot. All these excluded sequences are available at [UniParc](https://www.uniprot.org/help/uniparc). The corresponding UniParc entries have been flagged with the reason for the absence of that sequence from UniProtKB.
 
-See also:
+# See also
 
 -   [Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence%5Forigin)
 -   [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds%5Fprotein%5Fdefinition)

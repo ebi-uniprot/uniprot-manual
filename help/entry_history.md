@@ -13,7 +13,7 @@ Note that sequence and entry versions are not reset when the [status of an entry
 
 A comprehensive archive of UniProtKB/Swiss-Prot and UniProtKB/TrEMBL entry versions is available in the UniProtKB Sequence/Annotation Version Database (click on the 'History' button, and then on 'Previous versions'). Unlike UniProtKB, which contains only the latest Swiss-Prot and TrEMBL entry and sequence versions, this archive provides access to all versions of UniProtKB entries. This allows the tracking of all changes that occurred in any entry.
 
-#### Related documents
+# Related documents
 
 [How do I link to a specific version of a UniProtKB entry?](https://www.uniprot.org/help/link%5Fold%5Fversions)
 

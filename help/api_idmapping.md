@@ -231,20 +231,7 @@ When mapping between UniProtKB accession numbers and gene names, it is possible 
 
 Alternatively, you can download the data underlying our [database identifier service mapping service](https://www.uniprot.org/uploadlists) from [https://ftp.uniprot.org/pub/databases/uniprot/current\_release/knowledgebase/idmapping/](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/idmapping/)
 
-See also:
-
--   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
--   \- batch retrieval, ID mapping, queries, downloads, etc
-
-Related terms: programmatic access, program, script, wget, curl, web services, API, uploadlists
-
-Name
-
-Abbreviation
-
-Direction
-
-See also:
+# See also
 
 -   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
 -   \- batch retrieval, ID mapping, queries, downloads, etc

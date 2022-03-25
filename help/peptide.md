@@ -16,7 +16,7 @@ Example: [Q9SE35](https://www.uniprot.org/uniprotkb/Q9SE35#ptm%5Fprocessing)
 
 Each peptide has a [stable identifier](https://www.uniprot.org/help/sequence%5Fannotation#annotation%5Fid).
 
-See also:
+# See also
 
 -   [Chain (describing polypeptidic protein chains)](https://www.uniprot.org/help/chain)
 -   [Evidence](https://www.uniprot.org/help/evidences)

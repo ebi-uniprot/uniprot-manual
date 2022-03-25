@@ -7,17 +7,17 @@ This subsection of the [Function](https://www.uniprot.org/help/function%5Fsectio
 
 A zinc finger is a small, functional, independently folded domain that coordinates one or more zinc ions to stabilize its structure through cysteine and/or histidine residues. Zinc fingers are structurally diverse and exhibit a wide range of functions, from DNA- or RNA-binding to protein-protein interactions and membrane association.
 
-### 1. Types of zinc finger {\#1\_\_Types\_of\_zinc\_finger}
+# 1. Types of zinc finger {\#1\_\_Types\_of\_zinc\_finger}
 
 There are more than 40 types of zinc fingers annotated in UniProtKB. The most frequent are the C2H2-type, the CCHC-type, the PHD-type and the RING-type.  
 Examples: [Q7Z142](https://www.uniprot.org/uniprotkb/Q7Z142#function), [P55197](https://www.uniprot.org/uniprotkb/P55197#function), [Q9P2R3](https://www.uniprot.org/uniprotkb/Q9P2R3#function), [Q9P2G1](https://www.uniprot.org/uniprotkb/Q9P2G1#function), [Q9P2S6](https://www.uniprot.org/uniprotkb/Q9P2S6#function), [Q8IUH5](https://www.uniprot.org/uniprotkb/Q8IUH5#function), [P19811](https://www.uniprot.org/uniprotkb/P19811#function), [Q92793](https://www.uniprot.org/uniprotkb/Q92793#function), [P36406](https://www.uniprot.org/uniprotkb/P36406#function), [O95081](https://www.uniprot.org/uniprotkb/O95081#function), [Q9ULV3](https://www.uniprot.org/uniprotkb/Q9ULV3#function)
 
-### 2. Annotation of zinc fingers predicted using InterPro resources {\#2\_\_Annotation\_of\_zinc\_fingers\_predicted\_using\_InterPro\_resources}
+# 2. Annotation of zinc fingers predicted using InterPro resources {\#2\_\_Annotation\_of\_zinc\_fingers\_predicted\_using\_InterPro\_resources}
 
 We annotate a variety of zinc fingers defined by the InterPro resources PROSITE, Pfam and SMART. The number and type of predicted zinc fingers is specified in the ['Sequence similarities'](https://www.uniprot.org/help/sequence_similarities) subsection of the 'Family and Domains' section.  
 Example: [P75093](https://www.uniprot.org/uniprotkb/P75093#family_and_domains)
 
-#### a) C2H2-type zinc fingers
+## a) C2H2-type zinc fingers
 
 Zinc finger proteins of the C2H2-type are amongst the most frequently occurring proteins in the genome of Homo sapiens. Most C2H2-type zinc finger proteins are transcriptional activators or repressors that bind DNA. C2H2-type zinc fingers are frequently found in multiple copies in the same protein, in which case individual copies are numbered. Numbering of zinc fingers is optional if the protein is a fragment at the N-terminus and no complete orthologous sequence is available from which the exact numbering can be inferred.
 
@@ -30,7 +30,7 @@ Example: [P08045](https://www.uniprot.org/uniprotkb/P08045#function)
 
 C2H2-type zinc fingers are frequently associated with the following domains: KRAB (transcriptional repression), SCAN box or LeR (oligomerization - always before KRAB if KRAB present in the protein), BTB/POZ (homodimerization - never found in combination with SCAN or KRAB), SET (methylation) and Homeobox (DNA-binding). Except for the Homeobox domain, these other domains are almost always found in the N-terminal section of the protein before the zinc finger.
 
-#### b) Atypical and degenerate zinc fingers
+## b) Atypical and degenerate zinc fingers
 
 Atypical zinc fingers are those which deviate from a consensus profile or pattern but which nevertheless retain the ability to bind zinc. These may include zinc fingers in which cysteine is replaced by histidine or where the spacing between cysteine or histidine residues is slightly altered in one of the following ways:
 
@@ -45,12 +45,12 @@ Example: [P47043](https://www.uniprot.org/uniprotkb/P47043#function)
 Degenerate zinc fingers are those which deviate from a consensus profile or pattern and which have also lost the ability to bind zinc. These may include zinc fingers in which cysteine is replaced by amino acids other than histidine or where the spacing between cysteine or histidine residues is outside the range of normal or atypical zinc fingers, or truncated zinc fingers.  
 Examples: [Q80ZQ5](https://www.uniprot.org/uniprotkb/Q80ZQ5#function), [Q19203](https://www.uniprot.org/uniprotkb/Q19203#function), [Q15911](https://www.uniprot.org/uniprotkb/Q15911#function)
 
-### 3. Annotation of zinc fingers not represented in InterPro {\#3\_\_Annotation\_of\_zinc\_fingers\_not\_represented\_in\_InterPro}
+# 3. Annotation of zinc fingers not represented in InterPro {\#3\_\_Annotation\_of\_zinc\_fingers\_not\_represented\_in\_InterPro}
 
 Many zinc fingers cannot be described by a specific family profile or pattern as only the amino acids that coordinate the zinc ion are conserved. Hence the number and type of such zinc fingers is NOT specified in the ['Sequence similarities'](https://www.uniprot.org/help/sequence_similarities) subsection of the 'Family and Domains' section.  
 Such zinc fingers are generally named for the pattern of cysteine or histidine residues that coordinate the zinc ion: C4-type, C5-type, C2H3-type and so on.
 
-#### C4-type zinc fingers
+## C4-type zinc fingers
 
 C4-type zinc fingers are characterized by 4 cysteine residues that coordinate zinc and do not share further sequence similarity - for instance, the distances between the cysteine residues are not conserved. C4-type zinc fingers are found within the DNA-binding regions of some well-characterized families of nuclear receptors.  
 Example: [P10827](https://www.uniprot.org/uniprotkb/P10827#function)
@@ -63,7 +63,7 @@ Related keywords:
 [Zinc](https://www.uniprot.org/keywords/862),  
 [Zinc finger](https://www.uniprot.org/keywords/863).
 
-See also:
+# See also
 
 [DNA binding](https://www.uniprot.org/help/dna%5Fbind)  
 [Domain](https://www.uniprot.org/help/domain)  

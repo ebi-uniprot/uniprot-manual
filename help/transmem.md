@@ -14,7 +14,7 @@ For multi-pass membrane proteins, we do not number transmembrane regions except 
 
 In **UniProtKB/TrEMBL**, transmembrane domains are annotated automatically by our [sequence annotation module using TMHMM.](https://www.uniprot.org/help/sam)
 
-### 1. Annotation of experimentally proven transmembrane regions {\#1\_\_Annotation\_of\_experimentally\_proven\_transmembrane\_regions}
+# 1. Annotation of experimentally proven transmembrane regions {\#1\_\_Annotation\_of\_experimentally\_proven\_transmembrane\_regions}
 
 Even when there is proof for the **existence** of transmembrane domains, it is difficult to determine their **boundaries**. Transmembrane regions are therefore generally annotated using the qualifier ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).  
 Example: [Q96BI3](https://www.uniprot.org/uniprotkb/Q96BI3#subcellular_location)
@@ -25,7 +25,7 @@ Examples: [Q86V24](https://www.uniprot.org/uniprotkb/Q86V24#subcellular_location
 
 Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have evidence](https://www.uniprot.org/help/evidence%5Fin%5Fswissprot). The annotations which are missing evidence were created before we started to manually curate information with evidence in UniProtKB/Swiss-Prot, and manual attribution of evidence to these existing annotations was not possible due to the huge amount of existing data. In such cases, the absence of any evidence for topological domains may in many cases be interpreted as 'Experimental' or 'Curated'.
 
-### 2. Annotation of predicted transmembrane regions {\#2\_\_Annotation\_of\_predicted\_transmembrane\_regions}
+# 2. Annotation of predicted transmembrane regions {\#2\_\_Annotation\_of\_predicted\_transmembrane\_regions}
 
 We also annotate transmembrane regions which are predicted by the application of the predictive tools TMHMM, Memsat, Phobius and the hydrophobic moment plot method of Eisenberg and coworkers. Note that these tools predict only alpha-helical membrane spanning regions: the positions of membrane spanning beta-sheet regions are annotated strictly according to experimental information.
 
@@ -33,31 +33,25 @@ For predicted alpha-helical transmembrane regions at least two methods must retu
 
 See also: [Evidence](https://www.uniprot.org/help/evidences)
 
-### 3. Membrane protein topologies in UniProtKB/Swiss-Prot {\#3\_\_Membrane\_protein\_topologies\_in\_UniProtKB\_Swiss\_Prot}
+# 3. Membrane protein topologies in UniProtKB/Swiss-Prot {\#3\_\_Membrane\_protein\_topologies\_in\_UniProtKB\_Swiss\_Prot}
 
-#### a) Single-pass transmembrane proteins
+## a) Single-pass transmembrane proteins
 
 We define 4 types of single-pass transmembrane proteins in UniProtKB/Swiss-Prot. Each of these 4 topologies is specified according to a controlled vocabulary in the ['Subcellular location'](https://www.uniprot.org/help/subcellular_location_section) subsection.
 
 -   Type I: (N-terminus out): characterized by the feature key: 'Signal peptide' in the ['PTM / Processing'](https://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section.  
     Example: [P14778](https://www.uniprot.org/uniprotkb/P14778#subcellular_location)
 
-<!-- -->
-
 -   Type II (N-terminus in): characterized by the description: 'Signal-anchor for type II membrane protein'. The transmembrane domain is located close to the N-terminus of the protein and functions as an anchor.  
     Example: [P08195](https://www.uniprot.org/uniprotkb/P08195#subcellular_location)
-
-<!-- -->
 
 -   Type III (N-terminus out): characterized by the description: 'Signal-anchor for type III membrane protein'. The transmembrane domain is located close to the N-terminus of the protein and functions as an anchor.  
     Example: [O70601](https://www.uniprot.org/uniprotkb/O70601#subcellular_location)
 
-<!-- -->
-
 -   Type IV (N-terminus in): the transmembrane domain is located close to the C-terminus of the protein and functions as an anchor.  
     Example: [Q9HDC5](https://www.uniprot.org/uniprotkb/Q9HDC5#subcellular_location)
 
-#### b) Multi-pass transmembrane proteins
+## b) Multi-pass transmembrane proteins
 
 Proteins with 2 or more transmembrane domains are considered as integral multi-pass membrane proteins and are not classified further in UniProtKB/Swiss-Prot. Here again the topology is specified in the ['Subcellular location'](https://www.uniprot.org/help/subcellular_location_section) subsection.
 
@@ -67,7 +61,7 @@ Example: [Q8RKH1](https://www.uniprot.org/uniprotkb/Q8RKH1#subcellular%5Flocatio
 There are, however, examples of well-characterized proteins that have both a signal peptide and multiple transmembrane regions.  
 Example: [P30988](https://www.uniprot.org/uniprotkb/P30988#subcellular%5Flocation)
 
-#### c) Beta-barrel transmembrane proteins
+## c) Beta-barrel transmembrane proteins
 
 We do not predict the positions of the membrane spanning domains of beta-barrel transmembrane proteins, so sequence annotations for transmembrane regions may be absent. In this case, information about the structure and topology of these proteins may be indicated in the ['Domain'](https://www.uniprot.org/help/domain_cc) subsection of the 'Family and Domains' section.  
 Example: [P04840](https://www.uniprot.org/uniprotkb/P04840#family_and_domains)
@@ -75,7 +69,7 @@ Example: [P04840](https://www.uniprot.org/uniprotkb/P04840#family_and_domains)
 Related keyword:  
 [Transmembrane](https://www.uniprot.org/keywords/812)
 
-See also:
+# See also
 
 -   [Sequence Analysis Methods for automatic annotation of unreviewed entries](https://www.uniprot.org/help/sam)
 -   [Topological domain](https://www.uniprot.org/help/topo%5Fdom)

@@ -23,7 +23,7 @@ This service allows you to convert data between different formats. Note that at 
     else
       println(method.getResponseBodyAsString());
 
-See also:
+# See also
 
 [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api) - batch retrieval, ID mapping, queries, downloads, etc
 

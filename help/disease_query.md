@@ -36,7 +36,7 @@ Note 1: Currently, these keywords apply mainly to non-monogenic diseases.
 
 Note 2: The keyword `'Disease variant'` is used for proteins with at least one disease-associated variant. Variants are described in the 'Pathology and Biotech' and in the 'Sequence' sections of a protein entry.
 
-See also:
+# See also
 
 -   [Involvement in disease](https://www.uniprot.org/help/involvement%5Fin%5Fdisease)
 -   [Customize display options](https://www.uniprot.org/help/customize)

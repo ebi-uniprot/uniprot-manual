@@ -51,7 +51,7 @@ In order to keep up with the explosive growth of literature and to give our user
 
 If you see that a (or your) publication is missing, do not hesitate to [contact us](https://www.uniprot.org/contact).
 
-### Query UniProtKB
+# Query UniProtKB
 
 UniProtKB entries containing a given publication can be searched by the title or abstract content, author name, journal abbreviation, year of publication, PubMed ID and DOI (query 'Literature citation').
 
@@ -61,7 +61,7 @@ Publications cited in UniProtKB can be searched by their title or abstract conte
 
 Example: [Kuopio ischaemic heart disease risk factor study](https://www.uniprot.org/citations/?query=%22Kuopio+ischaemic+heart+disease+risk+factor+study%22)
 
-See also:
+# See also
 
 -   [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual%5Fcuration)
 -   [References](https://www.uniprot.org/help/references)

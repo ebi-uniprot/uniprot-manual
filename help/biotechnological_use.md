@@ -13,6 +13,6 @@ Examples:
 
 ( [P06278](https://www.uniprot.org/uniprotkb/P06278#pathology%5Fand%5Fbiotech) ): Used in the food industry for high temperature liquefaction of starch-containing mashes and in the detergent industry to remove starch. Sold under the name Termamyl by Novozymes.
 
-#### Related document
+# Related documents
 
 [Where can I buy protein X? Which company sells protein Y? Where can I buy strain Z?](https://www.uniprot.org/help/where%5Fto%5Fbuy)

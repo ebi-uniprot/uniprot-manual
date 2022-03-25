@@ -7,6 +7,6 @@ If you are accessing UniProt programmatically, using our [REST API](https://www.
 
 This returns the entry count, allowing you to count the hits without actually retrieving them.
 
-See also:
+# See also
 
 -   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)

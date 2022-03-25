@@ -3,7 +3,7 @@ title: How do I get the nucleotide sequence that corresponds to the canonical Un
 categories: UniProtKB,Sequence,Cross-references,Text_search,faq
 ---
 
-**How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?**
+# How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?
 
 You cannot! Although more than 95% of the known protein sequences derive from DNA translation, there is no **single** nucleic acid reference sequence for a given UniProtKB/Swiss-Prot protein sequence.
 
@@ -17,13 +17,13 @@ There are some exceptions. Some entries may display a full-length protein sequen
 
 In addition, some [entries](https://www.uniprot.org/uniprotkb/?query=reviewed:yes+keyword:KW-0903+NOT+database:embl) exclusively contain protein sequence data resulting from direct protein sequencing and thus do not have cross-references to any nucleic acid sequence.
 
-**How do I get the nucleotide sequence that corresponds to the UniProtKB alternative sequences?**
+# How do I get the nucleotide sequence that corresponds to the UniProtKB alternative sequences?
 
 There is currently no way to directly find the nucleotide sequence that corresponds to the alternative protein sequences described in a UniProtKB entry.
 
 However, some of the resources to which we link contain information that is specific to an isoform sequence. Where this is known, we indicate the corresponding UniProtKB [isoform sequence identifier in cross-references](https://www.uniprot.org/help/isoform%5Fcrossreferences).
 
-See also:
+# See also
 
 -   [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
 -   [How redundant are the UniProt databases?](https://www.uniprot.org/help/redundancy)

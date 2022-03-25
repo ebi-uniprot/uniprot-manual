@@ -44,7 +44,7 @@ Examples: [Q10471](https://www.uniprot.org/uniprotkb/Q10471#ptm_processing), [P6
 
 Here is an example of a feature where the identity of the amino acid is unknown (an X is shown at this position in the sequence) and the only information concerning the modification is that the N-terminus is blocked: [P80979](https://www.uniprot.org/uniprotkb/P80979#ptm%5Fprocessing) (Blocked amino end (Xaa)).
 
-### 1. Phosphorylation {\#1\_\_Phosphorylation}
+# 1. Phosphorylation {\#1\_\_Phosphorylation}
 
 Phosphorylation refers to the transfer of a gamma-phosphate to an amino acid. It is a key mechanism for signaling in both eukaryotic and prokaryotic cells. It can occur on a number of cytoplasmic and nuclear residues, i.e. on the hydroxyl group of serine, threonine or tyrosine, on the nitrogen of arginine, histidine or lysine, on the carboxyl group of aspartate, or on the sulfhydryl group of cysteine.
 
@@ -68,13 +68,13 @@ Example: [P04042](https://www.uniprot.org/uniprotkb/P04042#ptm_processing)
 
 We annotate experimentally determined phosphorylation sites and transfer this information to related orthologs as described. We do not annotate predicted phosphorylation sites. When transferring annotation regarding phosphorylation, we do not usually specify the kinase responsible in the orthologous entry, except when the modification is part of a precise, well-studied transduction pathway. For phosphohistidine, we propagate the position of the phosphorylated nitrogen atom.
 
-### 2. Methylation {\#2\_\_Methylation}
+# 2. Methylation {\#2\_\_Methylation}
 
 Cytoplasmic and nuclear proteins can be enzymatically modified in several ways by the addition of methyl groups from S-adenosylmethionine. Methylation reactions occurring on carboxyl groups can be reversible and modulate the activity of the target protein, while those on nitrogen atoms at the N-terminus and on side-chains are usually irreversible.
 
 Related keyword: [Methylation](https://www.uniprot.org/keywords/488)
 
-#### Carboxyl methylation
+## Carboxyl methylation
 
 Carboxyl methylation can occur either on a C-terminal cysteine, leucine or lysine residue, or on the side chain of a glutamate residue (or glutamine, after deamidation). It can affect protein-protein interactions and protein function.
 
@@ -88,19 +88,19 @@ In prokaryotes, glutamate methyl ester formation plays a major role in chemotact
 
 Example: [P07018](https://www.uniprot.org/uniprotkb/P07018#ptm%5Fprocessing)
 
-#### Nitrogen methylation
+## Nitrogen methylation
 
 Nitrogen methylation can occur on the N-terminus of a polypeptide chain on a phenylalanine, isoleucine, leucine, methionine, tyrosine, proline or alanine residue. It can also occur on the side chain of lysine, arginine or histidine residues. In eukaryotes, arginine and lysine methylation have been found mainly on histones and play an important role in signal transduction processes, nuclear transport and regulation of transcription.
 
 Examples: [P0A7N9](https://www.uniprot.org/uniprotkb/P0A7N9#ptm_processing), [P00873](https://www.uniprot.org/uniprotkb/P00873#ptm_processing)
 
-#### Histidine methylation
+## Histidine methylation
 
 Histidine methylation can occur on two positions, which are specified as 'Pros-methylhistidine' and 'Tele-methylhistidine'. When the exact position of the methylation is not known, we simply indicate 'Methylhistidine'.
 
 Examples: [P31725](https://www.uniprot.org/uniprotkb/P31725#ptm_processing), [P62739](https://www.uniprot.org/uniprotkb/P62739#ptm_processing), [P24020](https://www.uniprot.org/uniprotkb/P24020#ptm_processing)
 
-#### Lysine methylation
+## Lysine methylation
 
 Lysine can be mono-, di-, or tri-methylated. We describe each of these modifications as 'N6-methyllysine', 'N6,N6-dimethyllysine' and 'N6,N6,N6-trimethyllysine'. If the number of methyl groups is unknown, we simply indicate 'N6-methylated lysine'. This general description is also used when propagating the information 'By similarity' to homologous proteins.
 
@@ -108,23 +108,23 @@ Example: [P13538](https://www.uniprot.org/uniprotkb/P13538#ptm_processing)
 
 Lysine methylation can compete with acetylation on the same residue. In this case, the modifications are described as 'alternate'.
 
-#### Arginine methylation
+## Arginine methylation
 
 Arginine can be monomethylated or dimethylated in two ways which leads to four different descriptions: 'Omega-N-methylarginine', 'Dimethylated arginine', 'Symmetric dimethylarginine' and 'Asymmetric dimethylarginine'. If the residue is dimethylated, but the position of the methyl groups is unknown, it is annotated as 'Dimethylated arginine'. If the number of methyl groups is unknown, the ambiguous description 'Omega-N-methylated arginine' is used. This general description is also used when propagating information to homologous proteins.
 
 Examples: [Q07666](https://www.uniprot.org/uniprotkb/Q07666#ptm_processing), [P11940](https://www.uniprot.org/uniprotkb/P11940#ptm_processing), [Q60487](https://www.uniprot.org/uniprotkb/Q60487#ptm_processing), [P45481](https://www.uniprot.org/uniprotkb/P45481#ptm_processing)
 
-#### Other rare examples of side chain methylation
+## Other rare examples of side chain methylation
 
 Examples: [P00318](https://www.uniprot.org/uniprotkb/P00318#ptm_processing), [P0A287](https://www.uniprot.org/uniprotkb/P0A287#ptm_processing)
 
-### 3. Acetylation {\#3\_\_Acetylation}
+# 3. Acetylation {\#3\_\_Acetylation}
 
 We annotate both N-terminal acetylation and acetylation on internal residues.
 
 Related keyword: [Acetylation](https://www.uniprot.org/keywords/7)
 
-#### N-terminal acetylation
+## N-terminal acetylation
 
 N-terminal acetylation is one of the most common post-translational modifications in eukaryotes, but it is rare in prokaryotes. It refers to the addition of an acetyl group from acetyl-CoA to the alpha-amino group of the first residue of a protein, often after the cleavage of the initiator methionine. The most commonly acetylated residues are glycine, alanine, serine or threonine. This reaction occurs in the cytosol. Methionine residues can also be modified if the next residue is an aspartate, glutamate, leucine, isoleucine, tryptophan, phenylalanine or asparagine residue. Note that the modified position may not correspond to the first amino acid of the displayed sequence if N-terminal acetylation occurs after proteolytic processing of the chain.
 
@@ -132,7 +132,7 @@ We annotate experimentally determined sites of N-terminal acetylation and this i
 
 Examples: [P23542](https://www.uniprot.org/uniprotkb/P23542#ptm_processing), [P68251](https://www.uniprot.org/uniprotkb/P68251#ptm_processing), [P01201](https://www.uniprot.org/uniprotkb/P01201#ptm_processing), [P41682](https://www.uniprot.org/uniprotkb/P41682#ptm_processing), [Q71SP7](https://www.uniprot.org/uniprotkb/Q71SP7#ptm_processing)
 
-#### Internal acetylation
+## Internal acetylation
 
 Internal acetylation is the addition of a N-alpha-acetyl group from acetyl-CoA to the side chain of a lysine residue. In eukaryotes, it generally takes place in the nucleus and affects mainly, but not exclusively, histones. It also occurs in prokaryotes.
 
@@ -142,7 +142,7 @@ We annotate experimentally determined sites of internal acetylation and propagat
 
 Examples: [P0C0S9](https://www.uniprot.org/uniprotkb/P0C0S9#ptm_processing), [Q12158](https://www.uniprot.org/uniprotkb/Q12158#ptm_processing), [Q9NHD5](https://www.uniprot.org/uniprotkb/Q9NHD5#ptm_processing), [Q8ZKF6](https://www.uniprot.org/uniprotkb/Q8ZKF6#ptm_processing), [Q88EH6](https://www.uniprot.org/uniprotkb/Q88EH6#ptm_processing)
 
-### 4. Amidation {\#4\_\_Amidation}
+# 4. Amidation {\#4\_\_Amidation}
 
 The C-terminus of secreted proteins is often modified by cleavage between the amino group and the alpha carbon of a C-terminal glycine, resulting in the amidation of the precedent amino acid. This modification protects the C-terminus from degradation by proteases. Amidated proteins contain a signal peptide and are often processed prior to amidation in order to expose a glycine at C-terminus. Amidation has been observed in eukaryotes including mammals, non-mammalian vertebrates and insects, but not in plants.
 
@@ -154,15 +154,15 @@ We annotate experimentally determined sites of amidation, which may be propagate
 
 Examples: [P58913](https://www.uniprot.org/uniprotkb/P58913#ptm_processing), [P09859](https://www.uniprot.org/uniprotkb/P09859#ptm_processing)
 
-#### Terminal amidation
+## Terminal amidation
 
 Examples: [P69148](https://www.uniprot.org/uniprotkb/P69148#ptm_processing), [P82387](https://www.uniprot.org/uniprotkb/P82387#ptm_processing)
 
-#### Glutamate amidation
+## Glutamate amidation
 
 Example: [P20481](https://www.uniprot.org/uniprotkb/P20481#ptm_processing)
 
-### 5. Pyrrolidone carboxylic acid {\#5\_\_Pyrrolidone\_carboxylic\_acid}
+# 5. Pyrrolidone carboxylic acid {\#5\_\_Pyrrolidone\_carboxylic\_acid}
 
 The N-terminal glutamine of extracellular and multi-pass membrane proteins can be modified by cyclization of the glutamine via condensation of the alpha-amino group with the side-chain carboxyl group. Modified proteins show an increased half-life. Modified proteins of this type cannot be sequenced by the Edman method, they are blocked.
 
@@ -180,7 +180,7 @@ We annotate experimentally identified pyrrolidone carboxylic acid modifications,
 
 Example: [P12111](https://www.uniprot.org/uniprotkb/P12111#ptm_processing)
 
-### 6. Isomerization {\#6\_\_Isomerization}
+# 6. Isomerization {\#6\_\_Isomerization}
 
 In the translation process, only L-amino acids are incorporated into nascent polypeptides by the ribosomes. However, a variety of amino acids in secreted peptides are post-translationally converted to the D-form, probably via a deprotonation-reprotonation mechanism at the alpha-carbon. This modification has a strong effect on protein conformation and thus on protein activity and interactions. This modification has been found in secreted neuropeptides, toxins and hormones from molluscs, frogs, crustaceans, arachnids, and in bacterial lantibiotics. Synonyms: racemization, epimerisation, stereoinversion.
 
@@ -199,7 +199,7 @@ Example: [P29006](https://www.uniprot.org/uniprotkb/P29006#ptm_processing)
 When D-amino acids are found as partners of a cross-link, it is indicated in the 'Cross-link' subsection.  
 Examples: [P08136](https://www.uniprot.org/uniprotkb/P08136#ptm_processing), [O07623](https://www.uniprot.org/uniprotkb/O07623#ptm_processing)
 
-### 7. Hydroxylation {\#7\_\_Hydroxylation}
+# 7. Hydroxylation {\#7\_\_Hydroxylation}
 
 The modified amino acids are generally extracellular (secreted proteins, extracellular matrix proteins, multi-pass membrane proteins).
 
@@ -209,7 +209,7 @@ In animals, 3-hydroxyproline, 4-hydroxyproline and 5-hydroxylysine are mostly fo
 
 Related keyword: [Hydroxylation](https://www.uniprot.org/keywords/379)
 
-#### Hydroxyproline
+## Hydroxyproline
 
 Both C3 and C4 of proline can be hydroxylated. The carbon bearing the hydroxyl group is indicated in the 'Description' field, when known. In the absence of precise information, we use the ambiguous description 'Hydroxyproline'. Note that hydroxyproline can be further glycosylated.
 
@@ -225,7 +225,7 @@ The information on hydroxyproline may be propagated 'By similarity' to closely r
 
 Example: [Q15848](https://www.uniprot.org/uniprotkb/Q15848#ptm_processing)
 
-#### Hydroxylysine
+## Hydroxylysine
 
 **5-hydroxylysine**
 
@@ -237,13 +237,13 @@ Example: [Q3Y5Z3](https://www.uniprot.org/uniprotkb/Q3Y5Z3#ptm_processing)
 
 Examples: [O18495](https://www.uniprot.org/uniprotkb/O18495#ptm_processing), [Q25460](https://www.uniprot.org/uniprotkb/Q25460#ptm_processing), [O18496](https://www.uniprot.org/uniprotkb/O18496#ptm_processing)
 
-#### Hydroxyasparagine
+## Hydroxyasparagine
 
 **3-hydroxyasparagine**, **3-hydroxyaspartate**.
 
 Examples: [Q8CG16](https://www.uniprot.org/uniprotkb/Q8CG16#ptm_processing), [O88278](https://www.uniprot.org/uniprotkb/O88278#ptm_processing)
 
-### 8. Sulfation {\#8\_\_Sulfation}
+# 8. Sulfation {\#8\_\_Sulfation}
 
 Extracellular tyrosines of secreted and multi-pass membrane proteins can  
 be modified by the addition of a sulfate group. Cytoplasmic serine and threonine residues can also undergo sulfation, although very rarely. Although the function of this modification has not yet been fully elucidated, it may serve to enhance protein stability and modulate protein-protein interactions. When carbohydrates attached to proteins are sulfated, we indicate this fact in the ' [Post-translational modification](https://www.uniprot.org/help/post-translational_modification) ' subsection. Sulfation has been observed in eukaryotes only.
@@ -252,18 +252,18 @@ Related keyword: [Sulfation](https://www.uniprot.org/keywords/765)
 
 Carbohydrates attached to proteins can also be sulfated, this is annotated in the 'Post-translational modification' subsection, but won't lead to the attribution of the keyword 'Sulfation', which applies only to the modification of the protein itself, but not to the attached carbohydrate groups.
 
-#### Tyrosine sulfation
+## Tyrosine sulfation
 
 Example: [Q7LZ52](https://www.uniprot.org/uniprotkb/Q7LZ52#ptm_processing)
 
-#### Serine and threonine sulfation:
+## Serine and threonine sulfation:
 
 Examples: [Q01974](https://www.uniprot.org/uniprotkb/Q01974#ptm_processing), [Q8IIJ9](https://www.uniprot.org/uniprotkb/Q8IIJ9#ptm_processing)
 
 We annotate not only experimentally determined sites of tyrosine sulfation (as well as that on serine and threonine residues), but also tyrosine sulfation sites predicted with the ['Sulfinator'](http://web.expasy.org/sulfinator/) tool. Sulfation prediction is taken into account only when this modification is known to occur on the protein concerned but the exact site is not known. The annotation of a predicted site is flagged with 'Sequence Analysis' (Sequence Model).  
 Example: [P30443](https://www.uniprot.org/uniprotkb/P30443#ptm_processing)
 
-### 9. Flavin-binding {\#9\_\_Flavin\_binding}
+# 9. Flavin-binding {\#9\_\_Flavin\_binding}
 
 Enzymes involved in electron transport, oxidation and reduction often contain a flavin group (flavin mononucleotide \[FMN\]) or flavin adenine dinucleotide \[FAD\]) as a cofactor. When the cofactor is covalently bound to the protein, this is considered as a post-translational modification and is annotated in the 'Amino acid modifications' subsection. When the cofactor is not covalently bound, the binding region is annotated in the ['Nucleotide binding'](https://www.uniprot.org/help/np%5Fbind) subsection. The flavin can be transferred to the hydroxyl group of a serine, threonine or tyrosine, to the one or the other nitrogen of a histidine or to the sulfhydryl group of a cysteine. Flavin-binding has been observed in all organisms.
 
@@ -271,7 +271,7 @@ Examples: [P21398](https://www.uniprot.org/uniprotkb/P21398#ptm%5Fprocessing), [
 
 Related keywords: [Flavoprotein](https://www.uniprot.org/keywords/285), [FAD](https://www.uniprot.org/keywords/274), [FMN](https://www.uniprot.org/keywords/288)
 
-### 10. Cysteine oxidation and nitrosylation {\#10\_\_Cysteine\_oxidation\_and\_nitrosylation}
+# 10. Cysteine oxidation and nitrosylation {\#10\_\_Cysteine\_oxidation\_and\_nitrosylation}
 
 Sulfur occurs in many different oxidation states in biological systems. In response to mild oxidative stress, reactive oxygen and nitrogen species, such as peroxides, superoxide, nitric oxide or peroxinitrite, can oxidize cytoplasmic cysteines to cysteine sulfenic acid (-SOH), S-nitrosocysteine (-SNO) and sulfinic acid (-SO2H)(single, single and double oxidation state, respectively). These modifications can alter protein activity, protein-protein interactions, or protein stability.
 
@@ -280,19 +280,19 @@ by either the formation of a disulfide bond (in this case the residue is called 
 
 In response to severe oxidative stress, cysteines are irreversibly oxidized to cysteine sulfonic acid (-SO3) or cysteic acid, which generally leads to protein inactivation and degradation. We do not annotate this modification.
 
-#### Sulfenic and sulfinic acid
+## Sulfenic and sulfinic acid
 
 Examples: [P13448](https://www.uniprot.org/uniprotkb/P13448#ptm%5Fprocessing), [P03122](https://www.uniprot.org/uniprotkb/P03122#ptm%5Fprocessing)
 
 Related keyword: [Oxidation](https://www.uniprot.org/keywords/558)
 
-#### S-nitrosocysteine
+## S-nitrosocysteine
 
 Examples: [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm%5Fprocessing), [P0ACQ6](https://www.uniprot.org/uniprotkb/P0ACQ6#ptm%5Fprocessing)
 
 Related keyword: [S-nitrosylation](https://www.uniprot.org/keywords/702)
 
-#### Related documents
+# Related documents
 
 The nature of the post-translationally formed amino acid is annotated by using a controlled vocabulary. The currently defined list of controlled vocabulary, as well as other information, such as the target amino acid, the related keyword, the taxonomic range and the subcellular location of the modification, are available in [ptmlist.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist) document. Links to the RESID database are also provided to help gain a better insight into every modification.
 

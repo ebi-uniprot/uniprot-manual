@@ -25,7 +25,7 @@ By default, a web page is returned. Depending on the data set, other formats may
     https://www.uniprot.org/uniparc/UPI000000001F.fasta
     https://www.uniprot.org/uniparc/UPI000000001F.tab
 
-Note that UniRef identifiers cannot be guaranteed to be stable, since the sequence clusters are recomputed at every release, and the representative protein may change. See also: [How to link to UniProt entries](https://www.uniprot.org/help/linking%5Fto%5Funiprot).
+Note that UniRef identifiers cannot be guaranteed to be stable, since the sequence clusters are recomputed at every release, and the representative protein may change. See also [How to link to UniProt entries](https://www.uniprot.org/help/linking%5Fto%5Funiprot).
 
 For the RDF/XML format there is an option to include data from referenced data sets directly in the returned data:
 
@@ -42,7 +42,7 @@ The following [status codes](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.h
 | 500  | Internal server error. Most likely a temporary problem, but if the problem persists please contact us. |
 | 503  | Service not available. The server is being updated, try again later.                                   |
 
-#### Resolving RDF identifiers
+# Resolving RDF identifiers
 
 A request for an address such as
 
@@ -50,7 +50,7 @@ A request for an address such as
 
 will be resolved, where possible, by redirection to the corresponding resource (see previous section). For UniProt resources, entries are returned in RDF/XML format if the HTTP [`'Accept'` request header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) is set to `'application/rdf+xml'`.
 
-See also:
+# See also
 
 -   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
 -   [REST API - Retrieve entries](https://www.uniprot.org/help/api_retrieve_entries.md)

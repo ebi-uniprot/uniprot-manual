@@ -11,7 +11,7 @@ When a proteome has proteins that are part of a larger pan proteome, you will se
 
 Pan proteome sets can be downloaded from the UniProt FTP site through the [Pan proteomes](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/pan%5Fproteomes/) subdirectory.
 
-See also:
+# See also
 
 -   [Proteomes](https://www.uniprot.org/proteomes)
 -   [Pan proteomes in UniProt (UniProt blog)](https://insideuniprot.blogspot.com/2016/03/pan-proteomes-in-uniprot.html)

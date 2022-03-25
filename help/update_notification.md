@@ -11,6 +11,6 @@ If you use a [feed reader](http://en.wikipedia.org/wiki/Comparison%5Fof%5Ffeed%5
 
 Related terms: monitor changes, watch an entry, watch a page
 
-See also:
+# See also
 
 -   [Entry history](https://www.uniprot.org/help/entry%5Fhisto)

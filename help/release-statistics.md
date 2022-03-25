@@ -3,11 +3,11 @@ title: Release statistics
 categories: release,statistics
 ---
 
-## UniProtKB statistics of the current release
+# UniProtKB statistics of the current release
 - [UniProtKB/Swiss-Prot statistics](http://web.expasy.org/docs/relnotes/relstat.html)
 - [UniProtKB/TrEMBL statistics](https://www.ebi.ac.uk/uniprot/TrEMBLstats)
 
-## UniProtKB Statistics of previous releases are available from our FTP server
+# UniProtKB Statistics of previous releases are available from our FTP server
 Release YYYY_NN statistics can be found in the directory https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-YYYY_NN/knowledgebase/
 
 Examples:

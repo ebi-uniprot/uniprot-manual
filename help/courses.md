@@ -3,7 +3,7 @@ title: Course and seminar announcements
 categories: Outreach,About_UniProt,help
 ---
 
-#### Training provided by UniProt Consortium members
+# Training provided by UniProt Consortium members
 
 -   [European Institute of Bioinformatics (EBI) training](https://www.ebi.ac.uk/training/)
 -   [Protein Information Resource (PIR) training](http://bmcb.georgetown.edu/bioinformatics/)

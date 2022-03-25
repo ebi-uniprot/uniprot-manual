@@ -12,6 +12,6 @@ Example: [P45669](https://www.uniprot.org/uniprotkb/P45669#pathology%5Fand%5Fbio
 
 Related keyword: [Allergen](https://www.uniprot.org/keywords/20)
 
-#### Related document
+# Related document
 
 [Nomenclature of allergens and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/allergen)

@@ -3,13 +3,13 @@ title: License & disclaimer
 categories: About_UniProt,Technical,help
 ---
 
-#### License
+# License
 
 We have chosen to apply the [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/) ) to all copyrightable parts of our databases.
 
 [How to cite us](https://www.uniprot.org/help/publications)
 
-#### Disclaimer
+# Disclaimer
 
 We make no warranties regarding the correctness of the data, and disclaim liability for damages resulting from its use. We cannot provide unrestricted permission regarding the use of the data, as some data may be covered by patents or other rights.
 

@@ -13,7 +13,7 @@ To search one of the UniProt resources proceed as follows:
 
 Note that the background color around the search field changes depending on the data set, in order to keep you aware of the selected data set.
 
-**Query syntax**
+# Query syntax
 
 Here is a brief overview of the supported query syntax (see also [query fields for UniProtKB](https://www.uniprot.org/help/query-fields) ):
 
@@ -38,7 +38,7 @@ To use characters that have a special meaning in the query syntax literally in y
 
 `+ - && || ! ( ) { } [ ] ^ " ~ * ? : \\`
 
-**Query builder**
+# Query builder
 
 You can also access [advanced search options](https://www.uniprot.org/help/advanced%5Fsearch) by clicking on *'Advanced'*, e.g. to restrict terms to specific fields in advance or to combine multiple terms using boolean logic. Depending on the chosen data set and field, you can enter some text or choose values from various levels of drop-down lists. Then click the search button ("looking glass" icon) to run the query.
 
@@ -46,7 +46,7 @@ The advanced search interface allows to browse the different search fields and o
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/advanced_structure.png)
 
-See also:
+# See also
 
 -   [Search tips from our FAQ](https://www.uniprot.org/help/?query=section%3Afaq+AND+category%3A%22Text%20search%22)
 -   [UniProtKB tutorial/video](https://www.youtube.com/watch?v=ado1r8IDm3U)

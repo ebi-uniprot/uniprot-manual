@@ -5,13 +5,13 @@ categories: Technical,Programmatic_access,Text_search,help
 
 This documents lists the column names for programmatic (RESTful) access to tab-separated or Excel downloads of UniProtKB search results.
 
-See also:
+# See also
 
 -   [How can I access resources on this website programmatically?](https://www.uniprot.org/help/api)
 -   [Customize display options](https://www.uniprot.org/help/customize)
 -   [Customise and share your search results (UniProt blog)](https://insideuniprot.blogspot.com/2015/03/)
 
-### Names & Taxonomy
+# Names & Taxonomy
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -29,7 +29,7 @@ See also:
 | Taxonomic lineage                    | lineage(ALL)                     |
 | Virus hosts                          | virus hosts                      |
 
-### Sequences
+# Sequences
 
 | Column names as displayed on website | Column names as displayed in URL         |
 |:-------------------------------------|:-----------------------------------------|
@@ -57,7 +57,7 @@ See also:
 | Sequence uncertainty                 | feature(SEQUENCE UNCERTAINTY)            |
 | Sequence version                     | version(sequence)                        |
 
-### Function
+# Function
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -84,7 +84,7 @@ See also:
 | Site                                 | feature(SITE)                    |
 | Temperature dependence               | comment(TEMPERATURE DEPENDENCE)  |
 
-### Miscellaneous
+# Miscellaneous
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -98,14 +98,14 @@ See also:
 | Tools                                | tools                            |
 | Reviewed                             | reviewed                         |
 
-### Interaction
+# Interaction
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
 | Subunit structure \[CC\]             | comment(SUBUNIT)                 |
 | Interacts with                       | interactor                       |
 
-### Expression
+# Expression
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -113,7 +113,7 @@ See also:
 | Induction                            | comment(INDUCTION)               |
 | Tissue specificity                   | comment(TISSUE SPECIFICITY)      |
 
-### Gene Ontology (GO)
+# Gene Ontology (GO)
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -123,7 +123,7 @@ See also:
 | Gene ontology (cellular component)   | go(cellular component)           |
 | Gene ontology IDs                    | go-id                            |
 
-### Pathology & Biotech
+# Pathology & Biotech
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -134,7 +134,7 @@ See also:
 | Pharmaceutical use                   | comment(PHARMACEUTICAL)          |
 | Toxic dose                           | comment(TOXIC DOSE)              |
 
-### Subcellular location
+# Subcellular location
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -143,7 +143,7 @@ See also:
 | Topological domain                   | feature(TOPOLOGICAL DOMAIN)      |
 | Transmembrane                        | feature(TRANSMEMBRANE)           |
 
-### PTM / Processsing
+# PTM / Processsing
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -160,7 +160,7 @@ See also:
 | Signal peptide                       | feature(SIGNAL)                  |
 | Transit peptide                      | feature(TRANSIT)                 |
 
-### Structure
+# Structure
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -169,14 +169,14 @@ See also:
 | Helix                                | feature(HELIX)                   |
 | Turn                                 | feature(TURN)                    |
 
-### Publications
+# Publications
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
 | Mapped PubMed ID                     | citationmapping                  |
 | PubMed ID                            | citation                         |
 
-### Date of
+# Date of
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -185,7 +185,7 @@ See also:
 | Date of last sequence modification   | sequence-modified                |
 | Entry version                        | version(entry)                   |
 
-### Family & Domains
+# Family & Domains
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -200,7 +200,7 @@ See also:
 | Repeat                               | feature(REPEAT)                  |
 | Zinc finger                          | feature(ZINC FINGER)             |
 
-### Taxonomic lineage
+# Taxonomic lineage
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|
@@ -234,7 +234,7 @@ See also:
 | Taxonomic lineage (VARIETAS)         | lineage(VARIETAS)                |
 | Taxonomic lineage (FORMA)            | lineage(FORMA)                   |
 
-### Taxonomic identifier
+# Taxonomic identifier
 
 | Column names as displayed on website    | Column names as displayed in URL |
 |:----------------------------------------|:---------------------------------|
@@ -268,7 +268,7 @@ See also:
 | Taxonomic identifier (VARIETAS)         | lineage-id(VARIETAS)             |
 | Taxonomic identifier (FORMA)            | lineage-id(FORMA)                |
 
-### Cross-references
+# Cross-references
 
 | Column names as displayed on website | Column names as displayed in URL |
 |:-------------------------------------|:---------------------------------|

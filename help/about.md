@@ -13,11 +13,11 @@ EMBL-EBI and SIB together used to produce Swiss-Prot and TrEMBL, while PIR produ
 
 The UniProt consortium is headed by [Alex Bateman](https://www.uniprot.org/bateman), [Alan Bridge](https://www.uniprot.org/help/bridge) and [Cathy Wu](http://pir.georgetown.edu/pirwww/aboutpir/wubio.shtml), supported by [key staff](https://www.uniprot.org/help/key%5Fstaff), and receives valuable input from an independent [Scientific Advisory Board](https://www.uniprot.org/help/sab).
 
-#### Funding
+# Funding
 
 UniProt is supported by the [National Eye Institute (NEI)](https://nei.nih.gov/), [National Human Genome Research Institute (NHGRI)](http://www.genome.gov/), [National Heart, Lung, and Blood Institute (NHLBI)](https://www.nhlbi.nih.gov/), [National Institute on Aging (NIA)](https://www.nia.nih.gov/), [National Institute of Allergy and Infectious Diseases (NIAID)](https://www.niaid.nih.gov/), [National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)](https://www.niddk.nih.gov/), [National Institute of General Medical Sciences (NIGMS)](http://www.nigms.nih.gov/), [National Institute of Mental Health (NIMH)](https://www.nimh.nih.gov/), and [National Cancer Institute (NCI)](https://www.cancer.gov/) of the [National Institutes of Health (NIH)](http://www.nih.gov/) under grant U24HG007822. Additional support for the EMBL-EBI's involvement in UniProt comes from [European Molecular Biology Laboratory (EMBL)](http://www.embl.org/) core funds, the [Alzheimer's Research UK (ARUK)](https://www.alzheimersresearchuk.org/) grant ARUK-NAS2017A-1, the [Biotechnology and Biological Sciences Research Council (BBSRC)](https://bbsrc.ukri.org/) \[BB/T010541/1\] and [Open Targets](https://www.opentargets.org/). UniProt activities at the SIB are additionally supported by the Swiss Federal Government through the [State Secretariat for Education, Research and Innovation SERI](https://www.sbfi.admin.ch/sbfi/en/home.html). PIR's UniProt activities are also supported by the NIH grants R01GM080646, G08LM010720, and P20GM103446, and the [National Science Foundation (NSF)](http://www.nsf.gov/) grant DBI-1062520.
 
-#### Past funding
+# Past funding
 
 UniProt has been supported by the NIH grants U01HG02712 (2002-2010) and U41HG006104 (2010-2014).
 
@@ -27,14 +27,14 @@ UniProt activities at SIB have benefited from EC support through the FP6 FELICS 
 
 UniProt activities at PIR have benefited from NIH grants HHSN266200400061C (2004-2009), R01GM080646 (2007-2011), R01GM080646-04S2 (2009-2012), R01GM080646-07S1 (2012), and P20RR016472-09S2 (2009-2011), NSF grants DBI-0138188 (2002-2005) and IIS-0430743 (2004-2007), and UNIDEL Foundation award (2010-2012).
 
-#### Further information
+# Further information
 
 -   [The Universal Protein Resource](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/uniprot_flyer.pdf) printable reference card for the UniProt databases
 
 
 -   [How to cite us](https://www.uniprot.org/help/publications)
 
-#### Contact the UniProt consortium members
+# Contact the UniProt consortium members
 
 <img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/embl-logo.png" width=150 />
 
