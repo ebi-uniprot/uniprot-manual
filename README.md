@@ -37,14 +37,14 @@ Categories are used to group help articles, and are used to define filters in th
 
 ## Creating drafts
 
-1.  If the file already exists navigate to this within the browser (eg `help/Fungi.md`)
+1.  If the file already exists navigate to this within the browser (eg `help/fungi.md`)
 2.  Click the pencil icon to edit
 3.  Copy the text content
 4.  Within your browser navigate to the drafts directory
 5.  In the top right click `Add file` > `Create new file`
-6.  Name the file the same file which you've just copied (eg `drafts/Fungi.md`)
+6.  Name the file the same file which you've just copied (eg `drafts/fungi.md`)
 7.  Paste the text content. Update as you desire.
 8.  When you want to publish from the draft page click the pencil and copy the text content
-9.  Navigate back to the original file (eg `help/Fungi.md`)
+9.  Navigate back to the original file (eg `help/fungi.md`)
 10. Click the pencil icon and paste
 11. At the bottom of the page add a commit message (or use the suggested), leave as Commit directly to the `main` branch, and click Commit changes
