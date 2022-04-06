@@ -15,7 +15,7 @@ Please click on the links below for documentation for the specific topics, inclu
 -   [Retrieving entries via queries](https://www.uniprot.org/help/api_queries)
 -   [UniProtKB query fields](https://www.uniprot.org/help/query-fields)
 -   [UniProtKB return fields](https://www.uniprot.org/help/return_fields)
--   [Mapping database identifiers (cf. "Retrieve/ID mapping")](https://www.uniprot.org/help/id-mapping)
+-   [Mapping database identifiers (cf. "Retrieve/ID mapping")](https://www.uniprot.org/help/id_mapping)
 -   [HTTP Statuses from the REST API](https://www.uniprot.org/help/rest-api-headers)
 
 Related terms: programmatic access, program, script, wget, curl, web services, API, uploadlists
