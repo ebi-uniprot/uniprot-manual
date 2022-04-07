@@ -46,5 +46,5 @@ Archived versions of a UniProtKB entry are accessible through the *Previous vers
 
 -   [How to cite UniProt](https://www.uniprot.org/help/publications)
 -   [Submissions and updates to UniProtKB](https://www.uniprot.org/help/submissions)
--   [UniProtKB entry view manual](https://www.uniprot.org/manual)
+-   [UniProtKB entry view manual](https://www.uniprot.org/help?facets=category:manual)
 -   [Printable Quick Guide to UniProtKB](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/uniprotkb_quickguide.pdf)
