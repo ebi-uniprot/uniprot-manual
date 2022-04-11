@@ -15,9 +15,7 @@ The annotation score is computed in the following way:
 
 The open-ended interval obtained for these absolute numbers is translated into a **5-point-system**
 
-by splitting it into 5 sub-intervals. Scores in the first interval are represented by "1 point out of 5"
-
-, those in the second by "2 points out of 5", etc. An annotation score of 5 points is therefore associated with the best-annotated entries, and a 1-point-score denotes an entry with rather basic annotation.
+by splitting it into 5 sub-intervals. Scores in the first interval are represented by "1 point out of 5", those in the second by "2 points out of 5", etc. An annotation score of 5 points is therefore associated with the best-annotated entries, and a 1-point-score denotes an entry with rather basic annotation.
 
 There are several contexts in which annotation scores can be used:
 
