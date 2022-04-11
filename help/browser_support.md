@@ -14,4 +14,4 @@ We recommend to use one of the following major web browsers for the UniProt webs
 
 We currently also support Internet Explorer. A small and constantly decreasing proportion of our users is using Internet Explorer, and we may therefore phase out support for this browser. See [Lifecycle FAQ - Internet Explorer and Edge](https://docs.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge).
 
-Please note that for older versions of these browsers certain features of the website may not be available (you can check [here](https://whatismybrowser.org/) which browser version you are using).
+Please note that for older versions of these browsers certain features of the website may not be available (you can check [here](https://www.whatismybrowser.com/) which browser version you are using).
