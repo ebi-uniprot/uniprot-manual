@@ -78,4 +78,4 @@ Examples: [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm_processing), [P1
 
 We only annotate glycation when there is experimental [evidence](https://www.uniprot.org/help/evidences). Further information regarding the effect of glycation can be found in the ['Post-translational modification'](https://www.uniprot.org/help/post-translational_modification) subsection.
 
-See also: [Evidence](https://www.uniprot.org/help/evidences), [Modified residue](https://www.uniprot.org/help/mod_res), [lipidation](https://www.uniprot.org/help/lipid), [Post-translational modifications](https://www.uniprot.org/help/post-translational%5Fmodification)
+See also: [Evidence](https://www.uniprot.org/help/evidences), [Modified residue](https://www.uniprot.org/help/mod_res), [Lipidation](https://www.uniprot.org/help/lipid), [Post-translational modifications](https://www.uniprot.org/help/post-translational%5Fmodification)
