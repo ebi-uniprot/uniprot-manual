@@ -1,6 +1,6 @@
 # uniprot-manual
 
-UniProt help content is generated from the markdown files contained within this GitHub repository. Once a page has been added/updated they should be available in the [help section](https://beta.uniprot.org/help) of the website within a few minutes.
+UniProt help content is generated from the markdown files contained within this GitHub repository. Once a page has been added/updated they should be available in the [help section](https://www.uniprot.org/help) of the website within a few minutes.
 
 ## Adding a new page
 

@@ -97,7 +97,7 @@ You have the right to:
 4. Object at any time to the processing of your personal data unless we can demonstrate that we have legitimate reasons to process your personal data.
 5. Request free of charge and without excessive delay rectification or erasure of your personal data if we have not been processing it respecting the data protection policies of the respective controllers.
 
-Requests and objections can be sent to our [helpdesk](https://beta.uniprot.org/contact).
+Requests and objections can be sent to our [helpdesk](https://www.uniprot.org/contact).
 
 It must be clarified that rights 4 and 5 are only available whenever the processing of your personal data is not necessary to:
 

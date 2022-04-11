@@ -3,10 +3,10 @@ title: Programmatic access - Retrieving entries via queries
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Text_search,Technical,help
 ---
 
-You can use any query to define the set of entries that you are interested in. It is perhaps simplest to start with an interactive [text search](https://beta.uniprot.org/help/text%2Dsearch) to find the URL for your set, e.g., all reviewed human entries:
+You can use any query to define the set of entries that you are interested in. It is perhaps simplest to start with an interactive [text search](https://www.uniprot.org/help/text%2Dsearch) to find the URL for your set, e.g., all reviewed human entries:
       
 ```bash
-https://beta.uniprot.org/uniprot?query=reviewed:true+AND+organism_id:9606
+https://www.uniprot.org/uniprot?query=reviewed:true+AND+organism_id:9606
 ```
 
 The data for the website is provided by our REST API. For the above example, the REST request is:
@@ -85,15 +85,15 @@ curl "https://rest.uniprot.org/beta/uniprotkb/search?query=human&format=gff"
 
 # Tips
 
-*   Familiarise oneself with the [advanced search builder](http://beta.uniprot.org/help/advanced%5Fsearch) by clicking on **Advanced**.
-*   Click [Customize data](http://beta.uniprot.org/help/customize) on the search results page to select the columns to show in the results table.
-*   You can also look up your relevant column names in the full list of [UniProtKB column names for programmatic access](http://beta.uniprot.org/help/uniprotkb%5Fcolumn%5Fnames).
+*   Familiarise oneself with the [advanced search builder](http://www.uniprot.org/help/advanced%5Fsearch) by clicking on **Advanced**.
+*   Click [Customize data](http://www.uniprot.org/help/customize) on the search results page to select the columns to show in the results table.
+*   You can also look up your relevant column names in the full list of [UniProtKB column names for programmatic access](http://www.uniprot.org/help/uniprotkb%5Fcolumn%5Fnames).
 
 The URL for a query result consists of a data set name (e.g. `uniprot`, `uniref`, `uniparc`, `taxonomy`,...) and the actual query. The following query parameters are supported:
           
 |Parameter|Values|Description|
 |---------|------|-----------|
-|`query`|_string_| See [query syntax](https://www.uniprot.org/help/text-search) <br> and [query fields for UniProtKB](http://beta.uniprot.org/help/query-fields). <br>An empty query string will retrieve all entries in a data set. **Tip:** Refine your search by clicking **Advanced** in the search bar.|
+|`query`|_string_| See [query syntax](https://www.uniprot.org/help/text-search) <br> and [query fields for UniProtKB](http://www.uniprot.org/help/query-fields). <br>An empty query string will retrieve all entries in a data set. **Tip:** Refine your search by clicking **Advanced** in the search bar.|
 |`format`|See section, "What formats are available?"|See section, "What formats are available?"|
 |`fields`|comma-separated list of column names|Columns to retrieve in the results. Applies to `tsv`, `xslx` and `json` formats only. Please refer to [our API documentation](https://rest.uniprot.org/beta/docs/) for all return fields available, for all data-sets. <br>(For UniProtKB you can also read the [full list of UniProtKB column names](https://www.uniprot.org/help/uniprotkb_column_names)).|
 |`includeIsoform`|`true` or `false`|Whether or not to include isoforms in the search results. *Note:* Only applies to UniProtKB searches.|

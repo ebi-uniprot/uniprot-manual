@@ -36,7 +36,7 @@ You can download entries in various formats and you can also save them for later
 ![](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/Find%20your%20protein_7.png?raw=true)
 
 For more help on how to use UniProt:
-* visit our [Help center](https://beta.uniprot.org/help)
+* visit our [Help center](https://www.uniprot.org/help)
 * watch our [video tutorials](https://www.youtube.com/c/uniprotvideos/videos)
 * sign up for [courses](https://www.ebi.ac.uk/training/search-results?query=uniprot&domain=ebiweb_training&page=1&facets=)
 * or [contact us](https://www.uniprot.org/contact) directly.

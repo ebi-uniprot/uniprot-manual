@@ -4,7 +4,7 @@ categories: Text_search,Technical,Website,help
 ---
 
 To explore and try out the ID Mapping services, please refer to:
-* The [ID Mapping website tool](http://beta.uniprot.org/id-mapping)
+* The [ID Mapping website tool](http://www.uniprot.org/id-mapping)
 * Our interactive [API documentation](https://rest.uniprot.org/beta/docs/?urls.primaryName=idmapping)
 
 # Overview
@@ -182,7 +182,7 @@ The value of `groupName` is used by website user-interface to group together rel
 like EMBL/GenBank/DDBJ.
 
 Each item in the `items` array has the following attributes:
-- displayName : Used by the [website user-interface](https://beta.uniprot.org/id-mapping). It is not used in subsequent 
+- displayName : Used by the [website user-interface](https://www.uniprot.org/id-mapping). It is not used in subsequent 
 API calls.
 - name : Name of `from` or `to` database to be passed in the API request.
 - from: Boolean flag indicating whether `name` can be used as a `from` database. Defaults to false.

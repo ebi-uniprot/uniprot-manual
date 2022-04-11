@@ -16,7 +16,7 @@ In addition to translated CDS, UniProtKB protein sequences may come from:
 
 Importing and combining sequences from a range of sources means that UniProt provides a complete collection of protein sequences and contributes to consistency of protein sets across various sequence resources.
 
-UniParc is designed to capture all publicly available protein sequence data and contains all the protein sequences from the main publicly available protein sequence databases. A complete [list of the source databases](https://beta.uniprot.org/help/uniparc) is available on the UniProt website.
+UniParc is designed to capture all publicly available protein sequence data and contains all the protein sequences from the main publicly available protein sequence databases. A complete [list of the source databases](https://www.uniprot.org/help/uniparc) is available on the UniProt website.
 
 UniRef provides clustered sets of sequences from UniProtKB and selected UniParc records.
 
@@ -29,16 +29,16 @@ Curation methods applied include:
 * mining and integration of large-scale data sets
 * continuous updating as new information becomes available
 
-You can find more information about the [manual curation](https://beta.uniprot.org/help/manual_curation) process on the UniProt website.
+You can find more information about the [manual curation](https://www.uniprot.org/help/manual_curation) process on the UniProt website.
 
 UniProt has developed two prediction systems to automatically annotate UniProtKB/TrEMBL in a scalable manner with a high degree of accuracy:
 1. UniRule is a collection of manually curated annotation rules which define annotations that can be propagated based on specific conditions
 2. The Statistical Automatic Annotation System (SAAS) is an automatic decision-tree based rule-generating system
 
-You can find out more information about the [automatic annotation pipeline](https://beta.uniprot.org/help/automatic_annotation) on the UniProt website.
+You can find out more information about the [automatic annotation pipeline](https://www.uniprot.org/help/automatic_annotation) on the UniProt website.
 
 For more help on how to use UniProt:
-* visit our [Help center](https://beta.uniprot.org/help)
+* visit our [Help center](https://www.uniprot.org/help)
 * watch our [video tutorials](https://www.youtube.com/c/uniprotvideos/videos)
 * sign up for [courses](https://www.ebi.ac.uk/training/search-results?query=uniprot&domain=ebiweb_training&page=1&facets=)
 * or [contact us](https://www.uniprot.org/contact) directly.

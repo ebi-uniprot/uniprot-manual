@@ -30,7 +30,7 @@ You can download the proteome in various formats.
 
 
 For more help on how to use UniProt:
-* visit our [Help center](https://beta.uniprot.org/help)
+* visit our [Help center](https://www.uniprot.org/help)
 * watch our [video tutorials](https://www.youtube.com/c/uniprotvideos/videos)
 * sign up for [courses](https://www.ebi.ac.uk/training/search-results?query=uniprot&domain=ebiweb_training&page=1&facets=)
 * or [contact us](https://www.uniprot.org/contact) directly.

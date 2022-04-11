@@ -33,7 +33,7 @@ We can now see that our feature coincides with the peak in the Variants, so we c
 We find Variants colour-coded to indicate the involvement with the disease. You can click on them to see more details including the evidence source. The Variants view maps all variants on a matrix with the sequence position on the x axis and the possible amino acid changes on the y axis. You can filter the variants to see only UniProt reviewed data using filters on the left hand-side. 
 
 For more help on how to use UniProt:
-* visit our [Help center](https://beta.uniprot.org/help)
+* visit our [Help center](https://www.uniprot.org/help)
 * watch our [video tutorials](https://www.youtube.com/c/uniprotvideos/videos)
 * sign up for [courses](https://www.ebi.ac.uk/training/search-results?query=uniprot&domain=ebiweb_training&page=1&facets=)
 * or [contact us](https://www.uniprot.org/contact) directly.
