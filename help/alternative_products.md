@@ -9,12 +9,12 @@ In addition to expertly curated isoforms, present in reviewed entries only, this
 
 The following text refers to expert-curated isoforms in reviewed entries, i.e. in UniProtKB/Swiss-Prot.
 
-# 1. General information {\#1\_\_General\_information}
+# 1. General information
 
 We give the number of alternative protein sequences described in the entry and the biological event(s) which lead to the production of these isoforms (alternative promoter usage, alternative splicing, alternative initiation and/or ribosomal frameshifting). Additional information is provided, if available.  
 Example: [P04150](https://www.uniprot.org/uniprotkb/P04150#sequences)
 
-# 2. Isoform-specific information {\#2\_\_Isoform\_specific\_information}
+# 2. Isoform-specific information
 
 For each isoform, we provide the following information:
 

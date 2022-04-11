@@ -25,7 +25,7 @@ We annotate the following types of glycosylation:
 -   S-linked glycosylation
 -   Glycation
 
-# 1. N-linked glycosylation {\#1\_\_N\_linked\_glycosylation}
+# 1. N-linked glycosylation
 
 N-linked glycosylation refers to the attachment of oligosaccharides to a nitrogen atom, usually the N4 of asparagine residues. N-glycosylation occurs on secreted or membrane bound proteins, mainly in eukaryotes and archaea - most bacteria do not carry out this modification. In eukaryotes, N-glycosylation begins as a co-translational event in the endoplasmic reticulum, where preassembled blocks of 14 sugars (including 2 N-acetylglucosamines, 9 mannoses and 3 glucoses) are first added to the nascent polypeptide chain. After cleavage of 3 glucose and 1 mannose residues, the protein is transferred to the Golgi apparatus where the glycans lose a variable number of mannose residues and acquire a more complex structure during a process called 'terminal glycosylation'.
 
@@ -44,7 +44,7 @@ The consensus sequence for N-glycosylation is Asn-Xaa-Ser/Thr (where Xaa is not 
 (for non-mammalian entries). The PROSITE pattern is also applied to mammalian entries when NetNGlyc returns a negative prediction for a protein known to contain N-glycosylated sites. Predicted sites are only annotated in regions of proteins that are known or predicted to be extracellular, and are tagged as 'Sequence Analysis' (Sequence model). In general, we avoid propagating N-glycosylation sites 'By similarity' to related proteins.  
 Example: [Q94BT2](https://www.uniprot.org/uniprotkb/Q94BT2#ptm_processing)
 
-# 2. O-linked glycosylation {\#2\_\_O\_linked\_glycosylation}
+# 2. O-linked glycosylation
 
 O-linked glycosylation of secreted and membrane bound proteins is a post-translational event that takes place in the cis-Golgi compartment after N-glycosylation and folding of the protein. It refers to the attachment of glycans to serine and threonine, and, to a lesser extent, to hydroxyproline and hydroxylysine. O-linked glycans play important roles in protein localization and trafficking, protein solubility, antigenicity and cell-cell interactions.
 
@@ -59,19 +59,19 @@ Example: [P02488](https://www.uniprot.org/uniprotkb/P02488#ptm_processing)
 
 We annotate experimentally identified O-glycosylation sites and predicted mucin-type O-glycosylation sites identified by the 'NetOGlyc' predictor. Predicted sites are only annotated in regions of proteins that are known or predicted to be extracellular and where mucin-type O-glycosylation has been observed, but the exact site is unknown.
 
-# 3. C-linked glycosylation {\#3\_\_C\_linked\_glycosylation}
+# 3. C-linked glycosylation
 
 C-linked glycosylation refers to the covalent attachment of a mannose residue to a tryptophan residue within an extracellular protein. Two recognition signals for C-mannosylation have been proposed: W-X-X-W (in which the first or both tryptophan residues become mannosylated), and W-S/T-X-C.  
 Example: [P13671](https://www.uniprot.org/uniprotkb/P13671#ptm_processing)
 
 We only annotate C-linked glycosylation when there is experimental [evidence](https://www.uniprot.org/help/evidences) for the modification.
 
-# 4. S-linked glycosylation {\#4\_\_S\_linked\_glycosylation}
+# 4. S-linked glycosylation
 
 S-linked glycosylation refers to the attachment of oligosaccharides to the sulfur atom of the cysteine. This modification seems to be extremely rare in comparison to other glycosylation events and was first seen in human and bacterial peptides.  
 Example: [P19827](https://www.uniprot.org/uniprotkb/P19827#ptm%5Fprocessing)
 
-# 5. Glycation {\#5\_\_Glycation}
+# 5. Glycation
 
 Glycation refers to the non-enzymatic attachment of reducing sugars to the nitrogen atoms of proteins (both to the N-terminus and to lysine and histidine side chains). This modification is also known as the "Maillard" reaction. Over time, the sugar moieties bound to glycated proteins are gradually modified to become Advanced Glycation Endproducts (AGEs), some of which are implicated in a variety of diseases, such as type II diabetes mellitus, cancer, atherosclerosis, Alzheimer disease and Parkinson disease.  
 Examples: [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm_processing), [P10636](https://www.uniprot.org/uniprotkb/P10636#ptm_processing)

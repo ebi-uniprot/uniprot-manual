@@ -7,7 +7,7 @@ This subsection of the [Function](https://www.uniprot.org/help/function%5Fsectio
 
 We annotate experimentally defined DNA-binding domains and conserved DNA-binding domains defined by the InterPro resources PROSITE, Pfam and SMART; examples include the AP2/ERF domain, the ETS domain, the Fork-Head domain, the HMG box and the Myb domain.
 
-# 1. Predicted DNA-binding domains {\#1\_\_Predicted\_DNA\_binding\_domains}
+# 1. Predicted DNA-binding domains
 
 Examples: [P10103](https://www.uniprot.org/uniprotkb/P10103#function), [P46200](https://www.uniprot.org/uniprotkb/P46200#function), [Q9SGJ6](https://www.uniprot.org/uniprotkb/Q9SGJ6#function), [P14921](https://www.uniprot.org/uniprotkb/P14921#function), [P55317](https://www.uniprot.org/uniprotkb/P55317#function), [P30658](https://www.uniprot.org/uniprotkb/P30658#function)
 
@@ -31,7 +31,7 @@ Examples: [Q9H2P0](https://www.uniprot.org/uniprotkb/Q9H2P0#function), [O81788](
 When a particular homeobox is incomplete or differs significantly from the consensus it may be annotated as either 'partial' or 'atypical'.  
 Examples: [Q6WRX8](https://www.uniprot.org/uniprotkb/Q6WRX8#function), [Q8MJD5](https://www.uniprot.org/uniprotkb/Q8MJD5#function)
 
-# 2. Experimentally determined DNA-binding domains {\#2\_\_Experimentally\_determined\_DNA\_binding\_domains}
+# 2. Experimentally determined DNA-binding domains
 
 When a DNA-binding domain has been identified experimentally but does not correspond to a domain modelled by an InterPro resource, then the simple fact of the existence of the domain is indicated but no particular description is provided.  
 Example: [P13574](https://www.uniprot.org/uniprotkb/P13574#function)

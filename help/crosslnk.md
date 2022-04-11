@@ -9,7 +9,7 @@ Interchain cross-links are involved in the formation of covalently linked protei
 
 For each cross-link, we specify the name of the conjugate and the identity of the two amino acids involved in the 'Description' field. There is a strict controlled vocabulary for the description of cross-link types.
 
-# 1. Intrachain cross-links {\#1\_\_Intrachain\_cross\_links}
+# 1. Intrachain cross-links
 
 For intrachain cross-links, we cite the amino acids involved in their order of appearance in the sequence.  
 Examples: [P36503](https://www.uniprot.org/uniprotkb/P36503#ptm_processing), [P36499](https://www.uniprot.org/uniprotkb/P36499#ptm_processing)
@@ -17,7 +17,7 @@ Examples: [P36503](https://www.uniprot.org/uniprotkb/P36503#ptm_processing), [P3
 Note that the intrachain cross-link of the C-terminus with the N-terminus results in the formation of a cyclopeptide:  
 Example: [O07623](https://www.uniprot.org/uniprotkb/O07623#ptm_processing)
 
-# 2. Interchain cross-links {\#2\_\_Interchain\_cross\_links}
+# 2. Interchain cross-links
 
 For interchain cross-links we give the identity of the two amino acids involved, the amino acid in the partner protein cited in second position. We also indicate that the linkage is interchain and provide the name of the partner protein.  
 Examples: [P16893](https://www.uniprot.org/uniprotkb/P16893#ptm_processing), [P08697](https://www.uniprot.org/uniprotkb/P08697#ptm_processing), [P02671](https://www.uniprot.org/uniprotkb/P02671#ptm_processing)
@@ -31,7 +31,7 @@ Example: [P02679](https://www.uniprot.org/uniprotkb/P02679#ptm_processing)
 
 Cross-links formed between two proteolytically generated parts of the same protein are annotated as interchain. The identities of the two chains are indicated in the 'Description' field using the syntax 'between chain A and chain B'.
 
-# 3. Other common cross-links {\#3\_\_Other\_common\_cross\_links}
+# 3. Other common cross-links
 
 -   Ubiquitin-like (Ubl) conjugation
 -   Transglutamination

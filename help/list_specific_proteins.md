@@ -3,7 +3,7 @@ title: Lists of specific protein families
 categories: Biocuration,Family_and_domains,help
 ---
 
-# 7-transmembrane G-linked receptors {\#7\_transmembrane\_G\_linked\_receptors}
+# 7-transmembrane G-linked receptors
 
 7-transmembrane G-linked receptors (also known as G protein coupled receptors (GPCRs), seven-transmembrane domain receptors, 7TM receptors, heptahelical receptors, serpentine receptor and G protein-linked receptors (GPLR)) constitute a large protein family of receptors that sense molecules outside the cell and activate inside signal transduction pathways and cellular responses.
 

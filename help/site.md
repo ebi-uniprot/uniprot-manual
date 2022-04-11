@@ -9,7 +9,7 @@ Examples: [P00451](https://www.uniprot.org/uniprotkb/P00451), [Q10471](https://w
 
 The 'Site' subsection is frequently used for:
 
-# 1. Cleavage sites {\#1\_\_Cleavage\_sites}
+# 1. Cleavage sites
 
 Example: [P09884](https://www.uniprot.org/uniprotkb/P09884)
 
@@ -21,7 +21,7 @@ Example: [Q02936](https://www.uniprot.org/uniprotkb/Q02936)
 
 Related keyword: [Autocatalytic cleavage](https://www.uniprot.org/keywords/68)
 
-# 2. Inhibitory sites for proteases {\#2\_\_Inhibitory\_sites\_for\_proteases}
+# 2. Inhibitory sites for proteases
 
 Example: [P00995](https://www.uniprot.org/uniprotkb/P00995)
 
@@ -30,7 +30,7 @@ Example: [P01070](https://www.uniprot.org/uniprotkb/P01070)
 
 Related keyword: [Protease inhibitor](https://www.uniprot.org/keywords/646)
 
-# 3. Breakpoint sites for fusion proteins due to chromosomal rearrangement {\#3\_\_Breakpoint\_sites\_for\_fusion\_proteins\_due\_to\_chromosomal\_rearrangement}
+# 3. Breakpoint sites for fusion proteins due to chromosomal rearrangement
 
 Example: [Q9UDY8](https://www.uniprot.org/uniprotkb/Q9UDY8)
 

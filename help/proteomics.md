@@ -7,7 +7,7 @@ Data from high-throughput proteomics experiments constitute a rich potential sou
 
 The pipelines are re-run at every UniProt release to take into account new and modified sequences in UniProtKB.
 
-# 1. Data from public mass spectrometry-based proteomics resources {\#1\_\_Data\_from\_public\_mass\_spectrometry\_based\_proteomics\_resources}
+# 1. Data from public mass spectrometry-based proteomics resources
 
 UniProt has developed a pipeline to analyze data sets from selected public mass spectrometry-based proteomics resources (currently MaxQB, PeptideAtlas and EPD). These resources provide tools for processing sequence and spectral data from publicly deposited proteomics experiments and UniProt bioinformaticians with expertise in proteomics work collaboratively with them to identify high-quality peptides, using well-defined quality metrics, that are then extracted by the pipeline and mapped to UniProtKB sequences.  
 An unreviewed UniProtKB (TrEMBL) entry whose gene is uniquely identified by a peptide is annotated with the keyword [Proteomics identification](https://www.uniprot.org/keywords/KW-1267), and the [Protein existence level](https://www.uniprot.org/help/protein%5Fexistence) is set to 'Experimental evidence at protein level'.
@@ -16,7 +16,7 @@ Because this pipeline is not based on data curated from the scientific literatur
 
 UniProtKB entries also cross-reference the proteomics resources that are used by our pipeline. These cross-reference are compiled by these resources and may include links to peptides that map to several genes. For this reason and different update cycles it is possible that a UniProtKB entry has cross-references to a proteomics resource, but is not annotated with the keyword [Proteomics identification](https://www.uniprot.org/keywords/KW-1267) and vice-versa.
 
-# 2. Mass spectrometry-based proteomics data from the scientific literature {\#2\_\_Mass\_spectrometry\_based\_proteomics\_data\_from\_the\_scientific\_literature}
+# 2. Mass spectrometry-based proteomics data from the scientific literature
 
 UniProt has also developed a pipeline for the integration of proteomics data in UniProtKB that is used to process data from the scientific literature that meets the criteria for UniProt manual curation. Curators with expertise in proteomics evaluate first whether a publication of interest is compliant with the [MIAPE](http://www.psidev.info/node/91) (Minimum Information About a Proteomics Experiment) standard for reporting proteomics experiments, providing access to the raw data and the associated metadata. The relevance of the scientific articles and the methods used, such as the precision of the instruments, the peptide identification software used, the selection cut-off values and the post-processing methods are also reviewed. After this evaluation step, the pipeline extracts the experimental peptide sequences and metadata from the publication, filters the peptides according to the criteria given by the curator and maps them to UniProtKB sequences. The pipeline also checks the biological relevance of PTMs (e.g. a phosphorylation site should not be located in a transmembrane region). The UniProtKB entries that are annotated by this pipeline cite the publication from which the data was extracted with scopes such as
 

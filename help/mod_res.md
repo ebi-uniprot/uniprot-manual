@@ -44,7 +44,7 @@ Examples: [Q10471](https://www.uniprot.org/uniprotkb/Q10471#ptm_processing), [P6
 
 Here is an example of a feature where the identity of the amino acid is unknown (an X is shown at this position in the sequence) and the only information concerning the modification is that the N-terminus is blocked: [P80979](https://www.uniprot.org/uniprotkb/P80979#ptm%5Fprocessing) (Blocked amino end (Xaa)).
 
-# 1. Phosphorylation {\#1\_\_Phosphorylation}
+# 1. Phosphorylation
 
 Phosphorylation refers to the transfer of a gamma-phosphate to an amino acid. It is a key mechanism for signaling in both eukaryotic and prokaryotic cells. It can occur on a number of cytoplasmic and nuclear residues, i.e. on the hydroxyl group of serine, threonine or tyrosine, on the nitrogen of arginine, histidine or lysine, on the carboxyl group of aspartate, or on the sulfhydryl group of cysteine.
 
@@ -68,7 +68,7 @@ Example: [P04042](https://www.uniprot.org/uniprotkb/P04042#ptm_processing)
 
 We annotate experimentally determined phosphorylation sites and transfer this information to related orthologs as described. We do not annotate predicted phosphorylation sites. When transferring annotation regarding phosphorylation, we do not usually specify the kinase responsible in the orthologous entry, except when the modification is part of a precise, well-studied transduction pathway. For phosphohistidine, we propagate the position of the phosphorylated nitrogen atom.
 
-# 2. Methylation {\#2\_\_Methylation}
+# 2. Methylation
 
 Cytoplasmic and nuclear proteins can be enzymatically modified in several ways by the addition of methyl groups from S-adenosylmethionine. Methylation reactions occurring on carboxyl groups can be reversible and modulate the activity of the target protein, while those on nitrogen atoms at the N-terminus and on side-chains are usually irreversible.
 
@@ -118,7 +118,7 @@ Examples: [Q07666](https://www.uniprot.org/uniprotkb/Q07666#ptm_processing), [P1
 
 Examples: [P00318](https://www.uniprot.org/uniprotkb/P00318#ptm_processing), [P0A287](https://www.uniprot.org/uniprotkb/P0A287#ptm_processing)
 
-# 3. Acetylation {\#3\_\_Acetylation}
+# 3. Acetylation
 
 We annotate both N-terminal acetylation and acetylation on internal residues.
 
@@ -142,7 +142,7 @@ We annotate experimentally determined sites of internal acetylation and propagat
 
 Examples: [P0C0S9](https://www.uniprot.org/uniprotkb/P0C0S9#ptm_processing), [Q12158](https://www.uniprot.org/uniprotkb/Q12158#ptm_processing), [Q9NHD5](https://www.uniprot.org/uniprotkb/Q9NHD5#ptm_processing), [Q8ZKF6](https://www.uniprot.org/uniprotkb/Q8ZKF6#ptm_processing), [Q88EH6](https://www.uniprot.org/uniprotkb/Q88EH6#ptm_processing)
 
-# 4. Amidation {\#4\_\_Amidation}
+# 4. Amidation
 
 The C-terminus of secreted proteins is often modified by cleavage between the amino group and the alpha carbon of a C-terminal glycine, resulting in the amidation of the precedent amino acid. This modification protects the C-terminus from degradation by proteases. Amidated proteins contain a signal peptide and are often processed prior to amidation in order to expose a glycine at C-terminus. Amidation has been observed in eukaryotes including mammals, non-mammalian vertebrates and insects, but not in plants.
 
@@ -162,7 +162,7 @@ Examples: [P69148](https://www.uniprot.org/uniprotkb/P69148#ptm_processing), [P8
 
 Example: [P20481](https://www.uniprot.org/uniprotkb/P20481#ptm_processing)
 
-# 5. Pyrrolidone carboxylic acid {\#5\_\_Pyrrolidone\_carboxylic\_acid}
+# 5. Pyrrolidone carboxylic acid
 
 The N-terminal glutamine of extracellular and multi-pass membrane proteins can be modified by cyclization of the glutamine via condensation of the alpha-amino group with the side-chain carboxyl group. Modified proteins show an increased half-life. Modified proteins of this type cannot be sequenced by the Edman method, they are blocked.
 
@@ -180,7 +180,7 @@ We annotate experimentally identified pyrrolidone carboxylic acid modifications,
 
 Example: [P12111](https://www.uniprot.org/uniprotkb/P12111#ptm_processing)
 
-# 6. Isomerization {\#6\_\_Isomerization}
+# 6. Isomerization
 
 In the translation process, only L-amino acids are incorporated into nascent polypeptides by the ribosomes. However, a variety of amino acids in secreted peptides are post-translationally converted to the D-form, probably via a deprotonation-reprotonation mechanism at the alpha-carbon. This modification has a strong effect on protein conformation and thus on protein activity and interactions. This modification has been found in secreted neuropeptides, toxins and hormones from molluscs, frogs, crustaceans, arachnids, and in bacterial lantibiotics. Synonyms: racemization, epimerisation, stereoinversion.
 
@@ -199,7 +199,7 @@ Example: [P29006](https://www.uniprot.org/uniprotkb/P29006#ptm_processing)
 When D-amino acids are found as partners of a cross-link, it is indicated in the 'Cross-link' subsection.  
 Examples: [P08136](https://www.uniprot.org/uniprotkb/P08136#ptm_processing), [O07623](https://www.uniprot.org/uniprotkb/O07623#ptm_processing)
 
-# 7. Hydroxylation {\#7\_\_Hydroxylation}
+# 7. Hydroxylation
 
 The modified amino acids are generally extracellular (secreted proteins, extracellular matrix proteins, multi-pass membrane proteins).
 
@@ -243,7 +243,7 @@ Examples: [O18495](https://www.uniprot.org/uniprotkb/O18495#ptm_processing), [Q2
 
 Examples: [Q8CG16](https://www.uniprot.org/uniprotkb/Q8CG16#ptm_processing), [O88278](https://www.uniprot.org/uniprotkb/O88278#ptm_processing)
 
-# 8. Sulfation {\#8\_\_Sulfation}
+# 8. Sulfation
 
 Extracellular tyrosines of secreted and multi-pass membrane proteins can  
 be modified by the addition of a sulfate group. Cytoplasmic serine and threonine residues can also undergo sulfation, although very rarely. Although the function of this modification has not yet been fully elucidated, it may serve to enhance protein stability and modulate protein-protein interactions. When carbohydrates attached to proteins are sulfated, we indicate this fact in the ' [Post-translational modification](https://www.uniprot.org/help/post-translational_modification) ' subsection. Sulfation has been observed in eukaryotes only.
@@ -263,7 +263,7 @@ Examples: [Q01974](https://www.uniprot.org/uniprotkb/Q01974#ptm_processing), [Q8
 We annotate not only experimentally determined sites of tyrosine sulfation (as well as that on serine and threonine residues), but also tyrosine sulfation sites predicted with the ['Sulfinator'](http://web.expasy.org/sulfinator/) tool. Sulfation prediction is taken into account only when this modification is known to occur on the protein concerned but the exact site is not known. The annotation of a predicted site is flagged with 'Sequence Analysis' (Sequence Model).  
 Example: [P30443](https://www.uniprot.org/uniprotkb/P30443#ptm_processing)
 
-# 9. Flavin-binding {\#9\_\_Flavin\_binding}
+# 9. Flavin-binding
 
 Enzymes involved in electron transport, oxidation and reduction often contain a flavin group (flavin mononucleotide \[FMN\]) or flavin adenine dinucleotide \[FAD\]) as a cofactor. When the cofactor is covalently bound to the protein, this is considered as a post-translational modification and is annotated in the 'Amino acid modifications' subsection. When the cofactor is not covalently bound, the binding region is annotated in the ['Nucleotide binding'](https://www.uniprot.org/help/np%5Fbind) subsection. The flavin can be transferred to the hydroxyl group of a serine, threonine or tyrosine, to the one or the other nitrogen of a histidine or to the sulfhydryl group of a cysteine. Flavin-binding has been observed in all organisms.
 
@@ -271,7 +271,7 @@ Examples: [P21398](https://www.uniprot.org/uniprotkb/P21398#ptm%5Fprocessing), [
 
 Related keywords: [Flavoprotein](https://www.uniprot.org/keywords/285), [FAD](https://www.uniprot.org/keywords/274), [FMN](https://www.uniprot.org/keywords/288)
 
-# 10. Cysteine oxidation and nitrosylation {\#10\_\_Cysteine\_oxidation\_and\_nitrosylation}
+# 10. Cysteine oxidation and nitrosylation
 
 Sulfur occurs in many different oxidation states in biological systems. In response to mild oxidative stress, reactive oxygen and nitrogen species, such as peroxides, superoxide, nitric oxide or peroxinitrite, can oxidize cytoplasmic cysteines to cysteine sulfenic acid (-SOH), S-nitrosocysteine (-SNO) and sulfinic acid (-SO2H)(single, single and double oxidation state, respectively). These modifications can alter protein activity, protein-protein interactions, or protein stability.
 

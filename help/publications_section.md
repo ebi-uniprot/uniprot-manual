@@ -14,11 +14,11 @@ Example: [Q9XTY6](https://www.uniprot.org/uniprot/Q9XTY6/publications)
 
 These subsections are provided for the citations used to curate a UniProtKB/Swiss-Prot entry, and where possible, the same elements are also displayed for imported references in UniProtKB/TrEMBL as well as computationally mapped publications.
 
-# 1. Number {\#1\_\_Number}
+# 1. Number
 
 The reference number gives a sequential number to each reference citation in an entry. This number is used to link to the appropriate reference in the different subsections.
 
-# 2. Title {\#2\_\_Title}
+# 2. Title
 
 The title of the publication (or any other source) is cited as precisely as possible given the limitations of the computer character set.  
 Example: [Q21507](https://www.uniprot.org/uniprot/Q21507/publications)
@@ -31,7 +31,7 @@ The format of the title is not always identical to that found in the actual publ
 -   Titles of articles published in a language other than English have been translated into English;
 -   Greek letters are written in full (alpha, beta, etc.).
 
-# 3. Author(s) names {\#3\_\_Author\_s\_\_names}
+# 3. Author(s) names
 
 We list the author(s) names in the order given in the original publication.  
 Example: [P11071](https://www.uniprot.org/uniprot/P11071/publications)
@@ -46,7 +46,7 @@ We also try to be as consistent as possible with author(s) names: when an author
 In some cases, the name provided is actually the name of a consortium, and not of individual authors. That is mainly used for direct submissions to databases but can also be used in full references, when the consortium is cited as an author. Note that consortium and authors names may coexist in a single reference.  
 Examples: [Q7TQA9](https://www.uniprot.org/uniprot/Q7TQA9/publications), [O60260](https://www.uniprot.org/uniprot/O60260/publications)
 
-# 4. Reference information {\#4\_\_Reference\_information}
+# 4. Reference information
 
 The reference information contains the conventional citation information for the reference.
 
@@ -99,7 +99,7 @@ We report the data submitted to the following databases:
 
 Examples: [P50388](https://www.uniprot.org/uniprot/P50388/publications), [P83886](https://www.uniprot.org/uniprot/P83886/publications), [P38013](https://www.uniprot.org/uniprot/P38013/publications)
 
-# 5. Cross-references {\#5\_\_Cross\_references}
+# 5. Cross-references
 
 Cross-references from the 'References' section are optional. They indicate the identifier assigned to a specific reference in a bibliographic database and provide the link.
 
@@ -112,7 +112,7 @@ When present, it provides cross-references to:
 
 Examples: [P02675](https://www.uniprot.org/uniprot/P02675/publications), [Q10670](https://www.uniprot.org/uniprot/Q10670/publications), [Q9LFB2](https://www.uniprot.org/uniprot/Q9LFB2/publications), [Q3EDJ0](https://www.uniprot.org/uniprot/Q3EDJ0/publications)
 
-# 6. Cited for {\#6\_\_Cited\_for}
+# 6. Cited for
 
 The 'Cited for' indicates the type of information that was retrieved from a given reference and used to annotate the entry (sequence, protein-protein interaction, variants or mutations, PTMs and 3D structure, etc.).
 
@@ -141,7 +141,7 @@ Examples: [Q96BI3](https://www.uniprot.org/uniprot/Q96BI3/publications), [Q96EP1
 When 3D structure information has been retrieved from the reference, we indicate the method used and - for X-ray crystallography - the highest resolution, the range of the domain, and the structure that has been determined.  
 Examples: [P17427](https://www.uniprot.org/uniprot/P17427/publications), [P00831](https://www.uniprot.org/uniprot/P00831/publications)
 
-# 7. Sequence origin {\#7\_\_Sequence\_origin}
+# 7. Sequence origin
 
 The sequence origin is optional and indicates the strain(s), tissue(s), plasmid(s) and transposon(s) from which the sequence is derived.
 
@@ -174,13 +174,13 @@ Many bacterial or fungal strains have names composed of an acronym (ATCC, DSM, N
 | USDA    | U.S. Department of Agriculture; USA                                                                     |
 | UTEX    | Culture collection of Algae at the University of Texas at Austin; USA                                   |
 
-# <span id="additional_bibliography">Additional bibliography</span> {\#\_a\_name\_\_additional\_bibliography\_\_Additional\_bibliography\_\_a\_}
+# <span id="additional_bibliography">Additional bibliography</span>
 
 As a comprehensive and high-quality resource of protein sequence and functional information, UniProtKB strives to provide comprehensive literature citations associated with protein sequences and their characterization. Currently about 2 thirds of the UniProtKB PubMed citations are found in UniProtKB/Swiss-Prot, as a result of active integration in the course of manual curation.
 
 In order to keep up with the explosive growth of literature and to give our users access to additional publications, we decided to integrate additional sources of literature from other annotated databases into UniProtKB. For this purpose we selected a number external databases, e.g. Entrez Gene (GeneRIFs), SGD, MGI, GAD and PDB, and extracted citations that were mapped to UniProtKB entries. This additional protein bibliography information helps our users to better explore the existing knowledge of their proteins of interest.
 
-# <span id="community_bibliography">Community-submitted bibliography</span> {\#\_a\_name\_\_community\_bibliography\_\_Community\_submitted\_bibliography\_\_a\_}
+# <span id="community_bibliography">Community-submitted bibliography</span>
 
 UniProt users have always actively engaged with us and provide important feedback to the resource. The significant number of requests we receive through the helpdesk for articles and annotations to be added to protein entries prompted the development of the [Community submission](https://community.uniprot.org/bbsub/bbsub.html) pipeline ('Add a publication' link in the entry view), where researchers are able to add articles that they deem relevant to an entry and provide optional basic annotation by selecting the topics relevant to each paper from a controlled list and/or adding short statements about protein name, function, and disease, as described in the publication. Contributors are asked to supply their [ORCID](https://orcid.org/), a researcher personal ID, which is used to both validate that the submission is genuine and to give credit to the submitter for their work. Publications submitted in this manner are included, after a [synchronization delay](https://www.uniprot.org/help/synchronization), in the list of publications for the relevant entry.
 
