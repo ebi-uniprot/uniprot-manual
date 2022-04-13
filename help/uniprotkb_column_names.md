@@ -1,5 +1,6 @@
 ---
 title: UniProtKB column names for programmatic access
+type: help
 categories: Technical,Programmatic_access,Text_search,help
 ---
 

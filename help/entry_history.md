@@ -1,5 +1,6 @@
 ---
 title: Entry history
+type: help
 categories: Entry_information,manual
 ---
 

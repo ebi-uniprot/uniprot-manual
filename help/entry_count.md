@@ -1,5 +1,6 @@
 ---
 title: How can I (programmatically) obtain the number of results returned by my query?
+type: help
 categories: Programmatic_access,Text_search,Technical,faq
 ---
 

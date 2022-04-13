@@ -1,5 +1,6 @@
 ---
 title: Binding site
+type: help
 categories: Function,manual
 ---
 

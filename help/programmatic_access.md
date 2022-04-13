@@ -1,5 +1,6 @@
 ---
 title: Programmatic access
+type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Technical,help
 ---
 

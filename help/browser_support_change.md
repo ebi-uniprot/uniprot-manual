@@ -1,6 +1,7 @@
 
 ---
 title: Browser support change: End of support for Microsoft Internet Explorer
+type: help
 categories: changes
 ---
 

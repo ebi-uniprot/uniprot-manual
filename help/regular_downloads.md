@@ -1,5 +1,6 @@
 ---
 title: How can I download data at every UniProt release?
+type: help
 categories: UniProtKB,UniRef,UniParc,Download,Technical,Release,faq
 ---
 

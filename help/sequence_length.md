@@ -1,5 +1,6 @@
 ---
 title: Sequence length
+type: help
 categories: Sequence,manual
 ---
 

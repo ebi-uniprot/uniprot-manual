@@ -1,5 +1,6 @@
 ---
 title: Cross-references for isoform sequences
+type: help
 categories: UniProtKB,Cross-references,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Lists of specific protein families
+type: help
 categories: Biocuration,Family_and_domains,help
 ---
 

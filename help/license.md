@@ -1,5 +1,6 @@
 ---
 title: License & disclaimer
+type: help
 categories: About_UniProt,Technical,help
 ---
 

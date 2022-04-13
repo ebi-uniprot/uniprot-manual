@@ -1,5 +1,6 @@
 ---
 title: UniProtKB manual
+type: help
 categories: UniProtKB,Website,manual
 ---
 

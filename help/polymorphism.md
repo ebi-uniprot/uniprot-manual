@@ -1,5 +1,6 @@
 ---
 title: Polymorphism
+type: help
 categories: Sequence,manual
 ---
 

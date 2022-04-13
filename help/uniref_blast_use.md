@@ -1,5 +1,6 @@
 ---
 title: Why can it make sense to use UniRef for BLAST searches?
+type: help
 categories: faq
 ---
 

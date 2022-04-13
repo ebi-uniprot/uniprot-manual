@@ -1,5 +1,6 @@
 ---
 title: Disruption phenotype
+type: help
 categories: Pathology_and_biotech,manual
 ---
 

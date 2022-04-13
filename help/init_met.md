@@ -1,5 +1,6 @@
 ---
 title: Initiator methionine
+type: help
 categories: PTM_processing,manual
 ---
 

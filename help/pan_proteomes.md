@@ -1,5 +1,6 @@
 ---
 title: Pan proteomes
+type: help
 categories: Proteomes,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Subcellular location section
+type: help
 categories: Subcellular_location,manual
 ---
 

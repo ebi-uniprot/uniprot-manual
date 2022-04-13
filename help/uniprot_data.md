@@ -1,5 +1,6 @@
 ---
 title: Where does UniProt data come from?
+type: help
 categories: Get_started,faq
 ---
 

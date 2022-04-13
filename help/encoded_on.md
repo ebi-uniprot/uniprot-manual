@@ -1,5 +1,6 @@
 ---
 title: Encoded on
+type: help
 categories: Names_and_taxonomy,manual
 ---
 

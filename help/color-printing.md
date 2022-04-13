@@ -1,5 +1,6 @@
 ---
 title: Printing an alignment in color
+type: help
 categories: Website,Technical,help
 ---
 

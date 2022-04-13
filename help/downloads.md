@@ -1,5 +1,6 @@
 ---
 title: Downloads
+type: help
 categories: download,release
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Involvement in disease
+type: help
 categories: Pathology_and_biotech,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: What is the difference between an accession number (AC) and the entry name?
+type: help
 categories: UniProtKB,Entry_information,faq
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Protein existence
+type: help
 categories: Protein_existence,manual
 ---
 

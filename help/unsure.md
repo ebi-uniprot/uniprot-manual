@@ -1,5 +1,6 @@
 ---
 title: Sequence uncertainty
+type: help
 categories: Sequence,manual
 ---
 

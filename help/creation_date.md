@@ -1,5 +1,6 @@
 ---
 title: When was sequence Xxxx entered in UniProtKB/Swiss-Prot?
+type: help
 categories: UniProtKB,Sequence,Text_search,Release,Entry_information,faq
 ---
 

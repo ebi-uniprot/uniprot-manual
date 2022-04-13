@@ -1,5 +1,6 @@
 ---
 title: Developmental stage
+type: help
 categories: Expression,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Structure section
+type: help
 categories: 3D_structure,manual
 ---
 

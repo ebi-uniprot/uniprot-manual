@@ -1,5 +1,6 @@
 ---
 title: I would like to test the performance of a sequence-based prediction method: Can I use UniProt to build a negative data set?
+type: help
 categories: UniProtKB,Text_search,Non-experimental_qualifiers,Sequence,Biocuration,faq
 ---
 

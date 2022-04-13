@@ -1,5 +1,6 @@
 ---
 title: Checksum
+type: help
 categories: manual,Technical
 ---
 

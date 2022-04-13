@@ -1,5 +1,6 @@
 ---
 title: What is PIRSR and PIRNR?
+type: help
 categories: UniProtKB,Automatic_annotation,Family_and_domains,faq
 ---
 

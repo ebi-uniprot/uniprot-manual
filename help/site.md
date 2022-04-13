@@ -1,5 +1,6 @@
 ---
 title: Site
+type: help
 categories: Function,Pathology_and_biotech,PTM_processing,manual
 ---
 

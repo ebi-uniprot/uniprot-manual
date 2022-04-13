@@ -1,5 +1,6 @@
 ---
 title: How to retrieve sets of protein sequences?
+type: help
 categories: UniProtKB,Sequence,Text_search,Download,Technical,Programmatic_access,faq
 ---
 

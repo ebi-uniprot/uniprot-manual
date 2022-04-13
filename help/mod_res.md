@@ -1,5 +1,6 @@
 ---
 title: Modified residue
+type: help
 categories: PTM_processing,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Mouse
+type: help
 categories: Chordata,Biocuration,help
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: How can I access resources on this website programmatically?
+type: help
 categories: UniProtKB,UniRef,UniParc,Text_search,Programmatic_access,Technical,faq
 ---
 

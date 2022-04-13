@@ -1,5 +1,6 @@
 ---
 title: Protein names
+type: help
 categories: Names_and_taxonomy,manual
 ---
 

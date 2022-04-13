@@ -1,5 +1,6 @@
 ---
 title: How redundant are the UniProt databases?
+type: help
 categories: UniParc,UniProtKB,Sequence,UniRef,Biocuration,faq
 ---
 

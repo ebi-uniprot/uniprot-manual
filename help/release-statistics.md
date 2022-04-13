@@ -1,5 +1,6 @@
 ---
 title: Release statistics
+type: help
 categories: release,statistics
 ---
 

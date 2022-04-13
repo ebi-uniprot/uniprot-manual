@@ -1,5 +1,6 @@
 ---
 title: Organism
+type: help
 categories: Names_and_taxonomy,manual
 ---
 

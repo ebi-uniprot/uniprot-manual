@@ -1,5 +1,6 @@
 ---
 title: Why are only a subset of binary interactions from the IntAct database reported in UniProtKB?
+type: help
 categories: UniProtKB,Interaction,faq
 ---
 

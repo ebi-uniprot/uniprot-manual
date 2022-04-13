@@ -1,5 +1,6 @@
 ---
 title: Entry status
+type: help
 categories: Entry_information,manual
 ---
 

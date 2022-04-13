@@ -1,5 +1,6 @@
 ---
 title: Natural variant
+type: help
 categories: Sequence,manual
 ---
 

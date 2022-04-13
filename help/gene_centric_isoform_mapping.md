@@ -1,5 +1,6 @@
 ---
 title: Automatic gene-centric isoform mapping for eukaryotic reference proteome entries
+type: help
 categories: help
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: What happened to PIR-PSD entries?
+type: help
 			Are all PIR-PSD entries now in the UniProtKB?
 categories: UniProtKB,Cross-references,UniParc,faq
 ---

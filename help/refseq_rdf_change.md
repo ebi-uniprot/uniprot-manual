@@ -1,5 +1,6 @@
 ---
 title: Change of the RDF representation of our cross-references to RefSeq
+type: help
 categories: RDF,UniProtKB,changes
 ---
 

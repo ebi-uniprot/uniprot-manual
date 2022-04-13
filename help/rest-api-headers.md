@@ -1,5 +1,6 @@
 ---
 title: HTTP Status Codes in the REST API 
+type: help
 categories: Technical,Website,help
 ---
 

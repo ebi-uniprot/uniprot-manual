@@ -1,5 +1,6 @@
 ---
 title: FASTA headers
+type: help
 categories: Technical,Sequence,help
 ---
 

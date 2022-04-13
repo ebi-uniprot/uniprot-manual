@@ -1,5 +1,6 @@
 ---
 title: What data resources are included in UniParc?
+type: help
 categories: UniParc,Cross-references,faq
 ---
 

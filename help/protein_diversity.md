@@ -1,5 +1,6 @@
 ---
 title: How are protein sequence variety and protein diversity represented in UniProtKB?
+type: help
 categories: UniProtKB,Keywords,Text_search,Biocuration,Sequence,faq
 ---
 

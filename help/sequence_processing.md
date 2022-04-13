@@ -1,5 +1,6 @@
 ---
 title: Sequence processing
+type: help
 categories: Sequence,manual
 ---
 

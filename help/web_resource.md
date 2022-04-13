@@ -1,5 +1,6 @@
 ---
 title: Web resources
+type: help
 categories: Cross-references,manual
 ---
 

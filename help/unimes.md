@@ -1,5 +1,6 @@
 ---
 title: UniProt Metagenomic and Environmental Sequences (UniMES)
+type: help
 categories: About_UniProt,help
 ---
 

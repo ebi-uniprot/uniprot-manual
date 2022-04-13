@@ -1,5 +1,6 @@
 ---
 title: How can I retrieve all UniProtKB entries for which the 3D structure is known?
+type: help
 categories: UniProtKB,3D_structure,Text_search,faq
 ---
 

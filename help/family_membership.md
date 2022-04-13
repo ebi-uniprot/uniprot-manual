@@ -1,5 +1,6 @@
 ---
 title: How is protein family membership assigned in UniProtKB?
+type: help
 categories: UniProtKB,Family_and_domains,Cross-references,faq
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: UniProtKB advanced search options
+type: help
 categories: Website,Text_search,Technical,help
 ---
 

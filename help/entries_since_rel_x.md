@@ -1,5 +1,6 @@
 ---
 title: How can I get all green plant entries integrated in UniProtKB since release 12.0?
+type: help
 categories: UniProtKB,Text_search,Release,faq
 ---
 

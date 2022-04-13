@@ -1,5 +1,6 @@
 ---
 title: Disulfide bond
+type: help
 categories: PTM_processing,manual
 ---
 

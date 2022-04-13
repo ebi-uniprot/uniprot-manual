@@ -1,5 +1,6 @@
 ---
 title: Pathology and Biotech section
+type: help
 categories: Pathology_and_biotech,manual
 ---
 

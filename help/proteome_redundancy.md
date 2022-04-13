@@ -1,5 +1,6 @@
 ---
 title: Reducing proteome redundancy
+type: help
 categories: Proteomes,UniProtKB,UniParc,help
 ---
 

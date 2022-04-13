@@ -1,5 +1,6 @@
 ---
 title: Mass spectrometry-based proteomics data in UniProtKB
+type: help
 categories: help
 ---
 

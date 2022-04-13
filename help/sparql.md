@@ -1,5 +1,6 @@
 ---
 title: SPARQL for UniProt
+type: help
 categories: Technical,Programmatic_access,Text_search,UniProtKB,UniRef,UniParc,help
 ---
 

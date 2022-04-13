@@ -1,5 +1,6 @@
 ---
 title: Downloaded data seems incomplete or corrupted - how can I get help with download problems?
+type: help
 categories: Download,Technical,faq
 ---
 

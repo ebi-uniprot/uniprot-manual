@@ -1,5 +1,6 @@
 ---
 title: Biophysicochemical properties
+type: help
 categories: Function,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Virus host
+type: help
 categories: Names_and_taxonomy,manual
 ---
 

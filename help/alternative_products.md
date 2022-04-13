@@ -1,5 +1,6 @@
 ---
 title: Alternative products
+type: help
 categories: Sequence,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: How is orthology established in UniProtKB/Swiss-Prot?
+type: help
 categories: UniProtKB,Family_and_domains,Cross-references,faq
 ---
 

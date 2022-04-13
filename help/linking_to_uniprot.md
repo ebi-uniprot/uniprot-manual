@@ -1,5 +1,6 @@
 ---
 title: How to link to UniProt entries (UniProtKB, UniParc and UniRef)
+type: help
 categories: UniProtKB,UniRef,UniParc,Technical,faq
 ---
 

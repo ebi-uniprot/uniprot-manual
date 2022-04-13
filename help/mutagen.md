@@ -1,5 +1,6 @@
 ---
 title: Mutagenesis
+type: help
 categories: Pathology_and_biotech,manual
 ---
 

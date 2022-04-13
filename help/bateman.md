@@ -1,5 +1,6 @@
 ---
 title: Alex Bateman
+type: help
 categories: help
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Intramembrane
+type: help
 categories: Subcellular_location,manual
 ---
 

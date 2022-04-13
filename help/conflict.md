@@ -1,5 +1,6 @@
 ---
 title: Sequence conflict
+type: help
 categories: Sequence,manual
 ---
 

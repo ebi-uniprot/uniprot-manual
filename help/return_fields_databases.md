@@ -1,6 +1,7 @@
 
 ---
 title: UniProtKB return fields for cross-references
+type: help
 categories: Text_search,Technical,Website,help
 ---
 

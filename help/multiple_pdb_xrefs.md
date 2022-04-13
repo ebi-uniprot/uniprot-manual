@@ -1,5 +1,6 @@
 ---
 title: Why do I find many cross-references to PDB in UniProtKB/Swiss-Prot?
+type: help
 categories: UniProtKB,Cross-references,3D_structure,faq
 ---
 

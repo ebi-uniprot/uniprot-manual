@@ -1,5 +1,6 @@
 ---
 title: Binary interactions
+type: help
 categories: Interaction,manual
 ---
 

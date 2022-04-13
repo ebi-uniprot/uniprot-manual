@@ -1,5 +1,6 @@
 ---
 title: Non-standard residue
+type: help
 categories: Sequence,manual
 ---
 

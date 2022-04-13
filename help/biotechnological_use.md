@@ -1,5 +1,6 @@
 ---
 title: Biotechnological use
+type: help
 categories: Pathology_and_biotech,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Fungi
+type: help
 categories: Fungi,Biocuration,help
 ---
 

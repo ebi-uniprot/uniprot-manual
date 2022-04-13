@@ -1,5 +1,6 @@
 ---
 title: How do I link to a specific version of a UniProtKB entry?
+type: help
 categories: UniProtKB,Technical,Release,faq
 ---
 

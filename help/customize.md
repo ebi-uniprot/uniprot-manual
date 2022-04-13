@@ -1,5 +1,6 @@
 ---
 title: Customize display options
+type: help
 categories: Website,Text_search,Technical,help
 ---
 

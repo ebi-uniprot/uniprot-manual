@@ -1,5 +1,6 @@
 ---
 title: Metal binding
+type: help
 categories: Function,manual
 ---
 

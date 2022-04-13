@@ -1,5 +1,6 @@
 ---
 title: Using Jalview and Java Web Start
+type: help
 categories: Technical,help
 ---
 

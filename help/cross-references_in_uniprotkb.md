@@ -1,5 +1,6 @@
 ---
 title: Cross-references in UniProtKB
+type: help
 categories: Cross-references,help
 ---
 

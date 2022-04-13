@@ -1,5 +1,6 @@
 ---
 title: SAAS (Statistical Automatic Annotation System) (Obsolete)
+type: help
 categories: Automatic_annotation,UniProtKB,help
 ---
 

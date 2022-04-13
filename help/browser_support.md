@@ -1,5 +1,6 @@
 ---
 title: Browser support
+type: help
 categories: Website,Technical,help
 ---
 

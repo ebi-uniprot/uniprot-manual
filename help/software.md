@@ -1,5 +1,6 @@
 ---
 title: UniProt software
+type: help
 categories: help
 ---
 

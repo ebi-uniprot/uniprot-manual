@@ -1,5 +1,6 @@
 ---
 title: Why don't all UniProtKB/Swiss-Prot annotations have evidence?
+type: help
 categories: faq
 ---
 

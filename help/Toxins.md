@@ -1,5 +1,6 @@
 ---
 title: Animal toxin annotation project
+type: help
 categories: biocuration,project
 ---
 

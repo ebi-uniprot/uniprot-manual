@@ -1,5 +1,6 @@
 ---
 title: PTM / Processing section
+type: help
 categories: PTM_processing,manual
 ---
 

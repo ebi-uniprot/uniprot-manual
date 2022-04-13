@@ -1,5 +1,6 @@
 ---
 title: Where can I buy protein X? Which company sells protein Y? Where can I buy strain Z?
+type: help
 categories: UniProtKB,Pathology_and_biotech,faq
 ---
 

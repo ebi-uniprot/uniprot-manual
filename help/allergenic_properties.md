@@ -1,5 +1,6 @@
 ---
 title: Allergenic properties
+type: help
 categories: Pathology_and_biotech,manual
 ---
 

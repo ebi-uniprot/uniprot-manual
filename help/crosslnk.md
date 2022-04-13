@@ -1,5 +1,6 @@
 ---
 title: Cross-link
+type: help
 categories: PTM_processing,manual
 ---
 

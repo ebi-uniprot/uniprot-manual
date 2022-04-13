@@ -1,5 +1,6 @@
 ---
 title: Taxonomic lineage
+type: help
 categories: Names_and_taxonomy,manual
 ---
 

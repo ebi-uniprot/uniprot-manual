@@ -1,5 +1,6 @@
 ---
 title: Nomenclature/classification of specific proteins
+type: help
 categories: Nomenclature,Biocuration,Family_and_domains,Human,UniProtKB,help
 ---
 

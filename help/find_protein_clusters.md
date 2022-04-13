@@ -1,5 +1,6 @@
 ---
 title: Find protein clusters
+type: help
 categories: Get_started,UniRef
 ---
 

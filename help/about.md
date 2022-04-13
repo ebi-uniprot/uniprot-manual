@@ -1,5 +1,6 @@
 ---
 title: About UniProt
+type: help
 categories: About_UniProt,Staff,UniProtKB,UniRef,UniParc,help
 ---
 

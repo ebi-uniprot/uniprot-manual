@@ -1,5 +1,6 @@
 ---
 title: Sequence status
+type: help
 categories: Sequence,manual
 ---
 

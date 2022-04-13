@@ -1,5 +1,6 @@
 ---
 title: Protein sequences from extinct organisms
+type: help
 categories: UniProtKB,Taxonomy,faq
 ---
 

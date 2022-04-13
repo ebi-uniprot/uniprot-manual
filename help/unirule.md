@@ -1,5 +1,6 @@
 ---
 title: Automatic annotation using UniRule
+type: help
 categories: Automatic_annotation,Biocuration,UniProtKB,help
 ---
 

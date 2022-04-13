@@ -1,5 +1,6 @@
 ---
 title: Do I still need to use the Sequence Retrieval System (SRS)?
+type: help
 categories: UniProtKB,UniParc,UniRef,Text_search,faq
 ---
 

@@ -1,6 +1,7 @@
 
 ---
 title: Changes to the humsavar.txt file and related keywords
+type: help
 categories: changes
 ---
 

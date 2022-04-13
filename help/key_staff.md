@@ -1,5 +1,6 @@
 ---
 title: UniProt key staff
+type: help
 categories: Staff,help
 ---
 

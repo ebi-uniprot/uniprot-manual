@@ -1,6 +1,7 @@
 
 ---
 title: Changes to the FTP repository for reference proteomes
+type: help
 categories: changes
 ---
 

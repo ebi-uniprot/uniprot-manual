@@ -1,5 +1,6 @@
 ---
 title: Induction
+type: help
 categories: Expression,manual
 ---
 

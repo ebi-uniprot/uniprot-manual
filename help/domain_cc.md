@@ -1,5 +1,6 @@
 ---
 title: Domain (non-positional annotation)
+type: help
 categories: Family_and_domains,manual
 ---
 

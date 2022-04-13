@@ -1,5 +1,6 @@
 ---
 title: Invertebrates
+type: help
 categories: Invertebrates,Biocuration,help
 ---
 

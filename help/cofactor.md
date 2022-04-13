@@ -1,5 +1,6 @@
 ---
 title: Cofactor
+type: help
 categories: Function,manual
 ---
 

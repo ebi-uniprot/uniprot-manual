@@ -1,5 +1,6 @@
 ---
 title: How can I download the sequences corresponding to a specified domain or region, or the sequences of mature chains or peptides, from a list of UniProt entries?
+type: help
 categories: UniProtKB,Download,Sequence,Text_search,Family_and_domains,faq
 ---
 

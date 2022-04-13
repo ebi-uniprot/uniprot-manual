@@ -1,5 +1,6 @@
 ---
 title: Technical corner
+type: help
 categories: Technical,Programmatic_access,UniProtKB,Website,help
 ---
 

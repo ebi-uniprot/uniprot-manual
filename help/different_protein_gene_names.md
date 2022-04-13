@@ -1,5 +1,6 @@
 ---
 title: Why does the UniProtKB use so many different names for the same protein?
+type: help
 categories: UniProtKB,Nomenclature,Names_and_taxonomy,Biocuration,faq
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Text search
+type: help
 categories: Website,Technical,Text_search,Programmatic_access,help
 ---
 

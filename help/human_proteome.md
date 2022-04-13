@@ -1,5 +1,6 @@
 ---
 title: What is UniProt's human proteome?
+type: help
 categories: Proteomes,Download,UniProtKB,Keywords,Sequence,Human,faq
 ---
 

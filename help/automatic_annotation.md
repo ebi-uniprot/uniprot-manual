@@ -1,5 +1,6 @@
 ---
 title: Automatic annotation
+type: help
 categories: Automatic_annotation,Biocuration,UniProtKB,help
 ---
 

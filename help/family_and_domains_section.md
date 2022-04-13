@@ -1,5 +1,6 @@
 ---
 title: Family and Domains section
+type: help
 categories: Family_and_domains,manual
 ---
 

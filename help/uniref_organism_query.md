@@ -1,5 +1,6 @@
 ---
 title: How do I find all UniRef clusters with UniProtKB sequence(s) from an organism I am interested in?
+type: help
 categories: UniRef,Taxonomy,faq
 ---
 

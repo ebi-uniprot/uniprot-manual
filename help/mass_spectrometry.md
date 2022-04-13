@@ -1,5 +1,6 @@
 ---
 title: Mass spectrometry
+type: help
 categories: Sequence,manual
 ---
 

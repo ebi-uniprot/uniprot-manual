@@ -1,5 +1,6 @@
 ---
 title: Controlled vocabulary
+type: help
 categories: Controlled_vocabulary,Ontology,Biocuration,Nomenclature,help
 ---
 

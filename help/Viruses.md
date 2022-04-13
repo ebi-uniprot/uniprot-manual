@@ -1,5 +1,6 @@
 ---
 title: Viral protein annotation project
+type: help
 categories: biocuration,project
 ---
 

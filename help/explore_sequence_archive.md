@@ -1,5 +1,6 @@
 ---
 title: Explore sequence archive
+type: help
 categories: Get_started,UniParc
 ---
 

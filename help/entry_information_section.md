@@ -1,5 +1,6 @@
 ---
 title: Entry information section
+type: help
 categories: Entry_information,manual
 ---
 

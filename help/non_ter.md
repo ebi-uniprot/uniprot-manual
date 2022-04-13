@@ -1,5 +1,6 @@
 ---
 title: Non-terminal residue
+type: help
 categories: Sequence,manual
 ---
 

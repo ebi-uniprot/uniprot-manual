@@ -1,5 +1,6 @@
 ---
 title: What are reference proteomes?
+type: help
 categories: Proteomes,Taxonomy,UniProtKB,Keywords,Sequence,faq
 ---
 

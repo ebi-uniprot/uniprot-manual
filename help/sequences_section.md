@@ -1,5 +1,6 @@
 ---
 title: Sequence section
+type: help
 categories: Sequence,manual
 ---
 

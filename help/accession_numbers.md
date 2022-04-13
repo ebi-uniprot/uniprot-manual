@@ -1,5 +1,6 @@
 ---
 title: Accession
+type: help
 categories: Entry_information,manual
 ---
 

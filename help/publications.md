@@ -1,5 +1,6 @@
 ---
 title: Publications on UniProt
+type: help
 categories: About_UniProt,Publications,help
 ---
 

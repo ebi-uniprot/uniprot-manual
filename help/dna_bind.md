@@ -1,5 +1,6 @@
 ---
 title: DNA binding
+type: help
 categories: Function,manual
 ---
 

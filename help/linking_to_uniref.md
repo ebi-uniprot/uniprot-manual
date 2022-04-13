@@ -1,5 +1,6 @@
 ---
 title: Are UniRef cluster identifiers permanent? How can I link to UniRef clusters?
+type: help
 categories: UniRef,faq
 ---
 

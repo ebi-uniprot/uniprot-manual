@@ -1,5 +1,6 @@
 ---
 title: Annotation score
+type: help
 categories: UniProtKB,manual
 ---
 

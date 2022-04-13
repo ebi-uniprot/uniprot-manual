@@ -1,5 +1,6 @@
 ---
 title: SAM - Sequence Analysis Methods for automatic annotation
+type: help
 categories: help
 ---
 

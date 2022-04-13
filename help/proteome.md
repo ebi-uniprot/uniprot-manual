@@ -1,5 +1,6 @@
 ---
 title: What are proteomes?
+type: help
 categories: Proteomes,UniProtKB,Keywords,Sequence,faq
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Zinc finger
+type: help
 categories: Function,manual
 ---
 

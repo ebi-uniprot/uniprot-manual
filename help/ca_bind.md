@@ -1,5 +1,6 @@
 ---
 title: Calcium binding
+type: help
 categories: Function,manual
 ---
 

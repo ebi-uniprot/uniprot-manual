@@ -1,5 +1,6 @@
 ---
 title: Chordata protein annotation project
+type: help
 categories: biocuration,project
 ---
 

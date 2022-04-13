@@ -1,5 +1,6 @@
 ---
 title: What is UniProt's policy regarding copyright and database distribution?
+type: help
 categories: UniProtKB,UniParc,UniRef,About_UniProt,faq
 ---
 

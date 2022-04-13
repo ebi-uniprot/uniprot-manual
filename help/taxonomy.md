@@ -1,5 +1,6 @@
 ---
 title: Taxonomy
+type: help
 categories: Taxonomy,Controlled_vocabulary,help
 ---
 

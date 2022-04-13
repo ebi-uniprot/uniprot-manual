@@ -1,5 +1,6 @@
 ---
 title: Reasons to exclude a proteome from UniProtKB
+type: help
 categories: help
 ---
 

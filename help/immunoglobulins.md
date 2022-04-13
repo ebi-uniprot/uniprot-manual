@@ -1,5 +1,6 @@
 ---
 title: Immunoglobulins
+type: help
 categories: UniProtKB,Biocuration,Cross-references,Human,help
 ---
 

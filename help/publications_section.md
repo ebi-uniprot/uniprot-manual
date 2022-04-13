@@ -1,5 +1,6 @@
 ---
 title: Publications section
+type: help
 categories: Publications,manual
 ---
 

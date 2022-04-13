@@ -1,5 +1,6 @@
 ---
 title: Why have some UniProtKB accession numbers been deleted? How can I track them?
+type: help
 categories: UniProtKB,Entry_information,UniParc,Release,faq
 ---
 

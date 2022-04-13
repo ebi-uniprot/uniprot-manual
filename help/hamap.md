@@ -1,5 +1,6 @@
 ---
 title: What is HAMAP?
+type: help
 categories: UniProtKB,Family_and_domains,Automatic_annotation,faq
 ---
 

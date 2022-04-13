@@ -1,5 +1,6 @@
 ---
 title: Format changes
+type: help
 categories: Release,Technical,help
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Alternative sequence
+type: help
 categories: Sequence,manual
 ---
 

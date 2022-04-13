@@ -1,5 +1,6 @@
 ---
 title: What is a redundant proteome? Can reference proteomes become redundant? Can reviewed UniProtKB (Swiss-Prot) entries be deleted when a proteome becomes redundant?
+type: help
 categories: Proteomes,UniProtKB,UniParc,faq
 ---
 

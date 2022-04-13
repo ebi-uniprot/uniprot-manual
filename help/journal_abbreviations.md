@@ -1,5 +1,6 @@
 ---
 title: What journal abbreviations are used in UniProtKB?
+type: help
 categories: UniProtKB,Publications,Controlled_vocabulary,faq
 ---
 

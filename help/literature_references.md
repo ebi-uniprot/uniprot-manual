@@ -1,5 +1,6 @@
 ---
 title: On what basis are literature references inserted in UniProtKB/Swiss-Prot entries?
+type: help
 categories: UniProtKB,Publications,Biocuration,faq
 ---
 

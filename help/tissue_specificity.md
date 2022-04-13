@@ -1,5 +1,6 @@
 ---
 title: Tissue specificity
+type: help
 categories: Expression,manual
 ---
 

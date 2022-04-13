@@ -1,5 +1,6 @@
 ---
 title: Programmatic access - Retrieving entries via queries
+type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Text_search,Technical,help
 ---
 

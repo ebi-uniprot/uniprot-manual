@@ -1,5 +1,6 @@
 ---
 title: Entry name
+type: help
 categories: Entry_information,manual
 ---
 

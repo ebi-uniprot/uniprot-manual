@@ -1,5 +1,6 @@
 ---
 title: UniParc
+type: help
 categories: About_UniProt,UniParc,Sequence,Cross-references,help
 ---
 

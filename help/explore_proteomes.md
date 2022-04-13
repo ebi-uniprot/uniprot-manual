@@ -1,5 +1,6 @@
 ---
 title: Explore Proteomes
+type: help
 categories: Get_started, Proteomes
 ---
 Proteomes consist of the set of proteins expressed by an organism whose genome has been completely sequenced. You can enter the UniProt proteomes dataset by clicking here. 

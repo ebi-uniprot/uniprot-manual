@@ -1,5 +1,6 @@
 ---
 title: Similar proteins section
+type: help
 categories: Similar_proteins,manual
 ---
 

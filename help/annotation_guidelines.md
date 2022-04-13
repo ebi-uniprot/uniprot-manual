@@ -1,5 +1,6 @@
 ---
 title: Annotation guidelines
+type: help
 categories: Biocuration,UniProtKB,Protein_existence,Names_and_taxonomy,help
 ---
 

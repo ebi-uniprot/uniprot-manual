@@ -1,5 +1,6 @@
 ---
 title: Is there a download file available where all UniProt IDs from X.laevis are matched to their human equivalents (homologs)? How can I obtain an ortholog mapping of human proteins to S.pombe proteins?
+type: help
 categories: UniProtKB,Text_search,Cross-references,Taxonomy,faq
 ---
 

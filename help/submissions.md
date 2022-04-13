@@ -1,5 +1,6 @@
 ---
 title: Submissions and updates
+type: help
 categories: About_UniProt,UniProtKB,Biocuration,Technical,Publications,help
 ---
 

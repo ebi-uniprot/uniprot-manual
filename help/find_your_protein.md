@@ -1,5 +1,6 @@
 ---
 title: Find your protein
+type: help
 categories: Get_started,UniProtKB
 ---
 The UniProt Knowledgebase - UniProtKB, is the central hub for the collection of functional information on proteins, with accurate, consistent and rich annotation.

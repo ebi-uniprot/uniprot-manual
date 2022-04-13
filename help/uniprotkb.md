@@ -1,5 +1,6 @@
 ---
 title: UniProtKB
+type: help
 categories: UniProtKB,About_UniProt,Biocuration,Automatic_annotation,Sequence,help
 ---
 

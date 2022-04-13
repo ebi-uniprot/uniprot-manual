@@ -1,5 +1,6 @@
 ---
 title: What is a UniRef cluster?
+type: help
 categories: UniRef,faq
 ---
 

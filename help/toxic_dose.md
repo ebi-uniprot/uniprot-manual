@@ -1,5 +1,6 @@
 ---
 title: Toxic dose
+type: help
 categories: Pathology_and_biotech,manual
 ---
 

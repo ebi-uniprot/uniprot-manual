@@ -1,5 +1,6 @@
 ---
 title: Interaction section
+type: help
 categories: Interaction,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: What is the canonical sequence? Are all isoforms described in one entry?
+type: help
 categories: UniProtKB,Sequence,Text_search,Download,Technical,faq
 ---
 

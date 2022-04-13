@@ -1,5 +1,6 @@
 ---
 title: Programmatic access - Retrieving individual entries
+type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,help
 ---
 

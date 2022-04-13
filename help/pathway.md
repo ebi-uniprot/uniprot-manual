@@ -1,5 +1,6 @@
 ---
 title: Pathway
+type: help
 categories: Function,manual
 ---
 

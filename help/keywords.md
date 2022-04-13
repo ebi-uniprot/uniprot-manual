@@ -1,5 +1,6 @@
 ---
 title: Keywords
+type: help
 categories: Controlled_vocabulary,Keywords,help
 ---
 

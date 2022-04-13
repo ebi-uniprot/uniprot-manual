@@ -1,5 +1,6 @@
 ---
 title: Course and seminar announcements
+type: help
 categories: Outreach,About_UniProt,help
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Retrieve / ID mapping
+type: help
 categories: Website,help
 ---
 

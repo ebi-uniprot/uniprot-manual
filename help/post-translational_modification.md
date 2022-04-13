@@ -1,5 +1,6 @@
 ---
 title: Post-translational modification
+type: help
 categories: PTM_processing,manual
 ---
 

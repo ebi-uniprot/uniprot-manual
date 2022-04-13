@@ -1,5 +1,6 @@
 ---
 title: Proteomes
+type: help
 categories: Proteomes,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: What are the differences between UniProtKB keywords and the GO terms?
+type: help
 categories: UniProtKB,Ontology,Keywords,Controlled_vocabulary,faq
 ---
 

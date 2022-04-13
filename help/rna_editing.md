@@ -1,5 +1,6 @@
 ---
 title: RNA editing
+type: help
 categories: Sequence,manual
 ---
 

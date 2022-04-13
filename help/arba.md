@@ -1,5 +1,6 @@
 ---
 title: Automatic annotation using ARBA
+type: help
 categories: UniProtKB,Automatic_annotation,help
 ---
 

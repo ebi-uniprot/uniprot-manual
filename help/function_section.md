@@ -1,5 +1,6 @@
 ---
 title: Function section
+type: help
 categories: Function,manual
 ---
 

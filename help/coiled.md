@@ -1,5 +1,6 @@
 ---
 title: Coiled coil
+type: help
 categories: Family_and_domains,manual
 ---
 

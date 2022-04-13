@@ -1,5 +1,6 @@
 ---
 title: Biocuration in UniProt
+type: help
 categories: Biocuration,Automatic_annotation,UniProtKB,help
 ---
 

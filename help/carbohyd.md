@@ -1,5 +1,6 @@
 ---
 title: Glycosylation
+type: help
 categories: PTM_processing,manual
 ---
 

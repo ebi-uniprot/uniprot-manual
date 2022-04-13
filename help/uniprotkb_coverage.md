@@ -1,5 +1,6 @@
 ---
 title: Does UniProtKB contain all protein sequences?
+type: help
 categories: UniProtKB,UniParc,Sequence,faq
 ---
 

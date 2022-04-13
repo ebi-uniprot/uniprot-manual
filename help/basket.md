@@ -1,5 +1,6 @@
 ---
 title: Saving proteins with the UniProt basket
+type: help
 categories: Text_search,UniParc,UniProtKB,UniRef,Website,Download,help
 ---
 

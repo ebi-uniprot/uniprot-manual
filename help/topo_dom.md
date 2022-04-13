@@ -1,5 +1,6 @@
 ---
 title: Topological domain
+type: help
 categories: Subcellular_location,manual
 ---
 

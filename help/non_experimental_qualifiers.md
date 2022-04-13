@@ -1,5 +1,6 @@
 ---
 title: Non-experimental qualifiers
+type: help
 categories: Non-experimental_qualifiers,manual
 ---
 

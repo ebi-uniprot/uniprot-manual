@@ -1,5 +1,6 @@
 ---
 title: What is a UniRef seed sequence compared to a representative sequence?
+type: help
 categories: UniRef,faq
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Non-adjacent residues
+type: help
 categories: Sequence,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: How can I get all the proteins involved in a given disease?
+type: help
 categories: UniProtKB,Keywords,Text_search,Human,Pathology_and_biotech,faq
 ---
 

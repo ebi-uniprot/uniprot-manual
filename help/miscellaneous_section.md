@@ -1,5 +1,6 @@
 ---
 title: Miscellaneous section
+type: help
 categories: Miscellaneous,manual
 ---
 

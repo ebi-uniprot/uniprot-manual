@@ -1,5 +1,6 @@
 ---
 title: Gene Ontology (GO)
+type: help
 categories: Ontology,Subcellular_location,Function,manual
 ---
 

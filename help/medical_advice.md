@@ -1,5 +1,6 @@
 ---
 title: How can I get medical advice from UniProtKB?
+type: help
 categories: UniProtKB,Text_search,Pathology_and_biotech,faq
 ---
 

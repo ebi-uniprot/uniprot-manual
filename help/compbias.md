@@ -1,5 +1,6 @@
 ---
 title: Compositional bias
+type: help
 categories: Family_and_domains,manual
 ---
 

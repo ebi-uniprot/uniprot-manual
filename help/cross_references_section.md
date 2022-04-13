@@ -1,5 +1,6 @@
 ---
 title: Cross-references section
+type: help
 categories: Cross-references,manual
 ---
 

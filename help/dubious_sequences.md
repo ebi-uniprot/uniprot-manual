@@ -1,5 +1,6 @@
 ---
 title: Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?
+type: help
 categories: UniProtKB,Sequence,Text_search,Protein_existence,faq
 ---
 

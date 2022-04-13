@@ -1,5 +1,6 @@
 ---
 title: Names and Taxonomy section
+type: help
 categories: Names_and_taxonomy,manual
 ---
 

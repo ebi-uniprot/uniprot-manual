@@ -1,5 +1,6 @@
 ---
 title: Programmatic Pagination
+type: help
 categories: Programmatic_access,Text_search,Technical,help
 ---
             

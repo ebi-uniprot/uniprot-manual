@@ -1,5 +1,6 @@
 ---
 title: What are the date formats accepted in the relevant fields of the query builder (e.g. UniProtKB entry creation or modification dates)?
+type: help
 categories: Text_search,faq
 ---
 

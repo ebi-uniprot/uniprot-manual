@@ -1,5 +1,6 @@
 ---
 title: What are UniProtKB's criteria for defining a CDS as a protein?
+type: help
 categories: UniProtKB,Sequence,faq
 ---
 

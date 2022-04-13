@@ -1,5 +1,6 @@
 ---
 title: Beta strand
+type: help
 categories: 3D_structure,manual
 ---
 

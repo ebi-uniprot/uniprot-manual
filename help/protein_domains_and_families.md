@@ -1,5 +1,6 @@
 ---
 title: Protein domains and families
+type: help
 categories: Biocuration,Family_and_domains,help
 ---
 

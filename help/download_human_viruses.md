@@ -1,5 +1,6 @@
 ---
 title: How can I download a list of all viruses infecting humans?
+type: help
 categories: Taxonomy,Viruses,Text_search,UniProtKB,Human,faq
 ---
 

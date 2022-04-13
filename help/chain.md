@@ -1,5 +1,6 @@
 ---
 title: Chain
+type: help
 categories: PTM_processing,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Activity regulation
+type: help
 categories: Function,manual
 ---
 

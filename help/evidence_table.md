@@ -1,5 +1,6 @@
 ---
 title: How can I query UniProtKB annotations by evidence?
+type: help
 categories: UniProtKB,Text_search,faq
 ---
 

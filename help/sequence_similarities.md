@@ -1,5 +1,6 @@
 ---
 title: Sequence similarities
+type: help
 categories: Family_and_domains,manual
 ---
 

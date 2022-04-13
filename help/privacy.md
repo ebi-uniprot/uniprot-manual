@@ -1,6 +1,7 @@
 
 ---
 title: UniProt privacy notice
+type: help
 categories: About_UniProt,help
 ---
 

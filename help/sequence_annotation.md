@@ -1,5 +1,6 @@
 ---
 title: Sequence annotation (Features)
+type: help
 categories: manual,Technical
 ---
 

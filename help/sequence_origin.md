@@ -1,5 +1,6 @@
 ---
 title: Where do the UniProtKB protein sequences come from?
+type: help
 categories: UniProtKB,Sequence,faq
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Nucleotide binding
+type: help
 categories: Function,manual
 ---
 

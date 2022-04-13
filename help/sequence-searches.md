@@ -1,5 +1,6 @@
 ---
 title: Sequence similarity searches
+type: help
 categories: Website,help
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: UniRef
+type: help
 categories: About_UniProt,UniRef,Similar_proteins,help
 ---
 

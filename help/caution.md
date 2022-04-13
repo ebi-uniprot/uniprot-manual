@@ -1,5 +1,6 @@
 ---
 title: Caution
+type: help
 categories: Sequence,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: ID Mapping
+type: help
 categories: Text_search,Technical,Website,help
 ---
 

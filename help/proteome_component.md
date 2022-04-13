@@ -1,5 +1,6 @@
 ---
 title: Proteome component
+type: help
 categories: Proteomes,manual
 ---
 

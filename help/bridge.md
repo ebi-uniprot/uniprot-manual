@@ -1,5 +1,6 @@
 ---
 title: Alan J. Bridge
+type: help
 categories: help
 ---
 

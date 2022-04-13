@@ -1,5 +1,6 @@
 ---
 title: Homo sapiens
+type: help
 categories: Human,Proteomes,Biocuration,help
 ---
 

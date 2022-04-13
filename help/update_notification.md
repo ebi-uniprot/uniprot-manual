@@ -1,5 +1,6 @@
 ---
 title: How do I get notified automatically of updates to UniProtKB?
+type: help
 categories: UniProtKB,Release,faq
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: How can I search UniProt for chemical or reaction data?
+type: help
 categories: Text_search,Function,UniProtKB,faq
 ---
 

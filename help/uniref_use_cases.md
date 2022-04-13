@@ -1,5 +1,6 @@
 ---
 title: What are some of the advanced uses of UniRef?
+type: help
 categories: UniRef,faq
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Explore UniProtKB entry
+type: help
 categories: Get_started, UniProtKB
 ---
 The UniProtKB database contains individual protein entries that provide detailed information about the protein. At the top of the page, you can see the UniProt entry accession and name, the name of the protein and gene, the organism, whether the protein entry has been manually reviewed by a UniProt curator, its annotation score, and the evidence level for its existence.

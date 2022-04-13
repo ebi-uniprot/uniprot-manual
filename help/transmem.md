@@ -1,5 +1,6 @@
 ---
 title: Transmembrane
+type: help
 categories: Subcellular_location,manual
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: How do we manually annotate a UniProtKB entry?
+type: help
 categories: UniProtKB,Biocuration,About_UniProt,faq
 ---
 

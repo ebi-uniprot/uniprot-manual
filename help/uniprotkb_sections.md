@@ -1,5 +1,6 @@
 ---
 title: Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?
+type: help
 categories: UniProtKB,Biocuration,Automatic_annotation,About_UniProt,Entry_information,faq
 ---
 

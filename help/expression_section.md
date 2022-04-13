@@ -1,5 +1,6 @@
 ---
 title: Expression section
+type: help
 categories: Expression,manual
 ---
 

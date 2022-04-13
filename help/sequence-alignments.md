@@ -1,5 +1,6 @@
 ---
 title: Sequence alignments
+type: help
 categories: Website,help
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: UniProtKB query fields
+type: help
 categories: Text_search,Technical,Website,help
 ---
 

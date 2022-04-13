@@ -1,5 +1,6 @@
 ---
 title: Programmatic access - Format conversion
+type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Technical,help
 ---
 

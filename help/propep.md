@@ -1,5 +1,6 @@
 ---
 title: Propeptide
+type: help
 categories: PTM_processing,manual
 ---
 

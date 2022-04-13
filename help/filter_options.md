@@ -1,5 +1,6 @@
 ---
 title: UniProtKB filter options
+type: help
 categories: UniProtKB,Text_search,Website,help
 ---
 

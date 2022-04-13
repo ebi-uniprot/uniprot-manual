@@ -1,5 +1,6 @@
 ---
 title: Transit peptide
+type: help
 categories: PTM_processing,manual
 ---
 

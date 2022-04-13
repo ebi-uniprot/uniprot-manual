@@ -1,5 +1,6 @@
 ---
 title: UniProt staff
+type: help
 categories: Staff,help
 ---
 

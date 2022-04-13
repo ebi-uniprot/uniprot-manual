@@ -1,5 +1,6 @@
 ---
 title: Can I download a complete mapping table between different databases?
+type: help
 categories: UniProtKB,UniParc,UniRef,Download,faq
 ---
 

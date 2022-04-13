@@ -1,5 +1,6 @@
 ---
 title: General annotation (Comments)
+type: help
 categories: manual
 ---
 

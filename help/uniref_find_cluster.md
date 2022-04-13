@@ -1,5 +1,6 @@
 ---
 title: How do I check what UniRef cluster my entry belongs to from the UniProtKB entry page?
+type: help
 categories: faq
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Active site
+type: help
 categories: Function,manual
 ---
 

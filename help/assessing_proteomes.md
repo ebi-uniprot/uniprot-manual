@@ -1,5 +1,6 @@
 ---
 title: Assessing proteome completeness and quality
+type: help
 categories: help
 ---
 

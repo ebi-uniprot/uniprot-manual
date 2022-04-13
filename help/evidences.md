@@ -1,5 +1,6 @@
 ---
 title: Evidence
+type: help
 categories: manual
 ---
 

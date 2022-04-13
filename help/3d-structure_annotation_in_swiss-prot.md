@@ -1,5 +1,6 @@
 ---
 title: 3D-structure annotation in UniProtKB/Swiss-Prot
+type: help
 categories: 3D_structure,Biocuration,Cross-references,help
 ---
 

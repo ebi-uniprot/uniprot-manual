@@ -1,5 +1,6 @@
 ---
 title: UniProt Scientific Advisory Board (SAB)
+type: help
 categories: Staff,help
 ---
 

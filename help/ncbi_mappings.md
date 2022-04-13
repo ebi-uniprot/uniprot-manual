@@ -1,5 +1,6 @@
 ---
 title: Mapping between UniProtKB and NCBI resources (GeneID, RefSeq): how does it work?
+type: help
 categories: UniProtKB,Sequence,Cross-references,faq
 ---
 

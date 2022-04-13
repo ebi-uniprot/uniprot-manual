@@ -1,5 +1,6 @@
 ---
 title: Drosophila protein annotation project
+type: help
 categories: biocuration,project
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: How frequently is UniProt released? What is the synchronization delay with other databases? Can I gain access to previous releases?
+type: help
 categories: UniProtKB,UniRef,UniParc,Cross-references,Download,Release,faq
 ---
 

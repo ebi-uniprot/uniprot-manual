@@ -1,5 +1,6 @@
 ---
 title: Proteome identifier
+type: help
 categories: Proteomes,manual
 ---
 

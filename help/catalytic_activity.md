@@ -1,5 +1,6 @@
 ---
 title: Catalytic activity
+type: help
 categories: Function,manual
 ---
 

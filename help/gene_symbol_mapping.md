@@ -1,5 +1,6 @@
 ---
 title: Can I convert gene symbols to UniProtKB identifiers? How can I map UniProtKB IDs or ACs to gene symbols?
+type: help
 categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
 ---
 

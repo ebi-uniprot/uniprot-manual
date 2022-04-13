@@ -1,5 +1,6 @@
 ---
 title: Lipidation
+type: help
 categories: PTM_processing,manual
 ---
 

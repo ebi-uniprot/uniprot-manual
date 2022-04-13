@@ -1,5 +1,6 @@
 ---
 title: Prokaryotic protein annotation project
+type: help
 categories: biocuration,project
 ---
 

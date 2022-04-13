@@ -1,5 +1,6 @@
 ---
 title: Repeat
+type: help
 categories: Family_and_domains,manual
 ---
 

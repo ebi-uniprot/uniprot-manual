@@ -1,5 +1,6 @@
 ---
 title: Enzyme regulation - renamed to 'Activity regulation'
+type: help
 categories: manual
 ---
 

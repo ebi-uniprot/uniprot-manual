@@ -1,5 +1,6 @@
 ---
 title: Signal  peptide
+type: help
 categories: PTM_processing,manual
 ---
 
