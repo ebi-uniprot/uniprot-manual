@@ -7,9 +7,6 @@ We are now providing a new API to access UniProt's data and tools. Eventually, t
 
 Supported query fields for searching specific data in UniProtKB (see also [query syntax](https://www.uniprot.org/help/text-search)) are shown in the table below. For convenience, the table includes field and examples of both the old and new APIs. 
 
-For a comprehensive list of search fields, please refer to our [API documentation](https://rest.uniprot.org/beta/docs/), which shows the entire API provided and can be used to query over all of UniProt's datasets.
-
-
 | Field on www.uniprot.org | Example | Field on rest.uniprot.org/beta | Beta Example | Description |
 |-------|---------|-----------|-------------|-------------|
 | accession | [accession:P62988](https://www.uniprot.org/uniprot/?query=accession:P62988) | accession | [accession:P62988](https://rest.uniprot.org/beta/uniprotkb/search?query=accession:P62988) | The old behaviour was to list all entries with primary or secondary [accession number](https://www.uniprot.org/manual/accession_numbers) P62988. The new behaviour will list all primary / canonical isoform accessions P62988. To search over secondary accessions, we have introduced the `sec_acc` field.|
