@@ -55,7 +55,6 @@ curl -H "Accept: application/xml" "https://rest.uniprot.org/beta/uniprotkb/P1234
 The different end-points in our API provide different formats, though generally, JSON and tab-separated-values formats (TSV) are
 available throughout. 
 
-Please refer to [our comprehensive guide](https://rest.uniprot.org/beta/docs/) to see the formats available to specific end-points.
 ## List of all formats
 
 | Description | Accept Header Media Type | Format Parameter | File Extension |
@@ -96,7 +95,7 @@ The URL for a query result consists of a data set name (e.g. `uniprot`, `uniref`
 |---------|------|-----------|
 |`query`|_string_| See [query syntax](https://www.uniprot.org/help/text-search) <br> and [query fields for UniProtKB](http://www.uniprot.org/help/query-fields). <br>An empty query string will retrieve all entries in a data set. **Tip:** Refine your search by clicking **Advanced** in the search bar.|
 |`format`|See section, "What formats are available?"|See section, "What formats are available?"|
-|`fields`|comma-separated list of column names|Columns to retrieve in the results. Applies to `tsv`, `xslx` and `json` formats only. Please refer to [our API documentation](https://rest.uniprot.org/beta/docs/) for all return fields available, for all data-sets. <br>(For UniProtKB you can also read the [full list of UniProtKB column names](https://www.uniprot.org/help/uniprotkb_column_names)).|
+|`fields`|comma-separated list of column names|Columns to retrieve in the results. Applies to `tsv`, `xslx` and `json` formats only. <br>(For UniProtKB you can also read the [full list of UniProtKB column names](https://www.uniprot.org/help/uniprotkb_column_names)).|
 |`includeIsoform`|`true` or `false`|Whether or not to include isoforms in the search results. *Note:* Only applies to UniProtKB searches.|
 |`compressed`|`true` or `false`| Return results gzipped. Note that if the client supports HTTP compression, results may be compressed transparently even if this parameter is not set to `true`.|
 |`size`|_integer_|Maximum number of results to retrieve. *Note:* Only takes effect on searches.|

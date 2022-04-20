@@ -4,7 +4,7 @@ type: help
 categories: Technical,Website,help
 ---
 
-This document explains the HTTP response headers returned by the [UniProt REST API](https://rest.uniprot.org/beta/docs/)
+This document explains the HTTP response headers returned by the UniProt REST API 
 and gives some examples to make explicit what they mean. 
 
 # HTTP Status Headers
@@ -68,8 +68,7 @@ header.
 
 ## 400 Bad request
 The `400 Bad request` status code indicates that the server was unable to process the request due to invalid information
-sent by the client. In other words, the client request needs modification. If this happens, please refer to our
-[API documentation](https://rest.uniprot.org/beta/docs/) for guidance.
+sent by the client. In other words, the client request needs modification.
 
 The following two subsections give examples of bad requests: 
 

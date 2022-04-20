@@ -6,7 +6,6 @@ categories: Text_search,Technical,Website,help
 
 To explore and try out the ID Mapping services, please refer to:
 * The [ID Mapping website tool](http://www.uniprot.org/id-mapping)
-* Our interactive [API documentation](https://rest.uniprot.org/beta/docs/?urls.primaryName=idmapping)
 
 # Overview
 
@@ -14,8 +13,7 @@ The ID Mapping service can map between the identifiers used in one database, to 
 Ensembl to PomBase. If you map to UniProtKB, UniParc or UniRef data, the full entries will be returned to you
 for convenience.
 
-This document serves as a basic guide to using the ID Mapping services offered. For more information about the API,
-please refer to the comprehensive [API documentation](https://rest.uniprot.org/beta/docs/).
+This document serves as a basic guide to using the ID Mapping services offered.
 
 # Submitting an ID Mapping job
 
