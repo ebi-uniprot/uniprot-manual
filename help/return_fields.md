@@ -13,7 +13,7 @@ and the response will have those requested fields.
 
 For example, to get UniProtKB entry with accession and proteomes in new API run the below `curl` command:
 ```bash
-curl https://rest.uniprot.org/beta/uniprotkb/search?query=human&fields=accession,xref_proteomes
+curl https://rest.uniprot.org/uniprotkb/search?query=human&fields=accession,xref_proteomes
 ```
 Equivalent request in the current website would be :
 ```

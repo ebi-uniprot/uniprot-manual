@@ -24,7 +24,7 @@ For example, to map UniProtKB entries P21802, P12345, we could POST a request to
 
 > **Request**
 > ```bash
-> % curl --request POST 'https://rest.uniprot.org/beta/idmapping/run' --form 'ids="P21802,P12345"' --form 'from="UniProtKB_AC-ID"' --form 'to="UniRef90"'
+> % curl --request POST 'https://rest.uniprot.org/idmapping/run' --form 'ids="P21802,P12345"' --form 'from="UniProtKB_AC-ID"' --form 'to="UniRef90"'
 > ```
 > **Reponse**
 > ```bash
@@ -53,13 +53,13 @@ Continuing the above example, we can use the `jobId` to find out the status of t
 
 > **Request**
 > ```bash
-> % curl -i 'https://rest.uniprot.org/beta/idmapping/status/27a020f6334184c4eb382111fbcad0e848f40300'
+> % curl -i 'https://rest.uniprot.org/idmapping/status/27a020f6334184c4eb382111fbcad0e848f40300'
 > ```
 > **Response**
 > ```bash
 > HTTP/1.1 303 
 > Server: nginx/1.17.7
-> Location: https://rest.uniprot.org/beta/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300
+> Location: https://rest.uniprot.org/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300
 > Content-Type: application/json
 > Access-Control-Allow-Origin: *
 >...
@@ -81,7 +81,7 @@ For example, when mapping [P21802, P12345 to UniRef90](#example) could do:
 
 > **Request**            
 > ```bash
-> % curl -s "https://rest.uniprot.org/beta/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300"
+> % curl -s "https://rest.uniprot.org/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300"
 > ```
 > **Response**
 > ```bash
@@ -111,7 +111,7 @@ Continuing our [example above](#example), we would download the results by makin
    
 > **Request**
 > ```bash
-> % curl -s "https://rest.uniprot.org/beta/idmapping/uniref/results/stream/27a020f6334184c4eb382111fbcad0e848f40300"
+> % curl -s "https://rest.uniprot.org/idmapping/uniref/results/stream/27a020f6334184c4eb382111fbcad0e848f40300"
 > ```
 > **Response**
 > ```bash
@@ -140,7 +140,7 @@ For example:
 
 > **Request**
 > ```bash
-> % curl -s "https://rest.uniprot.org/beta/idmapping/uniref/details/27a020f6334184c4eb382111fbcad0e848f40300"
+> % curl -s "https://rest.uniprot.org/idmapping/uniref/details/27a020f6334184c4eb382111fbcad0e848f40300"
 > ```
 > **Response**
 > ```bash
@@ -149,7 +149,7 @@ For example:
 >   "to": "UniRef90",
 >   "ids": "P21802,P12345",
 >   "taxId": null,
->   "redirectURL": "https://rest.uniprot.org/beta/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300"
+>   "redirectURL": "https://rest.uniprot.org/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300"
 > }
 > ```
 # Warnings and errors in various responses
@@ -166,7 +166,7 @@ Error|50|\<Actual application error as message\>
 You can map `from` one database `to` another database. To find the name of all the possible valid databases pairs (both from and to), use the below curl command:
          
 ```bash
-% curl https://rest.uniprot.org/beta/configure/idmapping/fields
+% curl https://rest.uniprot.org/configure/idmapping/fields
 ```
 ## How to interpret the response                   
 
@@ -246,7 +246,7 @@ optional `taxonId` (taxonomy identifier) when submitting the job.
 3. Putting the findings into practice, we can now construct ID mapping POST requests as follows:
 
 ```bash
-% curl --request POST 'https://rest.uniprot.org/beta/idmapping/run' \
+% curl --request POST 'https://rest.uniprot.org/idmapping/run' \
     --form 'ids="<YOUR UNIPARC ID LIST IN COMMA SEPARATED FORM>"' \ 
     --form 'from="UniParc"' \
     --form 'to="<UniProtKB or UniProtKB-Swiss-Prot or UniParc>"'
@@ -254,7 +254,7 @@ optional `taxonId` (taxonomy identifier) when submitting the job.
 Giving a concrete example:
 
 ```bash
-% curl --request POST 'https://rest.uniprot.org/beta/idmapping/run' \ 
+% curl --request POST 'https://rest.uniprot.org/idmapping/run' \ 
    --form 'ids="UPI0000000001,UPI0000000002"' \ 
    --form 'from="UniParc"' \ 
    --form 'to="UniProtKB"'

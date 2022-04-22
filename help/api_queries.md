@@ -13,7 +13,7 @@ https://www.uniprot.org/uniprot?query=reviewed:true+AND+organism_id:9606
 The data for the website is provided by our REST API. For the above example, the REST request is:
 
 ```bash
-https://rest.uniprot.org/beta/uniprotkb/search?query=reviewed:true+AND+organism_id:9606
+https://rest.uniprot.org/uniprotkb/search?query=reviewed:true+AND+organism_id:9606
 ```
 
 # Formats
@@ -25,10 +25,10 @@ All requests allow the `format` parameter, which can be used to indicate the des
 
 ```bash
 # TAB SEPARATED VALUES
-"https://rest.uniprot.org/beta/uniprotkb/search?query=reviewed:true+AND+organism_id:9606&format=tsv"
+"https://rest.uniprot.org/uniprotkb/search?query=reviewed:true+AND+organism_id:9606&format=tsv"
 
 # XML
-"https://rest.uniprot.org/beta/uniprotkb/P12345?format=xml"
+"https://rest.uniprot.org/uniprotkb/P12345?format=xml"
 ```
 
 ## File Extensions
@@ -36,7 +36,7 @@ Entries for any data-set can be displayed in different formats by specifying a s
 
 ```bash
 # e.g., XML
-"https://rest.uniprot.org/beta/uniprotkb/P12345.xml"
+"https://rest.uniprot.org/uniprotkb/P12345.xml"
 ```
                                  
 ## Accept Header
@@ -44,10 +44,10 @@ As is typical with REST requests, the desired format can be specified as an Acce
 
 ```bash
 # TAB SEPARATED VALUES
-curl -H "Accept: text/tsv" "https://rest.uniprot.org/beta/uniprotkb/search?query=reviewed:true+AND+organism_id:9606"
+curl -H "Accept: text/tsv" "https://rest.uniprot.org/uniprotkb/search?query=reviewed:true+AND+organism_id:9606"
 
 # XML
-curl -H "Accept: application/xml" "https://rest.uniprot.org/beta/uniprotkb/P12345"
+curl -H "Accept: application/xml" "https://rest.uniprot.org/uniprotkb/P12345"
 ```
                    
 # What formats are available?
@@ -74,13 +74,13 @@ Some examples are given in the following:
 
 ```bash
 ## Accept header
-curl -H "Accept: text/flatfile" "https://rest.uniprot.org/beta/uniprotkb/P12345"
+curl -H "Accept: text/flatfile" "https://rest.uniprot.org/uniprotkb/P12345"
 
 ## File Extension
-curl "https://rest.uniprot.org/beta/uniprotkb/P12345.txt"
+curl "https://rest.uniprot.org/uniprotkb/P12345.txt"
 
 ## Format Parameter 
-curl "https://rest.uniprot.org/beta/uniprotkb/search?query=human&format=gff"
+curl "https://rest.uniprot.org/uniprotkb/search?query=human&format=gff"
 ```
 
 # Tips
@@ -104,10 +104,10 @@ The URL for a query result consists of a data set name (e.g. `uniprot`, `uniref`
 The following example retrieves all human entries matching the term '`antigen`' in compressed JSON and tab-separated-values formats, respectively.
                                                                                          
 ```bash
-https://rest.uniprot.org/beta/uniprotkb/search?query=organism_id:9606+AND+antigen&format=json&compressed=true
-https://rest.uniprot.org/beta/uniprotkb/search?query=organism_id:9606+AND+antigen&format=tsv&compressed=true
+https://rest.uniprot.org/uniprotkb/search?query=organism_id:9606+AND+antigen&format=json&compressed=true
+https://rest.uniprot.org/uniprotkb/search?query=organism_id:9606+AND+antigen&format=tsv&compressed=true
 ```
 
 The next example retrieves all human entries with cross-references to PDB in tab-separated format, showing only the UniProtKB and PDB identifiers.
 
-https://rest.uniprot.org/beta/uniprotkb/search?query=organism_id:9606+AND+database:pdb&format=tsv&fields=id,xref_pdb
+https://rest.uniprot.org/uniprotkb/search?query=organism_id:9606+AND+database:pdb&format=tsv&fields=id,xref_pdb

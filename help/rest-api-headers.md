@@ -17,14 +17,14 @@ The `200 OK` status code indicates the request succeeded. For example:
 
 > **Request**
 > ```bash
-> curl -X GET "https://rest.uniprot.org/beta/uniprotkb/search?size=1&query=P53&fields=accession%2Cgene_names" \ 
+> curl -X GET "https://rest.uniprot.org/uniprotkb/search?size=1&query=P53&fields=accession%2Cgene_names" \ 
 >      -H "accept: application/json"
 > ```
 > **Important Response Headers**
 > ```bash
 >  HTTP/1.1 200 
 >  content-type: application/json 
->  link: <https://rest.uniprot.org/beta/uniprotkb/search?fields=accession,gene_names&query=P53&cursor=82giuzutyxve1mc8va46o7i2jq3r7fb5tf&size=1>; rel="next" 
+>  link: <https://rest.uniprot.org/uniprotkb/search?fields=accession,gene_names&query=P53&cursor=82giuzutyxve1mc8va46o7i2jq3r7fb5tf&size=1>; rel="next" 
 >  x-release-date: 25-July-2021 
 >  x-release-number: 2021_03 
 >  x-total-records: 49524 
@@ -54,7 +54,7 @@ header.
 ### UniProtKB inactive entry example:
 > **Request**
 > ```bash
-> curl -X GET "https://rest.uniprot.org/beta/uniprotkb/accession/Q00015" -H "accept: application/json"
+> curl -X GET "https://rest.uniprot.org/uniprotkb/accession/Q00015" -H "accept: application/json"
 > ```
 > **Response Headers**
 > ```bash
@@ -75,12 +75,12 @@ The following two subsections give examples of bad requests:
 ### Missing required request parameter
 > **Request**
 > ```bash
-> curl -X GET "https://rest.uniprot.org/beta/uniprotkb/search" -H "accept: application/json"
+> curl -X GET "https://rest.uniprot.org/uniprotkb/search" -H "accept: application/json"
 > ```
 > **Response**
 > ```json
 > {
->   "url": "https://rest.uniprot.org/beta/uniprotkb/search",
+>   "url": "https://rest.uniprot.org/uniprotkb/search",
 >   "messages": [
 >     "'query' is a required parameter"
 >   ]
@@ -90,12 +90,12 @@ The following two subsections give examples of bad requests:
 ### Invalid parameter value 
 > **Request**
 > ```bash
-> curl -X GET "https://rest.uniprot.org/beta/uniprotkb/search?query=invalidQueryField%3Avalue+AND+accession%3AinvalidValue&fields=invalidField" -H "accept: application/json"
+> curl -X GET "https://rest.uniprot.org/uniprotkb/search?query=invalidQueryField%3Avalue+AND+accession%3AinvalidValue&fields=invalidField" -H "accept: application/json"
 > ```
 > **Response**
 > ```json
 > {
->   "url": "https://rest.uniprot.org/beta/uniprotkb/search",
+>   "url": "https://rest.uniprot.org/uniprotkb/search",
 >   "messages": [
 >     "'invalidQueryField' is not a valid search field",
 >     "The 'accession' filter value 'invalidValue' has invalid format. It should be a valid UniProtKB accession",
@@ -110,12 +110,12 @@ example:
 
 > **Request**
 > ```bash
-> curl -X GET "https://rest.uniprot.org/beta/uniprotkb/accession/P99997" -H "accept: application/json"
+> curl -X GET "https://rest.uniprot.org/uniprotkb/accession/P99997" -H "accept: application/json"
 > ```
 > **Response**
 > ```json
 > {
->   "url": "https://rest.uniprot.org/beta/uniprotkb/accession/P99997",
+>   "url": "https://rest.uniprot.org/uniprotkb/accession/P99997",
 >   "messages": [
 >     "Resource not found"
 >   ]
@@ -154,5 +154,5 @@ This response header indicates the URL link to the next page of entities. See mo
 help page.
 
 > ```bash
-> link: <https://rest.uniprot.org/beta/uniprotkb/search?query=P53&cursor=1mkycb2xwxbou9vfxnpy5g9gjf6k5i9fxg6s&size=25>; rel="next" 
+> link: <https://rest.uniprot.org/uniprotkb/search?query=P53&cursor=1mkycb2xwxbou9vfxnpy5g9gjf6k5i9fxg6s&size=25>; rel="next" 
 > ```
