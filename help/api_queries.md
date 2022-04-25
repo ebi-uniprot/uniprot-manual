@@ -7,7 +7,7 @@ categories: UniProtKB,UniRef,UniParc,Programmatic_access,Text_search,Technical,h
 You can use any query to define the set of entries that you are interested in. It is perhaps simplest to start with an interactive [text search](https://www.uniprot.org/help/text%2Dsearch) to find the URL for your set, e.g., all reviewed human entries:
       
 ```bash
-https://www.uniprot.org/uniprot?query=reviewed:true+AND+organism_id:9606
+https://www.uniprot.org/uniprotkb?query=reviewed:true+AND+organism_id:9606
 ```
 
 The data for the website is provided by our REST API. For the above example, the REST request is:
