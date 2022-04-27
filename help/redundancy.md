@@ -10,10 +10,10 @@ Each of the 3 UniProt databases - UniProtKB (Swiss-Prot and TrEMBL), UniParc and
 
 Non-redundancy means in:
 
--   UniProtKB/TrEMBL: one record for 100% identical full-length sequences in one species;
--   UniProtKB/Swiss-Prot: one record per gene in one species;
--   UniParc: one record for 100% identical sequences over the entire length, regardless of the species;
--   UniRef100: one record for 100% identical sequences, including fragments, regardless of the species.
+- UniProtKB/TrEMBL: one record for 100% identical full-length sequences in one species;
+- UniProtKB/Swiss-Prot: one record per gene in one species;
+- UniParc: one record for 100% identical sequences over the entire length, regardless of the species;
+- UniRef100: one record for 100% identical sequences, including fragments, regardless of the species.
 
 # UniProtKB
 
@@ -23,15 +23,15 @@ Non-redundancy means in:
 
 ## See also
 
--   [How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein%5Fdiversity)
--   [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
--   [Reducing proteome redundancy](https://www.uniprot.org/help/proteome%5Fredundancy)
+- [How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein%5Fdiversity)
+- [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
+- [Reducing proteome redundancy](https://www.uniprot.org/help/proteome%5Fredundancy)
 
 ## Remarks
 
--   When different genes in the same species give rise to the same protein sequence, they were merged in a single UniProtKB/Swiss-Prot record and the gene names listed in the gene name subsection. See for example the entry for human histone H3.1 ( [P68431](https://www.uniprot.org/uniprotkb/P68431#names%5Fand%5Ftaxonomy) ). However, we tend to demerge many of these entries, and for newly annotated proteins, generate separate sequence entries in case of multiple genes coding for identical protein sequences, e.g. [P08409](https://www.uniprot.org/uniprotkb/?query=replaces:P08409).
--   'Non-redundancy' in UniProtKB/Swiss-Prot implies that identical sequences are represented in a single record. However, if identical protein sequences are produced in different species, they are stored in different records (e.g. [ubiquitin](https://www.uniprot.org/uniprotkb/?query=(cluster%3A(member%3AP62975+identity%3A1.0)+length%3A76)+AND+reviewed%3Ayes) ).
--   Manual annotation in UniProtKB/Swiss-Prot consists of merging all UniProtKB/TrEMBL entries corresponding to protein products encoded by the same gene and documenting all differences. Once the manually annotated UniProtKB/TrEMBL entries are integrated into UniProtKB/Swiss-Prot, they are automatically removed from UniProtKB/TrEMBL. In this sense, Swiss-Prot and TrEMBL are not redundant with one another. However, merging of new UniProtKB/TrEMBL to existing UniProtKB/Swiss-Prot entries is performed manually - at least partially - in order to ensure that all information contained in the UniProtKB/TrEMBL entry is correctly integrated into UniProtKB/Swiss-Prot. For example, additional publications present in the new UniProtKB/TrEMBL entry have to be critically reviewed and the UniProtKB/Swiss-Prot entry updated accordingly. Given this manual curation effort and the increasing amount of protein sequence data from high-throughput cDNA or genome sequencing projects, it is not possible to ensure non-redundancy at this level. Therefore there can be 100% identical sequences for the same species in UniProtKB/Swiss-Prot and UniProtKB/TrEMBL.
+- When different genes in the same species give rise to the same protein sequence, they were merged in a single UniProtKB/Swiss-Prot record and the gene names listed in the gene name subsection. See for example the entry for human histone H3.1 ( [P68431](https://www.uniprot.org/uniprotkb/P68431#names%5Fand%5Ftaxonomy) ). However, we tend to demerge many of these entries, and for newly annotated proteins, generate separate sequence entries in case of multiple genes coding for identical protein sequences, e.g. [P08409](https://www.uniprot.org/uniprotkb/?query=replaces:P08409).
+- 'Non-redundancy' in UniProtKB/Swiss-Prot implies that identical sequences are represented in a single record. However, if identical protein sequences are produced in different species, they are stored in different records (e.g. [ubiquitin](<https://www.uniprot.org/uniprotkb/?query=(cluster%3A(member%3AP62975+identity%3A1.0)+length%3A76)+AND+reviewed%3Atrue>) ).
+- Manual annotation in UniProtKB/Swiss-Prot consists of merging all UniProtKB/TrEMBL entries corresponding to protein products encoded by the same gene and documenting all differences. Once the manually annotated UniProtKB/TrEMBL entries are integrated into UniProtKB/Swiss-Prot, they are automatically removed from UniProtKB/TrEMBL. In this sense, Swiss-Prot and TrEMBL are not redundant with one another. However, merging of new UniProtKB/TrEMBL to existing UniProtKB/Swiss-Prot entries is performed manually - at least partially - in order to ensure that all information contained in the UniProtKB/TrEMBL entry is correctly integrated into UniProtKB/Swiss-Prot. For example, additional publications present in the new UniProtKB/TrEMBL entry have to be critically reviewed and the UniProtKB/Swiss-Prot entry updated accordingly. Given this manual curation effort and the increasing amount of protein sequence data from high-throughput cDNA or genome sequencing projects, it is not possible to ensure non-redundancy at this level. Therefore there can be 100% identical sequences for the same species in UniProtKB/Swiss-Prot and UniProtKB/TrEMBL.
 
 # UniParc
 

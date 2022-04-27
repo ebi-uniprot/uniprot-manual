@@ -8,7 +8,7 @@ In 2008, a draft of the complete human proteome was released from UniProtKB/Swis
 
 The **UniProtKB/Swiss-Prot _Homo sapiens_ proteome** contains one representative ( [canonical](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms) ) protein sequence for each known protein-coding gene. Close to 40% of these 20,000 protein sequence records also contain manually annotated alternative isoforms representing over 22'000 additional sequences (see [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms) ).
 
-- Query: [proteome:up000005640 AND reviewed:true](https://www.uniprot.org/uniprotkb/?query=reviewed%3Ayes+AND+proteome%3Aup000005640)
+- Query: [proteome:up000005640 AND reviewed:true](https://www.uniprot.org/uniprotkb/?query=reviewed%3Atrue+AND+proteome%3Aup000005640)
 
 In 2011, a complementary pipeline for import of predicted human protein sequences in UniProtKB/TrEMBL has been developed in collaboration with [Ensembl](http://www.ensembl.org/) to complete the set of human isoform sequences produced by genes present in UniProtKB/Swiss-Prot.
 
@@ -35,11 +35,11 @@ You can retrieve:
 
 1\) <u>approximately 20,000 human protein-coding genes represented by the canonical protein sequence</u> in UniProtKB/Swiss-Prot:
 
-- Query: [proteome:up000005640 AND reviewed:true](https://www.uniprot.org/uniprotkb/?query=reviewed%3Ayes+AND+proteome%3Aup000005640)
+- Query: [proteome:up000005640 AND reviewed:true](https://www.uniprot.org/uniprotkb/?query=reviewed%3Atrue+AND+proteome%3Aup000005640)
 
 Note: Some of the human entries in UniProtKB/Swiss-Prot are not included in the proteome because their protein sequences do not map to the reference genome:
 
-- Query: [organism_id:9606 AND reviewed:true NOT proteome:up000005640](https://www.uniprot.org/uniprotkb/?query=organism%3A9606+AND+reviewed%3Ayes+NOT+proteome%3Aup000005640)
+- Query: [organism_id:9606 AND reviewed:true NOT proteome:up000005640](https://www.uniprot.org/uniprotkb/?query=organism%3A9606+AND+reviewed%3Atrue+NOT+proteome%3Aup000005640)
 
 2\) <u>additional manually reviewed isoform sequences</u> produced by the protein-coding genes described in UniProtKB/Swiss-Prot. There are currently around 22,000 such additional isoform sequences. These are **downloadable in FASTA format** together with the canonical sequences, if you click on "Download" and then select 'FASTA (canonical and isoform)':
 
@@ -47,11 +47,11 @@ Note: Some of the human entries in UniProtKB/Swiss-Prot are not included in the 
 
 3\) <u>additional predicted and unreviewed sequences in UniProtKB/TrEMBL</u>, flagged to be part of the proteome, which may correspond to novel isoform sequences for genes present in UniProtKB/Swiss-Prot (derived from the Ensembl pipeline):
 
-- Query: [proteome:up000005640 AND reviewed:false](https://www.uniprot.org/uniprotkb/?query=proteome:up000005640+AND+reviewed%3Ano)
+- Query: [proteome:up000005640 AND reviewed:false](https://www.uniprot.org/uniprotkb/?query=proteome:up000005640+AND+reviewed%3Afalse)
 
 Note: Additional human sequences in UniProtKB/TrEMBL are not flagged to be part of the proteome. The vast majority of these additional UniProtKB/TrEMBL entries contain sequences which are not identical to any isoform sequences predicted by Ensembl. They might represent other alternative isoforms. The system is not perfect, but it is the best we can provide for the time being.
 
-- Query: [organism_id:9606 AND reviewed:false NOT proteome:up000005640](https://www.uniprot.org/uniprotkb/?query=organism%3A9606+AND+reviewed%3Ano+NOT+proteome:up000005640)
+- Query: [organism_id:9606 AND reviewed:false NOT proteome:up000005640](https://www.uniprot.org/uniprotkb/?query=organism%3A9606+AND+reviewed%3Afalse+NOT+proteome:up000005640)
 
 # See also
 

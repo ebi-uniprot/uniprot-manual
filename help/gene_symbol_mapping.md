@@ -41,7 +41,7 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
 
     Prefix this with your organism criteria, e.g. `'organism:"homo sapiens"'` and `'reviewed:true'` if you wish to restrict your results to reviewed UniProtKB/Swiss-Prot entries, or `'keyword:KW-1185'` to restrict to a reference proteome.
 
-    [organism:"homo sapiens" and (gene_exact:braf or gene_exact:brca1 or gene_exact:brca2 or gene_exact:btk or gene_exact:casp10 or gene_exact:casp8) and reviewed:true](https://www.uniprot.org/uniprotkb/?query=organism%3A%22homo+sapiens%22+and+%28gene_exact%3Abraf+or+gene_exact%3Abrca1+or+gene_exact%3Abrca2+or+gene_exact%3Abtk+or+gene_exact%3Acasp10+or+gene_exact%3Acasp8%29%20and%20reviewed%3Ayes&sort=score)
+    [organism:"homo sapiens" and (gene_exact:braf or gene_exact:brca1 or gene_exact:brca2 or gene_exact:btk or gene_exact:casp10 or gene_exact:casp8) and reviewed:true](https://www.uniprot.org/uniprotkb/?query=organism%3A%22homo+sapiens%22+and+%28gene_exact%3Abraf+or+gene_exact%3Abrca1+or+gene_exact%3Abrca2+or+gene_exact%3Abtk+or+gene_exact%3Acasp10+or+gene_exact%3Acasp8%29%20and%20reviewed%3Atrue&sort=score)
 
     You can use the "Columns" button and [customize](https://www.uniprot.org/help/customize) your result table to show only gene names and UniProtKB identifiers, and then download the table (see 1. above).
 
