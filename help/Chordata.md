@@ -24,8 +24,8 @@ We also continuously update human entries with functional annotation, including 
 
 In addition to the review of the human proteome, other mammalian and non-mammalian chordata proteins are increasingly being manually annotated with special emphasis on species such as _Xenopus laevis_, _Xenopus tropicalis_ and _Danio rerio_ (Zebrafish) which are important model organisms for studying embryonic development and cell biology. We work in close collaboration with species-specific resources and model organism databases, such as [HGNC](http://www.genenames.org/), [MGI](http://www.informatics.jax.org/), [RGD](http://rgd.mcw.edu/), [Zfin](http://zfin.org/) and [Xenbase](http://www.xenbase.org/), to ensure consistency between UniProt and these resources.
 
-- All manually reviewed mouse entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:10090+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Chordata/statistics/#Musmusculus)
-- All manually reviewed rat entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:10116+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Chordata/statistics/#Rattusnorvegicus)
+- All manually reviewed mouse entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:10090+AND+reviewed:true)
+- All manually reviewed rat entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:10116+AND+reviewed:true)
 - All manually reviewed _Xenopus laevis_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:8355+AND+reviewed:true)
 - All manually reviewed _Xenopus tropicalis_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:8364+AND+reviewed:true)
 - All manually reviewed _Danio rerio_ (Zebrafish) entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:7955+AND+reviewed:true)
