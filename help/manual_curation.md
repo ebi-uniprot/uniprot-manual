@@ -16,13 +16,13 @@ A well-defined manual curation process is essential to ensure that all manually 
 
 **(3) Literature curation.** Journal articles provide the main source of experimental protein knowledge. Relevant publications are identified by searching literature databases, such as PubMed, and using literature mining tools. The full text of each paper is read and information is extracted and added to the entry. All experimental findings and authors' statements are compared both with the current knowledge on related proteins and the results from various protein sequence analysis tools. Annotation captured from the scientific literature includes protein and gene names, function, catalytic activity, cofactors, subcellular location, protein-protein interactions, patterns of expression, diseases associated with deficiencies in a protein, locations and roles of significant domains and sites, ion-, substrate- and cofactor-binding sites, catalytic residues, the variant protein forms produced by natural genetic variation, RNA editing, alternative splicing, proteolytic processing, and post-translational modification. Relevant Gene Ontology (GO) terms are assigned based on experimental data from the literature.
 
--   [References](https://www.uniprot.org/help/references)
+-   [References](https://www.uniprot.org/help/publications)
 -   [On what basis are literature references inserted in UniProtKB/Swiss-Prot entries?](https://www.uniprot.org/help/literature_references)
 
 **(4) Family-based curation.** Reciprocal Blast searches and phylogenetic resources are used to identify putative homologs, which are evaluated and curated. Annotation is standardized and propagated across homologous proteins to ensure data consistency.
 
 -   [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)
--   [How is protein family membership assigned in UniProtKB?](https://www.uniprot.org/family_membership)
+-   [How is protein family membership assigned in UniProtKB?](https://www.uniprot.org/help/family_membership)
 
 **(5) Evidence attribution.** All information added to an entry during the manual annotation process is linked to the original source so that users can trace back the origin of each piece of information and evaluate it.
 
