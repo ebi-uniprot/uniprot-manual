@@ -10,9 +10,9 @@ See: [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/he
 
 Our major effort is currently directed towards the annotation of proteins from the already well-characterized model bacteria _[Escherichia coli](https://www.uniprot.org/taxonomy/83333)_ and _[Bacillus subtilis](https://www.uniprot.org/taxonomy/224308)_, as well as the annotation of pathogens such as _[Mycobacterium tuberculosis](https://www.uniprot.org/taxonomy/1773)_.
 
-- All manually reviewed _Escherichia coli_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:83333+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Prokaryotes/statistics#Escherichiacoli)
-- All manually reviewed _Bacillus subtilis_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:224308+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Prokaryotes/statistics#Bacillussubtilis)
-- All manually reviewed _Mycobacterium tuberculosis_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:1773+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Prokaryotes/statistics#Mycobacteriumtuberculosis)
+- All manually reviewed _Escherichia coli_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:83333+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Prokaryotes/statistics#Escherichiacoli)
+- All manually reviewed _Bacillus subtilis_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:224308+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Prokaryotes/statistics#Bacillussubtilis)
+- All manually reviewed _Mycobacterium tuberculosis_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:1773+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Prokaryotes/statistics#Mycobacteriumtuberculosis)
 
 # High-quality automated annotation propagation
 

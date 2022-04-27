@@ -12,7 +12,7 @@ Once you have selected such a database, e.g. OrthoDB, you can include it in a q
 
 Query: [(organism:"xenopus laevis" or (organism:"homo sapiens" and reviewed:true)) and database:(type:orthodb)](https://www.uniprot.org/uniprotkb/?query=%28organism%3a%22xenopus+laevis%22+or+%28organism%3a%22homo+sapiens%22+and+reviewed%3ayes%29+%29+and+database%3a%28type%3aorthodb%29)
 
-Note: To be even more exact, we recommend to use the taxonomy identifiers instead of organism names (e.g. organism:9606).
+Note: To be even more exact, we recommend to use the taxonomy identifiers instead of organism names (e.g. organism_id:9606).
 
 If you click on the little triangle in the title of the gene name column, you can have these results sorted by gene name, an operation that will group orthologous entries together in many cases:
 
