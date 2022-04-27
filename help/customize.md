@@ -29,6 +29,6 @@ The same applies if you have an URL originating from a previous bookmark or shar
 
 # See also
 
--   [UniProtKB tutorial/video](https://www.youtube.com/watch?v=ado1r8IDm3U)
+-   [UniProtKB tutorial/video](https://www.youtube.com/watch?v=OwOJmKmc7VM)
 -   [UniProtKB column names for programmatic access](https://www.uniprot.org/help/uniprotkb%5Fcolumn%5Fnames)
 -   [Customise and share your search results (UniProt blog)](https://insideuniprot.blogspot.com/2015/03)
