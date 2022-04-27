@@ -15,7 +15,7 @@ Manual annotation of entries with 3D-structures has high priority, for the follo
 
 UniProtKB/Swiss-Prot document: [Index of PDB cross-references in UniProtKB/Swiss-Prot](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pdbtosp)  
 Related keywords: [3D-structure](https://www.uniprot.org/keywords/KW-0002)  
-[3D-structure databases](https://www.uniprot.org/database/?query=category:%223D+structure+databases%22)
+[3D-structure databases](https://www.uniprot.org/database/?query=category_str:%223D+structure+databases%22)
 
 [How can I retrieve all UniProtKB entries for which the 3D structure is known?](https://www.uniprot.org/help/retrieve%5F3d)  
 [Why do I find many cross-references to PDB in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/multiple%5Fpdb%5Fxrefs)
