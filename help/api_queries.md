@@ -30,21 +30,13 @@ All requests allow the `format` parameter, which can be used to indicate the des
 # XML
 "https://rest.uniprot.org/uniprotkb/P12345?format=xml"
 ```
-
-## File Extensions
-Entries for any data-set can be displayed in different formats by specifying a suffix/file-extension. For example:        
-
-```bash
-# e.g., XML
-"https://rest.uniprot.org/uniprotkb/P12345.xml"
-```
                                  
 ## Accept Header
 As is typical with REST requests, the desired format can be specified as an Accept header. For example:
 
 ```bash
 # TAB SEPARATED VALUES
-curl -H "Accept: text/tsv" "https://rest.uniprot.org/uniprotkb/search?query=reviewed:true+AND+organism_id:9606"
+curl -H "Accept: text/plain; format=tsv" "https://rest.uniprot.org/uniprotkb/search?query=reviewed:true+AND+organism_id:9606"
 
 # XML
 curl -H "Accept: application/xml" "https://rest.uniprot.org/uniprotkb/P12345"
@@ -74,10 +66,7 @@ Some examples are given in the following:
 
 ```bash
 ## Accept header
-curl -H "Accept: text/flatfile" "https://rest.uniprot.org/uniprotkb/P12345"
-
-## File Extension
-curl "https://rest.uniprot.org/uniprotkb/P12345.txt"
+curl -H "Accept: text/plain; format=flatfile" "https://rest.uniprot.org/uniprotkb/P12345"
 
 ## Format Parameter 
 curl "https://rest.uniprot.org/uniprotkb/search?query=human&format=gff"
