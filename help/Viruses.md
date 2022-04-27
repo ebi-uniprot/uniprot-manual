@@ -6,7 +6,7 @@ categories: biocuration,project
 
 The Viral protein annotation project focuses on the manual annotation of viral proteins, viral and host taxonomy and host interaction specificities.
 
-See: [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/faq/45)
+See: [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual_curation)
 
 Each protein is annotated according to the quality standards of UniProtKB/Swiss-Prot providing a wealth of information that includes the description of the function, domain structure, subcellular location, post-translational modifications, host-virus interactions, similarities to other proteins and numerous cross-references to various databases. The taxonomy describes precisely the strain or isolate from which the protein sequence belongs to.
 
