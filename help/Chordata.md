@@ -12,7 +12,7 @@ See: [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/he
 
 A draft of the [human proteome](https://www.uniprot.org/uniprotkb/?query=organism:9606+AND+keyword:kW-1185+AND+reviewed:yes) has been available in UniProtKB/Swiss-Prot since 2008 and one of the current priorities of the Chordata protein annotation project is to improve the quality of human sequences provided.
 
-See: [What is UniProt's human proteome?](https://www.uniprot.org/faq/48)
+See: [What is UniProt's human proteome?](https://www.uniprot.org/help/human_proteome)
 
 To this aim, we are updating sequences which show discrepancies with those predicted from the genome sequence. Dubious isoforms, sequences based on experimental artefacts and protein products derived from erroneous gene model predictions are also revisited. This work is in part done in collaboration with the Hinxton Sequence Forum (HSF), which allows active exchange between UniProt, [HAVANA](http://www.sanger.ac.uk/HGP/havana/), [Ensembl](http://www.ensembl.org/index.html) and [HGNC](http://www.genenames.org/) groups, as well as with [RefSeq database](http://www.ncbi.nlm.nih.gov/RefSeq/). UniProt is a member of the [Consensus CDS project](http://www.ncbi.nlm.nih.gov/projects/CCDS/CcdsBrowse.cgi) and we are in the process of reviewing our records to support convergence towards a standard set of protein annotation.
 
