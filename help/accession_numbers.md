@@ -18,7 +18,8 @@ The three patterns can be combined into the following regular expression:
 
 `[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}`
 
-Examples: [A2BC19](https://www.uniprot.org/uniprotkb/A2BC19#section%5Fgeneral), [P12345](https://www.uniprot.org/uniprotkb/P12345#section%5Fgeneral), [A0A023GPI8](https://www.uniprot.org/uniprotkb/A0A023GPI8#section%5Fgeneral)
+
+Examples: [A2BC19](https://www.uniprot.org/uniprotkb/A2BC19), [P12345](https://www.uniprot.org/uniprotkb/P12345), [A0A023GPI8](https://www.uniprot.org/uniprotkb/A0A023GPI8)
 
 Entries can have more than one accession number. This can be due to two distinct mechanisms:
 
@@ -26,7 +27,7 @@ Entries can have more than one accession number. This can be due to two distinct
 
 -   b\) If an existing entry is split into two or more entries ('demerged'), new 'primary' accession numbers are attributed to all the split entries while all original accession numbers are retained as 'secondary' accession numbers.
 
-Example: [P29358](https://www.uniprot.org/uniprotkb/P29358) which has been 'demerged' into [P68250](https://www.uniprot.org/uniprotkb/P68250#entry_information) and [P68251](https://www.uniprot.org/uniprotkb/P68251#entry_information).
+Example: [P29358](https://www.uniprot.org/uniprotkb/P29358) which has been 'demerged' into [P68250](https://www.uniprot.org/uniprotkb/P68250) and [P68251](https://www.uniprot.org/uniprotkb/P68251).
 
 An accession number is only deleted when the entry to which it was assigned has been removed from UniProtKB. The list of deleted accession numbers is stored in the document files [delac\_sp.txt](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/complete/docs/delac%5Fsp.txt) (for the Swiss-Prot section) and [delac\_tr.txt.gz](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/complete/docs/delac%5Ftr.txt.gz) (for the TrEMBL section)
 
