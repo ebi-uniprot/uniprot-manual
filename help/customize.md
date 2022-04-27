@@ -25,7 +25,7 @@ In some cases, e.g. in an ID mapping or batch retrieval result, or if you have 
 
 In case of an ID mapping or batch retrieval result, this allows you to customize your result and decide whether you wish to keep the column containing your submitted identifiers for future result views.
 
-The same applies if you have an URL originating from a previous bookmark or shared by a colleague. Such URLs may contain some information about column settings that differ from your current settings ( [example](https://www.uniprot.org/uniprotkb/?query=database:%28type:hgnc%29&sort=score&columns=id,entry%20name,reviewed,genes,database%28HGNC%29) ), and using the column customization interface allows you to merge the columns specified in the URL with your current settings.
+The same applies if you have an URL originating from a previous bookmark or shared by a colleague. Such URLs may contain some information about column settings that differ from your current settings ([example](https://www.uniprot.org/uniprotkb?query=%28database%3Ahgnc%29&fields=accession%2Creviewed%2Cid%2Cgene_names%2Cxref_hgnc&view=table)), and using the column customization interface allows you to merge the columns specified in the URL with your current settings.
 
 # See also
 
