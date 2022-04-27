@@ -7,7 +7,7 @@ categories: Download,Technical,faq
 # FTP downloads
 
 Every folder on our [FTP server](https://ftp.uniprot.org/) contains a file called RELEASE.metalink that specifies the size and MD5 checksum of every file in that folder, e.g.  
-<https://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/RELEASE.metalink>
+<https://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/complete/RELEASE.metalink>
 
 [Metalink](http://en.wikipedia.org/wiki/Metalink) is an extensible metadata file format that describes one or more computer files available for download. It facilitates file verification and recovery from data corruption and lists alternate download sources (mirror URIs).
 
@@ -22,7 +22,7 @@ They will be downloaded from one of the alternative locations mentioned in the m
 Please note that UniProt can be downloaded from the consortium member FTP sites at three different geographical locations:
 
 USA: <https://ftp.uniprot.org/pub/databases/uniprot>  
-UK: <ftp://ftp.ebi.ac.uk/pub/databases/uniprot>  
+UK: <https://ftp.ebi.ac.uk/pub/databases/uniprot>  
 Switzerland: <https://ftp.expasy.org/databases/uniprot>
 
 # HTTP downloads
