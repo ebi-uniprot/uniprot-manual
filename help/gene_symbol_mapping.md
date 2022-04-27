@@ -23,7 +23,7 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
 
     See also
 
-    - [Organism-specific databases](https://www.uniprot.org/database/?query=category:%22Organism-specific+databases%22)
+    - [Organism-specific databases](https://www.uniprot.org/database?facets=category_exact%3AOrganism-specific%20databases&query=%2A)
     - [Database identifier mapping (via 'Retrieve/ID mapping')](https://www.uniprot.org/help/uploadlists)
     - [Cross-references](https://www.uniprot.org/help/cross%5Freferences%5Fsection)
 
