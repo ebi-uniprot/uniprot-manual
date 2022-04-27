@@ -6,7 +6,7 @@ categories: UniProtKB,UniRef,UniParc,Programmatic_access,Download,help
 
 The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-Modified:` will avoid that you download data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here are examples of how to do this in Perl:
 
--   [Download all UniProt sequences for a given organism in FASTA format](https://www.uniprot.org/help/api_downloading#download_perl_example1)  
+**Download all UniProt sequences for a given organism in FASTA format**
 
         use strict;
         use warnings;
@@ -36,7 +36,8 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-
             ' for ' . $response->request->uri . "\n";
         }
 
--   [Download the UniProt reference proteomes for all organisms below a given taxonomy node in compressed FASTA format](https://www.uniprot.org/help/api_downloading#download_perl_example2)  
+<br/><br/>
+**Download the UniProt reference proteomes for all organisms below a given taxonomy node in compressed FASTA format**
 
         use strict;
         use warnings;
