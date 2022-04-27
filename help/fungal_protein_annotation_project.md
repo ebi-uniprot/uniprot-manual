@@ -16,12 +16,12 @@ Species of the fungal kingdom occupy almost every ecological niche, and include 
 
 Our major manual curation efforts are directed towards the annotation of proteins from the well-studied model yeasts _[Saccharomyces cerevisiae](https://www.uniprot.org/taxonomy/4932)_ and _[Schizosaccharomyces pombe](https://www.uniprot.org/taxonomy/4896)_ as well as the annotation of representative members of fungal-specific protein families from other model fungi like _[Aspergillus nidulans](https://www.uniprot.org/taxonomy/162425)_ and _[Neurospora crassa](https://www.uniprot.org/taxonomy/5141)_, or the human pathogens _[Candida albicans](https://www.uniprot.org/taxonomy/5476)_ and _[Cryptococcus neoformans](https://www.uniprot.org/taxonomy/5207)_. This is done with special emphasis on proteins of particular interest within these individual species and also on proteins belonging to conserved fungal families, but which have no discernable members in the two model yeasts _S. cerevisiae_ and _S. pombe_. This allows an even broader coverage of biochemically characterized fungal proteins in our knowledgebase.
 
-- All manually reviewed _Saccharomyces cerevisiae_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:4932+AND+reviewed:yes) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/fungi/statistics/#Saccharomycescerevisiae)
-- All manually reviewed _Schizosaccharomyces pombe_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:4896+AND+reviewed:yes) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/fungi/statistics/#Schizosaccharomycespombe)
-- All manually reviewed _Aspergillus nidulans_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:162425+AND+reviewed:yes)
-- All manually reviewed _Neurospora crassa_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:5141+AND+reviewed:yes)
-- All manually reviewed _Candida albicans_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:5476+AND+reviewed:yes)
-- All manually reviewed _Cryptococcus neoformans_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:5207+AND+reviewed:yes)
+- All manually reviewed _Saccharomyces cerevisiae_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:4932+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/fungi/statistics/#Saccharomycescerevisiae)
+- All manually reviewed _Schizosaccharomyces pombe_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:4896+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/fungi/statistics/#Schizosaccharomycespombe)
+- All manually reviewed _Aspergillus nidulans_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:162425+AND+reviewed:true)
+- All manually reviewed _Neurospora crassa_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:5141+AND+reviewed:true)
+- All manually reviewed _Candida albicans_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:5476+AND+reviewed:true)
+- All manually reviewed _Cryptococcus neoformans_ entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism:5207+AND+reviewed:true)
 
 # Annotation propagation
 

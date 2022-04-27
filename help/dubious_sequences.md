@@ -8,17 +8,17 @@ About 98% of the protein sequences provided by UniProtKB come from the translati
 
 The ' [Protein existence](https://www.uniprot.org/help/protein_existence) ' subsection of the 'Header' section indicates the evidence for the existence of a given protein, 5 levels of evidence have been defined:
 
--   PE1: evidence at protein level (e.g. clear identification by mass spectrometry)
--   PE2: evidence at transcript level (e.g. the existence of cDNA)
--   PE3: inferred by homology (a predicted protein which has been assigned membership of a defined protein family in UniProtKB)
--   PE4: predicted (a predicted protein which has not yet been assigned membership of a defined protein family in UniProtKB)
--   PE5: uncertain (e.g. dubious sequences, such as those derived from the erroneous translation of a pseudogene or non-coding RNA).
+- PE1: evidence at protein level (e.g. clear identification by mass spectrometry)
+- PE2: evidence at transcript level (e.g. the existence of cDNA)
+- PE3: inferred by homology (a predicted protein which has been assigned membership of a defined protein family in UniProtKB)
+- PE4: predicted (a predicted protein which has not yet been assigned membership of a defined protein family in UniProtKB)
+- PE5: uncertain (e.g. dubious sequences, such as those derived from the erroneous translation of a pseudogene or non-coding RNA).
 
 One may ask the question: why not delete PE5 sequences from UniProtKB and provide only the most reliable sequences? UniProtKB is continuously reviewing all protein sequences. This process can result in both the removal of some PE5 entries (in which evidence of pseudogenization is overwhelming for instance) as well as the upgrade of other PE5 entries (such as the putative E.coli pseudogene [ymiA](https://www.uniprot.org/uniprotkb/P0CB62) which has now been found to produce a protein product and which has now acquired a PE of 1).
 
 However, many putative pseudogene sequences may be expected to remain in UniProtKB for some time as it can be difficult to prove the non-existence of a protein, and for certain loci some doubts may always persist. To give our users the opportunity to work on the most complete protein set, we have chosen to keep all PE5 sequences with an appropriate 'Caution' comment in the 'Sequence' section, leaving to the users the final decision whether to retrieve them or not. The 'Caution' subsections accompanying a PE5 entry usually are of the type: "Could be the product of a pseudogene", "Product of a dubious CDS prediction" or "Product of a dubious gene prediction".
 
-The PE subsection is included in the UniProtKB search engine. It is thus possible to retrieve all entries corresponding to a defined PE level - and thereby exclude all PE5 proteins. For human proteins, for instance, this can be achieved by searching for: [(organism:"Homo sapiens (Human) \[9606\]" AND reviewed:yes) NOT existence:uncertain](https://www.uniprot.org/uniprotkb/?query=taxonomy:9606+AND+reviewed:yes+NOT+existence:uncertain).
+The PE subsection is included in the UniProtKB search engine. It is thus possible to retrieve all entries corresponding to a defined PE level - and thereby exclude all PE5 proteins. For human proteins, for instance, this can be achieved by searching for: [(organism:"Homo sapiens (Human) \[9606\]" AND reviewed:true) NOT existence:uncertain](https://www.uniprot.org/uniprotkb/?query=taxonomy:9606+AND+reviewed:true+NOT+existence:uncertain).
 
 # Important remark
 
@@ -30,9 +30,9 @@ Note that UniProtKB may include isoforms that contain retained introns (as these
 
 # See also
 
--   [Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence_origin)
--   [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds_protein_definition)
--   [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb_coverage)
--   [Why have some UniProtKB accession numbers been deleted? How can I track them?](https://www.uniprot.org/help/deleted_accessions)
--   [Protein existence](https://www.uniprot.org/help/protein_existence)
--   [Headlines: Why do we keep dubious sequences in UniProtKB?](https://www.uniprot.org/news/2009/11/24/release)
+- [Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence_origin)
+- [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds_protein_definition)
+- [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb_coverage)
+- [Why have some UniProtKB accession numbers been deleted? How can I track them?](https://www.uniprot.org/help/deleted_accessions)
+- [Protein existence](https://www.uniprot.org/help/protein_existence)
+- [Headlines: Why do we keep dubious sequences in UniProtKB?](https://www.uniprot.org/news/2009/11/24/release)

@@ -10,7 +10,7 @@ If you want to use UniProtKB, you should first find out which of the [phylogenom
 
 Once you have selected such a database, e.g. OrthoDB, you can include it in a query that allows you to retrieve all entries from Xenopus laevis and all human Swiss-Prot entries with a cross-reference to the phylogenomic database OrthoDB:
 
-Query: [(organism:"xenopus laevis" or (organism:"homo sapiens" and reviewed:yes)) and database:(type:orthodb)](https://www.uniprot.org/uniprotkb/?query=%28organism%3a%22xenopus+laevis%22+or+%28organism%3a%22homo+sapiens%22+and+reviewed%3ayes%29+%29+and+database%3a%28type%3aorthodb%29)
+Query: [(organism:"xenopus laevis" or (organism:"homo sapiens" and reviewed:true)) and database:(type:orthodb)](https://www.uniprot.org/uniprotkb/?query=%28organism%3a%22xenopus+laevis%22+or+%28organism%3a%22homo+sapiens%22+and+reviewed%3ayes%29+%29+and+database%3a%28type%3aorthodb%29)
 
 Note: To be even more exact, we recommend to use the taxonomy identifiers instead of organism names (e.g. organism:9606).
 
@@ -26,6 +26,6 @@ If you want to sort on the OrthoDB identifiers instead, this cannot be done via 
 
 # See also
 
--   [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)
--   [List of phylogenomic databases cross-referenced in UniProtKB](https://www.uniprot.org/database/?query=category:%22Phylogenomic+databases%22)
--   [Customize display options](https://www.uniprot.org/help/customize)
+- [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)
+- [List of phylogenomic databases cross-referenced in UniProtKB](https://www.uniprot.org/database/?query=category:%22Phylogenomic+databases%22)
+- [Customize display options](https://www.uniprot.org/help/customize)

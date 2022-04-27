@@ -69,7 +69,7 @@ a 14-character hash encoding the basic (Mobile-H) InChI layer, e.g. [WQZGKKKJIJ
 
 Historically, UniProt has followed the recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB) for the description of enzymatic activities. The NC-IUBMB use their own names for the reactants, and sometimes the catalytic activity from IUBMB is a free text reaction description.
 
-When searching with a compound name that is not in ChEBI but part of a reaction sourced from IUBMB, or with a word from a free text reaction description, a full text search instead of an identifier search is performed in catalytic activity annotation. Since IUBMB does not use ChEBI or any other ontology, there is no autocompletion in this case, and no hierarchical relationships (such as is\_a) can be taken into account.
+When searching with a compound name that is not in ChEBI but part of a reaction sourced from IUBMB, or with a word from a free text reaction description, a full text search instead of an identifier search is performed in catalytic activity annotation. Since IUBMB does not use ChEBI or any other ontology, there is no autocompletion in this case, and no hierarchical relationships (such as is_a) can be taken into account.
 
 Example:  
 [annotation:(type:"catalytic activity" PretRNA)](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22+PretRNA%29)
@@ -84,9 +84,9 @@ The ChEBI (Chemical Entities of Biological Interest) ontology is used in "Cataly
 Example biotin ( [ChEBI:57586](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57586) ) :
 
 Biotin in "Small molecule":  
-[reviewed:yes AND chebi:"biotin\[57586\]"](https://www.uniprot.org/uniprotkb/?query=chebi%3A%22biotin+%5B57586%5D%22+reviewed%3Ayes)  
+[reviewed:true AND chebi:"biotin\[57586\]"](https://www.uniprot.org/uniprotkb/?query=chebi%3A%22biotin+%5B57586%5D%22+reviewed%3Ayes)  
 Biotin in "Catalytic activity":  
-[reviewed:yes AND annotation:(type:"catalytic activity" chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22+CHEBI%3A57586%29+reviewed%3Ayes)
+[reviewed:true AND annotation:(type:"catalytic activity" chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22+CHEBI%3A57586%29+reviewed%3Ayes)
 
 Biotin in "Cofactor":  
-[reviewed:yes AND cofactor:(chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb/?query=cofactor%3A%28chebi%3A%22biotin+%5B57586%5D%22%29+reviewed%3Ayes)
+[reviewed:true AND cofactor:(chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb/?query=cofactor%3A%28chebi%3A%22biotin+%5B57586%5D%22%29+reviewed%3Ayes)
