@@ -57,18 +57,18 @@ available throughout.
 
 ## List of all formats
 
-| Description | Accept Header Media Type | Format Parameter | File Extension |
-|-----|-----|-----|-----|
-|JavaScript Object Notation (JSON) |application/json|json|.json|
-|Extensible Markup Language (XML) |application/xml|xml|.xml|
-|Text file representation|text/flatfile|txt|.txt|
-|List of one or more IDs|text/list|list|.list|
-|Tab-Separated-Values|text/tsv|tsv|.tsv|
-|FASTA: a text-based format representing nucleotide / peptide sequences|text/fasta|fasta|.fasta|
-|Genomic Feature Format (GFF) |text/gff|gff|.gff|
-|Open Biomedical Ontologies (OBO) |text/obo|obo|.obo|
-|Resource Description Framework (RDF)|application/rdf+xml|rdf|.rdf|
-|Excel|application/vnd.ms-excel|xlsx|.xlsx|
+| Description | Accept Header Media Type | Format Parameter |
+|-----|-----|-----|
+|JavaScript Object Notation (JSON) |application/json|json|
+|Extensible Markup Language (XML) |application/xml|xml|
+|Text file representation|text/plain; format=flatfile|txt|
+|List of one or more IDs|text/plain; format=list|list|
+|Tab-Separated-Values|text/plain; format=tsv|tsv|
+|FASTA: a text-based format representing nucleotide / peptide sequences|text/plain; format=fasta|fasta|
+|Genomic Feature Format (GFF) |text/plain; format=gff|gff|
+|Open Biomedical Ontologies (OBO) |text/plain; format=obo|obo|
+|Resource Description Framework (RDF)|application/rdf+xml|rdf|
+|Excel|application/vnd.ms-excel|xlsx|
 
 Some examples are given in the following:               
 
