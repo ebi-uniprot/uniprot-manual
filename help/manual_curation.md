@@ -31,8 +31,6 @@ A well-defined manual curation process is essential to ensure that all manually 
 
 **(6) Quality assurance, integration and update.** Each completed entry undergoes quality assurance before integration into UniProtKB/Swiss-Prot and is updated as new data become available.
 
--   [How do I get notified automatically of updates to UniProtKB?](https://www.uniprot.org/help/update_notification)  
-
 # See also
 
 -   [Standard operating procedure (SOP) for UniProt manual curation](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf)

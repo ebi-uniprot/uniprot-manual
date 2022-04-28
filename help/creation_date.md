@@ -37,7 +37,6 @@ A comprehensive archive of UniProtKB/Swiss-Prot and UniProtKB/TrEMBL entry versi
 
 -   [Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence_origin)
 -   [How do I link to a specific version of a UniProtKB entry?](https://www.uniprot.org/help/link_old_versions)
--   [How do I get notified automatically of updates to UniProtKB?](https://www.uniprot.org/help/update_notification)
 -   [How can I get all green plant entries integrated in UniProtKB since release 12.0?](https://www.uniprot.org/help/entries_since_rel_x)
 -   [Entry history](https://www.uniprot.org/help/entry_history)
 -   [Sequences](https://www.uniprot.org/help/sequences)

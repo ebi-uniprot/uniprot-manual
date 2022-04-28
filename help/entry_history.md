@@ -16,8 +16,5 @@ A comprehensive archive of UniProtKB/Swiss-Prot and UniProtKB/TrEMBL entry versi
 
 # Related documents
 
-[How do I link to a specific version of a UniProtKB entry?](https://www.uniprot.org/help/link_old_versions)
-
-[How do I get notified automatically of updates to UniProtKB?](https://www.uniprot.org/help/update_notification)
-
-[When was sequence Xxxx entered in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/creation_date)
+- [How do I link to a specific version of a UniProtKB entry?](https://www.uniprot.org/help/link_old_versions)
+- [When was sequence Xxxx entered in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/creation_date)

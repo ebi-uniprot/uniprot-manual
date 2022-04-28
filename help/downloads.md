@@ -4,7 +4,7 @@ type: help
 categories: download,release
 ---
 
-UniProt is updated every eight weeks ([see FAQ on how to be notified automatically of updates](https://www.uniprot.org/help/update_notification)). You can download small data sets and subsets directly from this website by following the download link on any search result page. For downloading complete data sets we recommend using ftp.uniprot.org. If you are located in Europe, the Middle East or Africa, you may want to download data from our mirror site in the [United Kingdom](https://ftp.ebi.ac.uk/pub/databases/uniprot/) or in [Switzerland](https://ftp.expasy.org/databases/uniprot/) instead.
+UniProt is updated every eight weeks. You can download small data sets and subsets directly from this website by following the download link on any search result page. For downloading complete data sets we recommend using ftp.uniprot.org. If you are located in Europe, the Middle East or Africa, you may want to download data from our mirror site in the [United Kingdom](https://ftp.ebi.ac.uk/pub/databases/uniprot/) or in [Switzerland](https://ftp.expasy.org/databases/uniprot/) instead.
 
 See also: [Downloaded data seems incomplete or corrupted - how can I get help with download problems?](https://www.uniprot.org/help/metalink)
 
