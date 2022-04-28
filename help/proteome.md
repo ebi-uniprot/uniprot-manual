@@ -61,7 +61,7 @@ For example, to retrieve the proteome for *Escherichia coli* (strain K12), the r
 
 -   Query: [proteome:UP000000625](https://www.uniprot.org/uniprotkb/?query=proteome:UP000000625)
 
-Please note that there may be several proteomes per [taxonomic identifier](https://www.uniprot.org/help/taxonomy%5Fidentifier). The taxonomic identifier can be used to query the `taxonomy` field or the `organism` field, together with the cross-reference to "Proteomes". This will result in the retrieval of all proteome sequences at or below the taxonomic rank specified by the identifier. For example, to retrieve the proteome for *Escherichia coli* (strain K12) and all proteomes at lower taxonomic nodes (substrains such as *Escherichia coli* (strain K12 / DH10B)), then the required query would be:
+Please note that there may be several proteomes per [taxonomic identifier](https://www.uniprot.org/help/taxonomic%5Fidentifier). The taxonomic identifier can be used to query the `taxonomy` field or the `organism` field, together with the cross-reference to "Proteomes". This will result in the retrieval of all proteome sequences at or below the taxonomic rank specified by the identifier. For example, to retrieve the proteome for *Escherichia coli* (strain K12) and all proteomes at lower taxonomic nodes (substrains such as *Escherichia coli* (strain K12 / DH10B)), then the required query would be:
 
 -   Query: [taxonomy_name:"Escherichia coli (strain K12)"](https://beta.uniprot.org/proteomes?query=%28taxonomy_name%3A%22Escherichia%20coli%20%28strain%20K12%29%22%29)
 
