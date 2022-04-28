@@ -10,11 +10,11 @@ In addition to the predefined FASTA, XML, RDF/XML and text formats, search resul
 
 # See also
 
-[What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
+[What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical_and_isoforms)
 
-[Alternative products](https://www.uniprot.org/help/alternative%5Fproducts)
+[Alternative products](https://www.uniprot.org/help/alternative_products)
 
-[Alternative sequence](https://www.uniprot.org/help/var%5Fseq)
+[Alternative sequence](https://www.uniprot.org/help/var_seq)
 
 ## Retrieving sequences from the website
 
@@ -26,8 +26,8 @@ In addition to the predefined FASTA, XML, RDF/XML and text formats, search resul
     -   Choosing the option `FASTA (canonical and isoform)` allows retrieval of all canonical sequences plus all manually reviewed isoform sequences described within UniProtKB/Swiss-Prot. These manually reviewed isoform sequences are available as distinct sequences in FASTA format only within this expanded downloadable set.
     -   Choosing `Tab-separated` or `Excel` allows retrieval of your search result table reflecting the columns you have [chosen to include](https://www.uniprot.org/help/customize).
 
-To automate the above, please read the section [Downloading data at every UniProt release](https://www.uniprot.org/help/api%5Fdownloading) of our [Programmatic access](https://www.uniprot.org/help/api) documentation.
+To automate the above, please read the section [Downloading data at every UniProt release](https://www.uniprot.org/help/api_downloading) of our [Programmatic access](https://www.uniprot.org/help/api) documentation.
 
 ## Retrieving sequences from the FTP site
 
-The UniProt FTP sites (accessible via the [`Download latest release`](https://www.uniprot.org/downloads) link located on the [home page](https://www.uniprot.org/) ) provide the most frequently requested data sets in each of the aforementioned file formats (Flat Text, XML, RDF/XML, FASTA). The additional manually curated isoform sequences that are described in UniProtKB/Swiss-Prot are available in a separate FASTA file ( `uniprot_sprot_varsplic.fasta.gz` ). Our FTP directory also includes expanded FASTA sets, containing both the canonical and manually reviewed isoform sequences, for all [reference proteomes](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/reference%5Fproteomes).
+The UniProt FTP sites (accessible via the [`Download latest release`](https://www.uniprot.org/downloads) link located on the [home page](https://www.uniprot.org/) ) provide the most frequently requested data sets in each of the aforementioned file formats (Flat Text, XML, RDF/XML, FASTA). The additional manually curated isoform sequences that are described in UniProtKB/Swiss-Prot are available in a separate FASTA file ( `uniprot_sprot_varsplic.fasta.gz` ). Our FTP directory also includes expanded FASTA sets, containing both the canonical and manually reviewed isoform sequences, for all [reference proteomes](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes).

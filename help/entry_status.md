@@ -12,4 +12,4 @@ UniProtKB/TrEMBL entries are tagged with a blue unreviewed icon
 
 # Related documents
 
-[Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb%5Fsections)
+[Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb_sections)

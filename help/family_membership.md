@@ -18,4 +18,4 @@ The full list of protein families in UniProtKB and the entries which belong to e
 
 -   [What is HAMAP?](https://www.uniprot.org/help/hamap)
 -   [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)
--   [Sequence similarities](https://www.uniprot.org/help/sequence%5Fsimilarities)
+-   [Sequence similarities](https://www.uniprot.org/help/sequence_similarities)

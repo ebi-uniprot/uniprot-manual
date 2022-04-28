@@ -4,7 +4,7 @@ type: help
 categories: Names_and_taxonomy,manual
 ---
 
-This subsection of the [Names and taxonomy](https://www.uniprot.org/help/names%5Fand%5Ftaxonomy%5Fsection) section shows the unique identifier assigned by the NCBI to the source organism of the protein. This is known as the 'taxonomic identifier' or 'taxid'.
+This subsection of the [Names and taxonomy](https://www.uniprot.org/help/names_and_taxonomy_section) section shows the unique identifier assigned by the NCBI to the source organism of the protein. This is known as the 'taxonomic identifier' or 'taxid'.
 
 A 'taxonomic identifier' consists of one to seven digits.
 

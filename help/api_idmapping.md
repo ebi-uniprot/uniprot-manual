@@ -230,7 +230,7 @@ When mapping between UniProtKB accession numbers and gene names, it is possible 
     query => 'BRCA1, ALB, TP53',  # list of gene names
     taxon => '9606',              # taxonomy identifier for Homo sapiens (Human).
 
-Alternatively, you can download the data underlying our [database identifier service mapping service](https://www.uniprot.org/uploadlists) from [https://ftp.uniprot.org/pub/databases/uniprot/current\_release/knowledgebase/idmapping/](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/idmapping/)
+Alternatively, you can download the data underlying our [database identifier service mapping service](https://www.uniprot.org/uploadlists) from [https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/)
 
 # See also
 

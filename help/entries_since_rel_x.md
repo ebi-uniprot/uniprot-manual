@@ -26,7 +26,7 @@ Note that the date can be modified in the query box 'taxonomy:Viridiplantae AND 
 
 # See also
 
-- [How do I get automatically notified of updates to UniProtKB?](https://www.uniprot.org/help/update%5Fnotification)
-- [How do I link to a specific version of a UniProtKB entry?](https://www.uniprot.org/help/link%5Fold%5Fversions)
-- [What are the date formats accepted in the relevant fields of the query builder (e.g. UniProtKB date integrated/date modified)?](https://www.uniprot.org/help/date%5Fformats/)
-- [UniProtKB advanced search options](https://www.uniprot.org/help/advanced%5Fsearch)
+- [How do I get automatically notified of updates to UniProtKB?](https://www.uniprot.org/help/update_notification)
+- [How do I link to a specific version of a UniProtKB entry?](https://www.uniprot.org/help/link_old_versions)
+- [What are the date formats accepted in the relevant fields of the query builder (e.g. UniProtKB date integrated/date modified)?](https://www.uniprot.org/help/date_formats/)
+- [UniProtKB advanced search options](https://www.uniprot.org/help/advanced_search)

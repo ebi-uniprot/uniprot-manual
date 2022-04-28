@@ -27,9 +27,9 @@ Switzerland: <https://ftp.expasy.org/databases/uniprot>
 
 # HTTP downloads
 
-Due to HTTP transport unreliability (HTTP streams tend to fail after a while due to packet loss), large downloads should be split into smaller chunks using the "offset" and "limit" functions. These are described in our API help page [Retrieving entries via queries](https://www.uniprot.org/help/api%5Fqueries).
+Due to HTTP transport unreliability (HTTP streams tend to fail after a while due to packet loss), large downloads should be split into smaller chunks using the "offset" and "limit" functions. These are described in our API help page [Retrieving entries via queries](https://www.uniprot.org/help/api_queries).
 
-1\) Start by retrieving the number of results in your query by checking the "X-Total-Results" header like in the example [Download all UniProt sequences for a given organism in FASTA format](https://www.uniprot.org/help/programmatic%5Faccess#downloading).
+1\) Start by retrieving the number of results in your query by checking the "X-Total-Results" header like in the example [Download all UniProt sequences for a given organism in FASTA format](https://www.uniprot.org/help/programmatic_access#downloading).
 
 2\) If the number of results x is greater than 50000, repeat your query and append the following to the URL:
 

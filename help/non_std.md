@@ -13,10 +13,10 @@ Examples: [P24183](https://www.uniprot.org/uniprotkb/P24183) (selenocysteine), [
 
 This subsection is only present when the incorporation of the non-standard amino acid has been experimentally proven. It can be propagated 'By similarity' to closely related homologs.
 
-If a selenocysteine is present in an enzyme where it is part of the active site (as in glutathione peroxidase or iodothyronine deiodinase), then the position is annotated both in the 'Non-standard residue' and ' [Active site](https://www.uniprot.org/help/act_site) ' subsections of the [Function](https://www.uniprot.org/help/function%5Fsection) section.  
+If a selenocysteine is present in an enzyme where it is part of the active site (as in glutathione peroxidase or iodothyronine deiodinase), then the position is annotated both in the 'Non-standard residue' and ' [Active site](https://www.uniprot.org/help/act_site) ' subsections of the [Function](https://www.uniprot.org/help/function_section) section.  
 Example: [P07203](https://www.uniprot.org/uniprotkb/P07203)
 
-See also: [Non-standard residue](https://www.uniprot.org/help/non%5Fstd)
+See also: [Non-standard residue](https://www.uniprot.org/help/non_std)
 
 Related keywords:
 

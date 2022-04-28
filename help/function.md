@@ -4,7 +4,7 @@ type: help
 categories: Function,manual
 ---
 
-This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) describes the function(s) of a protein.
+This subsection of the [Function](https://www.uniprot.org/help/function_section) describes the function(s) of a protein.
 
 When a protein is a precursor of different chains/peptides having different functions, we specify the role of each peptide in separate paragraphs.  
 Examples: [Q8MMJ7](https://www.uniprot.org/uniprotkb/Q8MMJ7#function), [Q9UBU3](https://www.uniprot.org/uniprotkb/Q9UBU3#function)

@@ -18,7 +18,7 @@ To this aim, we are updating sequences which show discrepancies with those predi
 
 We also continuously update human entries with functional annotation, including novel structural, post-translational modification, interaction and enzymatic activity data. In order to identify candidates for re-annotation, we use, among others, information extraction tools such as the [STRING database](http://string.embl.de/). In addition, we regularly add new sequence variants and maintain disease information. Indeed, this annotation project includes the Variation Annotation project, the goal of which is to annotate all known human genetic diseases and disease-linked protein variants, as well as neutral polymorphisms.
 
-- All manually reviewed human entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:9606+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration%5Fproject/Chordata/statistics/#Homosapiens)
+- All manually reviewed human entries can be found [here](https://www.uniprot.org/uniprotkb/?query=organism_id:9606+AND+reviewed:true) [(statistics)](https://www.uniprot.org/biocuration_project/Chordata/statistics/#Homosapiens)
 
 # Annotation of other mammalian and chordata proteins
 

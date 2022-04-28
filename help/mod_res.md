@@ -13,13 +13,13 @@ We describe the chemical nature of the modified residue using a controlled vocab
 We provide additional information concerning the modification, such as:
 
 1.  the **form of the protein** which undergoes the modification; this may be either a specific **isoform**, a particular **processed or modified form** of the protein, or a specific **sequence variant** ;  
-    Examples: [P41500](https://www.uniprot.org/uniprotkb/P41500#ptm%5Fprocessing) (isoform), [P84715](https://www.uniprot.org/uniprotkb/P84715#ptm%5Fprocessing) (processed form), [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm%5Fprocessing) (sequence variant)
+    Examples: [P41500](https://www.uniprot.org/uniprotkb/P41500#ptm_processing) (isoform), [P84715](https://www.uniprot.org/uniprotkb/P84715#ptm_processing) (processed form), [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm_processing) (sequence variant)
 2.  the **enzyme** which carries out the modification ('by...'). For proteins of infectious organisms, such as viruses, phages and bacteria, we also indicate whether the modification is carried out by a **host** protein;  
-    Examples: [P03279](https://www.uniprot.org/uniprotkb/P03279#ptm%5Fprocessing) (modifying enzyme indicated), [Q53EZ4](https://www.uniprot.org/uniprotkb/Q53EZ4#ptm%5Fprocessing) (viral protein modified by host protein)
+    Examples: [P03279](https://www.uniprot.org/uniprotkb/P03279#ptm_processing) (modifying enzyme indicated), [Q53EZ4](https://www.uniprot.org/uniprotkb/Q53EZ4#ptm_processing) (viral protein modified by host protein)
 3.  information on the **frequency** of the modification or the **relationship with another feature** ('partial', 'alternate', 'transient'). The term **'partial'** indicates that not all protein molecules are modified, **'alternate'** means that the same amino acid can be modified in more than one way, and **'transient'** is applied to exceptional cases of otherwise stable modifications. For partial modifications, we do not propagate this comment to homologous proteins and we do not specify the fraction of proteins modified, as this may depend on the experimental conditions.  
-    Examples: [P16157](https://www.uniprot.org/uniprotkb/P16157#ptm%5Fprocessing) (partial modification), [Q9UKV3](https://www.uniprot.org/uniprotkb/Q9UKV3#ptm%5Fprocessing) (alternate modification), [Q9FX54](https://www.uniprot.org/uniprotkb/Q9FX54#ptm%5Fprocessing) (transient modification)
+    Examples: [P16157](https://www.uniprot.org/uniprotkb/P16157#ptm_processing) (partial modification), [Q9UKV3](https://www.uniprot.org/uniprotkb/Q9UKV3#ptm_processing) (alternate modification), [Q9FX54](https://www.uniprot.org/uniprotkb/Q9FX54#ptm_processing) (transient modification)
 
-See also the subsection [Post-translational modifications](https://www.uniprot.org/help/post-translational%5Fmodification) for additional information on modifications for which **position-specific data is not yet available**.
+See also the subsection [Post-translational modifications](https://www.uniprot.org/help/post-translational_modification) for additional information on modifications for which **position-specific data is not yet available**.
 
 **Data sources and propagation of modified residue annotation**
 
@@ -43,7 +43,7 @@ Examples: [Q10471](https://www.uniprot.org/uniprotkb/Q10471#ptm_processing), [P6
 
 **Unknown sites bearing unknown modifications**
 
-Here is an example of a feature where the identity of the amino acid is unknown (an X is shown at this position in the sequence) and the only information concerning the modification is that the N-terminus is blocked: [P80979](https://www.uniprot.org/uniprotkb/P80979#ptm%5Fprocessing) (Blocked amino end (Xaa)).
+Here is an example of a feature where the identity of the amino acid is unknown (an X is shown at this position in the sequence) and the only information concerning the modification is that the N-terminus is blocked: [P80979](https://www.uniprot.org/uniprotkb/P80979#ptm_processing) (Blocked amino end (Xaa)).
 
 # 1. Phosphorylation
 
@@ -53,11 +53,11 @@ Related keyword: [Phosphoprotein](https://www.uniprot.org/keywords/597)
 
 Phosphorylation is frequent on serine, threonine, and tyrosine from eukaryotic proteins, serine phosphorylation being the most common. Phosphorylation of histidine and aspartate is known to occur as part of the two-component signalling in prokaryotes and has also been described in eukaryotes (mainly fungi and plants).
 
-Example: [O15350](https://www.uniprot.org/uniprotkb/O15350#ptm%5Fprocessing)
+Example: [O15350](https://www.uniprot.org/uniprotkb/O15350#ptm_processing)
 
 Since phosphorylation (phosphoserine, phosphothreonine and phosphotyrosine) is a reversible modification, phosphorylation sites are never annotated as 'partial'.
 
-Examples: [Q9RQQ9](https://www.uniprot.org/uniprotkb/Q9RQQ9#ptm%5Fprocessing), [P02662](https://www.uniprot.org/uniprotkb/P02662#ptm%5Fprocessing), [P04859](https://www.uniprot.org/uniprotkb/P04859#ptm%5Fprocessing), [P68433](https://www.uniprot.org/uniprotkb/P68433#ptm%5Fprocessing)
+Examples: [Q9RQQ9](https://www.uniprot.org/uniprotkb/Q9RQQ9#ptm_processing), [P02662](https://www.uniprot.org/uniprotkb/P02662#ptm_processing), [P04859](https://www.uniprot.org/uniprotkb/P04859#ptm_processing), [P68433](https://www.uniprot.org/uniprotkb/P68433#ptm_processing)
 
 Histidine can be phosphorylated on either of its two nitrogen atoms. We refer to 'Pros-phosphohistidine', when phosphorylation occurs on the nitrogen atom that is closest to the alpha-carbon and 'Tele-phosphohistidine', where it occurs on the most distal one. When the exact position of phosphate attachment on histidine is not known we simply use the term 'Phosphohistidine'.
 
@@ -87,7 +87,7 @@ Example: [P34068](https://www.uniprot.org/uniprotkb/P34068#ptm_processing)
 
 In prokaryotes, glutamate methyl ester formation plays a major role in chemotactic signal transduction. We indicate whether the glutamate methyl ester is formed either from glutamate or from glutamine.
 
-Example: [P07018](https://www.uniprot.org/uniprotkb/P07018#ptm%5Fprocessing)
+Example: [P07018](https://www.uniprot.org/uniprotkb/P07018#ptm_processing)
 
 ## Nitrogen methylation
 
@@ -266,9 +266,9 @@ Example: [P30443](https://www.uniprot.org/uniprotkb/P30443#ptm_processing)
 
 # 9. Flavin-binding
 
-Enzymes involved in electron transport, oxidation and reduction often contain a flavin group (flavin mononucleotide \[FMN\]) or flavin adenine dinucleotide \[FAD\]) as a cofactor. When the cofactor is covalently bound to the protein, this is considered as a post-translational modification and is annotated in the 'Amino acid modifications' subsection. When the cofactor is not covalently bound, the binding region is annotated in the ['Nucleotide binding'](https://www.uniprot.org/help/np%5Fbind) subsection. The flavin can be transferred to the hydroxyl group of a serine, threonine or tyrosine, to the one or the other nitrogen of a histidine or to the sulfhydryl group of a cysteine. Flavin-binding has been observed in all organisms.
+Enzymes involved in electron transport, oxidation and reduction often contain a flavin group (flavin mononucleotide \[FMN\]) or flavin adenine dinucleotide \[FAD\]) as a cofactor. When the cofactor is covalently bound to the protein, this is considered as a post-translational modification and is annotated in the 'Amino acid modifications' subsection. When the cofactor is not covalently bound, the binding region is annotated in the ['Nucleotide binding'](https://www.uniprot.org/help/np_bind) subsection. The flavin can be transferred to the hydroxyl group of a serine, threonine or tyrosine, to the one or the other nitrogen of a histidine or to the sulfhydryl group of a cysteine. Flavin-binding has been observed in all organisms.
 
-Examples: [P21398](https://www.uniprot.org/uniprotkb/P21398#ptm%5Fprocessing), [P09788](https://www.uniprot.org/uniprotkb/P09788#ptm%5Fprocessing), [Q9UI17](https://www.uniprot.org/uniprotkb/Q9UI17#ptm%5Fprocessing), [Q752Y3](https://www.uniprot.org/uniprotkb/Q752Y3#ptm%5Fprocessing), [Q9K0M5](https://www.uniprot.org/uniprotkb/Q9K0M5#ptm%5Fprocessing), [Q9KPS2](https://www.uniprot.org/uniprotkb/Q9KPS2#ptm%5Fprocessing), [O34627](https://www.uniprot.org/uniprotkb/O34627#ptm%5Fprocessing), [Q48303](https://www.uniprot.org/uniprotkb/Q48303#ptm%5Fprocessing), [P40875](https://www.uniprot.org/uniprotkb/P40875#ptm%5Fprocessing)
+Examples: [P21398](https://www.uniprot.org/uniprotkb/P21398#ptm_processing), [P09788](https://www.uniprot.org/uniprotkb/P09788#ptm_processing), [Q9UI17](https://www.uniprot.org/uniprotkb/Q9UI17#ptm_processing), [Q752Y3](https://www.uniprot.org/uniprotkb/Q752Y3#ptm_processing), [Q9K0M5](https://www.uniprot.org/uniprotkb/Q9K0M5#ptm_processing), [Q9KPS2](https://www.uniprot.org/uniprotkb/Q9KPS2#ptm_processing), [O34627](https://www.uniprot.org/uniprotkb/O34627#ptm_processing), [Q48303](https://www.uniprot.org/uniprotkb/Q48303#ptm_processing), [P40875](https://www.uniprot.org/uniprotkb/P40875#ptm_processing)
 
 Related keywords: [Flavoprotein](https://www.uniprot.org/keywords/285), [FAD](https://www.uniprot.org/keywords/274), [FMN](https://www.uniprot.org/keywords/288)
 
@@ -283,13 +283,13 @@ In response to severe oxidative stress, cysteines are irreversibly oxidized to c
 
 ## Sulfenic and sulfinic acid
 
-Examples: [P13448](https://www.uniprot.org/uniprotkb/P13448#ptm%5Fprocessing), [P03122](https://www.uniprot.org/uniprotkb/P03122#ptm%5Fprocessing)
+Examples: [P13448](https://www.uniprot.org/uniprotkb/P13448#ptm_processing), [P03122](https://www.uniprot.org/uniprotkb/P03122#ptm_processing)
 
 Related keyword: [Oxidation](https://www.uniprot.org/keywords/558)
 
 ## S-nitrosocysteine
 
-Examples: [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm%5Fprocessing), [P0ACQ6](https://www.uniprot.org/uniprotkb/P0ACQ6#ptm%5Fprocessing)
+Examples: [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm_processing), [P0ACQ6](https://www.uniprot.org/uniprotkb/P0ACQ6#ptm_processing)
 
 Related keyword: [S-nitrosylation](https://www.uniprot.org/keywords/702)
 
@@ -297,4 +297,4 @@ Related keyword: [S-nitrosylation](https://www.uniprot.org/keywords/702)
 
 The nature of the post-translationally formed amino acid is annotated by using a controlled vocabulary. The currently defined list of controlled vocabulary, as well as other information, such as the target amino acid, the related keyword, the taxonomic range and the subcellular location of the modification, are available in [ptmlist.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist) document. Links to the RESID database are also provided to help gain a better insight into every modification.
 
-See also: [Evidence](https://www.uniprot.org/help/evidences), [Post-translational modifications](https://www.uniprot.org/help/post-translational%5Fmodification), [Advanced search](https://www.uniprot.org/help/advanced%5Fsearch)
+See also: [Evidence](https://www.uniprot.org/help/evidences), [Post-translational modifications](https://www.uniprot.org/help/post-translational_modification), [Advanced search](https://www.uniprot.org/help/advanced_search)

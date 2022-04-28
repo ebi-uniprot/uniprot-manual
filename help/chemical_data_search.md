@@ -6,9 +6,9 @@ categories: Text_search,Function,UniProtKB,faq
 
 [Video tutorial](https://www.youtube.com/watch?v=5eW-eZJ08wc)
 
-Enzyme-catalysed reactions are annotated in UniProtKB in the [Catalytic activity](https://www.uniprot.org/help/catalytic%5Factivity) section.
+Enzyme-catalysed reactions are annotated in UniProtKB in the [Catalytic activity](https://www.uniprot.org/help/catalytic_activity) section.
 
-The [Advanced search](https://www.uniprot.org/help/advanced%5Fsearch) can be used to search in these annotations, by reaction participant (name or [ChEBI](https://www.ebi.ac.uk/chebi/) identifier), reaction identifier (from [Rhea](https://www.rhea-db.org/) ), or by [InChIKey](https://en.wikipedia.org/wiki/International%5FChemical%5FIdentifier#InChIKey).
+The [Advanced search](https://www.uniprot.org/help/advanced_search) can be used to search in these annotations, by reaction participant (name or [ChEBI](https://www.ebi.ac.uk/chebi/) identifier), reaction identifier (from [Rhea](https://www.rhea-db.org/) ), or by [InChIKey](https://en.wikipedia.org/wiki/International_Chemical_Identifier#InChIKey).
 
 # Search for a reaction compound using autocompletion
 

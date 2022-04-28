@@ -9,7 +9,7 @@ UniProt's policy with internet browser support is to support all major browsers 
 We recommend to use one of the following major web browsers for the UniProt website:
 
 -   FireFox: [Choosing a Firefox update channel](https://support.mozilla.org/en-US/kb/choosing-firefox-update-channel)
--   Chrome: [Latest stable release](https://www.chromestatus.com/features/schedule)
+-   Chrome: [Latest stable release](https://www.google.com/chrome/)
 -   Safari: Look for "Safari" in [Apple security updates](https://support.apple.com/en-us/HT201222)
 -   Edge: [Microsoft Edge release notes](https://docs.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel)
 

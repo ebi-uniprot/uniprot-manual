@@ -19,4 +19,4 @@ Java Web Start is often installed in the following locations:
 -   Mac: /Library/Java/Home/bin/javaws
 -   Linux: /usr/bin/javaws or /opt/java/bin/javaws, else try the command 'which javaws'.
 
-For more information on Java Web Start, see the [java.com faq entry](http://www.java.com/en/download/faq/java%5Fwebstart.xml)
+For more information on Java Web Start, see the [java.com faq entry](http://www.java.com/en/download/faq/java_webstart.xml)

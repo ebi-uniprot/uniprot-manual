@@ -4,7 +4,7 @@ type: help
 categories: Names_and_taxonomy,manual
 ---
 
-This subsection of the [Names and taxonomy](https://www.uniprot.org/help/names%5Fand%5Ftaxonomy%5Fsection) section provides an exhaustive list of all names of the protein, from commonly used to obsolete, to allow unambiguous identification of a protein.
+This subsection of the [Names and taxonomy](https://www.uniprot.org/help/names_and_taxonomy_section) section provides an exhaustive list of all names of the protein, from commonly used to obsolete, to allow unambiguous identification of a protein.
 
 This subsection also includes information on the activity of the protein, such as a precise description of the catalytic mechanism of enzymes, or information about individual protein chains or functional domains contained within it, if pertinent.
 
@@ -33,10 +33,10 @@ Example: [P27708](https://www.uniprot.org/uniprotkb/P27708#names_and_taxonomy) (
 
 # UniProtKB/TrEMBL 'Protein names' subsection
 
-The format of the 'Protein names' section in UniProtKB/TrEMBL closely follows the format used in UniProtKB/Swiss-Prot. However, as UniProtKB/TrEMBL is not manually annotated, the description is imported directly from the underlying nucleotide entry and its accuracy relies on the information provided by the submitter of the nucleotide entry. This is why UniProtKB/TrEMBL entries usually have ' **Submitted name** ' ('SubName' in the flat text file) instead of 'Recommended name'. There can be more than one 'Submitted name'. 'Submitted names' may later be improved by [automatic annotation](https://www.uniprot.org/help/automatic%5Fannotation) procedures (the label will then change from 'SubName' to 'RecName'), but if not, it remains as provided by the submitter until the entry is manually annotated and integrated to UniProtKB/Swiss-Prot.
+The format of the 'Protein names' section in UniProtKB/TrEMBL closely follows the format used in UniProtKB/Swiss-Prot. However, as UniProtKB/TrEMBL is not manually annotated, the description is imported directly from the underlying nucleotide entry and its accuracy relies on the information provided by the submitter of the nucleotide entry. This is why UniProtKB/TrEMBL entries usually have ' **Submitted name** ' ('SubName' in the flat text file) instead of 'Recommended name'. There can be more than one 'Submitted name'. 'Submitted names' may later be improved by [automatic annotation](https://www.uniprot.org/help/automatic_annotation) procedures (the label will then change from 'SubName' to 'RecName'), but if not, it remains as provided by the submitter until the entry is manually annotated and integrated to UniProtKB/Swiss-Prot.
 
 # Related documents
 
-[International protein nomenclature guidelines](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/International%5FProtein%5FNomenclature%5FGuidelines.pdf)  
+[International protein nomenclature guidelines](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/International_Protein_Nomenclature_Guidelines.pdf)  
 [Protein nomenclature information](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist)  
-[Why does the UniProtKB use so many different names for the same protein?](https://www.uniprot.org/help/different%5Fprotein%5Fgene%5Fnames)
+[Why does the UniProtKB use so many different names for the same protein?](https://www.uniprot.org/help/different_protein_gene_names)

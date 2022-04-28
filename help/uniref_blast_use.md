@@ -12,4 +12,4 @@ Searching against UniRef helps ensure that the hits in the result are both disti
 
 # What sequences are considered when running BLAST against a UniRef database?
 
-The sequences used for the BLAST search against a UniRef database are the representative sequences, not the [seeds](https://www.uniprot.org/help/uniref%5Fseed).
+The sequences used for the BLAST search against a UniRef database are the representative sequences, not the [seeds](https://www.uniprot.org/help/uniref_seed).

@@ -15,7 +15,7 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
 
     See also
 
-    - [Gene names](https://www.uniprot.org/help/gene%5Fname)
+    - [Gene names](https://www.uniprot.org/help/gene_name)
 
 2.  **gene symbols to UniProtKB identifiers**
 
@@ -25,7 +25,7 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
 
     - [Organism-specific databases](https://www.uniprot.org/database?facets=category_exact%3AOrganism-specific%20databases&query=%2A)
     - [Database identifier mapping (via 'Retrieve/ID mapping')](https://www.uniprot.org/help/uploadlists)
-    - [Cross-references](https://www.uniprot.org/help/cross%5Freferences%5Fsection)
+    - [Cross-references](https://www.uniprot.org/help/cross_references_section)
 
     The identifier mapping service also has an option "Gene name" where you can submit your list of gene symbols and optionally specify an organism. Note that mapping results can also be filtered after submission, e.g. by organism or reviewed/unreviewed status.
 
@@ -50,5 +50,5 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
     See also
 
     - [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
-    - [Programmatic access - Mapping database identifiers](https://www.uniprot.org/help/api%5Fidmapping)
+    - [Programmatic access - Mapping database identifiers](https://www.uniprot.org/help/api_idmapping)
     - [Customize display options](https://www.uniprot.org/help/customize)

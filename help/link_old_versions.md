@@ -16,5 +16,5 @@ To link to a particular version of an entry, use the **version** parameter in th
 
 # See also
 
--   [Entry history](https://www.uniprot.org/help/entry%5Fhistory)
--   [How to link to UniProt entries (UniProtKB, UniParc and UniRef)](https://www.uniprot.org/help/linking%5Fto%5Funiprot)
+-   [Entry history](https://www.uniprot.org/help/entry_history)
+-   [How to link to UniProt entries (UniProtKB, UniParc and UniRef)](https://www.uniprot.org/help/linking_to_uniprot)

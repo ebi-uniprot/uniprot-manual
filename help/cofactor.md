@@ -10,7 +10,7 @@ Cofactors are generally either bound tightly to active sites, or may bind loosel
 
 The 'Cofactor' subsection is used when ions and other small ligands bind to the enzyme. These cofactor molecules are mapped to [ChEBI](https://www.ebi.ac.uk/chebi/) identifiers. In the case of multimers, cofactors can be bound either to only one subunit of the enzyme or to the interface. In the former case, the cofactor is only annotated for the subunit to which it binds.
 
-Substrates for a reaction (NAD, FAD, ATP) that are listed in the [Catalytic activity](https://www.uniprot.org/help/catalytic%5Factivity) subsection are not listed as cofactors, with the exception of the rare cases in which an enzyme binds the same type of molecule as a substrate at one site and as a cofactor at other sites.
+Substrates for a reaction (NAD, FAD, ATP) that are listed in the [Catalytic activity](https://www.uniprot.org/help/catalytic_activity) subsection are not listed as cofactors, with the exception of the rare cases in which an enzyme binds the same type of molecule as a substrate at one site and as a cofactor at other sites.
 
 The following substances are not considered as cofactors:  
 - Ubiquitous substances such as water are not considered as cofactors  
@@ -25,7 +25,7 @@ Example: [Q90240](https://www.uniprot.org/uniprotkb/Q90240#function)
 **When an enzyme binds chemically different cofactors at different sites**, there is one 'Cofactor' annotation block for each site.  
 Example: [P38289](https://www.uniprot.org/uniprotkb/P38289#function)
 
-**When an enzyme binds a cofactor via a covalent linkage**, the name of the compound is indicated under 'Cofactor', while the name of the modification is described under [Post-translational modifications (Modified residue)](https://www.uniprot.org/help/mod%5Fres).  
+**When an enzyme binds a cofactor via a covalent linkage**, the name of the compound is indicated under 'Cofactor', while the name of the modification is described under [Post-translational modifications (Modified residue)](https://www.uniprot.org/help/mod_res).  
 Examples: [P9WP55](https://www.uniprot.org/uniprotkb/P9WP55#function), [B3QM53](https://www.uniprot.org/uniprotkb/B3QM53#function)
 
 **If there is isoform-specific or chain-specific cofactor information**, there will be separate 'Cofactor' annotation blocks for each isoform or chain.  

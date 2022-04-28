@@ -4,7 +4,7 @@ type: help
 categories: Sequence,manual
 ---
 
-This section displays by default the [canonical protein sequence](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms) and upon request all isoforms described in the entry. It also includes information pertinent to the sequence(s), including [length](https://www.uniprot.org/help/sequence%5Flength) and molecular weight.
+This section displays by default the [canonical protein sequence](https://www.uniprot.org/help/canonical_and_isoforms) and upon request all isoforms described in the entry. It also includes information pertinent to the sequence(s), including [length](https://www.uniprot.org/help/sequence_length) and molecular weight.
 
 The protein sequence displayed by default is the protein sequence to which all positional annotation refers. We call it the 'canonical' sequence.
 
@@ -25,16 +25,16 @@ Press W.H., Flannery B.P., Teukolsky S.A., Vetterling W.T.
 
 # Related documents
 
-[Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence%5Forigin)
+[Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence_origin)
 
-[What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds%5Fprotein%5Fdefinition)
+[What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds_protein_definition)
 
-[What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
+[What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](https://www.uniprot.org/help/canonical_and_isoforms)
 
-[Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb%5Fcoverage)
+[Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb_coverage)
 
-[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical%5Fnucleotide)
+[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical_nucleotide)
 
-[How to retrieve a complete set of protein sequences?](https://www.uniprot.org/help/retrieve%5Fsets)
+[How to retrieve a complete set of protein sequences?](https://www.uniprot.org/help/retrieve_sets)
 
-[Non-standard residue](https://www.uniprot.org/help/non%5Fstd)
+[Non-standard residue](https://www.uniprot.org/help/non_std)

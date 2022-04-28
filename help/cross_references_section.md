@@ -35,7 +35,7 @@ The databases are categorized for easy user perusal and understanding of how the
 
 # Cross-references to 'Sequence databases'
 
-If a sequence submitted to EMBL/GenBank/DDBJ present some discrepancies with the [canonical sequence](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms), these latter are documented in the ['Sequence conflict'](https://www.uniprot.org/help/conflict) subsection of the 'Sequence' section. However, if these discrepancies are severe, the underlying cross-reference to EMBL/GenBank/DDBJ is tagged.
+If a sequence submitted to EMBL/GenBank/DDBJ present some discrepancies with the [canonical sequence](https://www.uniprot.org/help/canonical_and_isoforms), these latter are documented in the ['Sequence conflict'](https://www.uniprot.org/help/conflict) subsection of the 'Sequence' section. However, if these discrepancies are severe, the underlying cross-reference to EMBL/GenBank/DDBJ is tagged.
 
 Four different tags are used to mark problematic sequences submitted to the EMBL/GenBank/DDBJ databases:
 
@@ -51,7 +51,7 @@ Four different tags are used to mark problematic sequences submitted to the EMBL
 -   'Sequence problems': discrepancies are due to an erroneous gene model prediction, erroneous ORF assignement, miscellaneous discrepancy, etc.  
     Example: [Q7XR80](https://www.uniprot.org/uniprotkb/Q7XR80#cross-references), [Q8TBF5](https://www.uniprot.org/uniprotkb/Q8TBF5#cross-references)
 
-The discrepancies are described in more details in the ['Sequence Caution'](https://www.uniprot.org/help/sequence%5Fcaution) section.
+The discrepancies are described in more details in the ['Sequence Caution'](https://www.uniprot.org/help/sequence_caution) section.
 
 If no CoDing Sequence (CDS) has been annotated in a submitted nucleotide sequence (most frequently genomic sequence), the corresponding cross-reference is tagged with the label: 'No translation available'.  
 Example: [B2RU33](https://www.uniprot.org/uniprotkb/B2RU33#cross-references)
@@ -59,5 +59,5 @@ Example: [B2RU33](https://www.uniprot.org/uniprotkb/B2RU33#cross-references)
 # Related documents
 
 [Databases cross-referenced in UniProtKB](https://www.uniprot.org/database)  
-[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical%5Fnucleotide)  
-[Cross-references for isoform sequences](https://www.uniprot.org/help/isoform%5Fcrossreferences)
+[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical_nucleotide)  
+[Cross-references for isoform sequences](https://www.uniprot.org/help/isoform_crossreferences)

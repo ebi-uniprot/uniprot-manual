@@ -11,10 +11,10 @@ User manual for the UniProtKB entry view.
 User manual for the UniProtKB flat file format.
 
 [UniProt XML schemas](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/?query=schema)  
-[XSD](https://en.wikipedia.org/wiki/XML%5FSchema%5F%28W3C%29) files for the UniProt databases.
+[XSD](https://en.wikipedia.org/wiki/XML_Schema_%28W3C%29) files for the UniProt databases.
 
-[UniProt RDF schema ontology](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/rdf/core.owl)  
-[OWL](https://en.wikipedia.org/wiki/Web%5FOntology%5FLanguage) file for the UniProt databases.
+[UniProt RDF schema ontology](https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/core.owl)  
+[OWL](https://en.wikipedia.org/wiki/Web_Ontology_Language) file for the UniProt databases.
 
 [FASTA headers](https://www.uniprot.org/help/fasta-headers)  
 Description of FASTA headers for UniProtKB (including alternative isoforms), UniRef, UniParc and archived UniProtKB versions.
@@ -22,10 +22,10 @@ Description of FASTA headers for UniProtKB (including alternative isoforms), Uni
 [UniProtKB query fields](https://www.uniprot.org/help/query-fields)  
 List of supported fields for querying UniProtKB on this website.
 
-[Browser support](https://www.uniprot.org/help/browser%5Fsupport)  
+[Browser support](https://www.uniprot.org/help/browser_support)  
 Recommended list of major web browsers for the UniProt website.
 
-[How can I access UniProt programmatically?](https://www.uniprot.org/help/programmatic%5Faccess)  
+[How can I access UniProt programmatically?](https://www.uniprot.org/help/programmatic_access)  
 UniProt provides several application programming interfaces (APIs) to query and access its data programmatically, e.g. REST, Java API, SPARQL endpoint.
 
 [Swissknife](http://swissknife.sourceforge.net/docs/)  

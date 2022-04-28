@@ -4,7 +4,7 @@ type: help
 categories: Interaction,manual
 ---
 
-This subsection of the ['Interaction'](https://www.uniprot.org/help/interaction%5Fsection) section provides information about the protein quaternary structure and interaction(s) with other proteins or protein complexes (with the exception of physiological receptor-ligand interactions which are annotated in the ['Function'](https://www.uniprot.org/help/function%5Fsection) section).
+This subsection of the ['Interaction'](https://www.uniprot.org/help/interaction_section) section provides information about the protein quaternary structure and interaction(s) with other proteins or protein complexes (with the exception of physiological receptor-ligand interactions which are annotated in the ['Function'](https://www.uniprot.org/help/function_section) section).
 
 # 1. Quaternary structure
 

@@ -32,5 +32,5 @@ The 'protein existence' value is assigned automatically, based on the annotation
 
 # Related documents
 
-[Criteria description for protein existence](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pe%5Fcriteria)  
-[Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious%5Fsequences)
+[Criteria description for protein existence](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pe_criteria)  
+[Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious_sequences)

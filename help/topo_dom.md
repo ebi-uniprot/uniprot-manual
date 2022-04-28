@@ -4,7 +4,7 @@ type: help
 categories: Subcellular_location,manual
 ---
 
-This subsection of the ['Subcellular location'](https://www.uniprot.org/help/subcellular%5Flocation%5Fsection) section describes the subcellular compartment where each non-membrane region of a membrane-spanning protein is found.
+This subsection of the ['Subcellular location'](https://www.uniprot.org/help/subcellular_location_section) section describes the subcellular compartment where each non-membrane region of a membrane-spanning protein is found.
 
 Topological domains are annotated according to a controlled vocabulary, the elements of which are listed below.
 
@@ -57,12 +57,12 @@ Examples: [Q8TCT9](https://www.uniprot.org/uniprotkb/Q8TCT9#subcellular_location
 However when the experimental technique used allows the assignment of the transmembrane boundary to a particular position (X-ray crystallography, etc.), the topological domain is labeled with ['Experimental'](https://www.uniprot.org/help/evidences#ECO:0000269) or ['Curated'](https://www.uniprot.org/help/evidences#ECO:0000305) evidence. In this case, the positions of the topological domains can be propagated to related entries ['By similarity'](https://www.uniprot.org/help/evidences#ECO:0000250) if applicable.  
 Examples: [P63142](https://www.uniprot.org/uniprotkb/P63142#subcellular_location) (experimental), [P22459](https://www.uniprot.org/uniprotkb/P22459#subcellular_location) (propagated by similarity)
 
-Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have evidence](https://www.uniprot.org/help/evidence%5Fin%5Fswissprot). The annotations which are missing evidence were created before we started to manually curate information with evidence in UniProtKB/Swiss-Prot, and manual attribution of evidence to these existing annotations was not possible due to the huge amount of existing data. In such cases, the absence of any evidence for topological domains may in many cases be interpreted as 'Experimental' or 'Curated'.
+Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have evidence](https://www.uniprot.org/help/evidence_in_swissprot). The annotations which are missing evidence were created before we started to manually curate information with evidence in UniProtKB/Swiss-Prot, and manual attribution of evidence to these existing annotations was not possible due to the huge amount of existing data. In such cases, the absence of any evidence for topological domains may in many cases be interpreted as 'Experimental' or 'Curated'.
 
 # 2. Annotation of predicted topological domains:
 
 We also annotate topological domains based on the predictions provided by the program TMHMM, which returns a probability that non-transmembrane regions of a protein are in a cytoplasmic compartment (specified as 'in') or a non-cytoplasmic compartment (specified as 'out'). When TMHMM returns a high confidence topology prediction for a protein of known subcellular location, the notional 'in' and 'out' predictions from TMHMM are specified using a controlled vocabulary as described above. For instance, we may specify 'in' as 'cytoplasmic' and 'out' as 'periplasmic'.  
-Example: [Q8BJ48](https://www.uniprot.org/uniprotkb/Q8BJ48#subcellular%5Flocation)
+Example: [Q8BJ48](https://www.uniprot.org/uniprotkb/Q8BJ48#subcellular_location)
 
 When nothing is known about the subcellular location of the protein, we annotate the topological domains based on TMHMM predictions using the default values of 'cytoplasmic' and 'extracellular'. In all cases, predicted topological domains are annotated with ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).
 
@@ -70,4 +70,4 @@ When nothing is known about the subcellular location of the protein, we annotate
 
 -   [Evidence](https://www.uniprot.org/help/evidences)
 -   [Transmembrane](https://www.uniprot.org/help/transmem)
--   [Sequence annotation (features)](https://www.uniprot.org/help/sequence%5Fannotation)
+-   [Sequence annotation (features)](https://www.uniprot.org/help/sequence_annotation)

@@ -60,4 +60,4 @@ Examples: [Q8MMF9](https://www.uniprot.org/uniprotkb/Q8MMF9#sequences), [Q9QNF7]
 [List of human entries with genetic variants](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humpvar)  
 [Index of human variants curated from literature reports](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humsavar)  
 [Controlled vocabulary of strains](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains)  
-[Amino acid altering variants imported from Ensembl Variation databases, tab-delimited download](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/variants/)
+[Amino acid altering variants imported from Ensembl Variation databases, tab-delimited download](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/variants/)

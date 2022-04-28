@@ -18,7 +18,7 @@ The information is filed in different subsections. The current subsections and t
 
 # See also
 
-[Why do some UniProtKB/Swiss-Prot records contain cross-references to many PDB entries?](https://www.uniprot.org/help/multiple%5Fpdb%5Fxrefs)  
-[How can I retrieve all UniProtKB entries for which the 3D structure is known?](https://www.uniprot.org/help/retrieve%5F3d)  
-[3D-structure annotation in UniProtKB/Swiss-Prot](https://www.uniprot.org/help/3d-structure%5Fannotation%5Fin%5Fswiss-prot)  
+[Why do some UniProtKB/Swiss-Prot records contain cross-references to many PDB entries?](https://www.uniprot.org/help/multiple_pdb_xrefs)  
+[How can I retrieve all UniProtKB entries for which the 3D structure is known?](https://www.uniprot.org/help/retrieve_3d)  
+[3D-structure annotation in UniProtKB/Swiss-Prot](https://www.uniprot.org/help/3d-structure_annotation_in_swiss-prot)  
 [Using UniProtKB to explore the world of protein structure (UniProt Blog)](https://insideuniprot.blogspot.com/2018/11/)

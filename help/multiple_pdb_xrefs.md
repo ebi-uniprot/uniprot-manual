@@ -14,5 +14,5 @@ Because 3D structures are so important, we endeavour to be as up-to-date as poss
 
 # See also
 
-[3D-structure annotation in UniProtKB/Swiss-Prot](https://www.uniprot.org/help/3d-structure%5Fannotation%5Fin%5Fswiss-prot)  
-[Structure section](https://www.uniprot.org/help/structure%5Fsection)
+[3D-structure annotation in UniProtKB/Swiss-Prot](https://www.uniprot.org/help/3d-structure_annotation_in_swiss-prot)  
+[Structure section](https://www.uniprot.org/help/structure_section)

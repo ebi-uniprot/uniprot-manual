@@ -11,7 +11,7 @@ Disulfide bond formation generally occurs in the endoplasmic reticulum by oxidat
 In UniProtKB, we annotate intrachain and interchain disulfide bonds and redox-active centres. We annotate both experimentally determined disulfide bonds and predicted disulfide bonds which occur in specific protein families.
 
 If the position of one amino acid involved in the bond is not known, a question mark may be written in the position field instead. It is frequently the case for fragments, when one of the Cys residues is missing.  
-Example: [P10846](https://www.uniprot.org/uniprotkb/P10846#ptm%5Fprocessing)
+Example: [P10846](https://www.uniprot.org/uniprotkb/P10846#ptm_processing)
 
 # 1. Intrachain disulfide bonds
 
@@ -19,10 +19,10 @@ Intrachain disulfide bonds are formed between two cysteines within the same prot
 Example: [Q43495](https://www.uniprot.org/uniprotkb/Q43495#ptm_processing)
 
 Intrachain disulfide bonds are usually conserved and can be propagated 'By similarity' to homologous proteins.  
-Example: [P18844](https://www.uniprot.org/uniprotkb/P18844#ptm%5Fprocessing)
+Example: [P18844](https://www.uniprot.org/uniprotkb/P18844#ptm_processing)
 
 In some cases, it is unclear which cysteines participate in disulfide bond formation. In these cases, we indicate the possible alternate bonds which form using the syntax 'or C-X with C-Y'.  
-Example: [Q9U8R2](https://www.uniprot.org/uniprotkb/Q9U8R2#ptm%5Fprocessing)
+Example: [Q9U8R2](https://www.uniprot.org/uniprotkb/Q9U8R2#ptm_processing)
 
 When available, specific information regarding the properties or the function of a specific disulfide bond is indicated.  
 Examples: [P19880](https://www.uniprot.org/uniprotkb/P19880#ptm_processing), [P09478](https://www.uniprot.org/uniprotkb/P09478#ptm_processing)
@@ -38,7 +38,7 @@ Examples: [P25703](https://www.uniprot.org/uniprotkb/P25703#ptm_processing) (Par
 
 ## b. Disulfide bonds between 2 chains or peptides from the same protein precursor
 
-Disulfide bonds formed between 2 proteolytically generated parts of the same protein are considered as interchain. The 2 chains are named in the 'Description' field using the syntax 'between X and Y'. Note that the names of all cleavage products are given in the ' [Protein names](https://www.uniprot.org/help/protein_names) ' subsection of the [Names and taxonomy](https://www.uniprot.org/help/names%5Fand%5Ftaxonomy%5Fsection) section.  
+Disulfide bonds formed between 2 proteolytically generated parts of the same protein are considered as interchain. The 2 chains are named in the 'Description' field using the syntax 'between X and Y'. Note that the names of all cleavage products are given in the ' [Protein names](https://www.uniprot.org/help/protein_names) ' subsection of the [Names and taxonomy](https://www.uniprot.org/help/names_and_taxonomy_section) section.  
 Example: [P11140](https://www.uniprot.org/uniprotkb/P11140#ptm_processing)
 
 A few proteins form an intrachain disulfide bond when monomeric, and an interchain disulfide bond when dimeric.  

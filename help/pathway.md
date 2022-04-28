@@ -4,7 +4,7 @@ type: help
 categories: Function,manual
 ---
 
-This subsection of the ['Function'](https://www.uniprot.org/help/function%5Fsection) section describes the metabolic pathway(s) associated with a protein.
+This subsection of the ['Function'](https://www.uniprot.org/help/function_section) section describes the metabolic pathway(s) associated with a protein.
 
 Example: [P77731](https://www.uniprot.org/uniprotkb/P77731#function)
 

@@ -36,7 +36,7 @@ Manual annotation consists of a critical review of experimentally proven or comp
 
 [Standard operating procedure (SOP) for UniProt manual curation](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf)
 
-[UniProt Manual Annotation Programs](https://www.uniprot.org/program)
+[UniProt Manual Annotation Programs](https://www.uniprot.org/help?facets=category%3Abiocuration%2Ccategory%3Aproject&query=%2A)
 
 # How are entry versions archived?
 

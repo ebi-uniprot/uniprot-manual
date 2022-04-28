@@ -14,14 +14,14 @@ Manual curation consists of a critical review of experimental and predicted data
 
 # See also
 
--   [How do we manually annotate a UniProtKB entry](https://www.uniprot.org/help/manual%5Fcuration)
+-   [How do we manually annotate a UniProtKB entry](https://www.uniprot.org/help/manual_curation)
 -   [Standard operating procedure (SOP) for UniProt manual curation](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf)
 -   [Manual curation projects](https://www.uniprot.org/help/?fil=section:biocuration)
 -   [Prioritizing curation - how do we decide which UniProtKB entries to manually annotate? (UniProt blog)](https://insideuniprot.blogspot.com/2021/05/)
 
 # UniProt automatic annotation
 
-UniProt has developed two complementary approaches to automatically annotate protein sequences with a high degree of accuracy. [UniRule](https://www.uniprot.org/help/unirule) is a collection of manually curated annotation rules which define annotations that can be propagated based on specific conditions while the [Association-Rule-Based Annotator (ARBA)](https://www.uniprot.org/help/arba) is an automatic decision-tree based rule-generating system. The central components of these approaches are rules based on [InterPro](https://www.ebi.ac.uk/interpro) classification and the manually curated data in UniProtKB/Swiss-Prot. [More...](https://www.uniprot.org/help/automatic%5Fannotation)
+UniProt has developed two complementary approaches to automatically annotate protein sequences with a high degree of accuracy. [UniRule](https://www.uniprot.org/help/unirule) is a collection of manually curated annotation rules which define annotations that can be propagated based on specific conditions while the [Association-Rule-Based Annotator (ARBA)](https://www.uniprot.org/help/arba) is an automatic decision-tree based rule-generating system. The central components of these approaches are rules based on [InterPro](https://www.ebi.ac.uk/interpro) classification and the manually curated data in UniProtKB/Swiss-Prot. [More...](https://www.uniprot.org/help/automatic_annotation)
 
 # UniProt annotation flow diagram
 

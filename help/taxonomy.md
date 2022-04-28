@@ -28,7 +28,7 @@ In the case of viruses, the denomination does not follow the binomial system. Th
 
 # Organism mnemonic
 
-A mnemonic organism identification code of at most 5 alphanumeric characters is used in the [entry name](https://www.uniprot.org/help/entry%5Fname) of UniProtKB entries, e.g. [SP0A\_ **BACSU**](https://www.uniprot.org/uniprotkb/P06534). This code is generally made of the first three letters of the genus name and the first two letters of the species name.
+A mnemonic organism identification code of at most 5 alphanumeric characters is used in the [entry name](https://www.uniprot.org/help/entry_name) of UniProtKB entries, e.g. [SP0A\_ **BACSU**](https://www.uniprot.org/uniprotkb/P06534). This code is generally made of the first three letters of the genus name and the first two letters of the species name.
 
 Examples:  
 **PSEPU** is for **Pse** udomonas **pu** tida  

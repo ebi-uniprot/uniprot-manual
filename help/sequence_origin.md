@@ -12,11 +12,11 @@ In addition to translated CDS, UniProtKB protein sequences may come from:
 
 -   the [PDB](http://www.wwpdb.org/) database.
 -   sequences experimentally obtained by direct protein sequencing, by Edman degradation or MS/MS experiments and [submitted to UniProtKB/Swiss-Prot](https://www.uniprot.org/help/submissions). Only about 5% of the UniProtKB/Swiss-Prot entries contain sequence data obtained by direct protein sequencing ( [list of entries with the keyword `'Direct protein sequencing'`](https://www.uniprot.org/uniprotkb/?query=keyword:KW-0903) ).
--   sequences scanned from the literature (i.g. [PRF](http://www.genome.ad.jp/dbget-bin/www%5Fbfind?prf) or other journal scan project).
+-   sequences scanned from the literature (i.g. [PRF](http://www.genome.ad.jp/dbget-bin/www_bfind?prf) or other journal scan project).
 -   sequences derived from gene prediction, not submitted to EMBL-Bank/GenBank/DDBJ ( [Ensembl](http://www.ensembl.org/), [Ensembl Genomes](http://ensemblgenomes.org/), [WormBase ParaSite](http://parasite.wormbase.org/) or [VectorBase](https://www.vectorbase.org/) ) (1), [RefSeq](https://www.ncbi.nlm.nih.gov/RefSeq/), [CCDS](https://www.ncbi.nlm.nih.gov/projects/CCDS/CcdsBrowse.cgi), etc).
 -   sequences derived from in-house gene prediction, in very specific cases.
 
-The FAQ [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb%5Fcoverage) gives information on our UniProtKB protein sequence exclusion policies, e.g. for [redundant proteomes](https://www.uniprot.org/help/proteome%5Fredundancy).
+The FAQ [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb_coverage) gives information on our UniProtKB protein sequence exclusion policies, e.g. for [redundant proteomes](https://www.uniprot.org/help/proteome_redundancy).
 
 \(1\) Complementary pipelines for import of protein sequences have been developed in collaboration with Ensembl for vertebrate species, Ensembl Genomes for non-vertebrate species, WormBase ParaSite for parasitic nematodes and VectorBase for pathogen vector genomes. In addition, a new pipeline imports selected non-redundant genomes annotated by NCBI RefSeq. These sources provide proteome sequences for a number of key genomes of special interest where the INSDC submission is lacking gene model annotation.
 
@@ -24,11 +24,11 @@ To date, these pipeline have been used to populate UniProtKB with additional pre
 
 # See also
 
--   [Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb%5Fsections)
--   [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb%5Fcoverage)
--   [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds%5Fprotein%5Fdefinition)
--   [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious%5Fsequences)
--   [How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical%5Fnucleotide)
+-   [Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb_sections)
+-   [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb_coverage)
+-   [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds_protein_definition)
+-   [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious_sequences)
+-   [How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical_nucleotide)
 -   [Sequences](https://www.uniprot.org/help/sequences)
 
 Related terms: imported, source, origin

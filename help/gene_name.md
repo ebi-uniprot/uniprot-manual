@@ -4,7 +4,7 @@ type: help
 categories: Names_and_taxonomy,manual
 ---
 
-This subsection of the [Names and taxonomy](https://www.uniprot.org/help/names%5Fand%5Ftaxonomy%5Fsection) section indicates the name(s) of the gene(s) that code for the protein sequence(s) described in the entry. Four distinct tokens exist: 'Name', 'Synonyms', 'Ordered locus names' and 'ORF names'.
+This subsection of the [Names and taxonomy](https://www.uniprot.org/help/names_and_taxonomy_section) section indicates the name(s) of the gene(s) that code for the protein sequence(s) described in the entry. Four distinct tokens exist: 'Name', 'Synonyms', 'Ordered locus names' and 'ORF names'.
 
 # 1. Name
 
@@ -30,13 +30,13 @@ We try to provide an exhaustive list of synonyms. This allows users to mine the 
 
 We call 'Ordered locus name' (OLN) the naming systems that are used to sequentially assign an identifier to each predicted gene of a completely sequenced genome or chromosome. The OLN is generally based on a prefix representing the organism followed by a number which usually represents the sequential ordering of genes on the chromosome. Depending on the genome-sequencing center, OLNs are only attributed to protein-coding genes, or also to pseudogenes, and also to tRNA-coding genes and others. If two predicted genes have been merged to form a new gene, both OLNs are indicated, separated by a slash.
 
-Examples: [HI0934](https://www.uniprot.org/uniprotkb/P44942#names%5Fand%5Ftaxonomy), [Rv3245c](https://www.uniprot.org/uniprotkb/Q50496#names%5Fand%5Ftaxonomy), [ECs2657/ECs2658](https://www.uniprot.org/uniprotkb/Q8XBC7#names%5Fand%5Ftaxonomy)
+Examples: [HI0934](https://www.uniprot.org/uniprotkb/P44942#names_and_taxonomy), [Rv3245c](https://www.uniprot.org/uniprotkb/Q50496#names_and_taxonomy), [ECs2657/ECs2658](https://www.uniprot.org/uniprotkb/Q8XBC7#names_and_taxonomy)
 
 Note that OLNs are sometimes referred to as 'ORF numbers', 'CDS numbers' or 'Gene numbers'.
 
 There can be more than one OLN per gene as it sometimes happens that one genome has been the target of distinct sequencing projects. In such cases, the order of the names in the 'Ordered Locus Names:' token reflects the order of the corresponding references in the entry.
 
-Example: [Q50496](https://www.uniprot.org/uniprotkb/Q50496#names%5Fand%5Ftaxonomy)
+Example: [Q50496](https://www.uniprot.org/uniprotkb/Q50496#names_and_taxonomy)
 
 # 4. ORF Names
 
@@ -57,5 +57,5 @@ ORF names are not propagated across species.
 -   In names and synonyms, we do not keep the prefix indicating the species of origin, although these are sometimes used in publications.  
     Examples: Xbcl2 (for *Xenopus laevis* bcl2), HsARG1 (for *Homo sapiens* ARG1).
 
--   It can happen that multiple genes can be translated to produce identical proteins in one species. In such cases, all gene products were historically often merged into a single UniProtKB entry and there are as many 'Name' tokens in the 'Gene names' subsection as the number of genes encoding the protein of interest, e.g. [P68431](https://www.uniprot.org/uniprotkb/P68431#names%5Fand%5Ftaxonomy).  
+-   It can happen that multiple genes can be translated to produce identical proteins in one species. In such cases, all gene products were historically often merged into a single UniProtKB entry and there are as many 'Name' tokens in the 'Gene names' subsection as the number of genes encoding the protein of interest, e.g. [P68431](https://www.uniprot.org/uniprotkb/P68431#names_and_taxonomy).  
     However, we tend to demerge many of these entries, and for newly annotated proteins we generate separate sequence entries in case of multiple genes coding for identical protein sequences, e.g. [P08409](https://www.uniprot.org/uniprotkb/?query=replaces:P08409).

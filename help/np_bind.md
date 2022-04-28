@@ -4,7 +4,7 @@ type: help
 categories: Function,manual
 ---
 
-This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section describes a region in the protein which binds nucleotide phosphates. It always involves more than one amino acid and includes all residues involved in nucleotide-binding.
+This subsection of the [Function](https://www.uniprot.org/help/function_section) section describes a region in the protein which binds nucleotide phosphates. It always involves more than one amino acid and includes all residues involved in nucleotide-binding.
 
 Isolated residues that bind nucleotides are shown as ' [Binding site](https://www.uniprot.org/help/binding) '.
 

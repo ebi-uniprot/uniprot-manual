@@ -11,13 +11,13 @@ Repeats vary from short amino acid repetitions, such as the polyglutamine tracts
 # 1. Annotation of specific repeated sequence motifs
 
 Certain repeats may be restricted to, or typical of, a specific protein or protein family. When these repeats have a specific name, that name is applied to each such repeat:  
-Examples: [Q03763](https://www.uniprot.org/uniprotkb/Q03763#family%5Fand%5Fdomains), [P20811](https://www.uniprot.org/uniprotkb/P20811#family%5Fand%5Fdomains)
+Examples: [Q03763](https://www.uniprot.org/uniprotkb/Q03763#family_and_domains), [P20811](https://www.uniprot.org/uniprotkb/P20811#family_and_domains)
 
 When no standard name exists, the ['Region'](https://www.uniprot.org/help/region) subsection is used to describe the region containing all the repeats and, when possible, the pattern of the repeat. The 'Repeat' subsection is then used simply to specify the number and position of each such repeat.  
-Example: [Q96NY7](https://www.uniprot.org/uniprotkb/Q96NY7#family%5Fand%5Fdomains)
+Example: [Q96NY7](https://www.uniprot.org/uniprotkb/Q96NY7#family_and_domains)
 
 *Conventions* : We define repeats as 'half-length' or 'truncated' when appropriate and as 'approximate', 'degenerate' or 'atypical' when they deviate significantly from the consensus sequence. We also omit the position of each individual repeat when they are extremely abundant.  
-Examples: [P15497](https://www.uniprot.org/uniprotkb/P15497#family%5Fand%5Fdomains), [P38479](https://www.uniprot.org/uniprotkb/P38479#family%5Fand%5Fdomains), [P15305](https://www.uniprot.org/uniprotkb/P15305#family%5Fand%5Fdomains)
+Examples: [P15497](https://www.uniprot.org/uniprotkb/P15497#family_and_domains), [P38479](https://www.uniprot.org/uniprotkb/P38479#family_and_domains), [P15305](https://www.uniprot.org/uniprotkb/P15305#family_and_domains)
 
 # 2. Annotation of predicted repeats
 
@@ -26,8 +26,8 @@ A large number of repeated domains have been modelled by InterPro and by the REP
 # See also
 
 [Evidence](https://www.uniprot.org/help/evidences)  
-[DNA binding](https://www.uniprot.org/help/dna%5Fbind)  
+[DNA binding](https://www.uniprot.org/help/dna_bind)  
 [Domain](https://www.uniprot.org/help/domain)  
 [Motif](https://www.uniprot.org/help/motif)  
 [Region](https://www.uniprot.org/help/region)  
-[Zinc finger](https://www.uniprot.org/help/zn%5Ffing)
+[Zinc finger](https://www.uniprot.org/help/zn_fing)

@@ -45,7 +45,7 @@ categories: help
 
 # Automatic annotation
 
-[UniProt's automatic annotation pipeline](https://www.uniprot.org/help/automatic%5Fannotation) enhances the unreviewed records in UniProtKB by enriching them with automatic classification and annotation. A stand-alone version of this system, and parts thereof, are available to annotate protein sequences.
+[UniProt's automatic annotation pipeline](https://www.uniprot.org/help/automatic_annotation) enhances the unreviewed records in UniProtKB by enriching them with automatic classification and annotation. A stand-alone version of this system, and parts thereof, are available to annotate protein sequences.
 
 -   UniFIRE  
     UniFIRE (The UniProt Functional annotation Inference Rule Engine) is an engine to execute rules in the UniProt Rule Markup Language (URML) format. It can be used to execute the UniProt annotation rules ( [UniRule](https://www.uniprot.org/help/unirule) and [ARBA](https://www.uniprot.org/help/arba) ).  

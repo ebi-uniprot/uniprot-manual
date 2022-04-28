@@ -32,9 +32,9 @@ Example: [Q6Q788](https://www.uniprot.org/uniprotkb/Q6Q788#ptm_processing)
 # 3. Annotation of Tat signal sequences in bacteria and archaea
 
 This subsection is also used for the annotation of proteins with a Tat (Twin-arginine translocation) signal sequence, which serves to translocate folded proteins in bacteria and archaea. Substrate proteins are directed to the Tat apparatus by distinctive N-terminal signal peptides containing a consensus SRRxFLK 'twin-arginine' motif. The related comment "Predicted to be exported by the Tat system" can be found in the 'Post-translational modification' subsection.  
-Example: [P36649](https://www.uniprot.org/uniprotkb/P36649#ptm%5Fprocessing)  
+Example: [P36649](https://www.uniprot.org/uniprotkb/P36649#ptm_processing)  
 Predicted TAT signal sequences are identified using the PROSITE profile [PS51318](https://prosite.expasy.org/PS51318).  
-Predicted cleavage sites are tagged with evidence ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255) or with the [automatic annotation](https://www.uniprot.org/help/automatic%5Fannotation) rule from which the predicted result was propagated.  
+Predicted cleavage sites are tagged with evidence ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255) or with the [automatic annotation](https://www.uniprot.org/help/automatic_annotation) rule from which the predicted result was propagated.  
 Example: [P36649](https://www.uniprot.org/uniprotkb/P36649#ptm_processing)
 
 In **UniProtKB/TrEMBL**, signal peptides are annotated automatically by our [sequence annotation module using SignalP.](https://www.uniprot.org/help/sam)

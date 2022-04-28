@@ -8,11 +8,11 @@ The Universal Protein Resource (UniProt) is a comprehensive resource for protein
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/overview.png)
 
-UniProt is a collaboration between the [European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/), the [SIB Swiss Institute of Bioinformatics](https://www.sib.swiss/) and the [Protein Information Resource (PIR)](https://proteininformationresource.org/). Across the three institutes more than [100 people](https://www.uniprot.org/help/uniprot%5Fstaff) are involved through different tasks such as database curation, software development and support.
+UniProt is a collaboration between the [European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/), the [SIB Swiss Institute of Bioinformatics](https://www.sib.swiss/) and the [Protein Information Resource (PIR)](https://proteininformationresource.org/). Across the three institutes more than [100 people](https://www.uniprot.org/help/uniprot_staff) are involved through different tasks such as database curation, software development and support.
 
 EMBL-EBI and SIB together used to produce Swiss-Prot and TrEMBL, while PIR produced the Protein Sequence Database (PIR-PSD). These two data sets coexisted with different protein sequence coverage and annotation priorities. TrEMBL (Translated EMBL Nucleotide Sequence Data Library) was originally created because sequence data was being generated at a pace that exceeded Swiss-Prot's ability to keep up. Meanwhile, PIR maintained the PIR-PSD and related databases, including iProClass, a database of protein sequences and curated families. In 2002 the three institutes decided to pool their resources and expertise and formed the UniProt consortium.
 
-The UniProt consortium is headed by [Alex Bateman](https://www.uniprot.org/bateman), [Alan Bridge](https://www.uniprot.org/help/bridge) and [Cathy Wu](http://pir.georgetown.edu/pirwww/aboutpir/wubio.shtml), supported by [key staff](https://www.uniprot.org/help/key%5Fstaff), and receives valuable input from an independent [Scientific Advisory Board](https://www.uniprot.org/help/sab).
+The UniProt consortium is headed by [Alex Bateman](https://www.uniprot.org/bateman), [Alan Bridge](https://www.uniprot.org/help/bridge) and [Cathy Wu](http://pir.georgetown.edu/pirwww/aboutpir/wubio.shtml), supported by [key staff](https://www.uniprot.org/help/key_staff), and receives valuable input from an independent [Scientific Advisory Board](https://www.uniprot.org/help/sab).
 
 # Funding
 

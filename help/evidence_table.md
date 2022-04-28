@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,Text_search,faq
 ---
 
-The table below summarizes the different [evidence types](https://www.uniprot.org/help/evidences) used in UniProtKB annotation, and details how they are labeled in the [Advanced search](https://www.uniprot.org/help/advanced%5Fsearch) menu and in the UniProtKB entry view.
+The table below summarizes the different [evidence types](https://www.uniprot.org/help/evidences) used in UniProtKB annotation, and details how they are labeled in the [Advanced search](https://www.uniprot.org/help/advanced_search) menu and in the UniProtKB entry view.
 
 |                                                 |                  |                                                                                            |                                                                                                                                                                                                                                                 |                            |                  |            |               |
 |:------------------------------------------------|:-----------------|:-------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------|:-----------------|:-----------|:--------------|

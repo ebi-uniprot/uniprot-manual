@@ -14,5 +14,5 @@ For more information please go to the [PIRSF website](https://proteininformation
 
 -   [What is HAMAP?](https://www.uniprot.org/help/hamap)
 -   [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)
--   [How is protein family membership assigned in UniProtKB?](https://www.uniprot.org/help/family%5Fmembership)
--   [Sequence similarities](https://www.uniprot.org/help/sequence%5Fsimilarities)
+-   [How is protein family membership assigned in UniProtKB?](https://www.uniprot.org/help/family_membership)
+-   [Sequence similarities](https://www.uniprot.org/help/sequence_similarities)

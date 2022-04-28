@@ -89,7 +89,7 @@ Automatic assertion inferred from database entries
 
 ### Experimental evidence
 
-We use the ECO code [ECO:0000269](http://purl.obolibrary.org/obo/ECO%5F0000269) for manually curated information for which there is published experimental evidence. The PubMed identifier of the publication(s) which is the original source of the information is provided (for publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number(s)).
+We use the ECO code [ECO:0000269](http://purl.obolibrary.org/obo/ECO_0000269) for manually curated information for which there is published experimental evidence. The PubMed identifier of the publication(s) which is the original source of the information is provided (for publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number(s)).
 
 Example: [D9N129](https://www.uniprot.org/uniprotkb/D9N129#function)
 
@@ -108,7 +108,7 @@ Manual assertion based on experiment
 
 ### Non-traceable author statement evidence
 
-We use the ECO code [ECO:0000303](http://purl.obolibrary.org/obo/ECO%5F0000303) for manually curated information that is based on statements in scientific articles for which there is no experimental support. The PubMed identifier of the paper(s) which is the original source of the information is provided (for publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number(s)).
+We use the ECO code [ECO:0000303](http://purl.obolibrary.org/obo/ECO_0000303) for manually curated information that is based on statements in scientific articles for which there is no experimental support. The PubMed identifier of the paper(s) which is the original source of the information is provided (for publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number(s)).
 
 Example: [P28494](https://www.uniprot.org/uniprotkb/P28494#function)
 
@@ -127,7 +127,7 @@ Manual assertion based on opinion
 
 ### Curator inference evidence
 
-We use the ECO code [ECO:0000305](http://purl.obolibrary.org/obo/ECO%5F0000305) for manually curated information which has been inferred by a curator based on his/her scientific knowledge or on the scientific content of an article. If the information is inferred from the scientific content of an article, the PubMed identifier of the supporting paper is provided (for publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number(s)).
+We use the ECO code [ECO:0000305](http://purl.obolibrary.org/obo/ECO_0000305) for manually curated information which has been inferred by a curator based on his/her scientific knowledge or on the scientific content of an article. If the information is inferred from the scientific content of an article, the PubMed identifier of the supporting paper is provided (for publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number(s)).
 
 Example: [Q9UKV3](https://www.uniprot.org/uniprotkb/Q9UKV3#miscellaneous)
 
@@ -144,7 +144,7 @@ Manual assertion inferred from experiment in
     CC       fragment of Drosophila melanogaster Acinus/hkl.
     CC       {ECO:0000305|PubMed:22388736}.
 
-Example: [P62196](https://www.uniprot.org/uniprotkb/P62196#ptm%5Fprocessing)
+Example: [P62196](https://www.uniprot.org/uniprotkb/P62196#ptm_processing)
 
 1 Publication
 
@@ -158,9 +158,9 @@ Manual assertion inferred from experiment in
 
 ### Sequence similarity evidence
 
-We use the ECO code [ECO:0000250](http://purl.obolibrary.org/obo/ECO%5F0000250) for manually curated information which has been propagated from a related experimentally characterized protein. The accession number of the experimental source is provided (except for some historic UniProtKB/Swiss-Prot annotations, see [Why don't all UniProtKB/Swiss-Prot annotations have evidence?](https://www.uniprot.org/faq/evidence%5Fin%5Fswissprot) ).
+We use the ECO code [ECO:0000250](http://purl.obolibrary.org/obo/ECO_0000250) for manually curated information which has been propagated from a related experimentally characterized protein. The accession number of the experimental source is provided (except for some historic UniProtKB/Swiss-Prot annotations, see [Why don't all UniProtKB/Swiss-Prot annotations have evidence?](https://www.uniprot.org/faq/evidence_in_swissprot) ).
 
-Example: [D3DJ41](https://www.uniprot.org/uniprotkb/D3DJ41#ptm%5Fprocessing)
+Example: [D3DJ41](https://www.uniprot.org/uniprotkb/D3DJ41#ptm_processing)
 
 By similarity
 
@@ -175,11 +175,11 @@ Manual assertion inferred from sequence similarity
 
 ### Sequence model evidence
 
-We use the ECO code [ECO:0000255](http://purl.obolibrary.org/obo/ECO%5F0000255) in manual assertions and [ECO:0000256](http://purl.obolibrary.org/obo/ECO%5F0000256) (and its descendant code [ECO:0000259](http://purl.obolibrary.org/obo/ECO%5F0000259) ) in automatic assertions, respectively, for information which has been generated by the UniProtKB [automatic annotation](https://www.uniprot.org/help/automatic%5Fannotation) system. The database name and identifier of the sequence model rule that has been used by the system are provided.
+We use the ECO code [ECO:0000255](http://purl.obolibrary.org/obo/ECO_0000255) in manual assertions and [ECO:0000256](http://purl.obolibrary.org/obo/ECO_0000256) (and its descendant code [ECO:0000259](http://purl.obolibrary.org/obo/ECO_0000259) ) in automatic assertions, respectively, for information which has been generated by the UniProtKB [automatic annotation](https://www.uniprot.org/help/automatic_annotation) system. The database name and identifier of the sequence model rule that has been used by the system are provided.
 
-The ECO code [ECO:0000255](http://purl.obolibrary.org/obo/ECO%5F0000255) is also used for information which has been generated by various sequence analysis programs that are used during the manual curation process and which has been verified by a curator.
+The ECO code [ECO:0000255](http://purl.obolibrary.org/obo/ECO_0000255) is also used for information which has been generated by various sequence analysis programs that are used during the manual curation process and which has been verified by a curator.
 
-Example: [P0A940](https://www.uniprot.org/uniprotkb/P0A940#family%5Fand%5Fdomains)
+Example: [P0A940](https://www.uniprot.org/uniprotkb/P0A940#family_and_domains)
 
 UniRule annotation
 
@@ -247,9 +247,9 @@ Automatic assertion according to rules
 
 ### Imported information evidence
 
-We use the ECO code [ECO:0000312](http://purl.obolibrary.org/obo/ECO%5F0000312) in manual assertions and [ECO:0000313](http://purl.obolibrary.org/obo/ECO%5F0000313) in automatic assertions, respectively, for information which has been imported from another database. The database name and identifier of the entry from which the information has been imported are provided.
+We use the ECO code [ECO:0000312](http://purl.obolibrary.org/obo/ECO_0000312) in manual assertions and [ECO:0000313](http://purl.obolibrary.org/obo/ECO_0000313) in automatic assertions, respectively, for information which has been imported from another database. The database name and identifier of the entry from which the information has been imported are provided.
 
-Example: [Q4JIM5](https://www.uniprot.org/uniprotkb/Q4JIM5#names%5Fand%5Ftaxonomy)
+Example: [Q4JIM5](https://www.uniprot.org/uniprotkb/Q4JIM5#names_and_taxonomy)
 
 Imported
 
@@ -260,7 +260,7 @@ Manual assertion inferred from database entries
 
     GN   Name=Abl2 {ECO:0000312|EMBL:AAY86039.1, ECO:0000312|MGI:MGI:87860};
 
-Example: [Q2L9A9](https://www.uniprot.org/uniprotkb/Q2L9A9#names%5Fand%5Ftaxonomy)
+Example: [Q2L9A9](https://www.uniprot.org/uniprotkb/Q2L9A9#names_and_taxonomy)
 
 Imported
 
@@ -273,7 +273,7 @@ Automatic assertion inferred from database entries
 
 ### Combinatorial evidence
 
-We use the ECO code [ECO:0007744](http://purl.obolibrary.org/obo/ECO%5F0007744) in manual assertions and [ECO:0007829](http://purl.obolibrary.org/obo/ECO%5F0007829) in automatic assertions, respectively, for information inferred from a combination of experimental and computational evidence. It is currently used in UniProtKB for published large-scale proteomics data and a subset of 3D structural data for which UniProt makes use of computational procedures to generate the data. If the experimental evidence is derived from a paper, the PubMed identifier of the paper is provided. For experimental data derived from the Protein Data Bank, the PDB code is provided.
+We use the ECO code [ECO:0007744](http://purl.obolibrary.org/obo/ECO_0007744) in manual assertions and [ECO:0007829](http://purl.obolibrary.org/obo/ECO_0007829) in automatic assertions, respectively, for information inferred from a combination of experimental and computational evidence. It is currently used in UniProtKB for published large-scale proteomics data and a subset of 3D structural data for which UniProt makes use of computational procedures to generate the data. If the experimental evidence is derived from a paper, the PubMed identifier of the paper is provided. For experimental data derived from the Protein Data Bank, the PDB code is provided.
 
 Example: [P83256](https://www.uniprot.org/uniprotkb/P83256#structure)
 
@@ -289,5 +289,5 @@ Manual assertion inferred from algorithms based on publications or databases ent
 
 # Related documents
 
-[Why don't all UniProtKB/Swiss-Prot annotations have evidence?](https://www.uniprot.org/help/evidence%5Fin%5Fswissprot)  
-[How can I query UniProtKB annotations by evidence?](https://www.uniprot.org/help/evidence%5Ftable) - A guide to evidence codes and labels in entry view and advanced search
+[Why don't all UniProtKB/Swiss-Prot annotations have evidence?](https://www.uniprot.org/help/evidence_in_swissprot)  
+[How can I query UniProtKB annotations by evidence?](https://www.uniprot.org/help/evidence_table) - A guide to evidence codes and labels in entry view and advanced search

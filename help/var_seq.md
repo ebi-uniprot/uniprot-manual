@@ -10,7 +10,7 @@ The information stored in this subsection is used to automatically construct alt
 
 Example: [P04150](https://www.uniprot.org/uniprotkb/P04150#sequences)
 
-Each 'Alternative sequence' subsection has stable [feature identifiers (FTIds)](https://www.uniprot.org/help/sequence%5Fannotation#annotation%5Fid). Isoform sequences can be **downloaded in FASTA format** from our [download index page](https://www.uniprot.org/downloads) (choose the file: 'Isoform sequences').
+Each 'Alternative sequence' subsection has stable [feature identifiers (FTIds)](https://www.uniprot.org/help/sequence_annotation#annotation_id). Isoform sequences can be **downloaded in FASTA format** from our [download index page](https://www.uniprot.org/downloads) (choose the file: 'Isoform sequences').
 
 Related keywords:
 
@@ -20,12 +20,12 @@ Related terms: splice variant, splice isoform
 
 # Related documents
 
-[What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms)
+[What is the canonical sequence? Are all isoforms described in one entry? How can I retrieve them?](https://www.uniprot.org/help/canonical_and_isoforms)
 
-[How to retrieve a complete set of protein sequences?](https://www.uniprot.org/help/retrieve%5Fsets)
+[How to retrieve a complete set of protein sequences?](https://www.uniprot.org/help/retrieve_sets)
 
-[How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein%5Fdiversity)
+[How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein_diversity)
 
-[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical%5Fnucleotide)
+[How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?](https://www.uniprot.org/help/canonical_nucleotide)
 
-[What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds%5Fprotein%5Fdefinition)
+[What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds_protein_definition)

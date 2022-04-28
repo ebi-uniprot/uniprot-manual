@@ -9,7 +9,7 @@ categories: Invertebrates,Biocuration,help
 This document lists all the Caenorhabditis elegans entries present in UniProtKB/Swiss-Prot together with their gene names and cross-references to WormBase.
 
 UniProtKB/Swiss-Prot document: [Caenorhabditis elegans: entries, gene names and cross-references to WormBase](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/celegans)  
-UniProt web page: [Caenorhabditis protein annotation program](https://www.uniprot.org/program/Caenorhabditis)
+UniProt web page: [Caenorhabditis protein annotation program](https://www.uniprot.org/help/Caenorhabditis)
 
 # Dictyostelium discoideum
 
@@ -22,4 +22,4 @@ UniProtKB/Swiss-Prot document: [Dictyostelium discoideum: entries, gene names an
 This document lists all the Drosophila entries present in UniProtKB/Swiss-Prot together with their gene names and cross-references to FlyBase.
 
 UniProtKB/Swiss-Prot document: [Drosophila: entries, gene names and cross-references to FlyBase](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/fly)  
-UniProt web page: [Drosophila protein annotation program](https://www.uniprot.org/program/Drosophila)
+UniProt web page: [Drosophila protein annotation program](https://www.uniprot.org/help/Drosophila)

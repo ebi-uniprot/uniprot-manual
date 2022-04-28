@@ -24,24 +24,24 @@ We also would like to thank the previous members of the UniProt SAB for their va
 -   [Russ Altman](https://profiles.stanford.edu/russ-altman), Stanford University
 -   [Michael Ashburner](http://www.gen.cam.ac.uk/research-groups/ashburner) (Chair 2006-2010), Department of Genetics, University of Cambridge
 -   [Patricia Babbitt](http://babbittlab.compbio.ucsf.edu/), Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco
--   [Helen Berman](http://rutchem.rutgers.edu/berman%5Fhelen%5Fm), Department of Chemistry, Rutgers University
+-   [Helen Berman](http://rutchem.rutgers.edu/berman_helen_m), Department of Chemistry, Rutgers University
 -   [Judith Blake](https://www.jax.org/research-and-faculty/faculty/judy-blake), The Jackson Laboratory, Mouse Genome Informatics
 -   [Carol Bult](https://www.jax.org/research-and-faculty/faculty/carol-bult), The Jackson Laboratory, Mouse Genome Informatics
 -   Ian Dix, Discovery Information, AstraZeneca
 -   Takashi Gojobori, Laboratory for DNA Data Analysis, Center for Information Biology and DNA Data Bank of Japan
--   [Fuchu He](http://www.bprc.ac.cn/bprc/English/expert/2008/0729/picture%5F1.html), Beijing Proteome Research Center
+-   [Fuchu He](http://www.bprc.ac.cn/bprc/English/expert/2008/0729/picture_1.html), Beijing Proteome Research Center
 -   [Minoru Kanehisa](http://kanehisa.kuicr.kyoto-u.ac.jp/People/kanehisa.html), Institute for Chemical Research, Kyoto University
 -   [Maricel Kann](http://biology.umbc.edu/directory/faculty/kann/), Department of Biological Sciences, University of Maryland Baltimore County
 -   [Bernhard Kuester](http://www.professoren.tum.de/en/kuester-bernhard/), Technische Universitaet Muenchen
--   [Edward Marcotte](http://www.marcottelab.org/index.php/Main%5FPage), Department of Chemistry and Biochemistry, University of Texas
+-   [Edward Marcotte](http://www.marcottelab.org/index.php/Main_Page), Department of Chemistry and Biochemistry, University of Texas
 -   [Maryann Martone](https://neurosciences.ucsd.edu/faculty/Pages/maryann-martone.aspx), National Center for Microscopy and Imaging Research, University of California, San Diego
 -   Young-Ki Paik, Yonsei Proteome Research Center, Yonsei University
 -   [William Pearson](http://www.people.virginia.edu/%7Ewrp/), Department of Biochemistry and Molecular Genetics, University of Virginia
 -   Manuel Peitsch, Scientific Computing and Bioinformatics at Philip Morris International
--   [Lynne Regan](https://medicine.yale.edu/mbb/faculty/lynne%5Fregan.profile) (Chair 2017-2018), Molecular Biophysics & Biochemistry, Yale University
+-   [Lynne Regan](https://medicine.yale.edu/mbb/faculty/lynne_regan.profile) (Chair 2017-2018), Molecular Biophysics & Biochemistry, Yale University
 -   Philippe Sanseau, GlaxoSmithKline, Stevenage
 -   [David Searls](http://www.linkedin.com/in/davidsearls), Independent Consultant, Philadelphia
--   [Luis Serrano](http://www.crg.eu/en/luis%5Fserrano), Center for Genomic Regulation, Barcelona
+-   [Luis Serrano](http://www.crg.eu/en/luis_serrano), Center for Genomic Regulation, Barcelona
 -   [Mathias Uhlen](http://www.biotech.kth.se/proteomics/info/uhlen.html) (Chair 2011-2016), Royal Institute of Technology, Stockholm
 -   [Gunnar von Heijne](http://www.sbc.su.se/gunnar/), Stockholm Bioinformatics Center, Stockholm University
 -   [Timothy Wells](http://www.mmv.org/about-us/our-team/tim-wells), Medicines for Malaria Venture, Geneva

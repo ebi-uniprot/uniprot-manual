@@ -4,7 +4,7 @@ type: help
 categories: PTM_processing,manual
 ---
 
-This subsection of the [PTM / Processing](https://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section describes **covalent linkages** of various types formed **between two proteins (interchain cross-links)** or **between two parts of the same protein (intrachain cross-links)**, except the disulfide bonds that are annotated in the ['Disulfide bond'](https://www.uniprot.org/help/disulfid) subsection.
+This subsection of the [PTM / Processing](https://www.uniprot.org/help/ptm_processing_section) section describes **covalent linkages** of various types formed **between two proteins (interchain cross-links)** or **between two parts of the same protein (intrachain cross-links)**, except the disulfide bonds that are annotated in the ['Disulfide bond'](https://www.uniprot.org/help/disulfid) subsection.
 
 Interchain cross-links are involved in the formation of covalently linked protein complexes. Common cross-links include ubiquitin (and ubiquitin-like)(Ubl) conjugation, SUMOylation, transglutamination, thioether bonds and thioester bonds.
 
@@ -51,9 +51,9 @@ Note that the keyword ['Ubl conjugation pathway'](https://www.uniprot.org/keywor
 
 Ubiquitination often leads to the degradation of the modified protein by the proteasome.
 
-Example of target: [Q04119](https://www.uniprot.org/uniprotkb/Q04119#ptm%5Fprocessing)
+Example of target: [Q04119](https://www.uniprot.org/uniprotkb/Q04119#ptm_processing)
 
-Example of modifier: [P62990](https://www.uniprot.org/uniprotkb/P62990#ptm%5Fprocessing)
+Example of modifier: [P62990](https://www.uniprot.org/uniprotkb/P62990#ptm_processing)
 
 ### Sumoylation
 
@@ -103,7 +103,7 @@ Related keyword: [Thioester bond](https://www.uniprot.org/keywords/882)
 
 ## e. Special cases
 
-Some cross-links may involve the rare [non-standard amino acid](https://www.uniprot.org/help/non%5Fstd) **selenocysteine**. Others may form between amino acids that undergo preliminary modification(s) prior to cross-link formation.  
+Some cross-links may involve the rare [non-standard amino acid](https://www.uniprot.org/help/non_std) **selenocysteine**. Others may form between amino acids that undergo preliminary modification(s) prior to cross-link formation.  
 Example: [Q9MYY8](https://www.uniprot.org/uniprotkb/Q9MYY8#ptm_processing) (Selenocysteine)
 
 **Tryptophan tryptophylquinone (TTQ)** is formed by oxidation of the indole ring of a tryptophan to form tryptophylquinone followed by covalent cross-linking with another tryptophan residue.  
@@ -112,4 +112,4 @@ Related keyword: [TTQ](https://www.uniprot.org/keywords/824)
 
 Analagous cross-links have been observed between tryptophylquinone and cysteine (related keyword: [CTQ](https://www.uniprot.org/keywords/885) ) and between tyrosylquinone and lysine (related keyword: [LTQ](https://www.uniprot.org/keywords/886) ).
 
-See also the subsection [Post-translational modifications](https://www.uniprot.org/help/post-translational%5Fmodification) for additional information on modifications for which **position-specific data is not yet available**.
+See also the subsection [Post-translational modifications](https://www.uniprot.org/help/post-translational_modification) for additional information on modifications for which **position-specific data is not yet available**.

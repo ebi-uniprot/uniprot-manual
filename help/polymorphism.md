@@ -4,7 +4,7 @@ type: help
 categories: Sequence,manual
 ---
 
-This subsection of the 'Sequence' section provides information on polymorphic variants. If the variant is associated with a disease state, the description of the latter can be found in the ['Involvement in disease'](https://www.uniprot.org/help/involvement%5Fin%5Fdisease) subsection.
+This subsection of the 'Sequence' section provides information on polymorphic variants. If the variant is associated with a disease state, the description of the latter can be found in the ['Involvement in disease'](https://www.uniprot.org/help/involvement_in_disease) subsection.
 
 Comments on single variants are usually found in the ' [Natural variant](https://www.uniprot.org/help/variant) ' subsection. The subsection 'Polymorphism' is used only when the information cannot be accommodated in the ' [Natural variant](https://www.uniprot.org/help/variant) ' subsection.  
 Example: [P15516](https://www.uniprot.org/uniprotkb/P15516#sequences)

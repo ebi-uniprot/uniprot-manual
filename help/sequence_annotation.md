@@ -88,15 +88,15 @@ The current entry view displays annotation by subject (Function, PTM & processin
 
 The exact boundaries of the described sequence feature, as well as its length, are provided. When a feature is known to extend beyond the position that is given in this section, the endpoint specification will be preceded by '<' (less than) for features which continue to the N-terminal direction or by '>' (greater than) for features which continue to the C-terminal direction.
 
-Example: [P62756](https://www.uniprot.org/uniprot/P62756#ptm%5Fprocessing)
+Example: [P62756](https://www.uniprot.org/uniprot/P62756#ptm_processing)
 
 Unknown endpoints are denoted by a question mark '?'.
 
-Example: [P78586](https://www.uniprot.org/uniprot/P78586#ptm%5Fprocessing)
+Example: [P78586](https://www.uniprot.org/uniprot/P78586#ptm_processing)
 
 Uncertain endpoints are denoted by a question mark '?' before the position, e.g. '?42'.
 
-Example: [Q3ZC31](https://www.uniprot.org/uniprot/Q3ZC31#ptm%5Fprocessing)
+Example: [Q3ZC31](https://www.uniprot.org/uniprot/Q3ZC31#ptm_processing)
 
 # Querying Features
 

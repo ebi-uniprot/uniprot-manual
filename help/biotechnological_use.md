@@ -10,10 +10,10 @@ It explains in a few words in which biotechnological process the protein is used
 
 Examples:
 
-( [P30297](https://www.uniprot.org/uniprotkb/P30297#pathology%5Fand%5Fbiotech) ): Introduced by genetic manipulation and expressed in improved ripening tomato by Monsanto. ACC is the immediate precursor of the phytohormone ethylene who is involved in the control of ripening. ACC deaminase reduces ethylene biosynthesis and thus extend the shelf life of fruits and vegetables.
+( [P30297](https://www.uniprot.org/uniprotkb/P30297#pathology_and_biotech) ): Introduced by genetic manipulation and expressed in improved ripening tomato by Monsanto. ACC is the immediate precursor of the phytohormone ethylene who is involved in the control of ripening. ACC deaminase reduces ethylene biosynthesis and thus extend the shelf life of fruits and vegetables.
 
-( [P06278](https://www.uniprot.org/uniprotkb/P06278#pathology%5Fand%5Fbiotech) ): Used in the food industry for high temperature liquefaction of starch-containing mashes and in the detergent industry to remove starch. Sold under the name Termamyl by Novozymes.
+( [P06278](https://www.uniprot.org/uniprotkb/P06278#pathology_and_biotech) ): Used in the food industry for high temperature liquefaction of starch-containing mashes and in the detergent industry to remove starch. Sold under the name Termamyl by Novozymes.
 
 # Related documents
 
-[Where can I buy protein X? Which company sells protein Y? Where can I buy strain Z?](https://www.uniprot.org/help/where%5Fto%5Fbuy)
+[Where can I buy protein X? Which company sells protein Y? Where can I buy strain Z?](https://www.uniprot.org/help/where_to_buy)

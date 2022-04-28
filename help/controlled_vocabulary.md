@@ -12,8 +12,8 @@ UniProtKB/Swiss-Prot document: [Controlled vocabulary of journals](https://ftp.u
 UniProt web page: [Literature citations](https://www.uniprot.org/citations/)  
 User manual: [References](https://www.uniprot.org/help/publications_section)
 
-[What journal abbreviations are used in UniProtKB?](https://www.uniprot.org/help/journal%5Fabbreviations)  
-[On what basis are literature references inserted in UniProtKB/Swiss-Prot entries?](https://www.uniprot.org/help/literature%5Freferences)
+[What journal abbreviations are used in UniProtKB?](https://www.uniprot.org/help/journal_abbreviations)  
+[On what basis are literature references inserted in UniProtKB/Swiss-Prot entries?](https://www.uniprot.org/help/literature_references)
 
 # Keywords
 
@@ -23,14 +23,14 @@ UniProtKB/Swiss-Prot document: [Controlled vocabulary of keywords](https://ftp.u
 UniProt web page: [Keywords](https://www.uniprot.org/keywords/)  
 User manual: [Keywords](https://www.uniprot.org/help/keywords)
 
-[What are the differences between UniProtKB keywords and the GO terms?](https://www.uniprot.org/help/keywords%5Fvs%5Fgo)
+[What are the differences between UniProtKB keywords and the GO terms?](https://www.uniprot.org/help/keywords_vs_go)
 
 # Subcellular locations
 
 The [Controlled vocabulary of subcellular locations and membrane topologies and orientations](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/subcell) lists the UniProtKB controlled vocabulary used for the subcellular locations (including the membrane topologies and orientations terms) in the 'Subcellular location' section.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of subcellular locations and membrane topologies and orientations](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/subcell)  
-User manual: [Subcellular location](https://www.uniprot.org/help/subcellular%5Flocation)  
+User manual: [Subcellular location](https://www.uniprot.org/help/subcellular_location)  
 UniProt web page: [Subcellular locations](https://www.uniprot.org/locations/)
 
 # Pathways
@@ -44,10 +44,10 @@ User manual: [Pathway](https://www.uniprot.org/help/pathway)
 
 # Plasmids
 
-The [Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid) lists the currently valid values for the plasmids cited in the [Encoded on](https://www.uniprot.org/help/encoded%5Fon) subsection of the 'Names and origin' section and in the [Reference](https://www.uniprot.org/help/references) section of UniProtKB/Swiss-Prot entries.
+The [Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid) lists the currently valid values for the plasmids cited in the [Encoded on](https://www.uniprot.org/help/encoded_on) subsection of the 'Names and origin' section and in the [Reference](https://www.uniprot.org/help/references) section of UniProtKB/Swiss-Prot entries.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid)  
-User manual: [Encoded on](https://www.uniprot.org/help/encoded%5Fon)
+User manual: [Encoded on](https://www.uniprot.org/help/encoded_on)
 
 # Post-translational modifications
 
@@ -55,7 +55,7 @@ The [Controlled vocabulary of posttranslational modifications (PTM)](https://ftp
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of posttranslational modifications (PTM)](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist)
 
-[How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein%5Fdiversity)
+[How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein_diversity)
 
 # Taxonomy
 
@@ -88,8 +88,8 @@ UniProtKB/Swiss-Prot document: [Controlled vocabulary of human diseases](https:/
 Related keyword: [Disease variant](https://www.uniprot.org/keywords/KW-0225)  
 Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the OMIM database](https://www.uniprot.org/uniprotkb/?query=database%3Amim)
 
-[How can I get all the proteins involved in a given disease?](https://www.uniprot.org/help/disease%5Fquery)  
-[How can I get medical advice from UniProtKB?](https://www.uniprot.org/help/medical%5Fadvice)
+[How can I get all the proteins involved in a given disease?](https://www.uniprot.org/help/disease_query)  
+[How can I get medical advice from UniProtKB?](https://www.uniprot.org/help/medical_advice)
 
 # Extracellular domains
 

@@ -4,9 +4,9 @@ type: help
 categories: Proteomes,Download,UniProtKB,Keywords,Sequence,Human,faq
 ---
 
-In 2008, a draft of the complete human proteome was released from UniProtKB/Swiss-Prot: the approximately 20,000 putative human protein-coding genes were represented by one UniProtKB/Swiss-Prot entry each, tagged with the keyword 'Complete proteome' (now obsolete) and later linked to [proteome identifier](https://www.uniprot.org/help/proteome%5Fid) [UP000005640](https://www.uniprot.org/proteomes/UP000005640).
+In 2008, a draft of the complete human proteome was released from UniProtKB/Swiss-Prot: the approximately 20,000 putative human protein-coding genes were represented by one UniProtKB/Swiss-Prot entry each, tagged with the keyword 'Complete proteome' (now obsolete) and later linked to [proteome identifier](https://www.uniprot.org/help/proteome_id) [UP000005640](https://www.uniprot.org/proteomes/UP000005640).
 
-The **UniProtKB/Swiss-Prot _Homo sapiens_ proteome** contains one representative ( [canonical](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms) ) protein sequence for each known protein-coding gene. Close to 40% of these 20,000 protein sequence records also contain manually annotated alternative isoforms representing over 22'000 additional sequences (see [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical%5Fand%5Fisoforms) ).
+The **UniProtKB/Swiss-Prot _Homo sapiens_ proteome** contains one representative ( [canonical](https://www.uniprot.org/help/canonical_and_isoforms) ) protein sequence for each known protein-coding gene. Close to 40% of these 20,000 protein sequence records also contain manually annotated alternative isoforms representing over 22'000 additional sequences (see [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical_and_isoforms) ).
 
 - Query: [proteome:up000005640 AND reviewed:true](https://www.uniprot.org/uniprotkb/?query=reviewed%3Atrue+AND+proteome%3Aup000005640)
 
@@ -23,13 +23,13 @@ Query:
 
 - [proteome:up000005640](https://www.uniprot.org/uniprotkb/?query=proteome%3Aup000005640)
 
-Remark: The number of entries in the human proteome may vary from one release to the other, especially the manually reviewed set. This is due to our continuous manual updates thanks to the availability of new information. On a regular basis, we have to merge entries that were originally thought to be encoded by two separate genes, but later appeared to be actually a single gene. An entry can also be deleted when there is increasing evidence that it is an erroneous translation derived from a pseudogene. We keep dubious sequences in UniProtKB until there is enough evidence to decide whether we should delete them (see [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious%5Fsequences) ).
+Remark: The number of entries in the human proteome may vary from one release to the other, especially the manually reviewed set. This is due to our continuous manual updates thanks to the availability of new information. On a regular basis, we have to merge entries that were originally thought to be encoded by two separate genes, but later appeared to be actually a single gene. An entry can also be deleted when there is increasing evidence that it is an erroneous translation derived from a pseudogene. We keep dubious sequences in UniProtKB until there is enough evidence to decide whether we should delete them (see [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious_sequences) ).
 
 # Access to human sequence sets
 
 Our [FTP server](https://www.uniprot.org/downloads) allows to download expanded FASTA sets, containing both the canonical and manually reviewed isoform sequences, for a selection of the most widely used proteomes, including human.
 
-Below are queries to retrieve different human sequence sets. In order to download the query results, please read [How to retrieve sets of UniProtKB protein sequences?](https://www.uniprot.org/help/retrieve%5Fsets)
+Below are queries to retrieve different human sequence sets. In order to download the query results, please read [How to retrieve sets of UniProtKB protein sequences?](https://www.uniprot.org/help/retrieve_sets)
 
 You can retrieve:
 
@@ -56,7 +56,7 @@ Note: Additional human sequences in UniProtKB/TrEMBL are not flagged to be part 
 # See also
 
 - [What are proteomes?](https://www.uniprot.org/help/proteome)
-- [What are reference proteomes?](https://www.uniprot.org/help/reference%5Fproteome)
-- [How to retrieve sets of UniProtKB protein sequences?](https://www.uniprot.org/help/retrieve%5Fsets)
-- [Alternative products](https://www.uniprot.org/help/alternative%5Fproducts)
-- [Alternative sequence](https://www.uniprot.org/help/var%5Fseq)
+- [What are reference proteomes?](https://www.uniprot.org/help/reference_proteome)
+- [How to retrieve sets of UniProtKB protein sequences?](https://www.uniprot.org/help/retrieve_sets)
+- [Alternative products](https://www.uniprot.org/help/alternative_products)
+- [Alternative sequence](https://www.uniprot.org/help/var_seq)

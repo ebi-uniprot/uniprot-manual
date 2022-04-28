@@ -12,20 +12,20 @@ categories: Staff,help
 
 # Key staff
 
-[Cecilia Arighi](https://www.uniprot.org/help/key%5Fstaff#arighi)  
-[Lionel Breuza](https://www.uniprot.org/help/key%5Fstaff#breuza)  
-[Elisabeth Coudert](https://www.uniprot.org/help/key%5Fstaff#coudert)  
-[Hongzhan Huang](https://www.uniprot.org/help/key%5Fstaff#huang)  
-[Damien Lieberherr](https://www.uniprot.org/help/key%5Fstaff#lieberherr)  
-[Michele Magrane](https://www.uniprot.org/help/key%5Fstaff#magrane)  
-[Maria J. Martin](https://www.uniprot.org/help/key%5Fstaff#martin)  
-[Peter McGarvey](https://www.uniprot.org/help/key%5Fstaff#mcgarvey)  
-[Darren Natale](https://www.uniprot.org/help/key%5Fstaff#natale)  
-[Sandra E. Orchard](https://www.uniprot.org/help/key%5Fstaff#orchard)  
-[Ivo Pedruzzi](https://www.uniprot.org/help/key%5Fstaff#pedruzzi)  
-[Sylvain Poux](https://www.uniprot.org/help/key%5Fstaff#poux)  
-[Shriya Raj](https://www.uniprot.org/help/key%5Fstaff#raj)  
-[Nicole Redaschi](https://www.uniprot.org/help/key%5Fstaff#redaschi)
+[Cecilia Arighi](https://www.uniprot.org/help/key_staff#arighi)  
+[Lionel Breuza](https://www.uniprot.org/help/key_staff#breuza)  
+[Elisabeth Coudert](https://www.uniprot.org/help/key_staff#coudert)  
+[Hongzhan Huang](https://www.uniprot.org/help/key_staff#huang)  
+[Damien Lieberherr](https://www.uniprot.org/help/key_staff#lieberherr)  
+[Michele Magrane](https://www.uniprot.org/help/key_staff#magrane)  
+[Maria J. Martin](https://www.uniprot.org/help/key_staff#martin)  
+[Peter McGarvey](https://www.uniprot.org/help/key_staff#mcgarvey)  
+[Darren Natale](https://www.uniprot.org/help/key_staff#natale)  
+[Sandra E. Orchard](https://www.uniprot.org/help/key_staff#orchard)  
+[Ivo Pedruzzi](https://www.uniprot.org/help/key_staff#pedruzzi)  
+[Sylvain Poux](https://www.uniprot.org/help/key_staff#poux)  
+[Shriya Raj](https://www.uniprot.org/help/key_staff#raj)  
+[Nicole Redaschi](https://www.uniprot.org/help/key_staff#redaschi)
 
 # Biocurators
 

@@ -4,7 +4,7 @@ type: help
 categories: Subcellular_location,manual
 ---
 
-This subsection of the ['Subcellular location'](https://www.uniprot.org/help/subcellular%5Flocation%5Fsection) section describes the extent of a membrane-spanning region of the protein. It denotes the presence of both alpha-helical transmembrane regions and the membrane spanning regions of beta-barrel transmembrane proteins.
+This subsection of the ['Subcellular location'](https://www.uniprot.org/help/subcellular_location_section) section describes the extent of a membrane-spanning region of the protein. It denotes the presence of both alpha-helical transmembrane regions and the membrane spanning regions of beta-barrel transmembrane proteins.
 
 In **UniProtKB/Swiss-Prot**, we annotate transmembrane domains, when:  
 1. the transmembrane domains have been experimentally determined; there is some experimental evidence for the number, location and range of transmembrane domains; the structure of a protein family has been reviewed.  
@@ -24,7 +24,7 @@ However, when the experimental technique used allows the assignment of the bound
 
 Examples: [Q86V24](https://www.uniprot.org/uniprotkb/Q86V24#subcellular_location) (experimental), [Q8BQS5](https://www.uniprot.org/uniprotkb/Q8BQS5#subcellular_location) (propagated by similarity)
 
-Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have evidence](https://www.uniprot.org/help/evidence%5Fin%5Fswissprot). The annotations which are missing evidence were created before we started to manually curate information with evidence in UniProtKB/Swiss-Prot, and manual attribution of evidence to these existing annotations was not possible due to the huge amount of existing data. In such cases, the absence of any evidence for topological domains may in many cases be interpreted as 'Experimental' or 'Curated'.
+Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have evidence](https://www.uniprot.org/help/evidence_in_swissprot). The annotations which are missing evidence were created before we started to manually curate information with evidence in UniProtKB/Swiss-Prot, and manual attribution of evidence to these existing annotations was not possible due to the huge amount of existing data. In such cases, the absence of any evidence for topological domains may in many cases be interpreted as 'Experimental' or 'Curated'.
 
 # 2. Annotation of predicted transmembrane regions
 
@@ -40,7 +40,7 @@ See also: [Evidence](https://www.uniprot.org/help/evidences)
 
 We define 4 types of single-pass transmembrane proteins in UniProtKB/Swiss-Prot. Each of these 4 topologies is specified according to a controlled vocabulary in the ['Subcellular location'](https://www.uniprot.org/help/subcellular_location_section) subsection.
 
--   Type I: (N-terminus out): characterized by the feature key: 'Signal peptide' in the ['PTM / Processing'](https://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section.  
+-   Type I: (N-terminus out): characterized by the feature key: 'Signal peptide' in the ['PTM / Processing'](https://www.uniprot.org/help/ptm_processing_section) section.  
     Example: [P14778](https://www.uniprot.org/uniprotkb/P14778#subcellular_location)
 
 -   Type II (N-terminus in): characterized by the description: 'Signal-anchor for type II membrane protein'. The transmembrane domain is located close to the N-terminus of the protein and functions as an anchor.  
@@ -57,10 +57,10 @@ We define 4 types of single-pass transmembrane proteins in UniProtKB/Swiss-Prot.
 Proteins with 2 or more transmembrane domains are considered as integral multi-pass membrane proteins and are not classified further in UniProtKB/Swiss-Prot. Here again the topology is specified in the ['Subcellular location'](https://www.uniprot.org/help/subcellular_location_section) subsection.
 
 Many multi-pass membrane proteins do not have a signal peptide. Therefore when predicted N-terminal signal peptides and transmembrane regions overlap, and Phobius cannot be used to discriminate between the two, we annotate the disputed region by default as 'transmembrane'. In the following example, the protein is predicted to contain a signal peptide which is annotated as transmembrane region.  
-Example: [Q8RKH1](https://www.uniprot.org/uniprotkb/Q8RKH1#subcellular%5Flocation)
+Example: [Q8RKH1](https://www.uniprot.org/uniprotkb/Q8RKH1#subcellular_location)
 
 There are, however, examples of well-characterized proteins that have both a signal peptide and multiple transmembrane regions.  
-Example: [P30988](https://www.uniprot.org/uniprotkb/P30988#subcellular%5Flocation)
+Example: [P30988](https://www.uniprot.org/uniprotkb/P30988#subcellular_location)
 
 ## c) Beta-barrel transmembrane proteins
 
@@ -73,5 +73,5 @@ Related keyword:
 # See also
 
 -   [Sequence Analysis Methods for automatic annotation of unreviewed entries](https://www.uniprot.org/help/sam)
--   [Topological domain](https://www.uniprot.org/help/topo%5Fdom)
--   [Sequence annotation (features)](https://www.uniprot.org/help/sequence%5Fannotation)
+-   [Topological domain](https://www.uniprot.org/help/topo_dom)
+-   [Sequence annotation (features)](https://www.uniprot.org/help/sequence_annotation)

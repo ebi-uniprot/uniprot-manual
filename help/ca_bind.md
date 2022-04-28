@@ -4,7 +4,7 @@ type: help
 categories: Function,manual
 ---
 
-This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section specifies the position(s) of the calcium-binding region(s) within the protein. One common calcium-binding motif is the EF-hand, but other calcium-binding motifs also exist.
+This subsection of the [Function](https://www.uniprot.org/help/function_section) section specifies the position(s) of the calcium-binding region(s) within the protein. One common calcium-binding motif is the EF-hand, but other calcium-binding motifs also exist.
 
 # 1. Annotation of EF-hands
 

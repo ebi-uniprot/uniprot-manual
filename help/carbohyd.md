@@ -4,17 +4,17 @@ type: help
 categories: PTM_processing,manual
 ---
 
-This subsection of the [PTM / Processing](https://www.uniprot.org/help/ptm%5Fprocessing%5Fsection) section specifies the position and type of each covalently attached glycan group (mono-, di-, or polysaccharide).
+This subsection of the [PTM / Processing](https://www.uniprot.org/help/ptm_processing_section) section specifies the position and type of each covalently attached glycan group (mono-, di-, or polysaccharide).
 
 Glycosylation types are classified according to the identity of the atom of the amino acid which binds the carbohydrate chain, i.e. C-linked, N-linked, O-linked or S-linked. N-, C- and S-glycosylation take place in the endoplasmic reticulum and/or the Golgi apparatus and only extracellular or secreted proteins are concerned. In contrast, both intracellular and extracellular proteins can be O-glycosylated. The sugar directly bound to the protein is termed the reducing sugar, as it reduces the amino acid it binds to, and the structure of an oligosaccharide is written from the non-reducing end to the reducing end. We indicate the type of linkage to the protein and specify the nature of the reducing terminal sugar (if known) in brackets in the 'Description' field. For monosaccharides, the name of the reducing terminal sugar appears alone, while for di- and polysaccharides the name is followed by three periods '...'.
 
 Glycosylation is described using a strict controlled vocabulary.
 
-Examples for monosaccharides: [P54939](https://www.uniprot.org/uniprotkb/P54939#ptm%5Fprocessing), [P13671](https://www.uniprot.org/uniprotkb/P13671#ptm%5Fprocessing)
+Examples for monosaccharides: [P54939](https://www.uniprot.org/uniprotkb/P54939#ptm_processing), [P13671](https://www.uniprot.org/uniprotkb/P13671#ptm_processing)
 
-Examples for polysaccharides: [Q15293](https://www.uniprot.org/uniprotkb/Q15293#ptm%5Fprocessing), [P46976](https://www.uniprot.org/uniprotkb/P46976#ptm%5Fprocessing), [Q9S8M0](https://www.uniprot.org/uniprotkb/Q9S8M0#ptm%5Fprocessing)
+Examples for polysaccharides: [Q15293](https://www.uniprot.org/uniprotkb/Q15293#ptm_processing), [P46976](https://www.uniprot.org/uniprotkb/P46976#ptm_processing), [Q9S8M0](https://www.uniprot.org/uniprotkb/Q9S8M0#ptm_processing)
 
-If the site of glycosylation is **not known or if the consequences of the modifications require further comments**, the information is stored in the ['Post-translational modification'](https://www.uniprot.org/help/post-translational%5Fmodification) subsection.
+If the site of glycosylation is **not known or if the consequences of the modifications require further comments**, the information is stored in the ['Post-translational modification'](https://www.uniprot.org/help/post-translational_modification) subsection.
 
 Related keyword: [Glycoprotein](https://www.uniprot.org/keywords/325)
 
@@ -36,10 +36,10 @@ There are 3 types of mature N-glycans:
 -   hybrid
 -   complex (with different combinations of mannose, N-acetylglucosamine, N-acetylgalactosamine, fucose and sialic acid residues).
 
-Example: [P08195](https://www.uniprot.org/uniprotkb/P08195#ptm%5Fprocessing)
+Example: [P08195](https://www.uniprot.org/uniprotkb/P08195#ptm_processing)
 
 If the type of N-linked glycan is known, it is indicated in the 'Description' field using the terms 'high mannose', 'hybrid' or 'complex'.  
-Examples: [P18892](https://www.uniprot.org/uniprotkb/P18892#ptm%5Fprocessing), [P01830](https://www.uniprot.org/uniprotkb/P01830#ptm%5Fprocessing)
+Examples: [P18892](https://www.uniprot.org/uniprotkb/P18892#ptm_processing), [P01830](https://www.uniprot.org/uniprotkb/P01830#ptm_processing)
 
 The consensus sequence for N-glycosylation is Asn-Xaa-Ser/Thr (where Xaa is not Pro; note that Thr is more common than Ser) and more rarely Asn-X-Cys. We annotate experimentally identified N-glycosylation sites and predicted sites of N-glycosylation identified by the 'NetNGlyc' predictor (for mammalian entries) or the PROSITE pattern [PS00001](http://prosite.expasy.org/PDOC00001)  
 (for non-mammalian entries). The PROSITE pattern is also applied to mammalian entries when NetNGlyc returns a negative prediction for a protein known to contain N-glycosylated sites. Predicted sites are only annotated in regions of proteins that are known or predicted to be extracellular, and are tagged as 'Sequence Analysis' (Sequence model). In general, we avoid propagating N-glycosylation sites 'By similarity' to related proteins.  
@@ -70,7 +70,7 @@ We only annotate C-linked glycosylation when there is experimental [evidence](ht
 # 4. S-linked glycosylation
 
 S-linked glycosylation refers to the attachment of oligosaccharides to the sulfur atom of the cysteine. This modification seems to be extremely rare in comparison to other glycosylation events and was first seen in human and bacterial peptides.  
-Example: [P19827](https://www.uniprot.org/uniprotkb/P19827#ptm%5Fprocessing)
+Example: [P19827](https://www.uniprot.org/uniprotkb/P19827#ptm_processing)
 
 # 5. Glycation
 
@@ -79,4 +79,4 @@ Examples: [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm_processing), [P1
 
 We only annotate glycation when there is experimental [evidence](https://www.uniprot.org/help/evidences). Further information regarding the effect of glycation can be found in the ['Post-translational modification'](https://www.uniprot.org/help/post-translational_modification) subsection.
 
-See also: [Evidence](https://www.uniprot.org/help/evidences), [Modified residue](https://www.uniprot.org/help/mod_res), [Lipidation](https://www.uniprot.org/help/lipid), [Post-translational modifications](https://www.uniprot.org/help/post-translational%5Fmodification)
+See also: [Evidence](https://www.uniprot.org/help/evidences), [Modified residue](https://www.uniprot.org/help/mod_res), [Lipidation](https://www.uniprot.org/help/lipid), [Post-translational modifications](https://www.uniprot.org/help/post-translational_modification)

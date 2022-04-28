@@ -4,7 +4,7 @@ type: help
 categories: Publications,manual
 ---
 
-The set of publications **fully curated in UniProtKB/Swiss-Prot** and publications **imported in UniProtKB/TrEMBL** is complemented by [additional publications that have been computationally mapped](https://www.uniprot.org/help/publications%5Fsection#additional%5Fbibliography) from other resources to UniProtKB entries, as well as by [community-submitted](https://www.uniprot.org/help/publications%5Fsection#community%5Fbibliography) publications.
+The set of publications **fully curated in UniProtKB/Swiss-Prot** and publications **imported in UniProtKB/TrEMBL** is complemented by [additional publications that have been computationally mapped](https://www.uniprot.org/help/publications_section#additional_bibliography) from other resources to UniProtKB entries, as well as by [community-submitted](https://www.uniprot.org/help/publications_section#community_bibliography) publications.
 
 The publications annotated in UniProtKB, the computationally mapped and the community-submitted publications are combined into a "Publications" view, which can be accessed from a link under the "Display" heading on the left hand side of a UniProtKB page. In this view, you can filter the publications list by source and categories that are based on the type of data a publication contains about the protein (such as function, interaction, sequence, etc.), or by the number of proteins it describes ("small scale" vs "large scale").
 
@@ -192,6 +192,6 @@ UniProt users have always actively engaged with us and provide important feedbac
 [Controlled vocabulary of strains](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains)  
 [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)  
 [Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid)  
-[On what basis are literature references inserted in UniProtKB/Swiss-Prot entries?](https://www.uniprot.org/help/literature%5Freferences)  
-[What journal abbreviations are used in UniProtKB?](https://www.uniprot.org/help/journal%5Fabbreviations)  
+[On what basis are literature references inserted in UniProtKB/Swiss-Prot entries?](https://www.uniprot.org/help/literature_references)  
+[What journal abbreviations are used in UniProtKB?](https://www.uniprot.org/help/journal_abbreviations)  
 [On expert curation and scalability: UniProtKB/Swiss-Prot as a case study, Bioinformatics (2017)](https://pubmed.ncbi.nlm.nih.gov/29036270/)

@@ -41,7 +41,7 @@ This information can then be propagated ['By similarity'](https://www.uniprot.or
 Example: [Q0MQG1](https://www.uniprot.org/uniprotkb/Q0MQG1#ptm_processing)
 
 When a protein contains a transit peptide (according to experimental data or its similarity with a family of proteins), but the precise cleavage position has not been experimentally determined, we use a question mark instead of a precise position.  
-Example: [Q6GQ48](https://www.uniprot.org/uniprotkb/Q6GQ48#ptm%5Fprocessing)
+Example: [Q6GQ48](https://www.uniprot.org/uniprotkb/Q6GQ48#ptm_processing)
 
 # 2. Annotation of predicted transit peptides:
 
@@ -52,7 +52,7 @@ Example: [P91929](https://www.uniprot.org/uniprotkb/P91929#ptm_processing)
 
 -   [Evidence](https://www.uniprot.org/help/evidences)
 -   [Peptide (describing small active peptides)](https://www.uniprot.org/help/peptide)
--   [Sequence annotation (features)](https://www.uniprot.org/help/sequence%5Fannotation)
+-   [Sequence annotation (features)](https://www.uniprot.org/help/sequence_annotation)
 
 Related keywords:  
 [Transit peptide](https://www.uniprot.org/keywords/809),  

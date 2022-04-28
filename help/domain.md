@@ -4,7 +4,7 @@ type: help
 categories: Family_and_domains,manual
 ---
 
-This subsection of the [Family and Domains](https://www.uniprot.org/help/family%5Fand%5Fdomains%5Fsection) section describes the position and type of a domain, which is defined as a specific combination of secondary structures organized into a characteristic three-dimensional structure or fold.
+This subsection of the [Family and Domains](https://www.uniprot.org/help/family_and_domains_section) section describes the position and type of a domain, which is defined as a specific combination of secondary structures organized into a characteristic three-dimensional structure or fold.
 
 Protein domains often correspond to structural domains which are self-stabilizing and fold independently of the rest of the protein chain. They may occur independently or as part of complex multidomain protein architectures which evolve by domain accretion, domain loss or domain recombination. Protein domains can therefore be viewed as a 'parts list' for biology.
 
@@ -21,13 +21,13 @@ Examples of modular protein domains:
 
 UniProt uses InterPro to classify sequences at superfamily, family and subfamily levels and to predict the occurrence of functional domains and important sites.
 
-In UniProtKB/TrEMBL entries, domains from the InterPro member databases PROSITE, SMART or Pfam are predicted and annotated automatically. In these cases, the name of the domain is either taken from UniProtKB/Swiss-Prot annotation, or from InterPro entry names. Annotation from this [automatic annotation system](https://www.uniprot.org/help/automatic%5Fannotation) is labelled with [evidence/source](https://www.uniprot.org/help/evidences) "InterPro annotation".
+In UniProtKB/TrEMBL entries, domains from the InterPro member databases PROSITE, SMART or Pfam are predicted and annotated automatically. In these cases, the name of the domain is either taken from UniProtKB/Swiss-Prot annotation, or from InterPro entry names. Annotation from this [automatic annotation system](https://www.uniprot.org/help/automatic_annotation) is labelled with [evidence/source](https://www.uniprot.org/help/evidences) "InterPro annotation".
 
 # See also
 
-[DNA binding](https://www.uniprot.org/help/dna%5Fbind)  
+[DNA binding](https://www.uniprot.org/help/dna_bind)  
 [Domain](https://www.uniprot.org/help/domain)  
 [Motif](https://www.uniprot.org/help/motif)  
 [Region](https://www.uniprot.org/help/region)  
 [Repeat](https://www.uniprot.org/help/repeat)  
-[Zinc finger](https://www.uniprot.org/help/zn%5Ffing)
+[Zinc finger](https://www.uniprot.org/help/zn_fing)

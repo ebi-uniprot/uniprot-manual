@@ -16,12 +16,12 @@ To reduce redundancy in proteomes and subsequently UniProtKB/TrEMBL, we have dev
 
 # See also
 
--   [Reducing proteome redundancy](https://www.uniprot.org/help/proteome%5Fredundancy)
+-   [Reducing proteome redundancy](https://www.uniprot.org/help/proteome_redundancy)
 -   [Elimination of redundant proteomes (UniProt blog)](https://insideuniprot.blogspot.com/2015/05/)
 
 # Can a reference proteome be made redundant?
 
-No, [reference proteomes](https://www.uniprot.org/help/reference%5Fproteome) have a special status that protects them from becoming redundant. Reference proteomes are carefully chosen based on stringent criteria and represent important organisms covering the tree of life with a high level of annotation.
+No, [reference proteomes](https://www.uniprot.org/help/reference_proteome) have a special status that protects them from becoming redundant. Reference proteomes are carefully chosen based on stringent criteria and represent important organisms covering the tree of life with a high level of annotation.
 
 # Can reviewed UniProtKB (Swiss-Prot) entries be deleted when a proteome becomes redundant?
 
@@ -31,4 +31,4 @@ No. While it can happen that a proteome containing reviewed UniProtKB (Swiss-Pr
 
 Yes, this is possible: It may happen that proteomes that were identified as redundant are later reinstated as non-redundant, e.g. a proteome for a strain used as a model by a significant community or with proteins that have been crystallized. In the past, it has also happened on rare occasions that entries were deleted but later reinstated for other reasons. In such cases, the UniProtKB entries are created anew, with **new accession numbers**.
 
-To help users to link deleted to subsequently reinstated entries, we provide a [file that maps old to new accession numbers](https://ftp.uniprot.org/pub/databases/uniprot/current%5Frelease/knowledgebase/complete/docs/reinstated%5Fmap.txt.gz) via their [protein\_ids](https://www.uniprot.org/help/sequence%5Forigin).
+To help users to link deleted to subsequently reinstated entries, we provide a [file that maps old to new accession numbers](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/reinstated_map.txt.gz) via their [protein\_ids](https://www.uniprot.org/help/sequence_origin).

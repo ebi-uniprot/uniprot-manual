@@ -4,7 +4,7 @@ type: help
 categories: Names_and_taxonomy,manual
 ---
 
-This subsection of the [Names and taxonomy](https://www.uniprot.org/help/names%5Fand%5Ftaxonomy%5Fsection) section contains the taxonomic hierarchical classification lineage of the source organism. It lists the nodes as they appear top-down in the taxonomic tree, with the more general grouping listed first.
+This subsection of the [Names and taxonomy](https://www.uniprot.org/help/names_and_taxonomy_section) section contains the taxonomic hierarchical classification lineage of the source organism. It lists the nodes as they appear top-down in the taxonomic tree, with the more general grouping listed first.
 
 The taxonomy classification is maintained at the [NCBI](http://www.ncbi.nlm.nih.gov/Taxonomy/) and is used by the nucleotide sequence databases (EMBL/GenBank/DDBJ).
 

@@ -64,5 +64,5 @@ Example: [Kuopio ischaemic heart disease risk factor study](https://www.uniprot.
 
 # See also
 
--   [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual%5Fcuration)
+-   [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual_curation)
 -   [References](https://www.uniprot.org/help/references)

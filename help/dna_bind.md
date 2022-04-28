@@ -4,7 +4,7 @@ type: help
 categories: Function,manual
 ---
 
-This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section specifies the position and type of each DNA-binding domain present within the protein.
+This subsection of the [Function](https://www.uniprot.org/help/function_section) section specifies the position and type of each DNA-binding domain present within the protein.
 
 We annotate experimentally defined DNA-binding domains and conserved DNA-binding domains defined by the InterPro resources PROSITE, Pfam and SMART; examples include the AP2/ERF domain, the ETS domain, the Fork-Head domain, the HMG box and the Myb domain.
 
@@ -19,7 +19,7 @@ Examples: [P10103](https://www.uniprot.org/uniprotkb/P10103#function), [P46200](
 In the case of basic helix-loop-helix (bHLH) and basic leucine-zipper (bZIP) domains, we describe the C-terminal HLH and leucine zipper motifs separately in the [Domain](https://www.uniprot.org/help/domain) subsection of the 'Family and Domains' section. The N-terminal basic region of these domains is described in the 'DNA-binding' subsection.
 
 For bHLH proteins, the basic region is usually directly followed by the HLH domain in the sequence.  
-Example: [P35869](https://www.uniprot.org/uniprotkb/P35869#family%5Fand%5Fdomains)
+Example: [P35869](https://www.uniprot.org/uniprotkb/P35869#family_and_domains)
 
 In bZIP proteins, the basic region is followed by the leucine-zipper domain, characterized by an LXXXXXXL motif, and begins with the first Leu/Ile and stops with the last Leu/Ile residues.  
 Examples: [P18289](https://www.uniprot.org/uniprotkb/P18289#family_and_domains), [P15407](https://www.uniprot.org/uniprotkb/P15407#family_and_domains)
@@ -50,4 +50,4 @@ Related keywords:
 -   [Motif](https://www.uniprot.org/help/motif)
 -   [Region](https://www.uniprot.org/help/region)
 -   [Repeat](https://www.uniprot.org/help/repeat)
--   [Zinc finger](https://www.uniprot.org/help/zn%5Ffing)
+-   [Zinc finger](https://www.uniprot.org/help/zn_fing)

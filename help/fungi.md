@@ -9,21 +9,21 @@ categories: Fungi,Biocuration,help
 This documents lists all the Candida albicans SC5314 entries present in UniProtKB/Swiss-Prot, together with their gene names.
 
 UniProtKB/Swiss-Prot document: [Candida albicans: entries and gene names](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/calbican)  
-UniProt web page: [Fungal protein annotation program](https://www.uniprot.org/program/Fungi)
+UniProt web page: [Fungal protein annotation program](https://www.uniprot.org/help/fungal_protein_annotation_project)
 
 # Schizosaccharomyces pombe
 
 This documents lists all the Schizosaccharomyces pombe (strain 972 / ATCC 24843) entries present in UniProtKB/Swiss-Prot, together with their gene names.
 
 UniProtKB/Swiss-Prot document: [Schizosaccharomyces pombe: entries and gene names](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pombe)  
-UniProt web page: [Fungal protein annotation program](https://www.uniprot.org/program/Fungi)
+UniProt web page: [Fungal protein annotation program](https://www.uniprot.org/help/fungal_protein_annotation_project)
 
 # Yeast (Saccharomyces cerevisiae)
 
 This documents lists all the Saccharomyces cerevisiae S288c entries present in UniProtKB/Swiss-Prot, together with their gene names and cross-references to SGD.
 
 UniProtKB/Swiss-Prot document: [Yeast (Saccharomyces cerevisiae): entries, gene names and cross-references to SGD](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/yeast)  
-UniProt web page: [Fungal protein annotation program](https://www.uniprot.org/program/Fungi)
+UniProt web page: [Fungal protein annotation program](https://www.uniprot.org/help/fungal_protein_annotation_project)
 
 # List of entries found on Yeast (Saccharomyces cerevisiae) chromosomes
 

@@ -4,7 +4,7 @@ type: help
 categories: Function,manual
 ---
 
-This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section indicates at which position the protein binds a given metal ion. The nature of the metal is indicated in the 'Description' field.
+This subsection of the [Function](https://www.uniprot.org/help/function_section) section indicates at which position the protein binds a given metal ion. The nature of the metal is indicated in the 'Description' field.
 
 By definition each 'Metal binding' subsection refers to a single amino acid. When there are disinct binding sites for one type of ion, these are listed on separate lines and the ion name is numbered for each distinct site. The actual catalytic or structural role of the metal ion is also reported in this subsection, when applicable. In iron-sulfur proteins, the type of iron-sulfur group is indicated.  
 Examples: [Q9NWT6](https://www.uniprot.org/uniprotkb/Q9NWT6#function), [P24146](https://www.uniprot.org/uniprotkb/P24146#function), [P12851](https://www.uniprot.org/uniprotkb/P12851#function), [P00442](https://www.uniprot.org/uniprotkb/P00442#function), [P57257](https://www.uniprot.org/uniprotkb/P57257#function),

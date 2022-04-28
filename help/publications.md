@@ -58,7 +58,7 @@ Poux S, Arighi, CN, Magrane M, Bateman A, Wei C-H, Lu Z, Boutet E, Bye-A-Jee H, 
 
 Pundir S, Martin MJ, O'Donovan C.  
 **UniProt Protein Knowledgebase**  
-[Methods Mol. Biol. 1558:41-55 (2017)](https://link.springer.com/protocol/10.1007%2F978-1-4939-6783-4%5F2)
+[Methods Mol. Biol. 1558:41-55 (2017)](https://link.springer.com/protocol/10.1007%2F978-1-4939-6783-4_2)
 
 Watkins X, Garcia LJ, Pundir S, Martin MJ, UniProt Consortium  
 **ProtVista: visualization of protein sequence annotations**  
@@ -272,7 +272,7 @@ Jungo F, Estreicher A, Bairoch A, Bougueleret L, Xenarios I.
 
 The UniProt Consortium  
 **The Universal Protein Resource (UniProt) in 2010**  
-[Nucleic Acids Res. 38:D142-D148 (2010)](http://nar.oxfordjournals.org/content/38/suppl%5F1/D142.long)
+[Nucleic Acids Res. 38:D142-D148 (2010)](http://nar.oxfordjournals.org/content/38/suppl_1/D142.long)
 
 # 2009
 
@@ -286,7 +286,7 @@ Jain E, Bairoch A, Duvaud S, Phan I, Redaschi N, Suzek BE, Martin MJ, McGarvey P
 
 Lima T, Auchincloss AH, Coudert E, Keller G, Michoud K, Rivoire C, Bulliard V, de Castro E, Lachaize C, Baratin D, Phan I, Bougueleret L, Bairoch A.  
 **HAMAP: a database of completely sequenced microbial proteome sets and manually curated microbial protein families in UniProtKB/Swiss-Prot**  
-[Nucleic Acids Res. 37:D471-D478 (2009)](http://nar.oxfordjournals.org/content/37/suppl%5F1/D471.long)
+[Nucleic Acids Res. 37:D471-D478 (2009)](http://nar.oxfordjournals.org/content/37/suppl_1/D471.long)
 
 Schneider M, Lane L, Boutet E, Lieberherr D, Tognolli M, Bougueleret L, Bairoch A.  
 **The UniProtKB/Swiss-Prot knowledgebase and its Plant Proteome Annotation Program**  
@@ -294,7 +294,7 @@ Schneider M, Lane L, Boutet E, Lieberherr D, Tognolli M, Bougueleret L, Bairoch 
 
 The UniProt Consortium  
 **The Universal Protein Resource (UniProt)**  
-[Nucleic Acids Res. 37:D169-D174 (2009)](http://nar.oxfordjournals.org/content/37/suppl%5F1/D169.long)
+[Nucleic Acids Res. 37:D169-D174 (2009)](http://nar.oxfordjournals.org/content/37/suppl_1/D169.long)
 
 # 2008
 
@@ -328,7 +328,7 @@ Patient S, Wieser D, Kleen M, Kretschmann E, Martin M, Apweiler R.
 
 The UniProt Consortium  
 **The Universal Protein Resource (UniProt)**  
-[Nucleic Acids Res. 36:D190-D195 (2008)](http://nar.oxfordjournals.org/content/36/suppl%5F1/D190.long)
+[Nucleic Acids Res. 36:D190-D195 (2008)](http://nar.oxfordjournals.org/content/36/suppl_1/D190.long)
 
 Yip YL, Famiglietti M, Gos A, Duek PD, David FP, Gateau A, Bairoch A.  
 **Annotating single amino acid polymorphisms in the UniProt/Swiss-Prot knowledgebase**  
@@ -362,7 +362,7 @@ Suzek BE, Huang H, McGarvey P, Mazumder R, Wu CH.
 
 The UniProt Consortium  
 **The Universal Protein Resource (UniProt)**  
-[Nucleic Acids Res. 35:D193-D197 (2007)](http://nar.oxfordjournals.org/content/35/suppl%5F1/D193.long)
+[Nucleic Acids Res. 35:D193-D197 (2007)](http://nar.oxfordjournals.org/content/35/suppl_1/D193.long)
 
 Yip YL, Lachenal N, Pillet V, Veuthey AL.  
 **Retrieving mutation-specific information for human proteins in UniProt/Swiss-Prot Knowledgebase**  
@@ -412,7 +412,7 @@ Whitfield EJ, Pruess M, Apweiler R.
 
 Wu CH, Apweiler R, Bairoch A, Natale DA, Barker WC, Boeckmann B, Ferro S, Gasteiger E, Huang H, Lopez R, Magrane M, Martin MJ, Mazumder R, O'Donovan C, Redaschi N, Suzek B.  
 **The Universal Protein Resource (UniProt): an expanding universe of protein information**  
-[Nucleic Acids Res. 34:D187-D191 (2006)](http://nar.oxfordjournals.org/content/34/suppl%5F1/D187.long)
+[Nucleic Acids Res. 34:D187-D191 (2006)](http://nar.oxfordjournals.org/content/34/suppl_1/D187.long)
 
 Yuan X, Hu ZZ, Wu HT, Torii M, Narayanaswamy M, Ravikumar KE, Vijay-Shanker K, Wu CH.  
 **An online literature mining tool for protein phosphorylation**  

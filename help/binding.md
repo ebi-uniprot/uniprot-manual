@@ -4,7 +4,7 @@ type: help
 categories: Function,manual
 ---
 
-This subsection of the [Function](https://www.uniprot.org/help/function%5Fsection) section describes the interaction between a single amino acid and another chemical entity. Priority is given to the annotation of physiological ligands.
+This subsection of the [Function](https://www.uniprot.org/help/function_section) section describes the interaction between a single amino acid and another chemical entity. Priority is given to the annotation of physiological ligands.
 
 A group of ligand-binding residues that are separated by no more than three residues is shown as a ' [Region](https://www.uniprot.org/help/region) '
 

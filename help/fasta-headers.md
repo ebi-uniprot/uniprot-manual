@@ -13,14 +13,14 @@ The following is a description of FASTA headers for UniProtKB (including alterna
 Where:
 
 -   *db* is 'sp' for UniProtKB/Swiss-Prot and 'tr' for UniProtKB/TrEMBL.
--   *UniqueIdentifier* is the primary [accession number](https://www.uniprot.org/help/accession%5Fnumbers) of the UniProtKB entry.
--   *EntryName* is the [entry name](https://www.uniprot.org/help/entry%5Fname) of the UniProtKB entry.
--   *ProteinName* is the [recommended name](https://www.uniprot.org/help/protein%5Fnames) of the UniProtKB entry as annotated in the `RecName` field. For UniProtKB/TrEMBL entries without a `RecName` field, the `SubName` field is used. In case of multiple `SubNames`, the first one is used. The 'precursor' attribute is excluded, 'Fragment' is included with the name if applicable.
+-   *UniqueIdentifier* is the primary [accession number](https://www.uniprot.org/help/accession_numbers) of the UniProtKB entry.
+-   *EntryName* is the [entry name](https://www.uniprot.org/help/entry_name) of the UniProtKB entry.
+-   *ProteinName* is the [recommended name](https://www.uniprot.org/help/protein_names) of the UniProtKB entry as annotated in the `RecName` field. For UniProtKB/TrEMBL entries without a `RecName` field, the `SubName` field is used. In case of multiple `SubNames`, the first one is used. The 'precursor' attribute is excluded, 'Fragment' is included with the name if applicable.
 -   *OrganismName* is the [scientific name of the organism](https://www.uniprot.org/help/organism-name) of the UniProtKB entry.
--   *OrganismIdentifier* is the [unique identifier of the source organism, assigned by the NCBI](https://www.uniprot.org/help/taxonomic%5Fidentifier).
--   *GeneName* is the first [gene name](https://www.uniprot.org/help/gene%5Fname) of the UniProtKB entry. If there is no gene name, `OrderedLocusName` or `ORFname`, the `GN` field is not listed.
--   *ProteinExistence* is the numerical value describing the [evidence for the existence](https://www.uniprot.org/help/protein%5Fexistence) of the protein.
--   *SequenceVersion* is the [version number](https://www.uniprot.org/help/entry%5Fhistory) of the sequence.
+-   *OrganismIdentifier* is the [unique identifier of the source organism, assigned by the NCBI](https://www.uniprot.org/help/taxonomic_identifier).
+-   *GeneName* is the first [gene name](https://www.uniprot.org/help/gene_name) of the UniProtKB entry. If there is no gene name, `OrderedLocusName` or `ORFname`, the `GN` field is not listed.
+-   *ProteinExistence* is the numerical value describing the [evidence for the existence](https://www.uniprot.org/help/protein_existence) of the protein.
+-   *SequenceVersion* is the [version number](https://www.uniprot.org/help/entry_history) of the sequence.
 
 Examples:
 
@@ -37,7 +37,7 @@ Examples:
 
 Where:
 
--   *IsoID* is the isoform identifier as assigned in the [ALTERNATIVE PRODUCTS](https://www.uniprot.org/help/alternative%5Fproducts) section of the UniProtKB entry.
+-   *IsoID* is the isoform identifier as assigned in the [ALTERNATIVE PRODUCTS](https://www.uniprot.org/help/alternative_products) section of the UniProtKB entry.
 -   *IsoformName* is the isoform name as annotated in the ALTERNATIVE PRODUCTS `Name` field of the UniProtKB entry.
 
 *ProteinExistence* and *SequenceVersion* do not apply to alternative isoforms ( *ProteinExistence* is dependent on the number of cDNA sequences, which is not known for individual isoforms).

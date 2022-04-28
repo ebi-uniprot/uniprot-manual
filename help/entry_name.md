@@ -27,7 +27,7 @@ Examples:
 
 Whenever possible, we assign the same mnemonic code for orthologous proteins (even if the gene name is not the same).
 
-For multigene families, we assign consistent protein name abbreviations and add a numerical discriminator (see for instance [INS\_HUMAN](https://www.uniprot.org/uniprotkb/P01308#entry%5Finformation), [INS1\_MOUSE](https://www.uniprot.org/uniprotkb/P01325#entry%5Finformation) and [INS2\_MOUSE](https://www.uniprot.org/uniprotkb/P01326#entry%5Finformation) ) or a letter (see for instance [CHST9](https://www.uniprot.org/uniprotkb/Q7L1S5#entry%5Finformation), [CHSTA](https://www.uniprot.org/uniprotkb/O43529#entry%5Finformation) and [CHSTB](https://www.uniprot.org/uniprotkb/Q9NPF2#entry%5Finformation) ) at the end of the code.
+For multigene families, we assign consistent protein name abbreviations and add a numerical discriminator (see for instance [INS\_HUMAN](https://www.uniprot.org/uniprotkb/P01308#entry_information), [INS1\_MOUSE](https://www.uniprot.org/uniprotkb/P01325#entry_information) and [INS2\_MOUSE](https://www.uniprot.org/uniprotkb/P01326#entry_information) ) or a letter (see for instance [CHST9](https://www.uniprot.org/uniprotkb/Q7L1S5#entry_information), [CHSTA](https://www.uniprot.org/uniprotkb/O43529#entry_information) and [CHSTB](https://www.uniprot.org/uniprotkb/Q9NPF2#entry_information) ) at the end of the code.
 
 The mnemonic code 'Y' identifies the organism which is the biological source of the protein. It is generally composed of the first three letters of its genus name and the first two letters of its species name.
 
@@ -62,7 +62,7 @@ The names of all the currently defined species identification codes are listed i
 
 The UniProtKB/TrEMBL entry name consists of up to 16 uppercase alphanumeric characters with a naming convention similar to that of UniProtKB/Swiss-Prot, where:
 
--   X is identical to the [accession number](https://www.uniprot.org/help/accession%5Fnumbers) of the entry and consists of 6 or 10 alphanumeric characters;
+-   X is identical to the [accession number](https://www.uniprot.org/help/accession_numbers) of the entry and consists of 6 or 10 alphanumeric characters;
 -   The '\_' sign serves as a separator;
 -   Y is a mnemonic species identification code of at most 5 alphanumeric characters.
 
@@ -81,10 +81,10 @@ The 'virtual' codes are listed in the document [Controlled vocabulary of species
 
 ## Important tip
 
-The entry name is a useful mnemonic means of identifying a sequence, but, unlike the [accession number](https://www.uniprot.org/help/accession%5Fnumbers), it is not a stable identifier. It is sometimes necessary, for reasons of consistency, to change the entry name (for instance to ensure that related entries have similar names or when a UniProtKB/TrEMBL entry is integrated into UniProtKB/Swiss-Prot). We remind users that they should **always use the primary accession number** of an entry in any citation and link since it is the only unique stable identifier for an entry.  
+The entry name is a useful mnemonic means of identifying a sequence, but, unlike the [accession number](https://www.uniprot.org/help/accession_numbers), it is not a stable identifier. It is sometimes necessary, for reasons of consistency, to change the entry name (for instance to ensure that related entries have similar names or when a UniProtKB/TrEMBL entry is integrated into UniProtKB/Swiss-Prot). We remind users that they should **always use the primary accession number** of an entry in any citation and link since it is the only unique stable identifier for an entry.  
 An 'entry name tracker' tool is included in the UniProt website search engine. It allows the tracking of UniProtKB entry names that are no longer in use.
 
 # Related documents
 
 -   [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)  
--   [What is the difference between an accession number (AC) and the entry name?](https://www.uniprot.org/help/difference%5Faccession%5Fentryname)
+-   [What is the difference between an accession number (AC) and the entry name?](https://www.uniprot.org/help/difference_accession_entryname)

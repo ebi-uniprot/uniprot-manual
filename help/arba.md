@@ -4,9 +4,9 @@ type: help
 categories: UniProtKB,Automatic_annotation,help
 ---
 
-UniProt's [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic%5Fannotation) enhances the unreviewed records in UniProtKB by enriching them with automatic classification and annotation.
+UniProt's [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic_annotation) enhances the unreviewed records in UniProtKB by enriching them with automatic classification and annotation.
 
-The Association-Rule-Based Annotator (ARBA) is one of the contributors to this pipeline. It is a multiclass learning system trained on expertly annotated entries in UniProtKB/Swiss-Prot. ARBA uses [rule mining techniques](https://link.springer.com/protocol/10.1007%2F978-1-4939-7027-8%5F12) to generate concise annotation models with the highest representativeness and coverage for annotation, based on the properties of [InterPro](https://www.ebi.ac.uk/interpro) group membership and taxonomy. ARBA employs a data exclusion set that censors data not suitable for computational annotation (such as specific biophysical or chemical properties) and generates human-readable rules for each release.
+The Association-Rule-Based Annotator (ARBA) is one of the contributors to this pipeline. It is a multiclass learning system trained on expertly annotated entries in UniProtKB/Swiss-Prot. ARBA uses [rule mining techniques](https://link.springer.com/protocol/10.1007%2F978-1-4939-7027-8_12) to generate concise annotation models with the highest representativeness and coverage for annotation, based on the properties of [InterPro](https://www.ebi.ac.uk/interpro) group membership and taxonomy. ARBA employs a data exclusion set that censors data not suitable for computational annotation (such as specific biophysical or chemical properties) and generates human-readable rules for each release.
 
 ARBA rules can annotate protein properties such as function, catalytic activity, pathway membership, subcellular location and protein names but feature predictions are currently excluded. Generating rules on-the-fly in this way allows rules to evolve along with the content of UniProtKB with little or no manual intervention. It also provides a constant supply of potential 'seed rules' which can be further developed by the curators into [UniRule](https://www.uniprot.org/help/unirule) rules.
 

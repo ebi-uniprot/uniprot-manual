@@ -8,7 +8,7 @@ Information relevant to diseases associated with a given protein are found in th
 
 You can use three methods to search proteins associated with a given disease.
 
-1\) Search for proteins using the [query builder](https://www.uniprot.org/help/advanced%5Fsearch) :
+1\) Search for proteins using the [query builder](https://www.uniprot.org/help/advanced_search) :
 
 -   Select `Protein Knowledgebase (UniProtKB)` from the dataset dropdown next to the search box
 -   Click **Advanced** to open the query builder
@@ -39,6 +39,6 @@ Note 2: The keyword `'Disease variant'` is used for proteins with at least one d
 
 # See also
 
--   [Involvement in disease](https://www.uniprot.org/help/involvement%5Fin%5Fdisease)
+-   [Involvement in disease](https://www.uniprot.org/help/involvement_in_disease)
 -   [Customize display options](https://www.uniprot.org/help/customize)
--   [UniProtKB advanced search options](https://www.uniprot.org/help/advanced%5Fsearch)
+-   [UniProtKB advanced search options](https://www.uniprot.org/help/advanced_search)
