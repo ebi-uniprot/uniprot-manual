@@ -10,7 +10,7 @@ The [Controlled vocabulary of journals](https://ftp.uniprot.org/pub/databases/un
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of journals](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/jourlist)  
 UniProt web page: [Literature citations](https://www.uniprot.org/citations/)  
-User manual: [References](https://www.uniprot.org/help/references)
+User manual: [References](https://www.uniprot.org/help/publications_section)
 
 [What journal abbreviations are used in UniProtKB?](https://www.uniprot.org/help/journal%5Fabbreviations)  
 [On what basis are literature references inserted in UniProtKB/Swiss-Prot entries?](https://www.uniprot.org/help/literature%5Freferences)
