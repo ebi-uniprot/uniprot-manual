@@ -44,7 +44,7 @@ User manual: [Pathway](https://www.uniprot.org/help/pathway)
 
 # Plasmids
 
-The [Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid) lists the currently valid values for the plasmids cited in the [Encoded on](https://www.uniprot.org/help/encoded_on) subsection of the 'Names and origin' section and in the [Reference](https://www.uniprot.org/help/references) section of UniProtKB/Swiss-Prot entries.
+The [Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid) lists the currently valid values for the plasmids cited in the [Encoded on](https://www.uniprot.org/help/encoded_on) subsection of the 'Names and origin' section and in the [cross-references](https://www.uniprot.org/help/cross_references_section) section of UniProtKB/Swiss-Prot entries.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid)  
 User manual: [Encoded on](https://www.uniprot.org/help/encoded_on)
@@ -68,14 +68,14 @@ UniProt web page: [Taxonomy](https://www.uniprot.org/taxonomy/)
 
 ## Strains
 
-The [Controlled vocabulary of strains](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains) lists the most frequently occurring values for the 'Strain' topic in the [Reference](https://www.uniprot.org/help/references) section of UniProtKB/Swiss-Prot entries.
+The [Controlled vocabulary of strains](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains) lists the most frequently occurring values for the 'Strain' topic in the [cross-references](https://www.uniprot.org/help/cross_references_section) section of UniProtKB/Swiss-Prot entries.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of strains](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains)  
 UniProt web page: [Taxonomy/strains](https://www.uniprot.org/help/taxonomy#strain)
 
 # Tissues
 
-The [Controlled vocabulary of tissues](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/tisslist) lists the currently valid values and their synomym(s) for the tissues cited in the [Reference](https://www.uniprot.org/help/references) section of UniProtKB/Swiss-Prot entries.
+The [Controlled vocabulary of tissues](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/tisslist) lists the currently valid values and their synomym(s) for the tissues cited in the [cross-references](https://www.uniprot.org/help/cross_references_section) section of UniProtKB/Swiss-Prot entries.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of tissues](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/tisslist)
 
