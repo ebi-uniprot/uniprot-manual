@@ -41,9 +41,9 @@ Be sure to take note of the `jobId`. This will be used later to:
 **Limit**|**Details**
 :-----:|:-----:
 100,000|Total number of ids allowed in comma separated param `ids` in `/idmapping/run` api
-500,000|Total number of mapped to ids allowed
-100,000|Total number of mapped to ids allowed to be enriched by UniProt data
-10,000|Total number of mapped to ids allowed with filtering
+500,000|Total number of "mapped to" ids allowed
+100,000|Total number of "mapped to" ids allowed to be enriched by UniProt data
+10,000|Total number of "mapped to" ids allowed with filtering
 
 # Polling the status of a job
 
