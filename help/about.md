@@ -12,7 +12,7 @@ UniProt is a collaboration between the [European Bioinformatics Institute (EMBL-
 
 EMBL-EBI and SIB together used to produce Swiss-Prot and TrEMBL, while PIR produced the Protein Sequence Database (PIR-PSD). These two data sets coexisted with different protein sequence coverage and annotation priorities. TrEMBL (Translated EMBL Nucleotide Sequence Data Library) was originally created because sequence data was being generated at a pace that exceeded Swiss-Prot's ability to keep up. Meanwhile, PIR maintained the PIR-PSD and related databases, including iProClass, a database of protein sequences and curated families. In 2002 the three institutes decided to pool their resources and expertise and formed the UniProt consortium.
 
-The UniProt consortium is headed by [Alex Bateman](https://www.uniprot.org/bateman), [Alan Bridge](https://www.uniprot.org/help/bridge) and [Cathy Wu](http://pir.georgetown.edu/pirwww/aboutpir/wubio.shtml), supported by [key staff](https://www.uniprot.org/help/key_staff), and receives valuable input from an independent [Scientific Advisory Board](https://www.uniprot.org/help/sab).
+The UniProt consortium is headed by [Alex Bateman](https://www.uniprot.org/help/bateman), [Alan Bridge](https://www.uniprot.org/help/bridge) and [Cathy Wu](http://pir.georgetown.edu/pirwww/aboutpir/wubio.shtml), supported by [key staff](https://www.uniprot.org/help/key_staff), and receives valuable input from an independent [Scientific Advisory Board](https://www.uniprot.org/help/sab).
 
 # Funding
 

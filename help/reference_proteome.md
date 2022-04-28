@@ -28,4 +28,4 @@ Our [FTP server](https://www.uniprot.org/downloads) allows to download precomput
 
 [What are proteomes?](https://www.uniprot.org/help/proteome)  
 [Search and browse proteomes](https://www.uniprot.org/proteomes)  
-[List of UniProtKB reference proteomes](https://www.uniprot.org/proteomes/?query=reference:yes)
+[List of UniProtKB reference proteomes](https://www.uniprot.org/proteomes?facets=proteome_type%3A1&query=%2A)

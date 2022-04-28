@@ -54,13 +54,13 @@ header.
 ### UniProtKB inactive entry example:
 > **Request**
 > ```bash
-> curl -X GET "https://rest.uniprot.org/uniprotkb/accession/Q00015" -H "accept: application/json"
+> curl -X GET "https://rest.uniprot.org/uniprotkb/Q00015" -H "accept: application/json"
 > ```
 > **Response Headers**
 > ```bash
 >  HTTP/1.1 303
 >  content-type: application/json 
->  Location: /uniprot/beta/api/uniprotkb/accession/P23141
+>  Location: /uniprotkb/P23141?from=Q00015
 >  x-release-date: 25-July-2021 
 >  x-release-number: 2021_03 
 >  ...
@@ -142,7 +142,7 @@ This response header indicates the current UniProt data release number.
 > ```
 
 # x-total-records
-This response header indicates the number of entities found in your search. See more details in the [Paginating results](https://www.uniprot.org/help/rest-pagination) 
+This response header indicates the number of entities found in your search. See more details in the [Paginating results](https://www.uniprot.org/help/pagination) 
 help page.
 
 > ```bash
@@ -150,7 +150,7 @@ help page.
 > ```
 
 # link
-This response header indicates the URL link to the next page of entities. See more details in the [Paginating results](https://www.uniprot.org/help/rest-pagination) 
+This response header indicates the URL link to the next page of entities. See more details in the [Paginating results](https://www.uniprot.org/help/pagination) 
 help page.
 
 > ```bash
