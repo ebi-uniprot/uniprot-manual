@@ -23,7 +23,7 @@ Click on "Advanced" and select "Catalytic activity" under "Function". When start
     an N-acylsphing-4-enine + H2O = a fatty acid + sphing-4-enine
 
 All proteins annotated to catalyze this reaction in UniProtKB can be retrieved with this query:  
-[annotation:(type:"catalytic activity" rhea:20856)](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22+RHEA%3A20856%29&sort=score)
+[annotation:(type:"catalytic activity" rhea:20856)](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+RHEA%3A20856%29&sort=score)
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chem_rhea.png)
 
@@ -35,7 +35,7 @@ To retrieve entries catalyzing reactions involving sugars, it is possible to use
 
 To retrieve all entries catalyzing reactions involving any monosaccharide, it is also possible to search with the high-level term "monosaccharide":
 
-[annotation:(type:"catalytic activity" chebi:"monosaccharide \[35381\]")](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22+CHEBI%3A35381%29)
+[annotation:(type:"catalytic activity" chebi:"monosaccharide \[35381\]")](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+CHEBI%3A35381%29)
 
 # Chemical structure search with InChIKey
 
@@ -57,13 +57,13 @@ WQZGKKKJIJFFOK-GASJEMHNSA-N is the InChIKey for [CHEBI:4167](https://www.ebi.ac.
 
 e.g. [WQZGKKKJIJFFOK-GASJEMHNSA](https://www.ebi.ac.uk/chebi/advancedSearchFT.do?searchString=WQZGKKKJIJFFOK-GASJEMHNSA)
 
-[annotation:(type:"catalytic activity" inchikey:WQZGKKKJIJFFOK-GASJEMHNSA)](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22+inchikey%3AWQZGKKKJIJFFOK-GASJEMHNSA%29)
+[annotation:(type:"catalytic activity" inchikey:WQZGKKKJIJFFOK-GASJEMHNSA)](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+inchikey%3AWQZGKKKJIJFFOK-GASJEMHNSA%29)
 
 ### Partial InChIKey for the molecular skeleton (connectivity)
 
 a 14-character hash encoding the basic (Mobile-H) InChI layer, e.g. [WQZGKKKJIJFFOK](https://www.ebi.ac.uk/chebi/advancedSearchFT.do?searchString=WQZGKKKJIJFFOK)
 
-[annotation:(type:"catalytic activity" inchikey:WQZGKKKJIJFFOK)](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22+inchikey%3AWQZGKKKJIJFFOK%29)
+[annotation:(type:"catalytic activity" inchikey:WQZGKKKJIJFFOK)](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+inchikey%3AWQZGKKKJIJFFOK%29)
 
 # Search for a compound not present in ChEBI, or with a word from a free text reaction description
 
@@ -72,10 +72,10 @@ Historically, UniProt has followed the recommendations of the Nomenclature Commi
 When searching with a compound name that is not in ChEBI but part of a reaction sourced from IUBMB, or with a word from a free text reaction description, a full text search instead of an identifier search is performed in catalytic activity annotation. Since IUBMB does not use ChEBI or any other ontology, there is no autocompletion in this case, and no hierarchical relationships (such as is_a) can be taken into account.
 
 Example:  
-[annotation:(type:"catalytic activity" PretRNA)](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22+PretRNA%29)
+[annotation:(type:"catalytic activity" PretRNA)](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+PretRNA%29)
 
 The following query returns all entries that have a catalytic activity annotated that is not sourced from Rhea but from IUBMB:  
-[annotation:(type:"catalytic activity") NOT annotation:(type:"catalytic activity "rhea:\*)](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22%29+NOT+annotation%3A%28type%3A%22catalytic+activity%22+rhea%3A%2A%29)
+[annotation:(type:"catalytic activity") NOT annotation:(type:"catalytic activity "rhea:\*)](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22%29+NOT+annotation%3A%28type%3A%22catalytic+activity%22+rhea%3A%2A%29)
 
 # Search for small molecules, using ChEBI (not restricted to catalytical activity)
 
@@ -84,9 +84,9 @@ The ChEBI (Chemical Entities of Biological Interest) ontology is used in "Cataly
 Example biotin ( [ChEBI:57586](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57586) ) :
 
 Biotin in "Small molecule":  
-[reviewed:true AND chebi:"biotin\[57586\]"](https://www.uniprot.org/uniprotkb/?query=chebi%3A%22biotin+%5B57586%5D%22+reviewed%3Atrue)  
+[reviewed:true AND chebi:"biotin\[57586\]"](https://www.uniprot.org/uniprotkb?query=chebi%3A%22biotin+%5B57586%5D%22+reviewed%3Atrue)  
 Biotin in "Catalytic activity":  
-[reviewed:true AND annotation:(type:"catalytic activity" chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb/?query=annotation%3A%28type%3A%22catalytic+activity%22+CHEBI%3A57586%29+reviewed%3Atrue)
+[reviewed:true AND annotation:(type:"catalytic activity" chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+CHEBI%3A57586%29+reviewed%3Atrue)
 
 Biotin in "Cofactor":  
-[reviewed:true AND cofactor:(chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb/?query=cofactor%3A%28chebi%3A%22biotin+%5B57586%5D%22%29+reviewed%3Atrue)
+[reviewed:true AND cofactor:(chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb?query=cofactor%3A%28chebi%3A%22biotin+%5B57586%5D%22%29+reviewed%3Atrue)

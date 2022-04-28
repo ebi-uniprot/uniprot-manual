@@ -12,6 +12,6 @@ Each venom protein is annotated according to the quality standards of UniProtKB/
 
 Since protein toxins are relatively short and undergo extensive post-translational modifications, they are, more often than not, studied at the protein level. Hence, about 60% of the proteins are directly sequenced at the protein level and not exclusively translated from nucleotide sequences.
 
-- All manually reviewed toxins can be found [here](https://www.uniprot.org/uniprotkb/?query=taxonomy%3Ametazoa+AND+keyword%3Atoxin+AND+reviewed%3Atrue)
-- All manually reviewed venom proteins can be found [here](https://www.uniprot.org/uniprotkb/?query=taxonomy%3A%22Metazoa+%5B33208%5D%22+annotation%3A%28type%3A%22tissue+specificity%22+venom%29+reviewed%3Atrue)
-- All manually reviewed venom proteins and toxins can be found [here](<https://www.uniprot.org/uniprotkb/?query=taxonomy%3A%22Metazoa+%5B33208%5D%22+and+(keyword%3Atoxin+OR+annotation%3A(type%3A%22tissue+specificity%22+venom))+AND+reviewed%3Atrue>)
+- All manually reviewed toxins can be found [here](https://www.uniprot.org/uniprotkb?query=taxonomy%3Ametazoa+AND+keyword%3Atoxin+AND+reviewed%3Atrue)
+- All manually reviewed venom proteins can be found [here](https://www.uniprot.org/uniprotkb?query=taxonomy%3A%22Metazoa+%5B33208%5D%22+annotation%3A%28type%3A%22tissue+specificity%22+venom%29+reviewed%3Atrue)
+- All manually reviewed venom proteins and toxins can be found [here](<https://www.uniprot.org/uniprotkb?query=taxonomy%3A%22Metazoa+%5B33208%5D%22+and+(keyword%3Atoxin+OR+annotation%3A(type%3A%22tissue+specificity%22+venom))+AND+reviewed%3Atrue>)

@@ -18,7 +18,7 @@ The sequence displayed by default in the entry (also called the canonical sequen
 Most naturally occurring variants are due to a single nucleotide change (SNP) at the codon level. When a variant results from more than one nucleotide change, it is indicated in the 'Description' field.  
 Example: [Q96CV9](https://www.uniprot.org/uniprotkb/Q96CV9#sequences)
 
-Validated human variants from the NCBI [dbSNP](https://www.uniprot.org/www.ncbi.nlm.nih.gov/projects/SNP/) database are annotated and tagged with the dbSNP identifier in the 'Description' field.  
+Validated human variants from the NCBI [dbSNP](https://www.ncbi.nlm.nih.gov/projects/SNP/) database are annotated and tagged with the dbSNP identifier in the 'Description' field.  
 Examples: [P15516](https://www.uniprot.org/uniprotkb/P15516#sequences), [O43593](https://www.uniprot.org/uniprotkb/O43593#sequences)
 
 Additional information, such as the cell type or tissue of origin of the variant, the distribution or the frequency of the allele in a given population, is indicated in the 'Description' field, when available.  

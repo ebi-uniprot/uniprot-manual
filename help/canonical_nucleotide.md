@@ -16,7 +16,7 @@ In most cases, in the absence of annotation of 'Sequence conflict', 'Variant', '
 
 There are some exceptions. Some entries may display a full-length protein sequence, while the available nucleic acid sequences are only fragments. In this case, the manual annotation process comes into the picture: by combining the sequences of submitted fragmentary CDS and/or of the genomic sequence, taking into account the similarity with orthologous proteins (in a closely related species), one can predict the full-length protein sequence.
 
-In addition, some [entries](https://www.uniprot.org/uniprotkb/?query=reviewed:true+keyword:KW-0903+NOT+database:embl) exclusively contain protein sequence data resulting from direct protein sequencing and thus do not have cross-references to any nucleic acid sequence.
+In addition, some [entries](https://www.uniprot.org/uniprotkb?query=reviewed:true+keyword:KW-0903+NOT+database:embl) exclusively contain protein sequence data resulting from direct protein sequencing and thus do not have cross-references to any nucleic acid sequence.
 
 # How do I get the nucleotide sequence that corresponds to the UniProtKB alternative sequences?
 

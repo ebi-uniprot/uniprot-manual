@@ -48,14 +48,14 @@ ORF names are not propagated across species.
 
 ## Important remarks
 
--   The scope of the data that we represent in the 'Gene names' subsection is wider than the classical geneticists' gene name since it also includes 'Ordered locus names' and 'ORF names'.
+- The scope of the data that we represent in the 'Gene names' subsection is wider than the classical geneticists' gene name since it also includes 'Ordered locus names' and 'ORF names'.
 
--   Some life sciences communities prefer to use the terminology 'gene symbol' rather than 'gene name'.
+- Some life sciences communities prefer to use the terminology 'gene symbol' rather than 'gene name'.
 
--   None of the above four subsections is mandatory, so that the 'Synonyms' subsection is present only if there is a 'Name' subsection.
+- None of the above four subsections is mandatory, so that the 'Synonyms' subsection is present only if there is a 'Name' subsection.
 
--   In names and synonyms, we do not keep the prefix indicating the species of origin, although these are sometimes used in publications.  
-    Examples: Xbcl2 (for *Xenopus laevis* bcl2), HsARG1 (for *Homo sapiens* ARG1).
+- In names and synonyms, we do not keep the prefix indicating the species of origin, although these are sometimes used in publications.  
+  Examples: Xbcl2 (for _Xenopus laevis_ bcl2), HsARG1 (for _Homo sapiens_ ARG1).
 
--   It can happen that multiple genes can be translated to produce identical proteins in one species. In such cases, all gene products were historically often merged into a single UniProtKB entry and there are as many 'Name' tokens in the 'Gene names' subsection as the number of genes encoding the protein of interest, e.g. [P68431](https://www.uniprot.org/uniprotkb/P68431#names_and_taxonomy).  
-    However, we tend to demerge many of these entries, and for newly annotated proteins we generate separate sequence entries in case of multiple genes coding for identical protein sequences, e.g. [P08409](https://www.uniprot.org/uniprotkb/?query=replaces:P08409).
+- It can happen that multiple genes can be translated to produce identical proteins in one species. In such cases, all gene products were historically often merged into a single UniProtKB entry and there are as many 'Name' tokens in the 'Gene names' subsection as the number of genes encoding the protein of interest, e.g. [P68431](https://www.uniprot.org/uniprotkb/P68431#names_and_taxonomy).  
+  However, we tend to demerge many of these entries, and for newly annotated proteins we generate separate sequence entries in case of multiple genes coding for identical protein sequences, e.g. [P08409](https://www.uniprot.org/uniprotkb?query=replaces:P08409).

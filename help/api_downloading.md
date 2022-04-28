@@ -15,7 +15,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-
 
         my $taxon = $ARGV[0]; # Taxonomy identifier of organism.
 
-        my $query = "https://www.uniprot.org/uniprot/?query=organism:$taxon&format=fasta";
+        my $query = "https://rest.uniprot.org/uniprotkb/search?query=organism:$taxon&format=fasta";
         my $file = $taxon . '.fasta';
 
         my $contact = ''; # Please set a contact email address here to help us debug in case of problems (see https://www.uniprot.org/help/privacy).
@@ -51,7 +51,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-
         my $agent = LWP::UserAgent->new;
 
         # Get a list of all reference proteomes of organisms below the given taxonomy node.
-        my $query_list = "https://www.uniprot.org/proteomes/?query=reference:yes+taxonomy:$top_node&format=list";
+        my $query_list = "https://rest.uniprot.org/proteomes/search?query=reference:yes+taxonomy:$top_node&format=list";
         my $response_list = $agent->get($query_list);
         die 'Failed, got ' . $response_list->status_line .
           ' for ' . $response_list->request->uri . "\n"
@@ -60,7 +60,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-
         # For each proteome, mirror its set of UniProt entries in compressed FASTA format.
         for my $proteome (split(/\n/, $response_list->content)) {
           my $file = $proteome . '.fasta.gz';
-          my $query_proteome = "https://www.uniprot.org/uniprot/?query=proteome:$proteome&format=fasta&compress=yes";
+          my $query_proteome = "https://rest.uniprot.org/uniprotkb/search?query=proteome:$proteome&format=fasta&compress=yes";
           my $response_proteome = $agent->mirror($query_proteome, $file);
 
           if ($response_proteome->is_success) {
@@ -101,11 +101,11 @@ If you would like to record the UniProt release number and/or date of the data w
         ' for ' . $response->request->uri . "\n";
     }
 
--   `X-UniProt-Release:` contains the UniProt release number, e.g. `2010_08`
--   `Last-Modified:` contains the UniProt release date, e.g. `Tue, 13 Jul 2010 00:00:00 GMT`
+- `X-UniProt-Release:` contains the UniProt release number, e.g. `2010_08`
+- `Last-Modified:` contains the UniProt release date, e.g. `Tue, 13 Jul 2010 00:00:00 GMT`
 
 # See also
 
--   [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
--   \- batch retrieval, ID mapping, queries, downloads, etc
--   [How can I (programmatically) obtain the number of results returned by my query?](https://www.uniprot.org/help/entry_count)
+- [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
+- \- batch retrieval, ID mapping, queries, downloads, etc
+- [How can I (programmatically) obtain the number of results returned by my query?](https://www.uniprot.org/help/entry_count)

@@ -61,7 +61,7 @@ UniProtKB/Swiss-Prot document: [Controlled vocabulary of posttranslational modif
 
 ## Species
 
-The [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist) contains two sublists: the *Real organism codes*, which are used in both UniProtKB/Swiss-Prot and UniProtKB/TrEMBL and which correspond to a specific and specified organism; the *Virtual organism codes* that regroup organisms at a certain taxonomic level. They generally correspond to a 'pool' of organisms and are used only in UniProtKB/TrEMBL.
+The [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist) contains two sublists: the _Real organism codes_, which are used in both UniProtKB/Swiss-Prot and UniProtKB/TrEMBL and which correspond to a specific and specified organism; the _Virtual organism codes_ that regroup organisms at a certain taxonomic level. They generally correspond to a 'pool' of organisms and are used only in UniProtKB/TrEMBL.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)  
 UniProt web page: [Taxonomy](https://www.uniprot.org/taxonomy/)
@@ -86,7 +86,7 @@ The [Controlled vocabulary of human diseases](https://ftp.uniprot.org/pub/databa
 UniProt web page: [Human diseases](https://www.uniprot.org/diseases/)  
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of human diseases](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humdisease)  
 Related keyword: [Disease variant](https://www.uniprot.org/keywords/KW-0225)  
-Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the OMIM database](https://www.uniprot.org/uniprotkb/?query=database%3Amim)
+Relevant UniProtKB/Swiss-Prot entries [cross-referenced to the OMIM database](https://www.uniprot.org/uniprotkb?query=database%3Amim)
 
 [How can I get all the proteins involved in a given disease?](https://www.uniprot.org/help/disease_query)  
 [How can I get medical advice from UniProtKB?](https://www.uniprot.org/help/medical_advice)
