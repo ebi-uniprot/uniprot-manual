@@ -29,4 +29,4 @@ Using the query builder:
 - Enter **value** : `*`
 - Click **Search**
 - Depending on your interests, choose amongst the following: Show only `reviewed` (UniProtKB/Swiss-Prot) or `unreviewed` (UniProtKB/TrEMBL) entries
-- **[result (reviewed entries only)](https://www.uniprot.org/uniprotkb?query=(cc_mass_spectrometry:*)%20AND%20(reviewed:true))**
+- **[Result (reviewed entries only)](https://www.uniprot.org/uniprotkb?query=(cc_mass_spectrometry:*)%20AND%20(reviewed:true))**
