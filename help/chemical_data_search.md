@@ -41,7 +41,7 @@ To retrieve all entries catalyzing reactions involving any monosaccharide, it is
 
 You can search UniProtKB for small molecule reaction participants and cofactors using the InChIKey, a standard hashed representation of the IUPAC International Chemical Identifier ( [InChI](https://www.inchi-trust.org/about-the-inchi-standard/) ) that provides a unique and compact representation of chemical structure data. Flexible chemical structure searches are possible with the complete InChIKey, as well as with the connectivity and stereochemistry layers, or the connectivity layer alone. You can search our "Catalytic activity" or "Cofactor" annotations, or both combined, by using the "Small molecule" advanced search field:
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chem_data_2a.png)
+![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/inchikey-field-search.png)
 
 ## Chemical structure search with a complete InChIKey
 
