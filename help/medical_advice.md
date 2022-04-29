@@ -20,6 +20,5 @@ In addition, the following sites may be of help as they offer a variety of links
 
 -   [HON - The Health On the Net foundation server](http://www.hon.ch/)
 -   [MedicineNet - Medical Reference Site](http://www.medicinenet.com/)
--   [MedSite Navigator - Medical and Biotech site](http://www.medsitenavigator.com/)
 -   [Medline Plus: NLM list of resources for health questions](http://medlineplus.nlm.nih.gov/medlineplus/)
 -   [The Medical Reference Resource Library](http://www.guidetohealthcareschools.com/library/medical-reference)
