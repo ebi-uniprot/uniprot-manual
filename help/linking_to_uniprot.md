@@ -41,7 +41,9 @@ The following `format` values are valid:
     fasta  = fasta format
     rdf    = rdf format
     gff    = gff format (*)
-    tab    = tab-separated format (**)
+    tsv    = tab-separated format (**)
+    xlsx   = Excel format
+    json   = JSON format
 
 `(*)` = not available for UniRef or UniParc
 
