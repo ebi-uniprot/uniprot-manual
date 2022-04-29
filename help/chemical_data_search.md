@@ -23,7 +23,7 @@ Click on "Advanced" and select "Catalytic activity" under "Function". When start
     an N-acylsphing-4-enine + H2O = a fatty acid + sphing-4-enine
 
 All proteins annotated to catalyze this reaction in UniProtKB can be retrieved with this query:  
-[annotation:(type:"catalytic activity" rhea:20856)](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+RHEA%3A20856%29&sort=score)
+[(cc_catalytic_activity:"CHEBI:35381")](https://www.uniprot.org/uniprotkb?query=(cc_catalytic_activity:%22rhea:20856%22))
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chem_rhea.png)
 
@@ -35,7 +35,7 @@ To retrieve entries catalyzing reactions involving sugars, it is possible to use
 
 To retrieve all entries catalyzing reactions involving any monosaccharide, it is also possible to search with the high-level term "monosaccharide":
 
-[annotation:(type:"catalytic activity" chebi:"monosaccharide \[35381\]")](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+CHEBI%3A35381%29)
+[annotation:(type:"catalytic activity" chebi:"monosaccharide \[35381\]")](https://www.uniprot.org/uniprotkb?query=(cc_catalytic_activity:%22CHEBI:35381%22))
 
 # Chemical structure search with InChIKey
 
