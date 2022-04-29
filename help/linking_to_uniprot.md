@@ -49,13 +49,13 @@ The following `format` values are valid:
 
 Examples:
 
-- [https://www.uniprot.org/uniprotkb/P99999.txt](https://www.uniprot.org/uniprotkb/P99999.txt)
-- [https://www.uniprot.org/uniref/UniRef100_P99999.xml](https://www.uniprot.org/uniref/UniRef100_P99999.xml)
-- [https://www.uniprot.org/uniprotkb/P99999.fasta](https://www.uniprot.org/uniprotkb/P99999.fasta)
-- <https://www.uniprot.org/uniparc/UPI00000002E4.rdf>
-- [https://www.uniprot.org/uniprotkb/P99999.gff](https://www.uniprot.org/uniprotkb/P99999.gff)
-- [https://www.uniprot.org/uniref/UniRef100_P99999.tab](https://www.uniprot.org/uniref/UniRef100_P99999.tab)
-- <https://www.uniprot.org/uniparc/UPI00000002E4.tab>
+- [https://rest.uniprot.org/uniprotkb/P99999.txt](https://rest.uniprot.org/uniprotkb/P99999.txt)
+- [https://rest.uniprot.org/uniref/UniRef100_P99999.xml](https://rest.uniprot.org/uniref/UniRef100_P99999.xml)
+- [https://rest.uniprot.org/uniprotkb/P99999.fasta](https://rest.uniprot.org/uniprotkb/P99999.fasta)
+- [https://rest.uniprot.org/uniparc/UPI00000002E4.rdf](https://rest.uniprot.org/uniparc/UPI00000002E4.rdf)
+- [https://rest.uniprot.org/uniprotkb/P99999.gff](https://rest.uniprot.org/uniprotkb/P99999.gff)
+- [https://rest.uniprot.org/uniref/UniRef100_P99999.tsv](https://rest.uniprot.org/uniref/UniRef100_P99999.tsv)
+- [https://rest.uniprot.org/uniparc/UPI00000002E4.tsv](https://rest.uniprot.org/uniparc/UPI00000002E4.tsv)
 
 Note that all individual records and queries are accessible using simple URLs (REST). All pages (in particular query results) can therefore be bookmarked and linked. Example: [https://www.uniprot.org/uniprotkb?query=gene:at2g37710](https://www.uniprot.org/uniprotkb?query=gene:at2g37710)
 
