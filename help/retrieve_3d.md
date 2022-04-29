@@ -8,7 +8,7 @@ categories: UniProtKB,3D_structure,Text_search,faq
 
 Using the query builder:
 
-- Click **Advanced Search »** to open the query builder
+- Click **Advanced** in the search bar to open the query builder
 - Select **Searching in** : `UniProtKB`
 - Click the field dropdown and type in : `PDB`
 - Select `Cross-references / 3D structure databases / PDB`
@@ -22,7 +22,7 @@ Other methods: Model, X-ray, NMR, Neutron (Neutron diffraction), Fiber (Fiber di
 
 Using the query builder:
 
-- Click **Advanced Search »** to open the query builder
+- Click **Advanced** in the search bar to open the query builder
 - Select **Searching in** : `UniProtKB`
 - Click the field dropdown and type in : `Spectrometry`
 - Select `Sequence / Mass Spectrometry`
