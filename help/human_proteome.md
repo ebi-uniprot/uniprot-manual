@@ -39,11 +39,11 @@ You can retrieve:
 
 Note: Some of the human entries in UniProtKB/Swiss-Prot are not included in the proteome because their protein sequences do not map to the reference genome:
 
-- Query: [organism_id:9606 AND reviewed:true NOT proteome:up000005640](https://www.uniprot.org/uniprotkb?query=organism%3A9606+AND+reviewed%3Atrue+NOT+proteome%3Aup000005640)
+- Query: [organism_id:9606 AND reviewed:true NOT proteome:up000005640](https://www.uniprot.org/uniprotkb?query=organism_id%3A9606+AND+reviewed%3Atrue+NOT+proteome%3Aup000005640)
 
 2\) <u>additional manually reviewed isoform sequences</u> produced by the protein-coding genes described in UniProtKB/Swiss-Prot. There are currently around 22,000 such additional isoform sequences. These are **downloadable in FASTA format** together with the canonical sequences, if you click on "Download" and then select 'FASTA (canonical and isoform)':
 
-- Query: [proteome:up000005640 AND reviewed:true](https://www.uniprot.org/uniprotkb?query=proteome:up000005640+AND+reviewed:true&format=fasta&include=yes)
+- Query: [proteome:up000005640 AND reviewed:true](https://rest.uniprot.org/uniprotkb/stream?format=fasta&includeIsoform=true&query=organism_id%3A9606%20AND%20reviewed%3Atrue%20NOT%20proteome%3Aup000005640)
 
 3\) <u>additional predicted and unreviewed sequences in UniProtKB/TrEMBL</u>, flagged to be part of the proteome, which may correspond to novel isoform sequences for genes present in UniProtKB/Swiss-Prot (derived from the Ensembl pipeline):
 
@@ -51,7 +51,7 @@ Note: Some of the human entries in UniProtKB/Swiss-Prot are not included in the 
 
 Note: Additional human sequences in UniProtKB/TrEMBL are not flagged to be part of the proteome. The vast majority of these additional UniProtKB/TrEMBL entries contain sequences which are not identical to any isoform sequences predicted by Ensembl. They might represent other alternative isoforms. The system is not perfect, but it is the best we can provide for the time being.
 
-- Query: [organism_id:9606 AND reviewed:false NOT proteome:up000005640](https://www.uniprot.org/uniprotkb?query=organism%3A9606+AND+reviewed%3Afalse+NOT+proteome:up000005640)
+- Query: [organism_id:9606 AND reviewed:false NOT proteome:up000005640](https://www.uniprot.org/uniprotkb?query=organism_id%3A9606+AND+reviewed%3Afalse+NOT+proteome:up000005640)
 
 # See also
 
