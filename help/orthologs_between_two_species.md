@@ -6,11 +6,11 @@ categories: UniProtKB,Text_search,Cross-references,Taxonomy,faq
 
 There are no such ready-made files available from UniProt, but a number of phylogenomic databases exist which may be in a better position to answer this question. There is quite a useful [thread on the BioStars website.](http://www.biostars.org/p/7568/)
 
-If you want to use UniProtKB, you should first find out which of the [phylogenomic databases cross-referenced by UniProtKB](https://www.uniprot.org/database/?query=category:%22Phylogenomic+databases%22) provides the best coverage for your organisms.
+If you want to use UniProtKB, you should first find out which of the [phylogenomic databases cross-referenced by UniProtKB](https://beta.uniprot.org/database?facets=category_exact%3APhylogenomic%20databases&query=%2A) provides the best coverage for your organisms.
 
 Once you have selected such a database, e.g. OrthoDB, you can include it in a query that allows you to retrieve all entries from Xenopus laevis and all human Swiss-Prot entries with a cross-reference to the phylogenomic database OrthoDB:
 
-Query: [(organism:"xenopus laevis" or (organism:"homo sapiens" and reviewed:true)) and database:(type:orthodb)](https://www.uniprot.org/uniprotkb?query=%28organism%3a%22xenopus+laevis%22+or+%28organism%3a%22homo+sapiens%22+and+reviewed%3Atrue%29+%29+and+database%3a%28type%3aorthodb%29)
+Query: [((organism_id:8355) OR ((organism_id:9606) AND (reviewed:true))) AND (database:orthodb)](https://www.uniprot.org/uniprotkb?query=%28%28organism_id%3A8355%29%20OR%20%28%28organism_id%3A9606%29%20AND%20%28reviewed%3Atrue%29%29%29%20AND%20%28database%3Aorthodb%29)
 
 Note: To be even more exact, we recommend to use the taxonomy identifiers instead of organism names (e.g. organism_id:9606).
 
