@@ -24,6 +24,8 @@ https://www.uniprot.org/uniprotkb?query=human&columns=id,proteome
 
 The `Label` is the readable name of the returned field. The `Label` is shown on the website/TSV or in Excel format.
 
+Previous refers to UniProt pre 2022-05.
+
 # Names & Taxonomy
 
 |         **Label**          | **Previous Returned Field** | **Current Returned Field** |
