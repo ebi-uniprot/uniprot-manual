@@ -83,7 +83,9 @@ The ChEBI (Chemical Entities of Biological Interest) ontology is used in "Cataly
 
 Example biotin ( [ChEBI:57586](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57586) ) :
 
-Biotin in "Small molecule": [(chebi:"CHEBI:57586") AND (reviewed:true)](https://www.uniprot.org/uniprotkb?query=(chebi:%22CHEBI:57586%22)%20AND%20(reviewed:true))  
-Biotin in "Catalytic activity": [(cc_cofactor_chebi:"CHEBI:57586") AND (reviewed:true)](https://wwww.uniprot.org/uniprotkb?query=(cc_cofactor_chebi:%22CHEBI:57586%22)%20AND%20(reviewed:true))
-
-Biotin in "Cofactor": [cc_cofactor_chebi](https://www.uniprot.org/uniprotkb?query=(cc_cofactor_chebi:%22CHEBI:57586%22)%20AND%20(reviewed:true))
+- Biotin in "Small molecule":  
+[(chebi:"CHEBI:57586") AND (reviewed:true)](https://www.uniprot.org/uniprotkb?query=(chebi:%22CHEBI:57586%22)%20AND%20(reviewed:true))
+- Biotin in "Catalytic activity":  
+[(cc_cofactor_chebi:"CHEBI:57586") AND (reviewed:true)](https://wwww.uniprot.org/uniprotkb?query=(cc_cofactor_chebi:%22CHEBI:57586%22)%20AND%20(reviewed:true))
+- Biotin in "Cofactor":  
+[cc_cofactor_chebi](https://www.uniprot.org/uniprotkb?query=(cc_cofactor_chebi:%22CHEBI:57586%22)%20AND%20(reviewed:true))
