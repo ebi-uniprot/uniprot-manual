@@ -57,13 +57,13 @@ WQZGKKKJIJFFOK-GASJEMHNSA-N is the InChIKey for [CHEBI:4167](https://www.ebi.ac.
 
 e.g. [WQZGKKKJIJFFOK-GASJEMHNSA](https://www.ebi.ac.uk/chebi/advancedSearchFT.do?searchString=WQZGKKKJIJFFOK-GASJEMHNSA)
 
-[annotation:(type:"catalytic activity" inchikey:WQZGKKKJIJFFOK-GASJEMHNSA)](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+inchikey%3AWQZGKKKJIJFFOK-GASJEMHNSA%29)
+[(inchikey:WQZGKKKJIJFFOK-GASJEMHNSA)](https://www.uniprot.org/uniprotkb?query=(inchikey:WQZGKKKJIJFFOK-GASJEMHNSA))
 
 ### Partial InChIKey for the molecular skeleton (connectivity)
 
 a 14-character hash encoding the basic (Mobile-H) InChI layer, e.g. [WQZGKKKJIJFFOK](https://www.ebi.ac.uk/chebi/advancedSearchFT.do?searchString=WQZGKKKJIJFFOK)
 
-[annotation:(type:"catalytic activity" inchikey:WQZGKKKJIJFFOK)](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+inchikey%3AWQZGKKKJIJFFOK%29)
+[(inchikey:WQZGKKKJIJFFOK)](https://www.uniprot.org/uniprotkb?query=(inchikey:WQZGKKKJIJFFOK))
 
 # Search for a compound not present in ChEBI, or with a word from a free text reaction description
 
@@ -72,10 +72,10 @@ Historically, UniProt has followed the recommendations of the Nomenclature Commi
 When searching with a compound name that is not in ChEBI but part of a reaction sourced from IUBMB, or with a word from a free text reaction description, a full text search instead of an identifier search is performed in catalytic activity annotation. Since IUBMB does not use ChEBI or any other ontology, there is no autocompletion in this case, and no hierarchical relationships (such as is_a) can be taken into account.
 
 Example:  
-[annotation:(type:"catalytic activity" PretRNA)](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+PretRNA%29)
+[(cc_catalytic_activity:PretRNA)](https://www.uniprot.org/uniprotkb?query=(cc_catalytic_activity:PretRNA))
 
 The following query returns all entries that have a catalytic activity annotated that is not sourced from Rhea but from IUBMB:  
-[annotation:(type:"catalytic activity") NOT annotation:(type:"catalytic activity "rhea:\*)](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22%29+NOT+annotation%3A%28type%3A%22catalytic+activity%22+rhea%3A%2A%29)
+[(cc_catalytic_activity:\*) NOT (cc_catalytic_activity:"rhea:\*")](https://www.uniprot.org/uniprotkb?query=(cc_catalytic_activity:*)%20NOT%20(cc_catalytic_activity:%22rhea:*%22))
 
 # Search for small molecules, using ChEBI (not restricted to catalytical activity)
 
