@@ -35,7 +35,7 @@ UniProt web page: [Subcellular locations](https://www.uniprot.org/locations/)
 
 # Pathways
 
-The [Controlled vocabulary of metabolic pathways](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pathlist) lists the UniProtKB controlled vocabulary used for the subsection 'Pathway' of the 'Function' section. It provides definitions of the terms as well as other relevant information for [UniPathway](http://www.unipathway.org/) concepts (pathway, sub-pathway, enzymatic reaction (step))
+The [Controlled vocabulary of metabolic pathways](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pathlist) lists the UniProtKB controlled vocabulary used for the subsection 'Pathway' of the 'Function' section. It provides definitions of the terms as well as other relevant information for UniPathway concepts (pathway, sub-pathway, enzymatic reaction (step))
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of metabolic pathways](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pathlist)  
 UniProtKB/Swiss-Prot document: [Index of metabolic and biosynthesis pathways](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pathway)
