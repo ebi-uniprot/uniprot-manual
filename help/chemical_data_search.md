@@ -23,7 +23,7 @@ Click on "Advanced" and select "Catalytic activity" under "Function". When start
     an N-acylsphing-4-enine + H2O = a fatty acid + sphing-4-enine
 
 All proteins annotated to catalyze this reaction in UniProtKB can be retrieved with this query:  
-[(cc_catalytic_activity:"CHEBI:35381")](https://www.uniprot.org/uniprotkb?query=(cc_catalytic_activity:%22rhea:20856%22))
+[(cc_catalytic_activity:"Rhea:20856")](https://www.uniprot.org/uniprotkb?query=(cc_catalytic_activity:%22rhea:20856%22))
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chem_rhea.png)
 
