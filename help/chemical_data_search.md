@@ -31,7 +31,7 @@ All proteins annotated to catalyze this reaction in UniProtKB can be retrieved w
 
 To retrieve entries catalyzing reactions involving sugars, it is possible to use the auto-completion functionality, e.g. with the word "sugar".
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chem_data_1a.png)
+![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/catalytic_activity_sugar.png)
 
 To retrieve all entries catalyzing reactions involving any monosaccharide, it is also possible to search with the high-level term "monosaccharide":
 
@@ -47,9 +47,9 @@ You can search UniProtKB for small molecule reaction participants and cofactors 
 
 WQZGKKKJIJFFOK-GASJEMHNSA-N is the InChIKey for [CHEBI:4167](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:4167) - D-glucopyranose
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chemical_data_search-6.png)
+![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/WQZGKKKJIJFFOK-GASJEMHNSA-N.png)
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/chemical_data_search-7.png)
+![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/WQZGKKKJIJFFOK-GASJEMHNSA-N-results.png)
 
 ## Chemical structure search with a partial InChIKey (connectivity information only)
 
