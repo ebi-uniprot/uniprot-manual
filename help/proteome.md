@@ -32,7 +32,7 @@ As the above-mentioned pipelines cover organisms for which we already have some 
 
 Therefore, a proteome is formed from all UniProtKB/Swiss-Prot entries (irrespective of whether they map to non-INSDC annotated genomes) plus those UniProtKB/TrEMBL entries mapping to the non-INSDC resource for that proteome.
 
-To date these pipelines have been used to populate UniProtKB with additional sequences for the human proteome, major model organisms and other species of special interest (see headline [Complete proteomes for _Homo sapiens_ and _Mus musculus_](https://www.uniprot.org/news/2011/05/03/release) ).
+To date these pipelines have been used to populate UniProtKB with additional sequences for the human proteome, major model organisms and other species of special interest (see headline [Complete proteomes for _Homo sapiens_ and _Mus musculus_](https://www.uniprot.org/release-notes/2011-05-03-release) ).
 
 ## See also
 

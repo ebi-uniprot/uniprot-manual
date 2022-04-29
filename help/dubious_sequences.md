@@ -35,4 +35,4 @@ Note that UniProtKB may include isoforms that contain retained introns (as these
 - [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb_coverage)
 - [Why have some UniProtKB accession numbers been deleted? How can I track them?](https://www.uniprot.org/help/deleted_accessions)
 - [Protein existence](https://www.uniprot.org/help/protein_existence)
-- [Headlines: Why do we keep dubious sequences in UniProtKB?](https://www.uniprot.org/news/2009/11/24/release)
+- [Headlines: Why do we keep dubious sequences in UniProtKB?](https://www.uniprot.org/release-notes/2009-11-24-release)

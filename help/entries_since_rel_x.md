@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,Text_search,Release,faq
 ---
 
-1.  Go to the [news archive](https://www.uniprot.org/news) and find the date of the UniProt release under consideration, e.g. Release 12.0 was published on July 24, 2007
+1.  Go to the [news archive](https://www.uniprot.org/release-notes) and find the date of the UniProt release under consideration, e.g. Release 12.0 was published on July 24, 2007
 2.  Use the query builder as described below.
 
 Retrieve all green plant entries:

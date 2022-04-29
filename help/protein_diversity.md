@@ -19,7 +19,7 @@ Example of query:
 - [proteins phosphorylated on serine](<https://wwww.uniprot.org/uniprotkb?query=(ft_mod_res:phosphoserine)>) (Experimentally proven, predicted or propagated by similarity)
 - [proteins which have been experimentally proven to be phosphorylated on a serine](<https://www.uniprot.org/uniprotkb?query=((ft_mod_res:phosphoserine)%20AND%20(ftev_mod_res:experimental))>) ...
 
-Note: Examples on the website might differ slightly from those printed in the article, due to [format changes](https://www.uniprot.org/news/) and updates to the annotation.
+Note: Examples on the website might differ slightly from those printed in the article, due to [format changes](https://www.uniprot.org/release-notes/) and updates to the annotation.
 
 Related terms: post-translational modification, posttranslational modification, PTM, alternative splicing, variant, isoform, mRNA editing, ribosomal frameshifting.
 

@@ -37,4 +37,4 @@ Related keyword: [Initiation factor](https://www.uniprot.org/keywords/KW-0396)
 Uncharacterized proteins which share regions of similarities are classified as 'Uncharacterized protein families (UPF)' according to the Prosite database.
 
 UniProtKB/Swiss-Prot document: [List of uncharacterized protein family (UPF) entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/upflist)  
-Release 2011\_04 headline: [The art of defining the unknown](https://www.uniprot.org/news/2011/04/05/release)
+Release 2011_04 headline: [The art of defining the unknown](https://www.uniprot.org/release-notes/2011-04-05-release)
