@@ -26,27 +26,27 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 
 # Names & Taxonomy
 
-|        **Label\***         | **Returned Field** | **New Returned Field** |
-| :------------------------: | :----------------: | :--------------------: |
-|           Entry            |         id         |       accession        |
-|         Entry name         |     entry name     |           id           |
-|         Gene names         |       genes        |       gene_names       |
-|    Gene names (primary)    |  genes(PREFERRED)  |      gene_primary      |
-|    Gene names (synonym)    | genes(ALTERNATIVE) |      gene_synonym      |
-| Gene names (ordered locus) |     genes(OLN)     |        gene_oln        |
-|      Gene names (ORF)      |     genes(ORF)     |        gene_orf        |
-|          Organism          |      organism      |     organism_name      |
-|        Organism ID         |    organism-id     |      organism_id       |
-|       Protein names        |   protein names    |      protein_name      |
-|         Proteomes          |      proteome      |     xref_proteomes     |
-|     Taxonomic lineage      |    lineage(ALL)    |        lineage         |
-|        Virus hosts         |    virus hosts     |      virus_hosts       |
+|         **Label**          | **Previous Returned Field** | **New Returned Field** |
+| :------------------------: | :-------------------------: | :--------------------: |
+|           Entry            |             id              |       accession        |
+|         Entry name         |         entry name          |           id           |
+|         Gene names         |            genes            |       gene_names       |
+|    Gene names (primary)    |      genes(PREFERRED)       |      gene_primary      |
+|    Gene names (synonym)    |     genes(ALTERNATIVE)      |      gene_synonym      |
+| Gene names (ordered locus) |         genes(OLN)          |        gene_oln        |
+|      Gene names (ORF)      |         genes(ORF)          |        gene_orf        |
+|          Organism          |          organism           |     organism_name      |
+|        Organism ID         |         organism-id         |      organism_id       |
+|       Protein names        |        protein names        |      protein_name      |
+|         Proteomes          |          proteome           |     xref_proteomes     |
+|     Taxonomic lineage      |        lineage(ALL)         |        lineage         |
+|        Virus hosts         |         virus hosts         |      virus_hosts       |
 
-_\* Label in old and new API unless otherwise specified_
+_ Label in old and new API unless otherwise specified_
 
 # Sequences
 
-|           **Label\***           |            **Returned Field**            | **New Returned Field**  |
+|            **Label**            |       **Previous Returned Field**        | **New Returned Field**  |
 | :-----------------------------: | :--------------------------------------: | :---------------------: |
 |      Alternative products       |      comment(ALTERNATIVE PRODUCTS)       | cc_alternative_products |
 |      Alternative sequence       |      feature(ALTERNATIVE SEQUENCE)       |       ft_var_seq        |
@@ -70,7 +70,7 @@ _\* Label in old and new API unless otherwise specified_
 
 # Function
 
-|      **Label\***       |       **Returned Field**        | **New Returned Field** |
+|       **Label**        |   **Previous Returned Field**   | **New Returned Field** |
 | :--------------------: | :-----------------------------: | :--------------------: |
 |       Absorption       |       comment(ABSORPTION)       |       absorption       |
 |      Active site       |      feature(ACTIVE SITE)       |      ft_act_site       |
@@ -81,7 +81,7 @@ _\* Label in old and new API unless otherwise specified_
 |        Cofactor        |         chebi(Cofactor)         |      cc_cofactor       |
 |      DNA binding       |      feature(DNA BINDING)       |      ft_dna_bind       |
 |       EC number        |               ec                |           ec           |
-|     Function [CC]i     |        comment(FUNCTION)        |      cc_function       |
+|     Function [CC]      |        comment(FUNCTION)        |      cc_function       |
 |        Kinetics        |        comment(KINETICS)        |        kinetics        |
 |     Metal binding      |     feature(METAL BINDING)      |        ft_metal        |
 |   Nucleotide binding   |        feature(NP BIND)         |       ft_np_bind       |
@@ -94,32 +94,32 @@ _\* Label in old and new API unless otherwise specified_
 
 # Miscellaneous
 
-|     **Label\***     |   **Returned Field**   | **New Returned Field** |
-| :-----------------: | :--------------------: | :--------------------: |
-|     Annotation      |    annotation score    |    annotation_score    |
-|       Caution       |    comment(CAUTION)    |       cc_caution       |
-|   Comment Count\*   |           NA           |     comment_count      |
-|      Features       |        features        |        feature         |
-|   Feature Count\*   |           NA           |    feature \_count     |
-|     Keyword ID      |       keyword-id       |       keywordid        |
-|      Keywords       |        keywords        |        keyword         |
-|    Matched text     |        context         |           NA           |
-| Miscellaneous [CC]i | comment(MISCELLANEOUS) |    cc_miscellaneous    |
-|  Protein existence  |       existence        |   protein_existence    |
-|      Reviewed       |        reviewed        |        reviewed        |
-|        Tools        |         tools          |         tools          |
-|       UniParc       |       uniparcid        |       uniparc_id       |
+|     **Label**      | **Previous Returned Field** | **New Returned Field** |
+| :----------------: | :-------------------------: | :--------------------: |
+|     Annotation     |      annotation score       |    annotation_score    |
+|      Caution       |      comment(CAUTION)       |       cc_caution       |
+|   Comment Count    |      \<did not exist\>      |     comment_count      |
+|      Features      |          features           |        feature         |
+|   Feature Count    |      \<did not exist\>      |    feature \_count     |
+|     Keyword ID     |         keyword-id          |       keywordid        |
+|      Keywords      |          keywords           |        keyword         |
+|    Matched text    |           context           |   \<did not exist\>    |
+| Miscellaneous [CC] |   comment(MISCELLANEOUS)    |    cc_miscellaneous    |
+| Protein existence  |          existence          |   protein_existence    |
+|      Reviewed      |          reviewed           |        reviewed        |
+|       Tools        |            tools            |         tools          |
+|      UniParc       |          uniparcid          |       uniparc_id       |
 
 # Interaction
 
-|      **Label\***      | **Returned Field** | **New Returned Field** |
-| :-------------------: | :----------------: | :--------------------: |
-|    Interacts with     |     interactor     |     cc_interaction     |
-| Subunit structure[CC] |  comment(SUBUNIT)  |       cc_subunit       |
+|       **Label**       | **Previous Returned Field** | **New Returned Field** |
+| :-------------------: | :-------------------------: | :--------------------: |
+|    Interacts with     |         interactor          |     cc_interaction     |
+| Subunit structure[CC] |      comment(SUBUNIT)       |       cc_subunit       |
 
 # Expression
 
-|     **Label\***     |      **Returned Field**      | **New Returned Field** |
+|      **Label**      | **Previous Returned Field**  | **New Returned Field** |
 | :-----------------: | :--------------------------: | :--------------------: |
 | Developmental stage | comment(DEVELOPMENTAL STAGE) | cc_developmental_stage |
 |      Induction      |      comment(INDUCTION)      |      cc_induction      |
@@ -127,17 +127,17 @@ _\* Label in old and new API unless otherwise specified_
 
 # Gene Ontology (GO)
 
-|            **Label\***             |   **Returned Field**   | **New Returned Field** |
-| :--------------------------------: | :--------------------: | :--------------------: |
-| Gene ontology (biological process) | go(biological process) |          go_p          |
-| Gene ontology (cellular component) | go(cellular component) |          go_c          |
-|         Gene ontology (GO)         |           go           |           go           |
-| Gene ontology (molecular function) | go(molecular function) |          go_f          |
-|         Gene ontology IDs          |         go-id          |         go_id          |
+|             **Label**              | **Previous Returned Field** | **New Returned Field** |
+| :--------------------------------: | :-------------------------: | :--------------------: |
+| Gene ontology (biological process) |   go(biological process)    |          go_p          |
+| Gene ontology (cellular component) |   go(cellular component)    |          go_c          |
+|         Gene ontology (GO)         |             go              |           go           |
+| Gene ontology (molecular function) |   go(molecular function)    |          go_f          |
+|         Gene ontology IDs          |            go-id            |         go_id          |
 
 # Pathology & Biotech
 
-|      **Label\***       |      **Returned Field**       | **New Returned Field**  |
+|       **Label**        |  **Previous Returned Field**  | **New Returned Field**  |
 | :--------------------: | :---------------------------: | :---------------------: |
 | Allergenic properties  |       comment(ALLERGEN)       |       cc_allergen       |
 |  Biotechnological use  |    comment(BIOTECHNOLOGY)     |    cc_biotechnology     |
@@ -149,7 +149,7 @@ _\* Label in old and new API unless otherwise specified_
 
 # Subcellular location
 
-|       **Label\***        |      **Returned Field**       | **New Returned Field**  |
+|        **Label**         |  **Previous Returned Field**  | **New Returned Field**  |
 | :----------------------: | :---------------------------: | :---------------------: |
 |      Intramembrane       |    feature(INTRAMEMBRANE)     |       ft_intramem       |
 | Subcellular location[CC] | comment(SUBCELLULAR LOCATION) | cc_subcellular_location |
@@ -158,7 +158,7 @@ _\* Label in old and new API unless otherwise specified_
 
 # PTM / Processsing
 
-|           **Label\***           |      **Returned Field**       | **New Returned Field** |
+|            **Label**            |  **Previous Returned Field**  | **New Returned Field** |
 | :-----------------------------: | :---------------------------: | :--------------------: |
 |              Chain              |        feature(CHAIN)         |        ft_chain        |
 |           Cross-link            |      feature(CROSS LINK)      |      ft_crosslnk       |
@@ -175,32 +175,32 @@ _\* Label in old and new API unless otherwise specified_
 
 # Structure
 
-| **Label\*** |  **Returned Field**  | **New Returned Field** |
-| :---------: | :------------------: | :--------------------: |
-|     3D      |          3d          |      structure_3d      |
-| Beta strand | feature(BETA STRAND) |       ft_strand        |
-|    Helix    |    feature(HELIX)    |        ft_helix        |
-|    Turn     |    feature(TURN)     |        ft_turn         |
+|  **Label**  | **Previous Returned Field** | **New Returned Field** |
+| :---------: | :-------------------------: | :--------------------: |
+|     3D      |             3d              |      structure_3d      |
+| Beta strand |    feature(BETA STRAND)     |       ft_strand        |
+|    Helix    |       feature(HELIX)        |        ft_helix        |
+|    Turn     |        feature(TURN)        |        ft_turn         |
 
 # Publications
 
-|   **Label\***    | **Returned Field** | **New Returned Field** |
-| :--------------: | :----------------: | :--------------------: |
-| Mapped PubMed ID |  citationmapping   |           NA           |
-|    PubMed ID     |      citation      |     lit_pubmed_id      |
+|    **Label**     | **Previous Returned Field** | **New Returned Field** |
+| :--------------: | :-------------------------: | :--------------------: |
+| Mapped PubMed ID |       citationmapping       |   \<did not exist\>    |
+|    PubMed ID     |          citation           |     lit_pubmed_id      |
 
 # Date of
 
-|            **Label\***             | **Returned Field** | **New Returned Field** |
-| :--------------------------------: | :----------------: | :--------------------: |
-|          Date of creation          |      created       |      date_created      |
-|     Date of last modification      |   last-modified    |     date_modified      |
-| Date of last sequence modification | sequence-modified  | date_sequence_modified |
-|           Entry version            |   version(entry)   |        version         |
+|             **Label**              | **Previous Returned Field** | **New Returned Field** |
+| :--------------------------------: | :-------------------------: | :--------------------: |
+|          Date of creation          |           created           |      date_created      |
+|     Date of last modification      |        last-modified        |     date_modified      |
+| Date of last sequence modification |      sequence-modified      | date_sequence_modified |
+|           Entry version            |       version(entry)        |        version         |
 
 # Family & Domains
 
-|      **Label\***      |     **Returned Field**      | **New Returned Field** |
+|       **Label**       | **Previous Returned Field** | **New Returned Field** |
 | :-------------------: | :-------------------------: | :--------------------: |
 |      Coiled coil      |    feature(COILED COIL)     |       ft_coiled        |
 |  Compositional bias   | feature(COMPOSITIONAL BIAS) |      ft_compbias       |
@@ -210,5 +210,5 @@ _\* Label in old and new API unless otherwise specified_
 |   Protein families    |          families           |    protein_families    |
 |        Region         |       feature(REGION)       |       ft_region        |
 |        Repeat         |       feature(REPEAT)       |       ft_repeat        |
-| Sequence similarities |     comment(SIMILARITY)     |           NA           |
+| Sequence similarities |     comment(SIMILARITY)     |   \<did not exist\>    |
 |      Zinc finger      |    feature(ZINC FINGER)     |       ft_zn_fing       |
