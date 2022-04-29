@@ -16,8 +16,8 @@ Remark: Most information in UniProtKB has one or several ['evidence tags'](https
 
 Example of query:
 
-- [proteins phosphorylated on serine](<https://www.uniprot.org/uniprotkb?query=annotation%3A(type%3Amod_res+phosphoserine)>) (Experimentally proven, predicted or propagated by similarity)
-- [proteins which have been experimentally proven to be phosphorylated on a serine](<https://www.uniprot.org/uniprotkb?query=annotation%3A(type%3Amod_res+phosphoserine+evidence%3Aexperimental)>) ...
+- [proteins phosphorylated on serine](<https://wwww.uniprot.org/uniprotkb?query=(ft_mod_res:phosphoserine)>) (Experimentally proven, predicted or propagated by similarity)
+- [proteins which have been experimentally proven to be phosphorylated on a serine](<https://www.uniprot.org/uniprotkb?query=((ft_mod_res:phosphoserine)%20AND%20(ftev_mod_res:experimental))>) ...
 
 Note: Examples on the website might differ slightly from those printed in the article, due to [format changes](https://www.uniprot.org/news/) and updates to the annotation.
 
