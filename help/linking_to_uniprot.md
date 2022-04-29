@@ -23,10 +23,14 @@ Examples:
 Remarks:
 
 1.  A UniProtKB accession number (AC) is a stable identifier and therefore allows unambiguous citation of a UniProtKB entry. This is not the case for the 'Entry name'. (see [What is the difference between an accession number (AC) and the entry name?](https://www.uniprot.org/help/difference_accession_entryname). It is recommended to always link to a UniProtKB entry by its primary accession number.
-2.  The UniRef identifiers (e.g. UniRef50_P99999) are not stable. These identifiers consist of the cluster resolution (UniRef50, 90 or 100) and the accession number of the representative. As clusters are recomputed at every release, the representatives may change.
-    How to link to the UniRef50 cluster containing a given UniProtKB entry, e.g. P99999: <https://www.uniprot.org/uniref/?query=uniprot_id:P99999+AND+identity:0.5>
-    How to link to the UniRef90 cluster containing a given UniProtKB entry, e.g. P99999: <https://www.uniprot.org/uniref/?query=uniprot_id:P99999+AND+identity:0.9>
-    How to link to the UniRef100 cluster containing a given UniProtKB entry, e.g. P99999: <https://www.uniprot.org/uniref/?query=uniprot_id:P99999+AND+identity:1.0>
+2.  The UniRef identifiers (e.g. UniRef50_P99999) are not stable. These identifiers consist of the cluster resolution (UniRef50, 90 or 100) and the accession number of the representative. As clusters are recomputed at every release, the representatives may change. Use the `uniprot_id` query field with a given UniProtKB accession as in the following examples:
+
+- How to link to the UniRef50 cluster containing a given UniProtKB entry, e.g. P99999:  
+<https://www.uniprot.org/uniref/?query=uniprot_id:P99999+AND+identity:0.5>
+- How to link to the UniRef90 cluster containing a given UniProtKB entry, e.g. P99999:  
+<https://www.uniprot.org/uniref/?query=uniprot_id:P99999+AND+identity:0.9>
+- How to link to the UniRef100 cluster containing a given UniProtKB entry, e.g. P99999:  
+<https://www.uniprot.org/uniref/?query=uniprot_id:P99999+AND+identity:1.0>
 
 # Other formats
 
