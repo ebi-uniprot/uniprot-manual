@@ -81,7 +81,7 @@ Automatic assertion inferred from database entries
 
 ### Experimental evidence
 
-We use the ECO code [ECO:0000269](http://purl.obolibrary.org/obo/ECO_0000269) for manually curated information for which there is published experimental evidence. The PubMed identifier of the publication(s) which is the original source of the information is provided (for publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number(s)).
+We use the ECO code [ECO:0000269](https://www.ebi.ac.uk/QuickGO/term/ECO:0000269) for manually curated information for which there is published experimental evidence. The PubMed identifier of the publication(s) which is the original source of the information is provided (for publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number(s)).
 
 Example: [D9N129](https://www.uniprot.org/uniprotkb/D9N129#function)
 
@@ -100,7 +100,7 @@ Manual assertion based on experiment
 
 ### Non-traceable author statement evidence
 
-We use the ECO code [ECO:0000303](http://purl.obolibrary.org/obo/ECO_0000303) for manually curated information that is based on statements in scientific articles for which there is no experimental support. The PubMed identifier of the paper(s) which is the original source of the information is provided (for publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number(s)).
+We use the ECO code [ECO:0000303](https://www.ebi.ac.uk/QuickGO/term/ECO:0000303) for manually curated information that is based on statements in scientific articles for which there is no experimental support. The PubMed identifier of the paper(s) which is the original source of the information is provided (for publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number(s)).
 
 Example: [P28494](https://www.uniprot.org/uniprotkb/P28494#function)
 
