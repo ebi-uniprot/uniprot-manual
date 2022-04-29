@@ -44,8 +44,6 @@ Previous refers to UniProt pre 2022-05.
 |     Taxonomic lineage      |        lineage(ALL)         |          lineage           |
 |        Virus hosts         |         virus hosts         |        virus_hosts         |
 
-_ Label in old and new API unless otherwise specified_
-
 # Sequences
 
 |            **Label**            |       **Previous Returned Field**        | **Current Returned Field** |
