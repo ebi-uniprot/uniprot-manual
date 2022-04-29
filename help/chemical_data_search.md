@@ -89,4 +89,4 @@ Biotin in "Catalytic activity":
 [reviewed:true AND annotation:(type:"catalytic activity" chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3A%22catalytic+activity%22+CHEBI%3A57586%29+reviewed%3Atrue)
 
 Biotin in "Cofactor":  
-[reviewed:true AND cofactor:(chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb?query=cofactor%3A%28chebi%3A%22biotin+%5B57586%5D%22%29+reviewed%3Atrue)
+[reviewed:true AND cofactor:(chebi:"biotin \[57586\]")](https://www.uniprot.org/uniprotkb?query=(cc_cofactor_chebi:%22CHEBI:57586%22)%20AND%20(reviewed:true))
