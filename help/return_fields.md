@@ -98,12 +98,12 @@ _ Label in old and new API unless otherwise specified_
 | :----------------: | :-------------------------: | :--------------------: |
 |     Annotation     |      annotation score       |    annotation_score    |
 |      Caution       |      comment(CAUTION)       |       cc_caution       |
-|   Comment Count    |      \<did not exist\>      |     comment_count      |
+|   Comment Count    |     \<does not exist\>      |     comment_count      |
 |      Features      |          features           |        feature         |
-|   Feature Count    |      \<did not exist\>      |    feature \_count     |
+|   Feature Count    |     \<does not exist\>      |    feature \_count     |
 |     Keyword ID     |         keyword-id          |       keywordid        |
 |      Keywords      |          keywords           |        keyword         |
-|    Matched text    |           context           |   \<did not exist\>    |
+|    Matched text    |           context           |   \<does not exist\>   |
 | Miscellaneous [CC] |   comment(MISCELLANEOUS)    |    cc_miscellaneous    |
 | Protein existence  |          existence          |   protein_existence    |
 |      Reviewed      |          reviewed           |        reviewed        |
@@ -186,7 +186,7 @@ _ Label in old and new API unless otherwise specified_
 
 |    **Label**     | **Previous Returned Field** | **New Returned Field** |
 | :--------------: | :-------------------------: | :--------------------: |
-| Mapped PubMed ID |       citationmapping       |   \<did not exist\>    |
+| Mapped PubMed ID |       citationmapping       |   \<does not exist\>   |
 |    PubMed ID     |          citation           |     lit_pubmed_id      |
 
 # Date of
@@ -210,5 +210,5 @@ _ Label in old and new API unless otherwise specified_
 |   Protein families    |          families           |    protein_families    |
 |        Region         |       feature(REGION)       |       ft_region        |
 |        Repeat         |       feature(REPEAT)       |       ft_repeat        |
-| Sequence similarities |     comment(SIMILARITY)     |   \<did not exist\>    |
+| Sequence similarities |     comment(SIMILARITY)     |   \<does not exist\>   |
 |      Zinc finger      |    feature(ZINC FINGER)     |       ft_zn_fing       |
