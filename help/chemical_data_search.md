@@ -35,7 +35,7 @@ To retrieve entries catalyzing reactions involving sugars, it is possible to use
 
 To retrieve all entries catalyzing reactions involving any monosaccharide, it is also possible to search with the high-level term "monosaccharide":
 
-[annotation:(type:"catalytic activity" chebi:"monosaccharide \[35381\]")](https://www.uniprot.org/uniprotkb?query=(cc_catalytic_activity:%22CHEBI:35381%22))
+[(cc_catalytic_activity:"CHEBI:35381")](https://www.uniprot.org/uniprotkb?query=(cc_catalytic_activity:%22CHEBI:35381%22))
 
 # Chemical structure search with InChIKey
 
