@@ -2,6 +2,7 @@
 title: Forthcoming changes
 type: releaseNotes
 date: 2099-01-01
+headlines: test
 ---
 
 Planned changes for UniProt
