@@ -54,7 +54,7 @@ will be resolved, where possible, by redirection to the corresponding resource (
 # See also
 
 - [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
-- [REST API - Retrieve entries](https://www.uniprot.org/help/api_retrieve_entries.md)
+- [REST API - Retrieve entries](https://www.uniprot.org/help/api_retrieve_entries)
 - [REST API - ID Mapping](https://www.uniprot.org/help/id_mapping.md)
-- [REST API - Retrieving entries via queries](https://www.uniprot.org/help/api_queries.md)
-- [REST API - Downloading](https://www.uniprot.org/help/api_downloading.md)
+- [REST API - Retrieving entries via queries](https://www.uniprot.org/help/api_queries)
+- [REST API - Downloading](https://www.uniprot.org/help/api_downloading)

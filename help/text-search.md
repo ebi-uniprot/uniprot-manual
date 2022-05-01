@@ -49,7 +49,7 @@ The advanced search interface allows to browse the different search fields and o
 
 # See also
 
-- [Search tips from our FAQ](https://www.uniprot.org/help/?query=section%3Afaq+AND+category%3A%22Text%20search%22)
+- [Search tips](https://www.uniprot.org/help?query=text%20search)
 - [UniProtKB tutorial/video](https://www.youtube.com/watch?v=ado1r8IDm3U)
 - [Advanced search options](https://www.uniprot.org/help/advanced_search)
 - [Customize display options](https://www.uniprot.org/help/customize)
