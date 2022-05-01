@@ -54,6 +54,6 @@ Code examples for programmatic access are available in the relevant API help pag
 
 - For performance reasons, databases where the mapping relationship to UniProtKB identifiers is one-to-many, e.g. GO, InterPro or PubMed, are not supported. For limited lists of such identifiers, it is possible to query UniProtKB using the text search form with identifiers combined by "or", e.g. [(xref:interpro-IPR014000) OR (xref:interpro-IPR014002) OR (xref:interpro-IPR014003)](https://www.uniprot.org/uniprotkb?query=%28xref%3Ainterpro-IPR014000%29+OR+%28xref%3Ainterpro-IPR014002%29+OR+%28xref%3Ainterpro-IPR014003%29&fields=accession%2Cxref_interpro&view=table). One can then further use the Customize columns button to remove unwanted columns from the table view, or edit the query string (URL) by adding [&fields=accession,xref_interpro](https://www.uniprot.org/uniprotkb?query=%28xref%3Ainterpro-IPR014000%29+OR+%28xref%3Ainterpro-IPR014002%29+OR+%28xref%3Ainterpro-IPR014003%29&fields=accession%2Cxref_interpro&view=table). Finally, to download the results click the Download button where you can select the desired format.
 
-See also: [Related questions from our FAQ](<https://www.uniprot.org/help/?query=(batch+OR+%22id+mapping%22+OR+%22upload+lists%22)+AND+section%3Afaq>)
+See also: [Related questions from our FAQ](https://www.uniprot.org/help?query=%28batch%20OR%20%22id%20mapping%22%20OR%20%22upload%20lists%22%29)
 
 Related terms: batch, bulk
