@@ -9,7 +9,7 @@ Using the query builder:
 - Select **Search in** : `Taxonomy`
 - Click **Advanced** to open the query builder
 - Select `Virus host` from the dropdown menu
-- Type `human` (use autocompletion)
+- Type `9606` for human
 - Click on the **search button**
 - **[result](<https://www.uniprot.org/taxonomy?query=(host:9606)>)**.
 
