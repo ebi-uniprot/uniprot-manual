@@ -34,6 +34,6 @@ CC2D2A Q9P2K1 VAR_076881 p.Ser117Arg US rs186264635 Joubert syndrome 9 (JBTS9) \
 CC2D2A Q9P2K1 VAR_076882 p.Lys507Glu LB/B rs144439937 Joubert syndrome 9 (JBTS9) \[MIM:612285\]
 ...
 
-Also in line with the ACMG/AMP guidelines, we will at the same time deprecate the keyword ["Polymorphism"](https://www.uniprot.org/keywords/KW%2D0621) and rename the keyword ["Disease mutation"](https://www.uniprot.org/keywords/KW%2D0225) to "Disease variant", because the terms 'polymorphism' and 'mutation', which have been used widely, often lead to confusion due to incorrect assumptions of pathogenic and benign effects, respectively.
+Also in line with the ACMG/AMP guidelines, we will at the same time deprecate the keyword "Polymorphism" and rename the keyword ["Disease mutation"](https://www.uniprot.org/keywords/KW%2D0225) to "Disease variant", because the terms 'polymorphism' and 'mutation', which have been used widely, often lead to confusion due to incorrect assumptions of pathogenic and benign effects, respectively.
 
 Entries with variant annotations can be retrieved on the UniProt website with the query [`annotation:(type:variant)`](https://www.uniprot.org/uniprotkb?query=annotation:%28type:variant%29).
