@@ -11,7 +11,7 @@ UniProtKB/Swiss-Prot document: [Uncharacterized protein families](https://ftp.un
 User manual: [Family and Domains section](https://www.uniprot.org/help/family_and_domains)  
 User manual: [Sequence similarities](https://www.uniprot.org/help/sequence_similarities)  
 User manual: [Domain](https://www.uniprot.org/help/domain)  
-[Family and domain databases](https://www.uniprot.org/database/?query=category:%22Family+domain+databases%22)
+[Family and domain databases](https://www.uniprot.org/database?facets=category_exact%3AFamily%20and%20domain%20databases&query=%2A)
 
 [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)  
 [How is protein family membership assigned in UniProtKB?](https://www.uniprot.org/help/family_membership)
