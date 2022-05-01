@@ -4,7 +4,7 @@ type: help
 categories: PTM_processing,manual
 ---
 
-This subsection of the PTM / Processing":/help/ptm\_processing\_section section describes the positions of cysteine residues participating in disulfide bonds.
+This subsection of the PTM / Processing":/help/ptm_processing_section section describes the positions of cysteine residues participating in disulfide bonds.
 
 Disulfide bond formation generally occurs in the endoplasmic reticulum by oxidation. Therefore disulfide bonds are mostly found in extracellular, secreted and periplasmic proteins, although they can also be formed in cytoplasmic proteins under conditions of oxidative stress.
 
@@ -33,7 +33,7 @@ Interchain disulfide bonds are formed between two cysteines of individual chains
 
 ## a. Disulfide bonds between homodimers
 
-Interchain disulfide bonds within a homodimer are annotated as 'Interchain' in the 'Description' field, not specifying the name of the partner protein. The disulfide linkage is also described in the ' [Subunit](https://www.uniprot.org/help/subunit) ' subsection of the 'Interaction' section.  
+Interchain disulfide bonds within a homodimer are annotated as 'Interchain' in the 'Description' field, not specifying the name of the partner protein. The disulfide linkage is also described in the ' [Subunit](https://www.uniprot.org/help/subunit_structure) ' subsection of the 'Interaction' section.  
 Examples: [P25703](https://www.uniprot.org/uniprotkb/P25703#ptm_processing) (Parallel homodimer), [P83658](https://www.uniprot.org/uniprotkb/P83658#ptm_processing) (Antiparallel homodimer)
 
 ## b. Disulfide bonds between 2 chains or peptides from the same protein precursor
