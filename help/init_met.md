@@ -13,5 +13,5 @@ Cleavage of the initiator methionine is one of the most common protein modificat
 This subsection is only present when cleavage has been experimentally proven or when it can be propagated 'By similarity' with closely related homologs.  
 Example: [P31946](https://www.uniprot.org/uniprotkb/P31946#ptm_processing)
 
-The comment 'The displayed sequence is further processed into a mature form' is added in the corresponding ['Sequence'](https://www.uniprot.org/help/sequence) section.  
+The comment 'The displayed sequence is further processed into a mature form' is added in the corresponding ['Sequence'](https://www.uniprot.org/help/sequences_section section.  
 Example: [P31946](https://www.uniprot.org/uniprotkb/Q7XAD0#sequences)

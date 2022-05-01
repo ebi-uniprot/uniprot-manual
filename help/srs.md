@@ -14,7 +14,7 @@ Example: **Search for Saccharomyces cerevisiae membrane glycoproteins in UniProt
 - Select `UniProtKB` from the main search menu
 - Type `Saccharomyces cerevisiae membrane glycoprotein` in the Query box
 - Click on the search button
-- Follow the suggestions proposed by the search tool, and use the [filter options](https://www.uniprot.org/help/filters) :
+- Follow the suggestions proposed by the search tool, and use the [filter options](https://www.uniprot.org/help/filter_options) :
   - Quote terms `"saccharomyces cerevisiae"`
   - Use the **S.cerevisiae** filter under "Popular organisms"
   - Filter `"membrane"` as `keyword`
