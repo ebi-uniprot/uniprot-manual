@@ -8,7 +8,7 @@ The task of assigning proteins to families makes use of a range of sources inclu
 
 UniProtKB/Swiss-Prot document: [Sequence similarities: index](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/similar)  
 UniProtKB/Swiss-Prot document: [Uncharacterized protein families](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/upflist)  
-User manual: [Family and Domains section](https://beta.uniprot.org/help/family_and_domains_section)  
+User manual: [Family and Domains section](https://www.uniprot.org/help/family_and_domains_section)  
 User manual: [Sequence similarities](https://www.uniprot.org/help/sequence_similarities)  
 User manual: [Domain](https://www.uniprot.org/help/domain)  
 [Family and domain databases](https://www.uniprot.org/database?facets=category_exact%3AFamily%20and%20domain%20databases&query=%2A)

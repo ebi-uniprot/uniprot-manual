@@ -56,5 +56,5 @@ Example: **Search for Saccharomyces cerevisiae membrane glycoproteins in UniProt
 # Examples
 
 - [Search UniParc with P12345](https://www.uniprot.org/uniparc/?query=P12345)
-- [Search UniParc with TaxID for Eukaryota](https://www.uniprot.org/uniparc/?query=taxonomy:2759)
+- [Search UniParc with TaxID for Eukaryota](<https://www.uniprot.org/uniparc?query=(taxonomy_id:2759)>)
 - [Search UniParc with taxonomy term Eukaryota](https://www.uniprot.org/uniparc/?query=taxonomy:Eukaryota)
