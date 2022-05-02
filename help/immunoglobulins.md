@@ -26,4 +26,4 @@ We also provide several examples of [full-length non-germline immunoglobulins](<
 
 # Cross-references to antibody databases
 
-We provide cross-references to several antibody portals, e.g. [ABCD (AntiBodies Chemically Defined)](https://www.uniprot.org/uniprotkb?query=database%3A%28type%3Aabcd%29), [Antibodypedia](https://www.uniprot.org/uniprotkb?query=database%3A%28type%3Aantibodypedia%29) and [CPTC Antibody Portal](https://www.uniprot.org/uniprotkb?query=database%3A%28type%3Acptc%29). If you are in search of an antibody to a specific protein, you can include the presence of such cross-references in your query.
+We provide cross-references to several antibody portals, e.g. [ABCD (AntiBodies Chemically Defined)](https://www.uniprot.org/uniprotkb?query=database%3Aabcd), [Antibodypedia](https://www.uniprot.org/uniprotkb?query=database%3Aantibodypedia) and [CPTC Antibody Portal](https://www.uniprot.org/uniprotkb?query=database%3Acptc). If you are in search of an antibody to a specific protein, you can include the presence of such cross-references in your query.

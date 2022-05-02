@@ -16,7 +16,7 @@ Note: To be even more exact, we recommend to use the taxonomy identifiers instea
 
 If you click on the little triangle in the title of the gene name column, you can have these results sorted by gene name, an operation that will group orthologous entries together in many cases:
 
-[https://www.uniprot.org/uniprotkb?query=%28organism%3a%22xenopus+laevis%22+or+%28organism_id%3A9606+and+reviewed%3Atrue%29+%29+and+database%3a%28type%3aorthodb%29&sort=genes&desc=no](https://www.uniprot.org/uniprotkb?query=%28organism%3a%22xenopus+laevis%22+or+%28organism_id%3A9606+and+reviewed%3Atrue%29+%29+and+database%3a%28type%3aorthodb%29&sort=genes&desc=no)
+[https://www.uniprot.org/uniprotkb?dir=ascend&query=(organism_id:8355%20OR%20organism_id:9606)%20AND%20database:orthodb&sort=gene](<https://www.uniprot.org/uniprotkb?dir=ascend&query=(organism_id:8355%20OR%20organism_id:9606)%20AND%20database:orthodb&sort=gene>)
 
 You can customize the table view and add columns for the OrthoDB cross-references. To do this, click on "Columns", go to "Cross-references" and click on "More". Then select the database(s) of interest from the "Phylogenomic databases" section, and click on "Go". You can also remove columns which are not of interest to you in this context.
 
