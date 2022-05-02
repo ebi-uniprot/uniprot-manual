@@ -90,7 +90,7 @@ Example: [D9N129](https://www.uniprot.org/uniprotkb/D9N129#function)
 Manual assertion based on experiment
 
 - **"The WD40-repeat proteins WDR-20 and WDR-48 bind and activate the deubiquitinating enzyme USP-46 to promote the abundance of the glutamate receptor GLR-1 in the ventral nerve cord of Caenorhabditis elegans."**  
-  [Moremen K.W.](https://www.uniprot.org/uniprotkb?query=lit_author:%22Moremen+K.W.%22&sort=score), [Touster O.](https://www.uniprot.org/uniprotkb?query=lit_author:%22Touster+O.%22&sort=score), [Robbins P.W.](https://www.uniprot.org/uniprotkb?query=lit_author:%22Robbins+P.W.%22&sort=score)  
+  [Moremen K.W.](https://www.uniprot.org/uniprotkb?query=lit_author:%22Moremen+K.W.%22&sort=score), [Touster O.](https://www.uniprot.org/uniprotkb?query=lit_author:%22Touster+O.%22&sort=score), [Robbins P.W.](https://www.uniprot.org/uniprotkb?query=lit_author:%22Robbins+P.W.%22)  
   J. Biol. Chem. 266:16876-16885(1991) \[ [PubMed](https://pubmed.ncbi.nlm.nih.gov/1885615) \] \[ [Europe PMC](https://europepmc.org/abstract/MED/1885615) \] \[ [Abstract](https://www.uniprot.org/citations/1885615) \] **Cited for:** PROTEIN SEQUENCE OF <a href="https://www.uniprot.org/blast/?about=P28494%5B107-136%5D" class="tooltipped blastSubsequences" title="View this subsequence or run a BLAST search on it.">107-136</a> AND <a href="https://www.uniprot.org/blast/?about=P28494%5B478-496%5D" class="tooltipped blastSubsequences" title="View this subsequence or run a BLAST search on it.">478-496</a>, CATALYTIC ACTIVITY, ACTIVITY REGULATION, SUBUNIT, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, GLYCOSYLATION.
 
   CC -!- FUNCTION: Together with wdr-48, binds to and stimulates the
