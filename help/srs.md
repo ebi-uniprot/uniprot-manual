@@ -31,7 +31,7 @@ Example: **Search for Saccharomyces cerevisiae membrane glycoproteins in UniProt
   - Select `Ontology -> Keyword [KW]` and type `Membrane` (use autocompletion)
   - Select `Ontology -> Keyword [KW]` and type `Glycoprotein` (use autocompletion)
   - Click on the search button
-- [Results](https://www.uniprot.org/uniprotkb?query=organism%3A%22saccharomyces+cerevisiae%22+AND+keyword%3A%22Membrane+%5B472%5D%22+AND+keyword%3A%22Glycoprotein+%5B325%5D%22)
+- [Results](<https://www.uniprot.org/uniprotkb?query=(organism_id:4932)%20AND%20(keyword:KW-0472)%20AND%20(keyword:KW-0325)>)
 - Click **Columns** to choose the columns to show in the result table
 - This URL can be bookmarked.
 

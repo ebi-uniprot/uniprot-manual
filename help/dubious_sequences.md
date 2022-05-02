@@ -18,7 +18,7 @@ One may ask the question: why not delete PE5 sequences from UniProtKB and provid
 
 However, many putative pseudogene sequences may be expected to remain in UniProtKB for some time as it can be difficult to prove the non-existence of a protein, and for certain loci some doubts may always persist. To give our users the opportunity to work on the most complete protein set, we have chosen to keep all PE5 sequences with an appropriate 'Caution' comment in the 'Sequence' section, leaving to the users the final decision whether to retrieve them or not. The 'Caution' subsections accompanying a PE5 entry usually are of the type: "Could be the product of a pseudogene", "Product of a dubious CDS prediction" or "Product of a dubious gene prediction".
 
-The PE subsection is included in the UniProtKB search engine. It is thus possible to retrieve all entries corresponding to a defined PE level - and thereby exclude all PE5 proteins. For human proteins, for instance, this can be achieved by searching for: [(organism_id:9606 AND reviewed:true) NOT existence:uncertain](https://beta.uniprot.org/uniprotkb?query=%28organism_id%3A9606%20AND%20reviewed%3Atrue%29%20NOT%20existence%3Auncertain).
+The PE subsection is included in the UniProtKB search engine. It is thus possible to retrieve all entries corresponding to a defined PE level - and thereby exclude all PE5 proteins. For human proteins, for instance, this can be achieved by searching for: [(organism_id:9606 AND reviewed:true) NOT existence:uncertain](https://www.uniprot.org/uniprotkb?query=%28organism_id%3A9606%20AND%20reviewed%3Atrue%29%20NOT%20existence%3Auncertain).
 
 # Important remark
 
