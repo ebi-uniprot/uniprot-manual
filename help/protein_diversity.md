@@ -8,8 +8,8 @@ The article [C. R. Biol. (2005)](http://dx.doi.org/10.1016/j.crvi.2005.06.001) (
 
 This tutorial also shows how to use the UniProtKB annotation to extract specific datasets of entries, e.g.:
 
-- [proteins containing a selenocysteine](https://www.uniprot.org/uniprotkb?query=keyword:712)
-- [proteins whose sequences are derived from a RNA editing event](https://www.uniprot.org/uniprotkb?query=keyword:691)
+- [proteins containing a selenocysteine](https://www.uniprot.org/uniprotkb?query=keyword:KW-0712)
+- [proteins whose sequences are derived from a RNA editing event](https://www.uniprot.org/uniprotkb?query=keyword:KW-0691)
 - [proteins containing a GPI-anchor](<https://www.uniprot.org/uniprotkb?query=(keyword:KW-0336)>) ...
 
 Remark: Most information in UniProtKB has one or several ['evidence tags'](https://www.uniprot.org/help/evidences) which describe the source of the information, e.g. an experiment that has been published in the scientific literature, an orthologous protein, a record from another database, etc.
