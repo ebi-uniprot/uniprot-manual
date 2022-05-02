@@ -6,7 +6,7 @@ categories: UniProtKB,Download,Sequence,Text_search,Family_and_domains,faq
 
 ## Download the sequences of all annotated disintegrin domains
 
-Run your query, e.g. to retrieve the UniProtKB entries annotated to contain [disintegrin domains](https://www.uniprot.org/uniprotkb?query=annotation%3a%28type%3a%22positional+domain%22+disintegrin%29&sort=score&format=*), (or alternatively, with a [list of identifiers](https://www.uniprot.org/uniprotkb?query=ADA18_HUMAN+or+ADA19_HUMAN+or+ADA21_HUMAN+or+ADA22_HUMAN+or+ADA23_HUMAN&sort=score) ).
+Run your query, e.g. to retrieve the UniProtKB entries annotated to contain [disintegrin domains](https://www.uniprot.org/uniprotkb?query=annotation%3a%28type%3a%22positional+domain%22+disintegrin%29&sort=score&format=*), (or alternatively, with a [list of identifiers](https://www.uniprot.org/uniprotkb?query=ADA18_HUMAN%20OR%20ADA19_HUMAN%20OR%20ADA21_HUMAN%20OR%20ADA22_HUMAN%20OR%20ADA23_HUMAN) ).
 
 Then click on "Download" and choose to download the results in [GFF format](http://biowiki.org/GffFormat).  
 You can modify the GFF file as follows:
