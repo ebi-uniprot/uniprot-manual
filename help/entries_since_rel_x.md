@@ -13,16 +13,18 @@ Retrieve all green plant entries:
 - Click **Advanced** to open the query builder
 - Select **Field** : `Taxonomy [OC]`
 - Type `Viridiplantae` (use autocompletion)
+- Select `Viridiplantae [33090]`
 
 Restrict results to data integrated since release 12.0:
 
+- Click `Add Field`
 - Select **Field** : `Date of` - `Date of creation`
-- Type **From** : `20070724`
+- Type **From** : `24/07/2007`
 - Click **Search**
 
-You can choose to view only [reviewed](https://www.uniprot.org/uniprot?query=taxonomy:viridiplantae+created:%5B20070724+TO+%2A%5D+reviewed:true) (UniProtKB/Swiss-Prot) or [unreviewed](https://www.uniprot.org/uniprot?query=taxonomy:viridiplantae+created:%5B20070724+TO+%2A%5D+reviewed:false) (UniProtKB/TrEMBL) entries.
+You can choose to view only [reviewed](https://www.uniprot.org/uniprotkb?facets=reviewed%3Atrue&query=%28taxonomy_id%3A33090%29%20AND%20%28date_created%3A%5B2007-07-24%20TO%20%2A%5D%29) (UniProtKB/Swiss-Prot) or [unreviewed](https://www.uniprot.org/uniprotkb?facets=reviewed%3Afalse&query=%28taxonomy_id%3A33090%29%20AND%20%28date_created%3A%5B2007-07-24%20TO%20%2A%5D%29) (UniProtKB/TrEMBL) entries.
 
-Note that the date can be modified in the query box 'taxonomy:Viridiplantae AND created:\[20070724 TO \*\]' and that you can bookmark the result page.
+Note that the date can be modified in the query box `(taxonomy_id:33090) AND (date_created:[2007-07-24 TO \*])` and that you can bookmark the result page.
 
 # See also
 
