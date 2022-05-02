@@ -58,4 +58,4 @@ ORF names are not propagated across species.
   Examples: Xbcl2 (for _Xenopus laevis_ bcl2), HsARG1 (for _Homo sapiens_ ARG1).
 
 - It can happen that multiple genes can be translated to produce identical proteins in one species. In such cases, all gene products were historically often merged into a single UniProtKB entry and there are as many 'Name' tokens in the 'Gene names' subsection as the number of genes encoding the protein of interest, e.g. [P68431](https://www.uniprot.org/uniprotkb/P68431#names_and_taxonomy).  
-  However, we tend to demerge many of these entries, and for newly annotated proteins we generate separate sequence entries in case of multiple genes coding for identical protein sequences, e.g. [P08409](https://www.uniprot.org/uniprotkb?query=replaces:P08409).
+  However, we tend to demerge many of these entries, and for newly annotated proteins we generate separate sequence entries in case of multiple genes coding for identical protein sequences, e.g. [P08409](https://www.uniprot.org/uniprotkb/P08409).
