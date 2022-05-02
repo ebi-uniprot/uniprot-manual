@@ -15,18 +15,18 @@ See also the subsection [Post-translational modifications](https://www.uniprot.o
 
 The following types of lipidation are described in UniProtKB:
 
--   N-Myristoylation
--   Palmitoylation
--   GPI-anchor addition
--   Prenylation
--   Lipidation of bacterial proteins (S-diacylglycerol)
--   Other types of lipidation
+- N-Myristoylation
+- Palmitoylation
+- GPI-anchor addition
+- Prenylation
+- Lipidation of bacterial proteins (S-diacylglycerol)
+- Other types of lipidation
 
 # 1. N-Myristoylation
 
 N-myristoylation refers to the covalent attachment of myristate to an N-terminal glycine. This irreversible protein modification occurs co- translationally following the removal of the initiator methionine residue, which is also annotated. This modification promotes weak protein-membrane and protein-protein interactions.
 
-We annotate experimentally determined N-myristoylation sites and sites predicted by NMT and NMT\_NN predictors provided that the prediction is consistent with other known properties of the protein or that the protein belongs to a family in which this modification is known to occur.  
+We annotate experimentally determined N-myristoylation sites and sites predicted by NMT and NMT_NN predictors provided that the prediction is consistent with other known properties of the protein or that the protein belongs to a family in which this modification is known to occur.  
 Example: [P84077](https://www.uniprot.org/uniprotkb/P84077#ptm_processing)
 
 Related keyword: [Myristate](https://www.uniprot.org/keywords/KW-0519)
@@ -75,6 +75,6 @@ Cholesterol: attached to the C-terminus following cleavage of the
 polypeptide.  
 Example: [Q02936](https://www.uniprot.org/uniprotkb/Q02936#ptm_processing)
 
-The nature of the post-translationally formed amino acid is annotated by using a controlled vocabulary. The currently defined list of controlled vocabulary, as well as other information, such as the target amino acid, the related keyword, the taxonomic range and the subcellular location of the modification, are available in [ptmlist.txt](https://www.uniprot.org/docs/ptm) document. Links to the RESID database are also provided to help gain a better insight into every modification.
+The nature of the post-translationally formed amino acid is annotated by using a controlled vocabulary. The currently defined list of controlled vocabulary, as well as other information, such as the target amino acid, the related keyword, the taxonomic range and the subcellular location of the modification, are available in [ptmlist.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist) document. Links to the RESID database are also provided to help gain a better insight into every modification.
 
 See also: [Evidence](https://www.uniprot.org/help/evidences), [Glycosylation](https://www.uniprot.org/help/carbohyd), [Modified residue](https://www.uniprot.org/help/mod_res), [Post-translational modifications](https://www.uniprot.org/help/post-translational_modification)
