@@ -15,7 +15,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-
 
         my $taxon = $ARGV[0]; # Taxonomy identifier of organism.
 
-        my $query = "https://rest.uniprot.org/uniprotkb/search?query=organism:$taxon&format=fasta";
+        my $query = "https://rest.uniprot.org/uniprotkb/search?query=organism_id:$taxon&format=fasta";
         my $file = $taxon . '.fasta';
 
         my $contact = ''; # Please set a contact email address here to help us debug in case of problems (see https://www.uniprot.org/help/privacy).

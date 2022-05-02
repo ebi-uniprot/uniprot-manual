@@ -41,9 +41,9 @@ Also use `compress=yes`
 
 e.g. (using 50 instead of 50000 to make the file more manageable in the browser)
 
-    https://www.uniprot.org/uniprotkb?query=organism:%22Homo%20sapiens%20(Human)%20%5B9606%5D%22&fil=&offset=0&limit=50&compress=yes&format=fasta
-    https://www.uniprot.org/uniprotkb?query=organism:%22Homo%20sapiens%20(Human)%20%5B9606%5D%22&fil=&offset=50&limit=50&compress=yes&format=fasta
-    https://www.uniprot.org/uniprotkb?query=organism:%22Homo%20sapiens%20(Human)%20%5B9606%5D%22&fil=&offset=100&limit=50&compress=yes&format=fasta
+    https://www.uniprot.org/uniprotkb?query=organism_name:%22Homo%20sapiens%20(Human)%20%5B9606%5D%22&fil=&offset=0&limit=50&compress=yes&format=fasta
+    https://www.uniprot.org/uniprotkb?query=organism_name:%22Homo%20sapiens%20(Human)%20%5B9606%5D%22&fil=&offset=50&limit=50&compress=yes&format=fasta
+    https://www.uniprot.org/uniprotkb?query=organism_name:%22Homo%20sapiens%20(Human)%20%5B9606%5D%22&fil=&offset=100&limit=50&compress=yes&format=fasta
 
 etc.
 
