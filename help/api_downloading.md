@@ -51,7 +51,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-
         my $agent = LWP::UserAgent->new;
 
         # Get a list of all reference proteomes of organisms below the given taxonomy node.
-        my $query_list = "https://rest.uniprot.org/proteomes/search?query=reference:yes+taxonomy:$top_node&format=list";
+        my $query_list = "https://rest.uniprot.org/proteomes/search?query=reference:yes+taxonomy_id:$top_node&format=list";
         my $response_list = $agent->get($query_list);
         die 'Failed, got ' . $response_list->status_line .
           ' for ' . $response_list->request->uri . "\n"
