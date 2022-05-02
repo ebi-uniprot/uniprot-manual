@@ -10,27 +10,27 @@ The web address for an entry consists of a data set name (e.g. `uniprot`, `unir
 
 By default, a web page is returned. Depending on the data set, other formats may also be available (click on "Formats" on the entry's web page). Here are some examples:
 
-    https://www.uniprot.org/uniprotkb/P12345.txt
-    https://www.uniprot.org/uniprotkb/P12345.xml
-    https://www.uniprot.org/uniprotkb/P12345.rdf
-    https://www.uniprot.org/uniprotkb/P12345.fasta
-    https://www.uniprot.org/uniprotkb/P12345.gff
+    https://rest.uniprot.org/uniprotkb/P12345.txt
+    https://rest.uniprot.org/uniprotkb/P12345.xml
+    https://rest.uniprot.org/uniprotkb/P12345.rdf
+    https://rest.uniprot.org/uniprotkb/P12345.fasta
+    https://rest.uniprot.org/uniprotkb/P12345.gff
 
-    https://www.uniprot.org/uniref/UniRef90_P99999.xml
-    https://www.uniprot.org/uniref/UniRef90_P99999.rdf
-    https://www.uniprot.org/uniref/UniRef90_P99999.fasta
-    https://www.uniprot.org/uniref/UniRef90_P99999.tab
+    https://rest.uniprot.org/uniref/UniRef90_P99999.xml
+    https://rest.uniprot.org/uniref/UniRef90_P99999.rdf
+    https://rest.uniprot.org/uniref/UniRef90_P99999.fasta
+    https://rest.uniprot.org/uniref/UniRef90_P99999.tsv
 
-    https://www.uniprot.org/uniparc/UPI000000001F.xml
-    https://www.uniprot.org/uniparc/UPI000000001F.rdf
-    https://www.uniprot.org/uniparc/UPI000000001F.fasta
-    https://www.uniprot.org/uniparc/UPI000000001F.tab
+    https://rest.uniprot.org/uniparc/UPI000000001F.xml
+    https://rest.uniprot.org/uniparc/UPI000000001F.rdf
+    https://rest.uniprot.org/uniparc/UPI000000001F.fasta
+    https://rest.uniprot.org/uniparc/UPI000000001F.tsv
 
 Note that UniRef identifiers cannot be guaranteed to be stable, since the sequence clusters are recomputed at every release, and the representative protein may change. See also [How to link to UniProt entries](https://www.uniprot.org/help/linking_to_uniprot).
 
 For the RDF/XML format there is an option to include data from referenced data sets directly in the returned data:
 
-    https://www.uniprot.org/uniprotkb/P12345.rdf?include=yes
+    https://rest.uniprot.org/uniprotkb/P12345.rdf?include=yes
 
 The following [status codes](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) may be returned:
 
