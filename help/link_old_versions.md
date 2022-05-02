@@ -12,7 +12,7 @@ The version number appears below the accession number right at the top of a UniP
 
 To link to a particular version of an entry, use the **version** parameter in the link, e.g. to link to version 109 of P00750 use:
 
-[https://www.uniprot.org/uniprotkb/P00750.txt?version=109](https://www.uniprot.org/uniprotkb/P00750.txt?version=109)
+[https://rest.uniprot.org/unisave/P00750?format=txt&versions=109]](https://rest.uniprot.org/unisave/P00750?format=txt&versions=109)
 
 # See also
 
