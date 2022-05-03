@@ -44,9 +44,7 @@ When mapping popular sequence database identifiers such as RefSeq, gi numbers, E
 
 # Programmatic access
 
-Code examples for programmatic access are available in the relevant API help pages:  
-[Programmatic access - Mapping database identifiers](https://www.uniprot.org/help/api_idmapping)  
-[Programmatic access - Batch retrieval of entries](https://www.uniprot.org/help/api_batch_retrieval)
+Code examples for programmatic access are available at [Programmatic access - Mapping database identifiers](https://www.uniprot.org/help/api_idmapping)
 
 # Notes
 
