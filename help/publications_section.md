@@ -4,7 +4,7 @@ type: help
 categories: Publications,manual
 ---
 
-The set of publications **fully curated in UniProtKB/Swiss-Prot** and publications **imported in UniProtKB/TrEMBL** is complemented by [additional publications that have been computationally mapped](https://www.uniprot.org/help/publications_section#additional_bibliography) from other resources to UniProtKB entries, as well as by [community-submitted](https://www.uniprot.org/help/publications_section#community_bibliography) publications.
+The set of publications **fully curated in UniProtKB/Swiss-Prot** and publications **imported in UniProtKB/TrEMBL** is complemented by [additional publications that have been computationally mapped](https://www.uniprot.org/help/publications_section#additional-bibliography) from other resources to UniProtKB entries, as well as by [community-submitted](https://www.uniprot.org/help/publications_section#community-submitted-bibliography) publications.
 
 The publications annotated in UniProtKB, the computationally mapped and the community-submitted publications are combined into a "Publications" view, which can be accessed from a link under the "Display" heading on the left hand side of a UniProtKB page. In this view, you can filter the publications list by source and categories that are based on the type of data a publication contains about the protein (such as function, interaction, sequence, etc.), or by the number of proteins it describes ("small scale" vs "large scale").
 
@@ -159,7 +159,7 @@ Many bacterial or fungal strains have names composed of an acronym (ATCC, DSM, N
 | :------ | :------------------------------------------------------------------------------------------------------ |
 | ATCC    | American Type Culture Collection; Rockville, USA                                                        |
 | CBS     | Centraalbureau voor Schimmelcultures; Baarn and Delft, Netherlands                                      |
-| CECT    | Coleccion Espagnola de Cultivos Tipo; Valencia, Spain                                                   |
+| CECT    | Colección Española de Cultivos Tipo; Valencia, Spain                                                    |
 | CCAP    | Culture Collection of Algae and Protozoa; U.K.                                                          |
 | CCMP    | Culture Collection of Marine Phytoplankton                                                              |
 | DSM     | Deutsche Sammlung von Mikroorganismen and Zellkulturen GmbH; Germany                                    |
@@ -175,13 +175,13 @@ Many bacterial or fungal strains have names composed of an acronym (ATCC, DSM, N
 | USDA    | U.S. Department of Agriculture; USA                                                                     |
 | UTEX    | Culture collection of Algae at the University of Texas at Austin; USA                                   |
 
-# <span id="additional_bibliography">Additional bibliography</span>
+# Additional bibliography
 
 As a comprehensive and high-quality resource of protein sequence and functional information, UniProtKB strives to provide comprehensive literature citations associated with protein sequences and their characterization. Currently about 2 thirds of the UniProtKB PubMed citations are found in UniProtKB/Swiss-Prot, as a result of active integration in the course of manual curation.
 
 In order to keep up with the explosive growth of literature and to give our users access to additional publications, we decided to integrate additional sources of literature from other annotated databases into UniProtKB. For this purpose we selected a number external databases, e.g. Entrez Gene (GeneRIFs), SGD, MGI, GAD and PDB, and extracted citations that were mapped to UniProtKB entries. This additional protein bibliography information helps our users to better explore the existing knowledge of their proteins of interest.
 
-# <span id="community_bibliography">Community-submitted bibliography</span>
+# Community-submitted bibliography
 
 UniProt users have always actively engaged with us and provide important feedback to the resource. The significant number of requests we receive through the helpdesk for articles and annotations to be added to protein entries prompted the development of the [Community submission](https://community.uniprot.org/bbsub/bbsub.html) pipeline ('Add a publication' link in the entry view), where researchers are able to add articles that they deem relevant to an entry and provide optional basic annotation by selecting the topics relevant to each paper from a controlled list and/or adding short statements about protein name, function, and disease, as described in the publication. Contributors are asked to supply their [ORCID](https://orcid.org/), a researcher personal ID, which is used to both validate that the submission is genuine and to give credit to the submitter for their work. Publications submitted in this manner are included, after a [synchronization delay](https://www.uniprot.org/help/synchronization), in the list of publications for the relevant entry.
 
