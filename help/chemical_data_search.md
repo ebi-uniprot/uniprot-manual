@@ -86,6 +86,6 @@ Example biotin ( [ChEBI:57586](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=C
 - Biotin in "Small molecule":  
 [(chebi:"CHEBI:57586") AND (reviewed:true)](https://www.uniprot.org/uniprotkb?query=(chebi:%22CHEBI:57586%22)%20AND%20(reviewed:true))
 - Biotin in "Catalytic activity":  
-[(cc_cofactor_chebi:"CHEBI:57586") AND (reviewed:true)](https://wwww.uniprot.org/uniprotkb?query=(cc_cofactor_chebi:%22CHEBI:57586%22)%20AND%20(reviewed:true))
+[(cc_catalytic_activity:"CHEBI:57586") AND (reviewed:true)](https://www.uniprot.org/uniprotkb?query=%28cc_catalytic_activity%3A%22CHEBI%3A57586%22%29%20AND%20%28reviewed%3Atrue%29)
 - Biotin in "Cofactor":  
-[cc_cofactor_chebi](https://www.uniprot.org/uniprotkb?query=(cc_cofactor_chebi:%22CHEBI:57586%22)%20AND%20(reviewed:true))
+[cc_cofactor_chebi](https://www.uniprot.org/uniprotkb?query=%28cc_cofactor_chebi%3A%22CHEBI%3A57586%22%29%20AND%20%28reviewed%3Atrue%29)
