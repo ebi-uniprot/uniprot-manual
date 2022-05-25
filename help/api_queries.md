@@ -76,15 +76,15 @@ curl "https://rest.uniprot.org/uniprotkb/search?query=human&format=gff"
 
 # Tips
 
-- Familiarise oneself with the [advanced search builder](http://www.uniprot.org/help/advanced_search) by clicking on **Advanced**.
-- Click [Customize data](http://www.uniprot.org/help/customize) on the search results page to select the columns to show in the results table.
-- You can also look up your relevant column names in the full list of [UniProtKB column names for programmatic access](http://www.uniprot.org/help/uniprotkb_column_names).
+- Familiarise oneself with the [advanced search builder](https://www.uniprot.org/help/advanced_search) by clicking on **Advanced**.
+- Click [Customize data](https://www.uniprot.org/help/customize) on the search results page to select the columns to show in the results table.
+- You can also look up your relevant column names in the full list of [UniProtKB column names for programmatic access](https://www.uniprot.org/help/uniprotkb_column_names).
 
 The URL for a query result consists of a data set name (e.g. `uniprot`, `uniref`, `uniparc`, `taxonomy`,...) and the actual query. The following query parameters are supported:
 
 | Parameter        | Values                                     | Description                                                                                                                                                                                                                                                                              |
 | ---------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `query`          | _string_                                   | See [query syntax](https://www.uniprot.org/help/text-search) <br> and [query fields for UniProtKB](http://www.uniprot.org/help/query-fields). <br>An empty query string will retrieve all entries in a data set. **Tip:** Refine your search by clicking **Advanced** in the search bar. |
+| `query`          | _string_                                   | See [query syntax](https://www.uniprot.org/help/text-search) <br> and [query fields for UniProtKB](https://www.uniprot.org/help/query-fields). <br>An empty query string will retrieve all entries in a data set. **Tip:** Refine your search by clicking **Advanced** in the search bar. |
 | `format`         | See section, "What formats are available?" | See section, "What formats are available?"                                                                                                                                                                                                                                               |
 | `fields`         | comma-separated list of column names       | Columns to retrieve in the results. Applies to `tsv`, `xslx` and `json` formats only. <br>(For UniProtKB you can also read the [full list of UniProtKB column names](https://www.uniprot.org/help/uniprotkb_column_names)).                                                              |
 | `includeIsoform` | `true` or `false`                          | Whether or not to include isoforms in the search results. _Note:_ Only applies to UniProtKB searches.                                                                                                                                                                                    |

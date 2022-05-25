@@ -5,7 +5,7 @@ categories: Text_search,Technical,Website,help
 ---
 
 To explore and try out the ID Mapping services, please refer to:
-* The [ID Mapping website tool](http://www.uniprot.org/id-mapping)
+* The [ID Mapping website tool](https://www.uniprot.org/id-mapping)
 
 # Overview
 
