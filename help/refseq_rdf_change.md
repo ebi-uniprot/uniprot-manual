@@ -10,7 +10,7 @@ Currently, our cross-references show the identifier of a RefSeq nucleotide seque
 
 Note that the `translatedFrom` property is not the inverse of the `translatedTo` property that is used, for instance, in the description of Ensembl cross-references. The latter is used to link mature transcripts (whose sequence includes untranslated regions in addition to the CDS) to proteins.
 
-Example: [Q00266](https://www.uniprot.org/uniprotkb/Q00266.ttl)
+Example: [Q00266](https://rest.uniprot.org/uniprotkb/Q00266.ttl)
 
 Current format:
 
