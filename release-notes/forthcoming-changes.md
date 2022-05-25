@@ -6,6 +6,8 @@ date: 2099-01-01
 
 ## Annotation of biologically relevant ligands in UniProtKB using ChEBI
 
+**On August 3, 2022**
+
 UniProtKB provides descriptions of the nature and binding sites of biologically relevant ligands that are essential for protein function, such as activators, inhibitors, cofactors, and substrates. We are going to replace the existing textual descriptions of these ligands with their equivalents from the [ChEBI](https://www.ebi.ac.uk/chebi) (Chemical Entities of Biological Interest) ontology to provide high quality computationally tractable annotation of biologically relevant ligands and their binding sites in proteins in UniProtKB. This enhanced dataset will provide improved support for efforts to study and predict functionally relevant interactions between proteins and small molecule ligands.
 
 The impact of this change on the UniProtKB data model is described in the following subsections.
