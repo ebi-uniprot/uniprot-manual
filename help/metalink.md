@@ -27,24 +27,26 @@ Switzerland: <https://ftp.expasy.org/databases/uniprot>
 
 # HTTP downloads
 
-Due to HTTP transport unreliability (HTTP streams tend to fail after a while due to packet loss), large downloads should be split into smaller chunks using the "offset" and "limit" functions. These are described in our API help page [Retrieving entries via queries](https://www.uniprot.org/help/api_queries).
+Due to HTTP transport unreliability (HTTP streams tend to fail after a while due to packet loss), large downloads should be split into smaller chunks using pagination. These are described in our API help page [Retrieving entries via queries](https://www.uniprot.org/help/api_queries) and [Programmatic pagination](https://www.uniprot.org/help/pagination).
 
-1\) Start by retrieving the number of results in your query by checking the "X-Total-Results" header like in the example [Download all UniProt sequences for a given organism in FASTA format](https://www.uniprot.org/help/programmatic_access#downloading).
+1\) Start by retrieving the number of results in your query by checking the response `x-total-records` header like in the example [Download all UniProt sequences for a given organism in FASTA format](https://www.uniprot.org/help/programmatic_access#downloading).
 
-2\) If the number of results x is greater than 50000, repeat your query and append the following to the URL:
+2\) If the number of results x is greater than 500, repeat your query and append the following to the URL:
 
-    &offset=0&limit=50000
-    &offset=50000&limit=50000
-    &offset=100000&limit=50000 etc.
+    &cursor=<cursor value>&size=500
 
-Also use `compress=yes`
+The cursor value for the next page, and actually the full URL for the next page of results for the same query is available in the response `link` header
 
-e.g. (using 50 instead of 50000 to make the file more manageable in the browser)
+Also use `compress=true` if you wish to compress the different files
 
-    https://www.uniprot.org/uniprotkb?query=organism_name:%22Homo%20sapiens%20(Human)%20%5B9606%5D%22&fil=&offset=0&limit=50&compress=yes&format=fasta
-    https://www.uniprot.org/uniprotkb?query=organism_name:%22Homo%20sapiens%20(Human)%20%5B9606%5D%22&fil=&offset=50&limit=50&compress=yes&format=fasta
-    https://www.uniprot.org/uniprotkb?query=organism_name:%22Homo%20sapiens%20(Human)%20%5B9606%5D%22&fil=&offset=100&limit=50&compress=yes&format=fasta
+e.g.
+
+    first page: https://rest.uniprot.org/uniprotkb/search?compressed=true&format=fasta&query=(organism_id:9606)&size=500
+    second page: https://rest.uniprot.org/uniprotkb/search?format=fasta&query=(organism_id:9606)&cursor=c9bacmxsqhkqgdxso0ulhqyxppukpzw2pnepg&size=500
+    third page: https://rest.uniprot.org/uniprotkb/search?format=fasta&query=(organism_id:9606)&cursor=28m7xk8oeejl5mhhjk1glje7i02fk9hn8v0v5f6&size=500
 
 etc.
+
+The cursor values for each page might change across different data releases, so you should always read and use them at the moment that you're doing the request and not rely on values from multiple months back.
 
 3\) Once you have your download, use `gzip -t` to check the integrity of your file. Uncompress the chunks and concatenate them into a single download file.
