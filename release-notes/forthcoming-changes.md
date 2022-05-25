@@ -252,7 +252,7 @@ FT                   /evidence="ECO:0000250|UniProtKB:Q96MU7"
 
 #### XML format
 
-We are going to make the following changes to the [UniProtKB XSD](https://www.uniprot.org/docs/uniprot.xsd) to standardize the description of a ligand, and optionally the bound part of the ligand, with the ChEBI ontology.
+We are going to make the following changes to the [UniProtKB XSD](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot.xsd) to standardize the description of a ligand, and optionally the bound part of the ligand, with the ChEBI ontology.
 
 * We will deprecate the feature types `calcium-binding region`, `metal ion-binding site` and `nucleotide phosphate-binding region`.
 * We will introduce two new elements, `ligand` and `ligandPart`, and corresponding types, `ligandType` and `ligandPartType`. The two types have the same structure that consists of the following four elements:
