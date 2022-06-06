@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Download,help
 ---
 
-The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-Modified:` will avoid that you download data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here are examples of how to do this in Perl:
+The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-UniProt-Release-Date:` will avoid that you download data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here are examples of how to do this in Perl:
 
 **Download all UniProt sequences for a given organism in FASTA format**
 
@@ -25,7 +25,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-
         if ($response->is_success) {
           my $results = $response->header('X-Total-Results');
           my $release = $response->header('X-UniProt-Release');
-          my $date = sprintf("%4d-%02d-%02d", HTTP::Date::parse_date($response->header('Last-Modified')));
+          my $date = sprintf("%4d-%02d-%02d", HTTP::Date::parse_date($response->header('X-UniProt-Release-Date')));
           print "Downloaded $results entries of UniProt release $release ($date) to file $file\n";
         }
         elsif ($response->code == HTTP::Status::RC_NOT_MODIFIED) {
@@ -66,7 +66,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `Last-
           if ($response_proteome->is_success) {
             my $results = $response_proteome->header('X-Total-Results');
             my $release = $response_proteome->header('X-UniProt-Release');
-            my $date = sprintf("%4d-%02d-%02d", HTTP::Date::parse_date($response_proteome->header('Last-Modified')));
+            my $date = sprintf("%4d-%02d-%02d", HTTP::Date::parse_date($response_proteome->header('X-UniProt-Release-Date')));
             print "File $file: downloaded $results entries of UniProt release $release ($date)\n";
           }
           elsif ($response_proteome->code == HTTP::Status::RC_NOT_MODIFIED) {
@@ -94,7 +94,7 @@ If you would like to record the UniProt release number and/or date of the data w
 
     if ($response->is_success) {
       print 'UniProt release ' . $response->header('X-UniProt-Release') .
-      ' of ' . $response->header('Last-Modified') . "\n";
+      ' of ' . $response->header('X-UniProt-Release-Date') . "\n";
     }
     else {
       die 'Failed, got ' . $response->status_line .
@@ -102,7 +102,7 @@ If you would like to record the UniProt release number and/or date of the data w
     }
 
 - `X-UniProt-Release:` contains the UniProt release number, e.g. `2010_08`
-- `Last-Modified:` contains the UniProt release date, e.g. `Tue, 13 Jul 2010 00:00:00 GMT`
+- `X-UniProt-Release-Date:` contains the UniProt release date, e.g. `Tue, 13 Jul 2010 00:00:00 GMT`
 
 # See also
 
