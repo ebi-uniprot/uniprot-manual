@@ -102,7 +102,8 @@ If you would like to record the UniProt release number and/or date of the data w
     }
 
 - `X-UniProt-Release:` contains the UniProt release number, e.g. `2010_08`
-- `X-UniProt-Release-Date:` contains the UniProt release date, e.g. `Tue, 13 Jul 2010 00:00:00 GMT`
+- `X-UniProt-Release-Date:` contains the UniProt release date, e.g. `02-January-2022`
+- `X-API-Deployment-Date:` contains the API deployment date, can be different from release date (in case of hotfix) e.g. `03-January-2022`
 
 # See also
 
