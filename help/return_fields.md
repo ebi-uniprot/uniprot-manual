@@ -24,29 +24,27 @@ https://www.uniprot.org/uniprotkb?query=human&columns=id,proteome
 
 The `Label` is the readable name of the returned field. The `Label` is shown on the website/TSV or in Excel format.
 
-Previous refers to UniProt pre 2022-05.
-
 # Names & Taxonomy
 
-|         **Label**          | **Previous Returned Field** | **Current Returned Field** |
-| :------------------------: | :-------------------------: | :------------------------: |
-|           Entry            |             id              |         accession          |
-|         Entry name         |         entry name          |             id             |
-|         Gene names         |            genes            |         gene_names         |
-|    Gene names (primary)    |      genes(PREFERRED)       |        gene_primary        |
-|    Gene names (synonym)    |     genes(ALTERNATIVE)      |        gene_synonym        |
-| Gene names (ordered locus) |         genes(OLN)          |          gene_oln          |
-|      Gene names (ORF)      |         genes(ORF)          |          gene_orf          |
-|          Organism          |          organism           |       organism_name        |
-|        Organism ID         |         organism-id         |        organism_id         |
-|       Protein names        |        protein names        |        protein_name        |
-|         Proteomes          |          proteome           |       xref_proteomes       |
-|     Taxonomic lineage      |        lineage(ALL)         |          lineage           |
-|        Virus hosts         |         virus hosts         |        virus_hosts         |
+|         **Label**          | **Legacy Returned Field** | **Current Returned Field** |
+| :------------------------: | :-----------------------: | :------------------------: |
+|           Entry            |            id             |         accession          |
+|         Entry name         |        entry name         |             id             |
+|         Gene names         |           genes           |         gene_names         |
+|    Gene names (primary)    |     genes(PREFERRED)      |        gene_primary        |
+|    Gene names (synonym)    |    genes(ALTERNATIVE)     |        gene_synonym        |
+| Gene names (ordered locus) |        genes(OLN)         |          gene_oln          |
+|      Gene names (ORF)      |        genes(ORF)         |          gene_orf          |
+|          Organism          |         organism          |       organism_name        |
+|        Organism ID         |        organism-id        |        organism_id         |
+|       Protein names        |       protein names       |        protein_name        |
+|         Proteomes          |         proteome          |       xref_proteomes       |
+|     Taxonomic lineage      |       lineage(ALL)        |          lineage           |
+|        Virus hosts         |        virus hosts        |        virus_hosts         |
 
 # Sequences
 
-|            **Label**            |       **Previous Returned Field**        | **Current Returned Field** |
+|            **Label**            |        **Legacy Returned Field**         | **Current Returned Field** |
 | :-----------------------------: | :--------------------------------------: | :------------------------: |
 |      Alternative products       |      comment(ALTERNATIVE PRODUCTS)       |  cc_alternative_products   |
 |      Alternative sequence       |      feature(ALTERNATIVE SEQUENCE)       |         ft_var_seq         |
