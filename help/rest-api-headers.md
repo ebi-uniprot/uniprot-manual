@@ -29,8 +29,8 @@ The `200 OK` status code indicates the request succeeded. For example:
 >  HTTP/1.1 200
 >  content-type: application/json
 >  link: <https://rest.uniprot.org/uniprotkb/search?fields=accession,gene_names&query=P53&cursor=82giuzutyxve1mc8va46o7i2jq3r7fb5tf&size=1>; rel="next"
->  x-release-date: 25-July-2021
->  x-release-number: 2021_03
+>  x-uniprot-release-date: 25-July-2021
+>  x-uniprot-release: 2021_03
 >  x-total-results: 49524
 >  ...
 > ```
@@ -72,8 +72,8 @@ header.
 >  HTTP/1.1 303
 >  content-type: application/json
 >  Location: /uniprotkb/P23141?from=Q00015
->  x-release-date: 25-July-2021
->  x-release-number: 2021_03
+>  x-uniprot-release-date: 25-July-2021
+>  x-uniprot-release: 2021_03
 >  ...
 > ```
 
@@ -147,21 +147,21 @@ example:
 The `500 Internal server error` status code indicates that the processing of the request on the server failed unexpectedly.
 If you are able to replicate this error consistently, please report it to us through our [contact page](https://www.uniprot.org/contact).
 
-# x-release-date
+# x-uniprot-release-date
 
 This response header indicates the last date that the API was updated. Refer to, [200 OK above](#200-ok), to see an example
 of its generation.
 
 > ```bash
-> x-release-date: 25-July-2021
+> x-uniprot-release-date: 25-July-2021
 > ```
 
-# x-release-number
+# x-uniprot-release
 
 This response header indicates the current UniProt data release number.
 
 > ```bash
-> x-release-number: 2021_03
+> x-uniprot-release: 2021_03
 > ```
 
 # x-total-results
