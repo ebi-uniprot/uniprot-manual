@@ -50,5 +50,5 @@ categories: UniProtKB,Text_search,Names_and_taxonomy,Website,faq
     See also
 
     - [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
-    - [Programmatic access - Mapping database identifiers](https://www.uniprot.org/help/api_idmapping)
+    - [Programmatic access - Mapping database identifiers](https://www.uniprot.org/help/id_mapping)
     - [Customize display options](https://www.uniprot.org/help/customize)
