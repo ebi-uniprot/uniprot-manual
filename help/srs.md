@@ -37,7 +37,7 @@ Example: **Search for Saccharomyces cerevisiae membrane glycoproteins in UniProt
 
 # Queries on your personal UniProt dataset
 
-- Click on [Retrieve/ID mapping](https://www.uniprot.org/uploadlists) in the toolbar
+- Click on [Retrieve/ID mapping](https://www.uniprot.org/id-mapping) in the toolbar
 
 - Copy/paste your list of accession numbers (i.e. P38903 P47096 P40433 P31787 P28240 P32465 P28319)
 

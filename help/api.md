@@ -19,4 +19,4 @@ Please click on the links below for documentation for the specific topics, inclu
 -   [Mapping database identifiers (cf. "Retrieve/ID mapping")](https://www.uniprot.org/help/id_mapping)
 -   [HTTP Statuses from the REST API](https://www.uniprot.org/help/rest-api-headers)
 
-Related terms: programmatic access, program, script, wget, curl, web services, API, uploadlists
+Related terms: programmatic access, program, script, wget, curl, web services, API, id-mapping
