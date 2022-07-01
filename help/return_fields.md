@@ -97,8 +97,7 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 |     Annotation     |      annotation score       |      annotation_score      |
 |      Caution       |      comment(CAUTION)       |         cc_caution         |
 |   Comment Count    |     \<does not exist\>      |       comment_count        |
-|      Features      |          features           |          feature           |
-|   Feature Count    |     \<does not exist\>      |      feature \_count       |
+|      Features      |          features           |      feature\_count        |
 |     Keyword ID     |         keyword-id          |         keywordid          |
 |      Keywords      |          keywords           |          keyword           |
 |    Matched text    |           context           |     \<does not exist\>     |
