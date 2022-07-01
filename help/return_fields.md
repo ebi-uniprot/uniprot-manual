@@ -86,7 +86,7 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 |        Pathway         |        comment(PATHWAY)         |         cc_pathway         |
 |     pH dependence      |     comment(PH DEPENDENCE)      |       ph_dependence        |
 |    Redox potential     |    comment(REDOX POTENTIAL)     |      redox_potential       |
-|        Rhea ID         |             rhea-id             |          rhea_id           |
+|        Rhea ID         |             rhea-id             |          rhea           |
 |          Site          |          feature(SITE)          |          ft_site           |
 | Temperature dependence | comment(TEMPERATURE DEPENDENCE) |      temp_dependence       |
 
