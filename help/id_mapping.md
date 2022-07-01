@@ -340,17 +340,17 @@ def check_id_mapping_results_ready(job_id):
             return bool(j["results"] or j["failedIds"])
 
 
-def get_batch(batch_response, fileformat):
+def get_batch(batch_response, file_format):
     batch_url = get_next_link(batch_response.headers)
     while batch_url:
         batch_response = session.get(batch_url)
         batch_response.raise_for_status()
-        yield decode_results(batch_response, fileformat)
+        yield decode_results(batch_response, file_format)
         batch_url = get_next_link(batch_response.headers)
 
 
-def combine_batches(all_results, batch_results, fileformat):
-    if fileformat == "json":
+def combine_batches(all_results, batch_results, file_format):
+    if file_format == "json":
         for key in ("results", "failedIds"):
             if batch_results[key]:
                 all_results[key] += batch_results[key]
@@ -366,30 +366,38 @@ def get_id_mapping_results_link(job_id):
     return r.json()["redirectURL"]
 
 
-def decode_results(response, fileformat):
-    if fileformat == "json":
+def decode_results(response, file_format):
+    if file_format == "json":
         return response.json()
-    elif fileformat == "tsv":
+    elif file_format == "tsv":
         return [line for line in response.text.split("\n") if line]
     return response.text
+
+
+def print_progress_batches(batch_index, size, total):
+    n = min((batch_index + 1) * size, total)
+    print(f"Fetched: {n} / {total}")
 
 
 def get_id_mapping_results_search(url):
     parsed = urlparse(url)
     query = parse_qs(parsed.query)
-    fileformat = query["format"][0] if "format" in query else "json"
-    if "size" not in query:
-        query["size"] = 500
+    file_format = query["format"][0] if "format" in query else "json"
+    if "size" in query:
+        size = int(query["size"][0])
+    else:
+        size = 500
+        query["size"] = size
     parsed = parsed._replace(query=urlencode(query, doseq=True))
     url = parsed.geturl()
     r = session.get(url)
     r.raise_for_status()
-    results = decode_results(r, fileformat)
-    total = r.headers["x-total-results"]
-    for batch in get_batch(r, fileformat):
-        results = combine_batches(results, batch, fileformat)
-        n = len(results["results"])
-        print(f"{n} / {total}")
+    results = decode_results(r, file_format)
+    total = int(r.headers["x-total-results"])
+    print_progress_batches(0, size, total)
+    for i, batch in enumerate(get_batch(r, file_format)):
+        results = combine_batches(results, batch, file_format)
+        print_progress_batches(i + 1, size, total)
     return results
 
 
@@ -400,8 +408,8 @@ def get_id_mapping_results_stream(url):
     r.raise_for_status()
     parsed = urlparse(url)
     query = parse_qs(parsed.query)
-    fileformat = query["format"][0] if "format" in query else "json"
-    return decode_results(r, fileformat)
+    file_format = query["format"][0] if "format" in query else "json"
+    return decode_results(r, file_format)
 
 
 job_id = submit_id_mapping(
