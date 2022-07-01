@@ -416,3 +416,25 @@ if check_id_mapping_results_ready(job_id):
 print(results)
 # {'results': [{'from': 'P05067', 'to': 'CHEMBL2487'}], 'failedIds': ['P12345']}
 ```
+
+## Retrieving website results programmatically
+
+If a job has been submitted from the website you can download these programmatically:
+
+1. From the ID Mapping results page click `Download`
+2. Select the desired file format and if a tabular format is selected fields can be selected and reordered
+3. Click `Generate URL for API`
+4. There are two choices for the URL:
+
+**i. Stream**: this endpoint is more demanding on the API and so may be less stable. Copy the stream url and paste as an argument to the `get_id_mapping_results_stream` function defined above. For example the following uses the TSV format and has several fields selected:
+
+```
+get_id_mapping_results_stream("https://rest.uniprot.org/idmapping/uniprotkb/results/stream/77035de28771bdd279b1c5ce66c3aebe8ec8b028?compressed=true&fields=accession%2Creviewed%2Cid%2Cprotein_name%2Cgene_names%2Corganism_name%2Clength%2Ccc_developmental_stage%2Ccc_induction%2Cft_chain%2Cxref_ccds%2Cxref_embl&format=tsv")
+```
+
+**ii. Search**: this endpoint works by fetching batches of results at a time and is lighter for the API to handle. Copy the search url and paste as an argument to the `get_id_mapping_results_search` function defined above. For example the following fetches FASTAs:
+
+```
+get_id_mapping_results_search("https://rest.uniprot.org/idmapping/uniprotkb/results/2a0489825ffd01e63a6682b3ae89ba43bfe47169?format=fasta&size=500")
+```
+
