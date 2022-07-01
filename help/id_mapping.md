@@ -340,17 +340,17 @@ def check_id_mapping_results_ready(job_id):
             return bool(j["results"] or j["failedIds"])
 
 
-def get_batch(batch_response, fileformat):
+def get_batch(batch_response, file_format):
     batch_url = get_next_link(batch_response.headers)
     while batch_url:
         batch_response = session.get(batch_url)
         batch_response.raise_for_status()
-        yield decode_results(batch_response, fileformat)
+        yield decode_results(batch_response, file_format)
         batch_url = get_next_link(batch_response.headers)
 
 
-def combine_batches(all_results, batch_results, fileformat):
-    if fileformat == "json":
+def combine_batches(all_results, batch_results, file_format):
+    if file_format == "json":
         for key in ("results", "failedIds"):
             if batch_results[key]:
                 all_results[key] += batch_results[key]
@@ -366,30 +366,38 @@ def get_id_mapping_results_link(job_id):
     return r.json()["redirectURL"]
 
 
-def decode_results(response, fileformat):
-    if fileformat == "json":
+def decode_results(response, file_format):
+    if file_format == "json":
         return response.json()
-    elif fileformat == "tsv":
+    elif file_format == "tsv":
         return [line for line in response.text.split("\n") if line]
     return response.text
+
+
+def print_progress_batches(batch_index, size, total):
+    n = min((batch_index + 1) * size, total)
+    print(f"Fetched: {n} / {total}")
 
 
 def get_id_mapping_results_search(url):
     parsed = urlparse(url)
     query = parse_qs(parsed.query)
-    fileformat = query["format"][0] if "format" in query else "json"
-    if "size" not in query:
-        query["size"] = 500
+    file_format = query["format"][0] if "format" in query else "json"
+    if "size" in query:
+        size = int(query["size"][0])
+    else:
+        size = 500
+        query["size"] = size
     parsed = parsed._replace(query=urlencode(query, doseq=True))
     url = parsed.geturl()
     r = session.get(url)
     r.raise_for_status()
-    results = decode_results(r, fileformat)
-    total = r.headers["x-total-results"]
-    for batch in get_batch(r, fileformat):
-        results = combine_batches(results, batch, fileformat)
-        n = len(results["results"])
-        print(f"{n} / {total}")
+    results = decode_results(r, file_format)
+    total = int(r.headers["x-total-results"])
+    print_progress_batches(0, size, total)
+    for i, batch in enumerate(get_batch(r, file_format)):
+        results = combine_batches(results, batch, file_format)
+        print_progress_batches(i + 1, size, total)
     return results
 
 
@@ -400,8 +408,8 @@ def get_id_mapping_results_stream(url):
     r.raise_for_status()
     parsed = urlparse(url)
     query = parse_qs(parsed.query)
-    fileformat = query["format"][0] if "format" in query else "json"
-    return decode_results(r, fileformat)
+    file_format = query["format"][0] if "format" in query else "json"
+    return decode_results(r, file_format)
 
 
 job_id = submit_id_mapping(
@@ -416,3 +424,25 @@ if check_id_mapping_results_ready(job_id):
 print(results)
 # {'results': [{'from': 'P05067', 'to': 'CHEMBL2487'}], 'failedIds': ['P12345']}
 ```
+
+## Retrieving website results programmatically
+
+If a job has been submitted from the website you can download these programmatically:
+
+1. From the ID Mapping results page click `Download`
+2. Select the desired file format and if a tabular format is selected fields can be selected and reordered
+3. Click `Generate URL for API`
+4. There are two choices for the URL:
+
+**i. Stream**: this endpoint is more demanding on the API and so may be less stable. Copy the stream url and paste as an argument to the `get_id_mapping_results_stream` function defined above. For example the following uses the TSV format and has several fields selected:
+
+```
+get_id_mapping_results_stream("https://rest.uniprot.org/idmapping/uniprotkb/results/stream/77035de28771bdd279b1c5ce66c3aebe8ec8b028?compressed=true&fields=accession%2Creviewed%2Cid%2Cprotein_name%2Cgene_names%2Corganism_name%2Clength%2Ccc_developmental_stage%2Ccc_induction%2Cft_chain%2Cxref_ccds%2Cxref_embl&format=tsv")
+```
+
+**ii. Search**: this endpoint works by fetching batches of results at a time and is lighter for the API to handle. Copy the search url and paste as an argument to the `get_id_mapping_results_search` function defined above. For example the following fetches FASTAs:
+
+```
+get_id_mapping_results_search("https://rest.uniprot.org/idmapping/uniprotkb/results/2a0489825ffd01e63a6682b3ae89ba43bfe47169?format=fasta&size=500")
+```
+
