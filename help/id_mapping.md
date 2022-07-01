@@ -289,60 +289,130 @@ Giving a concrete example:
    --form 'to="UniProtKB"'
 ```
 
-## Python Example
+# Python example
 
 ```
-import requests
+import re
 import time
-import json
+from urllib.parse import urlparse, parse_qs, urlencode
+import requests
+from requests.adapters import HTTPAdapter, Retry
 
 POLLING_INTERVAL = 3
+
 API_URL = "https://rest.uniprot.org"
 
 
-def submit_id_mapping(fromDB, toDB, ids):
+retries = Retry(total=5, backoff_factor=0.25, status_forcelist=[500, 502, 503, 504])
+session = requests.Session()
+session.mount("https://", HTTPAdapter(max_retries=retries))
+
+
+def submit_id_mapping(from_db, to_db, ids):
     r = requests.post(
-        f"{API_URL}/idmapping/run", data={"from": fromDB, "to": toDB, "ids": ids},
+        f"{API_URL}/idmapping/run",
+        data={"from": from_db, "to": to_db, "ids": ",".join(ids)},
     )
     r.raise_for_status()
     return r.json()["jobId"]
 
 
-def get_id_mapping_results(job_id):
+def get_next_link(headers):
+    re_next_link = re.compile(r'<(.+)>; rel="next"')
+    if "Link" in headers:
+        match = re_next_link.match(headers["Link"])
+        if match:
+            return match.group(1)
+
+
+def check_id_mapping_results_ready(job_id):
     while True:
-        r = requests.get(f"{API_URL}/idmapping/status/{job_id}")
+        r = session.get(f"{API_URL}/idmapping/status/{job_id}")
         r.raise_for_status()
-        job = r.json()
-        if "jobStatus" in job:
-            if job["jobStatus"] == "RUNNING":
+        j = r.json()
+        if "jobStatus" in j:
+            if j["jobStatus"] == "RUNNING":
                 print(f"Retrying in {POLLING_INTERVAL}s")
                 time.sleep(POLLING_INTERVAL)
             else:
-                raise Exception(job["jobStatus"])
+                raise Exception(r["jobStatus"])
         else:
-            return job
+            return bool(j["results"] or j["failedIds"])
+
+
+def get_batch(batch_response, fileformat):
+    batch_url = get_next_link(batch_response.headers)
+    while batch_url:
+        batch_response = session.get(batch_url)
+        batch_response.raise_for_status()
+        yield decode_results(batch_response, fileformat)
+        batch_url = get_next_link(batch_response.headers)
+
+
+def combine_batches(all_results, batch_results, fileformat):
+    if fileformat == "json":
+        for key in ("results", "failedIds"):
+            if batch_results[key]:
+                all_results[key] += batch_results[key]
+    else:
+        return all_results + batch_results
+    return all_results
+
+
+def get_id_mapping_results_link(job_id):
+    url = f"{API_URL}/idmapping/details/{job_id}"
+    r = session.get(url)
+    r.raise_for_status()
+    return r.json()["redirectURL"]
+
+
+def decode_results(response, fileformat):
+    if fileformat == "json":
+        return response.json()
+    elif fileformat == "tsv":
+        return [line for line in response.text.split("\n") if line]
+    return response.text
+
+
+def get_id_mapping_results_search(url):
+    parsed = urlparse(url)
+    query = parse_qs(parsed.query)
+    fileformat = query["format"][0] if "format" in query else "json"
+    if "size" not in query:
+        query["size"] = 500
+    parsed = parsed._replace(query=urlencode(query, doseq=True))
+    url = parsed.geturl()
+    r = session.get(url)
+    r.raise_for_status()
+    results = decode_results(r, fileformat)
+    total = r.headers["x-total-results"]
+    for batch in get_batch(r, fileformat):
+        results = combine_batches(results, batch, fileformat)
+        n = len(results["results"])
+        print(f"{n} / {total}")
+    return results
+
+
+def get_id_mapping_results_stream(url):
+    if "/stream/" not in url:
+        url = url.replace("/results/", "/results/stream/")
+    r = session.get(url)
+    r.raise_for_status()
+    parsed = urlparse(url)
+    query = parse_qs(parsed.query)
+    fileformat = query["format"][0] if "format" in query else "json"
+    return decode_results(r, fileformat)
 
 
 job_id = submit_id_mapping(
-    fromDB="UniProtKB_AC-ID", toDB="ChEMBL", ids=["P05067", "P12345"]
+    from_db="UniProtKB_AC-ID", to_db="ChEMBL", ids=["P05067", "P12345"]
 )
-results = get_id_mapping_results(job_id)
-print(json.dumps(results, indent=2))
-```
+if check_id_mapping_results_ready(job_id):
+    link = get_id_mapping_results_link(job_id)
+    results = get_id_mapping_results_search(link)
+    # Equivalently using the stream endpoint which is more demanding on the API and so is less stable:
+    # results = get_id_mapping_results_stream(link)
 
-Produces the following output:
-
-```
-Retrying in 3s
-{
-  "results": [
-    {
-      "from": "P05067",
-      "to": "CHEMBL2487"
-    }
-  ],
-  "failedIds": [
-    "P12345"
-  ]
-}
+print(results)
+# {'results': [{'from': 'P05067', 'to': 'CHEMBL2487'}], 'failedIds': ['P12345']}
 ```
