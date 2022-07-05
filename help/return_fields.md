@@ -68,7 +68,7 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 
 # Function
 
-|       **Label**        |   **Previous Returned Field**   | **Current Returned Field** |
+|       **Label**        |    **Legacy Returned Field**    | **Current Returned Field** |
 | :--------------------: | :-----------------------------: | :------------------------: |
 |       Absorption       |       comment(ABSORPTION)       |         absorption         |
 |      Active site       |      feature(ACTIVE SITE)       |        ft_act_site         |
@@ -86,37 +86,37 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 |        Pathway         |        comment(PATHWAY)         |         cc_pathway         |
 |     pH dependence      |     comment(PH DEPENDENCE)      |       ph_dependence        |
 |    Redox potential     |    comment(REDOX POTENTIAL)     |      redox_potential       |
-|        Rhea ID         |             rhea-id             |          rhea           |
+|        Rhea ID         |             rhea-id             |            rhea            |
 |          Site          |          feature(SITE)          |          ft_site           |
 | Temperature dependence | comment(TEMPERATURE DEPENDENCE) |      temp_dependence       |
 
 # Miscellaneous
 
-|     **Label**      | **Previous Returned Field** | **Current Returned Field** |
-| :----------------: | :-------------------------: | :------------------------: |
-|     Annotation     |      annotation score       |      annotation_score      |
-|      Caution       |      comment(CAUTION)       |         cc_caution         |
-|   Comment Count    |     \<does not exist\>      |       comment_count        |
-|      Features      |          features           |      feature\_count        |
-|     Keyword ID     |         keyword-id          |         keywordid          |
-|      Keywords      |          keywords           |          keyword           |
-|    Matched text    |           context           |     \<does not exist\>     |
-| Miscellaneous [CC] |   comment(MISCELLANEOUS)    |      cc_miscellaneous      |
-| Protein existence  |          existence          |     protein_existence      |
-|      Reviewed      |          reviewed           |          reviewed          |
-|       Tools        |            tools            |           tools            |
-|      UniParc       |          uniparcid          |         uniparc_id         |
+|     **Label**      | **Legacy Returned Field** | **Current Returned Field** |
+| :----------------: | :-----------------------: | :------------------------: |
+|     Annotation     |     annotation score      |      annotation_score      |
+|      Caution       |     comment(CAUTION)      |         cc_caution         |
+|   Comment Count    |    \<does not exist\>     |       comment_count        |
+|      Features      |         features          |       feature_count        |
+|     Keyword ID     |        keyword-id         |         keywordid          |
+|      Keywords      |         keywords          |          keyword           |
+|    Matched text    |          context          |     \<does not exist\>     |
+| Miscellaneous [CC] |  comment(MISCELLANEOUS)   |      cc_miscellaneous      |
+| Protein existence  |         existence         |     protein_existence      |
+|      Reviewed      |         reviewed          |          reviewed          |
+|       Tools        |           tools           |           tools            |
+|      UniParc       |         uniparcid         |         uniparc_id         |
 
 # Interaction
 
-|       **Label**       | **Previous Returned Field** | **Current Returned Field** |
-| :-------------------: | :-------------------------: | :------------------------: |
-|    Interacts with     |         interactor          |       cc_interaction       |
-| Subunit structure[CC] |      comment(SUBUNIT)       |         cc_subunit         |
+|       **Label**       | **Legacy Returned Field** | **Current Returned Field** |
+| :-------------------: | :-----------------------: | :------------------------: |
+|    Interacts with     |        interactor         |       cc_interaction       |
+| Subunit structure[CC] |     comment(SUBUNIT)      |         cc_subunit         |
 
 # Expression
 
-|      **Label**      | **Previous Returned Field**  | **Current Returned Field** |
+|      **Label**      |  **Legacy Returned Field**   | **Current Returned Field** |
 | :-----------------: | :--------------------------: | :------------------------: |
 | Developmental stage | comment(DEVELOPMENTAL STAGE) |   cc_developmental_stage   |
 |      Induction      |      comment(INDUCTION)      |        cc_induction        |
@@ -124,17 +124,17 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 
 # Gene Ontology (GO)
 
-|             **Label**              | **Previous Returned Field** | **Current Returned Field** |
-| :--------------------------------: | :-------------------------: | :------------------------: |
-| Gene ontology (biological process) |   go(biological process)    |            go_p            |
-| Gene ontology (cellular component) |   go(cellular component)    |            go_c            |
-|         Gene ontology (GO)         |             go              |             go             |
-| Gene ontology (molecular function) |   go(molecular function)    |            go_f            |
-|         Gene ontology IDs          |            go-id            |           go_id            |
+|             **Label**              | **Legacy Returned Field** | **Current Returned Field** |
+| :--------------------------------: | :-----------------------: | :------------------------: |
+| Gene ontology (biological process) |  go(biological process)   |            go_p            |
+| Gene ontology (cellular component) |  go(cellular component)   |            go_c            |
+|         Gene ontology (GO)         |            go             |             go             |
+| Gene ontology (molecular function) |  go(molecular function)   |            go_f            |
+|         Gene ontology IDs          |           go-id           |           go_id            |
 
 # Pathology & Biotech
 
-|       **Label**        |  **Previous Returned Field**  | **Current Returned Field** |
+|       **Label**        |   **Legacy Returned Field**   | **Current Returned Field** |
 | :--------------------: | :---------------------------: | :------------------------: |
 | Allergenic properties  |       comment(ALLERGEN)       |        cc_allergen         |
 |  Biotechnological use  |    comment(BIOTECHNOLOGY)     |      cc_biotechnology      |
@@ -146,7 +146,7 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 
 # Subcellular location
 
-|        **Label**         |  **Previous Returned Field**  | **Current Returned Field** |
+|        **Label**         |   **Legacy Returned Field**   | **Current Returned Field** |
 | :----------------------: | :---------------------------: | :------------------------: |
 |      Intramembrane       |    feature(INTRAMEMBRANE)     |        ft_intramem         |
 | Subcellular location[CC] | comment(SUBCELLULAR LOCATION) |  cc_subcellular_location   |
@@ -155,7 +155,7 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 
 # PTM / Processsing
 
-|            **Label**            |  **Previous Returned Field**  | **Current Returned Field** |
+|            **Label**            |   **Legacy Returned Field**   | **Current Returned Field** |
 | :-----------------------------: | :---------------------------: | :------------------------: |
 |              Chain              |        feature(CHAIN)         |          ft_chain          |
 |           Cross-link            |      feature(CROSS LINK)      |        ft_crosslnk         |
@@ -172,32 +172,32 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 
 # Structure
 
-|  **Label**  | **Previous Returned Field** | **Current Returned Field** |
-| :---------: | :-------------------------: | :------------------------: |
-|     3D      |             3d              |        structure_3d        |
-| Beta strand |    feature(BETA STRAND)     |         ft_strand          |
-|    Helix    |       feature(HELIX)        |          ft_helix          |
-|    Turn     |        feature(TURN)        |          ft_turn           |
+|  **Label**  | **Legacy Returned Field** | **Current Returned Field** |
+| :---------: | :-----------------------: | :------------------------: |
+|     3D      |            3d             |        structure_3d        |
+| Beta strand |   feature(BETA STRAND)    |         ft_strand          |
+|    Helix    |      feature(HELIX)       |          ft_helix          |
+|    Turn     |       feature(TURN)       |          ft_turn           |
 
 # Publications
 
-|    **Label**     | **Previous Returned Field** | **Current Returned Field** |
-| :--------------: | :-------------------------: | :------------------------: |
-| Mapped PubMed ID |       citationmapping       |     \<does not exist\>     |
-|    PubMed ID     |          citation           |       lit_pubmed_id        |
+|    **Label**     | **Legacy Returned Field** | **Current Returned Field** |
+| :--------------: | :-----------------------: | :------------------------: |
+| Mapped PubMed ID |      citationmapping      |     \<does not exist\>     |
+|    PubMed ID     |         citation          |       lit_pubmed_id        |
 
 # Date of
 
-|             **Label**              | **Previous Returned Field** | **Current Returned Field** |
-| :--------------------------------: | :-------------------------: | :------------------------: |
-|          Date of creation          |           created           |        date_created        |
-|     Date of last modification      |        last-modified        |       date_modified        |
-| Date of last sequence modification |      sequence-modified      |   date_sequence_modified   |
-|           Entry version            |       version(entry)        |          version           |
+|             **Label**              | **Legacy Returned Field** | **Current Returned Field** |
+| :--------------------------------: | :-----------------------: | :------------------------: |
+|          Date of creation          |          created          |        date_created        |
+|     Date of last modification      |       last-modified       |       date_modified        |
+| Date of last sequence modification |     sequence-modified     |   date_sequence_modified   |
+|           Entry version            |      version(entry)       |          version           |
 
 # Family & Domains
 
-|       **Label**       | **Previous Returned Field** | **Current Returned Field** |
+|       **Label**       |  **Legacy Returned Field**  | **Current Returned Field** |
 | :-------------------: | :-------------------------: | :------------------------: |
 |      Coiled coil      |    feature(COILED COIL)     |         ft_coiled          |
 |  Compositional bias   | feature(COMPOSITIONAL BIAS) |        ft_compbias         |
