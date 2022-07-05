@@ -381,6 +381,8 @@ def decode_results(response, file_format, compressed):
             return [line for line in decompressed.decode("utf-8").split("\n") if line]
         elif file_format == "xlsx":
             return [decompressed]
+        elif file_format == "xml":
+            return [decompressed.decode("utf-8")]
         else:
             return decompressed.decode("utf-8")
     elif file_format == "json":
@@ -389,6 +391,8 @@ def decode_results(response, file_format, compressed):
         return [line for line in response.text.split("\n") if line]
     elif file_format == "xlsx":
         return [response.content]
+    elif file_format == "xml":
+        return [response.text]
     return response.text
 
 
@@ -400,7 +404,7 @@ def print_progress_batches(batch_index, size, total):
 def get_id_mapping_results_search(url):
     parsed = urlparse(url)
     query = parse_qs(parsed.query)
-    file_format = query["format"][0].lower() if "format" in query else "json"
+    file_format = query["format"][0] if "format" in query else "json"
     if "size" in query:
         size = int(query["size"][0])
     else:
@@ -434,6 +438,21 @@ def get_id_mapping_results_stream(url):
         query["compressed"][0].lower() == "true" if "compressed" in query else False
     )
     return decode_results(request, file_format, compressed)
+
+
+def main():
+    job_id = submit_id_mapping(
+        from_db="UniProtKB_AC-ID", to_db="ChEMBL", ids=["P05067", "P12345"]
+    )
+    if check_id_mapping_results_ready(job_id):
+        link = get_id_mapping_results_link(job_id)
+        results = get_id_mapping_results_search(link)
+        # Equivalently using the stream endpoint which is more demanding
+        # on the API and so is less stable:
+        # results = get_id_mapping_results_stream(link)
+
+    print(results)
+    # {'results': [{'from': 'P05067', 'to': 'CHEMBL2487'}], 'failedIds': ['P12345']}
 
 
 
