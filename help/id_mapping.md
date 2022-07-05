@@ -296,6 +296,7 @@ import re
 import time
 import json
 import zlib
+from xml.etree import ElementTree
 from urllib.parse import urlparse, parse_qs, urlencode
 import requests
 from requests.adapters import HTTPAdapter, Retry
@@ -396,6 +397,21 @@ def decode_results(response, file_format, compressed):
     return response.text
 
 
+def get_xml_namespace(element):
+    m = re.match(r"\{(.*)\}", element.tag)
+    return m.groups()[0] if m else ""
+
+
+def merge_xml_results(xml_results):
+    merged_root = ElementTree.fromstring(xml_results[0])
+    for result in xml_results[1:]:
+        root = ElementTree.fromstring(result)
+        for child in root.findall("{http://uniprot.org/uniprot}entry"):
+            merged_root.insert(-1, child)
+    ElementTree.register_namespace("", get_xml_namespace(merged_root[0]))
+    return ElementTree.tostring(merged_root, encoding="utf-8", xml_declaration=True)
+
+
 def print_progress_batches(batch_index, size, total):
     n_fetched = min((batch_index + 1) * size, total)
     print(f"Fetched: {n_fetched} / {total}")
@@ -420,9 +436,11 @@ def get_id_mapping_results_search(url):
     results = decode_results(request, file_format, compressed)
     total = int(request.headers["x-total-results"])
     print_progress_batches(0, size, total)
-    for i, batch in enumerate(get_batch(request, file_format, compressed)):
+    for i, batch in enumerate(get_batch(request, file_format, compressed), 1):
         results = combine_batches(results, batch, file_format)
-        print_progress_batches(i + 1, size, total)
+        print_progress_batches(i, size, total)
+    if file_format == "xml":
+        return merge_xml_results(results)
     return results
 
 
@@ -438,22 +456,6 @@ def get_id_mapping_results_stream(url):
         query["compressed"][0].lower() == "true" if "compressed" in query else False
     )
     return decode_results(request, file_format, compressed)
-
-
-def main():
-    job_id = submit_id_mapping(
-        from_db="UniProtKB_AC-ID", to_db="ChEMBL", ids=["P05067", "P12345"]
-    )
-    if check_id_mapping_results_ready(job_id):
-        link = get_id_mapping_results_link(job_id)
-        results = get_id_mapping_results_search(link)
-        # Equivalently using the stream endpoint which is more demanding
-        # on the API and so is less stable:
-        # results = get_id_mapping_results_stream(link)
-
-    print(results)
-    # {'results': [{'from': 'P05067', 'to': 'CHEMBL2487'}], 'failedIds': ['P12345']}
-
 
 
 job_id = submit_id_mapping(
