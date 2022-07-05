@@ -491,3 +491,29 @@ get_id_mapping_results_stream("https://rest.uniprot.org/idmapping/uniprotkb/resu
 get_id_mapping_results_search("https://rest.uniprot.org/idmapping/uniprotkb/results/2a0489825ffd01e63a6682b3ae89ba43bfe47169?format=fasta&size=500")
 ```
 
+## Getting a Pandas DataFrame from results
+
+#### From TSV results
+
+```
+import csv
+import pandas as pd
+
+def get_data_frame_from_tsv_results(tsv_results):
+    reader = csv.DictReader(tsv_results, delimiter="\t", quotechar='"')
+    return pd.DataFrame(list(reader))
+```
+
+#### From Excel/XLSX results
+
+```
+import io
+import pandas as pd
+
+def get_data_frame_from_xlsx_results(xlxs_results):
+    return pd.concat(
+        [pd.read_excel(io.BytesIO(result)) for result in xlxs_results],
+        ignore_index=True,
+    )
+
+```
