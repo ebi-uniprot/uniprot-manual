@@ -49,6 +49,14 @@ Be sure to take note of the `jobId`. This will be used later to:
 |  100,000  |       Total number of "mapped to" ids allowed to be enriched by UniProt data       |
 |  10,000   |               Total number of "mapped to" ids allowed with filtering               |
 
+## Valid _from_ and _to_ databases pairs
+
+You can map `from` one database `to` another database. To find the name of all the possible valid databases pairs (both from and to), use the below curl command:
+
+```bash
+% curl https://rest.uniprot.org/configure/idmapping/fields
+```
+
 # Polling the status of a job
 
 > GET /idmapping/status/{jobId}
@@ -152,6 +160,16 @@ Continuing our [example above](#example), we would download the results by makin
 > **NOTE** to add the content-disposition header, e.g., so that a download file dialogue appears in a browser, include
 > the request parameter, `download=true`.
 
+## Warnings and errors for /results
+
+| **Problem Type** | **Code** |                                             **Message**                                             |
+| :--------------: | :------: | :-------------------------------------------------------------------------------------------------: |
+|     Warning      |    20    |               Filters are not supported for mapping results with IDs more than 10,000               |
+|     Warning      |    21    | UniProt data enrichment is not supported for mapping results with "mapped to" IDs more than 100,000 |
+|      Error       |    40    |     Id Mapping API is not supported for mapping results with "mapped to" IDs more than 500,000      |
+|      Error       |    50    |                               \<Actual application error as message\>                               |
+
+
 # Fetching details about a job
 
 Details of a submitted job, including the `from`, `to` and `ids` to map, can be obtained via this end-point:
@@ -177,23 +195,6 @@ For example:
 >   "redirectURL": "https://rest.uniprot.org/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300"
 > }
 > ```
-
-# Warnings and errors in various responses
-
-| **Problem Type** | **Code** |                                             **Message**                                             |
-| :--------------: | :------: | :-------------------------------------------------------------------------------------------------: |
-|     Warning      |    20    |               Filters are not supported for mapping results with IDs more than 10,000               |
-|     Warning      |    21    | UniProt data enrichment is not supported for mapping results with "mapped to" IDs more than 100,000 |
-|      Error       |    40    |     Id Mapping API is not supported for mapping results with "mapped to" IDs more than 500,000      |
-|      Error       |    50    |                               \<Actual application error as message\>                               |
-
-# Valid _from_ and _to_ databases pairs
-
-You can map `from` one database `to` another database. To find the name of all the possible valid databases pairs (both from and to), use the below curl command:
-
-```bash
-% curl https://rest.uniprot.org/configure/idmapping/fields
-```
 
 ## How to interpret the response
 
