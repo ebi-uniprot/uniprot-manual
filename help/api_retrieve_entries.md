@@ -47,7 +47,7 @@ The following [status codes](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.h
 
 A request for an address such as
 
-    http://purl.uniprot.org/uniprotkb/P12345
+    http://purl.uniprot.org/uniprot/P12345
 
 will be resolved, where possible, by redirection to the corresponding resource (see previous section). For UniProt resources, entries are returned in RDF/XML format if the HTTP [`'Accept'` request header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) is set to `'application/rdf+xml'`.
 
