@@ -76,7 +76,7 @@ curl "https://rest.uniprot.org/uniprotkb/search?query=human&format=gff"
 
 # Tips
 
-- Familiarise oneself with the [advanced search builder](https://www.uniprot.org/help/advanced_search) by clicking on **Advanced**.
+- Familiarise yourself with the [advanced search builder](https://www.uniprot.org/help/advanced_search) by clicking on **Advanced**.
 - Click [Customize data](https://www.uniprot.org/help/customize) on the search results page to select the columns to show in the results table.
 - You can also look up your relevant column names in the full list of [UniProtKB column names for programmatic access](https://www.uniprot.org/help/return_fields).
 
@@ -111,12 +111,12 @@ All examples here use `Python 3` with the `requests` library. There are repeated
 
 ### 1.1 Small number of results: use stream
 
-In this context we want to fetch a small number of search results and save these into a variable in memory so these can then be utilised within the script. To motivate this we will download the reviewed entries from the organism SARS-CoV-2 in UniProtKB:
+In this context we want to fetch a small number of search results and save these into a variable in memory so these can then be utilised within the script. To motivate this, we will download the reviewed entries from the organism SARS-CoV-2 in UniProtKB:
 
 #### Stream limitations
 
-- The stream endpoint is expensive for the API to process and for this reason there is a limitation on the number of parallel requests it will handle. In the case of the stream API having too many requests a `429` status will be returned in which case you can either use pagination (see 1.2) or try stream again later.
-- The stream endpoint can handle at most result sets with 5,000,000 entries. If you require more consider: looking at FTP downloads; reduce your search by being more specific; using pagination (see 1.2)
+- The stream endpoint is expensive for the API to process and for this reason there is a limitation on the number of parallel requests it will handle. In the case of the stream API having too many requests a `429` status will be returned in which case you can either use [pagination](https://www.uniprot.org/help/pagination) (see 1.2) or try stream again later.
+- The stream endpoint can handle result sets with at most 5,000,000 entries. If you require more, consider: looking at FTP downloads; reducing your search by being more specific; using [pagination](https://www.uniprot.org/help/pagination) (see 1.2).
 
 #### Steps
 
@@ -149,7 +149,7 @@ fasta_list = re.split(r'\n(?=>)', all_fastas)
 
 ### 1.2 Large number of results: use pagination
 
-When there are a large number of results to fetch it is advisable to use "pagination" which means fetching batches of results one at a time. This is preferable to streaming because:
+When there are a large number of results to fetch it is advisable to use [pagination](https://www.uniprot.org/help/pagination) which means fetching batches of results one at a time. This is preferable to streaming because:
 
 1. Small memory footprint: if the search result data exceeds your computer's memory, downloading by streaming this at once will cause your Python script to crash. Pagiation will only load a subset of the results into your memory at once.
 2. Robust to connection issues: if when downloading by streaming the connection is interrupted, the download will need to be completely restarted. When working with pagiation, each batch can be reattempted from the point of failure without requiring to restart.
