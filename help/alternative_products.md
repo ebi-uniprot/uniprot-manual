@@ -34,16 +34,16 @@ We provide the name and synomym(s) of the isoform, which are used in the literat
 ## Description of the sequence differences
 
 We clearly describe the alternative sequences with respect to the [canonical sequence](https://www.uniprot.org/help/canonical_and_isoforms) displayed by default in the entry.  
-*Note* : The so-called 'canonical' sequence is selected on the basis of several criteria including its function, expression, and/or conservation across orthologous species. Unless otherwise stated, [positional information](https://www.uniprot.org/help/sequence_annotation) in the entry refers to it.
+_Note_ : The so-called 'canonical' sequence is selected on the basis of several criteria including its function, expression, and/or conservation across orthologous species. Unless otherwise stated, [positional information](https://www.uniprot.org/help/sequence_annotation) in the entry refers to it.
 
-*Note* : If an isoform has been reported to exist in the literature, but we are not able to determine its sequence, we add the tag 'Sequence is not available'.  
+_Note_ : If an isoform has been reported to exist in the literature, but we are not able to determine its sequence, we add the tag 'Sequence is not available'.  
 Example: [P21836](https://www.uniprot.org/uniprotkb/P21836#sequences) (Isoform H)
 
 ## Description of characteristics that differ from the canonical form
 
 When isoforms (or products of proteolytic cleavage) are known to differ significantly in their function, localization or any other characteristics with respect to the canonical sequence, these are described in the corresponding sections of the entry. In case of positional annotations such as PTMs or variants, positions are provided with respect to the isoform sequence they refer to.
 
-Examples: [P19021](https://www.uniprot.org/uniprotkb/P19021#ptm_processing), [Q9NZU7](https://www.uniprot.org/uniprotkb/Q9NZU7#ptm_processing), [Q13510](https://www.uniprot.org/uniprotkb/Q13510##pathology_and_biotech)
+Examples: [P19021](https://www.uniprot.org/uniprotkb/P19021#ptm_processing), [Q9NZU7](https://www.uniprot.org/uniprotkb/Q9NZU7#ptm_processing), [Q13510](https://www.uniprot.org/uniprotkb/Q13510#disease_variants)
 
 ## Information in free text can be provided to complement the above items
 

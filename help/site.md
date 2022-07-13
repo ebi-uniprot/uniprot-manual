@@ -1,7 +1,7 @@
 ---
 title: Site
 type: help
-categories: Function,Pathology_and_biotech,PTM_processing,manual
+categories: Function,disease_phenotypes_variants,PTM_processing,manual
 ---
 
 This subsection describes interesting single amino acid sites on the sequence that are not defined in any other subsection. This subsection can be displayed in different sections ('Function', 'PTM / Processing', 'Pathology and Biotech') according to its content.

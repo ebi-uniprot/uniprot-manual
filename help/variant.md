@@ -37,7 +37,7 @@ Note that artificial mutants resulting from (large-scale) mutagenesis screens of
 Information on disease-linked variants is mostly restricted to human proteins and is usually found in the 'Pathology and Biotech' section. We describe the amino acid change, the abbreviation of the associated disease and the effect(s) of the variation on the protein, the cell and/or the organism, if known. The large majority of curated human disease-linked variants are germline - not somatic - changes involved in Mendelian disease and linked to phenotypes described in the [OMIM database](https://www.omim.org/).
 
 Additional information about the disease itself is provided in the ['Involvement in disease'](https://www.uniprot.org/help/involvement_in_disease) subsection of the 'Pathology and Biotech' section.  
-Examples: [O43593](https://www.uniprot.org/uniprotkb/O43593#pathology_and_biotech), [P26439](https://www.uniprot.org/uniprotkb/P26439#pathology_and_biotech)
+Examples: [O43593](https://www.uniprot.org/uniprotkb/O43593#phenotypes_variants), [P26439](https://www.uniprot.org/uniprotkb/P26439#phenotypes_variants)
 
 Related keyword: [Disease variant](https://www.uniprot.org/keywords/KW-0225)
 

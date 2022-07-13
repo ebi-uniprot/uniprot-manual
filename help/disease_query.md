@@ -1,7 +1,7 @@
 ---
 title: How can I get all the proteins involved in a given disease?
 type: help
-categories: UniProtKB,Keywords,Text_search,Human,Pathology_and_biotech,faq
+categories: UniProtKB,Keywords,Text_search,Human,disease_phenotypes_variants,faq
 ---
 
 Information relevant to diseases associated with a given protein are found in the section 'Pathology and Biotech'. The information given (including the disease name) is consistent with the literature and the [OMIM database](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim).

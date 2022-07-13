@@ -1,7 +1,7 @@
 ---
 title: Where can I buy protein X? Which company sells protein Y? Where can I buy strain Z?
 type: help
-categories: UniProtKB,Pathology_and_biotech,faq
+categories: UniProtKB,disease_phenotypes_variants,faq
 ---
 
 The UniProt consortium does not sell any biological products, neither proteins nor organisms. To obtain additional commercial information you need to access the on-line catalogs of the many suppliers of biochemicals and reagents for the life sciences.
@@ -12,16 +12,15 @@ The UniProtKB database provides for certain entries a 'Biotechnological use' sub
 
 The UniProtKB database also provides for certain entries a 'Pharmaceutical use' subsection which describes the name under which the protein is available as a the drug and the name of the firm that commercializes it.
 
-Example: [P01275](https://www.uniprot.org/uniprotkb/P01275#pathology_and_biotech)
+Example: [P01275](https://www.uniprot.org/uniprotkb/P01275#phenotypes_variants)
 
          Available under the names Glucagon (Eli Lilly) and
          GlucaGen or Glucagon Novo Nordisk (Novo Nordisk). Used to treat
          severe hypoglycemia in insulin-dependent diabetics.
 
-
 - [List of entries with 'Biotechnological use' subsection](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3Abiotechnology%29)
 - [List of entries with 'Pharmaceutical use' subsection](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3Apharmaceutical%29)
-- [`'Restriction system'` : keyword definition](https://www.uniprot.org/keywords/680) and [related list of entries](https://www.uniprot.org/uniprotkb?query=(keyword:KW-0680))
+- [`'Restriction system'` : keyword definition](https://www.uniprot.org/keywords/680) and [related list of entries](<https://www.uniprot.org/uniprotkb?query=(keyword:KW-0680)>)
 - [List of entries with a cross-reference to the REBASE database](https://www.uniprot.org/uniprotkb?query=database%3Arebase)
 
 Related terms: buy, purchase, price, cost

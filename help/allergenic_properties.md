@@ -1,15 +1,15 @@
 ---
 title: Allergenic properties
 type: help
-categories: Pathology_and_biotech,manual
+categories: disease_phenotypes_variants,manual
 ---
 
-This subsection of the ['Pathology and Biotech'](https://www.uniprot.org/help/pathology_and_biotech_section) section is used for proteins that cause an allergic reaction in mammals. We usually specify in which species the protein is allergenic.
+This subsection of the ['Pathology and Biotech'](https://www.uniprot.org/help/disease_phenotypes_variants_section) section is used for proteins that cause an allergic reaction in mammals. We usually specify in which species the protein is allergenic.
 
-Example: [Q06811](https://www.uniprot.org/uniprotkb/Q06811#pathology_and_biotech)
+Example: [Q06811](https://www.uniprot.org/uniprotkb/Q06811#phenotypes_variants)
 
 There is however an exception for an enzyme that does not cause allergic reaction by itself, but catalyzes a modification responsible for multiple allergies in human.  
-Example: [P45669](https://www.uniprot.org/uniprotkb/P45669#pathology_and_biotech)
+Example: [P45669](https://www.uniprot.org/uniprotkb/P45669#phenotypes_variants)
 
 Related keyword: [Allergen](https://www.uniprot.org/keywords/20)
 
