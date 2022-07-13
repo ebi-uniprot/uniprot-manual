@@ -16,53 +16,53 @@ The UniProt Consortium
 
 ## 2021
 
-Wang Y, Wang Q, Huang H, Huang W, Chen Y, McGarvey PB, Wu CH, Arighi CN, UniProt Consortium.
-**A crowdsourcing open platform for literature curation in UniProt**
+Wang Y, Wang Q, Huang H, Huang W, Chen Y, McGarvey PB, Wu CH, Arighi CN, UniProt Consortium.  
+**A crowdsourcing open platform for literature curation in UniProt**  
 [Plos Biology. 19(12):e3001464 (2021)](https://doi.org/10.1371/journal.pbio.3001464)
 
 ## 2020
 
-MacDougall A, Volynkin V, Saidi R, Poggioli D, Zellner H, Hatton-Ellis E, Joshi V, O'Donovan C, Orchard S, Auchincloss AH, Baratin D, Bolleman J, Coudert E, de Castro E, Hulo C, Masson P, Pedruzzi I, Rivoire C, Arighi C, Wang Q, Chen C, Huang H, Garavelli J, Vinayaka CR, Yeh LS, Natale DA, Laiho K, Martin MJ, Renaux A, Pichler K, UniProt Consortium.
-**UniRule: a unified rule resource for automatic annotation in the UniProt Knowledgebase**
+MacDougall A, Volynkin V, Saidi R, Poggioli D, Zellner H, Hatton-Ellis E, Joshi V, O'Donovan C, Orchard S, Auchincloss AH, Baratin D, Bolleman J, Coudert E, de Castro E, Hulo C, Masson P, Pedruzzi I, Rivoire C, Arighi C, Wang Q, Chen C, Huang H, Garavelli J, Vinayaka CR, Yeh LS, Natale DA, Laiho K, Martin MJ, Renaux A, Pichler K, UniProt Consortium.  
+**UniRule: a unified rule resource for automatic annotation in the UniProt Knowledgebase**  
 [Bioinformatics (Oxford, England). 36(17):4643-4648 (2020)](https://doi.org/10.1093/bioinformatics/btaa485)
 
-Bye-A-Jee H, Zaru R, Magrane M, Orchard S, UniProt Consortium.
-**Caenorhabditis elegans phosphatase complexes in UniProtKB and Complex Portal**
+Bye-A-Jee H, Zaru R, Magrane M, Orchard S, UniProt Consortium.  
+**Caenorhabditis elegans phosphatase complexes in UniProtKB and Complex Portal**  
 [The FEBS Journal. 287(13):2664-2684 (2020)](https://doi.org/10.1111/febs.15213)
 
-Breuza L, Arighi CN, Argoud-Puy G, Casals-Casas C, Estreicher A, Famiglietti ML, Georghiou G, Gos A, Gruaz-Gumowski N, Hinz U, Hyka-Nouspikel N, Kramarz B, Lovering RC, Lussi Y, Magrane M, Masson P, Perfetto L, Poux S, Rodriguez-Lopez M, Stoeckert C, Sundaram S, Wang LS, Wu E, Orchard S, IMEx Consortium, UniProt Consortium.
-**A Coordinated Approach by Public Domain Bioinformatics Resources to Aid the Fight Against Alzheimer's Disease Through Expert Curation of Key Protein Targets**
+Breuza L, Arighi CN, Argoud-Puy G, Casals-Casas C, Estreicher A, Famiglietti ML, Georghiou G, Gos A, Gruaz-Gumowski N, Hinz U, Hyka-Nouspikel N, Kramarz B, Lovering RC, Lussi Y, Magrane M, Masson P, Perfetto L, Poux S, Rodriguez-Lopez M, Stoeckert C, Sundaram S, Wang LS, Wu E, Orchard S, IMEx Consortium, UniProt Consortium.  
+**A Coordinated Approach by Public Domain Bioinformatics Resources to Aid the Fight Against Alzheimer's Disease Through Expert Curation of Key Protein Targets**  
 [Journal of Alzheimer's Disease: JAD. 77(1):257-273 (2020)](https://doi.org/10.3233/jad-200206)
 
 ## 2019
 
-Zaru R, Magrane M, Orchard S, UniProt Consortium.
-**Challenges in the annotation of pseudoenzymes in databases: the UniProtKB approach**
+Zaru R, Magrane M, Orchard S, UniProt Consortium.  
+**Challenges in the annotation of pseudoenzymes in databases: the UniProtKB approach**  
 [The FEBS Journal. 287(19):4114-4127 (2019)](https://doi.org/10.1111/febs.15100)
 
-Garcia L, Bolleman J, Gehant S, Redaschi N, Martin M, UniProt Consortium.
-**FAIR adoption, assessment and challenges at UniProt**
+Garcia L, Bolleman J, Gehant S, Redaschi N, Martin M, UniProt Consortium.  
+**FAIR adoption, assessment and challenges at UniProt**  
 [Scientific Data. 6(1):175 (2019)](https://doi.org/10.1038/s41597-019-0180-9)
 
-McGarvey PB, Nightingale A, Luo J, Huang H, Martin MJ, Wu C, UniProt Consortium.
-**UniProt genomic mapping for deciphering functional effects of missense variants**
+McGarvey PB, Nightingale A, Luo J, Huang H, Martin MJ, Wu C, UniProt Consortium.  
+**UniProt genomic mapping for deciphering functional effects of missense variants**  
 [Human Mutation. 40(6):694-705 (2019)](https://doi.org/10.1002/humu.23738)
 
-Famiglietti ML, Estreicher A, Breuza L, Poux S, Redaschi N, Xenarios I, Bridge A, UniProt Consortium.
-**An enhanced workflow for variant interpretation in UniProtKB/Swiss-Prot improves consistency and reuse in ClinVar**
+Famiglietti ML, Estreicher A, Breuza L, Poux S, Redaschi N, Xenarios I, Bridge A, UniProt Consortium.  
+**An enhanced workflow for variant interpretation in UniProtKB/Swiss-Prot improves consistency and reuse in ClinVar**  
 [Database: the Journal of Biological Databases and Curation, 2019:baz040 (2019)](https://doi.org/10.1093/database/baz040)
 
-The UniProt Consortium.
-**UniProt: a worldwide hub of protein knowledge**
+The UniProt Consortium.  
+**UniProt: a worldwide hub of protein knowledge**  
 [Nucleic Acids Res. 47:D506-515 (2019)](https://doi.org/10.1093/nar/gky1049)
 
 Morgat A, Lombardot T, Coudert E, Axelsen K, Neto TB, Gehant S, Bansal P, Bolleman J, Gasteiger E, de Castro E, Baratin D, Pozzato M, Xenarios I, Poux S, Redaschi N, Bridge A, UniProt Consortium.  
-**Enzyme annotation in UniProtKB using Rhea**
+**Enzyme annotation in UniProtKB using Rhea**  
 [Bioinformatics 36(6):1896-1901 (2019)](https://doi.org/10.1093/bioinformatics/btz817)
 
 ## 2018
 
-The UniProt Consortium.
+The UniProt Consortium.  
 **UniProt: the universal protein knowledgebase**  
 [Nucleic Acids Res. 46:2699 (2018)](http://dx.doi.org/doi:10.1093/nar/gky092)
 
