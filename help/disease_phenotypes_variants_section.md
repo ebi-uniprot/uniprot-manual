@@ -4,7 +4,7 @@ type: help
 categories: disease_phenotypes_variants,manual
 ---
 
-_previously "pathology_and_biotech"_
+_previously called "pathology and biotech"_
 
 This section provides information on the disease(s), phenotype(s), and variants associated with a protein.
 
