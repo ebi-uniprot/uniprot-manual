@@ -40,6 +40,7 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 |       Protein names        |     protein names     |      protein_name      |
 |         Proteomes          |       proteome        |     xref_proteomes     |
 |     Taxonomic lineage      |     lineage(ALL)      |        lineage         |
+|  Taxonomic lineage (IDs)   |     lineage(ALL)      |      lineage_ids       |
 |        Virus hosts         |      virus hosts      |      virus_hosts       |
 
 # Sequences
