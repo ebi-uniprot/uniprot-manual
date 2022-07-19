@@ -45,6 +45,8 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 |  Taxonomic lineage (IDs)   |       lineage(ALL)        |    lineage_ids     |
 |        Virus hosts         |        virus hosts        |    virus_hosts     |
 
+_\* Label in the old and new API unless otherwise specified_
+
 # Sequences
 
 |           **Label\***           |        **Legacy Returned Field**         |   **Returned Field**    |
