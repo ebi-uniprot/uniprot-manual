@@ -12,11 +12,12 @@ Please consider providing a contact email address as part of the User-Agent head
 
 Please click on the links below for documentation for the specific topics, including code examples:
 
--   [Retrieving individual entries](https://www.uniprot.org/help/api_retrieve_entries)
--   [Retrieving entries via queries](https://www.uniprot.org/help/api_queries)
--   [UniProtKB query fields](https://www.uniprot.org/help/query-fields)
--   [UniProtKB return fields](https://www.uniprot.org/help/return_fields)
--   [Mapping database identifiers (cf. "Retrieve/ID mapping")](https://www.uniprot.org/help/id_mapping)
--   [HTTP Statuses from the REST API](https://www.uniprot.org/help/rest-api-headers)
+- [Retrieving individual entries](https://www.uniprot.org/help/api_retrieve_entries)
+- [Retrieving entries via queries](https://www.uniprot.org/help/api_queries)
+- [UniProtKB query fields](https://www.uniprot.org/help/query-fields)
+- [UniProtKB return fields](https://www.uniprot.org/help/return_fields)
+- [UniProtKB return fields, specific article for cross-reference databases](https://www.uniprot.org/help/return_fields_databases)
+- [Mapping database identifiers (cf. "Retrieve/ID mapping")](https://www.uniprot.org/help/id_mapping)
+- [HTTP Statuses from the REST API](https://www.uniprot.org/help/rest-api-headers)
 
 Related terms: programmatic access, program, script, wget, curl, web services, API, id-mapping
