@@ -147,7 +147,7 @@ example:
 The `500 Internal server error` status code indicates that the processing of the request on the server failed unexpectedly.
 If you are able to replicate this error consistently, please report it to us through our [contact page](https://www.uniprot.org/contact).
 
-# x-uniprot-release-date
+# x-uniprot-release-date\*
 
 This response header indicates the last date that the API was updated. Refer to, [200 OK above](#200-ok), to see an example
 of its generation.
@@ -155,6 +155,8 @@ of its generation.
 > ```bash
 > x-uniprot-release-date: 25-July-2021
 > ```
+
+\* Before July 2022, the "Last-Modified" header was inaccurately used for this.
 
 # x-uniprot-release
 

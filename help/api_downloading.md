@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Download,help
 ---
 
-The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-UniProt-Release-Date:` will avoid that you download data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here are examples of how to do this in Perl:
+The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-UniProt-Release-Date:`\* will avoid that you download data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here are examples of how to do this in Perl:
 
 **Download all UniProt sequences for a given organism in FASTA format**
 
@@ -102,7 +102,7 @@ If you would like to record the UniProt release number and/or date of the data w
     }
 
 - `X-UniProt-Release:` contains the UniProt release number, e.g. `2010_08`
-- `X-UniProt-Release-Date:` contains the UniProt release date, e.g. `02-January-2022`
+- `X-UniProt-Release-Date:`\* contains the UniProt release date, e.g. `02-January-2022`
 - `X-API-Deployment-Date:` contains the API deployment date, can be different from release date (in case of hotfix) e.g. `03-January-2022`
 
 # See also
@@ -110,3 +110,5 @@ If you would like to record the UniProt release number and/or date of the data w
 - [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
 - \- batch retrieval, ID mapping, queries, downloads, etc
 - [How can I (programmatically) obtain the number of results returned by my query?](https://www.uniprot.org/help/entry_count)
+
+\* Before July 2022, the "Last-Modified" header was inaccurately used for this.
