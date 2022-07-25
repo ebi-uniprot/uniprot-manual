@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Technical,help
 ---
 
-To use our [database identifier mapping ('Retrieve/ID mapping')](https://www.uniprot.org/help/uploadlists) service programmatically you need to know the abbreviations for the database names. Some databases map only one way. You can find this table below the links to our code examples.
+To use our [database identifier mapping ('Retrieve/ID mapping')](/help/uploadlists) service programmatically you need to know the abbreviations for the database names. Some databases map only one way. You can find this table below the links to our code examples.
 
 Here are some examples for querying the database mapping service using:
 
