@@ -32,10 +32,8 @@ The current entry view displays annotation by subject (Function, PTM & processin
 | [Intramembrane](https://www.uniprot.org/help/intramem)      | ft_intramem     | Extent of a region located in a membrane without crossing it       |
 | [Domain](https://www.uniprot.org/help/domain)               | ft_domain       | Position and type of each modular protein domain                   |
 | [Repeat](https://www.uniprot.org/help/repeat)               | ft_repeat       | Positions of repeated sequence motifs or repeated domains          |
-| [Calcium binding](https://www.uniprot.org/help/ca_bind)     | ft_ca_bind      | Position(s) of calcium binding region(s) within the protein        |
 | [Zinc finger](https://www.uniprot.org/help/zn_fing)         | ft_zn_fing      | Position(s) and type(s) of zinc fingers within the protein         |
 | [DNA binding](https://www.uniprot.org/help/dna_bind)        | ft_dna_bind     | Position and type of a DNA\-binding domain                         |
-| [Nucleotide binding](https://www.uniprot.org/help/np_bind)  | ft_np_bind      | Nucleotide phosphate binding region                                |
 | [Region](https://www.uniprot.org/help/region)               | ft_region       | Region of interest in the sequence                                 |
 | [Coiled coil](https://www.uniprot.org/help/coiled)          | ft_coiled       | Positions of regions of coiled coil within the protein             |
 | [Motif](https://www.uniprot.org/help/motif)                 | ft_motif        | Short (up to 20 amino acids) sequence motif of biological interest |
@@ -46,7 +44,6 @@ The current entry view displays annotation by subject (Function, PTM & processin
 | **Subsection**                                       | **Query Field** | **Content**                                                             |
 | ---------------------------------------------------- | --------------- | ----------------------------------------------------------------------- |
 | [Active site](https://www.uniprot.org/help/act_site) | ft_act_site     | Amino acid(s) directly involved in the activity of an enzyme            |
-| [Metal binding](https://www.uniprot.org/help/metal)  | ft_metal        | Binding site for a metal ion                                            |
 | [Binding site](https://www.uniprot.org/help/binding) | ft_binding      | Binding site for any chemical group (co-enzyme, prosthetic group, etc.) |
 | [Site](https://www.uniprot.org/help/site)            | ft_site         | Any interesting single amino acid site on the sequence                  |
 
