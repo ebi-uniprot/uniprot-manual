@@ -298,3 +298,5 @@ Related keyword: [S-nitrosylation](https://www.uniprot.org/keywords/702)
 The nature of the post-translationally formed amino acid is annotated by using a controlled vocabulary. The currently defined list of controlled vocabulary, as well as other information, such as the target amino acid, the related keyword, the taxonomic range and the subcellular location of the modification, are available in [ptmlist.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist) document. Links to the RESID database are also provided to help gain a better insight into every modification.
 
 See also: [Evidence](https://www.uniprot.org/help/evidences), [Post-translational modifications](https://www.uniprot.org/help/post-translational_modification), [Advanced search](https://www.uniprot.org/help/advanced_search)
+
+testing
