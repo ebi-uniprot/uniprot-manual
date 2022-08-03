@@ -1,5 +1,5 @@
 ---
-title: Metal binding
+title: Metal binding - deprecated
 type: help
 categories: Function,manual
 ---
