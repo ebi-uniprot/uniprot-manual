@@ -1,5 +1,5 @@
 ---
-title: Calcium binding
+title: Calcium binding - deprecated
 type: help
 categories: Function,manual
 ---
