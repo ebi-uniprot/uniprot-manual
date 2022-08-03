@@ -1,5 +1,5 @@
 ---
-title: Nucleotide binding
+title: Nucleotide binding - deprecated
 type: help
 categories: Function,manual
 ---
