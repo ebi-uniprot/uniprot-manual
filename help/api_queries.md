@@ -320,6 +320,7 @@ The example from 1.2 will be used.
 6. Always use `size=500` as this will provide fast performance.
 
 ```python
+import re
 import requests
 from requests.adapters import HTTPAdapter, Retry
 
