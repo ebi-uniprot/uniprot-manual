@@ -447,7 +447,7 @@ def get_id_mapping_results_search(url):
 
 def get_id_mapping_results_stream(url):
     if "/stream/" not in url:
-        url = url.replace("/results/", "/stream/")
+        url = url.replace("/results/", "/results/stream/")
     request = session.get(url)
     request.raise_for_status()
     parsed = urlparse(url)
