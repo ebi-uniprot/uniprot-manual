@@ -45,7 +45,8 @@ Example: [P39186](https://www.uniprot.org/uniprotkb/P39186)
 
 This subsection complements the information on covalent binding
 described in the [Modified residue](https://www.uniprot.org/help/mod_res), [Glyosylation](https://www.uniprot.org/help/carbohyd) and 
-[Lipidation](https://www.uniprot.org/help/lipid) subsections as well as the information in the [Active site](https://www.uniprot.org/help/act_site) subsection concerning unstablereaction intermediates.
+[Lipidation](https://www.uniprot.org/help/lipid) subsections as well as the information in the [Active site](https://www.uniprot.org/help/act_site) subsection concerning unstable
+reaction intermediates.
 
 
 In this subsection, we do not annotate general protein-protein
