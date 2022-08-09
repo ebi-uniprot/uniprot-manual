@@ -20,10 +20,6 @@ GO terms can be manually or electronically assigned to a UniProtKB entry:
 
 Note that many UniProtKB keywords are manually mapped to GO terms (see document ' [Controlled vocabulary of keywords](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist) '), but the resulting GO annotations in UniProtKB appear with a blue label as "inferred from electronic annotation".
 
-# GO subsets
-
-GO subsets, also known as GO slims, are cut-down versions of the GO which contain a subset of the terms. GO subsets are specified by tags within the ontology that indicate if a given term is a member of a particular subset. Read more about the creation and maintenance of GO subsets in this [guide](http://geneontology.org/docs/go-subset-guide/).
-
 # List of GO evidence codes found in UniProtKB
 
 -   EXP: Inferred from Experiment  
