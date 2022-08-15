@@ -304,7 +304,6 @@ from requests.adapters import HTTPAdapter, Retry
 
 
 POLLING_INTERVAL = 3
-
 API_URL = "https://rest.uniprot.org"
 
 
@@ -313,12 +312,20 @@ session = requests.Session()
 session.mount("https://", HTTPAdapter(max_retries=retries))
 
 
+def check_response(response):
+    try:
+        response.raise_for_status()
+    except requests.HTTPError:
+        print(response.json())
+        raise
+
+
 def submit_id_mapping(from_db, to_db, ids):
     request = requests.post(
         f"{API_URL}/idmapping/run",
         data={"from": from_db, "to": to_db, "ids": ",".join(ids)},
     )
-    request.raise_for_status()
+    check_response(request)
     return request.json()["jobId"]
 
 
@@ -333,7 +340,7 @@ def get_next_link(headers):
 def check_id_mapping_results_ready(job_id):
     while True:
         request = session.get(f"{API_URL}/idmapping/status/{job_id}")
-        request.raise_for_status()
+        check_response(request)
         j = request.json()
         if "jobStatus" in j:
             if j["jobStatus"] == "RUNNING":
@@ -369,7 +376,7 @@ def combine_batches(all_results, batch_results, file_format):
 def get_id_mapping_results_link(job_id):
     url = f"{API_URL}/idmapping/details/{job_id}"
     request = session.get(url)
-    request.raise_for_status()
+    check_response(request)
     return request.json()["redirectURL"]
 
 
@@ -433,7 +440,7 @@ def get_id_mapping_results_search(url):
     parsed = parsed._replace(query=urlencode(query, doseq=True))
     url = parsed.geturl()
     request = session.get(url)
-    request.raise_for_status()
+    check_response(request)
     results = decode_results(request, file_format, compressed)
     total = int(request.headers["x-total-results"])
     print_progress_batches(0, size, total)
@@ -449,7 +456,7 @@ def get_id_mapping_results_stream(url):
     if "/stream/" not in url:
         url = url.replace("/results/", "/results/stream/")
     request = session.get(url)
-    request.raise_for_status()
+    check_response(request)
     parsed = urlparse(url)
     query = parse_qs(parsed.query)
     file_format = query["format"][0] if "format" in query else "json"
