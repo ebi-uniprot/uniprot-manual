@@ -6,7 +6,7 @@ categories: UniProtKB,disease_phenotypes_variants,faq
 
 The UniProt consortium does not sell any biological products, neither proteins nor organisms. To obtain additional commercial information you need to access the on-line catalogs of the many suppliers of biochemicals and reagents for the life sciences.
 
-To the best of our knowledge this information is not available in any exhaustive public compilation i.e. one that includes all suppliers. There are some exceptions such as, for example, the commercial availability of restriction enzymes which can be obtained from the [REBASE database](http://rebase.neb.com/rebase/rebase.html) or for peptides (amino acids, peptide synthesis reagents, or peptides) from the [Peptide Resource Page](http://www.peptideresource.com/). In addition some useful links maybe found in the [Life Science Directory](http://www.expasy.org/links.html) list present on the ExPASy server. In the [Gateways section](http://www.expasy.org/links.html#Gateways), there is a website called [Enzyme Directory](http://www.enzymedirectory.com/). Other interesting information can be found in the [Biotech and pharmaceutical companies](http://www.expasy.org/links.html#Biotech) section (Note that these pages are not updated anymore).
+To the best of our knowledge this information is not available in any exhaustive public compilation i.e. one that includes all suppliers. There are some exceptions such as, for example, the commercial availability of restriction enzymes which can be obtained from the [REBASE database](http://rebase.neb.com/rebase/rebase.html) or for peptides (amino acids, peptide synthesis reagents, or peptides) from the [Peptide Resource Page](https://www.csbio.com/peptides.html). In addition some useful links maybe found in the [Life Science Directory](http://www.expasy.org/links.html) list present on the ExPASy server. In the [Gateways section](http://www.expasy.org/links.html#Gateways), there is a website called [Enzyme Directory](http://www.enzymedirectory.com/). Other interesting information can be found in the [Biotech and pharmaceutical companies](http://www.expasy.org/links.html#Biotech) section (Note that these pages are not updated anymore).
 
 The UniProtKB database provides for certain entries a 'Biotechnological use' subsection which describes the use of a specific protein in a biotechnological process. It explains in a few words in which biotechnological process the protein is used or could be used with an explanation that describes the commercial use of the protein.
 
@@ -18,8 +18,8 @@ Example: [P01275](https://www.uniprot.org/uniprotkb/P01275#phenotypes_variants)
          GlucaGen or Glucagon Novo Nordisk (Novo Nordisk). Used to treat
          severe hypoglycemia in insulin-dependent diabetics.
 
-- [List of entries with 'Biotechnological use' subsection](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3Abiotechnology%29)
-- [List of entries with 'Pharmaceutical use' subsection](https://www.uniprot.org/uniprotkb?query=annotation%3A%28type%3Apharmaceutical%29)
+- [List of entries with 'Biotechnological use' subsection](https://www.uniprot.org/uniprotkb?query=%28cc_biotechnology%3A%2A%29)
+- [List of entries with 'Pharmaceutical use' subsection](https://www.uniprot.org/uniprotkb?query=%28cc_pharmaceutical%3A%2A%29)
 - [`'Restriction system'` : keyword definition](https://www.uniprot.org/keywords/680) and [related list of entries](<https://www.uniprot.org/uniprotkb?query=(keyword:KW-0680)>)
 - [List of entries with a cross-reference to the REBASE database](https://www.uniprot.org/uniprotkb?query=database%3Arebase)
 
