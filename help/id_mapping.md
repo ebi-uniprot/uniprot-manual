@@ -169,7 +169,6 @@ Continuing our [example above](#example), we would download the results by makin
 |      Error       |    40    |     Id Mapping API is not supported for mapping results with "mapped to" IDs more than 500,000      |
 |      Error       |    50    |                               \<Actual application error as message\>                               |
 
-
 # Fetching details about a job
 
 Details of a submitted job, including the `from`, `to` and `ids` to map, can be obtained via this end-point:
@@ -225,7 +224,7 @@ It has the following attributes:
 - tos: List of possible `to` databases for a given `from` item.
 - defaultTo: Used by the website user-interface to be selected by default in its dropdown menu. This field is not
   relevant to standard programmatic users.
-- taxonId: Boolean flag indicating whether a third optional param `taxonId`(Taxonomy Id) is allowed in API requests
+- taxonId: Boolean flag indicating whether a third optional param `taxId`(Taxonomy Id) is allowed in API requests
   in addition to the `from` and `to` request parameters.
 
 ## Example: finding which databases UniParc identifiers can be mapped to
@@ -270,7 +269,7 @@ The important parts of this object to note are:
   `UniParc` is used as `from` request parameter value. Passing anything other than the values listed in `tos` will result
   in an error.
 - `taxonId`: The `taxonId` flag is set to false, indicating that this `from` and `to` combination does not accept an
-  optional `taxonId` (taxonomy identifier) when submitting the job.
+  optional `taxId` (taxonomy identifier) when submitting the job.
 
 3. Putting the findings into practice, we can now construct ID mapping POST requests as follows:
 
