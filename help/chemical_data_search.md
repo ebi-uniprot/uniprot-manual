@@ -16,7 +16,7 @@ categories: Text_search,Function,UniProtKB,faq
 
 # Search for small molecules
 
-UniProt has standardized annotations that involve small molecules with the [ChEBI](https://www.ebi.ac.uk/chebi) (Chemical Entities of Biological Interest) ontology to provide high quality computationally tractable annotations, and to support searches that make use of the chemical data stored in ChEBI for its entities (e.g. name and synonyms, chemical structure, hierarchicaland other relationships).
+UniProt has standardized annotations that involve small molecules with the [ChEBI](https://www.ebi.ac.uk/chebi) (Chemical Entities of Biological Interest) ontology to provide high quality computationally tractable annotations, and to support searches that make use of the chemical data stored in ChEBI for its entities (e.g. name and synonyms, chemical structure, hierarchical and other relationships).
 
 ChEBI terms are used in [Binding site](https://www.uniprot.org/help/binding), [Cofactor](https://www.uniprot.org/help/cofactor) and [Catalytic activity](https://www.uniprot.org/help/catalytic_activity) annotations, and the [Advanced search](https://www.uniprot.org/help/advanced_search) allows to search in each of these fields separately, or in all combined by selecting the "Small molecule" field.
 
