@@ -12,4 +12,4 @@ UniProtKB/TrEMBL can contain additional journals for which there is no controlle
 
 # See also
 
--   [Cross-references](https://www.uniprot.org/help/cross_references_section)
+-   [References](https://www.uniprot.org/help/publications_section)
