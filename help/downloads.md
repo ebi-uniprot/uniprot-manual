@@ -63,3 +63,16 @@ Here are the main sections of our FTP site, with links to README files and help 
 | ----------------- | ----------------------------------------------------------------------- |
 | Release notes     | [txt](https://ftp.uniprot.org/pub/databases/uniprot/relnotes.txt)       |
 | Previous releases | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/) |
+
+# Embeddings
+
+| Resource | Download |
+| -------- | -------- |
+| Reviewed (Swiss-Prot) | [per-protein](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/uniprot_sprot/reduced_embeddings_file.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/uniprot_sprot/embeddings_file.h5) |
+| Arabidopsis thaliana | [per-protein](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000006548_3702/reduced_embeddings_file.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000006548_3702/embeddings_file.h5) |
+| Caenorhabditis elegans | [per-protein](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000001940_6239/reduced_embeddings_file.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000001940_6239/embeddings_file.h5) |
+| Escherichia coli | [per-protein](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000000625_83333/reduced_embeddings_file.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000000625_83333/embeddings_file.h5) |
+| Homo sapiens | [per-protein](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000005640_9606/reduced_embeddings_file.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000005640_9606/embeddings_file.h5) |
+| Mus musculus | [per-protein](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000000589_10090/reduced_embeddings_file.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000000589_10090/embeddings_file.h5) |
+| Rattus norvegicus | [per-protein](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000002494_10116/reduced_embeddings_file.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000002494_10116/embeddings_file.h5) |
+| Sars-CoV-2 | [per-protein](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000464024_2697049/reduced_embeddings_file.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current/UP000464024_2697049/embeddings_file.h5) |
