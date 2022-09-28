@@ -23,7 +23,7 @@ the embeddings vector. The following code snippet shows how to read and iterate 
 import numpy as np
 import h5py
 
-with h5py.File("path/to/embeddings.h5", "r") as file:
+with h5py.File("path/to/reduced_embeddings.h5", "r") as file:
     print(f"number of entries: {len(file.items())}")
     for sequence_id, embedding in file.items():
         print(
@@ -31,4 +31,11 @@ with h5py.File("path/to/embeddings.h5", "r") as file:
             f"  embeddings shape: {embedding.shape}, "
             f"  embeddings mean: {np.array(embedding).mean()}"
         )
+```
+
+```
+number of entries: 3
+  id: A0A385XJ53,   embeddings shape: (1024,),   embeddings mean: -0.004241943359375
+  id: A0A385XJE6,   embeddings shape: (1024,),   embeddings mean: -0.003376007080078125
+  id: A0A385XJK5,   embeddings shape: (1024,),   embeddings mean: -0.0015363693237304688
 ```
