@@ -348,7 +348,7 @@ def check_id_mapping_results_ready(job_id):
                 print(f"Retrying in {POLLING_INTERVAL}s")
                 time.sleep(POLLING_INTERVAL)
             else:
-                raise Exception(request["jobStatus"])
+                raise Exception(j["jobStatus"])
         else:
             return bool(j["results"] or j["failedIds"])
 
