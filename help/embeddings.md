@@ -33,7 +33,7 @@ with h5py.File("path/to/embeddings.h5", "r") as file:
         )
 ```
 
-######per-protein file sample output:
+#####per-protein file sample output:
 
 ```
 number of entries: 3
@@ -42,7 +42,7 @@ number of entries: 3
   id: P0DTC2,   embeddings shape: (1024,),   embeddings mean: 0.001041412353515625
 ```
 
-######per-residue file sample output:
+#####per-residue file sample output:
 
 ```
 number of entries: 3
