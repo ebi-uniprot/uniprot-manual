@@ -11,7 +11,7 @@ To explore and try out the ID Mapping services, please refer to:
 # Overview
 
 The ID Mapping service can map between the identifiers used in one database, to the identifiers of another, e.g.,
-Ensembl to PomBase. If you map to UniProtKB, UniParc or UniRef data, the full entries will be returned to you
+from UniProt to Ensembl, or to PomBase, etc. If you map to UniProtKB, UniParc or UniRef data, the full entries will be returned to you
 for convenience.
 
 This document serves as a basic guide to using the ID Mapping services offered.
