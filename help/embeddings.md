@@ -23,7 +23,7 @@ the embeddings vector. The following code snippet shows how to read and iterate 
 import numpy as np
 import h5py
 
-with h5py.File("path/to/reduced_embeddings.h5", "r") as file:
+with h5py.File("path/to/embeddings.h5", "r") as file:
     print(f"number of entries: {len(file.items())}")
     for sequence_id, embedding in file.items():
         print(
@@ -33,9 +33,20 @@ with h5py.File("path/to/reduced_embeddings.h5", "r") as file:
         )
 ```
 
+######per-protein file sample output:
+
 ```
 number of entries: 3
-  id: A0A385XJ53,   embeddings shape: (1024,),   embeddings mean: -0.004241943359375
-  id: A0A385XJE6,   embeddings shape: (1024,),   embeddings mean: -0.003376007080078125
-  id: A0A385XJK5,   embeddings shape: (1024,),   embeddings mean: -0.0015363693237304688
+  id: A0A663DJA2,   embeddings shape: (1024,),   embeddings mean: 0.0006136894226074219
+  id: P0DTC1,   embeddings shape: (1024,),   embeddings mean: 0.0011968612670898438
+  id: P0DTC2,   embeddings shape: (1024,),   embeddings mean: 0.001041412353515625
+```
+
+######per-residue file sample output:
+
+```
+number of entries: 3
+  id: A0A663DJA2,   embeddings shape: (38, 1024),   embeddings mean: 0.0006127357482910156
+  id: P0DTC1,   embeddings shape: (4405, 1024),   embeddings mean: 0.00119781494140625
+  id: P0DTC2,   embeddings shape: (1273, 1024),   embeddings mean: 0.001041412353515625
 ```
