@@ -16,7 +16,7 @@ The data for the website is provided by our REST API. For the above example, the
 https://rest.uniprot.org/uniprotkb/search?query=(reviewed:true)%20AND%20(organism_id:9606)
 ```
 
-The rest of this page details how you can customise the restrieved date, and how to paginate through all the pages of data that the API is exposing.
+The rest of this page details how you can customise the retrieved data, and how to paginate through all the pages of data that the API is exposing.
 
 # Formats
 
