@@ -33,20 +33,23 @@ with h5py.File("path/to/embeddings.h5", "r") as file:
         )
 ```
 
-###### per-protein file sample output:
+##### SARS-CoV-2 embeddings sample output (as per 2022_04 release)
+###### per-protein file:
 
 ```
-number of entries: 3
+number of entries: 17
   id: A0A663DJA2,   embeddings shape: (1024,),   embeddings mean: 0.0006136894226074219
   id: P0DTC1,   embeddings shape: (1024,),   embeddings mean: 0.0011968612670898438
   id: P0DTC2,   embeddings shape: (1024,),   embeddings mean: 0.001041412353515625
+  ...
 ```
 
-###### per-residue file sample output:
+###### per-residue file:
 
 ```
-number of entries: 3
+number of entries: 17
   id: A0A663DJA2,   embeddings shape: (38, 1024),   embeddings mean: 0.0006127357482910156
   id: P0DTC1,   embeddings shape: (4405, 1024),   embeddings mean: 0.00119781494140625
   id: P0DTC2,   embeddings shape: (1273, 1024),   embeddings mean: 0.001041412353515625
+  ...
 ```
