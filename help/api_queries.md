@@ -4,17 +4,19 @@ type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Text_search,Technical,help
 ---
 
-You can use any query to define the set of entries that you are interested in. It is perhaps simplest to start with an interactive [text search](https://www.uniprot.org/help/text%2Dsearch) to find the URL for your set, e.g., all reviewed human entries:
+You can use any query to define the set of entries that you are interested in. It is perhaps simplest to start with an interactive [text search](https://www.uniprot.org/help/text%2Dsearch) on the website to find the URL for your set, e.g., all reviewed human entries:
 
-```bash
-https://rest.uniprot.org/uniprotkb/search?query=reviewed:true+AND+organism_id:9606
+```
+https://www.uniprot.org/uniprotkb?query=(reviewed:true)%20AND%20(organism_id:9606)
 ```
 
-The data for the website is provided by our REST API. For the above example, the REST request is:
+The data for the website is provided by our REST API. For the above example, the request to retrieve the first batch of data would be:
 
 ```bash
-https://rest.uniprot.org/uniprotkb/search?query=reviewed:true+AND+organism_id:9606
+https://rest.uniprot.org/uniprotkb/search?query=(reviewed:true)%20AND%20(organism_id:9606)
 ```
+
+The rest of this page details how you can customise the restrieved date, and how to paginate through all the pages of data that the API is exposing.
 
 # Formats
 
