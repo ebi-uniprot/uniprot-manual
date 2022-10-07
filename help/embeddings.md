@@ -10,7 +10,7 @@ Generating such embeddings is computationally expensive, but once computed they 
 such as sequence similarity search, sequence clustering, and sequence classification.
 
 UniProt is providing raw embeddings (per-protein and per-residue using the ProtT5 model)
-for UniProtKB/Swiss-Prot and some reference proteomes of model organisms (such as Homo sapiens, Sars-CoV-2, and *E. coli*).
+for UniProtKB/Swiss-Prot and some reference proteomes of model organisms (such as *Homo sapiens*, SARS-CoV-2, and *E. coli*).
 You can retrieve them from our [Downloads](https://www.uniprot.org/help/downloads) page.
 
 **Note:** Protein sequences longer than 12k residues are excluded due to limitation of GPU memory (this concerns only a handful of proteins). 
