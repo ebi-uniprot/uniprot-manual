@@ -27,6 +27,9 @@ Example: [Q9U8R2](https://www.uniprot.org/uniprotkb/Q9U8R2#ptm_processing)
 When available, specific information regarding the properties or the function of a specific disulfide bond is indicated.  
 Examples: [P19880](https://www.uniprot.org/uniprotkb/P19880#ptm_processing), [P09478](https://www.uniprot.org/uniprotkb/P09478#ptm_processing)
 
+Intrachain disulfide bonds are the "default scenario" in UniProtKB/Swiss-Prot. The word "intrachain" is usually not mentioned explicitly, only in cases where a residue can be involved (alternatingly) in more than one disulfide bond. 
+Example: [P08878](https://www.uniprot.org/uniprotkb/P08878/entry#ptm_processing)
+
 # 2. Interchain disulfide bonds (between homo- and heterodimers)
 
 Interchain disulfide bonds are formed between two cysteines of individual chains of the same protein or between two cysteines of distinct proteins. We explicitly describe interchain disulfide bonds giving the name of the second protein or chain (if it is different), and specifying the position of the second cysteine within that protein or chain.
