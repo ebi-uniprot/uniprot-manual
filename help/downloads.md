@@ -57,7 +57,7 @@ Here are the main sections of our FTP site, with links to README files and help 
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | UniProt RDF [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/README) | [OWL schema](https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/core.owl) |
 
-# Uniprot information
+# UniProt information
 
 | Resource          | Download                                                                |
 | ----------------- | ----------------------------------------------------------------------- |

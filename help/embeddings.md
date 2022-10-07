@@ -4,19 +4,20 @@ type: help
 categories: UniProtKB,Automatic_annotation,help
 ---
 
-Protein embeddings is a way to encode functional and structural properties of a protein, mostly from its 
-sequence only, in a machine-friendly format (vector representation). Embeddings are computationally expensive, 
-however once computed they can be leveraged for different tasks such as sequence similarity search, sequence 
-clustering, and sequence classification.
+Protein embeddings are a way to encode functional and structural properties of a protein,
+mostly from its sequence only, in a machine-friendly format (vector representation).
+Generating such embeddings is computationally expensive, but once computed they can be leveraged for different tasks,
+such as sequence similarity search, sequence clustering, and sequence classification.
 
-UniProt is providing raw embeddings (per-protein and per-residue using ProtT5 model) for UniProtKB/Swiss-Prot and some 
-reference proteomes of model organisms (such as Homo sapiens, Sars-CoV-2, and E.coli) with every release.
+UniProt is providing raw embeddings (per-protein and per-residue using the ProtT5 model)
+for UniProtKB/Swiss-Prot and some reference proteomes of model organisms (such as Homo sapiens, Sars-CoV-2, and *E. coli*).
+You can retrieve them from our [Downloads](https://www.uniprot.org/help/downloads) page.
 
-**Note:** Proteins longer than 12k residues are excluded due to limitation of GPU memory (only a handful of proteins 
-are excluded). 
+**Note:** Protein sequences longer than 12k residues are excluded due to limitation of GPU memory (this concerns only a handful of proteins). 
 
 ## Sample code
-The embeddings h5 files store the embeddings as key-value-pairs. The key is the protein accession and the value is 
+
+The embeddings.h5 files store the embeddings as key-value pairs. The key is the protein accession number and the value is 
 the embeddings vector. The following code snippet shows how to read and iterate over an embeddings file in python.
 
 ```python
@@ -33,8 +34,9 @@ with h5py.File("path/to/embeddings.h5", "r") as file:
         )
 ```
 
-##### SARS-CoV-2 embeddings sample output (as per 2022_04 release)
-###### per-protein file:
+##### Sample output (SARS-CoV-2 embeddings from release 2022_04)
+
+**per-protein file:**
 
 ```
 number of entries: 17
@@ -44,7 +46,7 @@ number of entries: 17
   ...
 ```
 
-###### per-residue file:
+**per-residue file:**
 
 ```
 number of entries: 17
