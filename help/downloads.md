@@ -65,6 +65,8 @@ Here are the main sections of our FTP site, with links to README files and help 
 | Previous releases | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/) |
 
 # Embeddings
+[Parent directory](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/)  
+[README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/README)  
 [Help](https://www.uniprot.org/help/embeddings)
 
 | Resource | Download |
@@ -76,4 +78,4 @@ Here are the main sections of our FTP site, with links to README files and help 
 | Homo sapiens | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000005640_9606/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000005640_9606/per-residue.h5) |
 | Mus musculus | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000000589_10090/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000000589_10090/per-residue.h5) |
 | Rattus norvegicus | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000002494_10116/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000002494_10116/per-residue.h5) |
-| Sars-CoV-2 | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000464024_2697049/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000464024_2697049/per-residue.h5) |
+| SARS-CoV-2 | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000464024_2697049/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000464024_2697049/per-residue.h5) |
