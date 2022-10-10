@@ -26,6 +26,7 @@ Here are the main sections of our FTP site, with links to README files and help 
 | Proteomics mapping [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/proteomics_mapping/README)             | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/proteomics_mapping/)                                                                                                                                                                                                                                                     |
 | Variants [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/variants/README)                                 | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/variants/)                                                                                                                                                                                                                                                               |
 | Genome annotation tracks [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/README) | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/)                                                                                                                                                                                                                                               |
+| Embeddings (per-protein) [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/README)               | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/)                                                                                                                                                                                                                                                             |
 | Documents                                                                                                                                      | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/)                                                                                                                                                                                                                                                          |
 | XML                                                                                                                                            | [XML schema](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot.xsd)                                                                                                                                                                                                                                                                                                     |
 
@@ -64,9 +65,7 @@ Here are the main sections of our FTP site, with links to README files and help 
 | Release notes     | [txt](https://ftp.uniprot.org/pub/databases/uniprot/relnotes.txt)       |
 | Previous releases | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/) |
 
-# Embeddings
-[Parent directory](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/)  
-[README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/README)  
+# Embeddings 
 [Help](https://www.uniprot.org/help/embeddings)
 
 | Resource | Download |
