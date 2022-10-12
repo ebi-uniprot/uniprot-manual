@@ -56,7 +56,7 @@ There are 16 of those codes:
 
 Since the above rules cannot apply to viruses, we give them arbitrary, but generally easy-to-remember, identification codes.
 
-The names of all the currently defined species identification codes are listed in the document ['Controlled vocabulary of species'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist).
+The names of all the currently defined species identification codes are listed in the document ['Controlled vocabulary of species'](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist.txt).
 
 # UniProtKB/TrEMBL entry names
 
@@ -77,7 +77,7 @@ Since it is impossible to manually assign organism codes to all species represen
 | 9TETR              | 32523                    | Tetrapoda     |
 | 9VIRI              | 33090                    | Viridiplantae |
 
-The 'virtual' codes are listed in the document [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)
+The 'virtual' codes are listed in the document [Controlled vocabulary of species](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist.txt)
 
 ## Important tip
 
@@ -86,5 +86,5 @@ An 'entry name tracker' tool is included in the UniProt website search engine. I
 
 # Related documents
 
--   [Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist)  
+-   [Controlled vocabulary of species](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist.txt)  
 -   [What is the difference between an accession number (AC) and the entry name?](https://www.uniprot.org/help/difference_accession_entryname)

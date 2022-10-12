@@ -75,6 +75,6 @@ Cholesterol: attached to the C-terminus following cleavage of the
 polypeptide.  
 Example: [Q02936](https://www.uniprot.org/uniprotkb/Q02936#ptm_processing)
 
-The nature of the post-translationally formed amino acid is annotated by using a controlled vocabulary. The currently defined list of controlled vocabulary, as well as other information, such as the target amino acid, the related keyword, the taxonomic range and the subcellular location of the modification, are available in [ptmlist.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist) document. Links to the RESID database are also provided to help gain a better insight into every modification.
+The nature of the post-translationally formed amino acid is annotated by using a controlled vocabulary. The currently defined list of controlled vocabulary, as well as other information, such as the target amino acid, the related keyword, the taxonomic range and the subcellular location of the modification, are available in [ptmlist.txt](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist.txt) document. Links to the RESID database are also provided to help gain a better insight into every modification.
 
 See also: [Evidence](https://www.uniprot.org/help/evidences), [Glycosylation](https://www.uniprot.org/help/carbohyd), [Modified residue](https://www.uniprot.org/help/mod_res), [Post-translational modifications](https://www.uniprot.org/help/post-translational_modification)

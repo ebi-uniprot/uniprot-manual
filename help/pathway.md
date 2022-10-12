@@ -22,6 +22,6 @@ Example: [P00562](https://www.uniprot.org/uniprotkb/P00562#function)
 
 # Related documents
 
-[Index of metabolic and biosynthesis pathways](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pathway)  
-[Controlled vocabulary of metabolic pathways](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pathlist)  
+[Index of metabolic and biosynthesis pathways](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pathway.txt)  
+[Controlled vocabulary of metabolic pathways](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pathlist.txt)  
 [Linking proteins via pathways (UniProt Blog)](https://insideuniprot.blogspot.com/2015/09/linking-proteins-via-pathways.html)

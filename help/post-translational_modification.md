@@ -14,7 +14,7 @@ Although proteins can be modified pre-, co- or post-translationally, all protein
 
 # Related documents:
 
-[Controlled vocabulary of post-translational modifications (PTM)](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist)  
+[Controlled vocabulary of post-translational modifications (PTM)](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist.txt)  
 [Modified residue](https://www.uniprot.org/help/mod_res)  
 [Lipidation](https://www.uniprot.org/help/lipid)  
 [Glycosylation](https://www.uniprot.org/help/carbohyd)

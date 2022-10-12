@@ -39,9 +39,9 @@ Examples: [P00395](https://www.uniprot.org/uniprotkb/P00395#phenotypes_variants)
 
 # Related documents
 
-[Online Mendelian Inheritance in Man (MIM) cross-references in UniProtKB/Swiss-Prot](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/mimtosp)
+[Online Mendelian Inheritance in Man (MIM) cross-references in UniProtKB/Swiss-Prot](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/mimtosp.txt)
 
-Controlled vocabulary used for the annotation of genetic diseases in UniProtKB/Swiss-Prot: [List](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humdisease) / [Search](https://www.uniprot.org/diseases)
+Controlled vocabulary used for the annotation of genetic diseases in UniProtKB/Swiss-Prot: [List](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humdisease.txt) / [Search](https://www.uniprot.org/diseases)
 
 [How can I get all the proteins involved in a given disease?](https://www.uniprot.org/help/disease_query)
 

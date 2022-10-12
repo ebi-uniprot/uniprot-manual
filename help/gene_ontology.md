@@ -18,7 +18,7 @@ GO terms can be manually or electronically assigned to a UniProtKB entry:
 
 -   Electronically assigned GO terms are found in UniProtKB/TrEMBL, but to some extent also in UniProtKB/Swiss-Prot, and are associated with the GO evidence code 'IEA', which means 'inferred from electronic annotation'. These GO annotations are tagged with a blue source/evidence label.
 
-Note that many UniProtKB keywords are manually mapped to GO terms (see document ' [Controlled vocabulary of keywords](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist) '), but the resulting GO annotations in UniProtKB appear with a blue label as "inferred from electronic annotation".
+Note that many UniProtKB keywords are manually mapped to GO terms (see document ' [Controlled vocabulary of keywords](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist.txt) '), but the resulting GO annotations in UniProtKB appear with a blue label as "inferred from electronic annotation".
 
 # List of GO evidence codes found in UniProtKB
 
@@ -82,7 +82,7 @@ Additional information: [GO evidence codes](http://www.geneontology.org/GO.evide
 
 # Related documents
 
-[Controlled vocabulary of keywords](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist)
+[Controlled vocabulary of keywords](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist.txt)
 
 [What are the differences between UniProtKB keywords and the GO terms?](https://www.uniprot.org/help/keywords_vs_go)
 

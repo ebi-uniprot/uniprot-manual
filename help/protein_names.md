@@ -20,9 +20,9 @@ The subsection consists of 2 categories and several subcategories of protein nam
 | **Alternative name(s)** |                   | 0-n         | Synonym of the recommended name (full name).                                                                                                                        |
 |                         | **Short name(s)** | 0-n         | Abbreviation of the full name or an acronym.                                                                                                                        |
 |                         | **EC**            | 0-n         | Enzyme Commission number.                                                                                                                                           |
-| **Alternative name(s)** | **Allergen**      | 0-1         | See [Allergen nomenclature and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/allergen).                                                                             |
+| **Alternative name(s)** | **Allergen**      | 0-1         | See [Allergen nomenclature and list of entries](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/allergen.txt).                                                                             |
 | **Alternative name(s)** | **Biotech**       | 0-1         | Name used in a biotechnological context.                                                                                                                            |
-| **Alternative name(s)** | **CD\_antigen**   | 0-n         | See [Human cell differentiation molecules nomenclature and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/cdlist).                                                   |
+| **Alternative name(s)** | **CD\_antigen**   | 0-n         | See [Human cell differentiation molecules nomenclature and list of entries](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/cdlist.txt).                                                   |
 | **Alternative name(s)** | **INN**           | 0-n         | International nonproprietary name: a generic name for a pharmaceutical substance or active pharmaceutical ingredient that is a globally recognized public property. |
 
 If a protein is known to be cleaved into multiple functional components, the description starts with the name of the precursor protein, followed by ' **Cleaved into ...** ' section(s). Each component is described in a separate section. 'Alternative name(s)' are allowed for each individual component.  
@@ -37,6 +37,6 @@ The format of the 'Protein names' section in UniProtKB/TrEMBL closely follows th
 
 # Related documents
 
-[International protein nomenclature guidelines](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/International_Protein_Nomenclature_Guidelines.pdf)  
-[Protein nomenclature information](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist)  
+[International protein nomenclature guidelines](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/International_Protein_Nomenclature_Guidelines.pdf)  
+[Protein nomenclature information](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist.txt)  
 [Why does the UniProtKB use so many different names for the same protein?](https://www.uniprot.org/help/different_protein_gene_names)
