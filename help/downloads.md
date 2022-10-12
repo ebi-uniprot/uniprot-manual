@@ -26,6 +26,7 @@ Here are the main sections of our FTP site, with links to README files and help 
 | Proteomics mapping [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/proteomics_mapping/README)             | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/proteomics_mapping/)                                                                                                                                                                                                                                                     |
 | Variants [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/variants/README)                                 | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/variants/)                                                                                                                                                                                                                                                               |
 | Genome annotation tracks [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/README) | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/genome_annotation_tracks/)                                                                                                                                                                                                                                               |
+| Embeddings (per-protein) [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/README)               | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/)                                                                                                                                                                                                                                                             |
 | Documents                                                                                                                                      | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/)                                                                                                                                                                                                                                                          |
 | XML                                                                                                                                            | [XML schema](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot.xsd)                                                                                                                                                                                                                                                                                                     |
 
@@ -57,9 +58,23 @@ Here are the main sections of our FTP site, with links to README files and help 
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | UniProt RDF [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/README) | [OWL schema](https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/core.owl) |
 
-# Uniprot information
+# UniProt information
 
 | Resource          | Download                                                                |
 | ----------------- | ----------------------------------------------------------------------- |
 | Release notes     | [txt](https://ftp.uniprot.org/pub/databases/uniprot/relnotes.txt)       |
 | Previous releases | [ftp](https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/) |
+
+# Embeddings 
+[Help](https://www.uniprot.org/help/embeddings)
+
+| Resource | Download |
+| -------- | -------- |
+| Reviewed (Swiss-Prot) | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/uniprot_sprot/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/uniprot_sprot/per-residue.h5) |
+| Arabidopsis thaliana | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000006548_3702/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000006548_3702/per-residue.h5) |
+| Caenorhabditis elegans | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000001940_6239/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000001940_6239/per-residue.h5) |
+| Escherichia coli | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000000625_83333/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000000625_83333/per-residue.h5) |
+| Homo sapiens | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000005640_9606/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000005640_9606/per-residue.h5) |
+| Mus musculus | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000000589_10090/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000000589_10090/per-residue.h5) |
+| Rattus norvegicus | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000002494_10116/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000002494_10116/per-residue.h5) |
+| SARS-CoV-2 | [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000464024_2697049/per-protein.h5) [per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000464024_2697049/per-residue.h5) |
