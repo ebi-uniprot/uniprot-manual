@@ -60,7 +60,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-Uni
         # For each proteome, mirror its set of UniProt entries in compressed FASTA format.
         for my $proteome (split(/\n/, $response_list->content)) {
           my $file = $proteome . '.fasta.gz';
-          my $query_proteome = "https://rest.uniprot.org/uniprotkb/search?query=proteome:$proteome&format=fasta&compress=yes";
+          my $query_proteome = "https://rest.uniprot.org/uniprotkb/search?query=proteome:$proteome&format=fasta&compressed=true";
           my $response_proteome = $agent->mirror($query_proteome, $file);
 
           if ($response_proteome->is_success) {
