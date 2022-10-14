@@ -13,7 +13,7 @@ User manual for the UniProtKB flat file format.
 [UniProt XML schemas](https://www.uniprot.org/help/downloads)  
 [XSD](https://en.wikipedia.org/wiki/XML_Schema_%28W3C%29) files for the UniProt databases.
 
-[UniProt RDF schema ontology](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/rdf/core.owl)  
+[UniProt RDF schema ontology](https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/core.owl)  
 [OWL](https://en.wikipedia.org/wiki/Web_Ontology_Language) file for the UniProt databases.
 
 [FASTA headers](https://www.uniprot.org/help/fasta-headers)  
@@ -31,5 +31,5 @@ UniProt provides several application programming interfaces (APIs) to query and 
 [Swissknife](http://swissknife.sourceforge.net/docs/)  
 Object-oriented Perl library for parsing the UniProtKB text format.
 
-[Varsplic](ftp://ftp.ebi.ac.uk/pub/software/uniprot/varsplic)  
+[Varsplic](ftp://ftp.uniprot.org/pub/software/uniprot/varsplic)  
 Perl script to create alternatively-spliced protein sequences derived from UniProtKB entries.

@@ -18,7 +18,7 @@ However, UniProtKB data is "frozen" significantly earlier than the public releas
 
 # Can I gain access to previous releases?
 
-We archive previous releases on our [ftp site](https://ftp.ebi.ac.uk/pub/databases/uniprot/previous_releases) for at least 2 years. Beyond that time, we archive the first release of a year, YYYY\_01. We therefore recommend that you **use the first release of a year if you develop a tool** trained on a given release or subset, in order to allow the readers of your publication to reproduce your work at a later point in time.
+We archive previous releases on our [ftp site](https://ftp.uniprot.org/pub/databases/uniprot/previous_releases) for at least 2 years. Beyond that time, we archive the first release of a year, YYYY\_01. We therefore recommend that you **use the first release of a year if you develop a tool** trained on a given release or subset, in order to allow the readers of your publication to reproduce your work at a later point in time.
 
 # See also
 
