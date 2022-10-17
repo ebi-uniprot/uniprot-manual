@@ -60,14 +60,13 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-Uni
         # For each proteome, mirror its set of UniProt entries in compressed FASTA format.
         for my $proteome (split(/\n/, $response_list->content)) {
           my $file = $proteome . '.fasta.gz';
-          my $query_proteome = "https://rest.uniprot.org/uniprotkb/search?query=proteome:$proteome&format=fasta&compressed=true";
+          my $query_proteome = "https://rest.uniprot.org/uniprotkb/stream?query=proteome:$proteome&format=fasta&compressed=true";
           my $response_proteome = $agent->mirror($query_proteome, $file);
 
           if ($response_proteome->is_success) {
-            my $results = $response_proteome->header('X-Total-Results');
-            my $release = $response_proteome->header('X-UniProt-Release');
-            my $date = sprintf("%4d-%02d-%02d", HTTP::Date::parse_date($response_proteome->header('X-UniProt-Release-Date')));
-            print "File $file: downloaded $results entries of UniProt release $release ($date)\n";
+            my $release = $response_proteome->header('x-uniprot-release');
+            my $date = $response_proteome->header('x-uniprot-release-date');
+            print "File $file: downloaded entries of UniProt release $release ($date)\n";
           }
           elsif ($response_proteome->code == HTTP::Status::RC_NOT_MODIFIED) {
             print "File $file: up-to-date\n";
