@@ -43,3 +43,4 @@ See also
 - [Preprint](https://storage.googleapis.com/brain-genomics-public/research/proteins/protnlm/uniprot_2022_04/protnlm_preprint_draft.pdf)
 - [Colab notebook to view evidence](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_evidencer_uniprot_2022_04.ipynb)
 - [Colab notebook to use model](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_use_model_for_inference_uniprot_2022_04.ipynb)
+- [Explore all UniProtKB entries with these annotations](https://www.uniprot.org/uniprotkb?query=%28source:google%29)
