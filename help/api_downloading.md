@@ -16,6 +16,7 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-Uni
         my $taxon = $ARGV[0]; # Taxonomy identifier of organism.
 
         my $query = "https://rest.uniprot.org/uniprotkb/search?query=organism_id:$taxon&format=fasta";
+        
         my $file = $taxon . '.fasta';
 
         my $contact = ''; # Please set a contact email address here to help us debug in case of problems (see https://www.uniprot.org/help/privacy).
@@ -51,7 +52,8 @@ The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-Uni
         my $agent = LWP::UserAgent->new;
 
         # Get a list of all reference proteomes of organisms below the given taxonomy node.
-        my $query_list = "https://rest.uniprot.org/proteomes/search?query=reference:true+taxonomy_id:$top_node&format=list";
+        my $query_list = "https://rest.uniprot.org/proteomes/stream?query=reference:true+taxonomy_id:$top_node&format=list";
+
         my $response_list = $agent->get($query_list);
         die 'Failed, got ' . $response_list->status_line .
           ' for ' . $response_list->request->uri . "\n"
