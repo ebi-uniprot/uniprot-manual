@@ -43,43 +43,32 @@ Here are some examples of how evidence descriptions look in the UniProtKB flat f
 {ECO:0000269|PubMed:10433554, ECO:0000303|Ref.6}
 ```
 
-On the website, these descriptions are transformed to make them more user-friendly. The ECO codes are replaced by easy to understand labels and the sources are accessible by clicking on an arrow to list the hyper-linked sources. Evidence that is used in manual assertions is colored gold, e.g.
+On the website, these descriptions are transformed to make them more user-friendly.
+The ECO codes are replaced by easy to understand labels and the sources are accessible by clicking on the label to list the hyper-linked sources.
+Evidences that are used in manual assertions are marked with a gold banner.
+Their labels could be containing these example texts and contents:
 
-1 Publication
+- 1 Publication
+  - Manual assertion based on experiment
+- By similarity
+  - Manual assertion inferred from sequence similarity
+- UniRule annotation
+  - Manual assertion according to rules
+  - [HAMAP-Rule:MF_03130](http://hamap.expasy.org/unirule/MF_03130)
+- Imported
+  - Manual assertion inferred from database entries
+  - [EMBL:AAY86039.1](https://www.ebi.ac.uk/ena/browser/view/AAY86039)
+  - [MGI:87860](http://www.informatics.jax.org/marker/MGI:87860)
 
-Manual assertion based on experiment
+and those that are used in automatic assertions are colored blue, with texts like:
 
-By similarity
-
-Manual assertion inferred from sequence similarity
-
-UniRule annotation
-
-Manual assertion according to rules
-
-- [HAMAP-Rule:MF_03130](http://hamap.expasy.org/unirule/MF_03130)
-
-Imported
-
-Manual assertion inferred from database entries
-
-- [EMBL:AAY86039.1](https://www.ebi.ac.uk/ena/browser/view/AAY86039)
-- [MGI:87860](http://www.informatics.jax.org/marker/MGI:87860)
-
-and those that are used in automatic assertions are colored blue, e.g.
-
-UniRule annotation
-
-Automatic assertion according to rules
-
-- [PIRNR:PIRNR036489](http://pir.georgetown.edu/cgi-bin/pirrule?id=PIRNR036489)
-
-Imported
-
-Automatic assertion inferred from database entries
-
-- [EMBL:ABC70327.1](https://www.ebi.ac.uk/ena/browser/view/ABC70327)
-- [MGI:96952](http://www.informatics.jax.org/marker/MGI:96952)
+- UniRule annotation
+  - Automatic assertion according to rules
+  - [PIRNR:PIRNR036489](http://pir.georgetown.edu/cgi-bin/pirrule?id=PIRNR036489)
+- Imported
+  - Automatic assertion inferred from database entries
+  - [EMBL:ABC70327.1](https://www.ebi.ac.uk/ena/browser/view/ABC70327)
+  - [MGI:96952](http://www.informatics.jax.org/marker/MGI:96952)
 
 # Evidence types that are used in UniProtKB
 
@@ -91,9 +80,9 @@ We use the ECO code [ECO:0000269](https://www.ebi.ac.uk/QuickGO/term/ECO:0000269
 
 Example: [D9N129](https://www.uniprot.org/uniprotkb/D9N129#function)
 
-1 Publication
+- 1 Publication
 
-Manual assertion based on experiment
+  - Manual assertion based on experiment
 
 - **"The WD40-repeat proteins WDR-20 and WDR-48 bind and activate the deubiquitinating enzyme USP-46 to promote the abundance of the glutamate receptor GLR-1 in the ventral nerve cord of Caenorhabditis elegans."**  
   [Moremen K.W.](https://www.uniprot.org/uniprotkb?query=lit_author:%22Moremen+K.W.%22), [Touster O.](https://www.uniprot.org/uniprotkb?query=lit_author:%22Touster+O.%22), [Robbins P.W.](https://www.uniprot.org/uniprotkb?query=lit_author:%22Robbins+P.W.%22)  
@@ -112,9 +101,9 @@ We use the ECO code [ECO:0000303](https://www.ebi.ac.uk/QuickGO/term/ECO:0000303
 
 Example: [P28494](https://www.uniprot.org/uniprotkb/P28494#function)
 
-1 Publication
+- 1 Publication
 
-Manual assertion based on opinion
+  - Manual assertion based on opinion
 
 - **"Novel purification of the catalytic domain of Golgi alpha-mannosidase II. Characterization and comparison with the intact enzyme."**  
   [Ferrante A.W. Jr.](https://www.uniprot.org/?query=lit_author:%22Ferrante+A.W.+Jr.%22), [Reinke R.](https://www.uniprot.org/?query=lit_author:%22Reinke+R.%22), [Stanley E.R.](https://www.uniprot.org/?query=lit_author:%22Stanley+E.R.%22)  
@@ -133,9 +122,9 @@ We use the ECO code [ECO:0000305](https://www.ebi.ac.uk/QuickGO/term/ECO:0000305
 
 Example: [Q9UKV3](https://www.uniprot.org/uniprotkb/Q9UKV3#miscellaneous)
 
-1 Publication
+- 1 Publication
 
-Manual assertion inferred from experiment in
+  - Manual assertion inferred from experiment in
 
 - **"The structure of the ASAP core complex reveals the existence of a Pinin-containing PSAP complex."**  
   [Murachelli A.G.](https://www.uniprot.org/?query=lit_author:%22Murachelli+A.G.%22), [Ebert J.](https://www.uniprot.org/?query=lit_author:%22Ebert+J.%22), [Basquin C.](https://www.uniprot.org/?query=lit_author:%22Basquin+C.%22), [Le Hir H.](https://www.uniprot.org/?query=lit_author:%22Le+Hir+H.%22), [Conti E.](https://www.uniprot.org/?query=lit_author:%22Conti+E.%22)  
@@ -149,9 +138,9 @@ CC       of Drosophila melanogaster Acinus/hkl. {ECO:0000305|PubMed:22388736}.
 
 Example: [P62196](https://www.uniprot.org/uniprotkb/P62196#ptm_processing)
 
-1 Publication
+- 1 Publication
 
-Manual assertion inferred from experiment in
+  - Manual assertion inferred from experiment in
 
 - **"Mapping the murine cardiac 26S proteasome complexes."**  
   [Gomes A.V.](https://www.uniprot.org/?query=lit_author:%22Gomes+A.V.%22), [Zong C.](https://www.uniprot.org/?query=lit_author:%22Zong+C.%22), [Edmondson R.D.](https://www.uniprot.org/?query=lit_author:%22Edmondson+R.D.%22), [Li X.](https://www.uniprot.org/?query=lit_author:%22Li+X.%22), [Stefani E.](https://www.uniprot.org/?query=lit_author:%22Stefani+E.%22), [Zhang J.](https://www.uniprot.org/?query=lit_author:%22Zhang+J.%22), [Jones R.C.](https://www.uniprot.org/?query=lit_author:%22Jones+R.C.%22), [Thyparambil S.](https://www.uniprot.org/?query=lit_author:%22Thyparambil+S.%22), [Wang G.W.](https://www.uniprot.org/?query=lit_author:%22Wang+G.W.%22), [Qiao X.](https://www.uniprot.org/?query=lit_author:%22Qiao+X.%22), [Bardag-Gorce F.](https://www.uniprot.org/?query=lit_author:%22Bardag-Gorce+F.%22), [Ping P.](https://www.uniprot.org/?query=lit_author:%22Ping+P.%22)  
@@ -169,11 +158,9 @@ We use the ECO code [ECO:0000250](https://www.ebi.ac.uk/QuickGO/term/ECO:0000250
 
 Example: [D3DJ41](https://www.uniprot.org/uniprotkb/D3DJ41#ptm_processing)
 
-By similarity
-
-Manual assertion inferred from sequence similarity
-
-- [UniProtKB:P11498](https://www.uniprot.org/uniprotkb/P11498)
+- By similarity
+  - Manual assertion inferred from sequence similarity
+  - [UniProtKB:P11498](https://www.uniprot.org/uniprotkb/P11498)
 
 ```
 FT   MOD_RES         609
@@ -192,21 +179,18 @@ The ECO code [ECO:0000255](https://www.ebi.ac.uk/QuickGO/term/ECO:0000255) is al
 
 Example: [P0A940](https://www.uniprot.org/uniprotkb/P0A940#family_and_domains)
 
-UniRule annotation
+- UniRule annotation
 
-Manual assertion according to rules
+  - Manual assertion according to rules
+  - [HAMAP-Rule:MF_00979](http://hamap.expasy.org/unirule/MF_00979)
 
-- [HAMAP-Rule:MF_00979](http://hamap.expasy.org/unirule/MF_00979)
+- PROSITE-ProRule annotations
 
-PROSITE-ProRule annotations
+  - Manual assertion according to rules
+  - [PROSITE-ProRule:PRU00169](http://prosite.expasy.org/unirule/PRU00169)
 
-Manual assertion according to rules
-
-- [PROSITE-ProRule:PRU00169](http://prosite.expasy.org/unirule/PRU00169)
-
-Sequence Analysis
-
-Manual assertion according to rules
+- Sequence Analysis
+  - Manual assertion according to rules
 
 ```
 CC   -!- SIMILARITY: Belongs to the BamA family. {ECO:0000255|HAMAP-
@@ -225,23 +209,19 @@ FT                   ECO:0000305|PubMed:14559180"
 
 Example: [Q86NT5](https://www.uniprot.org/uniprotkb/Q86NT5#function)
 
-UniRule annotation
+- UniRule annotation
 
-Automatic assertion according to rules
+  - Automatic assertion according to rules
+  - [PIRSR000106-3](https://www.uniprot.org/unirule/UR000176873)
 
-- [PIRSR000106-3](https://www.uniprot.org/unirule/UR000176873)
+- UniRule annotation
 
-UniRule annotation
+  - Automatic assertion according to rules
+  - [RuleBase:RU003426](https://www.uniprot.org/unirule/UR000000446)
 
-Automatic assertion according to rules
-
-- [RuleBase:RU003426](https://www.uniprot.org/unirule/UR000000446)
-
-Sequence analysis
-
-Automatic assertion according to rules
-
-- [SAM:Phobius](https://www.uniprot.org/help/sam)
+- Sequence analysis
+  - Automatic assertion according to rules
+  - [SAM:Phobius](https://www.uniprot.org/help/sam)
 
 ```
 CC   -!- SIMILARITY: Belongs to the malic enzymes family.
@@ -268,25 +248,25 @@ We use the ECO code [ECO:0000312](https://www.ebi.ac.uk/QuickGO/term/ECO:0000312
 
 Example: [Q4JIM5](https://www.uniprot.org/uniprotkb/Q4JIM5#names_and_taxonomy)
 
-Imported
+- Imported
+  - Manual assertion inferred from database entries
+  - [EMBL:AAY86039.1](https://www.ebi.ac.uk/ena/browser/view/AAY86039)
+  - [MGI:87860](http://www.informatics.jax.org/marker/MGI:87860)
 
-Manual assertion inferred from database entries
-
-- [EMBL:AAY86039.1](https://www.ebi.ac.uk/ena/browser/view/AAY86039)
-- [MGI:87860](http://www.informatics.jax.org/marker/MGI:87860)
-
-  GN Name=Abl2 {ECO:0000312|EMBL:AAY86039.1, ECO:0000312|MGI:MGI:87860};
+```
+GN Name=Abl2 {ECO:0000312|EMBL:AAY86039.1, ECO:0000312|MGI:MGI:87860};
+```
 
 Example: [Q2L9A9](https://www.uniprot.org/uniprotkb/Q2L9A9#names_and_taxonomy)
 
-Imported
+- Imported
+  - Automatic assertion inferred from database entries
+  - [EMBL:ABC70327.1](https://www.ebi.ac.uk/ena/browser/view/ABC70327)
+  - [MGI:96952](http://www.informatics.jax.org/marker/MGI:96952)
 
-Automatic assertion inferred from database entries
-
-- [EMBL:ABC70327.1](https://www.ebi.ac.uk/ena/browser/view/ABC70327)
-- [MGI:96952](http://www.informatics.jax.org/marker/MGI:96952)
-
-  GN Name=Mdm2 {ECO:0000313|EMBL:ABC70327.1, ECO:0000313|MGI:MGI:96952};
+```
+GN Name=Mdm2 {ECO:0000313|EMBL:ABC70327.1, ECO:0000313|MGI:MGI:96952};
+```
 
 ### Combinatorial evidence
 
@@ -294,11 +274,9 @@ We use the ECO code [ECO:0007744](https://www.ebi.ac.uk/QuickGO/term/ECO:0007744
 
 Example: [P83256](https://www.uniprot.org/uniprotkb/P83256#structure)
 
-Combined sources
-
-Manual assertion inferred from algorithms based on publications or databases entries
-
-- [PDB:1V90](https://www.ebi.ac.uk/pdbe-srv/view/entry/1V90)
+- Combined sources
+  - Manual assertion inferred from algorithms based on publications or databases entries
+  - [PDB:1V90](https://www.ebi.ac.uk/pdbe-srv/view/entry/1V90)
 
 ```
 FT   STRAND          5..7
