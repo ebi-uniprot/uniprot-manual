@@ -1,3 +1,9 @@
+---
+title: Searching with leading wildcards
+type: help
+categories: search, solr
+---
+
 ## Searching with leading wildcards  
 While it should be noted that our tokenisers make sure that search results are mature and diverse enough for the majority of searches without leading wildcards, the need for leading wildcards still exists for our users.  
 
