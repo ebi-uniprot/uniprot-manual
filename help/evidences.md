@@ -287,6 +287,10 @@ FT   STRAND          26..29
 FT                   /evidence="ECO:0007829|PDB:1V90"
 ```
 
+# Evidence types that are used in GO Annotation
+
+A GO annotation is a statement about the function of a particular gene. Each annotation includes an evidence code to indicate how the annotation to a particular term is supported. A detailed description of the evidence types can be found [here](http://geneontology.org/docs/guide-go-evidence-codes/).
+
 # Related documents
 
 [Why don't all UniProtKB/Swiss-Prot annotations have evidence?](https://www.uniprot.org/help/evidence_in_swissprot)  
