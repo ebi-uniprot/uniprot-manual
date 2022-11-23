@@ -6,11 +6,10 @@ categories: manual
 
 # Table of contents
 
-   * [Introduction](#introduction)
-   * [Evidence types used for UniProtKB annotations](#evidence-types-used-for-uniprotkb-annotations)
-   * [Evidence types used for GO annotations](#evidence-types-used-for-go-annotations)
-   * [Related documents](#related-documents)
-
+   * [Introduction](https://www.uniprot.org/help/evidences#introduction)
+   * [Evidence types used for UniProtKB annotations](https://www.uniprot.org/help/evidences#evidence-types-used-for-uniprotkb-annotations)
+   * [Evidence types used for GO annotations](https://www.uniprot.org/help/evidences#evidence-types-used-for-go-annotations)
+   * [Related documents](https://www.uniprot.org/help/evidences#related-documents)
 
 # Introduction
 
@@ -294,7 +293,7 @@ FT                   /evidence="ECO:0007829|PDB:1V90"
 
 # Evidence types used for GO annotations
 
-The [Gene Ontology](https://www.uniprot.org/help/gene_ontology) (GO) consortium had originally defined its own evidence types and later mapped them to the [Evidence and Conclusion Ontology](http://www.evidenceontology.org/) (ECO). The codes and descriptions of the original GO evidences are still widely used and are listed here with their corresponding ECO codes:
+The [Gene Ontology (GO)](https://www.uniprot.org/help/gene_ontology) consortium had originally defined its own evidence types and later mapped them to the [Evidence and Conclusion Ontology](http://www.evidenceontology.org/) (ECO). The codes and descriptions of the original GO evidences are still widely used and are listed here with their corresponding ECO codes:
 
 ## Experimental evidence codes
 
