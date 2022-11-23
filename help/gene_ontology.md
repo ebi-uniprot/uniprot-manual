@@ -81,7 +81,7 @@ Note that many UniProtKB keywords are manually mapped to GO terms (see document 
 Additional information:
 
 - [GO evidence codes](http://www.geneontology.org/GO.evidence.shtml?all)
-- [Evidences](https://www.uniprot.org/help/evidences)
+- [Evidences help page](https://www.uniprot.org/help/evidences)
 
 # Related documents
 
