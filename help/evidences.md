@@ -4,9 +4,17 @@ type: help
 categories: manual
 ---
 
+# Table of contents
+
+   * [Introduction](#introduction)
+   * [Evidence types used for UniProtKB annotations](#evidence-types-used-for-uniprotkb-annotations)
+   * [Evidence types used for GO annotations](#evidence-types-used-for-go-annotations)
+   * [Related documents](#related-documents)
+
+
 # Introduction
 
-Most information in UniProtKB has one or several "evidence tags" which describe the source of the information, e.g. an experiment that has been published in the scientific literature, an orthologous protein, a record from another database, etc.
+Most information in UniProtKB has one or several "evidence tags" which describe the source of the information, e.g. an experiment that has been published in the scientific literature, an orthologous protein, a record from another database, etc.
 
 Formally, an evidence is described by a mandatory **evidence type**, represented by a code from the [Evidence and Conclusion Ontology](http://www.evidenceontology.org/) (ECO) and, where applicable, the **source of the information**, which is usually a database record (articles from the scientific literature are represented as PubMed records, but in the case of publications that are not in PubMed we indicate instead the corresponding UniProtKB reference number).
 
@@ -15,7 +23,6 @@ ECO comprises two high-level classes, **evidence** and **assertion method**. Evi
 Here are some examples of how evidence descriptions look in the UniProtKB flat file format:
 
 - An evidence type without source: `{type}`, e.g.
-
 ```
 {ECO:0000305}
 {ECO:0000250}
@@ -23,7 +30,6 @@ Here are some examples of how evidence descriptions look in the UniProtKB flat f
 ```
 
 - An evidence type with source: `{type|source}`, e.g.
-
 ```
 {ECO:0000269|PubMed:24356955}
 {ECO:0000303|Ref.6}
@@ -38,7 +44,6 @@ Here are some examples of how evidence descriptions look in the UniProtKB flat f
 ```
 
 - Several evidence attributions: `{type|source, type|source,...}`, e.g.
-
 ```
 {ECO:0000269|PubMed:10433554, ECO:0000303|Ref.6}
 ```
@@ -70,9 +75,9 @@ and those that are used in automatic assertions are colored blue, with texts lik
   - [EMBL:ABC70327.1](https://www.ebi.ac.uk/ena/browser/view/ABC70327)
   - [MGI:96952](http://www.informatics.jax.org/marker/MGI:96952)
 
-# Evidence types that are used in UniProtKB
+# Evidence types used for UniProtKB annotations
 
-## Evidence that is used only in manual assertions
+## Evidence used only in manual assertions
 
 <h3 id="ECO:0000269">Experimental evidence</h3>
 
@@ -169,7 +174,7 @@ FT                   /evidence="ECO:0000250|UniProtKB:P11498,
 FT                   ECO:0000255|PROSITE-ProRule:PRU01066"
 ```
 
-## Evidence that is used in manual and automatic assertions
+## Evidence used in manual and automatic assertions
 
 <h3 id="ECO:0000255">Sequence model evidence</h3>
 
@@ -287,9 +292,94 @@ FT   STRAND          26..29
 FT                   /evidence="ECO:0007829|PDB:1V90"
 ```
 
-# Evidence types that are used in GO Annotation
+# Evidence types used for GO annotations
 
-A GO annotation is a statement about the function of a particular gene. Each annotation includes an evidence code to indicate how the annotation to a particular term is supported. A detailed description of the evidence types can be found [here](http://geneontology.org/docs/guide-go-evidence-codes/).
+The [Gene Ontology](https://www.uniprot.org/help/gene_ontology) (GO) consortium had originally defined its own evidence types and later mapped them to the [Evidence and Conclusion Ontology](http://www.evidenceontology.org/) (ECO). The codes and descriptions of the original GO evidences are still widely used and are listed here with their corresponding ECO codes:
+
+## Experimental evidence codes
+
+- EXP: Inferred from Experiment = [ECO:0000269](https://www.ebi.ac.uk/QuickGO/term/ECO:0000269)  
+  Used when experimental results indicate a gene product's function, process involvement or subcellular location.
+
+- IDA: Inferred from Direct Assay = [ECO:0000314](https://www.ebi.ac.uk/QuickGO/term/ECO:0000314)  
+  Used when a direct assay for the function, process or component indicated by the GO term is available.
+
+- IPI: Inferred from Physical Interaction = [ECO:0000353](https://www.ebi.ac.uk/QuickGO/term/ECO:0000353)  
+  Used to cover physical interactions between the gene product of interest and another molecule (ion, complex, etc.).
+
+- IMP: Inferred from Mutant Phenotype = [ECO:0000315](https://www.ebi.ac.uk/QuickGO/term/ECO:0000315)  
+  Used to describe the observations of variations or changes in a gene product, such as mutations or abnormal levels. This includes techniques, such as knockouts, overexpression, anti-sense experiments and use of specific protein inhibitors.
+
+- IGI: Inferred from Genetic Interaction = [ECO:0000316](https://www.ebi.ac.uk/QuickGO/term/ECO:0000316)  
+  Used to describe "traditional" genetic interactions, such as suppressors and synthetic lethals, as well as other techniques, such as functional complementation, rescue experiments, or inferences about a gene drawn from the phenotype of a mutation in a different gene.
+
+- IEP: Inferred from Expression Pattern = [ECO:0000270](https://www.ebi.ac.uk/QuickGO/term/ECO:0000270)  
+  Used when annotation is inferred from the timing or site of expression of a gene.
+
+## Experimental 'high throughput' evidence codes
+
+- HTP: Inferred from High Throughput Experiment = [ECO:0006056](https://www.ebi.ac.uk/QuickGO/term/ECO:0006056)
+
+- HDA: Inferred from High Throughput Direct Assay = [ECO:0007005](https://www.ebi.ac.uk/QuickGO/term/ECO:0007005)
+
+- HMP: Inferred from High Throughput Mutant Phenotype = [ECO:0007001](https://www.ebi.ac.uk/QuickGO/term/ECO:0007001)
+
+- HGI: Inferred from High Throughput Genetic Interaction = [ECO:0007003](https://www.ebi.ac.uk/QuickGO/term/ECO:0007003)
+
+- HEP: Inferred from High Throughput Expression Pattern = [ECO:0007007](https://www.ebi.ac.uk/QuickGO/term/ECO:0007007)
+
+## Phylogenetically-inferred annotations
+
+- IBA: Inferred from Biological Aspect of Ancestor = [ECO:0000318](https://www.ebi.ac.uk/QuickGO/term/ECO:0000318)  
+  Used when an aspect of a descendent is inferred through the characterization of an aspect of a ancestral gene.
+
+- IBD: Inferred from Biological aspect of Descendant = [ECO:0000319](https://www.ebi.ac.uk/QuickGO/term/ECO:0000319)  
+
+- IKR: Inferred from Key Residues = [ECO:0000320](https://www.ebi.ac.uk/QuickGO/term/ECO:0000320)  
+
+- IRD: Inferred from Rapid Divergence = [ECO:0000321](https://www.ebi.ac.uk/QuickGO/term/ECO:0000321)  
+
+## Computational analysis evidence codes
+
+- ISS: Inferred from Sequence or Structural Similarity ~ [ECO:0000250](https://www.ebi.ac.uk/QuickGO/term/ECO:0000250)  
+  Used for any analysis based on sequence alignment, structure comparison, or evaluation of sequence features, such as composition.
+
+- ISO: Inferred from Sequence Orthology = [ECO:0000266](https://www.ebi.ac.uk/QuickGO/term/ECO:0000266)  
+  Used when the assertion of orthology between the gene product and an experimentally characterized gene product in another organism is the main basis of the annotation
+
+- ISA: Inferred from Sequence Alignment = [ECO:0000247](https://www.ebi.ac.uk/QuickGO/term/ECO:0000247)  
+  Used when the primary piece of evidence is a pairwise or multiple sequence alignment.
+
+- ISM: Inferred from Sequence Model = [ECO:0000255](https://www.ebi.ac.uk/QuickGO/term/ECO:0000255)  
+  Used when any kind of sequence modeling method (e.g. Hidden Markov Models) is the primary piece of evidence
+
+- IGC: Inferred from Genomic Context = [ECO:0000317](https://www.ebi.ac.uk/QuickGO/term/ECO:0000317)  
+  Used when information about the genomic context of a gene product forms part of the evidence for a particular annotation. Genomic context includes, but is not limited to, such things as identity of neighboring genes (i.e. synteny), operon structure, and phylogenetic or other whole genome analysis.
+
+- RCA: Inferred from Reviewed Computational Analysis ~ [ECO:0000245](https://www.ebi.ac.uk/QuickGO/term/ECO:0000245)  
+
+## Author statement evidence codes
+
+- TAS: Traceable Author Statement = [ECO:0000304](https://www.ebi.ac.uk/QuickGO/term/ECO:0000304)  
+  Used for information obtained from published articles, mostly reviews, as well as text books or dictionaries, where the original experiments are traceable.
+
+- NAS: Non-traceable Author Statement = [ECO:0000303](https://www.ebi.ac.uk/QuickGO/term/ECO:0000303)  
+  Used for statements found in a published article that cannot be traced back to another publication.
+
+## Curator statement evidence codes
+
+- IC: Inferred by Curator = [ECO:0000305](https://www.ebi.ac.uk/QuickGO/term/ECO:0000305)  
+  Used when annotation is not supported by any evidence, but can be reasonably inferred by a curator from other GO annotations for which evidence is available.
+  
+- ND: No biological Data available = [ECO:0000307](https://www.ebi.ac.uk/QuickGO/term/ECO:0000307)  
+
+## Electronic annotation evidence code
+
+- IEA: Inferred from Electronic Annotation = [ECO:0007669](https://www.ebi.ac.uk/QuickGO/term/ECO:0007669)  
+  Used when annotation derives from computation or automated transfer from a database. These annotations have not been manually checked.
+
+A detailed description of the evidence types can be found [here](http://geneontology.org/docs/guide-go-evidence-codes/).
+
 
 # Related documents
 
