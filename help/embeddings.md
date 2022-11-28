@@ -10,14 +10,14 @@ Generating such embeddings is computationally expensive, but once computed they 
 such as sequence similarity search, sequence clustering, and sequence classification.
 
 UniProt is providing raw embeddings (per-protein and per-residue using the ProtT5 model)
-for UniProtKB/Swiss-Prot and some reference proteomes of model organisms (such as *Homo sapiens*, SARS-CoV-2, and *E. coli*).
-You can retrieve them from our [Downloads](https://www.uniprot.org/help/downloads) page.
+for UniProtKB/Swiss-Prot and some reference proteomes of model organisms (such as _Homo sapiens_, SARS-CoV-2, and _E. coli_).
+You can retrieve them from our [Downloads](https://www.uniprot.org/help/downloads#embeddings) page.
 
-**Note:** Protein sequences longer than 12k residues are excluded due to limitation of GPU memory (this concerns only a handful of proteins). 
+**Note:** Protein sequences longer than 12k residues are excluded due to limitation of GPU memory (this concerns only a handful of proteins).
 
 ## Sample code
 
-The embeddings.h5 files store the embeddings as key-value pairs. The key is the protein accession number and the value is 
+The embeddings.h5 files store the embeddings as key-value pairs. The key is the protein accession number and the value is
 the embeddings vector. The following code snippet shows how to read and iterate over an embeddings file in python.
 
 ```python
