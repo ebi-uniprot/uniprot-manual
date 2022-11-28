@@ -118,7 +118,7 @@ In this context we want to fetch a small number of search results and save these
 #### Stream limitations
 
 - The stream endpoint is expensive for the API to process and for this reason there is a limitation on the number of parallel requests it will handle. In the case of the stream API having too many requests a `429` status will be returned in which case you can either use [pagination](https://www.uniprot.org/help/pagination) (see 1.2) or try stream again later.
-- The stream endpoint can handle result sets with at most 5,000,000 entries. If you require more, consider: looking at FTP downloads; reducing your search by being more specific; using [pagination](https://www.uniprot.org/help/pagination) (see 1.2).
+- The stream endpoint can handle result sets with at most 10,000,000 entries. If you require more, consider: looking at FTP downloads; reducing your search by being more specific; using [pagination](https://www.uniprot.org/help/pagination) (see 1.2).
 
 #### Steps
 
@@ -258,7 +258,7 @@ In this context we want to save to disk search results which have a small number
 #### Stream limitations
 
 - The stream endpoint is expensive for the API to process and for this reason there is a limitation on the number of parallel requests it will handle. In the case of the stream API having too many requests a `429` status will be returned in which case you can either use pagination (see 2.2) or try stream again later.
-- The stream endpoint can handle at most result sets with 5,000,000 entries. If you require more consider: looking at FTP downloads; reduce your search by being more specific; using pagination (see 2.2)
+- The stream endpoint can handle at most result sets with 10,000,000 entries. If you require more consider: looking at FTP downloads; reduce your search by being more specific; using pagination (see 2.2)
 
 #### Steps
 
