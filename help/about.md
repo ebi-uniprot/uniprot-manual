@@ -34,6 +34,10 @@ UniProt activities at PIR have benefited from NIH grants HHSN266200400061C (2004
 
 - [How to cite us](https://www.uniprot.org/help/publications)
 
+# Logo
+
+The UniProt logo is available [here in SVG format](https://raw.githubusercontent.com/ebi-uniprot/uniprot-website/main/src/images/uniprot-logo.img.svg).
+
 # Contact the UniProt consortium members
 
 <img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/embl-logo.png" width=150 />
@@ -42,8 +46,8 @@ UniProt activities at PIR have benefited from NIH grants HHSN266200400061C (2004
 Wellcome Trust Genome Campus  
 Hinxton Cambridge CB10 1SD  
 United Kingdom  
-Phone: (+44 1223) 494 444  
-Fax: (+44 1223) 494 468
+Phone: (+44) 1223 494 444  
+Fax: (+44) 1223 494 468
 
 <br/>
 
@@ -54,8 +58,8 @@ Centre Medical Universitaire
 1, rue Michel Servet  
 1211 Geneva 4  
 Switzerland  
-Phone: (+41 22) 379 50 50  
-Fax: (+41 22) 379 58 58
+Phone: (+41) 22 379 50 50  
+Fax: (+41) 22 379 58 58
 
 <br/>
 
@@ -67,5 +71,5 @@ Georgetown University Medical Center
 Suite 1200  
 Washington, DC 20007  
 United States of America  
-Phone: (+1 202) 687 1039  
-Fax: (+1 202) 687 0057
+Phone: (+1) 202 687 1039  
+Fax: (+1) 202 687 0057
