@@ -153,8 +153,8 @@ fasta_list = re.split(r'\n(?=>)', all_fastas)
 
 When there are a large number of results to fetch it is advisable to use [pagination](https://www.uniprot.org/help/pagination) which means fetching batches of results one at a time. This is preferable to streaming because:
 
-1. Small memory footprint: if the search result data exceeds your computer's memory, downloading by streaming this at once will cause your Python script to crash. Pagiation will only load a subset of the results into your memory at once.
-2. Robust to connection issues: if when downloading by streaming the connection is interrupted, the download will need to be completely restarted. When working with pagiation, each batch can be reattempted from the point of failure without requiring to restart.
+1. Small memory footprint: if the search result data exceeds your computer's memory, downloading by streaming this at once will cause your Python script to crash. Pagination will only load a subset of the results into your memory at once.
+2. Robust to connection issues: if when downloading by streaming the connection is interrupted, the download will need to be completely restarted. When working with pagination, each batch can be reattempted from the point of failure without requiring to restart.
 3. Less API resource demand: the stream endpoint is very expensive as it requires a large amount of memory. The pagination endpoint distributes this resource demand over a longer period of time so the API infrastructure is better to deal with this.
 4. Process each batch as it arrives: downloading by streaming requires the download to be complete before any processing can take place. Batching allows processing to be interleaved with downloading which may be useful should it be desired to see processed results as soon as possible. The following diagram illustrates this:
 
