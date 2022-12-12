@@ -8,7 +8,7 @@ categories: UniProtKB,Automatic_annotation,help
 
 UniProt's [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic_annotation) automatically classifies and annotates unreviewed records in UniProtKB.
 
-Google's **ProtNLM** (**Prot**ein **N**atural **L**anguage **M**odel) contributions to this pipeline are labeled 'Google:UnProtein'. ProtNLM is a [transformer model](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) trained to predict the protein name from the protein's amino acid sequence.
+Google's **ProtNLM** (**Prot**ein **N**atural **L**anguage **M**odel) contributions to this pipeline are labeled 'Google:UnProtein'. See e.g. [A0A2Z4IEP2](https://www.uniprot.org/uniprotkb/A0A2Z4IEP2/entry). ProtNLM is a [transformer model](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) trained to predict the protein name from the protein's amino acid sequence.
 
 # ProtNLM methodology
 
@@ -18,9 +18,23 @@ ProtNLM is a new method used by UniProt to automatically annotate sequences, wit
 
 The sequence annotation problem shows similarities to other problems that can be solved with machine learning. Specifically, predicting a protein's name in English from its amino acid sequence is similar to predicting a title (or caption) for an image or a document.
 
-![protnml-schematic.png](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/protnlm-schematic.png?raw=true)
-
 ProtNLM uses a sequence-to-sequence model based on the [T5X framework](https://github.com/google-research/t5x).
+
+The simplest version of ProtNLM model takes in an amino acid sequence as input and produces a protein name as output. In UniProt 2022_04, all ProtNLM annotations were produced by a single model of this form.
+
+![protnml-schematic-1.png](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/protnlm-schematic-1.png?raw=true)
+
+## Leveraging the name of the organism in which the protein was found
+
+In UniProt 2022_05, we are also leveraging models that take as input both the protein amino acid sequence and the name of the organism in which the protein was found. The organism is typically known even for uncharacterized proteins and can provide information about potential names, for example "Ovule protein" occurs commonly among plant proteins.
+
+![protnml-schematic-2.png](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/protnlm-schematic-2.png?raw=true)
+
+## Ensembling
+
+In practice we use an ensemble combining both types of models: 3 models whose input is the amino acid sequence alone, and 3 models whose input is the amino acid sequence and the organism. In UniProt 2022_05, we have named new uncharacterized proteins with the new approach, and among proteins that were previously named by ProtNLM, we have provided new names whenever the ensemble prediction had a significantly higher model score.
+
+![protnml-schematic-3.png](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/protnlm-schematic-3.png?raw=true)
 
 ## Notable challenges
 
@@ -41,6 +55,6 @@ While we have carefully evaluated the models, we note that Machine Learning mode
 See also
 
 - [Preprint](https://storage.googleapis.com/brain-genomics-public/research/proteins/protnlm/uniprot_2022_04/protnlm_preprint_draft.pdf)
-- [Colab notebook to view evidence](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_evidencer_uniprot_2022_04.ipynb)
-- [Colab notebook to use model](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_use_model_for_inference_uniprot_2022_04.ipynb)
+- [Colab notebook to view evidence for ProtNLM annotations in UniProt 2022_04 release](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_evidencer_uniprot_2022_04.ipynb)
+- [Colab notebook to query one of the ProtNLM models in the Ensemble](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_use_model_for_inference_uniprot_2022_04.ipynb)
 - [Explore all UniProtKB entries with these annotations](https://www.uniprot.org/uniprotkb?query=%28source:google%29)
