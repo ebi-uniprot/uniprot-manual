@@ -9,12 +9,16 @@ categories: About_UniProt,Publications,help
 If you find UniProt useful, please consider citing our latest publication:
 
 The UniProt Consortium  
-**UniProt: the universal protein knowledgebase in 2021**  
-[Nucleic Acids Res. 49:D1 (2021)](https://doi.org/10.1093/nar/gkaa1100)
+**UniProt: the Universal Protein Knowledgebase in 2023**
+[Nucleic Acids Res. 51:D (2023)](https://doi.org/10.1093/nar/gkac1052/6835362)
 
 ...or choose the publication that best covers the UniProt aspects or components you used in your work:
 
 ## 2021
+
+The UniProt Consortium  
+**UniProt: the universal protein knowledgebase in 2021**  
+[Nucleic Acids Res. 49:D480–D489(2021)](https://doi.org/10.1093/nar/gkaa1100)
 
 Wang Y, Wang Q, Huang H, Huang W, Chen Y, McGarvey PB, Wu CH, Arighi CN, UniProt Consortium.  
 **A crowdsourcing open platform for literature curation in UniProt**  
