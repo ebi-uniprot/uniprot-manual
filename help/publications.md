@@ -14,6 +14,11 @@ The UniProt Consortium
 
 ...or choose the publication that best covers the UniProt aspects or components you used in your work:
 
+## 2022
+Coudert E, Gehant S, de Castro E, Pozzato M, Baratin D, Neto T,  Sigrist C J A, Redaschi N, Bridge A, UniProt Consortium.  
+**Annotation of biologically relevant ligands in UniProtKB using ChEBI**  
+[Bioinformatics (2022)](https://doi.org/10.1093/bioinformatics/btac793)
+
 ## 2021
 
 The UniProt Consortium  
