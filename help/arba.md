@@ -30,17 +30,17 @@ When you click on the tag, you see a link to the relevant ARBA annotation rule:
 
 The ARBA dataset is available from the home page of the [UniProt](https://www.uniprot.org/) website and on the top of every page of the website. In order to search the dataset to view rules of interest, click on the dropdown next to the search box and select 'ARBA'. Now enter a search term or rule ID. You can also use the advanced search to build your query.
 
-![UniProt namespace dropdown, including ARBA](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/arba-10.png)
+<img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/arba-10.png" alt="UniProt namespace dropdown, including ARBA" style="width:257px" />
 
 # Exploring the ARBA rule pages
 
-[Example](https://www.uniprot.org/arba/ARBA00004016)
+[Example rule: ARBA00004015](https://www.uniprot.org/arba/ARBA00004015)
 
 An ARBA rule page contains the unique ARBA ID, a link to the UniProtKB entries annotated by the rule, and the full rule with its conditions and annotations. A rule consists of a set of conditions and corresponding annotations that apply to a protein entry if the conditions are true.
 
 <figure style="width:80%">
   <img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/arba-11.png" alt="ARBA rule page ARBA00004016" />
-  <figcaption>ARBA rule page ARBA00004016</figcaption>
+  <figcaption>ARBA rule page ARBA00004015</figcaption>
 </figure>
 
-Conditions are listed on the left hand side of the rule page and annotations are on the right hand side. If a condition holds true then the corresponding annotation is applied. An ARBA rule only ever applies one annotation but can have multiple condition sets that lead to this annotation. Clicking on the conditions highlights the annotation and vice versa.
+Conditions are listed on the left hand side of the rule page and annotations are on the right hand side. If a condition holds true then the corresponding annotation is applied. An ARBA rule only ever applies one annotation but can have multiple condition sets that lead to this annotation. The conditions and corresponding annotations are grouped in 'IF' / 'THEN' blocks.
