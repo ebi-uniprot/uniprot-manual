@@ -14,17 +14,17 @@ Deleted entries in **UniProtKB/Swiss-Prot** are mostly Open Reading Frames (ORFs
 
 Deleted protein sequences can be found in UniParc. Example: [O00597](https://www.uniprot.org/uniprotkb/O00597) can be found in [UniParc](https://www.uniprot.org/uniparc/UPI000013C29B) (with the tag 'Active=No').
 
-The history of a deleted entry can be tracked (example: [O00597](https://www.uniprot.org/uniprotkb/O00597?version=%2A) ), and previous entry and sequence versions displayed.
+The history of a deleted entry can be tracked (example: [O00597](https://www.uniprot.org/uniprotkb/O00597?version=%2A)), and previous entry and sequence versions displayed.
 
 Two documents list the deleted accession numbers:
 
--   [delac\_sp.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/delac_sp.txt) for deleted ACs in UniProtKB/Swiss-Prot
--   [delac\_tr.txt.gz](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/delac_tr.txt.gz) for deleted ACs in UniProtKB/TrEMBL
+- [delac_sp.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/delac_sp.txt) for deleted ACs in UniProtKB/Swiss-Prot
+- [delac_tr.txt.gz](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/delac_tr.txt.gz) for deleted ACs in UniProtKB/TrEMBL
 
 # See also
 
--   [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds_protein_definition)
--   [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb_coverage)
--   [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious_sequences)
--   [How frequently is UniProt released? What is the synchronization delay with other databases?](https://www.uniprot.org/help/synchronization)
--   [Accession number](https://www.uniprot.org/help/accession_numbers)
+- [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds_protein_definition)
+- [Does UniProtKB contain all protein sequences?](https://www.uniprot.org/help/uniprotkb_coverage)
+- [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious_sequences)
+- [How frequently is UniProt released? What is the synchronization delay with other databases?](https://www.uniprot.org/help/synchronization)
+- [Accession number](https://www.uniprot.org/help/accession_numbers)

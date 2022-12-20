@@ -10,14 +10,14 @@ A redundant proteome is one in which all or nearly all protein sequences are hig
 
 To reduce redundancy in proteomes and subsequently UniProtKB/TrEMBL, we have developed a procedure to identify highly redundant proteomes within species groups, using a combination of manual and automatic methods.
 
--   Proteomes can only be redundant to other proteomes of the same taxonomy branch at species level or below (sub-species, strains, etc.).
--   We use the CD-Hit 2D program for pairwise comparison of proteomes within each taxonomic group. Based on the results, we calculate the level of similarity between pairs of proteomes within the groups.
--   Proteomes that rank lowest are the most redundant. These are marked as "redundant" on the UniProt [proteomes portal](https://www.uniprot.org/proteomes) (example: [UP000008521](https://www.uniprot.org/proteomes/UP000008521), redundant to [UP000008520](https://www.uniprot.org/proteomes/UP000008520) ), and are labelled with a specific icon. Protein entries belonging to these redundant proteomes are either removed from UniProtKB/TrEMBL, or, for new sequences, no corresponding UniProtKB/TrEMBL entries are created. The sequences from redundant proteomes are available for download from the UniProt sequence archive [UniParc](https://www.uniprot.org/uniparc) via the [proteomes portal](https://www.uniprot.org/proteomes).
+- Proteomes can only be redundant to other proteomes of the same taxonomy branch at species level or below (sub-species, strains, etc.).
+- We use the CD-Hit 2D program for pairwise comparison of proteomes within each taxonomic group. Based on the results, we calculate the level of similarity between pairs of proteomes within the groups.
+- Proteomes that rank lowest are the most redundant. These are marked as "redundant" on the UniProt [proteomes portal](https://www.uniprot.org/proteomes) (example: [UP000008521](https://www.uniprot.org/proteomes/UP000008521), redundant to [UP000008520](https://www.uniprot.org/proteomes/UP000008520)), and are labelled with a specific icon. Protein entries belonging to these redundant proteomes are either removed from UniProtKB/TrEMBL, or, for new sequences, no corresponding UniProtKB/TrEMBL entries are created. The sequences from redundant proteomes are available for download from the UniProt sequence archive [UniParc](https://www.uniprot.org/uniparc) via the [proteomes portal](https://www.uniprot.org/proteomes).
 
 # See also
 
--   [Reducing proteome redundancy](https://www.uniprot.org/help/proteome_redundancy)
--   [Elimination of redundant proteomes (UniProt blog)](https://insideuniprot.blogspot.com/2015/05/)
+- [Reducing proteome redundancy](https://www.uniprot.org/help/proteome_redundancy)
+- [Elimination of redundant proteomes (UniProt blog)](https://insideuniprot.blogspot.com/2015/05/)
 
 # Can a reference proteome be made redundant?
 
@@ -31,4 +31,4 @@ No. While it can happen that a proteome containing reviewed UniProtKB (Swiss-Pr
 
 Yes, this is possible: It may happen that proteomes that were identified as redundant are later reinstated as non-redundant, e.g. a proteome for a strain used as a model by a significant community or with proteins that have been crystallized. In the past, it has also happened on rare occasions that entries were deleted but later reinstated for other reasons. In such cases, the UniProtKB entries are created anew, with **new accession numbers**.
 
-To help users to link deleted to subsequently reinstated entries, we provide a [file that maps old to new accession numbers](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/reinstated_map.txt.gz) via their [protein\_ids](https://www.uniprot.org/help/sequence_origin).
+To help users to link deleted to subsequently reinstated entries, we provide a [file that maps old to new accession numbers](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/reinstated_map.txt.gz) via their [protein_ids](https://www.uniprot.org/help/sequence_origin).

@@ -10,7 +10,7 @@ The Association-Rule-Based Annotator (ARBA) is one of the contributors to this p
 
 ARBA rules can annotate protein properties such as function, catalytic activity, pathway membership, subcellular location and protein names but feature predictions are currently excluded. Generating rules on-the-fly in this way allows rules to evolve along with the content of UniProtKB with little or no manual intervention. It also provides a constant supply of potential 'seed rules' which can be further developed by the curators into [UniRule](https://www.uniprot.org/help/unirule) rules.
 
-# ARBA based evidence for UniProtKB annotation (example: [Q3TWF3](https://www.uniprot.org/uniprotkb/Q3TWF3) )
+# ARBA based evidence for UniProtKB annotation (example: [Q3TWF3](https://www.uniprot.org/uniprotkb/Q3TWF3))
 
 UniProtKB entries contain [evidence tags](https://www.uniprot.org/help/evidences) that describe the provenance of a given annotation and provide links to a reference where applicable. When an annotation is added to an entry based on an automatic annotation ARBA rule, the evidence tag indicates this:
 
