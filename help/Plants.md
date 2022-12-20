@@ -14,7 +14,10 @@ Our major effort is currently focused on manual annotation of the proteomes of b
 
 # About Arabidopsis
 
-<figure><img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/arabidopsis.jpg" title="Arabidopsis thaliana picture kindly provided by Volker Knoop" width="150" alt="Arabidopsis thaliana (Mouse-ear cress)" /><figcaption aria-hidden="true">Arabidopsis thaliana (Mouse-ear cress)</figcaption></figure>
+<figure width="150px">
+  <img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/arabidopsis.jpg" title="Arabidopsis thaliana picture kindly provided by Volker Knoop" alt="Arabidopsis thaliana (Mouse-ear cress)" />
+  <figcaption>Arabidopsis thaliana (Mouse-ear cress)</figcaption>
+</figure>
 
 [_Arabidopsis thaliana_](https://www.uniprot.org/taxonomy/3702) is a 20-25 cm tall flowering plant native to Europe, Asia, and northwestern Africa with a rapid life cycle (six weeks). It is used extensively as a model organism in plant biology and genetics. With about 157 million base pairs and five chromosomes, Arabidopsis has one of the smallest genomes among plants and it was the first one to be sequenced in 2000.
 
