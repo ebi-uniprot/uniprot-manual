@@ -28,7 +28,7 @@ When you click on the tag, you see a link to the relevant ARBA annotation rule:
 
 # Searching ARBA rules
 
-The ARBA dataset is available from the [UniProt](https://www.uniprot.org/) website. In order to search the dataset to view rules of interest, click on the dropdown next to the search box and select 'ARBA'. Now enter a search term or rule ID. You can also use the advanced search to build your query.
+The ARBA dataset is available from the home page of the [UniProt](https://www.uniprot.org/) website and on the top of every page of the website. In order to search the dataset to view rules of interest, click on the dropdown next to the search box and select 'ARBA'. Now enter a search term or rule ID. You can also use the advanced search to build your query.
 
 ![UniProt namespace dropdown, including ARBA](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/arba-10.png)
 
