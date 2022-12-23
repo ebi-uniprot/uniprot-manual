@@ -22,11 +22,11 @@ When you click on the tag, you see a link to the relevant UniRule rule:
 
 In the example shown above, the UniRule rule comes from RuleBase. UniRule is comprised of several rule systems (HAMAP, PIR name and site rules, and RuleBase rules) and each rule has a unique UniRule ID as well as a source rule ID coming from the system which created the rule.
 
-# Searching UniRule
+# Searching UniRule rules
 
-The UniRule dataset is available from the [UniProt](https://www.uniprot.org/) website. In order to search the dataset to view rules of interest, click on the dropdown next to the search box and select 'UniRule'. Now enter a rule ID or search term. You can also use the advanced search to build your query.
+The UniRule dataset is available from the home page of the [UniProt](https://www.uniprot.org/) website and on the top of every page of the website. In order to search the dataset to view rules of interest, click on the dropdown next to the search box and select 'UniRule'. Now enter a search term or rule ID. You can also use the advanced search to build your query.
 
-![](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/search_dropdown.png)
+<img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/arba-10.png" alt="UniProt namespace dropdown, including UniRule" style="width:400px" />
 
 # Exploring the UniRule rule pages
 

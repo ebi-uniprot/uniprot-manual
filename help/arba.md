@@ -30,7 +30,7 @@ When you click on the tag, you see a link to the relevant ARBA annotation rule:
 
 The ARBA dataset is available from the home page of the [UniProt](https://www.uniprot.org/) website and on the top of every page of the website. In order to search the dataset to view rules of interest, click on the dropdown next to the search box and select 'ARBA'. Now enter a search term or rule ID. You can also use the advanced search to build your query.
 
-<img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/arba-10.png" alt="UniProt namespace dropdown, including ARBA" style="width:257px" />
+<img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/arba-10.png" alt="UniProt namespace dropdown, including ARBA" style="width:400px" />
 
 # Exploring the ARBA rule pages
 
