@@ -12,7 +12,7 @@ The UniProt Knowledgebase consists of two sections: a section containing manuall
 
 # Where do the protein sequences come from?
 
-More than 95 % of the protein sequences provided by UniProtKB are derived from the translation of the coding sequences (CDS) which have been submitted to the public nucleic acid databases, the EMBL-Bank/GenBank/DDBJ databases ( [INSDC](http://www.insdc.org/) ). All these sequences, as well as the related data submitted by the authors, are automatically integrated into UniProtKB/TrEMBL.
+More than 95 % of the protein sequences provided by UniProtKB are derived from the translation of the coding sequences (CDS) which have been submitted to the public nucleic acid databases, the EMBL-Bank/GenBank/DDBJ databases ([INSDC](http://www.insdc.org/)). All these sequences, as well as the related data submitted by the authors, are automatically integrated into UniProtKB/TrEMBL.
 
 [Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence_origin)
 
@@ -41,11 +41,11 @@ Manual annotation consists of a critical review of experimentally proven or comp
 # How are entry versions archived?
 
 All changed UniProtKB entries are loaded into the UniSave Sequence/Annotation Version Archive as part of the public four weekly UniProtKB releases. Unlike UniProtKB, which contains only the latest Swiss-Prot and TrEMBL entry versions, UniSave provides access to previous versions of these entries.  
-Archived versions of a UniProtKB entry are accessible through the *Previous versions* link located at the bottom of the entry view's left-hand navigation bar.
+Archived versions of a UniProtKB entry are accessible through the _Previous versions_ link located at the bottom of the entry view's left-hand navigation bar.
 
 # Further information
 
--   [How to cite UniProt](https://www.uniprot.org/help/publications)
--   [Submissions and updates to UniProtKB](https://www.uniprot.org/help/submissions)
--   [UniProtKB entry view manual](https://www.uniprot.org/help?facets=category:manual)
--   [Printable Quick Guide to UniProtKB](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/uniprotkb_quickguide.pdf)
+- [How to cite UniProt](https://www.uniprot.org/help/publications)
+- [Submissions and updates to UniProtKB](https://www.uniprot.org/help/submissions)
+- [UniProtKB entry view manual](https://www.uniprot.org/help?facets=category:manual)
+- [Printable Quick Guide to UniProtKB](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/uniprotkb_quickguide.pdf)

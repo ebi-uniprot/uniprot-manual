@@ -7,7 +7,7 @@ UniProt help content is generated from the markdown files contained within this 
 There is a "New Page" button at the top right of the wiki homepage https://github.com/ebi-uniprot/uniprot-manual/wiki
 
 1. Click the "New page" button
-2. Give your page a title. This title won't be displayed but will be what appears in the url for the help article (eg )
+2. Give your page a title. This title won't be displayed but will be what appears in the url for the help article
 3. Paste the meta-data snippet below at the top of your page.
 
 ```

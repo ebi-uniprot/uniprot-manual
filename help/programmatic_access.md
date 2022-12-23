@@ -20,7 +20,7 @@ UniProt provides several application programming interfaces (APIs) to query and 
 
 # UniProt SPARQL API
 
-**What:** [SPARQL](https://en.wikipedia.org/wiki/SPARQL) API for all UniProt data, stored in Resource Description Framework (RDF) format ( [Help](https://www.uniprot.org/help/sparql) ). An SQL-like graph query language that allows to perform complex queries across all UniProt data, as well as across other resources that provide a SPARQL endpoint, such as Ensembl or Wikidata.  
+**What:** [SPARQL](https://en.wikipedia.org/wiki/SPARQL) API for all UniProt data, stored in Resource Description Framework (RDF) format ([Help](https://www.uniprot.org/help/sparql)). An SQL-like graph query language that allows to perform complex queries across all UniProt data, as well as across other resources that provide a SPARQL endpoint, such as Ensembl or Wikidata.  
 **Why:** Access data from UniProt, and other resources, using a low-cost alternative to importing the data into e.g. a relational database and building a local data warehouse.  
 **Documentation:** [https://sparql.uniprot.org](https://sparql.uniprot.org/)
 

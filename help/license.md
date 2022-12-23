@@ -6,7 +6,7 @@ categories: About_UniProt,Technical,help
 
 # License
 
-We have chosen to apply the [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/) ) to all copyrightable parts of our databases.
+We have chosen to apply the [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/)) to all copyrightable parts of our databases.
 
 [How to cite us](https://www.uniprot.org/help/publications)
 

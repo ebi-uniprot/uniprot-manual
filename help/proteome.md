@@ -18,7 +18,7 @@ UniProt proteomes may include both manually reviewed (UniProtKB/Swiss-Prot) and 
 
 # What is the source of the sequences for proteomes?
 
-The majority of UniProt proteomes are based on translations of genome sequence submissions to the International Nucleotide Sequence Database Consortium ( [INSDC](http://www.insdc.org/) ).
+The majority of UniProt proteomes are based on translations of genome sequence submissions to the International Nucleotide Sequence Database Consortium ([INSDC](http://www.insdc.org/)).
 
 Complementary pipelines for import of protein sequences have been developed in collaboration with [Ensembl](http://www.ensembl.org/) for vertebrate species, [Ensembl Genomes](http://ensemblgenomes.org/) for non-vertebrate species, [WormBase ParaSite](http://parasite.wormbase.org/) for parasitic nematodes and [VectorBase](https://www.vectorbase.org/) for pathogen vector genomes. In addition, a new pipeline imports selected non-redundant genomes annotated by NCBI [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/). These sources provide proteome sequences for a number of key genomes of special interest where the INSDC submission is lacking gene model annotation. Both INSDC and non-INSDC derived proteomes link back to the source via the assembly and annotation sections respectively.
 
@@ -32,7 +32,7 @@ As the above-mentioned pipelines cover organisms for which we already have some 
 
 Therefore, a proteome is formed from all UniProtKB/Swiss-Prot entries (irrespective of whether they map to non-INSDC annotated genomes) plus those UniProtKB/TrEMBL entries mapping to the non-INSDC resource for that proteome.
 
-To date these pipelines have been used to populate UniProtKB with additional sequences for the human proteome, major model organisms and other species of special interest (see headline [Complete proteomes for _Homo sapiens_ and _Mus musculus_](https://www.uniprot.org/release-notes/2011-05-03-release) ).
+To date these pipelines have been used to populate UniProtKB with additional sequences for the human proteome, major model organisms and other species of special interest (see headline [Complete proteomes for _Homo sapiens_ and _Mus musculus_](https://www.uniprot.org/release-notes/2011-05-03-release)).
 
 ## See also
 
@@ -76,7 +76,7 @@ To download the results of a text search in UniProtKB:
 
 To download your favorite proteomes programmatically, please go to the help page [Downloading data at every UniProt release](https://www.uniprot.org/help/api_downloading), where you will find a code example that illustrates how to download the proteomes for all organisms below a given taxonomic node in FASTA format.
 
-Note that the download formats which describe complete UniProtKB entries (flat text, XML, RDF/XML) include only the ['canonical'](https://www.uniprot.org/help/canonical_and_isoforms) or displayed protein sequences of UniProtKB entries. These canonical sequences can also be downloaded in FASTA format (option `Canonical sequence data in FASTA format` ), as can a set of protein sequences including both canonical and manually reviewed 'isoform sequences' from UniProtKB/Swiss-Prot (where available) using the option `Canonical and isoform sequence data in FASTA format`.
+Note that the download formats which describe complete UniProtKB entries (flat text, XML, RDF/XML) include only the ['canonical'](https://www.uniprot.org/help/canonical_and_isoforms) or displayed protein sequences of UniProtKB entries. These canonical sequences can also be downloaded in FASTA format (option `Canonical sequence data in FASTA format`), as can a set of protein sequences including both canonical and manually reviewed 'isoform sequences' from UniProtKB/Swiss-Prot (where available) using the option `Canonical and isoform sequence data in FASTA format`.
 
 # See also
 

@@ -16,7 +16,7 @@ Note that the background color around the search field changes depending on the 
 
 # Query syntax
 
-Here is a brief overview of the supported query syntax (see also [query fields for UniProtKB](https://www.uniprot.org/help/query-fields) ):
+Here is a brief overview of the supported query syntax (see also [query fields for UniProtKB](https://www.uniprot.org/help/query-fields)):
 
 | Query                                                                                                                              | Description                                                                                                                                                                                                                                                                                                                          |
 | :--------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -50,6 +50,7 @@ The advanced search interface allows to browse the different search fields and o
 # See also
 
 - [Search tips](https://www.uniprot.org/help?query=text%20search)
+- [Wildcard usage](https://www.uniprot.org/help/wildcard)
 - [UniProtKB tutorial/video](https://www.youtube.com/watch?v=ado1r8IDm3U)
 - [Advanced search options](https://www.uniprot.org/help/advanced_search)
 - [Customize display options](https://www.uniprot.org/help/customize)

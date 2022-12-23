@@ -8,7 +8,7 @@ This subsection of the 'PTM / Processing' section specifies the position and typ
 
 Common modifications include phosphorylation, methylation, acetylation, amidation, formation of pyrrolidone carboxylic acid, isomerization, hydroxylation, sulfation, flavin-binding, cysteine oxidation and nitrosylation.
 
-We describe the chemical nature of the modified residue using a controlled vocabulary (see the document ['Controlled vocabulary of posttranslational modifications (PTM)'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist.txt) ).
+We describe the chemical nature of the modified residue using a controlled vocabulary (see the document ['Controlled vocabulary of posttranslational modifications (PTM)'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/ptmlist.txt)).
 
 We provide additional information concerning the modification, such as:
 
@@ -29,7 +29,7 @@ We annotate experimentally determined sites of modification. These are propagate
 2.  the enzyme which performs the modification must exist in the related organism, or the same type of modification must have already been observed (this condition is mandatory);
 3.  the modified residue and the surrounding region should be conserved in the orthologous protein (this condition is also mandatory).
 
-Propagation is generally restricted to closely related species, e.g. among mammals or bacteria from the same taxonomic group. We usually do not propagate information concerning modified residues among plants or unicellular fungi. Specific details regarding the type of modification may be generalized during propagation. For instance, a particular lysine can be subjected to mono-or dimethylation in *E.coli* strain K12, but this information is not propagated to the *E.coli* O157:H7 orthologous entry, where we simply indicate that methylation occurs.  
+Propagation is generally restricted to closely related species, e.g. among mammals or bacteria from the same taxonomic group. We usually do not propagate information concerning modified residues among plants or unicellular fungi. Specific details regarding the type of modification may be generalized during propagation. For instance, a particular lysine can be subjected to mono-or dimethylation in _E.coli_ strain K12, but this information is not propagated to the _E.coli_ O157:H7 orthologous entry, where we simply indicate that methylation occurs.  
 Example:
 
 P0CE47 (source entry),
@@ -81,7 +81,7 @@ Carboxyl methylation can occur either on a C-terminal cysteine, leucine or lysin
 
 Examples: [P67775](https://www.uniprot.org/uniprotkb/P67775#ptm_processing), [P02994](https://www.uniprot.org/uniprotkb/P02994#ptm_processing)
 
-Cysteine carboxymethylation frequently occurs after prenylation of the CAAX (Cys - aliphatic\_twice - any residue) sequence and proteolytic cleavage of the C-A bond.
+Cysteine carboxymethylation frequently occurs after prenylation of the CAAX (Cys - aliphatic_twice - any residue) sequence and proteolytic cleavage of the C-A bond.
 
 Example: [P34068](https://www.uniprot.org/uniprotkb/P34068#ptm_processing)
 
@@ -171,7 +171,7 @@ This modification can also occur from a glutamate residue but this seems to be e
 
 This modification has been observed in eukaryotes (including mammals, plants, insects), archaea (including halobacteria) and bacteria (including proteobacteria and actinobacteria).  
 Synonyms: pyrrolidone carboxylic acid (Pca), pyroglutamic acid (Pga), pyroglutamate (pyro-Glu, pGlu, Pyr).  
-*Note* : Pyro-Glu is often indicated in papers as 'pGlu' and sometimes, in one-letter code as "U", although this is now used for selenocysteine. In figures of publications, it may be cited as Z, pQ or E.
+_Note_ : Pyro-Glu is often indicated in papers as 'pGlu' and sometimes, in one-letter code as "U", although this is now used for selenocysteine. In figures of publications, it may be cited as Z, pQ or E.
 
 Examples: [P30233](https://www.uniprot.org/uniprotkb/P30233#ptm_processing), [P68000](https://www.uniprot.org/uniprotkb/P68000#ptm_processing), [P02945](https://www.uniprot.org/uniprotkb/P02945#ptm_processing)
 
@@ -232,7 +232,7 @@ Example: [Q15848](https://www.uniprot.org/uniprotkb/Q15848#ptm_processing)
 
 Example: [Q3Y5Z3](https://www.uniprot.org/uniprotkb/Q3Y5Z3#ptm_processing)
 
-*Note* : Hydroxylysine can be glycosylated.
+_Note_ : Hydroxylysine can be glycosylated.
 
 **4,5-dihydroxylysine, 3',4'-dihydroxyphenylalanine (DOPA), 3,4-dihydroxyarginine**
 

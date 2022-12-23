@@ -21,7 +21,7 @@ Your column selection can be used to produce a **tab-separated output** containi
 
 These column settings will be stored in a cookie, and applied to all subsequent queries until you change your settings, delete your cookies or use a different computer.
 
-In some cases, e.g. in an ID mapping or batch retrieval result, or if you have bookmarked (or received from a colleague) an URL that specifies column settings different from your own current settings, you may see an additional section **"Unsaved columns"** (in addition to **"Columns to be displayed"** and **"Add more columns"** ).
+In some cases, e.g. in an ID mapping or batch retrieval result, or if you have bookmarked (or received from a colleague) an URL that specifies column settings different from your own current settings, you may see an additional section **"Unsaved columns"** (in addition to **"Columns to be displayed"** and **"Add more columns"**).
 
 In case of an ID mapping or batch retrieval result, this allows you to customize your result and decide whether you wish to keep the column containing your submitted identifiers for future result views.
 

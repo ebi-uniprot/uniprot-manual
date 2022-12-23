@@ -20,12 +20,12 @@ You can use three methods to search proteins associated with a given disease.
 2\) Search via the controlled vocabulary of human diseases:
 
 - Select `Human diseases` from the dataset dropdown next to the search box, or go to the [Human diseases page](https://www.uniprot.org/diseases)
-- Enter a search term or use the **Advanced search** (e.g. [adrenal hyperplasia](https://www.uniprot.org/diseases/?query=adrenal+hyperplasia) )
+- Enter a search term or use the **Advanced search** (e.g. [adrenal hyperplasia](https://www.uniprot.org/diseases/?query=adrenal+hyperplasia))
 - Browse through your results, choose a disease (e.g. Adrenal hyperplasia 4) and click on the [UniProtKB](https://www.uniprot.org/uniprotkb?query=disease:DI-00044 "xxx") link below it.
 
 3\) Browse by keyword:
 
-Some proteins involved in a specific non-monogenic disease are associated with specialized 'disease' keywords ( ['Diabetes mellitus'](https://www.uniprot.org/keywords/219), ['Cataract'](https://www.uniprot.org/keywords/898), ['Alzheimer disease'](https://www.uniprot.org/keywords/26)...)
+Some proteins involved in a specific non-monogenic disease are associated with specialized 'disease' keywords (['Diabetes mellitus'](https://www.uniprot.org/keywords/219), ['Cataract'](https://www.uniprot.org/keywords/898), ['Alzheimer disease'](https://www.uniprot.org/keywords/26)...)
 
 - Go to the [keywords page](https://www.uniprot.org/keywords/)
 - Click the keyword category `'Disease'`

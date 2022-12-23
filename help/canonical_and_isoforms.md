@@ -11,7 +11,7 @@ Each UniProtKB/Swiss-Prot entry contains all curated protein products encoded by
 1.  It is functional;
 2.  It is widely expressed;
 3.  It is encoded by conserved exons found in orthologous sequences;
-4.  It is identical to consensus sequences chosen by other resources and genome curation efforts such as CCDS and MANE (see also [UniProt's human proteome](https://www.uniprot.org/help/human_proteome) )
+4.  It is identical to consensus sequences chosen by other resources and genome curation efforts such as CCDS and MANE (see also [UniProt's human proteome](https://www.uniprot.org/help/human_proteome))
 5.  In the absence of any information, we choose the longest sequence.
 
 Sequences chosen according to these criteria generally allow the description of the majority of functionally important [domains](https://www.uniprot.org/help/domain), [motifs](https://www.uniprot.org/help/motif), [sites](https://www.uniprot.org/help/site), and [post-translational modifications](https://www.uniprot.org/help/ptm_processing_section), naturally occurring [variants](https://www.uniprot.org/help/variant) with functional and clinical significance, and other [sequence features](https://www.uniprot.org/help/sequence_annotation).
@@ -34,13 +34,13 @@ Alternative sequences, described in either single or separate entries, are all a
 
 Isoform sequences can be downloaded in FASTA format from our [FTP download index page](https://www.uniprot.org/downloads) (choose the file: 'Isoform sequences').
 
-Query-derived sets of canonical sequences alone or canonical and isoform sequences can also be downloaded in FASTA format (see [How to retrieve sets of UniProtKB protein sequences?](https://www.uniprot.org/help/retrieve_sets) ).
+Query-derived sets of canonical sequences alone or canonical and isoform sequences can also be downloaded in FASTA format (see [How to retrieve sets of UniProtKB protein sequences?](https://www.uniprot.org/help/retrieve_sets)).
 
 # See also
 
--   [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds_protein_definition)
--   [How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein_diversity)
--   [Sequence length](https://www.uniprot.org/help/sequence_length)
--   [Alternative products](https://www.uniprot.org/help/alternative_products)
--   [Alternative sequence](https://www.uniprot.org/help/var_seq)
--   [Sequence conflict](https://www.uniprot.org/help/conflict)
+- [What are UniProtKB's criteria for defining a CDS as a protein?](https://www.uniprot.org/help/cds_protein_definition)
+- [How are protein sequence variety and protein diversity represented in UniProtKB?](https://www.uniprot.org/help/protein_diversity)
+- [Sequence length](https://www.uniprot.org/help/sequence_length)
+- [Alternative products](https://www.uniprot.org/help/alternative_products)
+- [Alternative sequence](https://www.uniprot.org/help/var_seq)
+- [Sequence conflict](https://www.uniprot.org/help/conflict)

@@ -34,11 +34,11 @@ Cross-links formed between two proteolytically generated parts of the same prote
 
 # 3. Other common cross-links
 
--   Ubiquitin-like (Ubl) conjugation
--   Transglutamination
--   Thioether bond
--   Thioester bond
--   Special cases
+- Ubiquitin-like (Ubl) conjugation
+- Transglutamination
+- Thioether bond
+- Thioester bond
+- Special cases
 
 ## a. Ubiquitin and Ubiquitin-like conjugation
 
@@ -110,6 +110,6 @@ Example: [Q9MYY8](https://www.uniprot.org/uniprotkb/Q9MYY8#ptm_processing) (Sele
 Example: [P00372](https://www.uniprot.org/uniprotkb/P00372#ptm_processing)  
 Related keyword: [TTQ](https://www.uniprot.org/keywords/824)
 
-Analagous cross-links have been observed between tryptophylquinone and cysteine (related keyword: [CTQ](https://www.uniprot.org/keywords/885) ) and between tyrosylquinone and lysine (related keyword: [LTQ](https://www.uniprot.org/keywords/886) ).
+Analagous cross-links have been observed between tryptophylquinone and cysteine (related keyword: [CTQ](https://www.uniprot.org/keywords/885)) and between tyrosylquinone and lysine (related keyword: [LTQ](https://www.uniprot.org/keywords/886)).
 
 See also the subsection [Post-translational modifications](https://www.uniprot.org/help/post-translational_modification) for additional information on modifications for which **position-specific data is not yet available**.

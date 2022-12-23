@@ -6,7 +6,7 @@ categories: Proteomes,Download,UniProtKB,Keywords,Sequence,Human,faq
 
 In 2008, a draft of the complete human proteome was released from UniProtKB/Swiss-Prot: the approximately 20,000 putative human protein-coding genes were represented by one UniProtKB/Swiss-Prot entry each, tagged with the keyword 'Complete proteome' (now obsolete) and later linked to [proteome identifier](https://www.uniprot.org/help/proteome_id) [UP000005640](https://www.uniprot.org/proteomes/UP000005640).
 
-The **UniProtKB/Swiss-Prot _Homo sapiens_ proteome** contains one representative ( [canonical](https://www.uniprot.org/help/canonical_and_isoforms) ) protein sequence for each known protein-coding gene. Close to 40% of these 20,000 protein sequence records also contain manually annotated alternative isoforms representing over 22'000 additional sequences (see [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical_and_isoforms) ).
+The **UniProtKB/Swiss-Prot _Homo sapiens_ proteome** contains one representative ([canonical](https://www.uniprot.org/help/canonical_and_isoforms)) protein sequence for each known protein-coding gene. Close to 40% of these 20,000 protein sequence records also contain manually annotated alternative isoforms representing over 22'000 additional sequences (see [What is the canonical sequence? Are all isoforms described in one entry?](https://www.uniprot.org/help/canonical_and_isoforms)).
 
 - Query: [proteome:up000005640 AND reviewed:true](https://www.uniprot.org/uniprotkb?query=reviewed%3Atrue+AND+proteome%3Aup000005640)
 
@@ -14,7 +14,7 @@ In 2011, a complementary pipeline for import of predicted human protein sequence
 
 This pipeline works in the following way:
 
-1.  Ensembl sequences are first mapped to their UniProtKB counterparts under stringent conditions, requiring 100% identity over 100% of the length of the two sequences. The thus identified UniProtKB entries are flagged as part of the proteome (via a link to [UP000005640](https://www.uniprot.org/proteomes/up000005640) ) and obtain a cross-reference to the mapped Ensembl record.
+1.  Ensembl sequences are first mapped to their UniProtKB counterparts under stringent conditions, requiring 100% identity over 100% of the length of the two sequences. The thus identified UniProtKB entries are flagged as part of the proteome (via a link to [UP000005640](https://www.uniprot.org/proteomes/up000005640)) and obtain a cross-reference to the mapped Ensembl record.
 2.  Ensembl sequences that are absent from UniProtKB are imported into UniProtKB/TrEMBL. These entries are flagged as part of the proteome and have an Ensembl cross-reference.
 
 This **UniProtKB _H. sapiens_ proteome** includes thus both the reviewed sequences from UniProtKB/Swiss-Prot (equivalent to an updated version of the _H. sapiens_ proteome completed in 2008), supplemented by unreviewed sequences from UniProtKB/TrEMBL, which may represent additional predicted isoform sequences, but which may potentially also add redundancy.
@@ -23,7 +23,7 @@ Query:
 
 - [proteome:up000005640](https://www.uniprot.org/uniprotkb?query=proteome%3Aup000005640)
 
-Remark: The number of entries in the human proteome may vary from one release to the other, especially the manually reviewed set. This is due to our continuous manual updates thanks to the availability of new information. On a regular basis, we have to merge entries that were originally thought to be encoded by two separate genes, but later appeared to be actually a single gene. An entry can also be deleted when there is increasing evidence that it is an erroneous translation derived from a pseudogene. We keep dubious sequences in UniProtKB until there is enough evidence to decide whether we should delete them (see [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious_sequences) ).
+Remark: The number of entries in the human proteome may vary from one release to the other, especially the manually reviewed set. This is due to our continuous manual updates thanks to the availability of new information. On a regular basis, we have to merge entries that were originally thought to be encoded by two separate genes, but later appeared to be actually a single gene. An entry can also be deleted when there is increasing evidence that it is an erroneous translation derived from a pseudogene. We keep dubious sequences in UniProtKB until there is enough evidence to decide whether we should delete them (see [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious_sequences)).
 
 # Access to human sequence sets
 

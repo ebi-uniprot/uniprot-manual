@@ -6,8 +6,8 @@ categories: help
 
 In order to assess quality and completeness of [proteomes](https://www.uniprot.org/proteomes), we provide two values:
 
--   Statistical evaluation and classification of the proteome by the **Complete Proteome Detector (CPD)** algorithm (developed by UniProt)
--   The [BUSCO score](https://www.sib.swiss/about-sib/news/10131-gauging-the-completeness-of-genomics-data-with-busco) of the proteome, which was developed to quantify genomic data completeness in terms of expected gene content.
+- Statistical evaluation and classification of the proteome by the **Complete Proteome Detector (CPD)** algorithm (developed by UniProt)
+- The [BUSCO score](https://www.sib.swiss/about-sib/news/10131-gauging-the-completeness-of-genomics-data-with-busco) of the proteome, which was developed to quantify genomic data completeness in terms of expected gene content.
 
 # Complete Proteome Detector (CPD)
 
@@ -21,13 +21,13 @@ Let Q1, Q3 be the first and third quartiles of protein counts of related proteom
 
 We define the fences for outliers as:
 
-F <sub>1</sub> = max(0, Q <sub>1</sub> - 1.5 x (Q <sub>3</sub> - Q <sub>1</sub> ))  
-F <sub>2</sub> = min(Q <sub>3</sub> + Q <sub>1</sub>, Q <sub>3</sub> + 1.5 x (Q <sub>3</sub> - Q <sub>1</sub> ))
+F <sub>1</sub> = max(0, Q <sub>1</sub> - 1.5 x (Q <sub>3</sub> - Q <sub>1</sub>))  
+F <sub>2</sub> = min(Q <sub>3</sub> + Q <sub>1</sub>, Q <sub>3</sub> + 1.5 x (Q <sub>3</sub> - Q <sub>1</sub>))
 
 CPD score is defined as:
 
 | status                         | condition                                     |
-|:-------------------------------|:----------------------------------------------|
+| :----------------------------- | :-------------------------------------------- |
 | Outlier (low value)            | if C &lt;= F <sub>1</sub>                     |
 | Close to standard (low value)  | if F <sub>1</sub> &lt; C &lt; Q <sub>1</sub>  |
 | Standard                       | if Q <sub>1</sub> &lt;= C &lt; Q <sub>3</sub> |
@@ -36,17 +36,17 @@ CPD score is defined as:
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/assessing_proteomes-12.png)
 
-Figure 1 caption: *CPD status descriptions are defined by how the protein count of a proteome compares to the distribution of protein counts in a group of at least 30 closely related proteomes. The proteomes chosen for comparison are as closely related as possible in order to find at least 30 proteomes. If not enough proteomes can be found within the same taxonomic class then the proteome is scored "Unknown".*
+Figure 1 caption: _CPD status descriptions are defined by how the protein count of a proteome compares to the distribution of protein counts in a group of at least 30 closely related proteomes. The proteomes chosen for comparison are as closely related as possible in order to find at least 30 proteomes. If not enough proteomes can be found within the same taxonomic class then the proteome is scored "Unknown"._
 
 ## Examples
 
 Example 1 : [Human reference proteome](https://www.uniprot.org/proteomes/UP000005640/) - Score = "Outlier (high)"
 
-The proteome [UP000005640](https://www.uniprot.org/proteomes/UP000005640/) has a protein count of 77027 (as of release 2021\_02). When we compare this to the protein counts of closely related proteomes (primates) we can see that this protein count is high. This proteome is scored "Outlier (high)". This is not necessarily a bad sign! The human proteome is very well studied compared to some of the other primate proteomes - so we might expect to see a higher protein count due to all of the identified isoforms due to alternative splicing.
+The proteome [UP000005640](https://www.uniprot.org/proteomes/UP000005640/) has a protein count of 77027 (as of release 2021_02). When we compare this to the protein counts of closely related proteomes (primates) we can see that this protein count is high. This proteome is scored "Outlier (high)". This is not necessarily a bad sign! The human proteome is very well studied compared to some of the other primate proteomes - so we might expect to see a higher protein count due to all of the identified isoforms due to alternative splicing.
 
 Example 2 : [Human proteome (mitochondrion only)](https://www.uniprot.org/proteomes/UP000307385/) - Score = "Outlier (low)"
 
-This human "proteome" has a very low protein count of 13 (as of release 2021\_02). This "proteome" only consists of the proteins encoded in the mitochondrial genome. Therefore a score of "Outlier (low)" makes sense; all other mitochondrial proteins are imported into the organelle but are not reflected in this number.
+This human "proteome" has a very low protein count of 13 (as of release 2021_02). This "proteome" only consists of the proteins encoded in the mitochondrial genome. Therefore a score of "Outlier (low)" makes sense; all other mitochondrial proteins are imported into the organelle but are not reflected in this number.
 
 # Benchmarking Universal Single-Copy Orthologs (BUSCO)
 
@@ -54,4 +54,4 @@ For eukaryotic and bacterial proteomes, we also provide the [BUSCO score](https:
 
 This score includes percentages of complete (C) single-copy (S) genes, complete (C) duplicated (D) genes, fragmented (F) and missing (M) genes, as well as the total number of orthologous clusters (n) used in the BUSCO assessment.
 
-We also report, as is recommended in [BUSCO's user guide](https://busco.ezlab.org/busco_userguide.html#running-busco-2), the most specific lineage dataset available to analyse each proteome. For example, to assess fish data we would select the actinopterygii lineage (dataset: actinopterygii\_odb10) rather than the metazoa or eukaryota lineage. A full list of available lineage datasets can be found on the [BUSCO website](https://busco.ezlab.org/list_of_lineages.html).
+We also report, as is recommended in [BUSCO's user guide](https://busco.ezlab.org/busco_userguide.html#running-busco-2), the most specific lineage dataset available to analyse each proteome. For example, to assess fish data we would select the actinopterygii lineage (dataset: actinopterygii_odb10) rather than the metazoa or eukaryota lineage. A full list of available lineage datasets can be found on the [BUSCO website](https://busco.ezlab.org/list_of_lineages.html).

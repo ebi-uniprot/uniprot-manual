@@ -23,7 +23,7 @@ Example: **Search for Saccharomyces cerevisiae membrane glycoproteins in UniProt
 - Click **Columns** to choose the columns to show in the result table
 - This URL can be bookmarked.
 
-# SRS-like queries ( [Advanced search](https://www.uniprot.org/help/advanced_search) )
+# SRS-like queries ([Advanced search](https://www.uniprot.org/help/advanced_search))
 
 - Select `UniProtKB` from the search menu
 - Click **Advanced** to open the query builder
