@@ -4,31 +4,24 @@ type: help
 categories: Website,Text_search,Technical,help
 ---
 
-Searches in the Protein Knowledgebase (UniProtKB) display results in a tabular format.  
-You can configure which columns are shown in the result table, and have your selection reflected in the **download** of your data in form of a tab-separated file. You can also use the resulting URL [programmatically](https://www.uniprot.org/help/api).
+Searches in the Protein Knowledgebase (UniProtKB), as well as in all other namespaces in the UniProt website, display results either in a card format, or in a tabular format.
+In the tabular format you can configure which columns are shown in the result table, and have your selection reflected in the **download** of your data in form of a tab-separated file. You can also use the resulting URL [programmatically](https://www.uniprot.org/help/api).
 
-When you click on "Columns", or on the pencil icon at the far left of your result table header, you will obtain a screen containing two sections:
+When you click on "Customize columns" button, accompanied by the pencil icon on its left, which is located right above the results table, you will obtain a panel containing grouped lists of available columns to display. 2 mains groups are separated in 2 tabs, one containing the columns showing data and the other containing columns showing external links to [other resources for which we have cross-references](https://www.uniprot.org/database/?query=*). Columns in both tabs are further grouped by categories such as "Names & Taxonomy", "Sequences", or "Function".
 
-1.  **Columns to be displayed**  
-    shows your current selection (or the default columns if you have not yet configured anything). You can drag and drop the text elements to change the column order, and remove columns by clicking on the "x". There is also a link to reset to the default settings.
-2.  **Add more columns**  
-    lists all available columns, grouped in the same way as the corresponding data is grouped in the entry view. You can browse through the options, or use the search box to find a column name.
+The columns currently shown in the table of results have a selected checkbox, and their parent categories show how many of those are selected in each group.
 
-You can add columns by clicking in the relevant checkboxes.  
-You can remove columns by unselecting the relevant checkboxes, or by clicking on the "x" under "Columns to be displayed".
+These checkboxes can be toggled on and off, immediately reflecting in the table of results below the panel. This selection is kept in the local memory of your browser and will be saved when you come back to the website in the future. This will also be reset if you clear the website's data, and will not be shared with another browser on your computer, or with another computer that you might also be using.
 
-Your column selection can be used to produce a **tab-separated output** containing the same set of columns, e.g. for use in a spreadsheet program such as Excel (c): Once you are happy with your table layout, click on "Download" and select one of tab-separated or Excel formats.
+You can search for specific columns through the text search box at the top of each tab.
 
-These column settings will be stored in a cookie, and applied to all subsequent queries until you change your settings, delete your cookies or use a different computer.
+At any time, you can reset the selection by clicking the "Reset to default" at the bottom of each page.
 
-In some cases, e.g. in an ID mapping or batch retrieval result, or if you have bookmarked (or received from a colleague) an URL that specifies column settings different from your own current settings, you may see an additional section **"Unsaved columns"** (in addition to **"Columns to be displayed"** and **"Add more columns"**).
+Your column selection can be used to produce a **tab-separated output** containing the same set of columns, e.g. for use in a spreadsheet program such as Excel©: Once you are happy with your table layout, click on "Download" and select one of tab-separated or Excel formats.
 
-In case of an ID mapping or batch retrieval result, this allows you to customize your result and decide whether you wish to keep the column containing your submitted identifiers for future result views.
-
-The same applies if you have an URL originating from a previous bookmark or shared by a colleague. Such URLs may contain some information about column settings that differ from your current settings ([example](https://www.uniprot.org/uniprotkb?query=%28database%3Ahgnc%29&fields=accession%2Creviewed%2Cid%2Cgene_names%2Cxref_hgnc&view=table)), and using the column customization interface allows you to merge the columns specified in the URL with your current settings.
+You once you have customized your view, you can share it to colleagues through the "Share" > "Copy link to your results" functionality. When this copied link is opened in another browser, it will show the exact same view that you were presented with, with the same columns in the same order.
 
 # See also
 
 - [UniProtKB tutorial/video](https://www.youtube.com/watch?v=OwOJmKmc7VM)
 - [UniProtKB column names for programmatic access](https://www.uniprot.org/help/return_fields)
-- [Customise and share your search results (UniProt blog)](https://insideuniprot.blogspot.com/2015/03)
