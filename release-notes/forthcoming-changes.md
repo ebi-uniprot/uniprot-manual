@@ -4,6 +4,17 @@ type: releaseNotes
 date: 2099-01-01
 ---
 
+# API changes
+
+## Evidence search
+
+When looking for fields that contain evidences, we'll remove the ability to search for a field term combined with a type of evidence.
+The returned results were misleading as they did not combine these well, and instead of returning the intersection of values for the searched term with the evidence type, it was returning the union of these 2 sets, meaning it might have returned more results than needed.
+
+At the moment, we'll only enable the search for a term without associating it with an evidence type.
+
+We are working on a more intuitive way to search for the intersection and once we have the query available we'll document it here.
+
 # Change of the UniParc files distribution
 
 **On February 22, 2023**
