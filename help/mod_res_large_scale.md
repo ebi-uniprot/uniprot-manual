@@ -14,7 +14,7 @@ The data comes from a refined set of large-scale *phosphoproteomic datasets* ava
 
 # How can I access this data in UniProt?
 
-The data is viewable in multiple formats, via the [UniProt Proteins API (Proteomics PTM section)](https://www.ebi.ac.uk/proteins/api/doc/), via the [protein entry page](https://www.uniprot.org/help/explore_uniprotkb_entry) under section [PTM/Processing](https://www.uniprot.org/help/ptm_processing_section) (e.g. https://www.ebi.ac.uk/proteins/api/doc/) and in the interactive Feature Viewer (planned). Links to original source datasets in PRIDE are provided for users to explore the data in more detail. Links to reanalyzed source datasets in [PRIDE](https://www.ebi.ac.uk/pride/) will be provided in the future.
+The data is viewable in multiple formats, via the [UniProt Proteins API (Proteomics PTM section)](https://www.ebi.ac.uk/proteins/api/doc/), via the [protein entry page](https://www.uniprot.org/help/explore_uniprotkb_entry) under section [PTM/Processing](https://www.uniprot.org/help/ptm_processing_section) (e.g. [B9FXV5](https://www.uniprot.org/uniprotkb/B9FXV5/entry#ptm_processing)) and in the interactive Feature Viewer (planned). Links to original source datasets in PRIDE are provided for users to explore the data in more detail. Links to reanalyzed source datasets in [PRIDE](https://www.ebi.ac.uk/pride/) will be provided in the future.
 
 
 # Confidence score
