@@ -4,7 +4,7 @@ type: help
 categories: Text_search,Technical,Website,help
 ---
 
-We are now providing a new API to access UniProt's data and tools. Eventually, this will replace the services currently provided by www.uniprot.org.
+We are now providing a new API to access UniProt's data and tools. This replace the services previously provided by https://legacy.uniprot.org.
 
 Supported query fields for searching specific data in UniProtKB (see also [query syntax](https://www.uniprot.org/help/text-search)) are shown in the table below. For convenience, the table includes field and examples of both the legacy and new APIs.
 
