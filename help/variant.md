@@ -9,7 +9,7 @@ This subsection of the 'Sequence' section describes natural variant(s) of the pr
 We annotate individual genetic variants, including disease-linked variants, variations between strains, isolates or cultivars, and RNA editing events. We report the nature of the amino acid change, the name of the variant (or allele), when available, and the effect(s) of the variation on the protein, the cell or the complete organism.
 
 Note that frameshift variants are not annotated. Although these variants are not described in this subsection, the associated  
-phenotype, if known, will be reported in the ' [Polymorphism](https://www.uniprot.org/help/polymorphism) ' or ' [Involvement in disease](https://www.uniprot.org/help/involvement_in_disease) ' subsections.
+phenotype, if known, will be reported in the '[Polymorphism](https://www.uniprot.org/help/polymorphism)' or '[Involvement in disease](https://www.uniprot.org/help/involvement_in_disease)' subsections.
 
 # 1. Variants not linked to diseases
 
@@ -30,13 +30,13 @@ Example: [Q8NET6](https://www.uniprot.org/uniprotkb/Q8NET6#sequences)
 Additional information concerning individual polymorphic sites and alleles can be reported in the ['Polymorphism'](https://www.uniprot.org/help/polymorphism) subsection.  
 Example: [P15516](https://www.uniprot.org/uniprotkb/P15516#sequences)
 
-Note that artificial mutants resulting from (large-scale) mutagenesis screens of genetically tractable organisms, such as yeast or fly, are described in the ['Mutagenesis'](https://www.uniprot.org/help/mutagen) subsection of the 'Pathology and Biotech' section.
+Note that artificial mutants resulting from (large-scale) mutagenesis screens of genetically tractable organisms, such as yeast or fly, are described in the ['Mutagenesis'](https://www.uniprot.org/help/mutagen) subsection of the 'Disease/Phenotypes and variants' section.
 
 # 2. Disease-linked variants
 
-Information on disease-linked variants is mostly restricted to human proteins and is usually found in the 'Pathology and Biotech' section. We describe the amino acid change, the abbreviation of the associated disease and the effect(s) of the variation on the protein, the cell and/or the organism, if known. The large majority of curated human disease-linked variants are germline - not somatic - changes involved in Mendelian disease and linked to phenotypes described in the [OMIM database](https://www.omim.org/).
+Information on disease-linked variants is mostly restricted to human proteins and is usually found in the 'Disease/Phenotypes and variants' section. We describe the amino acid change, the abbreviation of the associated disease and the effect(s) of the variation on the protein, the cell and/or the organism, if known. The large majority of curated human disease-linked variants are germline - not somatic - changes involved in Mendelian disease and linked to phenotypes described in the [OMIM database](https://www.omim.org/).
 
-Additional information about the disease itself is provided in the ['Involvement in disease'](https://www.uniprot.org/help/involvement_in_disease) subsection of the 'Pathology and Biotech' section.  
+Additional information about the disease itself is provided in the ['Involvement in disease'](https://www.uniprot.org/help/involvement_in_disease) subsection of the 'Disease/Phenotypes and variants' section.  
 Examples: [O43593](https://www.uniprot.org/uniprotkb/O43593#phenotypes_variants), [P26439](https://www.uniprot.org/uniprotkb/P26439#phenotypes_variants)
 
 Related keyword: [Disease variant](https://www.uniprot.org/keywords/KW-0225)

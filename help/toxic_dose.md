@@ -4,7 +4,7 @@ type: help
 categories: disease_phenotypes_variants,manual
 ---
 
-This subsection of the ['Pathology and Biotech'](https://www.uniprot.org/help/disease_phenotypes_variants_section) section describes the lethal dose (LD), paralytic dose (PD), effect dose (ED) or lethal concentration (LC) of a protein toxin.
+This subsection of the ['Disease/Phenotypes and variants'](https://www.uniprot.org/help/disease_phenotypes_variants_section) section describes the lethal dose (LD), paralytic dose (PD), effect dose (ED) or lethal concentration (LC) of a protein toxin.
 
 LD(50) is the amount of a toxin, given all at once, which causes the death of 50% of test animals. PD(50) is the amount of a toxin, which causes the paralysis of 50% of test animals. ED(50) is the amount of a toxin, which produces an effect (the effect must be precised) on 50% of test animals. LC(50) is the concentration of a toxin, given all at once, which causes the death of 50% of test fishes. The typical units are micrograms (ug), milligrams (mg) or grams (g) of material per kilogram of body weight. The unit for LC(50) is micrograms (ug) of material per milliliter (ml) of water, as it is used to test toxin against fishes.
 

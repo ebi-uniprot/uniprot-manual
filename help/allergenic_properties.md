@@ -4,7 +4,7 @@ type: help
 categories: disease_phenotypes_variants,manual
 ---
 
-This subsection of the ['Pathology and Biotech'](https://www.uniprot.org/help/disease_phenotypes_variants_section) section is used for proteins that cause an allergic reaction in mammals. We usually specify in which species the protein is allergenic.
+This subsection of the ['Disease/Phenotypes and variants'](https://www.uniprot.org/help/disease_phenotypes_variants_section) section is used for proteins that cause an allergic reaction in mammals. We usually specify in which species the protein is allergenic.
 
 Example: [Q06811](https://www.uniprot.org/uniprotkb/Q06811#phenotypes_variants)
 

@@ -247,7 +247,7 @@ Examples: [Q8CG16](https://www.uniprot.org/uniprotkb/Q8CG16#ptm_processing), [O8
 # 8. Sulfation
 
 Extracellular tyrosines of secreted and multi-pass membrane proteins can  
-be modified by the addition of a sulfate group. Cytoplasmic serine and threonine residues can also undergo sulfation, although very rarely. Although the function of this modification has not yet been fully elucidated, it may serve to enhance protein stability and modulate protein-protein interactions. When carbohydrates attached to proteins are sulfated, we indicate this fact in the ' [Post-translational modification](https://www.uniprot.org/help/post-translational_modification) ' subsection. Sulfation has been observed in eukaryotes only.
+be modified by the addition of a sulfate group. Cytoplasmic serine and threonine residues can also undergo sulfation, although very rarely. Although the function of this modification has not yet been fully elucidated, it may serve to enhance protein stability and modulate protein-protein interactions. When carbohydrates attached to proteins are sulfated, we indicate this fact in the '[Post-translational modification](https://www.uniprot.org/help/post-translational_modification)' subsection. Sulfation has been observed in eukaryotes only.
 
 Related keyword: [Sulfation](https://www.uniprot.org/keywords/765)
 
@@ -277,7 +277,7 @@ Related keywords: [Flavoprotein](https://www.uniprot.org/keywords/285), [FAD](ht
 Sulfur occurs in many different oxidation states in biological systems. In response to mild oxidative stress, reactive oxygen and nitrogen species, such as peroxides, superoxide, nitric oxide or peroxinitrite, can oxidize cytoplasmic cysteines to cysteine sulfenic acid (-SOH), S-nitrosocysteine (-SNO) and sulfinic acid (-SO2H)(single, single and double oxidation state, respectively). These modifications can alter protein activity, protein-protein interactions, or protein stability.
 
 Cysteine sulfenic acid is extremely reactive. It is generally stabilized  
-by either the formation of a disulfide bond (in this case the residue is called a cystine) or glutathione binding or reduced by specific enzymes to cysteine. Disulfide bonds are annotated in the ' [Disulfide bond](https://www.uniprot.org/help/disulfid) ' subsection.
+by either the formation of a disulfide bond (in this case the residue is called a cystine) or glutathione binding or reduced by specific enzymes to cysteine. Disulfide bonds are annotated in the '[Disulfide bond](https://www.uniprot.org/help/disulfid)' subsection.
 
 In response to severe oxidative stress, cysteines are irreversibly oxidized to cysteine sulfonic acid (-SO3) or cysteic acid, which generally leads to protein inactivation and degradation. We do not annotate this modification.
 

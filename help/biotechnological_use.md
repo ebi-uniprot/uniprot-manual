@@ -4,7 +4,7 @@ type: help
 categories: disease_phenotypes_variants,manual
 ---
 
-This subsection of the 'Pathology and Biotech' section describes the use of a specific protein in the biotechnological industry.
+This subsection of the 'Disease/Phenotypes and variants' section describes the use of a specific protein in the biotechnological industry.
 
 It explains in a few words in which biotechnological process the protein is used or could be used, with an explanation that describes the commercial use of the protein. The brand names of the product and of the firm that commercialises it are cited.
 

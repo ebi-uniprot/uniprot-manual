@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,Keywords,Text_search,Human,disease_phenotypes_variants,faq
 ---
 
-Information relevant to diseases associated with a given protein are found in the section 'Pathology and Biotech'. The information given (including the disease name) is consistent with the literature and the [OMIM database](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim).
+Information relevant to diseases associated with a given protein are found in the section 'Disease/Phenotypes and variants'. The information given (including the disease name) is consistent with the literature and the [OMIM database](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim).
 
 You can use three methods to search proteins associated with a given disease.
 
@@ -35,7 +35,7 @@ Some proteins involved in a specific non-monogenic disease are associated with s
 
 Note 1: Currently, these keywords apply mainly to non-monogenic diseases.
 
-Note 2: The keyword `'Disease variant'` is used for proteins with at least one disease-associated variant. Variants are described in the 'Pathology and Biotech' and in the 'Sequence' sections of a protein entry.
+Note 2: The keyword `'Disease variant'` is used for proteins with at least one disease-associated variant. Variants are described in the 'Disease/Phenotypes and variants' and in the 'Sequence' sections of a protein entry.
 
 # See also
 

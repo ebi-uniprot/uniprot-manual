@@ -4,7 +4,7 @@ type: help
 categories: Function,disease_phenotypes_variants,PTM_processing,manual
 ---
 
-This subsection describes interesting single amino acid sites on the sequence that are not defined in any other subsection. This subsection can be displayed in different sections ('Function', 'PTM / Processing', 'Pathology and Biotech') according to its content.
+This subsection describes interesting single amino acid sites on the sequence that are not defined in any other subsection. This subsection can be displayed in different sections ('Function', 'PTM / Processing', 'Disease/Phenotypes and variants') according to its content.
 
 Examples: [P00451](https://www.uniprot.org/uniprotkb/P00451), [Q10471](https://www.uniprot.org/uniprotkb/Q10471), [P80969](https://www.uniprot.org/uniprotkb/P80969), [P02730](https://www.uniprot.org/uniprotkb/P02730)
 

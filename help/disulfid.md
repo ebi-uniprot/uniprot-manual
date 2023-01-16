@@ -27,7 +27,7 @@ Example: [Q9U8R2](https://www.uniprot.org/uniprotkb/Q9U8R2#ptm_processing)
 When available, specific information regarding the properties or the function of a specific disulfide bond is indicated.  
 Examples: [P19880](https://www.uniprot.org/uniprotkb/P19880#ptm_processing), [P09478](https://www.uniprot.org/uniprotkb/P09478#ptm_processing)
 
-Intrachain disulfide bonds are the "default scenario" in UniProtKB/Swiss-Prot. The word "intrachain" is usually not mentioned explicitly, only in cases where a residue can be involved (alternatingly) in more than one disulfide bond. 
+Intrachain disulfide bonds are the "default scenario" in UniProtKB/Swiss-Prot. The word "intrachain" is usually not mentioned explicitly, only in cases where a residue can be involved (alternatingly) in more than one disulfide bond.
 Example: [P08878](https://www.uniprot.org/uniprotkb/P08878/entry#ptm_processing)
 
 # 2. Interchain disulfide bonds (between homo- and heterodimers)
@@ -36,12 +36,12 @@ Interchain disulfide bonds are formed between two cysteines of individual chains
 
 ## a. Disulfide bonds between homodimers
 
-Interchain disulfide bonds within a homodimer are annotated as 'Interchain' in the 'Description' field, not specifying the name of the partner protein. The disulfide linkage is also described in the ' [Subunit](https://www.uniprot.org/help/subunit_structure) ' subsection of the 'Interaction' section.  
+Interchain disulfide bonds within a homodimer are annotated as 'Interchain' in the 'Description' field, not specifying the name of the partner protein. The disulfide linkage is also described in the '[Subunit](https://www.uniprot.org/help/subunit_structure)' subsection of the 'Interaction' section.  
 Examples: [P25703](https://www.uniprot.org/uniprotkb/P25703#ptm_processing) (Parallel homodimer), [P83658](https://www.uniprot.org/uniprotkb/P83658#ptm_processing) (Antiparallel homodimer)
 
 ## b. Disulfide bonds between 2 chains or peptides from the same protein precursor
 
-Disulfide bonds formed between 2 proteolytically generated parts of the same protein are considered as interchain. The 2 chains are named in the 'Description' field using the syntax 'between X and Y'. Note that the names of all cleavage products are given in the ' [Protein names](https://www.uniprot.org/help/protein_names) ' subsection of the [Names and taxonomy](https://www.uniprot.org/help/names_and_taxonomy_section) section.  
+Disulfide bonds formed between 2 proteolytically generated parts of the same protein are considered as interchain. The 2 chains are named in the 'Description' field using the syntax 'between X and Y'. Note that the names of all cleavage products are given in the '[Protein names](https://www.uniprot.org/help/protein_names)' subsection of the [Names and taxonomy](https://www.uniprot.org/help/names_and_taxonomy_section) section.  
 Example: [P11140](https://www.uniprot.org/uniprotkb/P11140#ptm_processing)
 
 A few proteins form an intrachain disulfide bond when monomeric, and an interchain disulfide bond when dimeric.  

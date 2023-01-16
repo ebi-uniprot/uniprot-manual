@@ -12,4 +12,4 @@ Transcriptional regulation by transcription factors or repressors is only rarely
 
 Example: [Q59385](https://www.uniprot.org/uniprotkb/Q59385#expression)
 
-This subsection does not describe the regulation of activity, which can be found in the subsection ' [Activity regulation](https://www.uniprot.org/help/activity_regulation) ' for enzymes, transporters and microbial transcription factors, and in other subsections, such as ' [Function](https://www.uniprot.org/help/function) '.
+This subsection does not describe the regulation of activity, which can be found in the subsection '[Activity regulation](https://www.uniprot.org/help/activity_regulation)' for enzymes, transporters and microbial transcription factors, and in other subsections, such as '[Function](https://www.uniprot.org/help/function)'.

@@ -9,7 +9,7 @@ Annotations of a UniProtKB entry are structured into the following sections:
 - [Function](https://www.uniprot.org/help/function_section)
 - [Names & Taxonomy](https://www.uniprot.org/help/names_and_taxonomy_section)
 - [Subcellular location](https://www.uniprot.org/help/subcellular_location_section)
-- [Pathology and Biotech](https://www.uniprot.org/help/disease_phenotypes_variants_section)
+- [Disease/Phenotypes and variants](https://www.uniprot.org/help/disease_phenotypes_variants_section)
 - [PTM / Processing](https://www.uniprot.org/help/ptm_processing_section)
 - [Expression](https://www.uniprot.org/help/expression_section)
 - [Interaction](https://www.uniprot.org/help/interaction_section)

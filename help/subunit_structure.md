@@ -23,7 +23,7 @@ Examples: [Q9Y3D6](https://www.uniprot.org/uniprotkb/Q9Y3D6#interaction), [O6023
 
 # 3. Host-pathogen protein-protein interactions
 
-For interactions with viral proteins, the viral gene name is preceded by an indication of its viral origin, typically the virus name abbreviation from the ' [Organism](https://www.uniprot.org/help/organism-name) ' section.  
+For interactions with viral proteins, the viral gene name is preceded by an indication of its viral origin, typically the virus name abbreviation from the '[Organism](https://www.uniprot.org/help/organism-name)' section.  
 Example: [O60238](https://www.uniprot.org/uniprotkb/O60238#interaction)
 
 Related keyword: [Host-virus interaction](https://www.uniprot.org/keywords/945)
@@ -37,4 +37,4 @@ Interactions can be propagated ['By similarity'](https://www.uniprot.org/help/ev
 
 # See also
 
--   [Understanding protein complexes with UniProtKB and the Complex Portal (UniProt Blog)](https://insideuniprot.blogspot.com/2020/02/understanding-protein-complexes-with.html)
+- [Understanding protein complexes with UniProtKB and the Complex Portal (UniProt Blog)](https://insideuniprot.blogspot.com/2020/02/understanding-protein-complexes-with.html)

@@ -4,7 +4,7 @@ type: help
 categories: Interaction,manual
 ---
 
-This subsection of the ' [Interaction](https://www.uniprot.org/help/interaction_section) ' section provides information about binary protein-protein interactions. The data presented in this section are a quality-filtered subset of binary interactions automatically derived from the [IntAct database](https://www.ebi.ac.uk/intact/). It is updated at every [UniProt release](https://www.uniprot.org/help/synchronization).
+This subsection of the '[Interaction](https://www.uniprot.org/help/interaction_section)' section provides information about binary protein-protein interactions. The data presented in this section are a quality-filtered subset of binary interactions automatically derived from the [IntAct database](https://www.ebi.ac.uk/intact/). It is updated at every [UniProt release](https://www.uniprot.org/help/synchronization).
 
 For UniProtKB/Swiss-Prot entries that describe more than one protein ([isoforms](https://www.uniprot.org/help/alternative_products) or/and products of proteolytic cleavage, i.e. [CHAIN](https://www.uniprot.org/help/chain) or [PEPTIDE](https://www.uniprot.org/help/peptide)), each of these protein forms has its interactions listed in a separate block.
 

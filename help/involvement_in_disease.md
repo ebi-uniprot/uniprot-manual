@@ -4,7 +4,7 @@ type: help
 categories: disease_phenotypes_variants,manual
 ---
 
-This subsection of the 'Pathology and Biotech' section provides information on the disease(s) associated with genetic variations in a given protein. The information is extracted from the scientific literature and diseases that are also described in the [OMIM](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim) database are represented with a [controlled vocabulary](https://www.uniprot.org/diseases) in the following way:
+This subsection of the 'Disease/Phenotypes and variants' section provides information on the disease(s) associated with genetic variations in a given protein. The information is extracted from the scientific literature and diseases that are also described in the [OMIM](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim) database are represented with a [controlled vocabulary](https://www.uniprot.org/diseases) in the following way:
 
 Disease name (Disease abbreviation) \[Link to OMIM\]: Disease description.
 
@@ -29,7 +29,7 @@ Examples: [P11308](https://www.uniprot.org/uniprotkb/P11308#phenotypes_variants)
 
 If the sequence position of the translocation breakpoint is known and causes a fusion protein, it is annotated in the ['Site'](https://www.uniprot.org/help/site) subsection.
 
-Example: In Q8IZP0 the annotation in the ['Pathology and Biotech'](https://www.uniprot.org/uniprotkb/Q8IZP0#phenotypes_variants_section) section is completed by information at the sequence level (['Site'](https://www.uniprot.org/help/site) subsection).
+Example: In Q8IZP0 the annotation in the ['Disease/Phenotypes and variants'](https://www.uniprot.org/uniprotkb/Q8IZP0#phenotypes_variants_section) section is completed by information at the sequence level (['Site'](https://www.uniprot.org/help/site) subsection).
 
 Related keyword: [Chromosomal rearrangement](https://www.uniprot.org/keywords/160).
 

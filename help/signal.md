@@ -8,7 +8,7 @@ This subsection of the 'PTM / Processing' section denotes the presence of an N-t
 
 Signal peptides are found in proteins that are targeted to the endoplasmic reticulum and eventually destined to be either secreted/extracellular/periplasmic/etc., retained in the lumen of the endoplasmic reticulum, of the lysosome or of any other organelle along the secretory pathway or to be I single-pass membrane proteins.
 
-The signal sequence is usually removed in the mature protein; in these cases, the comment 'The displayed sequence is further processed into a mature form' is added in the ' [Sequence](https://www.uniprot.org/help/sequences_section) ' section.
+The signal sequence is usually removed in the mature protein; in these cases, the comment 'The displayed sequence is further processed into a mature form' is added in the '[Sequence](https://www.uniprot.org/help/sequences_section)' section.
 
 # 1. Annotation of experimentally proven signal peptides
 
