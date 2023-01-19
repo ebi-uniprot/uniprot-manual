@@ -18,12 +18,6 @@ For example, to get UniProtKB entry with accession and proteomes in new API run 
 curl https://rest.uniprot.org/uniprotkb/search?query=human&fields=accession,xref_proteomes
 ```
 
-Equivalent request in the current website would be :
-
-```
-https://www.uniprot.org/uniprotkb?query=human&columns=id,proteome
-```
-
 The `Label` is the readable name of the returned field. The `Label` is shown on the website/TSV or in Excel format.
 
 # Names & Taxonomy
