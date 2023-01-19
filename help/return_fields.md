@@ -25,12 +25,12 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 |        **Label\***         | **Legacy Returned Field** | **Returned Field** |
 | :------------------------: | :-----------------------: | :----------------: |
 |           Entry            |            id             |     accession      |
-|         Entry name         |        entry name         |         id         |
-|         Gene names         |           genes           |     gene_names     |
-|    Gene names (primary)    |     genes(PREFERRED)      |    gene_primary    |
-|    Gene names (synonym)    |    genes(ALTERNATIVE)     |    gene_synonym    |
-| Gene names (ordered locus) |        genes(OLN)         |      gene_oln      |
-|      Gene names (ORF)      |        genes(ORF)         |      gene_orf      |
+|         Entry Name         |        entry name         |         id         |
+|         Gene Names         |           genes           |     gene_names     |
+|    Gene Names (primary)    |     genes(PREFERRED)      |    gene_primary    |
+|    Gene Names (synonym)    |    genes(ALTERNATIVE)     |    gene_synonym    |
+| Gene Names (ordered locus) |        genes(OLN)         |      gene_oln      |
+|      Gene Names (ORF)      |        genes(ORF)         |      gene_orf      |
 |          Organism          |         organism          |   organism_name    |
 |        Organism ID         |        organism-id        |    organism_id     |
 |       Protein names        |       protein names       |    protein_name    |
