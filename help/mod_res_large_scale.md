@@ -10,7 +10,7 @@ Example: [B9FXV5](https://www.uniprot.org/uniprotkb/B9FXV5/entry#ptm_processing)
 
 # Where does the data come from?
 
-The data comes from a refined set of large-scale *phosphoproteomic datasets* available in the [PRIDE database](https://www.ebi.ac.uk/pride/). The links to each source dataset can be found in the expandable “evidence tag” section for each PTM, next to the modification name in the ‘Description’ column of the table. In addition, links to PeptideAtlas species-specific phosphoproteome builds are available.
+The data comes from a refined set of large-scale phosphoproteomic datasets available in the [PRIDE database](https://www.ebi.ac.uk/pride/). The links to each source dataset can be found in the expandable “evidence tag” section for each PTM, next to the modification name in the ‘Description’ column of the table. In addition, links to PeptideAtlas species-specific phosphoproteome builds are available.
 
 # How can I access this data in UniProt?
 
