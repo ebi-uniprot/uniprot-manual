@@ -59,6 +59,6 @@ While we have carefully evaluated the models, we note that Machine Learning mode
 See also
 
 - [Preprint](https://storage.googleapis.com/brain-genomics-public/research/proteins/protnlm/uniprot_2022_04/protnlm_preprint_draft.pdf)
-- [Colab notebook to view evidence for ProtNLM annotations in UniProt 2022_04 release](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_evidencer_uniprot_2022_04.ipynb)
+- [Colab notebook to view evidence for ProtNLM annotations in UniProt 2023_01 release](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_evidencer_uniprot_2023_01.ipynb)
 - [Colab notebook to query one of the ProtNLM models in the Ensemble](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_use_model_for_inference_uniprot_2022_04.ipynb)
 - [Explore all UniProtKB entries with these annotations](https://www.uniprot.org/uniprotkb?query=%28source:google%29)
