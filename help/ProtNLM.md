@@ -26,13 +26,17 @@ The simplest version of ProtNLM model takes in an amino acid sequence as input a
 
 ## Leveraging the name of the organism in which the protein was found
 
-In UniProt 2022_05, we are also leveraging models that take as input both the protein amino acid sequence and the name of the organism in which the protein was found. The organism is typically known even for uncharacterized proteins and can provide information about potential names, for example "Ovule protein" occurs commonly among plant proteins.
+Starting with UniProt 2022_05, we are also leveraging models that take as input both the protein amino acid sequence and the name of the organism in which the protein was found. The organism is typically known even for uncharacterized proteins and can provide information about potential names; for example "Ovule protein" occurs commonly among plant proteins.
 
 ![protnml-schematic-2.png](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/protnlm-schematic-2.png?raw=true)
 
 ## Ensembling
 
-In practice we use an ensemble combining both types of models: 3 models whose input is the amino acid sequence alone, and 3 models whose input is the amino acid sequence and the organism. In UniProt 2022_05, we have named new uncharacterized proteins with the new approach, and among proteins that were previously named by ProtNLM, we have provided new names whenever the ensemble prediction had a significantly higher model score.
+In practice, we use an ensemble combining both types of models: 3 models whose input is the amino acid sequence alone, and 3 models whose input is the amino acid sequence and the organism.
+
+In UniProt 2022_05, we have named new uncharacterized proteins with the new approach, and among proteins that were previously named by ProtNLM, we have provided new names whenever the ensemble prediction had a significantly higher model score.
+
+Starting with UniProt 2023_01, we have used the ensemble approach for all predictions which required a ProtNLM annotation. We have also improved the post-processing of predicted names and introduced a model score threshold: we released ensemble predictions for all unnamed proteins for which the ensemble model score was above 0.2. Finally, when possible, we have used an automatic corroboration pipeline to decide which ensemble prediction to select as the recommended protein name.
 
 ![protnml-schematic-3.png](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/protnlm-schematic-3.png?raw=true)
 
@@ -55,6 +59,6 @@ While we have carefully evaluated the models, we note that Machine Learning mode
 See also
 
 - [Preprint](https://storage.googleapis.com/brain-genomics-public/research/proteins/protnlm/uniprot_2022_04/protnlm_preprint_draft.pdf)
-- [Colab notebook to view evidence for ProtNLM annotations in UniProt 2022_04 release](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_evidencer_uniprot_2022_04.ipynb)
+- [Colab notebook to view evidence for ProtNLM annotations in UniProt 2023_01 release](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_evidencer_uniprot_2023_01.ipynb)
 - [Colab notebook to query one of the ProtNLM models in the Ensemble](https://colab.research.google.com/github/google-research/google-research/blob/master/protnlm/protnlm_use_model_for_inference_uniprot_2022_04.ipynb)
 - [Explore all UniProtKB entries with these annotations](https://www.uniprot.org/uniprotkb?query=%28source:google%29)
