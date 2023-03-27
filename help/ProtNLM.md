@@ -8,7 +8,7 @@ categories: UniProtKB,Automatic_annotation,help
 
 UniProt's [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic_annotation) automatically classifies and annotates unreviewed records in UniProtKB.
 
-Google's **ProtNLM** (**Prot**ein **N**atural **L**anguage **M**odel) contributions to this pipeline are labeled 'Google:UnProtein'. See e.g. [A0A2Z4IEP2](https://www.uniprot.org/uniprotkb/A0A2Z4IEP2/entry). ProtNLM is a [transformer model](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) trained to predict the protein name from the protein's amino acid sequence.
+Google's **ProtNLM** (**Prot**ein **N**atural **L**anguage **M**odel) contributions to this pipeline are labeled 'Google:ProtNLM'. See e.g. [A0A2Z4IEP2](https://www.uniprot.org/uniprotkb/A0A2Z4IEP2/entry). ProtNLM is a [transformer model](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) trained to predict the protein name from the protein's amino acid sequence.
 
 # ProtNLM methodology
 
