@@ -25,8 +25,8 @@ For files with less than 10M entries, the download will be available directly as
 
 
 ## What are the different file formats and compression?
-UniProt's file generation is able to create compressed downloadable files for all file types minus .xlsx files.
-For use in Microsoft Excel, please download as a tab-delimited file (.tsv)
+UniProt's file generation is able to create compressed downloadable files for all file types minus .xlsx files.  
+For use in Microsoft Excel, please download as a tab-delimited file (.tsv).  
 All files must be compressed (.gz) for download in File Generation. 
 Please note that it is not possible to download unzipped files when using File Generation.
 
