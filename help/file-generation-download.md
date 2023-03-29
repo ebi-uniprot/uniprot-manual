@@ -8,13 +8,14 @@ categories: UniProtKB,help,download,async_download,file_generation
 When users download data from UniProtKB, it is typically treated as a "normal" download, which is offered as a stream.
 
 For larger files (currently files with entries that are more than 10M), a separate file must be generated for download.  
-Much like BLAST or IDMapping services at UniProt, this file generation request is sent as a job, and can be viewed in the jobs dashboard.  
+Much like BLAST or IDMapping services at UniProt, this file generation request is sent as a job, and can be viewed [your jobs dashboard](https://www.uniprot.org/tool-dashboard).  
 Only after the generation of the file is completed the file is available for download.
 
 
 ## What are the advantages?
 The biggest advantage comes from downloading from the website via a browser.  
-Users were previously only able to download large files via ftp or programmatic access. Users now have the ability to download large files directly from the browser. From here, users will be able to pause and resume downloads on their respective browsers, and this also means that users don't need to restart the download from scratch in the event of a network timeout or disconnection.
+Users were previously only able to download large files via ftp or programmatic access. Users now have the ability to download large files directly from the browser.  
+From here, users will be able to pause and resume downloads on their respective browsers, and this also means that users don't need to restart the download from scratch in the event of a network timeout or disconnection.
 
 
 ## When does UniProt trigger File Generation?
