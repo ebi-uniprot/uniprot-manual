@@ -10,12 +10,6 @@ This section provides information on the disease(s), phenotype(s), and variants 
 
 The information is filed in different subsections. The current subsections and their content are listed below:
 
-Please note that there is a difference in data sources in the variants section.
-The information filed in the different subsections below are manually curated and maintained by UniProt.
-
-The data in the "Variants" subsection with the variant visualisation include both manually curated and automatically imported data from external sources such as dbSNP and ClinVar.   
-For accessing and downloading variant data, please check out the [Proteins API](https://www.ebi.ac.uk/proteins/api/doc/#!/variation/getVariation).
-
 |                                                                                                         |                                                                                           |
 | :------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------- |
 | **Subsection**                                                                                          | **Content**                                                                               |
