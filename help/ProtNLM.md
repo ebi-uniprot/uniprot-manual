@@ -12,7 +12,7 @@ Google's **ProtNLM** (**Prot**ein **N**atural **L**anguage **M**odel) contributi
 
 # ProtNLM methodology
 
-ProtNLM is a new method used by UniProt to automatically annotate sequences, with the goal of increasing the number of annotated sequences. This method works by predicting a short textual description for proteins based solely on their amino acid sequence, using a [sequence-to-sequence](https://en.wikipedia.org/wiki/Seq2seq) model.
+ProtNLM is a new method used by UniProt to automatically annotate uncharacterized protein sequences. This method works by predicting a short textual description for proteins based solely on their amino acid sequence, using a [sequence-to-sequence](https://en.wikipedia.org/wiki/Seq2seq) model.
 
 ## Sequence annotation as a machine learning problem
 
