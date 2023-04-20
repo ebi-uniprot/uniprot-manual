@@ -5,11 +5,11 @@ categories: Get_started,UniProtKB
 ---
 The UniProt Knowledgebase - UniProtKB, is the central hub for the collection of functional information on proteins, with accurate, consistent and rich annotation.
 
-UniProtKB consists of two sections: 
-* UniProtKB reviewed, also known as Swiss-Prot, with manually annotated records, 
-* and UniProtKB unreviewed, also known as TrEMBL, with computationally analysed records that await manual annotation. 
+UniProtKB consists of [two sections](https://www.uniprot.org/help/uniprotkb_sections): 
+* UniProtKB reviewed, also known as Swiss-Prot, with [manually annotated](https://www.uniprot.org/help/manual_curation) records, 
+* and UniProtKB unreviewed, also known as TrEMBL, with [computationally annotated](https://www.uniprot.org/help/automatic_annotation) records that await manual annotation. 
 
-You can access UniProtKB from the UniProt homepage or by selecting it from the dropdown in front of the search bar and entering your search term.
+You can access UniProtKB from the [UniProt homepage](https://www.uniprot.org) or by selecting it from the dropdown in front of the search bar and entering your search term.
 
 ![](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/Find%20your%20protein_1.png?raw=true)
 ![](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/Find%20your%20protein_2.png?raw=true)
@@ -32,7 +32,7 @@ You can select an entry to run a direct BLAST sequence similarity search or sele
 
 ![](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/Find%20your%20protein_6.png?raw=true)
 
-You can download entries in various formats and you can also save them for later by adding them to your basket. The selections in your basket remain until you delete them or clear your cookies.
+You can download entries in various formats and you can also save them for later by adding them to your [basket](https://www.uniprot.org/help/basket). The selections in your basket remain until you delete them or clear your cookies.
 
 ![](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/Find%20your%20protein_7.png?raw=true)
 
