@@ -6,7 +6,7 @@ categories: Get_started,UniProtKB
 The UniProt Knowledgebase - UniProtKB, is the central hub for the collection of functional information on proteins, with accurate, consistent and rich annotation.
 
 UniProtKB consists of two sections: 
-* UniProtKB reviewed, also known as SwissProt, with manually annotated records, 
+* UniProtKB reviewed, also known as Swiss-Prot, with manually annotated records, 
 * and UniProtKB unreviewed, also known as TrEMBL, with computationally analysed records that await manual annotation. 
 
 You can access UniProtKB from the UniProt homepage or by selecting it from the dropdown in front of the search bar and entering your search term.
@@ -18,7 +18,7 @@ For example, let’s enter a query and click the search button.
 
 ![](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/Find%20your%20protein_3.png?raw=true)
 
-You can now see the results for your query. You can filter your results by reviewed SwissProt or unreviewed TrEMBL status, organisms, and other criteria depending on your search.
+You can now see the results for your query. You can filter your results by reviewed Swiss-Prot or unreviewed TrEMBL status, organisms, and other criteria depending on your search.
 
 The results show information, such as entry accession, entry name, protein names, gene names, and organism. You can also change to table view for a more detailed view of the results.
 
