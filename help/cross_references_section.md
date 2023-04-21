@@ -14,24 +14,24 @@ Additional and complementary information can be found in the subsection [Web res
 
 The databases are categorized for easy user perusal and understanding of how the different databases relate to both UniProtKB and to each other:
 
--   2D gel databases
--   3D structure databases
--   Chemistry databases
--   Enzyme and pathway databases
--   Family and domain databases
--   Gene expression databases
--   Genome annotation databases
--   Miscellaneous databases
--   Ontologies
--   Organism-specific databases
--   Phylogenomic databases
--   Genetic variation databases
--   Proteomic databases
--   Protein-protein interaction databases
--   Protein family/group databases
--   Protocols and materials databases
--   PTM databases
--   Sequence databases
+- [2D gel databases](https://www.uniprot.org/database?facets=category_exact%3A2D%20gel%20databases&query=%2A)
+- [3D structure databases](https://www.uniprot.org/database?facets=category_exact%3A3D%20structure%20databases&query=%2A)
+- [Chemistry databases](https://www.uniprot.org/database?facets=category_exact%3AChemistry%20databases&query=%2A)
+- [Enzyme and pathway databases](https://www.uniprot.org/database?facets=category_exact%3AEnzyme%20and%20pathway%20databases&query=%2A)
+- [Family and domain databases](https://www.uniprot.org/database?facets=category_exact%3AFamily%20and%20domain%20databases&query=%2A)
+- [Gene expression databases](https://www.uniprot.org/database?facets=category_exact%3AGene%20expression%20databases&query=%2A)
+- [Genetic variation databases](https://www.uniprot.org/database?facets=category_exact%3AGenetic%20variation%20databases&query=%2A)
+- [Genome annotation databases](https://www.uniprot.org/database?facets=category_exact%3AGenome%20annotation%20databases&query=%2A)
+- [Miscellaneous databases](https://www.uniprot.org/database?facets=category_exact%3AMiscellaneous%20databases&query=%2A)
+- [Ontologies](https://www.uniprot.org/database?facets=category_exact%3AOntologies&query=%2A)
+- [Organism-specific databases](https://www.uniprot.org/database?facets=category_exact%3AOrganism-specific%20databases&query=%2A)
+- [PTM databases](https://www.uniprot.org/database?facets=category_exact%3APTM%20databases&query=%2A)
+- [Phylogenomic databases](https://www.uniprot.org/database?facets=category_exact%3APhylogenomic%20databases&query=%2A)
+- [Protein family/group databases](https://www.uniprot.org/database?facets=category_exact%3AProtein%20family%2Fgroup%20databases&query=%2A)
+- [Protein-protein interaction databases](https://www.uniprot.org/database?facets=category_exact%3AProtein-protein%20interaction%20databases&query=%2A)
+- [Proteomic databases](https://www.uniprot.org/database?facets=category_exact%3AProteomic%20databases&query=%2A)
+- [Protocols and materials databases](https://www.uniprot.org/database?facets=category_exact%3AProtocols%20and%20materials%20databases&query=%2A)
+- [Sequence databases](https://www.uniprot.org/database?facets=category_exact%3ASequence%20databases&query=%2A)
 
 # Cross-references to 'Sequence databases'
 
@@ -39,17 +39,17 @@ If a sequence submitted to EMBL/GenBank/DDBJ present some discrepancies with the
 
 Four different tags are used to mark problematic sequences submitted to the EMBL/GenBank/DDBJ databases:
 
--   'Frameshift': discrepancies are due to the insertion or deletion of one or more nucleotides in the submitted nucleotide sequence.  
-    Example: [O14467](https://www.uniprot.org/uniprotkb/O14467#cross-references)
+- 'Frameshift': discrepancies are due to the insertion or deletion of one or more nucleotides in the submitted nucleotide sequence.  
+  Example: [O14467](https://www.uniprot.org/uniprotkb/O14467#cross-references)
 
--   'Different initiation': discrepancies are due to an erroneous initiation codon choice in the submitted sequence.  
-    Example: [Q9LEH8](https://www.uniprot.org/uniprotkb/Q9LEH8#cross-references)
+- 'Different initiation': discrepancies are due to an erroneous initiation codon choice in the submitted sequence.  
+  Example: [Q9LEH8](https://www.uniprot.org/uniprotkb/Q9LEH8#cross-references)
 
--   'Different termination': the termination codon of the submitted sequence differs from that of the sequence displayed  
-    Example: [P35545](https://www.uniprot.org/uniprotkb/P35545#cross-references)
+- 'Different termination': the termination codon of the submitted sequence differs from that of the sequence displayed  
+  Example: [P35545](https://www.uniprot.org/uniprotkb/P35545#cross-references)
 
--   'Sequence problems': discrepancies are due to an erroneous gene model prediction, erroneous ORF assignement, miscellaneous discrepancy, etc.  
-    Example: [Q7XR80](https://www.uniprot.org/uniprotkb/Q7XR80#cross-references), [Q8TBF5](https://www.uniprot.org/uniprotkb/Q8TBF5#cross-references)
+- 'Sequence problems': discrepancies are due to an erroneous gene model prediction, erroneous ORF assignement, miscellaneous discrepancy, etc.  
+  Example: [Q7XR80](https://www.uniprot.org/uniprotkb/Q7XR80#cross-references), [Q8TBF5](https://www.uniprot.org/uniprotkb/Q8TBF5#cross-references)
 
 The discrepancies are described in more details in the ['Sequence Caution'](https://www.uniprot.org/help/sequence_caution) section.
 
