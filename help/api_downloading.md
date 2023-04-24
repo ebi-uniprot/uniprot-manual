@@ -4,7 +4,9 @@ type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Download,help
 ---
 
-The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-UniProt-Release-Date:`\* will avoid that you download data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here are examples of how to do this in Perl:
+# Using `X-UniProt-Release-Date` To Prevent
+
+You can use the [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-UniProt-Release-Date:`\* to avoid downloading data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here is an example of how to do this in Perl:
 
 ## Download all UniProt sequences for a given organism in FASTA format\*\*
 
@@ -14,10 +16,9 @@ use warnings;
 use LWP::UserAgent;
 use HTTP::Date;
 
-my $ogranism_id= $ARGV[0];    # Organism identifier of organism.
+my $ogranism_id = $ARGV[0]; # Organism identifier of organism.
 
-my $query =
-"https://rest.uniprot.org/uniprotkb/stream?query=organism_id:$ogranism_id&format=fasta";
+my $query = "https://rest.uniprot.org/uniprotkb/stream?query=organism_id:$ogranism_id&format=fasta";
 
 my $file = $ogranism_id . '.fasta';
 
@@ -29,7 +30,11 @@ if ( $response->is_success ) {
     my $results      = $response->header('X-Total-Results');
     my $release      = $response->header('X-UniProt-Release');
     my $release_date = $response->header('X-UniProt-Release-Date');
-    print "Downloaded FASTAs for organism ID: $ogranism_id from UniProt release $release ($release_date) to file $file\n";
+    print
+"Downloaded FASTAs for organism ID: $ogranism_id from UniProt release $release ($release_date) to file $file\n";
+}
+elsif ( $response->code == HTTP::Status::RC_NOT_MODIFIED ) {
+    print "Data for taxon $ogranism_id is up-to-date.\n";
 }
 else {
     die 'Failed, got '
@@ -54,14 +59,16 @@ my $top_node = $ARGV[0];
 my $agent = LWP::UserAgent->new;
 
 # Get TSV of all reference proteomes of organisms below the given taxonomy node.
-my $query_list =
-"https://rest.uniprot.org/proteomes/stream?&query=reference:true+taxonomy_id:$top_node&fields=upid,lineage,organism_id&format=tsv";
+my $query_list = "https://rest.uniprot.org/proteomes/stream?&query=reference:true+taxonomy_id:$top_node&fields=upid,lineage,organism_id&format=tsv";
 
 my $response_list = $agent->get($query_list);
 if ( $response_list->is_success ) {
     my $release = $response_list->header('x-uniprot-release');
     my $date    = $response_list->header('x-uniprot-release-date');
     print "Fetching FASTAs from UniProt release $release ($date)\n";
+}
+elsif ( $response_list->code == HTTP::Status::RC_NOT_MODIFIED ) {
+    print "Data for taxon $top_node is up-to-date.\n";
 }
 else {
     die 'Failed, got '
@@ -78,8 +85,7 @@ for my $index ( 1 .. $#lines ) {
     my @taxonomic_lineage_column = split( /,\s/, $line[1] );
     my $domain                   = $taxonomic_lineage_column[0];
     my $organism_id              = $line[2];
-    my $url =
-"https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/$domain/$upid/$upid\_$organism_id.fasta.gz";
+    my $url = "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/$domain/$upid/$upid\_$organism_id.fasta.gz";
     my $file = "$upid.fasta.gz";
     my $response_ftp = getstore( $url, $file );
 
@@ -103,8 +109,7 @@ use LWP::UserAgent;
 
 my $query = $ARGV[0];    # Query URL.
 
-my $contact = ''
-  ; # Please set a contact email address here to help us debug in case of problems (see https://www.uniprot.org/help/privacy).
+my $contact = ''; # Please set a contact email address here to help us debug in case of problems (see https://www.uniprot.org/help/privacy).
 my $agent = LWP::UserAgent->new( agent => "libwww-perl $contact" );
 my $response = $agent->get($query);
 
