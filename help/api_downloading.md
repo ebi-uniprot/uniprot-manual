@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Download,help
 ---
 
-# Use `X-UniProt-Release-Date` To Avoid Re-Downloading The Same Data
+# Use `X-UniProt-Release-Date` To Avoid Re-Downloading The Same Data Per Release
 
 You can use the [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-UniProt-Release-Date:`\* to avoid downloading data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here is an example of how to do this in Perl:
 
@@ -16,11 +16,11 @@ use warnings;
 use LWP::UserAgent;
 use HTTP::Date;
 
-my $ogranism_id = $ARGV[0]; # Organism identifier of organism.
+my $organism_id = $ARGV[0]; # Organism identifier of organism.
 
-my $query = "https://rest.uniprot.org/uniprotkb/stream?query=organism_id:$ogranism_id&format=fasta";
+my $query = "https://rest.uniprot.org/uniprotkb/stream?query=organism_id:$organism_id&format=fasta";
 
-my $file = $ogranism_id . '.fasta';
+my $file = $organism_id . '.fasta';
 
 my $contact = ''; # Please set a contact email address here to help us debug in case of problems (see https://www.uniprot.org/help/privacy).
 my $agent = LWP::UserAgent->new( agent => "libwww-perl $contact" );
@@ -31,10 +31,10 @@ if ( $response->is_success ) {
     my $release      = $response->header('X-UniProt-Release');
     my $release_date = $response->header('X-UniProt-Release-Date');
     print
-"Downloaded FASTAs for organism ID: $ogranism_id from UniProt release $release ($release_date) to file $file\n";
+"Downloaded FASTAs for organism ID: $organism_id from UniProt release $release ($release_date) to file $file\n";
 }
 elsif ( $response->code == HTTP::Status::RC_NOT_MODIFIED ) {
-    print "Data for taxon $ogranism_id is up-to-date.\n";
+    print "Data for taxon $organism_id is up-to-date.\n";
 }
 else {
     die 'Failed, got '
