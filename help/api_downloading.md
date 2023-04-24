@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Download,help
 ---
 
-# Using `X-UniProt-Release-Date` To Prevent
+# Use `X-UniProt-Release-Date` To Avoid Re-Downloading The Same Data
 
 You can use the [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-UniProt-Release-Date:`\* to avoid downloading data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here is an example of how to do this in Perl:
 
