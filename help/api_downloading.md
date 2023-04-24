@@ -6,101 +6,119 @@ categories: UniProtKB,UniRef,UniParc,Programmatic_access,Download,help
 
 The [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-UniProt-Release-Date:`\* will avoid that you download data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here are examples of how to do this in Perl:
 
-**Download all UniProt sequences for a given organism in FASTA format**
+## Download all UniProt sequences for a given organism in FASTA format\*\*
 
-        use strict;
-        use warnings;
-        use LWP::UserAgent;
-        use HTTP::Date;
+```perl
+use strict;
+use warnings;
+use LWP::UserAgent;
+use HTTP::Date;
 
-        my $taxon = $ARGV[0]; # Taxonomy identifier of organism.
+my $ogranism_id= $ARGV[0];    # Organism identifier of organism.
 
-        my $query = "https://rest.uniprot.org/uniprotkb/search?query=organism_id:$taxon&format=fasta";
-        
-        my $file = $taxon . '.fasta';
+my $query =
+"https://rest.uniprot.org/uniprotkb/stream?query=organism_id:$ogranism_id&format=fasta";
 
-        my $contact = ''; # Please set a contact email address here to help us debug in case of problems (see https://www.uniprot.org/help/privacy).
-        my $agent = LWP::UserAgent->new(agent => "libwww-perl $contact");
-        my $response = $agent->mirror($query, $file);
+my $file = $ogranism_id . '.fasta';
 
-        if ($response->is_success) {
-          my $results = $response->header('X-Total-Results');
-          my $release = $response->header('X-UniProt-Release');
-          my $date = sprintf("%4d-%02d-%02d", HTTP::Date::parse_date($response->header('X-UniProt-Release-Date')));
-          print "Downloaded $results entries of UniProt release $release ($date) to file $file\n";
-        }
-        elsif ($response->code == HTTP::Status::RC_NOT_MODIFIED) {
-          print "Data for taxon $taxon is up-to-date.\n";
-        }
-        else {
-          die 'Failed, got ' . $response->status_line .
-            ' for ' . $response->request->uri . "\n";
-        }
+my $contact = ''; # Please set a contact email address here to help us debug in case of problems (see https://www.uniprot.org/help/privacy).
+my $agent = LWP::UserAgent->new( agent => "libwww-perl $contact" );
+my $response = $agent->mirror( $query, $file );
 
-<br/><br/>
-**Download the UniProt reference proteomes for all organisms below a given taxonomy node in compressed FASTA format**
+if ( $response->is_success ) {
+    my $results      = $response->header('X-Total-Results');
+    my $release      = $response->header('X-UniProt-Release');
+    my $release_date = $response->header('X-UniProt-Release-Date');
+    print "Downloaded FASTAs for organism ID: $ogranism_id from UniProt release $release ($release_date) to file $file\n";
+}
+else {
+    die 'Failed, got '
+      . $response->status_line . ' for '
+      . $response->request->uri . "\n";
+}
+```
 
-        use strict;
-        use warnings;
-        use LWP::UserAgent;
-        use HTTP::Date;
+## Download the UniProt reference proteomes for all organisms below a given taxonomy node in compressed FASTA format\*\*
 
-        # Taxonomy identifier of top node for query, e.g. 2 for Bacteria, 2157 for Archea, etc.
-        # (see https://www.uniprot.org/taxonomy)
-        my $top_node = $ARGV[0];
+```perl
+use strict;
+use warnings;
+use LWP::UserAgent;
+use LWP::Simple;
+use HTTP::Date;
 
-        my $agent = LWP::UserAgent->new;
+# Taxonomy identifier of top node for query, e.g. 2 for Bacteria, 2157 for Archea, etc.
+# (see https://www.uniprot.org/taxonomy)
+my $top_node = $ARGV[0];
 
-        # Get a list of all reference proteomes of organisms below the given taxonomy node.
-        my $query_list = "https://rest.uniprot.org/proteomes/stream?query=reference:true+taxonomy_id:$top_node&format=list";
+my $agent = LWP::UserAgent->new;
 
-        my $response_list = $agent->get($query_list);
-        die 'Failed, got ' . $response_list->status_line .
-          ' for ' . $response_list->request->uri . "\n"
-          unless $response_list->is_success;
+# Get TSV of all reference proteomes of organisms below the given taxonomy node.
+my $query_list =
+"https://rest.uniprot.org/proteomes/stream?&query=reference:true+taxonomy_id:$top_node&fields=upid,lineage,organism_id&format=tsv";
 
-        # For each proteome, mirror its set of UniProt entries in compressed FASTA format.
-        for my $proteome (split(/\n/, $response_list->content)) {
-          my $file = $proteome . '.fasta.gz';
-          my $query_proteome = "https://rest.uniprot.org/uniprotkb/stream?query=proteome:$proteome&format=fasta&compressed=true";
-          my $response_proteome = $agent->mirror($query_proteome, $file);
+my $response_list = $agent->get($query_list);
+if ( $response_list->is_success ) {
+    my $release = $response_list->header('x-uniprot-release');
+    my $date    = $response_list->header('x-uniprot-release-date');
+    print "Fetching FASTAs from UniProt release $release ($date)\n";
+}
+else {
+    die 'Failed, got '
+      . $response_list->status_line . ' for '
+      . $response_list->request->uri . "\n";
+}
 
-          if ($response_proteome->is_success) {
-            my $release = $response_proteome->header('x-uniprot-release');
-            my $date = $response_proteome->header('x-uniprot-release-date');
-            print "File $file: downloaded entries of UniProt release $release ($date)\n";
-          }
-          elsif ($response_proteome->code == HTTP::Status::RC_NOT_MODIFIED) {
-            print "File $file: up-to-date\n";
-          }
-          else {
-            die 'Failed, got ' . $response_proteome->status_line .
-              ' for ' . $response_proteome->request->uri . "\n";
-          }
-        }
+# For each proteome, fetch compressed FASTA from FTP.
+my @lines = split( /\n/, $response_list->content );
+# Skip the TSV header by starting from 1.
+for my $index ( 1 .. $#lines ) {
+    my @line                     = split( /\t/, $lines[$index] );
+    my $upid                     = $line[0];
+    my @taxonomic_lineage_column = split( /,\s/, $line[1] );
+    my $domain                   = $taxonomic_lineage_column[0];
+    my $organism_id              = $line[2];
+    my $url =
+"https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/$domain/$upid/$upid\_$organism_id.fasta.gz";
+    my $file = "$upid.fasta.gz";
+    my $response_ftp = getstore( $url, $file );
+
+    if ( is_success($response_ftp) ) {
+        print "Fetched $url\n";
+    }
+    if ( is_error($response_ftp) ) {
+        die "getstore of <$url> failed with $response_ftp";
+    }
+}
+```
 
 # Release number and date
 
 If you would like to record the UniProt release number and/or date of the data which you retrieve, you can extract this information from the [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) of the response (see this Perl example):
 
-    use strict;
-    use warnings;
-    use LWP::UserAgent;
+```perl
+use strict;
+use warnings;
+use LWP::UserAgent;
 
-    my $query = $ARGV[0]; # Query URL.
+my $query = $ARGV[0];    # Query URL.
 
-    my $contact = ''; # Please set a contact email address here to help us debug in case of problems (see https://www.uniprot.org/help/privacy).
-    my $agent = LWP::UserAgent->new(agent => "libwww-perl $contact");
-    my $response = $agent->get($query);
+my $contact = ''
+  ; # Please set a contact email address here to help us debug in case of problems (see https://www.uniprot.org/help/privacy).
+my $agent = LWP::UserAgent->new( agent => "libwww-perl $contact" );
+my $response = $agent->get($query);
 
-    if ($response->is_success) {
-      print 'UniProt release ' . $response->header('X-UniProt-Release') .
-      ' of ' . $response->header('X-UniProt-Release-Date') . "\n";
-    }
-    else {
-      die 'Failed, got ' . $response->status_line .
-        ' for ' . $response->request->uri . "\n";
-    }
+if ( $response->is_success ) {
+    print 'UniProt release '
+      . $response->header('X-UniProt-Release') . ' of '
+      . $response->header('X-UniProt-Release-Date') . "\n";
+}
+else {
+    die 'Failed, got '
+      . $response->status_line . ' for '
+      . $response->request->uri . "\n";
+}
+```
 
 - `X-UniProt-Release:` contains the UniProt release number, e.g. `2010_08`
 - `X-UniProt-Release-Date:`\* contains the UniProt release date, e.g. `02-January-2022`
