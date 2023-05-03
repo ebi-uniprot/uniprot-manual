@@ -16,7 +16,7 @@ ProtNLM is a new method used by UniProt to automatically annotate uncharacterize
 
 ## Sequence annotation as a machine learning problem
 
-The sequence annotation problem shows similarities to other problems that can be solved with machine learning. Specifically, predicting a protein's name in English from its amino acid sequence is similar to predicting a title (or caption) for an image or a document.
+The sequence annotation problem has similarities to other problems that can be solved with machine learning. For example, predicting a protein's name in English from its amino acid sequence can be seen as similar to predicting a title (or caption) for an image or a document.
 
 ProtNLM uses a sequence-to-sequence model based on the [T5X framework](https://github.com/google-research/t5x).
 
@@ -24,19 +24,25 @@ The simplest version of ProtNLM model takes in an amino acid sequence as input a
 
 ![protnml-schematic-1.png](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/protnlm-schematic-1.png?raw=true)
 
-## Leveraging the name of the organism in which the protein was found
+## Leveraging additional protein information
 
-Starting with UniProt 2022_05, we are also leveraging models that take as input both the protein amino acid sequence and the name of the organism in which the protein was found. The organism is typically known even for uncharacterized proteins and can provide information about potential names; for example "Ovule protein" occurs commonly among plant proteins.
+In more recent releases, we leverage models that take as input not only the protein amino acid sequence but also additional information that is typically available even when the protein is uncharacterized.
+
+First, we include the organism in which the protein was found. The organism is typically known even for uncharacterized proteins and can provide information about potential names; for example "Ovule protein" occurs commonly among plant proteins, but less frequently among proteins from other kingdoms of life.
 
 ![protnml-schematic-2.png](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/protnlm-schematic-2.png?raw=true)
 
+Second, we consider models that additionally take as input the protein's secondary structure, which we extract from the predicted AlphaFold structure included in UniProt.
+
 ## Ensembling
 
-In practice, we use an ensemble combining both types of models: 3 models whose input is the amino acid sequence alone, and 3 models whose input is the amino acid sequence and the organism.
+For recent releases, we have used an ensemble across multiple types of models.
 
-In UniProt 2022_05, we have named new uncharacterized proteins with the new approach, and among proteins that were previously named by ProtNLM, we have provided new names whenever the ensemble prediction had a significantly higher model score.
+In UniProt 2022_05, we used an ensemble with 3 models that take only the amino acid sequence as input, and 3 models that take both the amino acid sequence and the organism as input. Among proteins that were previously named by ProtNLM, we provided new names whenever the ensemble prediction exceeded the initial model score by a non-negligible amount.
 
-Starting with UniProt 2023_01, we have used the ensemble approach for all predictions which required a ProtNLM annotation. We have also improved the post-processing of predicted names and introduced a model score threshold: we released ensemble predictions for all unnamed proteins for which the ensemble model score was above 0.2. Finally, when possible, we have used an automatic corroboration pipeline to decide which ensemble prediction to select as the recommended protein name.
+Starting with UniProt 2023_01, we used the ensemble for all predictions which required a ProtNLM annotation. We also improved the post-processing of predicted names and introduced a model score threshold: we released predictions for unnamed proteins for which the model score was above 0.2. Finally, when possible, we have used an automatic corroboration pipeline to decide which ensemble prediction to select as the recommended protein name.
+
+Starting with UniProt 2023_02, we also include in the ensemble a model that takes the amino acid sequence, organism and predicted secondary structure as inputs. We retrained the 7 models, leveraging data that was further curated using an improved training data processing pipeline.
 
 ![protnml-schematic-3.png](https://github.com/ebi-uniprot/uniprot-manual/blob/main/images/protnlm-schematic-3.png?raw=true)
 
@@ -50,7 +56,7 @@ Our task is particularly challenging because it can be hard even for experts to 
 
 ## Data processing and model validation
 
-The ProtNLM model was trained with sequence-name pairs extracted from the UniProt database, including examples from both Swiss-Prot and TrEMBL. These pairs were filtered by name to remove entries deemed unsuitable for computational annotation. Example reasons for filtering out a sequence-name pair include low quality names, or names that are not informative.
+ProtNLM was trained with input-output pairs extracted from the UniProt database, including examples from both Swiss-Prot and TrEMBL. These pairs were filtered by name to remove entries deemed unsuitable for computational annotation. Example reasons for filtering out a sequence-name pair include low quality names, or names that are not informative as advised by experts at UniProt.
 
 Our validation procedure involves both automated and manual evaluation, including evaluation by a professional biocurator. Automatic evaluation was performed for various data subsets, including a challenging subset of sequences that were determined to have low sequence identity to the training set. Further, we release a file of additional evidence, based on traditional bioinformatics methods, that supports ProtNLM's predictions.
 
