@@ -269,18 +269,18 @@ _\* Label in the old and new API unless otherwise specified_
 |     TCDB     |      database(TCDB)       |     xref_tcdb      |
 |  UniLectin   |    database(UniLectin)    |   xref_unilectin   |
 
-# Ptm Databases
+# PTM Databases
 
 |   **Label\***   | **Legacy Returned Field** |  **Returned Field**  |
 | :-------------: | :-----------------------: | :------------------: |
 |   CarbonylDB    |   database(CarbonylDB)    |   xref_carbonyldb    |
 |      DEPOD      |      database(DEPOD)      |      xref_depod      |
+|   GlyCosmos     |   database(glycosmos)     |   xref_glycosmos     |
 |   GlyConnect    |   database(GlyConnect)    |   xref_glyconnect    |
 |     GlyGen      |     database(GlyGen)      |     xref_glygen      |
 |    MetOSite     |    database(MetOSite)     |    xref_metosite     |
 | PhosphoSitePlus | database(PhosphoSitePlus) | xref_phosphositeplus |
 |    SwissPalm    |    database(SwissPalm)    |    xref_swisspalm    |
-|    UniCarbKB    |    \<does not exist\>     |    xref_unicarbkb    |
 |     iPTMnet     |     database(iPTMnet)     |     xref_iptmnet     |
 
 # Genetic Variation Databases
@@ -352,6 +352,7 @@ _\* Label in the old and new API unless otherwise specified_
 
 |  **Label\***  | **Legacy Returned Field** | **Returned Field** |
 | :-----------: | :-----------------------: | :----------------: |
+| AGR           |  database(AGR)            | xref_agr           |
 | ArachnoServer |  database(ArachnoServer)  | xref_arachnoserver |
 |    Araport    |     database(Araport)     |    xref_araport    |
 |      CGD      |       database(CGD)       |      xref_cgd      |
