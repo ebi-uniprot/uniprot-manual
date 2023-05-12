@@ -73,7 +73,6 @@ _\* Label in the old and new API unless otherwise specified_
 |      Active site       |      feature(ACTIVE SITE)       |      ft_act_site       |
 |  Activity regulation   |  comment(ACTIVITY REGULATION)   | cc_activity_regulation |
 |      Binding site      |      feature(BINDING SITE)      |       ft_binding       |
-|    Calcium binding     |              chebi              |       ft_ca_bind       |
 |   Catalytic activity   |    chebi(Catalytic activity)    | cc_catalytic_activity  |
 |        Cofactor        |         chebi(Cofactor)         |      cc_cofactor       |
 |      DNA binding       |      feature(DNA BINDING)       |      ft_dna_bind       |
