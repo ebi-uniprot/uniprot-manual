@@ -79,9 +79,7 @@ _\* Label in the old and new API unless otherwise specified_
 |      DNA binding       |      feature(DNA BINDING)       |      ft_dna_bind       |
 |       EC number        |               ec                |           ec           |
 |     Function [CC]      |        comment(FUNCTION)        |      cc_function       |
-|        Kinetics        |        comment(KINETICS)        |        kinetics        |
-|     Metal binding      |     feature(METAL BINDING)      |        ft_metal        |
-|   Nucleotide binding   |        feature(NP BIND)         |       ft_np_bind       |
+|        Kinetics        |        comment(KINETICS)        |        kinetics        |   
 |        Pathway         |        comment(PATHWAY)         |       cc_pathway       |
 |     pH dependence      |     comment(PH DEPENDENCE)      |     ph_dependence      |
 |    Redox potential     |    comment(REDOX POTENTIAL)     |    redox_potential     |
