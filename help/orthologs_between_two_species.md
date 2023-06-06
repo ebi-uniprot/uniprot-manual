@@ -27,5 +27,5 @@ If you want to sort on the OrthoDB identifiers instead, this cannot be done via 
 # See also
 
 - [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)
-- [List of phylogenomic databases cross-referenced in UniProtKB](https://www.uniprot.org/database/?query=category:%22Phylogenomic+databases%22)
+- [List of phylogenomic databases cross-referenced in UniProtKB](https://www.uniprot.org/database?facets=category_exact%3APhylogenomic%20databases&query=%2A)
 - [Customize display options](https://www.uniprot.org/help/customize)
