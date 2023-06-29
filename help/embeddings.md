@@ -11,7 +11,7 @@ such as sequence similarity search, sequence clustering, and sequence classifica
 
 UniProt is providing raw embeddings (per-protein and per-residue using the ProtT5 model)
 for UniProtKB/Swiss-Prot and some reference proteomes of model organisms (such as _Homo sapiens_, SARS-CoV-2, and _E. coli_).
-You can retrieve them from our [Downloads](https://www.uniprot.org/help/downloads#embeddings) page.
+You can retrieve them from our [Downloads](https://www.uniprot.org/help/downloads#embeddings) page and from the UniProtKB search results download function.
 
 **Note:** Protein sequences longer than 12k residues are excluded due to limitation of GPU memory (this concerns only a handful of proteins).
 
