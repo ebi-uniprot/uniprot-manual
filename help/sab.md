@@ -8,19 +8,19 @@ The UniProt project receives advice and guidance from a scientific advisory boar
 
 -   [Christine Orengo](https://www.ucl.ac.uk/orengo-group/lab-members/christine-orengo) **(chair)**, Division of Biosciences, University College London
 -   [Gary Bader](http://www.moleculargenetics.utoronto.ca/faculty/2014/10/7/gary-bader), The Donnelly Centre, University of Toronto
--   Martin Ebeling, Roche Pharmaceutical Research and Early Development, Basel
 -   [Nikos Kyrpides](https://jgi.doe.gov/our-science/scientists-jgi/microbiome-data-science/), DOE Joint Genome Institute
 -   [Kathryn Lilley](https://www.bioc.cam.ac.uk/research/lilley), Department of Biochemistry, University of Cambridge
 -   [Emma Lundberg](https://www.scilifelab.se/researchers/emma-lundberg/), Science for Life Laboratory, Sweden
 -   [Avi Ma'ayan](https://icahn.mssm.edu/profiles/avi-maayan), Icahn School of Medicine at Mount Sinai, New York
 -   [Sharon Plon](https://www.bcm.edu/people/view/sharon-plon-m-d-ph-d/chromosomes-chromatin-and-dna-biology-genetics-faculty-m-z-chromosomes-chromatin-and-dna-biology/b2601d8d-ffed-11e2-be68-080027880ca6/babc3eb0-c422-11e3-a42d-005056b104be), Baylor College of Medicine, Houston
--   [Peter Robinson](https://www.jax.org/research-and-faculty/faculty/peter-robinson), The Jackson Laboratory for Genomic Medicine, Farmington
 -   [Shankar Subramaniam](https://medschool.ucsd.edu/som/cmm/faculty/Pages/Shankar-Subramaniam.aspx), UC San Diego School of Medicine
 -   [Paul Thomas](https://keck.usc.edu/faculty-search/paul-denis-thomas/), University of Southern California
 -   [Shanfeng Zhu](http://datamining-iip.fudan.edu.cn/), Fudan University
 
 We also would like to thank the previous members of the UniProt SAB for their valuable contributions to the project:
 
+-   Martin Ebeling, Roche Pharmaceutical Research and Early Development, Basel
+-   [Peter Robinson](https://www.jax.org/research-and-faculty/faculty/peter-robinson), The Jackson Laboratory for Genomic Medicine, Farmington
 -   [Russ Altman](https://profiles.stanford.edu/russ-altman), Stanford University
 -   [Michael Ashburner](http://www.gen.cam.ac.uk/research-groups/ashburner) (Chair 2006-2010), Department of Genetics, University of Cambridge
 -   [Patricia Babbitt](http://babbittlab.compbio.ucsf.edu/), Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco
