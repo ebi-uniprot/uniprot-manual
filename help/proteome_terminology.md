@@ -7,7 +7,10 @@ categories: Proteomes,manual
 A proteome is the set of proteins thought to be expressed by an organism.
 
 ## Protein count
-Number of protein entries associated with a proteome: UniProtKB entries for regular proteomes or UniParc entries for redundant proteomes. There are more information about the redundant proteomes in [Reducing proteome redundancy](https://www.uniprot.org/help/taxonomic_lineage).
+Number of protein sequences associated with a proteome.
+
+## Number of entries
+Number of UniProtKB entries for regular proteomes or UniParc entries for redundant proteomes. Generally, the protein count can be equal to the number of entries. However, redundant protein sequences are merged into a single UniProtKB entry, which explains the difference in numbers. There are more information about the redundant proteomes in [Reducing proteome redundancy](https://www.uniprot.org/help/proteome_redundancy).
 
 ## Gene count
 This is the total number of unique genes found in the proteome set, algorithmically computed. For each gene, a single representative protein sequence is chosen from the proteome. Where possible, reviewed (Swiss-Prot) protein sequences are chosen as the representatives.
