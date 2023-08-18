@@ -6,26 +6,27 @@ categories: PTM_processing
 
 # Modified residues from large scale data
 
-In addition to manually curated[ Post-translational modification](https://www.uniprot.org/help/post-translational_modification) (PTM) data which is also included in the downloadable versions of our data, some entries on our website also include large-scale PTM data. These originate from large-scale mass-spectrometry (MS) datasets, which have been reanalyzed.
+In addition to manually curated [post-translational modification](https://www.uniprot.org/help/post-translational_modification) (PTM) data which is included in the downloadable versions of our data, some entries on our website also include additional large-scale PTM data. These originate from large-scale mass-spectrometry (MS) datasets, which have been reanalyzed.
 
 Example: [B9FXV5](https://www.uniprot.org/uniprotkb/B9FXV5/entry#ptm_processing)
 
 ## Where does the data come from?
 
-The data comes from a refined set of large-scale enriched PTM (e.g. phosphorylation) proteomics datasets publicly available in the[ PRIDE database](https://www.ebi.ac.uk/pride/) or the wider [ProteomeXchange ](http://proteomecentral.proteomexchange.org)Consortium of proteomics resources. The links to each source dataset can be found in the expandable “evidence tag” section for each PTM, next to the protein modification name in the ‘Description’ column of the table. In addition, links to PeptideAtlas species-specific PTM builds are also available.
+The data comes from a refined set of large-scale enriched PTM (e.g. phosphorylation) proteomics datasets publicly available in the [PRIDE database](https://www.ebi.ac.uk/pride/) or the wider [ProteomeXchange](http://proteomecentral.proteomexchange.org) Consortium of proteomics resources. The links to each source dataset can be found in the expandable “evidence tag” section for each PTM, next to the protein modification name in the ‘Description’ column of the table. In addition, links to PeptideAtlas species-specific PTM builds are also available.
 
-The data originates from two collaborative projects;
+The data originates from two collaborative projects:
 
-Human large-scale PTM data has been imported as part of a project from a reanalysed dataset ([PXD012174](https://www.ebi.ac.uk/pride/archive/projects/PXD012174)) combining multiple large-scale phosphoproteomics studies. This project aimed to map the human phosphoproteome from publicly available phosphorylation-enriched MS-based proteomics datasets in the PRIDE database. Data from multiple datasets was reanalysed in tandem and filtered for a confidence of &lt;1% site-based false discovery rate, and a greater than 75% localization probability. The data includes both tissues and cell lines derived from 'healthy' and 'disease' states. For detailed methodology see; [The functional landscape of the human phosphoproteome.](https://www.nature.com/articles/s41587-019-0344-3)
+*PRIDE project:*
+Human large-scale PTM data has been imported as part of a project from a reanalysed dataset ([PXD012174](https://www.ebi.ac.uk/pride/archive/projects/PXD012174)) combining multiple large-scale phosphoproteomics studies. This project aimed to map the human phosphoproteome from publicly available phosphorylation-enriched MS-based proteomics datasets in the PRIDE database. Data from multiple datasets was reanalysed in tandem and filtered for a confidence of &lt;1% site-based false discovery rate, and a greater than 75% localization probability. The data includes both tissues and cell lines derived from 'healthy' and 'disease' states. For detailed methodology see [The functional landscape of the human phosphoproteome.](https://www.nature.com/articles/s41587-019-0344-3)
 
-PTMeXchange project  
-Data for Rice and other model organisms originates from large-scale mass-spectrometry (MS) datasets, which have been reanalyzed via the PTMeXchange project. This project facilitates confident identification of PTM sites across multiple datasets. The confidence score reflects the strength of the [evidence](https://www.uniprot.org/help/evidences) for PTMs at that site.For detailed methodology see; [Method for Independent Estimation of the False Localization Rate for Phosphoproteomics](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.1c00827).
+*PTMeXchange project:*
+Data for rice and other model organisms originates from large-scale mass-spectrometry (MS) datasets, which have been reanalyzed via the PTMeXchange project. This project facilitates confident identification of PTM sites across multiple datasets. The confidence score reflects the strength of the [evidence](https://www.uniprot.org/help/evidences) for PTMs at that site. For detailed methodology see  [Method for Independent Estimation of the False Localization Rate for Phosphoproteomics](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.1c00827).
 
 ## Evidence
 
 These are proteomics datasets submitted to [PRIDE](https://www.ebi.ac.uk/pride/), for example in support of studies performed by the group generating the data. We include links to these, so that the full data provenance is clear. Mass Spectrometry raw data from these sources has been re-processed, and thus any identification or quantification data under those records has not been used. Studies are listed by dataset ID (ProteomeXchange ID, PXD ID, e.g. [PXD004939](https://www.ebi.ac.uk/pride/archive/projects/PXD004939)). A single PTM may have supporting data in multiple datasets.
 
-## What species is there data available for?
+## Which species is large-scale data available for?
 
 Currently the database contains large-scale PTM data for rice ([Oryza sativa subsp. japonica](https://www.uniprot.org/taxonomy/39947)) and [human](https://www.uniprot.org/taxonomy/9606), with future plans to include data for [Plasmodium falciparum](https://www.uniprot.org/taxonomy/36329), [Arabidopsis thaliana](https://www.uniprot.org/taxonomy/3702) and [mouse](https://www.uniprot.org/taxonomy/10090).
 
