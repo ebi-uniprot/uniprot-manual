@@ -30,11 +30,8 @@ We annotate experimentally determined sites of modification. These are propagate
 3.  the modified residue and the surrounding region should be conserved in the orthologous protein (this condition is also mandatory).
 
 Propagation is generally restricted to closely related species, e.g. among mammals or bacteria from the same taxonomic group. We usually do not propagate information concerning modified residues among plants or unicellular fungi. Specific details regarding the type of modification may be generalized during propagation. For instance, a particular lysine can be subjected to mono-or dimethylation in _E.coli_ strain K12, but this information is not propagated to the _E.coli_ O157:H7 orthologous entry, where we simply indicate that methylation occurs.  
-Example:
 
-P0CE47 (source entry),
-
-P0A6N3 (orthologous entry)
+Example: [P0CE47](https://www.uniprot.org/uniprotkb/P0CE47#ptm_processing) (source entry), [P0A6N3(https://www.uniprot.org/uniprotkb/P0A6N3#ptm_processing) (orthologous entry)
 
 **Sites that are not modified**
 
@@ -59,7 +56,7 @@ Since phosphorylation (phosphoserine, phosphothreonine and phosphotyrosine) is a
 
 Examples: [Q9RQQ9](https://www.uniprot.org/uniprotkb/Q9RQQ9#ptm_processing), [P02662](https://www.uniprot.org/uniprotkb/P02662#ptm_processing), [P04859](https://www.uniprot.org/uniprotkb/P04859#ptm_processing), [P68433](https://www.uniprot.org/uniprotkb/P68433#ptm_processing)
 
-Histidine can be phosphorylated on either of its two nitrogen atoms. We refer to 'Pros-phosphohistidine', when phosphorylation occurs on the nitrogen atom that is closest to the alpha-carbon and 'Tele-phosphohistidine', where it occurs on the most distal one. When the exact position of phosphate attachment on histidine is not known we simply use the term 'Phosphohistidine'.
+Histidine can be phosphorylated on either of its two nitrogen atoms. We refer to 'Pros-phosphohistidine', when phosphorylation occurs on the nitrogen atom that is closest to the alpha-carbon and 'Tele-phosphohistidine', where it occurs on the most distal one. When the exact position of phosphate attachment on histidine is not known, we simply use the term 'Phosphohistidine'.
 
 Examples: [P0AA06](https://www.uniprot.org/uniprotkb/P0AA06#ptm_processing), [P39928](https://www.uniprot.org/uniprotkb/P39928#ptm_processing), [P16575](https://www.uniprot.org/uniprotkb/P16575#ptm_processing), [P26762](https://www.uniprot.org/uniprotkb/P26762#ptm_processing), [P0A0E2](https://www.uniprot.org/uniprotkb/P0A0E2#ptm_processing)
 
