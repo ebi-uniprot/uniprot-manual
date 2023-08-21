@@ -1,5 +1,5 @@
 ---
-title: How do I get the nucleotide sequence that corresponds to the canonical UniProtKB sequence?
+title: How do I get the nucleotide sequence that corresponds to the UniProtKB sequence?
 type: help
 categories: UniProtKB,Sequence,Cross-references,Text_search,faq
 ---
