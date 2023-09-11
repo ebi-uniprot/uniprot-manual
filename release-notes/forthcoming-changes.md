@@ -12,6 +12,8 @@ The current TSV format for cross-references to external resources consists of th
 
 In response to user requests, we are going to include all identifiers of external resources that are available in our other UniProtKB download formats. The format for an individual cross-reference will be identical to the format used in the UniProtKB text format (with multiple fields being separated by semi-colons). In order to continue to separate multiple cross-references to the same external resource with a semi-colon, each individual cross-reference will be enclosed in double quotes.
 
+This change will affect cross-references to EMBL, Ensembl, Ensembl Genomes, RefSeq, MANE-Select, Gramene, WBParaSite, WormBase and UniPathway.
+
 Example: [A0JNW5](https://rest.uniprot.org/uniprotkb/A0JNW5.tsv?fields=xref_ensembl)
 
 Current format:
