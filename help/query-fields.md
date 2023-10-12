@@ -8,8 +8,8 @@ Since July 2021, we are providing a new API to access UniProt's data and tools. 
 
 Supported query fields for searching specific data in UniProtKB (see also [query syntax](https://www.uniprot.org/help/text-search)) are shown in the table below.
 
-| rest.uniprot.org API field | rest.uniprot.org API example | Description |
-| -------------------------- | ---------------------------- | ----------- |
+| rest.uniprot.org API field | rest.uniprot.org API example | Description of the field or of the example |
+| -------------------------- | ---------------------------- | ------------------------------------------ |
 | accession | [accession:P62988](https://rest.uniprot.org/uniprotkb/search?query=accession:P62988) | This will list all primary / canonical isoform accessions P62988. To search over secondary accessions, use the `sec_acc` field. |
 | active | [active:false](https://rest.uniprot.org/uniprotkb/search?query=active:false) | Lists all obsolete entries. |
 | lit_author | [lit_author:ashburner](https://rest.uniprot.org/uniprotkb/search?query=lit_author:ashburner) | Lists all entries with at least one reference co-authored by Michael Ashburner. |
