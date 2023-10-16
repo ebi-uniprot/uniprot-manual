@@ -100,13 +100,13 @@ Example: [Q3ZC31](https://www.uniprot.org/uniprotkb/Q3ZC31#ptm_processing)
 Individual features can be queried using the query fields described in the tables above. Querying is of the form:
 
 ```bash
-curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=FIELD:VALUE"
+curl "https://rest.uniprot.org/uniprotkb/search?query=FIELD:VALUE"
 ```
 
 For example, to find all Human entries with variants, we could run the following `curl` command:
 
 ```bash
-curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=ft_variant:* AND organism_id:9606"
+curl "https://rest.uniprot.org/uniprotkb/search?query=ft_variant:* AND organism_id:9606"
 ```
 
 ## Feature experimental evidences
@@ -114,7 +114,7 @@ curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=ft_variant:* AND 
 For any feature field, a corresponding field exists denoting its experimental evidences. Given a feature, `ft_XXXX`, its experimental evidences can be queried via, `ft_XXXX_exp`. For example, to find Human entries with feature binding site that has experimental evidences of binding ATP, we can execute the following command:
 
 ```bash
-curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=ft_binding_exp:ATP AND organism_id:9606"
+curl "https://rest.uniprot.org/uniprotkb/search?query=ft_binding_exp:ATP AND organism_id:9606"
 ```
 
 # Feature identifiers
