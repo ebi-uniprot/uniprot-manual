@@ -4,11 +4,13 @@ type: help
 categories: manual,Technical
 ---
 
-Sequence annotations describe regions or sites of interest in the protein sequence, such as post-translational modifications, binding sites, enzyme active sites, local secondary structure or other characteristics reported in the cited references. Sequence conflicts between references are also described in this manner.
+Sequence annotations describe regions or sites of interest in the protein sequence, such as post-translational modifications, binding sites, enzyme active sites, local secondary structure or other characteristics reported in the cited references, or predicted. Sequence conflicts between references are also described in this manner.
 
-Sequence annotations (position-specific annotations) used to be found in the 'Sequence annotation (Features)' section in the previous version of the UniProtKB entry view. The flat file and XML formats still group all position-specific annotation together in a "feature table" (FT). Each sequence annotation consists of a "feature key", "from" and "to" positions as well as a short description.
+Sequence annotations (position-specific annotations) used to be found in the 'Sequence annotation (Features)' section in a previous version of the UniProtKB entry view. The current entry view displays annotation by subject (Function, PTM & processing, etc), and the various position-specific annotations are distributed to the relevant sections. The [text](https://www.uniprot.org/release-notes/2019-12-18-release#text_ft) and XML formats still group all position-specific annotation together in a "feature table" (FT). 
 
-The current entry view displays annotation by subject (Function, PTM & processing, etc), and the various position-specific annotations are now distributed to the relevant new sections.
+Each sequence annotation consists of a "feature key", "from" and "to" positions as well as a short description.
+
+
 
 # Feature types
 
@@ -109,9 +111,11 @@ For example, to find all Human entries with variants, we could run the following
 curl "https://rest.uniprot.org/uniprotkb/search?query=ft_variant:*%20AND%20organism_id:9606"
 ```
 
-## Feature experimental evidences
+## Querying for Features with experimental evidence
 
-For any feature field, a corresponding field exists denoting its experimental evidences. Given a feature, `ft_XXXX`, its experimental evidences can be queried via, `ft_XXXX_exp`. For example, to find Human entries with feature binding site that has experimental evidences of binding ATP, we can execute the following command:
+Queries for any feature type can be restricted to annotations for which experimental evidence is available. To do this, every feature type `ft_XXXX` has a corresponding field that allows to query for annotations with experimental evidence, `ft_XXXX_exp`.
+
+For example, to find human entries with ATP binding sites annotated on the basis of experimental evidence, we can execute the following command:
 
 ```bash
 curl "https://rest.uniprot.org/uniprotkb/search?query=ft_binding_exp:ATP%20AND%20organism_id:9606"
