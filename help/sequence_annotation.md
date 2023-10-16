@@ -109,20 +109,12 @@ For example, to find all Human entries with variants, we could run the following
 curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=ft_variant:* AND organism_id:9606"
 ```
 
-## Feature Lengths
+## Feature experimental evidences
 
-For any feature field, a corresponding field exists denoting its length. Given a feature, `ft_XXXX`, its length can be queried via, `ftlen_XXXX`. For example, to find Human entries with a sequence length of between 198 and 200 residues, we can execute the following command:
-
-```bash
-curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=ftlen_variant:[198 TO 200] AND organism_id:9606"
-```
-
-## Feature evidences
-
-For any feature field, a corresponding field exists denoting its attached evidences (for a complete list of evidences, refer to [Evidences](https://www.uniprot.org/help/evidences). Given a feature, `ft_XXXX`, its evidences can be queried via, `ftev_XXXX`. For example, to find Human entries with a non-traceable evidence, we can execute the following command:
+For any feature field, a corresponding field exists denoting its experimental evidences. Given a feature, `ft_XXXX`, its experimental evidences can be queried via, `ft_XXXX_exp`. For example, to find Human entries with feature binding site that has experimental evidences of binding ATP, we can execute the following command:
 
 ```bash
-curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=ftev_variant:ECO_0000303 AND organism_id:9606"
+curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=ft_binding_exp:ATP AND organism_id:9606"
 ```
 
 # Feature identifiers
