@@ -8,6 +8,9 @@ Since July 2021, we are providing a new API to access UniProt's data and tools. 
 
 Supported query fields for searching specific data in UniProtKB (see also [query syntax](https://www.uniprot.org/help/text-search)) are shown in the table below.
 
+[General annotation (comment)](https://www.uniprot.org/help/general_annotation) and [Sequence annotation (feature)](https://www.uniprot.org/help/sequence_annotation) topics and their query fields are documented in separate pages.
+
+
 | rest.uniprot.org API field | rest.uniprot.org API example | Description of the field or of the example |
 | -------------------------- | ---------------------------- | ------------------------------------------ |
 | accession | [accession:P62988](https://rest.uniprot.org/uniprotkb/search?query=accession:P62988) | This will list all primary / canonical isoform accessions P62988. To search over secondary accessions, use the `sec_acc` field. |
