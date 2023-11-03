@@ -8,6 +8,8 @@ Sequence annotations describe regions or sites of interest in the protein sequen
 
 Sequence annotations (position-specific annotations) used to be found in the 'Sequence annotation (Features)' section in a previous version of the UniProtKB entry view. The current entry view displays annotation by subject (Function, PTM & processing, etc), and the various position-specific annotations are distributed to the relevant sections. The [text](https://www.uniprot.org/release-notes/2019-12-18-release#text_ft) and XML formats still group all position-specific annotation together in a "feature table" (FT). 
 
+The same holds true for [general annotations (comments)](https://www.uniprot.org/help/general_annotation).
+
 Each sequence annotation consists of a "feature key", "from" and "to" positions as well as a short description.
 
 
