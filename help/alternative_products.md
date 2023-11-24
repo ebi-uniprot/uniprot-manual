@@ -43,7 +43,7 @@ Example: [P21836](https://www.uniprot.org/uniprotkb/P21836#sequences) (Isoform H
 
 When isoforms (or products of proteolytic cleavage) are known to differ significantly in their function, localization or any other characteristics with respect to the canonical sequence, these are described in the corresponding sections of the entry. In case of positional annotations such as PTMs or variants, positions are provided with respect to the isoform sequence they refer to.
 
-Examples: [P19021](https://www.uniprot.org/uniprotkb/P19021#ptm_processing), [Q9NZU7](https://www.uniprot.org/uniprotkb/Q9NZU7#ptm_processing), [Q13510](https://www.uniprot.org/uniprotkb/Q13510#disease_variants)
+Examples: [P14618](https://www.uniprot.org/uniprotkb/P14618/entry), [Q9NZU7](https://www.uniprot.org/uniprotkb/Q9NZU7#ptm_processing), [Q13510](https://www.uniprot.org/uniprotkb/Q13510#disease_variants)
 
 ## Information in free text can be provided to complement the above items
 
