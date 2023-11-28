@@ -8,7 +8,7 @@ categories: release,statistics
 
 [UniProtKB (Swiss-Prot & TrEMBL) statistics](https://www.uniprot.org/uniprotkb/statistics)
 
-# UniProtKB Statistics of previous releases are available from our FTP server
+# UniProtKB statistics of previous releases are available from our FTP server
 
 Release `YYYY_NN` statistics can be found in the directory:
 
