@@ -5,10 +5,11 @@ categories: release,statistics
 ---
 
 # UniProtKB statistics of the current release
-- [UniProtKB/Swiss-Prot statistics](http://web.expasy.org/docs/relnotes/relstat.html)
-- [UniProtKB/TrEMBL statistics](https://www.ebi.ac.uk/uniprot/TrEMBLstats)
+
+[UniProtKB (Swiss-Prot & TrEMBL) statistics](https://www.uniprot.org/uniprotkb/statistics)
 
 # UniProtKB Statistics of previous releases are available from our FTP server
+
 Release `YYYY_NN` statistics can be found in the directory:
 
 ```
