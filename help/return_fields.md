@@ -119,11 +119,11 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 
 | Label                              | Returned Field |
 | ---------------------------------- | -------------- |
-| Gene ontology (biological process) | go_p           |
-| Gene ontology (cellular component) | go_c           |
-| Gene ontology (GO)                 | go             |
-| Gene ontology (molecular function) | go_f           |
-| Gene ontology IDs                  | go_id          |
+| Gene Ontology (biological process) | go_p           |
+| Gene Ontology (cellular component) | go_c           |
+| Gene Ontology (GO)                 | go             |
+| Gene Ontology (molecular function) | go_f           |
+| Gene Ontology IDs                  | go_id          |
 
 # Pathology & Biotech
 
