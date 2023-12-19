@@ -13,253 +13,288 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 
 ## Sequences
 
-| Label  | Returned Field |
-| ------ | -------------- |
-| CCDS   | xref_ccds      |
-| EMBL   | xref_embl      |
-| PIR    | xref_pir       |
-| RefSeq | xref_refseq    |
+| Label  | Returned Field | Has full version |
+| ------ | -------------- | ---------------- |
+| CCDS   | xref_ccds      | no               |
+| EMBL   | xref_embl      | yes              |
+| PIR    | xref_pir       | yes              |
+| RefSeq | xref_refseq    | yes              |
 
 ## 3D structure
 
-| Label  | Returned Field |
-| ------ | -------------- |
-| BMRB   | xref_bmrb      |
-| PCDDB  | xref_pcddb     |
-| PDB    | xref_pdb       |
-| PDBsum | xref_pdbsum    |
-| SASBDB | xref_sasbdb    |
-| SMR    | xref_smr       |
+| Label  | Returned Field | Has full version |
+| ------ | -------------- | ---------------- |
+| BMRB   | xref_bmrb      | no               |
+| PCDDB  | xref_pcddb     | no               |
+| PDB    | xref_pdb       | yes              |
+| PDBsum | xref_pdbsum    | no               |
+| SASBDB | xref_sasbdb    | no               |
+| SMR    | xref_smr       | no               |
 
 ## Protein-protein interaction
 
-| Label         | Returned Field     |
-| ------------- | ------------------ |
-| BioGRID       | xref_biogrid       |
-| ComplexPortal | xref_corum         |
-| CORUM         | xref_complexportal |
-| DIP           | xref_dip           |
-| ELM           | xref_elm           |
-| IntAct        | xref_intact        |
-| MINT          | xref_mint          |
-| STRING        | xref_string        |
+| Label         | Returned Field     | Has full version |
+| ------------- | ------------------ | ---------------- |
+| BioGRID       | xref_biogrid       | yes              |
+| ComplexPortal | xref_corum         | no               |
+| CORUM         | xref_complexportal | yes              |
+| DIP           | xref_dip           | no               |
+| ELM           | xref_elm           | no               |
+| IntAct        | xref_intact        | yes              |
+| MINT          | xref_mint          | no               |
+| STRING        | xref_string        | no               |
 
 ## Chemistry
 
-| Label               | Returned Field           |
-| ------------------- | ------------------------ |
-| BindingDB           | xref_bindingdb           |
-| ChEMBL              | xref_chembl              |
-| DrugBank            | xref_drugbank            |
-| DrugCentral         | xref_drugcentral         |
-| GuidetoPHARMACOLOGY | xref_guidetopharmacology |
-| SwissLipids         | xref_swisslipids         |
+| Label               | Returned Field           | Has full version |
+| ------------------- | ------------------------ | ---------------- |
+| BindingDB           | xref_bindingdb           | no               |
+| ChEMBL              | xref_chembl              | no               |
+| DrugBank            | xref_drugbank            | yes              |
+| DrugCentral         | xref_drugcentral         | no               |
+| GuidetoPHARMACOLOGY | xref_guidetopharmacology | no               |
+| SwissLipids         | xref_swisslipids         | no               |
 
 ## Protein family/group
 
-| Label        | Returned Field    |
-| ------------ | ----------------- |
-| Allergome    | xref_allergome    |
-| CAZy         | xref_cazy         |
-| CLAE         | xref_clae         |
-| ESTHER       | xref_esther       |
-| IDEAL        | xref_ideal        |
-| IMGT_GENE-DB | xref_imgt_gene-db |
-| MEROPS       | xref_merops       |
-| MoonDB       | xref_moondb       |
-| MoonProt     | xref_moonprot     |
-| PeroxiBase   | xref_peroxibase   |
-| REBASE       | xref_rebase       |
-| TCDB         | xref_tcdb         |
-| UniLectin    | xref_unilectin    |
+| Label        | Returned Field    | Has full version |
+| ------------ | ----------------- | ---------------- |
+| Allergome    | xref_allergome    | yes              |
+| CAZy         | xref_cazy         | yes              |
+| CLAE         | xref_clae         | no               |
+| ESTHER       | xref_esther       | yes              |
+| IDEAL        | xref_ideal        | no               |
+| IMGT_GENE-DB | xref_imgt_gene-db | no               |
+| MEROPS       | xref_merops       | no               |
+| MoonDB       | xref_moondb       | yes              |
+| MoonProt     | xref_moonprot     | no               |
+| PeroxiBase   | xref_peroxibase   | yes              |
+| REBASE       | xref_rebase       | yes              |
+| TCDB         | xref_tcdb         | yes              |
+| UniLectin    | xref_unilectin    | no               |
 
 ## PTM
 
-| Label           | Returned Field       |
-| --------------- | -------------------- |
-| CarbonylDB      | xref_carbonyldb      |
-| DEPOD           | xref_depod           |
-| GlyConnect      | xref_glyconnect      |
-| GlyGen          | xref_glygen          |
-| iPTMnet         | xref_iptmnet         |
-| MetOSite        | xref_metosite        |
-| PhosphoSitePlus | xref_phosphositeplus |
-| SwissPalm       | xref_swisspalm       |
-| UniCarbKB       | xref_unicarbkb       |
+| Label           | Returned Field       | Has full version |
+| --------------- | -------------------- | ---------------- |
+| CarbonylDB      | xref_carbonyldb      | no               |
+| DEPOD           | xref_depod           | no               |
+| GlyConnect      | xref_glyconnect      | yes              |
+| GlyGen          | xref_glygen          | yes              |
+| iPTMnet         | xref_iptmnet         | no               |
+| MetOSite        | xref_metosite        | no               |
+| PhosphoSitePlus | xref_phosphositeplus | no               |
+| SwissPalm       | xref_swisspalm       | no               |
+| UniCarbKB       | xref_unicarbkb       | no               |
 
 ## Genetic variation/Polymorphism and mutation
 
-| Label   | Returned Field |
-| ------- | -------------- |
-| BioMuta | xref_biomuta   |
-| dbSNP   | xref_dbsnp     |
-| DMDM    | xref_dmdm      |
+| Label   | Returned Field | Has full version |
+| ------- | -------------- | ---------------- |
+| BioMuta | xref_biomuta   | no               |
+| dbSNP   | xref_dbsnp     | no               |
+| DMDM    | xref_dmdm      | no               |
 
 ## 2D gel
 
-| Label               | Returned Field           |
-| ------------------- | ------------------------ |
-| COMPLUYEAST-2DPAGE  | xref_compluyeast-2dpage  |
-| DOSAC-COBS-2DPAGE   | xref_dosac-cobs-2dpage   |
-| OGP                 | xref_ogp                 |
-| REPRODUCTION-2DPAGE | xref_reproduction-2dpage |
-| SWISS-2DPAGE        | xref_swiss-2dpage        |
-| UCD-2DPAGE          | xref_ucd-2dpage          |
-| World-2DPAGE        | xref_world-2dpage        |
+| Label               | Returned Field           | Has full version |
+| ------------------- | ------------------------ | ---------------- |
+| COMPLUYEAST-2DPAGE  | xref_compluyeast-2dpage  | no               |
+| DOSAC-COBS-2DPAGE   | xref_dosac-cobs-2dpage   | no               |
+| OGP                 | xref_ogp                 | no               |
+| REPRODUCTION-2DPAGE | xref_reproduction-2dpage | no               |
+| SWISS-2DPAGE        | xref_swiss-2dpage        | no               |
+| UCD-2DPAGE          | xref_ucd-2dpage          | no               |
+| World-2DPAGE        | xref_world-2dpage        | no               |
 
 ## Proteomic
 
-| Label             | Returned Field         |
-| ----------------- | ---------------------- |
-| CPTAC             | xref_cptac             |
-| EPD               | xref_epd               |
-| jPOST             | xref_massive           |
-| MassIVE           | xref_maxqb             |
-| MaxQB             | xref_pride             |
-| PaxDb             | xref_paxdb             |
-| PeptideAtlas      | xref_peptideatlas      |
-| PRIDE             | xref_promex            |
-| ProMEX            | xref_proteomicsdb      |
-| ProteomicsDB      | xref_topdownproteomics |
-| TopDownProteomics | xref_jpost             |
+| Label             | Returned Field         | Has full version |
+| ----------------- | ---------------------- | ---------------- |
+| CPTAC             | xref_cptac             | no               |
+| EPD               | xref_epd               | no               |
+| jPOST             | xref_massive           | no               |
+| MassIVE           | xref_maxqb             | no               |
+| MaxQB             | xref_pride             | no               |
+| PaxDb             | xref_paxdb             | no               |
+| PeptideAtlas      | xref_peptideatlas      | no               |
+| PRIDE             | xref_promex            | no               |
+| ProMEX            | xref_proteomicsdb      | no               |
+| ProteomicsDB      | xref_topdownproteomics | no               |
+| TopDownProteomics | xref_jpost             | no               |
 
 ## Protocols and materials
 
-| Label         | Returned Field     |
-| ------------- | ------------------ |
-| ABCD          | xref_abcd          |
-| Antibodypedia | xref_antibodypedia |
-| CPTC          | xref_cptc          |
-| DNASU         | xref_dnasu         |
+| Label         | Returned Field     | Has full version |
+| ------------- | ------------------ | ---------------- |
+| ABCD          | xref_abcd          | yes              |
+| Antibodypedia | xref_antibodypedia | yes              |
+| CPTC          | xref_cptc          | yes              |
+| DNASU         | xref_dnasu         | no               |
 
 ## Genome annotation
 
-| Label           | Returned Field       |
-| --------------- | -------------------- |
-| Ensembl         | xref_ensembl         |
-| EnsemblBacteria | xref_ensemblbacteria |
-| EnsemblFungi    | xref_ensemblfungi    |
-| EnsemblMetazoa  | xref_ensemblmetazoa  |
-| EnsemblPlants   | xref_ensemblplants   |
-| EnsemblProtists | xref_ensemblprotists |
-| GeneDB          | xref_genedb          |
-| GeneID          | xref_geneid          |
-| Gramene         | xref_gramene         |
-| KEGG            | xref_kegg            |
-| PATRIC          | xref_patric          |
-| UCSC            | xref_ucsc            |
-| VectorBase      | xref_vectorbase      |
-| WBParaSite      | xref_wbparasite      |
+| Label           | Returned Field       | Has full version |
+| --------------- | -------------------- | ---------------- |
+| Ensembl         | xref_ensembl         | yes              |
+| EnsemblBacteria | xref_ensemblbacteria | yes              |
+| EnsemblFungi    | xref_ensemblfungi    | yes              |
+| EnsemblMetazoa  | xref_ensemblmetazoa  | yes              |
+| EnsemblPlants   | xref_ensemblplants   | yes              |
+| EnsemblProtists | xref_ensemblprotists | yes              |
+| GeneDB          | xref_genedb          | no               |
+| GeneID          | xref_geneid          | no               |
+| Gramene         | xref_gramene         | yes              |
+| KEGG            | xref_kegg            | no               |
+| PATRIC          | xref_patric          | yes              |
+| UCSC            | xref_ucsc            | yes              |
+| VectorBase      | xref_vectorbase      | yes              |
+| WBParaSite      | xref_wbparasite      | yes              |
 
 ## Organism-specific
 
-| Label         | Returned Field     |
-| ------------- | ------------------ |
-| ArachnoServer | xref_arachnoserver |
-| Araport       | xref_araport       |
-| CGD           | xref_cgd           |
-| ConoServer    | xref_conoserver    |
-| CTD           | xref_ctd           |
-| dictyBase     | xref_dictybase     |
-| DisGeNET      | xref_disgenet      |
-| EchoBASE      | xref_echobase      |
-| euHCVdb       | xref_euhcvdb       |
-| FlyBase       | xref_flybase       |
-| GeneCards     | xref_genecards     |
-| GeneReviews   | xref_genereviews   |
-| HGNC          | xref_hgnc          |
-| HPA           | xref_hpa           |
-| LegioList     | xref_legiolist     |
-| Leproma       | xref_leproma       |
-| MaizeGDB      | xref_maizegdb      |
-| MalaCards     | xref_malacards     |
-| MGI           | xref_mgi           |
-| MIM           | xref_mim           |
-| neXtProt      | xref_nextprot      |
-| NIAGADS       | xref_niagads       |
-| OpenTargets   | xref_opentargets   |
-| Orphanet      | xref_orphanet      |
-| PharmGKB      | xref_pharmgkb      |
-| PHI-base      | xref_phi-base      |
-| PomBase       | xref_pombase       |
-| PseudoCAP     | xref_pseudocap     |
-| RGD           | xref_rgd           |
-| SGD           | xref_sgd           |
-| TAIR          | xref_tair          |
-| TubercuList   | xref_tuberculist   |
-| VEuPathDB     | xref_veupathdb     |
-| VGNC          | xref_vgnc          |
-| WormBase      | xref_wormbase      |
-| Xenbase       | xref_xenbase       |
-| ZFIN          | xref_zfin          |
+| Label         | Returned Field     | Has full version |
+| ------------- | ------------------ | ---------------- |
+| ArachnoServer | xref_arachnoserver | yes              |
+| Araport       | xref_araport       | no               |
+| CGD           | xref_cgd           | yes              |
+| ConoServer    | xref_conoserver    | yes              |
+| CTD           | xref_ctd           | no               |
+| dictyBase     | xref_dictybase     | yes              |
+| DisGeNET      | xref_disgenet      | no               |
+| EchoBASE      | xref_echobase      | no               |
+| euHCVdb       | xref_euhcvdb       | no               |
+| FlyBase       | xref_flybase       | yes              |
+| GeneCards     | xref_genecards     | no               |
+| GeneReviews   | xref_genereviews   | no               |
+| HGNC          | xref_hgnc          | yes              |
+| HPA           | xref_hpa           | yes              |
+| LegioList     | xref_legiolist     | no               |
+| Leproma       | xref_leproma       | no               |
+| MaizeGDB      | xref_maizegdb      | no               |
+| MalaCards     | xref_malacards     | no               |
+| MGI           | xref_mgi           | yes              |
+| MIM           | xref_mim           | yes              |
+| neXtProt      | xref_nextprot      | no               |
+| NIAGADS       | xref_niagads       | no               |
+| OpenTargets   | xref_opentargets   | no               |
+| Orphanet      | xref_orphanet      | yes              |
+| PharmGKB      | xref_pharmgkb      | no               |
+| PHI-base      | xref_phi-base      | no               |
+| PomBase       | xref_pombase       | no               |
+| PseudoCAP     | xref_pseudocap     | no               |
+| RGD           | xref_rgd           | yes              |
+| SGD           | xref_sgd           | yes              |
+| TAIR          | xref_tair          | yes              |
+| TubercuList   | xref_tuberculist   | no               |
+| VEuPathDB     | xref_veupathdb     | no               |
+| VGNC          | xref_vgnc          | yes              |
+| WormBase      | xref_wormbase      | yes              |
+| Xenbase       | xref_xenbase       | yes              |
+| ZFIN          | xref_zfin          | yes              |
 
 ## Phylogenomic
 
-| Label      | Returned Field  |
-| ---------- | --------------- |
-| eggNOG     | xref_eggnog     |
-| GeneTree   | xref_genetree   |
-| HOGENOM    | xref_hogenom    |
-| InParanoid | xref_inparanoid |
-| KO         | xref_ko         |
-| OMA        | xref_oma        |
-| OrthoDB    | xref_orthodb    |
-| PhylomeDB  | xref_phylomedb  |
-| TreeFam    | xref_treefam    |
+| Label      | Returned Field  | Has full version |
+| ---------- | --------------- | ---------------- |
+| eggNOG     | xref_eggnog     | yes              |
+| GeneTree   | xref_genetree   | no               |
+| HOGENOM    | xref_hogenom    | no               |
+| InParanoid | xref_inparanoid | no               |
+| KO         | xref_ko         | no               |
+| OMA        | xref_oma        | yes              |
+| OrthoDB    | xref_orthodb    | no               |
+| PhylomeDB  | xref_phylomedb  | no               |
+| TreeFam    | xref_treefam    | no               |
 
 ## Enzyme and pathway
 
-| Label          | Returned Field      |
-| -------------- | ------------------- |
-| BioCyc         | xref_biocyc         |
-| BRENDA         | xref_brenda         |
-| PathwayCommons | xref_pathwaycommons |
-| PlantReactome  | xref_plantreactome  |
-| Reactome       | xref_reactome       |
-| SABIO-RK       | xref_sabio-rk       |
-| SignaLink      | xref_signalink      |
-| SIGNOR         | xref_signor         |
-| UniPathway     | xref_unipathway     |
+| Label          | Returned Field      | Has full version |
+| -------------- | ------------------- | ---------------- |
+| BioCyc         | xref_biocyc         | no               |
+| BRENDA         | xref_brenda         | yes              |
+| PathwayCommons | xref_pathwaycommons | no               |
+| PlantReactome  | xref_plantreactome  | yes              |
+| Reactome       | xref_reactome       | no               |
+| SABIO-RK       | xref_sabio-rk       | no               |
+| SignaLink      | xref_signalink      | no               |
+| SIGNOR         | xref_signor         | no               |
+| UniPathway     | xref_unipathway     | yes              |
 
 ## Miscellaneous
 
-| Label             | Returned Field         |
-| ----------------- | ---------------------- |
-| BioGRID-ORCS      | xref_biogrid-orcs      |
-| ChiTaRS           | xref_chitars           |
-| EvolutionaryTrace | xref_evolutionarytrace |
-| GeneWiki          | xref_genewiki          |
-| GenomeRNAi        | xref_genomernai        |
-| Pharos            | xref_pharos            |
-| PRO               | xref_pro               |
-| RNAct             | xref_rnact             |
+| Label             | Returned Field         | Has full version |
+| ----------------- | ---------------------- | ---------------- |
+| BioGRID-ORCS      | xref_biogrid-orcs      | yes              |
+| ChiTaRS           | xref_chitars           | yes              |
+| EvolutionaryTrace | xref_evolutionarytrace | no               |
+| GeneWiki          | xref_genewiki          | no               |
+| GenomeRNAi        | xref_genomernai        | no               |
+| Pharos            | xref_pharos            | no               |
+| PRO               | xref_pro               | no               |
+| RNAct             | xref_rnact             | yes              |
 
 ## Gene expression
 
-| Label           | Returned Field       |
-| --------------- | -------------------- |
-| Bgee            | xref_bgee            |
-| CollecTF        | xref_collectf        |
-| ExpressionAtlas | xref_expressionatlas |
-| Genevisible     | xref_genevisible     |
-| CleanEx         | xref_cleanex         |
+| Label           | Returned Field       | Has full version |
+| --------------- | -------------------- | ---------------- |
+| Bgee            | xref_bgee            | yes              |
+| CollecTF        | xref_collectf        | no               |
+| ExpressionAtlas | xref_expressionatlas | yes              |
+| Genevisible     | xref_genevisible     | yes              |
+| CleanEx         | xref_cleanex         | no               |
 
 ## Family and domain
 
-| Label    | Returned Field |
-| -------- | -------------- |
-| CDD      | xref_cdd       |
-| DisProt  | xref_disprot   |
-| Gene3D   | xref_gene3d    |
-| HAMAP    | xref_hamap     |
-| InterPro | xref_interpro  |
-| PANTHER  | xref_panther   |
-| Pfam     | xref_pfam      |
-| PIRSF    | xref_pirsf     |
-| PRINTS   | xref_prints    |
-| ProDom   | xref_prodom    |
-| PROSITE  | xref_prosite   |
-| SFLD     | xref_sfld      |
-| SMART    | xref_smart     |
-| SUPFAM   | xref_supfam    |
-| TIGRFAMs | xref_tigrfams  |
+| Label    | Returned Field | Has full version |
+| -------- | -------------- | ---------------- |
+| CDD      | xref_cdd       | yes              |
+| DisProt  | xref_disprot   | no               |
+| Gene3D   | xref_gene3d    | yes              |
+| HAMAP    | xref_hamap     | yes              |
+| InterPro | xref_interpro  | yes              |
+| NCBIfam  | xref_ncbifam   | yes              |
+| PANTHER  | xref_panther   | yes              |
+| Pfam     | xref_pfam      | yes              |
+| PIRSF    | xref_pirsf     | yes              |
+| PRINTS   | xref_prints    | yes              |
+| ProDom   | xref_prodom    | yes              |
+| PROSITE  | xref_prosite   | yes              |
+| SFLD     | xref_sfld      | yes              |
+| SMART    | xref_smart     | yes              |
+| SUPFAM   | xref_supfam    | yes              |
+
+# Full version
+
+The format of our existing [UniProtKB return fields for cross-references](https://www.uniprot.org/help/return_fields_databases) in a result table consists of the primary identifier of the external resource and, optionally, the [UniProt isoform identifier in square brackets](https://www.uniprot.org/help/isoform_crossreferences). When an entry has several cross-references to the same external resources, these cross-references are separated by a semi-colon.
+
+Since [release 2023_05](https://www.uniprot.org/release-notes/2023-11-08-release), a new variant to these return fields has been added for all cross-references that have additional identifiers or other information. The format of an individual cross-reference is identical to the format used in the UniProtKB text format (with multiple fields being separated by semi-colons). In order to continue to separate multiple cross-references to the same external resource with a semi-colon, each individual cross-reference is enclosed in double quotes.
+
+Example: [A0JNW5 Ensembl cross-references](https://rest.uniprot.org/uniprotkb/A0JNW5.tsv?fields=xref_ensembl)
+
+Existing return field `xref_ensembl`:
+
+```
+ENST00000279907.12 [A0JNW5-1];ENST00000356828.7 [A0JNW5-2];
+```
+
+New return field `xref_ensembl_full`:
+
+```
+"ENST00000279907.12; ENSP00000279907.7; ENSG00000111647.13. [A0JNW5-1]";"ENST00000356828.7; ENSP00000349285.3; ENSG00000111647.13. [A0JNW5-2]";
+```
+
+Example: [A0JNW5 InterPro cross-references](https://rest.uniprot.org/uniprotkb/A0JNW5.tsv?fields=xref_interpro)
+
+Existing return field `xref_interpro`:
+
+```
+IPR026728;IPR026854;
+```
+
+New return field `xref_interpro_full`:
+
+```
+"IPR026728; BLTP3A/B.";"IPR026854; VPS13-like_N."
+```
+
