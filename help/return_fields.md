@@ -180,7 +180,7 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 
 # Date of
 
-| Label Returned Field               |
+| Label                              | Returned Field         |
 | ---------------------------------- | ---------------------- |
 | Date of creation                   | date_created           |
 | Date of last modification          | date_modified          |
