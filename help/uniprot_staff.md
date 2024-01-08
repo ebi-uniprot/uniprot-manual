@@ -85,9 +85,9 @@ Aurélien Luciani
 Jie Luo  
 Mahdi Mahmoudy  
 Katie Moulang  
-Venkatesh Muthukrishnan  
 Guoying Qi  
 Daniel Rice  
+Anastasia Sveshnikova  
 Edward Turner  
 Preethi Vasudev  
 Yuqi (Michael) Wang  
