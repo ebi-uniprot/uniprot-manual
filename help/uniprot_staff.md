@@ -24,8 +24,8 @@ categories: Staff,help
 [Sandra E. Orchard](https://www.uniprot.org/help/key_staff#orchard)  
 [Ivo Pedruzzi](https://www.uniprot.org/help/key_staff#pedruzzi)  
 [Sylvain Poux](https://www.uniprot.org/help/key_staff#poux)  
-[Shriya Raj](https://www.uniprot.org/help/key_staff#raj)  
-[Nicole Redaschi](https://www.uniprot.org/help/key_staff#redaschi)
+[Nicole Redaschi](https://www.uniprot.org/help/key_staff#redaschi)  
+[Rafael Santos](https://www.uniprot.org/help/key_staff#santos)  
 
 # Biocurators
 
