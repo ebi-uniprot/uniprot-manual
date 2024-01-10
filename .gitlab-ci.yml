@@ -6,7 +6,7 @@ fb-index-help:downstream:
   trigger: uniprot/deployment/unp.ci.api.k8s
   when: on_success
   variables:
-    CI_PIPELINE_TASKS: upgrade
+    CI_PIPELINE_TASKS: index-help
     ARTIFACT: uniprot-help-indexer
     K8S_ENV: fallback
     DC: HX
@@ -18,7 +18,7 @@ prod-index-help:downstream:
   trigger: uniprot/deployment/unp.ci.api.k8s
   when: on_success
   variables:
-    CI_PIPELINE_TASKS: upgrade
+    CI_PIPELINE_TASKS: index-help
     ARTIFACT: uniprot-help-indexer
     K8S_ENV: prod
     DC: HH
