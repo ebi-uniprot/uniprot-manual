@@ -23,9 +23,8 @@ categories: Staff,help
 [Sandra E. Orchard](https://www.uniprot.org/help/key_staff#orchard)  
 [Ivo Pedruzzi](https://www.uniprot.org/help/key_staff#pedruzzi)  
 [Sylvain Poux](https://www.uniprot.org/help/key_staff#poux)  
-Manuela Pruess   
 [Nicole Redaschi](https://www.uniprot.org/help/key_staff#redaschi)  
-Karen Ross  
+[Karen Ross](https://www.uniprot.org/help/key_staff#ross)  
 [Rafael Santos](https://www.uniprot.org/help/key_staff#santos)  
 
 # Content / Curation
