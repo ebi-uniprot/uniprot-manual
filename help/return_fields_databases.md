@@ -258,7 +258,6 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 | Pfam     | xref_pfam      | yes              |
 | PIRSF    | xref_pirsf     | yes              |
 | PRINTS   | xref_prints    | yes              |
-| ProDom   | xref_prodom    | yes              |
 | PROSITE  | xref_prosite   | yes              |
 | SFLD     | xref_sfld      | yes              |
 | SMART    | xref_smart     | yes              |
