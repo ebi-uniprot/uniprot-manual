@@ -1,10 +1,10 @@
 ---
-title: Explore sequence archive
+title: Explore the sequence archive UniParc
 type: help
 categories: Get_started,UniParc
 ---
 
-UniParc is a comprehensive and non-redundant database that contains most of the publicly available protein sequences in the world. UniParc stores each unique sequence only once, giving it a stable and unique identifier (UPI).
+[UniParc](https://www.uniprot.org/help/uniparc) is a comprehensive and non-redundant database that contains most of the publicly available protein sequences in the world. UniParc stores each unique sequence only once, giving it a stable and unique identifier (UPI).
 
 You can access UniParc from the UniProt homepage or by selecting it from the dropdown in front of the search bar and entering your search term.
 

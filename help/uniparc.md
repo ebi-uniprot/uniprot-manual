@@ -22,6 +22,15 @@ Sequence changes in the source database can be tracked by sequence versions. Som
 
 A database cross-reference links a protein sequence to its origin database. It contains a source database identifier, a sequence identifier from the source database, a sequence version from source database if any, a UniParc sequence version and whether or not the cross-reference is still active. A new cross-reference is created when a new or updated protein enters UniParc. When a sequence is changed or deleted from a source database, its corresponding cross-reference is marked as deleted. Active cross-reference can be used to directly access the source databases but inactive cross-references can only be used to access sequences archives, such as the [EMBL nucleotide sequence database sequence version archive](https://www.ebi.ac.uk/cgi-bin/sva/sva.pl), the EMBL nucleotide sequence database stores of its entries in a searchable manner.
 
+# Download
+
+UniProt can be downloaded from 
+- [ftp.uniprot.org (USA)](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/)
+- [ftp.ebi.ac.uk (UK)](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/uniparc/)
+- [ftp.expasy.org (Switzerland)](https://ftp.expasy.org/databases/uniprot/current_release/uniparc/)
+ 
+The UniParc data in xml or fasta format has been split into smaller files for more robust downloads. All files from the corresponding directory need to be downloaded and combined.
+
 # Data sources
 
 Currently UniParc contains protein sequences from the following publicly available databases:
