@@ -25,6 +25,7 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 | Label  | Returned Field | Has full version |
 | ------ | -------------- | ---------------- |
 | BMRB   | xref_bmrb      | no               |
+| EMDB   | xref_emdb      | no               |
 | PCDDB  | xref_pcddb     | no               |
 | PDB    | xref_pdb       | yes              |
 | PDBsum | xref_pdbsum    | no               |
@@ -169,6 +170,7 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 | GeneReviews   | xref_genereviews   | no               |
 | HGNC          | xref_hgnc          | yes              |
 | HPA           | xref_hpa           | yes              |
+| JaponicusDB   | xref_japonicus_db  | yes              |
 | LegioList     | xref_legiolist     | no               |
 | Leproma       | xref_leproma       | no               |
 | MaizeGDB      | xref_maizegdb      | no               |
@@ -258,7 +260,6 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 | Pfam     | xref_pfam      | yes              |
 | PIRSF    | xref_pirsf     | yes              |
 | PRINTS   | xref_prints    | yes              |
-| ProDom   | xref_prodom    | yes              |
 | PROSITE  | xref_prosite   | yes              |
 | SFLD     | xref_sfld      | yes              |
 | SMART    | xref_smart     | yes              |
