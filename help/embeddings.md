@@ -11,7 +11,12 @@ such as sequence similarity search, sequence clustering, and sequence classifica
 
 UniProt is providing raw embeddings (per-protein and per-residue using the ProtT5 model)
 for UniProtKB/Swiss-Prot and some reference proteomes of model organisms (such as _Homo sapiens_, SARS-CoV-2, and _E. coli_).
-You can retrieve them from our [Downloads](https://www.uniprot.org/help/downloads#embeddings) page and from the UniProtKB search results download function.
+You can retrieve them from our [Downloads](https://www.uniprot.org/help/downloads#embeddings) page. Per-protein 
+embeddings for UniProtKB can also be retrieved from the UniProtKB search results download function. Embeddings for 
+new/updated UniProtKB sequences are made available for download with every public release.
+
+To generate embeddings, we use [bio_embeddings](https://github.com/sacdallago/bio_embeddings) tool, and the specific 
+model used is _prottrans_t5_xl_u50_.
 
 **Note:** Protein sequences longer than 12k residues are excluded due to limitation of GPU memory (this concerns only a handful of proteins).
 
