@@ -13,7 +13,7 @@ In order to assess quality and completeness of [proteomes](https://www.uniprot.o
 
 CPD statistically analyses each proteome against a group of closely related proteomes in order to determine completeness. For each proteome, CPD uses [taxonomic lineage](https://www.uniprot.org/help/taxonomic_lineage) information to identify the group of proteomes taxonomically closest to it. A valid group is required to contain a minimum of thirty proteomes and all proteomes in the group must be in the same taxonomic class or more closely related. For the proteome being analyzed, the algorithm considers the quartiles of the protein count of all other proteomes in its group.
 
-This evaluation classifies each proteome into one of six possible categories (in terms of the proteome's protein count vs the protein counts of the other proteomes in its group): **Standard** ; **Close to standard (high value)** ; **Close to standard (low value)** ; **Outlier (high value)** ; **Outlier (low value)** or **Unknown**. The categories are defined by closeness of the protein count to the group median. The closest category to the median is **Standard**, followed by **Close to standard** and then **Outlier**. The subcategories of **high** and **low** reflect whether a proteome has above or below average protein count respectively. Proteomes are marked **unknown** if a score could not be calculated for example if we don't have enough closely related proteomes in the database.
+This evaluation classifies each proteome into one of six possible categories (in terms of the proteome's protein count vs the protein counts of the other proteomes in its group): **Standard** ; **Close to standard (high value)** ; **Close to standard (low value)** ; **Outlier (high value)** ; **Outlier (low value)** or **Unknown**. The categories are defined by closeness of the protein count to the group median. The closest category to the median is **Standard**, followed by **Close to standard** and then **Outlier**. The subcategories of **high** and **low** reflect whether a proteome has above or below average protein count respectively. Proteomes are marked **Unknown** if a score could not be calculated, for example if we do not have enough closely related proteomes in the database (a minimum of 30 is required).
 
 ## Score definitions
 
@@ -38,15 +38,6 @@ CPD score is defined as:
 
 Figure 1 caption: _CPD status descriptions are defined by how the protein count of a proteome compares to the distribution of protein counts in a group of at least 30 closely related proteomes. The proteomes chosen for comparison are as closely related as possible in order to find at least 30 proteomes. If not enough proteomes can be found within the same taxonomic class then the proteome is scored "Unknown"._
 
-## Examples
-
-Example 1 : [Human reference proteome](https://www.uniprot.org/proteomes/UP000005640/) - Score = "Outlier (high)"
-
-The proteome [UP000005640](https://www.uniprot.org/proteomes/UP000005640/) has a protein count of 77027 (as of release 2021_02). When we compare this to the protein counts of closely related proteomes (primates) we can see that this protein count is high. This proteome is scored "Outlier (high)". This is not necessarily a bad sign! The human proteome is very well studied compared to some of the other primate proteomes - so we might expect to see a higher protein count due to all of the identified isoforms due to alternative splicing.
-
-Example 2 : [Human proteome (mitochondrion only)](https://www.uniprot.org/proteomes/UP000307385/) - Score = "Outlier (low)"
-
-This human "proteome" has a very low protein count of 13 (as of release 2021_02). This "proteome" only consists of the proteins encoded in the mitochondrial genome. Therefore a score of "Outlier (low)" makes sense; all other mitochondrial proteins are imported into the organelle but are not reflected in this number.
 
 # Benchmarking Universal Single-Copy Orthologs (BUSCO)
 
