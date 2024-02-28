@@ -4,10 +4,6 @@ type: help
 categories: Staff,help
 ---
 
-<strong id="arighi">Cecilia N. Arighi, Ph.D.</strong>  
-<u>Team Lead, Curation (PIR)</u>  
-Dr. Arighi joined the Protein Information Resource (PIR) as a biocurator in 2005 and was later appointed as a Research Assistant Professor of biochemistry and molecular & cellular biology at Georgetown University Medical Center. She is currently a Research Associate Professor at the Center for Bioinformatics and Computational Biology at the University of Delaware. Dr. Arighi is leader of the curation efforts at PIR, where she oversees expert entry curation and UniRule curation for automatic annotation. She is also involved in efforts to improve coverage and access to literature and annotations in UniProt entries via interaction with other databases, use of text mining and community crowdsourcing. She is involved in other projects synergistic with UniProt activities, such as Protein Ontology and BioCreative.
-
 <strong id="breuza">Lionel Breuza, Ph.D.</strong>  
 <u>Head of Chordata Curation (SIB)</u>  
 Dr. Breuza joined the Swiss-Prot group at the SIB Swiss Institute of Bioinformatics in 2004 where he worked as a Swiss-Prot database biocurator with a focus on vertebrate proteomes. Since 2009 he heads the chordata curation program at the SIB, managing a team of biocurators and organizing the curation work of vertebrate proteins and in particular of the human proteome.
