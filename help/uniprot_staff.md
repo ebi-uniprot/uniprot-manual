@@ -29,6 +29,7 @@ categories: Staff,help
 
 # Content / Curation
 
+Aduragbemi Adesina  
 Lucila Aimo  
 Ghislaine Argoud-Puy  
 Andrea Auchincloss  
@@ -58,11 +59,11 @@ Lucille Pourcel
 Pedro Raposo  
 Catherine Rivoire  
 Christian Sigrist  
-Elena Speretta  
 Shyamala Sundaram  
 Nidhi Tyagi  
 C. R. Vinayaka  
 Nadya Urakova  
+Yu Conny  
 
 # Development
 
