@@ -7,7 +7,7 @@ categories: help
 In order to assess quality and completeness of [proteomes](https://www.uniprot.org/proteomes), we provide two values:
 
 - Statistical evaluation and classification of the proteome by the **Complete Proteome Detector (CPD)** algorithm (developed by UniProt)
-- The [BUSCO score](https://www.sib.swiss/about-sib/news/10131-gauging-the-completeness-of-genomics-data-with-busco) of the proteome, which was developed to quantify genomic data completeness in terms of expected gene content.
+- The [BUSCO score](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8881204/) of the proteome, which was developed to quantify genomic data completeness in terms of expected gene content.
 
 # Complete Proteome Detector (CPD)
 
@@ -41,7 +41,7 @@ Figure 1 caption: _CPD status descriptions are defined by how the protein count 
 
 # Benchmarking Universal Single-Copy Orthologs (BUSCO)
 
-For eukaryotic and bacterial proteomes, we also provide the [BUSCO score](https://www.sib.swiss/about-sib/news/10131-gauging-the-completeness-of-genomics-data-with-busco), as a quantitative measure of UniProt proteome data completeness. BUSCO was developed to quantify genomic data completeness in terms of expected gene content based on single-copy orthologs. We are currently using BUSCO version 4.0.2.
+For eukaryotic and bacterial proteomes, we also provide the [BUSCO score](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8881204/), as a quantitative measure of UniProt proteome data completeness. BUSCO was developed to quantify genomic data completeness in terms of expected gene content based on single-copy orthologs. We are currently using BUSCO version 4.0.2.
 
 This score includes percentages of complete (C) single-copy (S) genes, complete (C) duplicated (D) genes, fragmented (F) and missing (M) genes, as well as the total number of orthologous clusters (n) used in the BUSCO assessment.
 
