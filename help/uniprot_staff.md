@@ -37,7 +37,6 @@ Emmanuel Boutet
 Emily Bowler-Barnett  
 David Carpentier  
 Cristina Casals Casas  
-Blanca Cabrera Gil  
 Paul Denny  
 Anne Estreicher  
 Maria Livia Famiglietti  
@@ -62,7 +61,7 @@ Christian Sigrist
 Elena Speretta  
 Shyamala Sundaram  
 Nidhi Tyagi  
-C. R. Vinayaka
+C. R. Vinayaka  
 Nadya Urakova  
 
 # Development
@@ -97,6 +96,7 @@ Juan Sebastian Martinez Martin
 Monica Pozzato  
 Daniel Rice  
 James Stephenson  
+Anastasia Sveshnikova  
 Prabhat Totoo  
 Preethi Vasudev  
 Yuqi Wang  
