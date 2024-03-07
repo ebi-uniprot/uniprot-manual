@@ -28,8 +28,8 @@ Recommended list of major web browsers for the UniProt website.
 [How can I access UniProt programmatically?](https://www.uniprot.org/help/programmatic_access)  
 UniProt provides several application programming interfaces (APIs) to query and access its data programmatically, e.g. REST, Java API, SPARQL endpoint.
 
-[Swissknife](http://swissknife.sourceforge.net/docs/)  
+[Swissknife](https://swissknife.sourceforge.net/docs/)  
 Object-oriented Perl library for parsing the UniProtKB text format.
 
-[Varsplic](ftp://ftp.uniprot.org/pub/software/uniprot/varsplic)  
+[Varsplic](https://ftp.ebi.ac.uk/pub/software/swissprot/varsplic/)  
 Perl script to create alternatively-spliced protein sequences derived from UniProtKB entries.
