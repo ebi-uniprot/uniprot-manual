@@ -40,7 +40,7 @@ categories: help
 
 - Peptide Match  
   A command line tool that allows to quickly retrieve all occurrences of a given query peptide from a customized protein sequence database (see [PMID:23958731](https://pubmed.ncbi.nlm.nih.gov/23958731/) for more details).  
-  URL: <https://research.bioinformatics.udel.edu/peptidematch/commandlinetool.jsp>  
+  URL: <https://proteininformationresource.org/download/peptide_match/>  
   License: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
 
 # Automatic annotation
