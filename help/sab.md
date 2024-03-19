@@ -34,7 +34,7 @@ We also would like to thank the previous members of the UniProt SAB for their va
 -   [Avi Ma'ayan](https://icahn.mssm.edu/profiles/avi-maayan), Icahn School of Medicine at Mount Sinai, New York
 -   [Edward Marcotte](http://www.marcottelab.org/index.php/Main_Page), Department of Chemistry and Biochemistry, University of Texas
 -   [Maryann Martone](https://neurosciences.ucsd.edu/faculty/Pages/maryann-martone.aspx), National Center for Microscopy and Imaging Research, University of California, San Diego
--   [Christine Orengo](https://www.ucl.ac.uk/orengo-group/lab-members/christine-orengo), Division of Biosciences, University College London
+-   [Christine Orengo](https://www.ucl.ac.uk/orengo-group/lab-members/christine-orengo) (Chair 2019-2023), Division of Biosciences, University College London
 -   Young-Ki Paik, Yonsei Proteome Research Center, Yonsei University
 -   [William Pearson](http://www.people.virginia.edu/%7Ewrp/), Department of Biochemistry and Molecular Genetics, University of Virginia
 -   Manuel Peitsch, Scientific Computing and Bioinformatics at Philip Morris International
