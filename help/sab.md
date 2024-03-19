@@ -8,7 +8,7 @@ The UniProt project receives advice and guidance from a scientific advisory boar
 
 -   [Gary Bader](http://www.moleculargenetics.utoronto.ca/faculty/2014/10/7/gary-bader), The Donnelly Centre, University of Toronto
 -   [Nikos Kyrpides](https://jgi.doe.gov/our-science/scientists-jgi/microbiome-data-science/), DOE Joint Genome Institute
--   [Kathryn Lilley](https://www.bioc.cam.ac.uk/research/lilley), Department of Biochemistry, University of Cambridge
+-   [Kathryn Lilley](https://www.bioc.cam.ac.uk/research/lilley) **(Chair)**, Department of Biochemistry, University of Cambridge
 -   [Emma Lundberg](https://www.scilifelab.se/researchers/emma-lundberg/), Science for Life Laboratory, Sweden
 -   Valerie Schneider, Acting Chief - Information Engineering Branch, NCBI
 -   [Paul Sternberg](https://www.bbe.caltech.edu/people/paul-w-sternberg), Bren Professor of Biology, California Institute of Technology
