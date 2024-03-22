@@ -28,7 +28,7 @@ ProtNLM uses a sequence-to-sequence model based on the [T5X framework](https://g
 
 ## Notable challenges
 
-This sequence annotation problem has been cast as a machine learning task similar to the task of assigning titles (or captions) to images and documents. It can sometimes present similar challenges.
+This sequence annotation problem has been cast as a machine learning (ML / AI) task similar to the task of assigning titles (or captions) to images and documents. It can sometimes present similar challenges.
 
 For instance, one protein can be assigned multiple names, which can happen if each name focuses on different information. For example, the sequence [Q58842](https://www.uniprot.org/uniprotkb/Q58842/entry) can be assigned the following names: "Formaldehyde-activating enzyme", "3-hexulose-6-phosphate synthase", and "Bifunctional enzyme Fae/Hps", each of which focuses on a different functional domain or combination of functional domains detected in the protein. As such, it can be challenging to evaluate model-generated descriptions that differ from those assigned in UniProt.
 
