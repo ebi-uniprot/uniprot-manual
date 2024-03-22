@@ -8,11 +8,12 @@ categories: UniProtKB,Automatic_annotation,help
 
 UniProt's [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic_annotation) automatically classifies and annotates unreviewed records in UniProtKB.
 
-Google's **ProtNLM** (**Prot**ein **N**atural **L**anguage **M**odel) contributions to this pipeline are labeled 'Google:ProtNLM'. See e.g. [A0A2Z4IEP2](https://www.uniprot.org/uniprotkb/A0A2Z4IEP2/entry). ProtNLM is a [transformer model](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) trained to predict the protein name from the protein's amino acid sequence.
+Google's **ProtNLM** (**Prot**ein **N**atural **L**anguage **M**odel) contributions to this pipeline are labeled 'Google:ProtNLM'. 
+Exampe: [A0A2Z4IEP2](https://www.uniprot.org/uniprotkb/A0A2Z4IEP2/entry#names_and_taxonomy). ProtNLM is a [transformer model](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) trained to **predict the protein name** from the protein's amino acid sequence.
 
 # ProtNLM methodology
 
-ProtNLM is a new method used by UniProt to automatically annotate uncharacterized protein sequences. This method works by predicting a short textual description for proteins based solely on their amino acid sequence, using a [sequence-to-sequence](https://en.wikipedia.org/wiki/Seq2seq) model.
+ProtNLM is a method used by UniProt to **automatically annotate uncharacterized protein sequences**. This method works by predicting a short textual description for proteins based solely on their amino acid sequence, using a [sequence-to-sequence](https://en.wikipedia.org/wiki/Seq2seq) model.
 
 ## Sequence annotation as a machine learning problem
 
@@ -54,11 +55,11 @@ Second, we consider models that additionally take as input the protein's seconda
 
 For recent releases, we have used an ensemble across multiple types of models to improve performance.
 
-In UniProt 2022_05, we used an ensemble containing 3 models that take only the amino acid sequence as input, and 3 models that take both the amino acid sequence and the organism as input. For proteins that were previously named by ProtNLM, we provided new names whenever the ensemble prediction exceeded the initial model score by more than 0.1.
+In UniProt release 2022_05, we used an ensemble containing 3 models that take only the amino acid sequence as input, and 3 models that take both the amino acid sequence and the organism as input. For proteins that were previously named by ProtNLM, we provided new names whenever the ensemble prediction exceeded the initial model score by more than 0.1.
 
 ![protnlm-UNProtein ensemble input-output figure.png](https://raw.githubusercontent.com/ebi-uniprot/uniprot-manual/main/images/protnlm-UNProtein%20ensemble%20input-output%20figure.png)
 
-In UniProt 2023_01, we used this ensemble to update all ProtNLM annotations, and introduced a model score threshold so that predictions are only released when the model score is above 0.2. We also improved the post-processing of predicted names and where possible, we used an automatic corroboration pipeline to decide which ensemble prediction to select as the recommended protein name.
+In UniProt release 2023_01, we used this ensemble to update all ProtNLM annotations, and introduced a model score threshold so that predictions are only released when the model score is above 0.2. We also improved the post-processing of predicted names and where possible, we used an automatic corroboration pipeline to decide which ensemble prediction to select as the recommended protein name.
 
 Starting with UniProt 2023_02, when UniProt supplies an AlphaFold prediction for a given accession, we also include in the ensemble a model that takes the amino acid sequence, organism and predicted secondary structure as inputs. The 7 models that form the new ensemble were re-trained from scratch on the original training data, from which we also held out a small amount of random sequences for in-distribution validation. To incorporate new biocurator feedback and recent updates to some ground truth names in UniProt, we also fine-tuned the models on updated training data with additional protein name filtering proposed by the biocurators.
 
