@@ -23,4 +23,4 @@ Rules that constitute these two prediction systems can be browsed and queried in
 
 We also use a suite of [Sequence Analysis Methods (SAM)](https://www.uniprot.org/help/sam) to enrich the unreviewed TrEMBL records in the UniProt Knowledgebase with extra sequence-specific information. Predictions of sequence features such as Signal, Transmembrane and Coil regions are generated using software from external providers.
 
-Since release 2022_04, we have also added a new prediction model provided by Google called [ProtNLM](https://www.uniprot.org/help/ProtNLM). You can find all the information about this method in [here](https://www.uniprot.org/help/ProtNLM).
+Since release 2022_04, we also use a new prediction model provided by Google called [ProtNLM](https://www.uniprot.org/help/ProtNLM).
