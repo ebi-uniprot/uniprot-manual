@@ -40,15 +40,11 @@ Jobs have unique identifiers, which (depending on the job type) can be used in q
 # Related services
 
 |                                                                                                      |
-|:-----------------------------------------------------------------------------------------------------|
-| **[BLAST](http://web.expasy.org/blast/) (ExPASy)**                                                   |
-| Sequence similarity search                                                                           |
+|:-----------------------------------------------------------------------------------------------------|                                                                     
 | **[BLAST](https://www.ebi.ac.uk/Tools/sss/ncbiblast/) (EBI)**                                        |
 | Sequence similarity search                                                                           |
 | **[FASTA](https://www.ebi.ac.uk/Tools/sss/fasta/) (EBI)**                                            |
 | Sequence similarity search                                                                           |
-| **[iProClass](http://pir.georgetown.edu/iproclass/index.shtml) (PIR)**                               |
-| Query a sequence against the iProClass database, which contains both sequences and protein families  |
 | **[InterProScan](https://www.ebi.ac.uk/interpro/search/sequence/) (EBI)**                            |
 | Query a sequence against the InterPro database, which contains protein families, domains, and motifs |
 | **[ScanProsite](http://prosite.expasy.org/scanprosite/) (ExPASy)**                                   |

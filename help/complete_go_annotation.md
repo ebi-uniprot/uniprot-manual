@@ -1,5 +1,5 @@
 ---
-title: What is the difference between the GO annotation included in the UniProtKB entry view, and the information accessible via the link "Complete GO annotation"?
+title: What is the difference between the GO annotation included in the UniProtKB entry view, and the information accessible via the link "Complete set of GO annotations"?
 type: help
 categories: UniProtKB,Ontology,Release,faq
 ---

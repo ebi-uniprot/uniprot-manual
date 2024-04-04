@@ -26,4 +26,4 @@ Additional information:
 
 [What are the differences between UniProtKB keywords and the GO terms?](https://www.uniprot.org/help/keywords_vs_go)
 
-[What is the difference between the GO annotation included in UniProtKB's 'Ontologies' section, and the information accessible via the link 'Complete GO annotation'?](https://www.uniprot.org/help/complete_go_annotation)
+[What is the difference between the GO annotation included in UniProtKB's 'Ontologies' section, and the information accessible via the link 'Complete set of GO annotations'?](https://www.uniprot.org/help/complete_go_annotation)

@@ -1,7 +1,7 @@
 ---
 title: I would like to test the performance of a sequence-based prediction method: Can I use UniProt to build a negative data set?
 type: help
-categories: UniProtKB,Text_search,Non-experimental_qualifiers,Sequence,Biocuration,faq
+categories: UniProtKB,Text_search,Sequence,Biocuration,faq
 ---
 
 The manual curation process of UniProtKB/Swiss-Prot includes extensive literature curation, and the annotation items with experimental evidence can be used to construct positive data sets for predictors of post-translational modifications (PTM) and other events, e.g. [all human entries with experimentally determined signal sequences](https://www.uniprot.org/uniprotkb?query=(ft_signal_exp:*)%20AND%20(organism_id:9606)).

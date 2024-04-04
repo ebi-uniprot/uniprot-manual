@@ -294,6 +294,10 @@ FT   STRAND          26..29
 FT                   /evidence="ECO:0007829|PDB:1V90"
 ```
 
+<h3 id="ECO:0008006">Deep learning neural network method evidence used in automatic assertion</h3>
+
+We use the ECO code [ECO:0008006](https://www.ebi.ac.uk/QuickGO/term/ECO:0008006) in automatic assertions from deep learning neural network method evidence.
+
 # Evidence types used for GO annotations
 
 The [Gene Ontology (GO)](https://www.uniprot.org/help/gene_ontology) consortium had originally defined its own evidence types and later mapped them to the [Evidence and Conclusion Ontology](http://www.evidenceontology.org/) (ECO). The codes and descriptions of the original GO evidences are still widely used and are listed here with their corresponding ECO codes:

@@ -7,14 +7,16 @@ categories: Sequence,manual
 This subsection of the [Sequence](https://www.uniprot.org/help/sequences_section) section indicates if the [canonical sequence](https://www.uniprot.org/help/canonical_and_isoforms) displayed by default in the entry is complete or not.
 
 - If the sequence is complete, the term 'Complete' is used.  
-  Example: [Q04826](https://www.uniprot.org/uniprotkb/Q04826#sequences)
+  Example: [P01889](https://www.uniprot.org/uniprotkb/P01889#sequences)
 
 - If the sequence is a fragment, the term 'Fragment' is used.  
   Example: [P29306](https://www.uniprot.org/uniprotkb/P29306#sequences)
 
-- If the sequence is composed of several fragments, the term 'Fragments' is used (see for instance: [P0C2W2](https://www.uniprot.org/uniprotkb/P0C2W2#sequences)). In the ['Sequences'](https://www.uniprot.org/help/sequences) section, the missing amino acids are either replaced by the letter 'X' (see for instance: [P0C2W2](https://www.uniprot.org/uniprotkb/P0C2W2#sequences)) or the missing amino acids are not represented. In this case, the non-adjacent amino acids are annotated in the ['Non-adjacent residue'](https://www.uniprot.org/help/non_cons) subsection of the 'Sequences' section (see for instance: [P68251](https://www.uniprot.org/uniprotkb/P68251#sequences)).
+- If the sequence is composed of several fragments, the term 'Fragments' is used (see for instance: [P33433](https://www.uniprot.org/uniprotkb/P33433#sequences)).
 
-To exclude fragments from your query results, you can add the search term `fragment:no` to your query.
+In the ['Sequences'](https://www.uniprot.org/help/sequences) section, the missing amino acids are either replaced by the letter 'X' (see for instance: [P29306](https://www.uniprot.org/uniprotkb/P29306#sequences)) or the missing amino acids are not represented. In this case, the non-adjacent amino acids are annotated in the ['Non-adjacent residue'](https://www.uniprot.org/help/non_cons) subsection of the 'Sequences' section (see for instance: [P68251](https://www.uniprot.org/uniprotkb/P68251#sequences)).
+
+To exclude fragments from your query results, you can add the search term `fragment:false` to your query.
 
 # Related documents
 

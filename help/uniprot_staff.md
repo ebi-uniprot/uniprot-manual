@@ -12,7 +12,6 @@ categories: Staff,help
 
 # Key staff
 
-[Cecilia Arighi](https://www.uniprot.org/help/key_staff#arighi)  
 [Lionel Breuza](https://www.uniprot.org/help/key_staff#breuza)  
 [Elisabeth Coudert](https://www.uniprot.org/help/key_staff#coudert)  
 [Hongzhan Huang](https://www.uniprot.org/help/key_staff#huang)  
@@ -24,106 +23,82 @@ categories: Staff,help
 [Sandra E. Orchard](https://www.uniprot.org/help/key_staff#orchard)  
 [Ivo Pedruzzi](https://www.uniprot.org/help/key_staff#pedruzzi)  
 [Sylvain Poux](https://www.uniprot.org/help/key_staff#poux)  
-[Shriya Raj](https://www.uniprot.org/help/key_staff#raj)  
-[Nicole Redaschi](https://www.uniprot.org/help/key_staff#redaschi)
+[Nicole Redaschi](https://www.uniprot.org/help/key_staff#redaschi)  
+[Karen Ross](https://www.uniprot.org/help/key_staff#ross)  
+[Rafael Santos](https://www.uniprot.org/help/key_staff#santos)  
 
-# Biocurators
+# Content / Curation
 
+Aduragbemi Adesina  
+Lucila Aimo  
 Ghislaine Argoud-Puy  
 Andrea Auchincloss  
 Kristian Axelsen  
 Emmanuel Boutet  
-Ramona Britto  
-Hema Bye-A-Jee  
+Emily Bowler-Barnett  
+David Carpentier  
 Cristina Casals Casas  
-Livia Famiglietti  
+Paul Denny  
+Anne Estreicher  
+Maria Livia Famiglietti  
 Marc Feuermann  
-John Garavelli  
-Penelope Garmiri  
-George Georghiou  
-Daniel Gonzalez  
 Arnaud Gos  
 Nadine Gruaz  
-Emma Hatton-Ellis  
 Chantal Hulo  
 Nevila Hyka-Nouspikel  
 Florence Jungo  
+Minna Lehvaslaiho  
 Kati Laiho  
-Philippe Lemercier  
+Philippe Le Mercier  
+Antonia Lock  
 Yvonne Lussi  
-Alistair MacDougall  
 Patrick Masson  
 Anne Morgat  
 Sandrine Pilbout  
+Lucille Pourcel  
+Pedro Raposo  
 Catherine Rivoire  
-Karen Ross  
 Christian Sigrist  
-Elena Speretta  
 Shyamala Sundaram  
 Nidhi Tyagi  
-Kate Warner  
-Rossana Zaru
+C. R. Vinayaka  
+Nadya Urakova  
+Yu Conny  
 
-# Software developers
+# Development
 
 Shadab Ahmad  
 Parit Bansal  
 Delphine Baratin  
-Teresa Manuela Batista Neto  
-Jerven Tjalling Bolleman  
+Teresa Batista Neto  
+Jerven Bolleman  
+Chuming Chen  
+Yongxing Chen  
 Beatrice Cuche  
-Leonardo Jose Da Costa Gonzales  
 Edouard De Castro  
+Leonardo de Costa Gonzales  
+Khawaja Talal Ibrahim  
+Minjoon Kim  
 Jun Fan  
+Elisabeth Gasteiger  
 Sebastien Gehant  
 Abdulrahman Hussein  
 Alexandr Ignatchenko  
+Giuseppe Insana  
 Rizwan Ishtiaq  
 Vishal Joshi  
-Arnaud Kerhornou  
-Aurélien Luciani  
-Jie Luo  
-Mahdi Mahmoudy  
-Katie Moulang  
-Venkatesh Muthukrishnan  
-Guoying Qi  
-Daniel Rice  
-Edward Turner  
-Preethi Vasudev  
-Yuqi (Michael) Wang  
-Xavier Watkins  
-Hermann Zellner
-
-# Bioinformaticians
-
-Emanuele Alpi  
-Chuming Chen  
-Yongxing Chen  
-Austra Cukura  
-Giuseppe Insana  
 Dushyanth Jyothi  
-Andrew Nightingale  
-Rabie Saidi  
-C.R. Vinayaka  
-Qinghua Wang  
-Ying (Yumi) Yan  
+Swaathi Kandasaamy  
+Arnaud Kerhornou  
+Aurelien Luciani  
+Supun Wijerathne  
+Jie Luo  
+Juan Sebastian Martinez Martin  
+Monica Pozzato  
+Daniel Rice  
+James Stephenson  
+Anastasia Sveshnikova  
+Prabhat Totoo  
+Preethi Vasudev  
+Yuqi Wang  
 Jian Zhang
-
-# User support
-
-Marie-Claude Blatter  
-Anne Estreicher  
-Elisabeth Gasteiger
-
-# Usability expert
-
-Marija Lugaric
-
-# Grant administrator
-
-Manuela Pruess
-
-# System administrators
-
-Leslie Arminski  
-Monica Pozzato

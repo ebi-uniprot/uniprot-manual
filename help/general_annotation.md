@@ -4,9 +4,10 @@ type: help
 categories: manual
 ---
 
-Position-independent general annotations used to be found in the 'General annotation (Comments)' section in the previous version of the UniProtKB entry view. They provide any useful information about the protein, mostly biological knowledge. General annotations are frequently written in free text, although we increasingly try to standardize them and use controlled vocabulary wherever possible. The flat file and XML formats still group all general annotation together in a "Comments section" (CC).
+Position-independent general annotations used to be found in the 'General annotation (Comments)' section in previous versions of the UniProtKB entry view. They provide any useful information about the protein, mostly biological knowledge. General annotations are frequently written in free text, although we increasingly try to standardize them and use controlled vocabulary wherever possible. The text and XML formats still group all general annotation together in a "Comments section" (CC).
 
-The current entry view disp lays annotation by subject (Function, PTM & processing, etc), and the various "general" annotations are now distributed to the relevant new sections.
+The current entry view displays annotation by subject (Function, PTM & processing, etc), and the various "general" annotations are distributed across the relevant sections.
+The same holds true for [Sequence annotations (Features)](https://www.uniprot.org/help/sequence_annotation).
 
 | Subsection                                                                                      | Query Field                      | Content                                                                                                     |
 | :---------------------------------------------------------------------------------------------- | :------------------------------- | :---------------------------------------------------------------------------------------------------------- |
