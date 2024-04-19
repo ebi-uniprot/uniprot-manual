@@ -22,7 +22,6 @@ We archive previous releases on our [ftp site](https://ftp.uniprot.org/pub/datab
 
 # See also
 
--   [Cogs of data in UniProt (UniProt blog)](https://insideuniprot.blogspot.com/2018/08/)
--   (referring to the previous 4-week release cycle instead of the current 8 weeks)
+-   [Cogs of data in UniProt (UniProt blog)](https://insideuniprot.blogspot.com/2018/08/), referring to the previous 4-week release cycle instead of the current 8 weeks
 
 Related terms: update frequency, release archive
