@@ -21,7 +21,6 @@ In the UniProt RDF: Names of isoforms, where all marked up using the [`up:name`]
 will become
 
 ```turtle
-
 <http://purl.uniprot.org/isoforms/P05067-1> 
   a up:Simple_Sequence .
  skos:prefLabel "APP770" ;
