@@ -3,10 +3,6 @@ title: Genomic coordinates tab
 type: help
 categories: UniProtKB,manual
 ---
-
-(note: this article is working in progress)
-
-# Genomic coordinates tab
 This tab on some UniProtKB entries displays genomic coordinates information related to the corresponding UniProtKB entry.
 
 ## Origin of the data
