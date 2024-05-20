@@ -28,6 +28,9 @@ UniProt activities at SIB have benefited from EC support through the FP6 FELICS 
 
 UniProt activities at PIR have benefited from NIH grants HHSN266200400061C (2004-2009), R01GM080646 (2007-2011), R01GM080646-04S2 (2009-2012), R01GM080646-07S1 (2012), and P20RR016472-09S2 (2009-2011), NSF grants DBI-0138188 (2002-2005) and IIS-0430743 (2004-2007), and UNIDEL Foundation award (2010-2012).
 
+# Data preservation
+UniProt conforms with [EMBL-EBI's long-term data preservation](https://www.ebi.ac.uk/long-term-data-preservation) policies.
+
 # Further information
 
 - [The Universal Protein Resource](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/uniprot_flyer.pdf) printable reference card for the UniProt databases
