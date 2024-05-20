@@ -20,7 +20,7 @@ The data originates from two collaborative projects:
 Human large-scale PTM data has been imported as part of a project from a reanalysed dataset ([PXD012174](https://www.ebi.ac.uk/pride/archive/projects/PXD012174)) combining multiple large-scale phosphoproteomics studies. This project aimed to map the human phosphoproteome from publicly available phosphorylation-enriched MS-based proteomics datasets in the PRIDE database. Data from multiple datasets was reanalysed in tandem and filtered for a confidence of &lt;1% site-based false discovery rate, and a greater than 75% localization probability. The data includes both tissues and cell lines derived from 'healthy' and 'disease' states. For detailed methodology see [The functional landscape of the human phosphoproteome.](https://www.nature.com/articles/s41587-019-0344-3)
 
 *PTMeXchange project:*
-Data for rice and other model organisms originates from large-scale mass-spectrometry (MS) datasets, which have been reanalyzed via the PTMeXchange project. This project facilitates confident identification of PTM sites across multiple datasets. The confidence score reflects the strength of the [evidence](https://www.uniprot.org/help/evidences) for PTMs at that site. For detailed methodology see  [Method for Independent Estimation of the False Localization Rate for Phosphoproteomics](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.1c00827).
+Data for rice and other model organisms originates from large-scale mass-spectrometry (MS) datasets, which have been reanalyzed via the [PTMeXchange project](https://www.proteomexchange.org/ptmexchange). This project facilitates confident identification of PTM sites across multiple datasets. The confidence score reflects the strength of the [evidence](https://www.uniprot.org/help/evidences) for PTMs at that site. For detailed methodology see  [Method for Independent Estimation of the False Localization Rate for Phosphoproteomics](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.1c00827).
 
 ## Evidence
 
@@ -28,7 +28,7 @@ These are proteomics datasets submitted to [PRIDE](https://www.ebi.ac.uk/pride/)
 
 ## Which species is large-scale data available for?
 
-Currently the database contains large-scale PTM data for rice ([Oryza sativa subsp. japonica](https://www.uniprot.org/taxonomy/39947)) and [human](https://www.uniprot.org/taxonomy/9606), with future plans to include data for [Plasmodium falciparum](https://www.uniprot.org/taxonomy/36329), [Arabidopsis thaliana](https://www.uniprot.org/taxonomy/3702) and [mouse](https://www.uniprot.org/taxonomy/10090).
+Currently the database contains large-scale PTM data for rice ([Oryza sativa subsp. japonica](https://www.uniprot.org/taxonomy/39947)), [Plasmodium falciparum](https://www.uniprot.org/taxonomy/36329) and [human](https://www.uniprot.org/taxonomy/9606), with future plans to include data for [Arabidopsis thaliana](https://www.uniprot.org/taxonomy/3702), yeast ([Sacchromyces cerevisiae](https://www.uniprot.org/taxonomy/559292)) and [mouse](https://www.uniprot.org/taxonomy/10090).
 
 # How can I access this data in UniProt?
 

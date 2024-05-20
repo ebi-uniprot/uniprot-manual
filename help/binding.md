@@ -11,8 +11,7 @@ entity. Priority is
 given to the annotation
 of physiological ligands (metals, cofactors, substrates and products of
 enzymes, allosteric regulators, physiological inhibitors/activators,
-ligands of receptors/sensors and transporters/channels, effectors of t
-ranscriptional regulators, chromophores...).
+ligands of receptors/sensors and transporters/channels, effectors of transcriptional regulators, chromophores...).
 
 In this subsection, we primarily annotate data originating from 3D
 structures.

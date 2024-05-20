@@ -36,5 +36,6 @@ A well-defined manual curation process is essential to ensure that all manually 
 -   [Standard operating procedure (SOP) for UniProt manual curation](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf)
 -   [Entry status](https://www.uniprot.org/help/entry_status)
 -   [Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb_sections)
+-   [Video: Inside expert biocuration in UniProtKB/Swiss-Prot](https://www.youtube.com/watch?v=wvrCJtJnDbo)
 
 Related terms: manual annotation, manual curation, reviewed entries
