@@ -6,7 +6,7 @@ categories: UniProtKB,manual
 This tab on some UniProtKB entries displays genomic coordinates information related to the corresponding UniProtKB entry.
 
 ## Data sources
-UniProtKB entries are mainly imported from four sources: INSDC, Ensembl/Ensembl Genome, Reference, and WormBase ParaSite. Genomic coordinates of UniProtKB proteins are imported from the corresponding nucleotide sequences. For Ensembl/Ensembl Genome and WormBase ParaSite databases, we import the genomic coordinates of proteins directly from the respective database. All of the nucleotide sequences from Ensembl/Ensembl Genome and WormBase ParaSite are deposited into INSDC. For UniProtKB entries imported from INSDC CDS, the genomic coordinates of these proteins are from INSDC nucleotide sequences.
+UniProtKB entries are mainly imported from four sources: INSDC, Ensembl/Ensembl Genome, RefSeq, and WormBase ParaSite. Genomic coordinates of UniProtKB proteins are imported from the corresponding nucleotide sequences. For Ensembl/Ensembl Genome and WormBase ParaSite databases, we import the genomic coordinates of proteins directly from the respective database. All of the nucleotide sequences from Ensembl/Ensembl Genome and WormBase ParaSite are deposited into INSDC. For UniProtKB entries imported from INSDC CDS, the genomic coordinates of these proteins are from INSDC nucleotide sequences.
 
 For the UniProtKB entries imported from RefSeq, the genomic coordinates are imported from RefSeq nucleotide sequences.
 
