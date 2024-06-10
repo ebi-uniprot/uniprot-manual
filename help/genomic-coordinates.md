@@ -12,7 +12,7 @@ UniProtKB entries are mainly imported from four sources: INSDC, Ensembl/Ensembl 
 
 For the UniProtKB entries imported from RefSeq, the genomic coordinates are imported from RefSeq nucleotide sequences.
 
-All UniProtKB proteins imported from Ensembl/Ensembl Genome and WormBase ParaSite have genomic coordinates. All UniProtKB proteins imported from RefSeq have genomic coordinates. For UniProtKB proteins imported from INSDC, we have now started to provide the genomic coordinates for reference proteomes.
+All UniProtKB proteins imported from Ensembl/Ensembl Genome and WormBase ParaSite have genomic coordinates. All UniProtKB proteins imported from RefSeq have genomic coordinates. For UniProtKB proteins imported from INSDC, we provide the genomic coordinates for reference proteomes.
 
 This data is available from the genomic coordinates endpoint of the Proteins REST API, which is one of the [programmatic interfaces offered by UniProt](https://www.uniprot.org/help/programmatic_access).
 
