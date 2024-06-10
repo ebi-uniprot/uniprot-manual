@@ -20,4 +20,4 @@ This data is available from the genomic coordinates endpoint of the Proteins RES
 
 The Genomic coordinates tab presents the data described above, grouped by gene, and displays basic information for each gene, such as the chromosome and strand.
 
-For each gene, the isoforms covering it are listed with their corresponding genomic location and number of exons. A table shows shows the coordinates corresponding to the different exons, which isoforms include it, and at which protein coordinate.
+For each gene, the isoforms covering it are listed with their corresponding genomic location and number of exons. A table shows the coordinates corresponding to the different exons, which isoforms include it, and at which protein coordinate.
