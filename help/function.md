@@ -21,9 +21,6 @@ Example: [Q8WVD3](https://www.uniprot.org/uniprotkb/Q8WVD3#function)
 Note that physiological ligands of receptors are cited in this section, and not in the 'Interaction' section.  
 Example: [P29317](https://www.uniprot.org/uniprotkb/P29317#function)
 
--   [Evidence attribution](https://www.uniprot.org/help/evidences)
--   [Evidence on protein existence](https://www.uniprot.org/help/protein_existence)
-
 
 # See also
 
