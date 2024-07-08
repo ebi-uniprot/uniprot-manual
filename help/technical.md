@@ -7,7 +7,7 @@ categories: Technical,Programmatic_access,UniProtKB,Website,help
 [UniProtKB entry view manual](https://www.uniprot.org/help?facets=category:manual)  
 User manual for the UniProtKB entry view.
 
-[UniProtKB flat file manual](https://web.expasy.org/docs/userman.html)  
+[UniProtKB flat file manual](https://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/complete/docs/userman.htm)  
 User manual for the UniProtKB flat file format.
 
 [UniProt XML schemas](https://www.uniprot.org/help/downloads)  
