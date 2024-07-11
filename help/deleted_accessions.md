@@ -10,6 +10,22 @@ Most **UniProtKB/TrEMBL** deletions are due to the deletion of the corresponding
 
 Another frequent deletion reason in UniProtKB/TrEMBL is [proteome redundancy reduction](https://www.uniprot.org/help/proteome_redundancy).
 
+The full list of reasons for deleted accessions can be found here:
+| Reason                                | Code  |
+| ------------------------------------- | ----- |
+| Deleted from sequence source (EMBL)   | `1`   |
+| Deleted from sequence source (TAIR)   | `4`   |
+| Deleted from sequence source (SGD)    | `5`   |
+| Deleted from sequence source (ENSEMBL)| `6`   |
+| Deleted from sequence source (PDB)    | `8`   |
+| Deleted from sequence source (RefSeq) | `11`  |
+| Deleted from Swiss-Prot               | `2`   |
+| Redundant sequence                    | `3`   |
+| Redundant proteome                    | `13`  |
+| Excluded proteome                     | `14`  |
+| Over-represented sequence             | `15`  |
+
+
 Deleted entries in **UniProtKB/Swiss-Prot** are mostly Open Reading Frames (ORFs) or pseudogenes that have been wrongly predicted to code for proteins.
 
 Deleted protein sequences can be found in UniParc. Example: [O00597](https://www.uniprot.org/uniprotkb/O00597) can be found in [UniParc](https://www.uniprot.org/uniparc/UPI000013C29B) (with the tag 'Active=No').
