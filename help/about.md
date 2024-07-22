@@ -3,6 +3,7 @@ title: About UniProt
 type: help
 categories: About_UniProt,Staff,UniProtKB,UniRef,UniParc,help
 ---
+The mission of UniProt is to provide the scientific community with a comprehensive, high-quality and freely accessible resource of protein sequence and functional information.
 
 The Universal Protein Resource (UniProt) is a comprehensive resource for protein sequence and annotation data. The UniProt databases are the [UniProt Knowledgebase (UniProtKB)](https://www.uniprot.org/help/uniprotkb), the [UniProt Reference Clusters (UniRef)](https://www.uniprot.org/help/uniref), and the [UniProt Archive (UniParc)](https://www.uniprot.org/help/uniparc). The UniProt consortium and host institutions EMBL-EBI, SIB and PIR are committed to the long-term preservation of the UniProt databases.
 
