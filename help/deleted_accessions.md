@@ -41,47 +41,47 @@ The full list of reasons for deleted accessions can be found here:
 | [Excluded proteome](deleted_accessions#excluded_proteome)                           |
 | [Over-represented sequence](deleted_accessions#over-represented_sequence)           |
 
-<h3 id="deleted_source_embl">Deleted from sequence source (EMBL)</h3>
+<h2 id="deleted_source_embl">Deleted from sequence source (EMBL)</h2>
 
 The sequence has been deleted from its source, in this case EMBL.
 
-<h3 id="deleted_source_tair">Deleted from sequence source (TAIR)</h3>
+<h2 id="deleted_source_tair">Deleted from sequence source (TAIR)</h2>
 
 The sequence has been deleted from its source, in this case TAIR.
 
-<h3 id="deleted_source_sgd">Deleted from sequence source (SGD)</h3>
+<h2 id="deleted_source_sgd">Deleted from sequence source (SGD)</h2>
 
 The sequence has been deleted from its source, in this case SGD.
 
-<h3 id="deleted_source_ensembl">Deleted from sequence source (ENSEMBL)</h3>
+<h2 id="deleted_source_ensembl">Deleted from sequence source (ENSEMBL)</h2>
 
 The sequence has been deleted from its source, in this case ENSEMBL.
 
-<h3 id="deleted_source_pdb">Deleted from sequence source (PDB)</h3>
+<h2 id="deleted_source_pdb">Deleted from sequence source (PDB)</h2>
 
 The sequence has been deleted from its source, in this case PDB.
 
-<h3 id="deleted_source_refseq">Deleted from sequence source (RefSeq)</h3>
+<h2 id="deleted_source_refseq">Deleted from sequence source (RefSeq)</h2>
 
 The sequence has been deleted from its source, in this case RefSeq.
 
-<h3 id="deleted_swiss-prot">Deleted from Swiss-Prot</h3>
+<h2 id="deleted_swiss-prot">Deleted from Swiss-Prot</h2>
 
 The entry has been deleted from UniProtKB reviewed / Swiss-Prot
 
-<h3 id="redundant_sequence">Redundant sequence</h3>
+<h2 id="redundant_sequence">Redundant sequence</h2>
 
 The entry has been deleted because it's sequence is redundant. Redundant sequences and over-represented sequences mean that we have too many accessions, or instances, of a protein. One example would be COVID-2 proteins. In the case of COVID-2, we have initially created UniProtKB entries for any COVID-2 sequence. This has caused an over-representation, and thus most of the redundant proteins have been deleted.
 
-<h3 id="redundant_proteome">Redundant proteome</h3>
+<h2 id="redundant_proteome">Redundant proteome</h2>
 
 The entry has been deleted because it belongs to a [redundant proteome](https://www.uniprot.org/help/proteome_redundancy_faq).
 
-<h3 id="excluded_proteome">Excluded proteome</h3>
+<h2 id="excluded_proteome">Excluded proteome</h2>
 
 The entry has been deleted because it belongs to an [excluded proteome](https://www.uniprot.org/help/proteome_exclusion_reasons).
 
-<h3 id="over-represented_sequence">Over-represented sequence</h3>
+<h2 id="over-represented_sequence">Over-represented sequence</h2>
 
 The entry has been deleted because its sequence is over-represented. Redundant sequences and over-represented sequences mean that we have too many accessions, or instances, of a protein. One example would be COVID-2 proteins. In the case of COVID-2, we have initially created UniProtKB entries for any COVID-2 sequence. This has caused an over-representation, and thus most of the redundant proteins have been deleted.
 
