@@ -6,20 +6,6 @@ categories: UniProtKB,Entry_information,UniParc,Release,faq
 
 An accession number (AC) is assigned to each protein sequence upon inclusion into UniProtKB. Accession numbers are stable from release to release ([What is the difference between an accession number (AC) and the entry name?](https://www.uniprot.org/help/difference_accession_entryname)). It can however happen that a protein sequence (and its corresponding accession number) is deleted from UniProtKB.
 
-The full list of reasons for deleted accessions can be found here:
-
-| Deletion reason                       |
-| ------------------------------------- |
-| Deleted from sequence source (EMBL)   |
-| Deleted from sequence source (ENSEMBL)|
-| Deleted from sequence source (PDB)    |
-| Deleted from sequence source (RefSeq) |
-| Deleted from Swiss-Prot               |
-| Redundant proteome                    |
-| Excluded proteome                     |
-| Redundant sequence                    |
-| Over-represented sequence             |
-
 Most **UniProtKB/TrEMBL** deletions are due to the deletion of the corresponding coding sequence (CDS) in the source nucleotide sequence databases EMBL-Bank/DDBJ/GenBank as requested by the original submitters, or due to the deletion of the sequence prediction from Ensembl or RefSeq. It occasionally happens that the same data is resubmitted at a later date, and UniProt works closely with EMBL-Bank/DDBJ/GenBank and Ensembl to ensure appropriate tracking of deletions and updates. However this is not always possible. In addition, some protein sequences are recognized by curators to be Open Reading frames (ORFs) that have been wrongly predicted to code for proteins or to be pseudogenes. When there is enough evidence that these hypothetical proteins are not real, we take the decision to remove them from UniProtKB/TrEMBL.
 
 Deleted entries in **UniProtKB/Swiss-Prot** are mostly Open Reading Frames (ORFs) or pseudogenes that have been wrongly predicted to code for proteins.
@@ -36,6 +22,69 @@ Two documents list the deleted accession numbers:
 
 - [delac_sp.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/delac_sp.txt) for deleted ACs in UniProtKB/Swiss-Prot
 - [delac_tr.txt.gz](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/delac_tr.txt.gz) for deleted ACs in UniProtKB/TrEMBL
+
+# Deletion reasons
+
+The full list of reasons for deleted accessions can be found here:
+
+| Deletion reason                                                                     |
+| ----------------------------------------------------------------------------------- |
+| [Deleted from sequence source (EMBL)](deleted_accessions#deleted_source_embl)       |
+| [Deleted from sequence source (TAIR)](deleted_accessions#deleted_source_tair)       |
+| [Deleted from sequence source (SGD)](deleted_accessions#deleted_source_sgd)         |
+| [Deleted from sequence source (ENSEMBL)](deleted_accessions#deleted_source_ensembl) |
+| [Deleted from sequence source (PDB)](deleted_accessions#deleted_source_pdb)         |
+| [Deleted from sequence source (RefSeq)](deleted_accessions#deleted_source_refseq)   |
+| [Deleted from Swiss-Prot](deleted_accessions#deleted_swiss-prot)                    |
+| [Redundant sequence](deleted_accessions#redundant_sequence)                         |
+| [Redundant proteome](deleted_accessions#redundant_proteome)                         |
+| [Excluded proteome](deleted_accessions#excluded_proteome)                           |
+| [Over-represented sequence](deleted_accessions#over-represented_sequence)           |
+
+<h3 id="deleted_source_embl">Deleted from sequence source (EMBL)</h3>
+
+
+
+<h3 id="deleted_source_tair">Deleted from sequence source (TAIR)</h3>
+
+
+
+<h3 id="deleted_source_sgd">Deleted from sequence source (SGD)</h3>
+
+
+
+<h3 id="deleted_source_ensembl">Deleted from sequence source (ENSEMBL)</h3>
+
+
+
+<h3 id="deleted_source_pdb">Deleted from sequence source (PDB)</h3>
+
+
+
+<h3 id="deleted_source_refseq">Deleted from sequence source (RefSeq)</h3>
+
+
+
+<h3 id="deleted_swiss-prot">Deleted from Swiss-Prot</h3>
+
+
+
+<h3 id="redundant_sequence">Redundant sequence</h3>
+
+
+
+<h3 id="redundant_proteome">Redundant proteome</h3>
+
+
+
+<h3 id="excluded_proteome">Excluded proteome</h3>
+
+
+
+<h3 id="over-represented_sequence">Over-represented sequence</h3>
+
+
+
 
 # See also
 
