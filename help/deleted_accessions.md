@@ -59,7 +59,7 @@ The sequence has been deleted from its source, in this case ENSEMBL.
 
 <h2 id="deleted_source_pdb">Deleted from sequence source (PDB)</h2>
 
-The sequence has been deleted from its source, in this case PDB.
+The sequence has been deleted from its source, in this case PDB. You can still view all these [sequences in UniParc](https://www.uniprot.org/uniparc?query=%28database%3APDB%29+NOT+%28active%3APDB%29).
 
 <h2 id="deleted_source_refseq">Deleted from sequence source (RefSeq)</h2>
 
