@@ -62,7 +62,6 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 | ------------ | ----------------- | ---------------- |
 | Allergome    | xref_allergome    | yes              |
 | CAZy         | xref_cazy         | yes              |
-| CLAE         | xref_clae         | no               |
 | ESTHER       | xref_esther       | yes              |
 | IDEAL        | xref_ideal        | no               |
 | IMGT_GENE-DB | xref_imgt_gene-db | no               |
@@ -100,8 +99,6 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 
 | Label               | Returned Field           | Has full version |
 | ------------------- | ------------------------ | ---------------- |
-| COMPLUYEAST-2DPAGE  | xref_compluyeast-2dpage  | no               |
-| DOSAC-COBS-2DPAGE   | xref_dosac-cobs-2dpage   | no               |
 | OGP                 | xref_ogp                 | no               |
 | REPRODUCTION-2DPAGE | xref_reproduction-2dpage | no               |
 | SWISS-2DPAGE        | xref_swiss-2dpage        | no               |
