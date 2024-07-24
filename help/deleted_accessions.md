@@ -75,11 +75,11 @@ The entry has been deleted because it's sequence is redundant. Redundant sequenc
 
 <h2 id="redundant_proteome">Redundant proteome</h2>
 
-The entry has been deleted because it belongs to a [redundant proteome](https://www.uniprot.org/help/proteome_redundancy_faq).
+A [redundant proteome](https://www.uniprot.org/help/proteome_redundancy_faq) is one in which there is another highly available similar proteome for the same species. The proteins from the redundant proteomes have been removed from UniProtKB to manage the size of the database.
 
 <h2 id="excluded_proteome">Excluded proteome</h2>
 
-The entry has been deleted because it belongs to an [excluded proteome](https://www.uniprot.org/help/proteome_exclusion_reasons).
+An excluded proteome is deemed unsuitable to be retained in UniProtKB. Further details can be found at the [excluded proteome help page](https://www.uniprot.org/help/proteome_exclusion_reasons).
 
 <h2 id="over-represented_sequence">Over-represented sequence</h2>
 
