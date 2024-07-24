@@ -4,7 +4,7 @@ type: help
 categories: changes
 ---
 
-The [humsavar.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humsavar.txt) file lists all missense variants annotated in UniProtKB/Swiss-Prot human entries. It provides a variant classification which is intended for research purposes only, not for clinical and diagnostic use. Variants are currently classified into the categories `Disease`, `Polymorphisms` and `Unclassified`. We will rename these categories to follow the terminology recommended by the American College of Medical Genetics and Genomics/Association for Molecular Pathology (ACMG/AMP) (Richards et al. [PubMed:25741868](https://pubmed.ncbi.nlm.nih.gov/25741868/)):
+The [humsavar.txt](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/humsavar.txt) file lists all missense variants annotated in UniProtKB/Swiss-Prot human entries. It provides a variant classification which is intended for research purposes only, not for clinical and diagnostic use. Variants are currently classified into the categories `Disease`, `Polymorphisms` and `Unclassified`. We will rename these categories to follow the terminology recommended by the American College of Medical Genetics and Genomics/Association for Molecular Pathology (ACMG/AMP) (Richards et al. [PubMed:25741868](https://pubmed.ncbi.nlm.nih.gov/25741868/)):
 
 | Old category | New category | Description                     |
 | ------------ | ------------ | ------------------------------- |
