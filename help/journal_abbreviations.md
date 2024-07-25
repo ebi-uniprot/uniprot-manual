@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,Publications,Controlled_vocabulary,faq
 ---
 
-The document [jourlist.txt](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/jourlist.txt) contains this information (and more) for all journals cited in UniProtKB/Swiss-Prot.
+The document [jourlist.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/jourlist.txt) contains this information (and more) for all journals cited in UniProtKB/Swiss-Prot.
 
 The journal abbreviation used in UniProtKB/Swiss-Prot are those proposed by the ISO (International Organization for Standardization) and generally correspond to those used by the National Library of Medicine (NLM) in PubMed.
 

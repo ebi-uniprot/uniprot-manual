@@ -67,7 +67,7 @@ Please note that there may be several proteomes per [taxonomic identifier](https
 
 # How can I download proteomes?
 
-Our [FTP server](https://www.uniprot.org/downloads) allows to download precomputed [data sets for reference proteomes](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/README), based on a gene-centric perspective. For each reference proteome, protein FASTA files (composed of canonical and additional sequences), gene mapping files, Coding DNA Sequence (CDS) FASTA files and database mapping files are available. It may be advisable to prefer an FTP download of these precomputed sets over the HTTP download of query results on the website, because HTTP streams for large datasets tend to fail after a while due to packet loss.
+Our [FTP server](https://www.uniprot.org/downloads) allows to download precomputed [data sets for reference proteomes](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/README), based on a gene-centric perspective. For each reference proteome, protein FASTA files (composed of canonical and additional sequences), gene mapping files, Coding DNA Sequence (CDS) FASTA files and database mapping files are available. It may be advisable to prefer an FTP download of these precomputed sets over the HTTP download of query results on the website, because HTTP streams for large datasets tend to fail after a while due to packet loss.
 
 To download the results of a text search in UniProtKB:
 
