@@ -4,7 +4,7 @@ type: help
 categories: help
 ---
 
-UniProt excludes certain proteomes where the assembly has been excluded from the NCBI Reference Sequence (RefSeq) project for any of the reasons listed below. This list is a subset of the [exclusion reasons used by RefSeq](https://www.ncbi.nlm.nih.gov/assembly/help/anomnotrefseq/).
+UniProt excludes certain [proteomes](https://www.uniprot.org/help/proteome) where the assembly has been excluded from the NCBI Reference Sequence (RefSeq) project for any of the reasons listed below. This list is a subset of the [exclusion reasons used by RefSeq](https://www.ncbi.nlm.nih.gov/assembly/help/anomnotrefseq/).
 
 | Exclusion reason           | Explanation                                                                                                                                                                                                      |
 |:---------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -19,3 +19,12 @@ UniProt excludes certain proteomes where the assembly has been excluded from the
 | genome length too small    | Total non-gapped sequence length of the assembly is less than half that of the average for the genomes in the Assembly resource from the same species, less than 300 Kbp, or is otherwise suspiciously short.    |
 
 The exclusion reason is provided in the proteome page for an excluded proteome, e.g. [UP000004469](https://www.uniprot.org/proteomes/UP000004469).
+Sequences from excluded proteomes remain accessible in [UniParc](https://www.uniprot.org/uniparc).
+
+# See also
+
+- [What are proteomes?](https://www.uniprot.org/help/proteome)
+- [What are reference proteomes?](https://www.uniprot.org/help/reference_proteome)
+- [UniParc](https://www.uniprot.org/help/uniparc)
+- [How to retrieve sets of UniProtKB protein sequences?](https://www.uniprot.org/help/retrieve_sets)
+- [Reducing proteome redundancy](https://www.uniprot.org/help/proteome_redundancy)
