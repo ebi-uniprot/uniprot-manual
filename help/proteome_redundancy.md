@@ -27,3 +27,4 @@ The Proteomes advanced search allows searching within redundant proteomes by sel
 # See also
 
 - [What is a redundant proteome? Can reference proteomes become redundant? Can reviewed entries be deleted because of the proteome redundancy reduction?](https://www.uniprot.org/help/proteome_redundancy_faq)
+- [Reasons to exclude a proteome from UniProtKB](https://www.uniprot.org/help/proteome_exclusion_reasons
