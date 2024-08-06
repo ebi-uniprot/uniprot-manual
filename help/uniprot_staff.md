@@ -96,9 +96,9 @@ Jie Luo
 Juan Sebastian Martinez Martin  
 Monica Pozzato  
 Daniel Rice  
+Vijat Shanker  
 James Stephenson  
 Anastasia Sveshnikova  
 Prabhat Totoo  
-Preethi Vasudev  
 Yuqi Wang  
 Jian Zhang
