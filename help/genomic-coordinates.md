@@ -3,18 +3,12 @@ title: Genomic coordinates tab
 type: help
 categories: UniProtKB,manual
 ---
-This tab on some UniProtKB entries displays genomic coordinates information related to the corresponding UniProtKB entry.
+This tab displays genomic coordinates information for a UniProtKB entry.
 
-## Data sources
-UniProtKB entries are mainly imported from four sources: INSDC, Ensembl/Ensembl Genome, RefSeq, and WormBase ParaSite. Genomic coordinates of UniProtKB proteins are imported from the corresponding nucleotide sequences. For Ensembl/Ensembl Genome and WormBase ParaSite databases, we import the genomic coordinates of proteins directly from the respective database. All of the nucleotide sequences from Ensembl/Ensembl Genome and WormBase ParaSite are deposited into INSDC. For UniProtKB entries imported from INSDC CDS, the genomic coordinates of these proteins are from INSDC nucleotide sequences.
+## Origin of the data
+UniProtKB entries are mainly created from translations of coding sequences (CDS) that are annotated in nucleotide sequence and genome databases. We provide genomic coordinates on the corresponding nucleotide sequences for all UniProtKB entries that have been created based on [Ensembl](http://www.ensembl.org/), [EnsemblGenomes](http://www.ensemblgenomes.org/), [RefSeq](http://www.ncbi.nlm.nih.gov/refseq/) and [WormBase ParaSite (WBParaSite)](http://parasite.wormbase.org/) sequences, and we have started to provide genomic coordinates for reference proteomes imported from the [INSDC](http://www.insdc.org/). Note that some of the reviewed UniProtKB/Swiss-Prot entries that are part of a reference proteome may lack genomic coordinates. This is the case when the protein was either not predicted by a genome annotation pipeline, or when the reviewed sequence differs in some positions from the predicted sequence.
 
-For the UniProtKB entries imported from RefSeq, the genomic coordinates are imported from RefSeq nucleotide sequences.
+This data is also available from the genomic coordinates endpoint of the Proteins REST API which is one of the [programmatic interfaces offered by UniProt](https://www.uniprot.org/help/programmatic_access).
 
-All UniProtKB proteins imported from Ensembl/Ensembl Genome and WormBase ParaSite have genomic coordinates. All UniProtKB proteins imported from RefSeq have genomic coordinates. For UniProtKB proteins imported from INSDC, we provide the genomic coordinates for reference proteomes.
-
-This data is available from the genomic coordinates endpoint of the Proteins REST API, which is one of the [programmatic interfaces offered by UniProt](https://www.uniprot.org/help/programmatic_access).
-
-## Tab sections
-The Genomic coordinates tab presents the data described above, grouped by gene, and displays basic information for each gene, such as the chromosome and strand.
-
-For each gene, the isoforms covering it are listed with their corresponding genomic location and number of exons. A table shows the coordinates corresponding to the different exons, which isoforms include it, and at which protein coordinate.
+## Sections of the tab
+This tab presents the data described above grouped by gene, showing for each gene some basic information like the chromosome and strand. The isoforms for a gene are listed with their corresponding genomic location and the number of exons. A table shows all exon coordinates and in which isoforms each exon can be found.

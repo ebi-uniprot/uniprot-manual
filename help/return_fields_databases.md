@@ -62,7 +62,6 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 | ------------ | ----------------- | ---------------- |
 | Allergome    | xref_allergome    | yes              |
 | CAZy         | xref_cazy         | yes              |
-| CLAE         | xref_clae         | no               |
 | ESTHER       | xref_esther       | yes              |
 | IDEAL        | xref_ideal        | no               |
 | IMGT_GENE-DB | xref_imgt_gene-db | no               |
@@ -100,8 +99,6 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 
 | Label               | Returned Field           | Has full version |
 | ------------------- | ------------------------ | ---------------- |
-| COMPLUYEAST-2DPAGE  | xref_compluyeast-2dpage  | no               |
-| DOSAC-COBS-2DPAGE   | xref_dosac-cobs-2dpage   | no               |
 | OGP                 | xref_ogp                 | no               |
 | REPRODUCTION-2DPAGE | xref_reproduction-2dpage | no               |
 | SWISS-2DPAGE        | xref_swiss-2dpage        | no               |
@@ -113,16 +110,14 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 | Label             | Returned Field         | Has full version |
 | ----------------- | ---------------------- | ---------------- |
 | CPTAC             | xref_cptac             | no               |
-| EPD               | xref_epd               | no               |
-| jPOST             | xref_massive           | no               |
-| MassIVE           | xref_maxqb             | no               |
-| MaxQB             | xref_pride             | no               |
+| jPOST             | xref_jpost             | no               |
+| MassIVE           | xref_massive           | no               |
+| PRIDE             | xref_pride             | no               |
 | PaxDb             | xref_paxdb             | no               |
 | PeptideAtlas      | xref_peptideatlas      | no               |
-| PRIDE             | xref_promex            | no               |
-| ProMEX            | xref_proteomicsdb      | no               |
-| ProteomicsDB      | xref_topdownproteomics | no               |
-| TopDownProteomics | xref_jpost             | no               |
+| ProMEX            | xref_promex            | no               |
+| ProteomicsDB      | xref_proteomicsdb      | no               |
+| TopDownProteomics | xref_topdownproteomics | no               |
 
 ## Protocols and materials
 

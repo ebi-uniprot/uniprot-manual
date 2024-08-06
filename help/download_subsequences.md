@@ -31,7 +31,7 @@ You will then be able to use the [Retrieve/ID mapping](https://www.uniprot.org/i
 
 If you only have a short list of entries, you can also select the domains manually from the entry views by clicking on "Add to basket" at the right hand side of the feature descriptions in the section "Family and domains" of these entries. When you have finished selecting your domains, open the [basket](https://www.uniprot.org/help/basket) and click on "Download".
 
-## Download the sequences of all mature chains or peptides
+## Download the sequences of all mature chains or peptides, e.g. cleavage products in case of viral polyprotein entries
 
 There is no pre-computed database carrying the sequence data for mature chains or peptides.  
-However, for any given query or even for the complete database, you can proceed as described above and download the gff format and when following the subsequent steps, just replace "Domain" by "Chain" and / or "Peptide".
+However, for any given query or even for the complete database, you can proceed as described above and download the gff format and when following the subsequent steps, just replace "Domain" by "Chain" and / or "Peptide", and optionally use product names such as "glycoprotein" in the case of viral polyprotein entries.

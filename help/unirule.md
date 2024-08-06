@@ -6,7 +6,7 @@ categories: Automatic_annotation,Biocuration,UniProtKB,help
 
 UniProt's [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic_annotation) enhances the unreviewed records in UniProtKB by enriching them with automatic classification and annotation.
 
-The Unified Rule (UniRule) system is one of the contributors to this pipeline, and rules are devised and tested by experienced curators using experimental data from manually annotated entries. UniRule has been developed by merging existing manual rule-based systems ([HAMAP](https://hamap.expasy.org/), [PIR name and site rules](https://www.uniprot.org/help/pir_rules), and RuleBase rules) into one system which stores, applies, and evaluates all rules. Although originally developed independently, these rule systems all share a common scientific approach, using the presence of specific protein signatures together with taxonomy to predict the biochemical features and biological role of a protein.
+The Unified Rule (UniRule) system is one of the contributors to this pipeline, and rules are devised and tested by experienced curators using experimental data from manually annotated entries. UniRule has been developed by merging existing manual rule-based systems ([HAMAP](https://hamap.expasy.org/), [PIR name and site rules](https://www.uniprot.org/help/pir_rules), [NCBIfam rules](https://www.uniprot.org/help/ncbifam_rules) and [RuleBase rules](https://www.uniprot.org/help/rulebase_rules)) into one system which stores, applies, and evaluates all rules. Although originally developed independently, these rule systems all share a common scientific approach, using the presence of specific protein signatures together with taxonomy to predict the biochemical features and biological role of a protein.
 
 UniRule rules can annotate protein properties such as the protein name, function, catalytic activity, pathway membership, and subcellular location, along with sequence specific information, such as the positions of post-translational modifications and active sites. All predictions are refreshed with each UniProtKB release to ensure the latest state-of-knowledge predictions.
 
@@ -20,7 +20,7 @@ When you click on the tag, you see a link to the relevant UniRule rule:
 
 ![](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/unirule_evidence_tag_drop.png)
 
-In the example shown above, the UniRule rule comes from RuleBase. UniRule is comprised of several rule systems (HAMAP, PIR name and site rules, and RuleBase rules) and each rule has a unique UniRule ID as well as a source rule ID coming from the system which created the rule.
+In the example shown above, the UniRule rule comes from RuleBase. UniRule is comprised of several rule systems (HAMAP, PIR name and site rules, [NCBIfam](https://www.uniprot.org/help/ncbifam_rules) and [RuleBase](https://www.uniprot.org/help/rulebase_rules) rules) and each rule has a unique UniRule ID as well as a source rule ID coming from the system which created the rule.
 
 # Searching UniRule rules
 
