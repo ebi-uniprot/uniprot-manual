@@ -63,7 +63,7 @@ Shyamala Sundaram
 Nidhi Tyagi  
 C. R. Vinayaka  
 Nadya Urakova  
-Yu Conny  
+Conny Wing-Heng Yu  
 
 # Development
 
@@ -96,7 +96,7 @@ Jie Luo
 Juan Sebastian Martinez Martin  
 Monica Pozzato  
 Daniel Rice  
-Vijat Shanker  
+Vijay Shanker  
 James Stephenson  
 Anastasia Sveshnikova  
 Prabhat Totoo  
