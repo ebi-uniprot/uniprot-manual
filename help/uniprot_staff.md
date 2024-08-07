@@ -90,7 +90,7 @@ Vishal Joshi
 Dushyanth Jyothi  
 Swaathi Kandasaamy  
 Arnaud Kerhornou  
-Aurelien Luciani  
+Aurélien Luciani  
 Supun Wijerathne  
 Jie Luo  
 Juan Sebastian Martinez Martin  
