@@ -14,8 +14,7 @@ categories: Staff,help
 
 [Lionel Breuza](https://www.uniprot.org/help/key_staff#breuza)  
 [Elisabeth Coudert](https://www.uniprot.org/help/key_staff#coudert)  
-[Hongzhan Huang](https://www.uniprot.org/help/key_staff#huang)  
-[Damien Lieberherr](https://www.uniprot.org/help/key_staff#lieberherr)  
+[Hongzhan Huang](https://www.uniprot.org/help/key_staff#huang)   
 [Michele Magrane](https://www.uniprot.org/help/key_staff#magrane)  
 [Maria J. Martin](https://www.uniprot.org/help/key_staff#martin)  
 [Peter McGarvey](https://www.uniprot.org/help/key_staff#mcgarvey)  
@@ -47,6 +46,7 @@ Nadine Gruaz
 Chantal Hulo  
 Nevila Hyka-Nouspikel  
 Florence Jungo  
+Damien Lieberherr
 Minna Lehvaslaiho  
 Kati Laiho  
 Philippe Le Mercier  
