@@ -344,7 +344,7 @@ def check_id_mapping_results_ready(job_id):
         check_response(request)
         j = request.json()
         if "jobStatus" in j:
-            if j["jobStatus"] == "RUNNING":
+            if j["jobStatus"] in ("NEW", "RUNNING"):
                 print(f"Retrying in {POLLING_INTERVAL}s")
                 time.sleep(POLLING_INTERVAL)
             else:
