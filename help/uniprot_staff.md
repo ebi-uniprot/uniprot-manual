@@ -13,8 +13,7 @@ categories: Staff,help
 # Key staff
 
 [Lionel Breuza](https://www.uniprot.org/help/key_staff#breuza)  
-[Elisabeth Coudert](https://www.uniprot.org/help/key_staff#coudert)  
-[Hongzhan Huang](https://www.uniprot.org/help/key_staff#huang)   
+[Elisabeth Coudert](https://www.uniprot.org/help/key_staff#coudert)   
 [Michele Magrane](https://www.uniprot.org/help/key_staff#magrane)  
 [Maria J. Martin](https://www.uniprot.org/help/key_staff#martin)  
 [Peter McGarvey](https://www.uniprot.org/help/key_staff#mcgarvey)  
@@ -25,6 +24,7 @@ categories: Staff,help
 [Nicole Redaschi](https://www.uniprot.org/help/key_staff#redaschi)  
 [Karen Ross](https://www.uniprot.org/help/key_staff#ross)  
 [Rafael Santos](https://www.uniprot.org/help/key_staff#santos)  
+Yuqi Wang
 
 # Content / Curation
 
@@ -73,7 +73,6 @@ Delphine Baratin
 Teresa Batista Neto  
 Jerven Bolleman  
 Chuming Chen  
-Yongxing Chen  
 Beatrice Cuche  
 Edouard De Castro  
 Leonardo de Costa Gonzales  
@@ -82,6 +81,7 @@ Minjoon Kim
 Jun Fan  
 Elisabeth Gasteiger  
 Sebastien Gehant  
+Hongzhan Huang  
 Abdulrahman Hussein  
 Alexandr Ignatchenko  
 Giuseppe Insana  
@@ -100,5 +100,4 @@ Vijay Shanker
 James Stephenson  
 Anastasia Sveshnikova  
 Prabhat Totoo  
-Yuqi Wang  
 Jian Zhang
