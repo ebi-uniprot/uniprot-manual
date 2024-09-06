@@ -38,24 +38,17 @@ The same holds true for [Sequence annotations (Features)](https://www.uniprot.or
 | [Caution](https://www.uniprot.org/help/caution)                                                 | cc_caution                       | Warning about possible errors and/or grounds for confusion                                                  |
 | [Sequence caution](https://www.uniprot.org/help/sequence_caution)                               | cc_sequence_caution              | Warning about possible errors related to the protein sequence                                               |
 
-# Querying Comments
+See also
 
-Individual comments can be queried using the query fields described in the tables above. Querying is of the form:
+[Sequence annotation (Features)](https://www.uniprot.org/help/sequence_annotation)
 
-```bash
-curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=FIELD:VALUE"
-```
+[Advanced Search](https://www.uniprot.org/help/advanced_search)
 
-For example, to find all Human entries with catalyctic activity, we could run the following `curl` command:
+[Programmatic access - retrieving entries via queries](https://www.uniprot.org/help/api_queries)
 
-```bash
-curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=cc_catalytic_activity:* AND organism_id:9606"
-```
+[UniProtKB query fields](https://www.uniprot.org/help/query-fields)
 
-## Comments evidences
 
-For any comment field, a corresponding field exists denoting its attached evidences (for a complete list of evidences, refer to [Evidences](https://www.uniprot.org/help/evidences). Given a comment, `cc_XXXX`, its evidences can be queried via, `ccev_XXXX`. For example, to find Human entries with comment catalytic activity and a non-traceable evidence, we can execute the following command:
 
-```
-curl "https://www.ebi.ac.uk/uniprot/api/uniprotkb/search?query=cc_catalytic_activity:* AND ccev_catalytic_activity:ECO_0000303 AND organism_id:9606"
-```
+
+
