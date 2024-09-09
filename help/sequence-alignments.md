@@ -4,6 +4,8 @@ type: help
 categories: Website,help
 ---
 
+*Note: This article is currently out of date and corresponds to the interface of a previous version of the website*
+
 <a href="https://www.youtube.com/watch?v=IAYFLfPQ0Gs" class="icon icon-generic namespaceIcons">Tutorial/Video</a>
 
 Select the _Align_ tab of the toolbar to align two or more protein sequences with the [Clustal Omega program](http://www.clustal.org/) (cf also this [ClustalO FAQ](https://www.ebi.ac.uk/Tools/msa/clustalo/help/faq.html)):
