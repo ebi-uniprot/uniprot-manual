@@ -38,7 +38,7 @@ The same holds true for [Sequence annotations (Features)](https://www.uniprot.or
 | [Caution](https://www.uniprot.org/help/caution)                                                 | cc_caution                       | Warning about possible errors and/or grounds for confusion                                                  |
 | [Sequence caution](https://www.uniprot.org/help/sequence_caution)                               | cc_sequence_caution              | Warning about possible errors related to the protein sequence                                               |
 
-See also
+# See also
 
 [Sequence annotation (Features)](https://www.uniprot.org/help/sequence_annotation)
 
