@@ -141,3 +141,17 @@ Feature identifiers currently exist for the following annotation topics: Propept
 | **Natural variations**                                                                             |                       |                                                                                                                                  |                                                                                                                                                 |
 | [Alternative sequence](https://www.uniprot.org/help/var_seq)                                       | VSP                   | Any sequence with an ‘Alternative sequence’ feature                                                                              | [P81278](https://www.uniprot.org/uniprotkb/P81278/entry#sequences)                                                                              |
 | [Natural variant](https://www.uniprot.org/help/variant)                                            | VAR                   | Only for protein sequence variants of Hominidae (great apes and humans)                                                          | [P11171](https://www.uniprot.org/uniprotkb/P11171/entry#sequences)                                                                              |
+
+# See also
+
+[General annotation (Comments)](https://www.uniprot.org/help/general_annotation)
+
+[Advanced Search](https://www.uniprot.org/help/advanced_search)
+
+[Programmatic access - retrieving entries via queries](https://www.uniprot.org/help/api_queries)
+
+[UniProtKB query fields](https://www.uniprot.org/help/query-fields)
+
+
+
+
