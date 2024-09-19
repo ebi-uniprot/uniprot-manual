@@ -15,7 +15,7 @@ GO describes biological knowledge with respect to three aspects:
 - Cellular component: location within cells (e.g. nucleus or ribosome).
 
 [A variety of groups](https://geneontology.org/docs/annotation-contributors/), including UniProtKB curators, annotate gene products with GO terms, resulting in consistent and computationally tractable descriptions of gene products across biological databases.  
-Note that many UniProtKB subcellular locations and keywords have been mapped to GO terms to allow an automatic assignment of the corresponding GO terms. While the original UniProtKB [subcellular locations](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/subcell.txt) and [keywords](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist.txt) are curated in UniProtKB/Swiss-Prot, their automatically mapped GO term equivalents will have the evidence type "Inferred from electronic annotation".
+Note that many UniProtKB subcellular locations and keywords have been mapped to GO terms to allow an automatic assignment of the corresponding GO terms. While the original UniProtKB [subcellular locations](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/subcell.txt) and [keywords](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/keywlist.txt) are curated in UniProtKB/Swiss-Prot, their automatically mapped GO term equivalents will have the evidence type "Inferred from electronic annotation".
 
 ## Where to find Gene Ontology annotations in UniProt
 
