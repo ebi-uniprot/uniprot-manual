@@ -8,7 +8,7 @@ This section displays by default the [canonical protein sequence](https://www.un
 
 The protein sequence displayed by default is the protein sequence to which all positional annotation refers. We call it the 'canonical' sequence.
 
-We use the official [IUPAC](http://www.iupac.org/) amino acid one-letter code. For the amino acids selenocysteine (Sec; U) and pyrrolysine (Pyl; O), we follow the proposed nomenclature.
+We use the official [IUPAC](https://iupac.qmul.ac.uk/AminoAcid/AA1n2.html) amino acid one-letter code. For the amino acids selenocysteine (Sec; U) and pyrrolysine (Pyl; O), we follow the proposed nomenclature.
 
 For each isoform, the name of the isoform is provided, as well as its length and molecular mass in Daltons. The mass is calculated on the basis of the amino acid composition of the entire sequence. It does not take into account PTMs, thus excluding any proteolytic processing.
 
