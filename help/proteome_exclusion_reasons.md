@@ -6,6 +6,9 @@ categories: help
 
 UniProt excludes certain [proteomes](https://www.uniprot.org/help/proteome) where the assembly has been excluded from the NCBI Reference Sequence (RefSeq) project for any of the reasons listed below. This list is a subset of the [exclusion reasons used by RefSeq](https://www.ncbi.nlm.nih.gov/assembly/help/anomnotrefseq/).
 
+The exclusion reason is provided in the proteome page for an excluded proteome, e.g. [UP000004469](https://www.uniprot.org/proteomes/UP000004469).
+Sequences from excluded proteomes remain accessible in [UniParc](https://www.uniprot.org/uniparc).
+
 | Exclusion reason           | Explanation                                                                                                                                                                                                      |
 |:---------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | chimeric                   | Sequences from two different organisms are joined together.                                                                                                                                                      |
@@ -18,8 +21,7 @@ UniProt excludes certain [proteomes](https://www.uniprot.org/help/proteome) wher
 | genome length too large    | Total non-gapped sequence length of the assembly is more than 1.5 times that of the average for the genomes in the Assembly resource from the same species, more than 15 Mbp, or is otherwise suspiciously long. |
 | genome length too small    | Total non-gapped sequence length of the assembly is less than half that of the average for the genomes in the Assembly resource from the same species, less than 300 Kbp, or is otherwise suspiciously short.    |
 
-The exclusion reason is provided in the proteome page for an excluded proteome, e.g. [UP000004469](https://www.uniprot.org/proteomes/UP000004469).
-Sequences from excluded proteomes remain accessible in [UniParc](https://www.uniprot.org/uniparc).
+
 
 # See also
 
