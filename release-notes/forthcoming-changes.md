@@ -42,31 +42,27 @@ where {
   ?sequence ?pred ?name .
 }
 ```
-# Upcoming changes in UniProt API for retrieving data from the UniParc dataset
+
+# Changes in UniProt website REST API for UniParc
+
 **On November 27th, 2024**
 
-**Please note that the following changes are NOT for UniProtKB. They only apply to UniParc.**
+UniParc entries may contain ten thousands of cross-references. This information is not relevant for all users and can make data downloads slow. For these reasons we will make the following changes to our API:
 
-In the next release, we will introduce significant changes to the UniParc model to improve scalability of cross-references. Here's an overview of what to expect:
+- **New endpoint for UniParc core data** (sequence and InterPro matches):
+  - `/uniparc/{upi}/light`
 
-- **Splitting of the UniParc Model**: The UniParc model will be divided into two parts: a core (lighter) version of UniParc and its cross-references.
+- **New endpoints for UniParc cross-references**:
+  - `/uniparc/{upi}/databases`
+  - `/uniparc/{upi}/databases/stream`
 
-- **Backward Compatibility**:
-    - The existing API for retrieving a single UniParc entry will remain backward compatible.
-    - The endpoint `/uniparc/{upi}` will continue to return the full UniParc object along with all cross-references.
+- **Changes to existing endpoints**:  
+  The responses of the following endpoints will no longer include cross-references:
+  - `/uniparc/search` (all current search fields will be supported)
+  - `/uniparc/stream`
+  - `/uniparc/upis`
 
-- **New Endpoint for core UniParc Entry**:
-    - If you wish to retrieve a UniParc entry without cross-references, a new endpoint `/uniparc/{upi}/light` will be introduced.
+- **Backward compatibility**:
+  - `/uniparc/{upi}` will continue to return the full UniParc entry, including all cross-references.
 
-- **Changes to APIs**:
-    - The following APIs responses will no longer include cross-references:
-      - `/uniparc/search`
-      - `/uniparc/stream` 
-      - `/uniparc/upis`
-    - To retrieve UniParc core entries, followed by cross-references, you'll need to make two separate calls.
-    - All current search fields will still be supported for querying.
-    - Get all the cross-references for a single UniParc id via:
-      - `/uniparc/{upi}/databases`, or
-      - `/uniparc/{upi}/databases/stream`.
-
-These changes are aimed at optimising performance for large-scale cross-references and ensuring future scalability. Please plan accordingly for when these updates are implemented.
+If you have questions about these changes, please do not hesitate to contact our [our helpdesk](https://www.uniprot.org/contact).
