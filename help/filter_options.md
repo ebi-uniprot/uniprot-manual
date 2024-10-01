@@ -14,15 +14,9 @@ Under the heading **"Popular organisms"**, your query results are broken down by
 
 These organisms are [Human](https://www.uniprot.org/taxonomy/9606), [Mouse](https://www.uniprot.org/taxonomy/10090), [Rat](https://www.uniprot.org/taxonomy/10116), [Cow](https://www.uniprot.org/taxonomy/9913), [Zebrafish](https://www.uniprot.org/taxonomy/7955), [Drosophila](https://www.uniprot.org/taxonomy/7227), [C.elegans](https://www.uniprot.org/taxonomy/6239), [Slime mold](https://www.uniprot.org/taxonomy/44689), [A.thaliana](https://www.uniprot.org/taxonomy/3702), [Rice](https://www.uniprot.org/taxonomy/39947), [E.coli K12](https://www.uniprot.org/taxonomy/83333), [B.subtilis](https://www.uniprot.org/taxonomy/224308), [S.cerevisiae](https://www.uniprot.org/taxonomy/559292).
 
-If less than 5 of these 12 popular organisms are represented in your result, the organism filters are completed to 5 by iterating over the result set and adding the first encountered organisms as filters. These additional filters are labeled with the 5-letter [UniProtKB organism mnemonic](https://www.uniprot.org/help/taxonomy), while the scientific name appears on mouse-over.
+For performance reasons it is currently not possible to provide a **complete** breakdown of query results by organism, since result sets can be huge. A "Group by > Taxonomy" link is available further down the filter panel and provides a similar functionality.
 
-For performance reasons it is currently not possible to provide a **complete** breakdown of query results by organism, since result sets can be huge. A "View by taxonomy" link is available further down the filter panel and provides a similar functionality.
-
-If you are interested in another organism, you can specify its name in the search field under **"Other organisms"**, which supports auto-completion.
-
-# Search term filters
-
-If you have performed a full text search and your search terms can be found in one or more [query fields](https://www.uniprot.org/help/query-fields), you can use the **"Search term"** filters to make your query more specific. This restricts search results to entries which have structured data that exactly matches your term.
+If you are interested in another organism, you can open the advanced search by clicking "Advanced" on the right of the top search bar, and specify its name in a **"Taxonomy [OC]"** search field, which supports auto-completion.
 
 ## Notes
 

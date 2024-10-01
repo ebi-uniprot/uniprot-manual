@@ -13,9 +13,7 @@ categories: Staff,help
 # Key staff
 
 [Lionel Breuza](https://www.uniprot.org/help/key_staff#breuza)  
-[Elisabeth Coudert](https://www.uniprot.org/help/key_staff#coudert)  
-[Hongzhan Huang](https://www.uniprot.org/help/key_staff#huang)  
-[Damien Lieberherr](https://www.uniprot.org/help/key_staff#lieberherr)  
+[Elisabeth Coudert](https://www.uniprot.org/help/key_staff#coudert)   
 [Michele Magrane](https://www.uniprot.org/help/key_staff#magrane)  
 [Maria J. Martin](https://www.uniprot.org/help/key_staff#martin)  
 [Peter McGarvey](https://www.uniprot.org/help/key_staff#mcgarvey)  
@@ -26,6 +24,7 @@ categories: Staff,help
 [Nicole Redaschi](https://www.uniprot.org/help/key_staff#redaschi)  
 [Karen Ross](https://www.uniprot.org/help/key_staff#ross)  
 [Rafael Santos](https://www.uniprot.org/help/key_staff#santos)  
+Yuqi Wang
 
 # Content / Curation
 
@@ -47,6 +46,7 @@ Nadine Gruaz
 Chantal Hulo  
 Nevila Hyka-Nouspikel  
 Florence Jungo  
+Damien Lieberherr
 Minna Lehvaslaiho  
 Kati Laiho  
 Philippe Le Mercier  
@@ -63,7 +63,7 @@ Shyamala Sundaram
 Nidhi Tyagi  
 C. R. Vinayaka  
 Nadya Urakova  
-Yu Conny  
+Conny Wing-Heng Yu  
 
 # Development
 
@@ -73,7 +73,6 @@ Delphine Baratin
 Teresa Batista Neto  
 Jerven Bolleman  
 Chuming Chen  
-Yongxing Chen  
 Beatrice Cuche  
 Edouard De Castro  
 Leonardo de Costa Gonzales  
@@ -82,6 +81,7 @@ Minjoon Kim
 Jun Fan  
 Elisabeth Gasteiger  
 Sebastien Gehant  
+Hongzhan Huang  
 Abdulrahman Hussein  
 Alexandr Ignatchenko  
 Giuseppe Insana  
@@ -90,15 +90,14 @@ Vishal Joshi
 Dushyanth Jyothi  
 Swaathi Kandasaamy  
 Arnaud Kerhornou  
-Aurelien Luciani  
+Aurélien Luciani  
 Supun Wijerathne  
 Jie Luo  
 Juan Sebastian Martinez Martin  
 Monica Pozzato  
 Daniel Rice  
+Vijay Shanker  
 James Stephenson  
 Anastasia Sveshnikova  
 Prabhat Totoo  
-Preethi Vasudev  
-Yuqi Wang  
 Jian Zhang

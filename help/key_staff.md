@@ -12,14 +12,6 @@ Dr. Breuza joined the Swiss-Prot group at the SIB Swiss Institute of Bioinforma
 <u>Head of Transversal Curation (SIB)</u>  
 Dr. Coudert joined the Swiss-Prot group at the SIB Swiss Institute of Bioinformatics in Geneva in 2000 where she worked as a biocurator in the Prokaryotic Protein Annotation Program. In 2008 she became responsible for this program. She is now the leader of a team whose members are involved in various projects including the development of the Rhea, ENZYME, SwissLipids and PROSITE resources, toxin biocuration, and taxonomy data management.
 
-<strong id="huang">Hongzhan Huang, Ph.D.</strong>  
-<u>Team Lead, Bioinformatics (PIR)</u>  
-Dr. Huang joined the Protein Information Resource (PIR) in Washington in 1999 where he worked as senior bioinformatics scientist until his appointment in 2002 as Research Assistant Professor for biochemistry and molecular and cellular biology at the Georgetown University Medical Center (GUMC). In 2009, he was appointed as Research Associate Professor for computer and information sciences at the University of Delaware (UD). Dr. Huang is the bioinformatics team lead at PIR, and in the UniProt project he works on the development of bioinformatics infrastructure.
-
-<strong id="lieberherr">Damien Lieberherr, Ph.D.</strong>  
-<u>Head of Plant Curation (SIB)</u>  
-Dr. Lieberherr joined the Swiss-Prot group at the SIB Swiss Institute of Bioinformatics in Geneva in 2004 where he worked as a Swiss-Prot database biocurator with a focus on plant (Viridiplantae) proteomes. Since 2017 he heads the plant curation program at the SIB, managing a team of biocurators and organizing the curation work of plant proteins.
-
 <strong id="magrane">Michele Magrane, B.Sc. (Hons.)</strong>  
 <u>Curation Coordinator (EMBL-EBI)</u>  
 Michele Magrane joined EMBL-EBI in 1997 as a Swiss-Prot database curator and became Swiss-Prot curation coordinator in 2001. Since 2002, she has held the position of UniProt annotation coordinator within the Protein Function Content team at EMBL-EBI. She manages a team of biocurators who contribute to the expert curation of UniProtKB and is responsible for curator training, quality control and documentation. She was a founding member of the International Society for Biocuration and has served on the Nominating and Award Committees of the society.
