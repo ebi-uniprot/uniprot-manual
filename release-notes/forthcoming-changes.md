@@ -49,23 +49,22 @@ where {
 
 In the next release, we will introduce significant changes to the UniParc model to improve scalability of cross-references. Here's an overview of what to expect:
 
-- **Splitting of the UniParc Model**: The UniParc model will be divided into two parts: a lighter version of UniParc and its cross-references.
+- **Splitting of the UniParc Model**: The UniParc model will be divided into two parts: a core (lighter) version of UniParc and its cross-references.
 
 - **Backward Compatibility**:
     - The existing API for retrieving a single UniParc entry will remain backward compatible.
     - The endpoint `/uniparc/{upi}` will continue to return the full UniParc object along with all cross-references.
 
-- **New Endpoint for Light UniParc Entry**:
+- **New Endpoint for core UniParc Entry**:
     - If you wish to retrieve a UniParc entry without cross-references, a new endpoint `/uniparc/{upi}/light` will be introduced.
 
-- **Changes to Bulk APIs**:
-    - Bulk APIs(`/uniparc/search` or `/uniparc/stream`) responses will no longer include cross-references.
-    - To retrieve UniParc light entries, followed by cross-references, you'll need to make two separate calls.
+- **Changes to APIs**:
+    - The following APIs responses will no longer include cross-references:
+      - `/uniparc/search`
+      - `/uniparc/stream` 
+      - `/uniparc/upis`
+    - To retrieve UniParc core entries, followed by cross-references, you'll need to make two separate calls.
     - All current search fields will still be supported for querying.
-    - **Search API Adjustments**:
-        - The `/uniparc/search` endpoint will return only light UniParc objects without cross-references.
-    - **Streaming and Bulk Endpoints**:
-        - Endpoints like `/uniparc/stream` and `/uniparc/upis` will only return light entries, excluding cross-references.
     - Get all the cross-references for a single UniParc id via:
       - `/uniparc/{upi}/databases`, or
       - `/uniparc/{upi}/databases/stream`.
