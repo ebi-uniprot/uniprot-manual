@@ -65,4 +65,6 @@ UniParc entries may contain ten thousands of cross-references. This information 
 - **Backward compatibility**:
   - `/uniparc/{upi}` will continue to return the full UniParc entry, including all cross-references.
 
+Note: We will adapt the [uniparc.xsd](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/uniparc.xsd) to support the new endpoint for UniParc core data by making the `entry` element's child element `dbReference` optional. The UniParc XML files on our [FTP site](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/xml/all/) will remain unchanged.
+
 If you have questions about these changes, please do not hesitate to contact our [our helpdesk](https://www.uniprot.org/contact).
