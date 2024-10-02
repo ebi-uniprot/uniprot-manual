@@ -58,9 +58,10 @@ UniParc entries may contain ten thousands of cross-references. This information 
 
 - **Changes to existing endpoints**:  
   The responses of the following endpoints will no longer include cross-references:
-  - `/uniparc/search` (all current search fields will be supported)
+  - `/uniparc/search`
   - `/uniparc/stream`
   - `/uniparc/upis`
+- All current search fields will still be supported for querying.
 
 - **Backward compatibility**:
   - `/uniparc/{upi}` will continue to return the full UniParc entry, including all cross-references.
