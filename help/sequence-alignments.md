@@ -1,131 +1,129 @@
 ---
-title: Sequence alignments
+title: Sequence Alignments
 type: help
-categories: Website,help
+categories: Website, Help
 ---
-
----
-title: Sequence alignments
-type: help
-categories: Website,help
----
-
-The Align tool is used to align two or more protein or nucleotide sequences with the [Clustal Omega program](http://www.clustal.org/omega/) using the EBI's [Multiple Sequence Alignment Job Dispatcher](https://www.ebi.ac.uk/jdispatcher/msa/clustalo) ([FAQs](https://www.ebi.ac.uk/jdispatcher/docs/faqs/bioinformatics/))
-
-The Align tool is available from within the website at the following locations:
-
-- Main toolbar
-- [Basket](https://www.uniprot.org/help/basket)
-- UniProtKB and UniParc results pages
-- UniProtKB entry page to align isoforms
-
-# Align job submission form
-
-## Sequences
-
-Sequences can be:
-
-- Prepopulated eg from basket
-- UniProt identifiers
-- FASTA text input
-- FASTA file upload
-
-The following kinds of UniProt identifiers are supported:
-
-|                      |                                  |
-| :------------------- | :------------------------------- |
-| **P00750**           | UniProtKB entry                  |
-| **P00750-2**         | UniProtKB entry isoform sequence |
-| **A4_HUMAN**         | UniProtKB entry name             |
-| **UPI0000000001**    | UniParc entry                    |
-| **UniRef100_P00750** | UniRef entry                     |
-
-To limit the range within a sequence, append the range in square brackets to the identifier. For example, P00750\[1-10\] represents the first ten amino acids of P00750.
-
-## Number of sequneces per job
-
-|         | Number of sequences |
-| :------ | :------------------ |
-| Minimum | 2                   |
-| Maximum | 50                  |
-
-## Job name
-
-The job name will be pre-populated based on the provided sequences but if desired it can be set to a specific value of your choosing.
-
-## Advanced parameters
-
-|                       |                                                                           |
-| :-------------------- | :------------------------------------------------------------------------ |
-| Output sequence order | Determines the order in which the sequences appear in the final alignment |
-| Iterations            | Number of (combined guide-tree/HMM) iterations.                           |
-
-# Align results
-
-Upon submission the job will appear in the [tool results](https://www.uniprot.org/tool-dashboard). Once complete the final result page has multiple tabs described below.
 
 ## Overview
 
-This view shows a colored version of the alignment and allows to download in Clustal format. An alignment will display the following symbols denoting the degree of conservation observed in each column:
+The **Align Tool** in aligns multiple protein or nucleotide sequences using the [Clustal Omega program](http://www.clustal.org/omega/). This tool uses the EBI's [Multiple Sequence Alignment Job Dispatcher](https://www.ebi.ac.uk/jdispatcher/msa/clustalo).
 
-- An \* (asterisk) indicates positions which have a single, fully conserved residue.
-- A : (colon) indicates conservation between groups of strongly similar properties - scoring &gt; 0.5 in the Gonnet PAM 250 matrix.
-- A. (period) indicates conservation between groups of weakly similar properties - scoring =&lt; 0.5 in the Gonnet PAM 250 matrix.
+### Where to Find the Align Tool
 
-'Amino acid properties' and 'Annotation' highlighting options are available on the left column. This allows to highlight key regions in the sequence alignment.
+You can access the **Align** tool directly from various sections of the UniProt website:
 
-## Trees
+- **Main toolbar**: Easily accessible from the top navigation.
+- **[Basket](https://www.uniprot.org/help/basket)**: Align multiple sequences stored in your basket.
+- **UniProtKB and UniParc results pages**: Align directly from search results.
+- **UniProtKB entry page**: Align isoforms of a specific protein entry.
 
-This view visualizes the evolutionary relationships between the sequences in the alignment. It displays a phylogenetic tree, which helps to understand how closely related different sequences are, based on the alignment results.
+## Job Submission Form
 
-Key Features:
+### Input Sequences
 
-1. Branches: The lines that connect the nodes, representing the evolutionary distance between sequences.
-2. Nodes: The points where branches meet. They represent the common ancestors of sequences.
-3. Leaf Nodes: The outermost nodes, each representing one of the aligned sequences.
-4. Distances: The lengths of the branches reflect how similar or divergent the sequences are. Shorter branches indicate closer relationships, while longer branches suggest more distant relationships.
+You can submit sequences in multiple ways:
 
-### Tree type
+- **Prepopulated** eg from selections made in your basket.
+- **UniProt identifiers** entered manually.
+- **FASTA text input**: Paste your sequence in FASTA format.
+- **FASTA file upload**: Upload a file containing the sequences to align.
 
-- Phylogenetic Tree: Shows evolutionary relationships between sequences, illustrating how sequences have diverged from a common ancestor.
-- Guide Tree: Used to display the order of sequence alignments during progressive multiple sequence alignment, rather than showing evolutionary distances.
+Supported UniProt identifiers include:
 
-### Layout
+| **Identifier**         | **Description**                       |
+|------------------------|---------------------------------------|
+| **P00750**             | UniProtKB entry                       |
+| **P00750-2**           | UniProtKB entry isoform sequence      |
+| **A4_HUMAN**           | UniProtKB entry name                  |
+| **UPI0000000001**      | UniParc entry                         |
+| **UniRef100_P00750**   | UniRef entry                          |
 
-- Horizontal: the tree is displayed with branches extending horizontally from left to right. This is the default layout used in many evolutionary studies as it allows for a more straightforward interpretation of sequence relationships.
-- Circular: the tree is displayed as a circle with branches radiating out from a central point. This layout can make it easier to visualize relationships between many sequences.
+To specify a range within a sequence, append the desired range in square brackets (e.g., `P00750[1-10]` for the first ten amino acids).
 
-### Branch length
+### Number of Sequences Per Job
 
-| **Branch Length Option**          | **Definition**                                                                      | **Use Case**                                                                         |
-| --------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| **Phylogram with Aligned Labels** | Branch lengths represent evolutionary distance, with labels aligned for comparison. | Best for comparing evolutionary relationships and branch lengths clearly.            |
-| **Phylogram**                     | Branch lengths are proportional to evolutionary distances between sequences.        | Ideal for analyzing evolutionary distance in detail.                                 |
-| **Cladogram**                     | Only shows relationships without considering branch lengths.                        | Suitable for focusing on the order of divergence rather than evolutionary distances. |
+| **Minimum** | **Maximum** |
+|-------------|-------------|
+| 2           | 50          |
 
-## Percent Identify Matrix
+### Job Name
 
-The Percent Identity Matrix provides a quantitative measure of how similar two or more sequences are in a multiple sequence alignment. Specifically, it calculates the percentage of identical amino acids or nucleotides at corresponding positions between each pair of sequences in the alignment.
+By default, the job name is auto-generated based on the submitted sequences, but you can set a custom name if needed.
 
-For example:
+### Advanced Parameters
 
-- If two sequences have 80% identity, it means that 80% of their positions contain the same amino acid or nucleotide.
-- The matrix itself is a table where the rows and columns represent the aligned sequences, and the cells contain the percent identity values between the corresponding sequences.
+| **Option**               | **Description**                                                         |
+|--------------------------|-------------------------------------------------------------------------|
+| **Output Sequence Order** | Controls the order in which sequences appear in the alignment results.  |
+| **Iterations**            | Specifies the number of guide-tree/HMM iterations during alignment.     |
 
-This matrix is useful for understanding how closely related the aligned sequences are, which can give insights into evolutionary relationships or functional similarities between proteins.
+## Alignment Results
 
-## Text Output
+After job submission, the results are accessible from the [Tool Results Dashboard](https://www.uniprot.org/tool-dashboard). Each result page provides multiple views and options for further analysis.
 
-The raw text output of the CLUSTAL Omega multiple sequence alignment program.
+### Overview Tab
 
-## Input Parameters
+The **Overview** shows a color-coded alignment and offers download options in Clustal format. The alignment uses the following symbols to indicate conservation:
 
-The input parameters for the submitted job.
+- `*` : Fully conserved residues.
+- `:` : Conservation between groups of strongly similar properties (Gonnet PAM 250 score > 0.5).
+- `.` : Conservation between groups of weakly similar properties (Gonnet PAM 250 score ≤ 0.5).
 
-## API Request
+Amino acid property highlighting and sequence annotations are selectable for the sequence alignment.
 
-The API request inlcuding all of the input parameters that was sent to the Job Dispatcher API.
+### Trees Tab
 
-# Related services
+The **Trees** tab visualizes the evolutionary relationships between the aligned sequences using a phylogenetic tree.
 
-<table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><p><strong><a href="http://pir.georgetown.edu/pirwww/search/multaln.html">ClustalW</a> (PIR)</strong></p><p>Multiple sequence alignment</p></td></tr><tr class="even"><td><p><strong><a href="https://www.ebi.ac.uk/clustalw/index.html">ClustalW</a> (EBI)</strong></p><p>Multiple sequence alignment</p></td></tr><tr class="odd"><td><p><strong><a href="http://pir.georgetown.edu/pirwww/search/pairwise.html">SSEARCH</a> (PIR)</strong></p><p>Align two sequences using the Smith-Waterman algorithm</p></td></tr></tbody></table>
+#### Key Features
+
+1. **Branches**: Represent evolutionary distances between sequences.
+2. **Nodes**: Represent common ancestors shared by sequences.
+3. **Leaf Nodes**: Each represents one aligned sequence.
+4. **Branch Lengths**: Reflect the evolutionary divergence, with shorter branches indicating closer relationships.
+
+#### Tree Types
+
+- **Phylogenetic Tree**: Illustrates the evolutionary relationships, showing how sequences have diverged from common ancestors.
+- **Guide Tree**: Shows the order of sequence alignment used during progressive multiple sequence alignment, not evolutionary distances.
+
+#### Layout Options
+
+- **Horizontal**: A standard layout with branches extending horizontally, making the relationships easy to follow.
+- **Circular**: A radial layout where branches radiate from a central point, often used for visualizing large datasets.
+
+#### Branch Length Options
+
+| **Option**                   | **Description**                                                                     | **Best Used For**                                                   |
+|------------------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| **Phylogram with Aligned Labels** | Branch lengths represent evolutionary distance, with aligned labels for easy comparison. | Best for clear visual comparison of evolutionary distances.         |
+| **Phylogram**                 | Branch lengths are proportional to evolutionary divergence.                        | Ideal for detailed analysis of evolutionary distances between sequences. |
+| **Cladogram**                 | Shows sequence relationships without displaying branch lengths.                    | Useful when focusing on the order of divergence, not evolutionary distance. |
+
+### Percent Identity Matrix
+
+The **Percent Identity Matrix** provides a quantitative measure of sequence similarity. It compares amino acid or nucleotide identities between each pair of aligned sequences and shows the percentage of identical positions.
+
+For example, if two sequences have 80% identity, 80% of their amino acids or nucleotides are identical at corresponding positions. The matrix is useful for assessing the level of similarity and can provide insights into evolutionary or functional relationships.
+
+### Text Output
+
+This section provides the raw text output generated by the Clustal Omega alignment tool, suitable for further analysis.
+
+### Input Parameters
+
+Displays the exact parameters that were used during the alignment job submission.
+
+### API Request
+
+Shows the full API request submitted to the Job Dispatcher API, including input parameters.
+
+## Related Services
+
+UniProt offers several related services for multiple sequence alignments and pairwise comparisons:
+
+| **Service**                                  | **Description**                                      |
+|----------------------------------------------|------------------------------------------------------|
+| [ClustalW (PIR)](http://pir.georgetown.edu/pirwww/search/multaln.html) | Multiple sequence alignment at PIR.                   |
+| [ClustalW (EBI)](https://www.ebi.ac.uk/clustalw/index.html)            | Multiple sequence alignment at EBI.                   |
+| [SSEARCH (PIR)](http://pir.georgetown.edu/pirwww/search/pairwise.html) | Pairwise sequence alignment using the Smith-Waterman algorithm. |
