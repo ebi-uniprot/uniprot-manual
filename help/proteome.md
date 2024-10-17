@@ -10,7 +10,7 @@ UniProt provides [proteome](https://www.uniprot.org/proteomes) sets of proteins 
 
 A proteome is the set of proteins thought to be expressed by an organism. The majority of the UniProt proteomes are based on the translation of a completely sequenced genome, and will normally include sequences that derive from extra-chromosomal elements such as plasmids or organellar genomes in organisms where these occur. Some proteomes may also include protein sequences based on high quality cDNAs that cannot be mapped to the current genome assembly due to sequencing errors or gaps. These are only included in the proteome following manual review of the supporting evidence, including careful analysis of homologous sequences from closely related organisms.
 
-As more and more genomes of the same organism are being sequenced, we introduced [unique proteome identifiers](https://www.uniprot.org/help/proteome_id) to distinguish individual proteomes from the same [taxonomy identifier](https://www.uniprot.org/help/taxonomic_identifier).
+As more and more genomes of the same organism are being sequenced, we introduced [unique proteome identifier](https://www.uniprot.org/help/proteome_id) to distinguish individual proteomes from the same [taxonomy identifier](https://www.uniprot.org/help/taxonomic_identifier).
 
 # What is the curation status of UniProt proteomes?
 
@@ -20,7 +20,7 @@ UniProt proteomes may include both manually reviewed (UniProtKB/Swiss-Prot) and 
 
 The majority of UniProt proteomes are based on translations of genome sequence submissions to the International Nucleotide Sequence Database Consortium ([INSDC](http://www.insdc.org/)).
 
-Complementary pipelines for import of protein sequences have been developed in collaboration with [Ensembl](http://www.ensembl.org/) for vertebrate species, [Ensembl Genomes](http://ensemblgenomes.org/) for non-vertebrate species, [WormBase ParaSite](http://parasite.wormbase.org/) for parasitic nematodes and [VectorBase](https://www.vectorbase.org/) for pathogen vector genomes. In addition, a new pipeline imports selected non-redundant genomes annotated by NCBI [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/). These sources provide proteome sequences for a number of key genomes of special interest where the INSDC submission is lacking gene model annotation. Both INSDC and non-INSDC derived proteomes link back to the source via the assembly and annotation sections respectively.
+Complementary pipelines for import of protein sequences have been developed in collaboration with [Ensembl](http://www.ensembl.org/) for vertebrate species, [Ensembl Genomes](http://ensemblgenomes.org/) for non-vertebrate species, [WormBase ParaSite](http://parasite.wormbase.org/) for parasitic nematodes and [VectorBase](https://www.vectorbase.org/) for pathogen vector genomes. In addition, a pipeline imports selected non-redundant genomes annotated by NCBI [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/). These sources provide proteome sequences for a number of key genomes of special interest where the INSDC submission is lacking gene model annotation. Both INSDC and non-INSDC derived proteomes link back to the source via the assembly and annotation sections respectively.
 
 As the above-mentioned pipelines cover organisms for which we already have some sequences in UniProtKB, these existing sequences have to be reconciled with those imported. The procedure works in the following way:
 
@@ -43,7 +43,7 @@ To date these pipelines have been used to populate UniProtKB with additional seq
 The [Proteomes portal](https://www.uniprot.org/proteomes/) offers protein sequence sets obtained from the translation of completely sequenced genomes. Published genomes from [NCBI Genome](https://www.ncbi.nlm.nih.gov/genome) are brought into UniProt if they satisfy the following criteria:
 
 - The genome is annotated and a set of coding sequences is available.
-- The number of predicted coding sequences falls within a statistically significant range of published proteomes from neighbouring species.
+- The proteome associated with the genome has not been excluded, before the import of the proteome. See list of exclusions [here](https://www.uniprot.org/help/proteome_exclusion_reasons).
 
 All proteomes generated in this manner go through our [Proteomes redundancy reduction pipeline](https://www.uniprot.org/help/proteome_redundancy).
 
