@@ -10,7 +10,7 @@ UniProt provides [proteome](https://www.uniprot.org/proteomes) sets of proteins 
 
 A proteome is the set of proteins thought to be expressed by an organism. The majority of the UniProt proteomes are based on the translation of a completely sequenced genome, and will normally include sequences that derive from extra-chromosomal elements such as plasmids or organellar genomes in organisms where these occur. Some proteomes may also include protein sequences based on high quality cDNAs that cannot be mapped to the current genome assembly due to sequencing errors or gaps. These are only included in the proteome following manual review of the supporting evidence, including careful analysis of homologous sequences from closely related organisms.
 
-As more and more genomes of the same organism are being sequenced, we introduced [unique proteome identifier](https://www.uniprot.org/help/proteome_id) to distinguish individual proteomes from the same [taxonomy identifier](https://www.uniprot.org/help/taxonomic_identifier).
+As more and more genomes of the same organism are being sequenced, we introduced [unique proteome identifiers](https://www.uniprot.org/help/proteome_id) to distinguish individual proteomes from the same [taxonomy identifier](https://www.uniprot.org/help/taxonomic_identifier).
 
 # What is the curation status of UniProt proteomes?
 
@@ -43,7 +43,7 @@ To date these pipelines have been used to populate UniProtKB with additional seq
 The [Proteomes portal](https://www.uniprot.org/proteomes/) offers protein sequence sets obtained from the translation of completely sequenced genomes. Published genomes from [NCBI Genome](https://www.ncbi.nlm.nih.gov/genome) are brought into UniProt if they satisfy the following criteria:
 
 - The genome is annotated and a set of coding sequences is available.
-- The proteome associated with the genome has not been excluded, before the import of the proteome. See list of exclusions [here](https://www.uniprot.org/help/proteome_exclusion_reasons).
+- The genome has not been excluded for one of the reasons documented [here](https://www.uniprot.org/help/proteome_exclusion_reasons).
 
 All proteomes generated in this manner go through our [Proteomes redundancy reduction pipeline](https://www.uniprot.org/help/proteome_redundancy).
 
