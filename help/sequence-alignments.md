@@ -65,8 +65,10 @@ After job submission, the results are accessible from the [Tool Results Dashboar
 
 ### Overview Tab
 
-The **Overview** shows a color-coded alignment and offers download options in Clustal format. 
-Amino acid property highlighting and sequence annotations are selectable for the sequence alignment.
+The **Overview** shows a color-coded alignment and offers download options in Clustal format. Amino acid property highlighting and sequence annotations are selectable for the sequence alignment. Within this tab there are two different ways to view the alignment:
+
+1. **Continuous**: Shows the alignment as one continuous sequence. It is possible to zoom in to the amino acid letter level or zoom out to view the whole alignment at once. This is achieved by dragging the sides of the navigation track. Upon first switching to the Continuous mode the track will zoom into the level at which the amino acid letters are visible.
+2. **Wrapped**: (default) Shows the alignment displayed vertically by breaking the sequence into consecutive chunks.
 
 ### Trees Tab
 
