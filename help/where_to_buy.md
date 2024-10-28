@@ -12,8 +12,7 @@ For certain entries, the UniProtKB database provides annotation which may be of 
 
 1. UniProtKB has cross-references to some [Protocols and materials databases](https://www.uniprot.org/database?facets=category_exact%3AProtocols+and+materials+databases&query=*) including a number of antibody providers.
    
-    You could therefore look for your protein in UniProtKB and check whether there are cross-references to ABCD, CPTC Antibody Portal
-or Antibodypedia, under "External links", Protocols and materials databases. 
+    You could therefore look for your protein in UniProtKB and check whether there are cross-references to ABCD, CPTC Antibody Portal or Antibodypedia, under "External links", Protocols and materials databases. 
 
 2. Certain entries have a [Biotechnological use](https://www.uniprot.org/help/biotechnological_use) subsection which describes the use of a specific protein in a biotechnological process. It explains in a few words in which biotechnological process the protein is used or could be used with an explanation that describes the commercial use of the protein.
    
@@ -27,7 +26,7 @@ or Antibodypedia, under "External links", Protocols and materials databases.
     [List of entries with 'Pharmaceutical use' subsection](https://www.uniprot.org/uniprotkb?query=%28cc_pharmaceutical%3A%2A%29)
 
  
-[`'Restriction system'` : keyword definition](https://www.uniprot.org/keywords/680) and [related list of entries](https://www.uniprot.org/uniprotkb?query=(keyword:KW-0680))
+[`'Restriction system'` : keyword definition](https://www.uniprot.org/keywords/KW-0680) and [related list of entries](https://www.uniprot.org/uniprotkb?query=(keyword:KW-0680))
 
 [List of entries with a cross-reference to the REBASE database](https://www.uniprot.org/uniprotkb?query=database%3Arebase)
 
