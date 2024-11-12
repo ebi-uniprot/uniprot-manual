@@ -6,7 +6,7 @@ categories: Website, Help
 
 ## Overview
 
-The **Align Tool** in aligns multiple protein or nucleotide sequences using the [Clustal Omega program](http://www.clustal.org/omega/). This tool uses the EBI's [Multiple Sequence Alignment Job Dispatcher](https://www.ebi.ac.uk/jdispatcher/msa/clustalo).
+The **Align Tool** aligns multiple protein or nucleotide sequences using the [Clustal Omega program](http://www.clustal.org/omega/). This tool uses the EBI's [Multiple Sequence Alignment Job Dispatcher](https://www.ebi.ac.uk/jdispatcher/msa/clustalo).
 
 ### Where to Find the Align Tool
 
