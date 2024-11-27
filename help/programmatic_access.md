@@ -10,7 +10,8 @@ UniProt provides several application programming interfaces (APIs) to query and 
 
 **What:** RESTful URLs that can be bookmarked, linked and used in programs for all entries, queries and tools available through this website. Data is available in all formats provided on the website, e.g. text, XML, RDF, FASTA, GFF, tab-separated for UniProtKB protein data.  
 **Why:** Access data and tools from the UniProt website with any programming language.  
-**Documentation:** [https://www.uniprot.org/help/api](https://www.uniprot.org/help/api)
+**Help articles:** [https://www.uniprot.org/help/api](https://www.uniprot.org/help/api)  
+**Swagger documentation:** [https://www.uniprot.org/api-documentation/](https://www.uniprot.org/api-documentation)  
 
 # Proteins REST API
 

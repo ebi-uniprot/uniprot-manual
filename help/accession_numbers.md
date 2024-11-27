@@ -29,13 +29,13 @@ Entries can have more than one accession number. This can be due to two distinct
 
 Example: [P29358](https://www.uniprot.org/uniprotkb/P29358) which has been 'demerged' into [P68250](https://www.uniprot.org/uniprotkb/P68250) and [P68251](https://www.uniprot.org/uniprotkb/P68251).
 
-An accession number is only deleted when the entry to which it was assigned has been removed from UniProtKB. The list of deleted accession numbers is stored in the document files [delac\_sp.txt](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/delac_sp.txt) (for the Swiss-Prot section) and [delac\_tr.txt.gz](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/delac_tr.txt.gz) (for the TrEMBL section)
+An accession number is only deleted when the entry to which it was assigned has been removed from UniProtKB. The list of deleted accession numbers is stored in the document files [delac\_sp.txt](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/delac_sp.txt) (for the Swiss-Prot section) and [delac\_tr.txt.gz](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/delac_tr.txt.gz) (for the TrEMBL section)
 
 We remind users that they should always use the primary accession number of an entry in any citation and link since it is the only unique stable identifier for an entry.
 
 # Related documents
 
-[Index of UniProtKB secondary accession numbers](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/sec_ac.txt)
+[Index of UniProtKB secondary accession numbers](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/sec_ac.txt)
 
 [What is the difference between an accession number (AC) and the entry name?](https://www.uniprot.org/help/difference_accession_entryname)
 
