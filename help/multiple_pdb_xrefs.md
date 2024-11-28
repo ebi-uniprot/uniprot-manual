@@ -13,7 +13,7 @@ Thrombin structures differ for a number of reasons:
 2) some structures apply to the apoprotein while some others apply to the Thrombin complexed with various ligands,
 3) different structures cover different chains, and different sequence ranges.
 
-The following structures are Thrombin complexed with 4 different inhibitors: 1A2C, 1A3B, 1A3E, 1A46. What is more, scientists have also studied the 3D structures of various mutants.
+The following structures represent Thrombin complexed with 4 different inhibitors: [1A2C](https://www.rcsb.org/structure/1A2C), [1A3B](https://www.rcsb.org/structure/1A3B), [1A3E](https://www.rcsb.org/structure/1A3E), [1A46](https://www.rcsb.org/structure/1A46). What is more, scientists have also studied the 3D structures of various mutants.
 
 3D structures convey important experimental evidence on a protein: its secondary structure, how it is folded, which parts of the polypeptide chain are available for interactions with other proteins, which residues are directly involved in the catalytic activity, in metal-binding, etc.
 
