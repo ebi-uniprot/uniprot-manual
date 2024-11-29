@@ -10,7 +10,7 @@ Pan proteomes provide a representative set of all the sequences within a taxonom
 
 When a proteome has proteins that are part of a larger pan proteome, you will see it indicated on the proteome page in the 'Pan proteome' row. You will also see a link to download the full fasta sequence set, e.g. [Bacillus subtilis 168](https://www.uniprot.org/proteomes/UP000001570).
 
-Pan proteome sets can be downloaded from the UniProt FTP site through the [Pan proteomes](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/) subdirectory.
+Pan proteome sets can be downloaded from the UniProt FTP site through the [Pan proteomes](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/) subdirectory.
 
 # See also
 
