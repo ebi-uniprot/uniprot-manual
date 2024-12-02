@@ -20,14 +20,14 @@ Coudert E, Gehant S, de Castro E, Pozzato M, Baratin D, Neto T,  Sigrist C J A, 
 [Bioinformatics 39:btac793(2023)](https://doi.org/10.1093/bioinformatics/btac793)
 
 The UniProt Consortium  
-**UniProt: the universal protein knowledgebase in 2023**  
+**UniProt: the Universal Protein Knowledgebase in 2023**  
 [Nucleic Acids Res. 51:D523–D531 (2023)](https://doi.org/10.1093/nar/gkac1052)
 
 
 ## 2021
 
 The UniProt Consortium  
-**UniProt: the universal protein knowledgebase in 2021**  
+**UniProt: the Universal Protein Knowledgebase in 2021**  
 [Nucleic Acids Res. 49:D480–D489(2021)](https://doi.org/10.1093/nar/gkaa1100)
 
 Wang Y, Wang Q, Huang H, Huang W, Chen Y, McGarvey PB, Wu CH, Arighi CN, UniProt Consortium.  
