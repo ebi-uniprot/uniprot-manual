@@ -9,8 +9,8 @@ categories: About_UniProt,Publications,help
 If you find UniProt useful, please consider citing our latest publication:
 
 The UniProt Consortium  
-**UniProt: the Universal Protein Knowledgebase in 2023**   
-[Nucleic Acids Res. 51:D523–D531 (2023)](https://doi.org/10.1093/nar/gkac1052)
+**UniProt: the Universal Protein Knowledgebase in 2025**   
+[Nucleic Acids Res. 53:D0-D0 (2025)](https://doi.org/10.1093/nar/gkae1010)
 
 ...or choose the publication that best covers the UniProt aspects or components you used in your work:
 
@@ -18,6 +18,11 @@ The UniProt Consortium
 Coudert E, Gehant S, de Castro E, Pozzato M, Baratin D, Neto T,  Sigrist C J A, Redaschi N, Bridge A, UniProt Consortium.  
 **Annotation of biologically relevant ligands in UniProtKB using ChEBI**  
 [Bioinformatics 39:btac793(2023)](https://doi.org/10.1093/bioinformatics/btac793)
+
+The UniProt Consortium  
+**UniProt: the universal protein knowledgebase in 2023**  
+[Nucleic Acids Res. 51:D523–D531 (2023)](https://doi.org/10.1093/nar/gkac1052)
+
 
 ## 2021
 
