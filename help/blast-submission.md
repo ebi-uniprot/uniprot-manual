@@ -12,7 +12,7 @@ BLAST uses a heuristic approach, which makes it faster than traditional alignmen
 
 BLAST then assigns a score to each match and calculates an E-value to indicate the likelihood of finding that match by chance. A lower E-value suggests a more significant match.
 
-BLAST tool search results are saved in your [tools dashboard](https://www.uniprot.org/tool-dashboard) for a maximum of 7 days. Even, after 7 days the job can be resubmitted from the tools dashboard with the same parameters.
+BLAST tool search results are saved in your [tools dashboard](https://www.uniprot.org/tool-dashboard) for a maximum of 7 days. Even after 7 days the job can be resubmitted from the tools dashboard with the same parameters.
 
 ## Where to Find the BLAST Tool
 
