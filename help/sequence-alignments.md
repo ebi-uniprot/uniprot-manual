@@ -1,7 +1,7 @@
 ---
 title: Sequence Alignments
 type: help
-categories: Website, Help
+categories: Website,help
 ---
 
 ## Overview

@@ -1,7 +1,7 @@
 ---
 title: BLAST Submissions
 type: help
-categories: Website, Help
+categories: Website,help
 ---
 
 ## Overview
