@@ -58,14 +58,13 @@ Target Database Descriptions
 
 | **Option**             | **Description**                       |
 |------------------------|---------------------------------------|
-| **UniProtKB reference proteomes + Swiss-Prot**             | This option is the default selection for BLAST searches.
+| **UniProtKB reference proteomes + Swiss-Prot** | This option is the default selection for BLAST searches. <br>
 
-[Swiss-Prot](https://www.uniprot.org/help/uniprotkb) includes manually reviewed protein sequences with high-quality annotations. Swiss-Prot gives the most reliable and well-annotated entries, this is useful if you’re looking for functional information, conserved domains, or known characterized protein families.
+[Swiss-Prot](https://www.uniprot.org/help/uniprotkb) includes manually reviewed protein sequences with high-quality annotations. Swiss-Prot gives the most reliable and well-annotated entries, this is useful if you’re looking for functional information, conserved domains, or known characterized protein families. <br>
 
-[Reference proteomes](https://www.uniprot.org/help/reference_proteome) are high-quality, representative sets of protein sequences selected to represent the proteomes of species across the tree of life. These reference proteomes are designed to serve as benchmarks for comparative genomics, evolutionary studies, and functional annotation.
+[Reference proteomes](https://www.uniprot.org/help/reference_proteome) are high-quality, representative sets of protein sequences selected to represent the proteomes of species across the tree of life. These reference proteomes are designed to serve as benchmarks for comparative genomics, evolutionary studies, and functional annotation. <br>
 
-Swiss-Prot data undergoes expert manual curation, so it contains high-quality data  but is smaller in scope compared to unreviewed data. Reference proteomes are included in the search to provide wider coverage to supplement Swiss-Prot entries.
-                       |
+Swiss-Prot data undergoes expert manual curation, so it contains high-quality data  but is smaller in scope compared to unreviewed data. Reference proteomes are included in the search to provide wider coverage to supplement Swiss-Prot entries. |
 | **UniProtKB (TrEMBL)**           | TrEMBL contains computationally analyzed protein sequences that have not been manually reviewed. It is much larger than Swiss-Prot and encompasses more species, however these protein entries are not manually annotated.      |
 | **UniProtKB with 3D structure (PDB)**           | This option includes PDB 3D structures and UniProtKB (TrEMBL)                  |
 | **UniProtKB with 3D structure predictions (AlphaFold)**      | This option includes AlphaFold 3D structure predictions and UniProtKB (TrEMBL)                         |
