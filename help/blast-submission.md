@@ -58,9 +58,7 @@ Target Database Descriptions
 
 | **Option**             | **Description**                       |
 |------------------------|---------------------------------------|
-| **UniProtKB reference proteomes + Swiss-Prot** | This option is the default selection for BLAST searches. <br>
-
-[Swiss-Prot](https://www.uniprot.org/help/uniprotkb) includes manually reviewed protein sequences with high-quality annotations. Swiss-Prot gives the most reliable and well-annotated entries, this is useful if you’re looking for functional information, conserved domains, or known characterized protein families. <br>
+| **UniProtKB reference proteomes + Swiss-Prot** | This option is the default selection for BLAST searches.  [Swiss-Prot](https://www.uniprot.org/help/uniprotkb) includes manually reviewed protein sequences with high-quality annotations. Swiss-Prot gives the most reliable and well-annotated entries, this is useful if you’re looking for functional information, conserved domains, or known characterized protein families.  
 
 [Reference proteomes](https://www.uniprot.org/help/reference_proteome) are high-quality, representative sets of protein sequences selected to represent the proteomes of species across the tree of life. These reference proteomes are designed to serve as benchmarks for comparative genomics, evolutionary studies, and functional annotation. <br>
 
