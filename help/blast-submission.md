@@ -1,5 +1,5 @@
 ---
-title: BLAST Submissions
+title: Sequence similarity searches / BLAST submissions
 type: help
 categories: Website,help
 ---
@@ -91,3 +91,13 @@ By default, the job name is auto-generated based on the submitted sequences. Cus
 | **Gapped**  | If ‘yes’ is selected then this will allow gaps to be introduced in the sequences when the comparison is done.<br><br>Yes (default)<br>No  |
 | **Hits**  | Limits the number of matches returned in the results. Lower the value if you only need top hits, and increase the number if you want a comprehensive list of matches.<br><br>Min: 50<br>Max: 1000<br>Default: 250<br>  |
 | **HSPs per hit**  | All (default)<br>Min: 1<br>Max: 100  |
+
+## Related services
+
+| **Tool**                                                                      |  **Description**                                                                                      |
+|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **[BLAST](https://www.ebi.ac.uk/Tools/sss/ncbiblast/) (EBI)**                 |  Sequence similarity search                                                                           |
+| **[FASTA](https://www.ebi.ac.uk/Tools/sss/fasta/) (EBI)**                     |  Sequence similarity search                                                                           |
+| **[InterProScan](https://www.ebi.ac.uk/interpro/search/sequence/) (EBI)**     |  Query a sequence against the InterPro database, which contains protein families, domains, and motifs |
+| **[ScanProsite](http://prosite.expasy.org/scanprosite/) (ExPASy)**            |  Scan a protein sequence for patterns, or use a pattern to scan protein sequences                     |
+| **[HMMER](https://www.ebi.ac.uk/Tools/hmmer/) (EBI)**                         |  Sequence Similarity Search                                                                           |
