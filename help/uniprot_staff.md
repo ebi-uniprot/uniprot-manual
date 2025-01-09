@@ -46,7 +46,7 @@ Nadine Gruaz
 Chantal Hulo  
 Nevila Hyka-Nouspikel  
 Florence Jungo  
-Damien Lieberherr
+Damien Lieberherr  
 Minna Lehvaslaiho  
 Kati Laiho  
 Philippe Le Mercier  
@@ -93,8 +93,8 @@ Arnaud Kerhornou
 Aurélien Luciani  
 Supun Wijerathne  
 Jie Luo  
-Juan Sebastian Martinez Martin
-Raja Mazumder
+Juan Sebastian Martinez Martin   
+Raja Mazumder   
 Monica Pozzato  
 Daniel Rice  
 Vijay Shanker  
