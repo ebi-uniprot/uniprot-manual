@@ -93,7 +93,7 @@ Arnaud Kerhornou
 Aurélien Luciani  
 Supun Wijerathne  
 Jie Luo  
-Juan Sebastian Martinez Martin  
+Juan Sebastian Martinez Martin
 Raja Mazumder
 Monica Pozzato  
 Daniel Rice  
