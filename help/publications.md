@@ -10,7 +10,7 @@ If you find UniProt useful, please consider citing our latest publication:
 
 The UniProt Consortium  
 **UniProt: the Universal Protein Knowledgebase in 2025**   
-[Nucleic Acids Res. 53:D0-D0 (2025)](https://doi.org/10.1093/nar/gkae1010)
+[Nucleic Acids Res. 53:D609–D617 (2025)](https://doi.org/10.1093/nar/gkae1010)
 
 ...or choose the publication that best covers the UniProt aspects or components you used in your work:
 
