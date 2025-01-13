@@ -97,7 +97,7 @@ By default, the job name is auto-generated based on the submitted sequences. Cus
 | **Filter**  | Low-complexity regions (e.g. stretches of cysteine in [Q03751](https://www.uniprot.org/uniprotkb/Q03751/entry), or hydrophobic regions in membrane proteins) tend to produce spurious, insignificant matches with sequences in the database which have the same kind of low-complexity regions, but are unrelated biologically. If "Filter low complexity regions" is selected, the query sequence will be run through the program SEG, and all amino acids in low-complexity regions will be replaced by X's.<br><br>None (default)<br>Filter low complexity regions  |
 | **Gapped**  | If ‘yes’ is selected then this will allow gaps to be introduced in the sequences when the comparison is done.<br><br>Yes (default)<br>No  |
 | **Hits**  | Limits the number of matches returned in the results. Lower the value if you only need top hits, and increase the number if you want a comprehensive list of matches.<br><br>Min: 50<br>Max: 1000<br>Default: 250<br>  |
-| **HSPs per hit**  | All (default)<br>Min: 1<br>Max: 100  |
+| **HSPs per hit**  | High-scoring segment pairs (HSPs)<br>All (default)<br>Min: 1<br>Max: 100  |
 
 <br>
 
