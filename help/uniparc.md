@@ -12,7 +12,7 @@ The basic information stored within each UniParc entry is the identifier, the se
 
 # Sequence comparison
 
-Sequences are compared when entering UniParc with all existing sequences. The CRC64 check sum is first calculated and then compared for each sequence. If two sequences have the same CRC64 value, the sequences themselves will then be compared as strings before considering them as identical.
+Sequences are compared when entering UniParc with all existing sequences. The CRC64 check sum is first calculated and then compared for each sequence. If two sequences have the same CRC64 value, the sequences themselves will then be compared as strings before considering them as identical. A [MD5](https://en.wikipedia.org/wiki/MD5) hash is also available as a sequence checksum, with a reduced risk of hash collision for different sequences.
 
 # Sequence versions
 
