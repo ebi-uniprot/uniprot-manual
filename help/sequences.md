@@ -12,16 +12,13 @@ We use the official [IUPAC](https://iupac.qmul.ac.uk/AminoAcid/AA1n2.html) amino
 
 For each isoform, the name of the isoform is provided, as well as its length and molecular mass in Daltons. The mass is calculated on the basis of the amino acid composition of the entire sequence. It does not take into account PTMs, thus excluding any proteolytic processing.
 
-The checksum of the displayed sequence is also given. Currently the checksum is a 64-bit CRC (Cyclic Redundancy Check) value ('CRC64') based on a algorithm described in the ISO 3309 standard. The generator polynomial used is x64 + x4 + x3 + x + 1 (See reference). Although in theory two different sequences could have the same CRC64 value, the likelihood that this would happen is extremely low.
+The checksum of the displayed sequence is also given. Currently the checksum is a [MD5](https://en.wikipedia.org/wiki/MD5) hash. Although in theory two different sequences could have the same MD5 value, the likelihood that this would happen is extremely low.
 
 References:
 
 [Nomenclature and symbolism for amino acids and peptides (Recommendation 1983)(IUPAC)](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)
 
 [IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN) and Nomenclature Committee of IUBMB (NC-IUBMB), newsletter 1999](http://dx.doi.org/doi:10.1046/j.1432-1327.1999.news99.x)
-
-Press W.H., Flannery B.P., Teukolsky S.A., Vetterling W.T.  
-["Numerical recipes in C", 2nd ed., pp896-902, Cambridge University Press (1993)](http://www.nrbook.com/a/bookcpdf.php)
 
 # Related documents
 
