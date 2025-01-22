@@ -17,7 +17,7 @@ In **UniProtKB/TrEMBL**, transmembrane domains are annotated automatically by ou
 
 # 1. Annotation of experimentally proven transmembrane regions
 
-Even when there is proof for the **existence** of transmembrane domains, it is difficult to determine their **boundaries**. Transmembrane regions are therefore generally annotated using the qualifier ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).  
+Even when there is proof for the **existence** of transmembrane regions, it is difficult to determine their **boundaries**. Transmembrane regions are therefore generally annotated using the qualifier ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).  
 Example: [Q96BI3](https://www.uniprot.org/uniprotkb/Q96BI3#subcellular_location)
 
 However, when the experimental technique used allows the assignment of the boundary to a particular position (X-ray crystallography etc.), the transmembrane region is labeled with ['Experimental'](https://www.uniprot.org/help/evidences#ECO:0000269) or ['Curated'](https://www.uniprot.org/help/evidences#ECO:0000305) evidence. In such cases, the positions of the transmembrane regions can be propagated ['By similarity'](https://www.uniprot.org/help/evidences#ECO:0000250) to closely related homologs.
