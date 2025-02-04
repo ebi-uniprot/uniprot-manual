@@ -6,7 +6,7 @@ categories: Cross-references,manual
 
 This subsection of the [Cross-references](https://www.uniprot.org/help/cross_references_section) section provides links to various web resources that are relevant for a specific protein.
 
-Example: [Q9HC16](https://www.uniprot.org/uniprotkb/Q9HC16#cross-references)
+Example: [Q9HC16](https://www.uniprot.org/uniprotkb/Q9HC16/external-links)
 
 It complements the 'Cross-references' section by providing links to specific web pages or to databases whose scope is too specialized to legitimate the creation of specific cross-references.
 
