@@ -24,7 +24,7 @@ Homotypic interactions are listed before heteromeric interactions, which are sor
 Example: [Q64279](https://www.uniprot.org/uniprotkb/Q64279#interaction)
 
 UniProtKB 'Binary interactions' are automatically derived from the IntAct database, but represent [only a subset of the binary interactions found in IntAct](https://www.uniprot.org/help/binary_interactions_import). The complete IntAct set can be accessed using the link in the 'Cross-references' section.  
-Example: [P51617](https://www.uniprot.org/uniprotkb/P51617#cross-references) (Protein-protein interaction databases)
+Example: [P51617](https://www.uniprot.org/uniprotkb/P51617/external-links) (Protein-protein interaction databases)
 
 More examples: [P62258](https://www.uniprot.org/uniprotkb/P62258#interaction), [Q8T4F7](https://www.uniprot.org/uniprotkb/Q8T4F7#interaction), [P02829](https://www.uniprot.org/uniprotkb/P02829#interaction), [O43521](https://www.uniprot.org/uniprotkb/O43521#interaction), [Q07817](https://www.uniprot.org/uniprotkb/Q07817#interaction)
 

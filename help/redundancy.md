@@ -19,7 +19,7 @@ Non-redundancy means in:
 
 \- UniProtKB/TrEMBL is 'non-redundant' in the sense that all identical, full-length protein sequences, provided they come from the same species, are represented in a single record. Fragments, isoforms, variants and so on, encoded by the same gene, are stored in separate entries.
 
-\- UniProtKB/Swiss-Prot is 'non-redundant' in the sense that all protein products encoded by one gene in a given species are represented in a single record. This includes alternative splicing isoforms, fragments, genetic variations, sequence conflicts, etc. Differences between sequence reports are analyzed, fully documented and reported in the entry. Cross-references to the original submissions to EMBL-Bank/GenBank/DDBJ databases are kept (see for instance, [Q9BXB7](https://www.uniprot.org/uniprotkb/Q9BXB7#cross-references)).
+\- UniProtKB/Swiss-Prot is 'non-redundant' in the sense that all protein products encoded by one gene in a given species are represented in a single record. This includes alternative splicing isoforms, fragments, genetic variations, sequence conflicts, etc. Differences between sequence reports are analyzed, fully documented and reported in the entry. Cross-references to the original submissions to EMBL-Bank/GenBank/DDBJ databases are kept (see for instance, [Q9BXB7](https://www.uniprot.org/uniprotkb/Q9BXB7/external-links)).
 
 ## See also
 

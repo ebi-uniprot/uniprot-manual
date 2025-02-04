@@ -40,21 +40,21 @@ If a sequence submitted to EMBL/GenBank/DDBJ present some discrepancies with the
 Four different tags are used to mark problematic sequences submitted to the EMBL/GenBank/DDBJ databases:
 
 - 'Frameshift': discrepancies are due to the insertion or deletion of one or more nucleotides in the submitted nucleotide sequence.  
-  Example: [O14467](https://www.uniprot.org/uniprotkb/O14467#cross-references)
+  Example: [O14467](https://www.uniprot.org/uniprotkb/O14467/external-links)
 
 - 'Different initiation': discrepancies are due to an erroneous initiation codon choice in the submitted sequence.  
-  Example: [Q9LEH8](https://www.uniprot.org/uniprotkb/Q9LEH8#cross-references)
+  Example: [Q9LEH8](https://www.uniprot.org/uniprotkb/Q9LEH8/external-links)
 
 - 'Different termination': the termination codon of the submitted sequence differs from that of the sequence displayed  
-  Example: [P35545](https://www.uniprot.org/uniprotkb/P35545#cross-references)
+  Example: [P35545](https://www.uniprot.org/uniprotkb/P35545/external-links)
 
 - 'Sequence problems': discrepancies are due to an erroneous gene model prediction, erroneous ORF assignement, miscellaneous discrepancy, etc.  
-  Example: [Q7XR80](https://www.uniprot.org/uniprotkb/Q7XR80#cross-references), [Q8TBF5](https://www.uniprot.org/uniprotkb/Q8TBF5#cross-references)
+  Example: [Q7XR80](https://www.uniprot.org/uniprotkb/Q7XR80/external-links), [Q8TBF5](https://www.uniprot.org/uniprotkb/Q8TBF5/external-links)
 
 The discrepancies are described in more details in the ['Sequence Caution'](https://www.uniprot.org/help/sequence_caution) section.
 
 If no CoDing Sequence (CDS) has been annotated in a submitted nucleotide sequence (most frequently genomic sequence), the corresponding cross-reference is tagged with the label: 'No translation available'.  
-Example: [B2RU33](https://www.uniprot.org/uniprotkb/B2RU33#cross-references)
+Example: [B2RU33](https://www.uniprot.org/uniprotkb/B2RU33/external-links)
 
 # Related documents
 
