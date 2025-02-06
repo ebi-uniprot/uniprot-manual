@@ -48,12 +48,25 @@ Processing your personal data is necessary for our legitimate interests in provi
 The personal data collected from the services listed below is as follows:
 
 ## Website and API
+
+For 7 days, this is the information that we collect about each request made to the website or the API:
 * IP address
 * Date and time of a visit to the service
 * Operating system
 * Browser
-* Device
 * Amount of data transmitted
+
+This is in order to quickly respond to bugs that might appear and might be linked to the experience of some users based on their specific setup.
+
+After this, we only have access to this pseudonymized data for each request to the website or the API:
+* IP address country (not each specific IP address)
+* Date and time of a visit to the service
+* Operating system (only for the website, not for the API)
+* Browser (only for the website, not for the API)
+* Amount of data transmitted
+
+This is kept in order to report to our funders in an aggregated way. These are important metrics that need to be reported in order to continue receiving the adequate grants to guarantee the open and free access to our data to everyone around the world.
+There is no way for us to tie 2 different requests to the same user and to identify that user.
 
 ## Help desk
 * Name
@@ -82,7 +95,7 @@ Personal data will only be disclosed to authorized staff at the institutions tha
 
 There are no personal data transfers to international organisations outside of the UniProt Consortium.
 
-UniProt uses [Google Analytics](https://policies.google.com/privacy), [Hotjar](https://www.hotjar.com/legal/policies/privacy/) and [Sentry](https://sentry.io/privacy/) as third-party analytics services to collect information about website performance and how users navigate through and use our sites to help us design better interfaces. We do not use any of these services to track you individually or collect personal data.
+UniProt uses [Google Analytics](https://policies.google.com/privacy), [Hotjar](https://www.hotjar.com/legal/policies/privacy/) and [Sentry](https://sentry.io/privacy/) as third-party analytics services to collect information about website performance and how users navigate through and use our website to help us design better interfaces. We do not use any of these services to track you individually or collect personal data.
 
 # 6. How long do we keep your personal data?
 
