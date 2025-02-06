@@ -47,7 +47,3 @@ Dr. Redaschi joined the European Bioinformatics Institute (EMBL-EBI) in 1996 as
 <strong id="ross">Karen Ross, Ph.D.</strong>  
 <u>Senior Bioinformatics Scientist (PIR)</u>  
 Dr. Ross joined the Protein Information Resource (PIR) research team in 2015 as a Senior Bioinformatics Scientist. She has played a key role in several knowledge resource projects, including curation, data integration, and development of biological use cases. Her contributions to UniProt include organizing community engagement workshops and user outreach. She also assists with biocuration activities, such as community annotation and integration of new resources into the UniProt additional bibliography.
-
-<strong id="santos">Rafael Santos, M.Sc.</strong>  
-<u>Research Support Officer and Project Coordinator for UniProt (EMBL-EBI)</u>  
-Mr. Santos joined EMBL-EBI as a Research Support Officer in 2022 and took over as UniProt project coordinator. In this role, he liaises with keystaff across all three sites, monitors the general project development, coordinates grant and progress report submissions, organises regular progress meetings as well as the UniProt Consortium and Scientific Advisory Board meetings.

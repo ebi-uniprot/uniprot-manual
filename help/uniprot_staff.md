@@ -23,7 +23,7 @@ categories: Staff,help
 [Sylvain Poux](https://www.uniprot.org/help/key_staff#poux)  
 [Nicole Redaschi](https://www.uniprot.org/help/key_staff#redaschi)  
 [Karen Ross](https://www.uniprot.org/help/key_staff#ross)  
-[Rafael Santos](https://www.uniprot.org/help/key_staff#santos)  
+Shiqi Ye 
 Yuqi Wang
 
 # Content / Curation
@@ -60,7 +60,6 @@ Pedro Raposo
 Catherine Rivoire  
 Christian Sigrist  
 Shyamala Sundaram  
-Nidhi Tyagi  
 C. R. Vinayaka  
 Nadya Urakova  
 Conny Wing-Heng Yu  
