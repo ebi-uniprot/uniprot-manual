@@ -49,7 +49,7 @@ The personal data collected from the services listed below is as follows:
 
 ## Website and API
 
-For 7 days, this is the information that we collect about each request made to the website or the API:
+Information that we collect about each request made to the website or API, this data is stored for 7 days:
 * IP address
 * Date and time of a visit to the service
 * Operating system
@@ -58,7 +58,7 @@ For 7 days, this is the information that we collect about each request made to t
 
 This is in order to quickly respond to bugs that might appear and might be linked to the experience of some users based on their specific setup.
 
-After this, we only have access to this pseudonymized data for each request to the website or the API:
+Following the 7 day period we only have access to this pseudonymized data for each request to the website or the API:
 * IP address country (not each specific IP address)
 * Date and time of a visit to the service
 * Operating system (only for the website, not for the API)
