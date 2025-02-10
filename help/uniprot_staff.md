@@ -74,7 +74,6 @@ Jerven Bolleman
 Chuming Chen  
 Beatrice Cuche  
 Edouard De Castro  
-Leonardo de Costa Gonzales  
 Khawaja Talal Ibrahim  
 Minjoon Kim  
 Jun Fan  
