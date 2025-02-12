@@ -66,7 +66,7 @@ Following the 7 day period we only have access to this pseudonymized data for ea
 * Amount of data transmitted
 
 This is kept in order to report to our funders in an aggregated way. These are important metrics that need to be reported in order to continue receiving the adequate grants to guarantee the open and free access to our data to everyone around the world.
-There is no way for us to tie 2 different requests to the same user and to identify that user.
+There is no way for us to tie 2 different requests to the same user or to identify that user.
 
 ## Help desk
 * Name
