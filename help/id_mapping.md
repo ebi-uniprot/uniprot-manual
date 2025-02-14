@@ -4,6 +4,13 @@ type: help
 categories: Text_search,Technical,Website,help
 ---
 
+# Important message: maintenance
+```
+Scheduled maintenance will cause ID Mapping to not be available from the following time February 13th 2025 and for a maximum of 7 days.
+
+Please try submitting jobs before or after this period. In addition, running jobs might be interrupted and so might need to be resubmitted at a later time, and accessing previously run jobs will not be possible.
+```
+
 To explore and try out the ID Mapping services, please refer to:
 
 - The [ID Mapping website tool](https://www.uniprot.org/id-mapping)
