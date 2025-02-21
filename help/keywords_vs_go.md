@@ -13,4 +13,4 @@ In UniProtKB, GO terms are manually mapped to keywords, EC number, InterPro matc
 # See also
 
 - [Keywords](https://www.uniprot.org/help/keywords)
-- [Gene Ontology (GO)](https://www.uniprot.org/help/gene_ontology)
+- [Gene Ontology (GO)](https://www.uniprot.org/help/gene-ontology)
