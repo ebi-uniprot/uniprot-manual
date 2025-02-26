@@ -40,7 +40,7 @@ Be sure to take note of the `jobId`. This will be used later to:
 - fetch/download the results
 - get details about the job
 
-## Various limits on ID Mapping Job Submission
+# Various limits on ID Mapping Job Submission
 
 | **Limit** |                                    **Details**                                     |
 | :-------: | :--------------------------------------------------------------------------------: |
@@ -51,12 +51,106 @@ Be sure to take note of the `jobId`. This will be used later to:
 
 Note: Very large mapping requests are likely to fail. Please do verify that your list does not contain any duplicates, and try to split it into smaller chunks in case of problems. If you prefer to run your mapping locally, you can also [download the data underlying this service](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/).
 
-## Valid _from_ and _to_ databases pairs
+# Valid _from_ and _to_ databases pairs
 
 You can map `from` one database `to` another database. To find the name of all the possible valid databases pairs (both from and to), use the below curl command:
 
 ```bash
 % curl https://rest.uniprot.org/configure/idmapping/fields
+```
+
+## How to interpret the response
+
+The response has two top sections:
+
+- groups
+  - items
+- rules
+
+Each group represents a logical group of databases, represented as an array of `items`.
+
+The value of `groupName` is used by website user-interface to group together related databases, e.g., Sequence databases
+like EMBL/GenBank/DDBJ.
+
+Each item in the `items` array has the following attributes:
+
+- displayName : Used by the [website user-interface](https://www.uniprot.org/id-mapping). It is not used in subsequent
+  API calls.
+- name : Name of `from` or `to` database to be passed in the API request.
+- from: Boolean flag indicating whether `name` can be used as a `from` database. Defaults to false.
+- to: Boolean flag indicating whether `name` can be used as a `to` database. Defaults to false.
+- ruleId: Refers a rule in the `rules` section to find all possible values of `to` databases.
+
+Each rule in the `rules` array describes all possible `to` databases for a given `from` database.
+It has the following attributes:
+
+- ruleId : Unique identifier of the rule. Referred to by individual items within `groups.items`.
+- tos: List of possible `to` databases for a given `from` item.
+- defaultTo: Used by the website user-interface to be selected by default in its dropdown menu. This field is not
+  relevant to standard programmatic users.
+- taxonId: Boolean flag indicating whether a third optional param `taxId`(Taxonomy Id) is allowed in API requests
+  in addition to the `from` and `to` request parameters.
+
+## Example: finding which databases UniParc identifiers can be mapped to
+
+1. Given the response from the above request and looking within the `groups.items` entities, find an
+   item where `displayName` or `name` matches `UniParc` and, importantly, `from` is `true`. The relevant `item` is:
+
+```json
+{
+  "displayName": "UniParc",
+  "name": "UniParc",
+  "from": true,
+  "to": true,
+  "ruleId": 2
+}
+```
+
+The important parts of this JSON object to note are:
+
+- `from`: since this is `true`, we know that the value of `name` (`UniParc`) can be used as the `from` request parameter
+  in a POST request to [`/idmapping/run`](#submitting-an-id-mapping-job).
+- `to`: since this is `true`, we know that the value of `name` (`UniParc`) can be used as the `to` request parameter in
+  a POST request to [`/idmapping/run`](#submitting-an-id-mapping-job).
+- `ruleId`: take note of the value, `2`, as this will be used to identify _all_ valid databases that UniParc identifiers
+  can be mapped to.
+
+2. Given the response from the [above request](#example_uniparc) and looking within the `rules` array, find a rule where
+   `ruleId` is 2. The relevant JSON object is given below:
+
+```json
+{
+  "ruleId": 2,
+  "tos": ["UniProtKB", "UniProtKB-Swiss-Prot", "UniParc"],
+  "defaultTo": "UniProtKB",
+  "taxonId": false
+}
+```
+
+The important parts of this object to note are:
+
+- `tos`: this array lists _all possible valid_ `to` values for a POST request to [`/idmapping/run`](#submitting-an-id-mapping-job), when
+  `UniParc` is used as `from` request parameter value. Passing anything other than the values listed in `tos` will result
+  in an error.
+- `taxonId`: The `taxonId` flag is set to false, indicating that this `from` and `to` combination does not accept an
+  optional `taxId` (taxonomy identifier) when submitting the job.
+
+3. Putting the findings into practice, we can now construct ID mapping POST requests as follows:
+
+```bash
+% curl --request POST 'https://rest.uniprot.org/idmapping/run' \
+    --form 'ids="<YOUR UNIPARC ID LIST IN COMMA SEPARATED FORM>"' \
+    --form 'from="UniParc"' \
+    --form 'to="<UniProtKB or UniProtKB-Swiss-Prot or UniParc>"'
+```
+
+Giving a concrete example:
+
+```bash
+% curl --request POST 'https://rest.uniprot.org/idmapping/run' \
+   --form 'ids="UPI0000000001,UPI0000000002"' \
+   --form 'from="UniParc"' \
+   --form 'to="UniProtKB"'
 ```
 
 # Polling the status of a job
@@ -196,100 +290,6 @@ For example:
 >   "redirectURL": "https://rest.uniprot.org/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300"
 > }
 > ```
-
-## How to interpret the response
-
-The response has two top sections:
-
-- groups
-  - items
-- rules
-
-Each group represents a logical group of databases, represented as an array of `items`.
-
-The value of `groupName` is used by website user-interface to group together related databases, e.g., Sequence databases
-like EMBL/GenBank/DDBJ.
-
-Each item in the `items` array has the following attributes:
-
-- displayName : Used by the [website user-interface](https://www.uniprot.org/id-mapping). It is not used in subsequent
-  API calls.
-- name : Name of `from` or `to` database to be passed in the API request.
-- from: Boolean flag indicating whether `name` can be used as a `from` database. Defaults to false.
-- to: Boolean flag indicating whether `name` can be used as a `to` database. Defaults to false.
-- ruleId: Refers a rule in the `rules` section to find all possible values of `to` databases.
-
-Each rule in the `rules` array describes all possible `to` databases for a given `from` database.
-It has the following attributes:
-
-- ruleId : Unique identifier of the rule. Referred to by individual items within `groups.items`.
-- tos: List of possible `to` databases for a given `from` item.
-- defaultTo: Used by the website user-interface to be selected by default in its dropdown menu. This field is not
-  relevant to standard programmatic users.
-- taxonId: Boolean flag indicating whether a third optional param `taxId`(Taxonomy Id) is allowed in API requests
-  in addition to the `from` and `to` request parameters.
-
-## Example: finding which databases UniParc identifiers can be mapped to
-
-1. Given the response from the above request and looking within the `groups.items` entities, find an
-   item where `displayName` or `name` matches `UniParc` and, importantly, `from` is `true`. The relevant `item` is:
-
-```json
-{
-  "displayName": "UniParc",
-  "name": "UniParc",
-  "from": true,
-  "to": true,
-  "ruleId": 2
-}
-```
-
-The important parts of this JSON object to note are:
-
-- `from`: since this is `true`, we know that the value of `name` (`UniParc`) can be used as the `from` request parameter
-  in a POST request to [`/idmapping/run`](#submitting-an-id-mapping-job).
-- `to`: since this is `true`, we know that the value of `name` (`UniParc`) can be used as the `to` request parameter in
-  a POST request to [`/idmapping/run`](#submitting-an-id-mapping-job).
-- `ruleId`: take note of the value, `2`, as this will be used to identify _all_ valid databases that UniParc identifiers
-  can be mapped to.
-
-2. Given the response from the [above request](#example_uniparc) and looking within the `rules` array, find a rule where
-   `ruleId` is 2. The relevant JSON object is given below:
-
-```json
-{
-  "ruleId": 2,
-  "tos": ["UniProtKB", "UniProtKB-Swiss-Prot", "UniParc"],
-  "defaultTo": "UniProtKB",
-  "taxonId": false
-}
-```
-
-The important parts of this object to note are:
-
-- `tos`: this array lists _all possible valid_ `to` values for a POST request to [`/idmapping/run`](#submitting-an-id-mapping-job), when
-  `UniParc` is used as `from` request parameter value. Passing anything other than the values listed in `tos` will result
-  in an error.
-- `taxonId`: The `taxonId` flag is set to false, indicating that this `from` and `to` combination does not accept an
-  optional `taxId` (taxonomy identifier) when submitting the job.
-
-3. Putting the findings into practice, we can now construct ID mapping POST requests as follows:
-
-```bash
-% curl --request POST 'https://rest.uniprot.org/idmapping/run' \
-    --form 'ids="<YOUR UNIPARC ID LIST IN COMMA SEPARATED FORM>"' \
-    --form 'from="UniParc"' \
-    --form 'to="<UniProtKB or UniProtKB-Swiss-Prot or UniParc>"'
-```
-
-Giving a concrete example:
-
-```bash
-% curl --request POST 'https://rest.uniprot.org/idmapping/run' \
-   --form 'ids="UPI0000000001,UPI0000000002"' \
-   --form 'from="UniParc"' \
-   --form 'to="UniProtKB"'
-```
 
 # Python example
 
@@ -504,7 +504,7 @@ get_id_mapping_results_search("https://rest.uniprot.org/idmapping/uniprotkb/resu
 
 ## Getting a Pandas DataFrame from results
 
-#### From TSV results
+### From TSV results
 
 ```
 import csv
@@ -515,7 +515,7 @@ def get_data_frame_from_tsv_results(tsv_results):
     return pd.DataFrame(list(reader))
 ```
 
-#### From Excel/XLSX results
+### From Excel/XLSX results
 
 ```
 import io
