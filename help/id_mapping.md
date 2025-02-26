@@ -265,6 +265,7 @@ Continuing our [example above](#example), we would download the results by makin
 |      Error       |    40    |     Id Mapping API is not supported for mapping results with "mapped to" IDs more than 500,000      |
 |      Error       |    50    |                               \<Actual application error as message\>                               |
 
+<br>
 
 # Fetching details about a job
 
