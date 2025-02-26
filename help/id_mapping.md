@@ -171,6 +171,7 @@ Continuing our [example above](#example), we would download the results by makin
 |      Error       |    40    |     Id Mapping API is not supported for mapping results with "mapped to" IDs more than 500,000      |
 |      Error       |    50    |                               \<Actual application error as message\>                               |
 
+
 # Fetching details about a job
 
 Details of a submitted job, including the `from`, `to` and `ids` to map, can be obtained via this end-point:
@@ -504,7 +505,7 @@ get_id_mapping_results_search("https://rest.uniprot.org/idmapping/uniprotkb/resu
 
 ## Getting a Pandas DataFrame from results
 
-#### From TSV results
+### From TSV results
 
 ```
 import csv
@@ -515,7 +516,7 @@ def get_data_frame_from_tsv_results(tsv_results):
     return pd.DataFrame(list(reader))
 ```
 
-#### From Excel/XLSX results
+### From Excel/XLSX results
 
 ```
 import io
