@@ -29,8 +29,14 @@ and the [Protein existence level](https://www.uniprot.org/help/protein_existence
 
 # 3. Human Proteome Project
 
+The [HUPO Human Proteome Project (HPP)](https://hupo.org/human-proteome-project) aims to provide mass spectrometry (MS) evidence for the existence of each protein in the human proteome. MS-based proteomic data deposited 
+into proteomeXchange databases is reprocessed and scored by the [PeptideAtlas](https://peptideatlas.org/) [Trans-Proteomics Pipeline](http://www.tppms.org/) and used by UniProt to verify the existence of each protein, 
+meeting the stringency described by the HPP 3.0 guidelines described in; [Human Proteome Project Mass Spectrometry Data Interpretation Guideline 3.0](https://pubs.acs.org/doi/10.1021/acs.jproteome.9b00542). All proteins 
+identified by the qualifying number of unique peptides of a set minimum length are annotated with the keyword [‘proteomics identification’](https://www.uniprot.org/keywords/KW-1267), and the protein existence level is set
+to [‘experimental evidence at protein level’](https://www.uniprot.org/help/protein_existence).
 
-
+HPP data can be found in the feature viewer Proteomics track under ‘Human proteome project’, example [Q9BXU3](https://www.uniprot.org/uniprotkb/Q9BXU3/feature-viewer). For programmatic download use the UniProt Proteins 
+API, Proteomics, [‘Human proteome project’](https://www.ebi.ac.uk/proteins/api/doc/#!/hpp/search_0).
 
 # 4. Post-translational modification (PTM) data derived from large scale mass spectrometry (MS) datasets
 
