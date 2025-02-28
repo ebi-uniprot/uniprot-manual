@@ -27,7 +27,18 @@ UniProt has also developed a pipeline for the integration of proteomics data in 
 
 and the [Protein existence level](https://www.uniprot.org/help/protein_existence) is set to 'Experimental evidence at protein level'. PTM annotations are attributed the evidence [Combined sources](https://www.uniprot.org/help/evidences#ECO:0007744) (e.g. [Modified residues](https://www.uniprot.org/uniprotkb?query=%28%28ft_mod_res%3A%2A%29%20AND%20%28ftev_mod_res%3AECO_0007744%29%29), [Cross-links](https://www.uniprot.org/uniprotkb?query=%28%28ft_crosslnk%3A%2A%29%20AND%20%28ftev_crosslnk%3AECO_0007744%29%29), [Signal](https://www.uniprot.org/uniprotkb?query=%28%28ft_signal%3A%2A%29%20AND%20%28ftev_signal%3AECO_0007744%29%29), [Initiator methionine](https://www.uniprot.org/uniprotkb?query=%28%28ft_init_met%3A%2A%29%20AND%20%28ftev_init_met%3AECO_0007744%29%29), [Transit peptide](https://www.uniprot.org/uniprotkb?query=%28%28ft_transit%3A%2A%29%20AND%20%28ftev_transit%3AECO_0007744%29%29) etc).
 
-# 3. Post-translational modification (PTM) data derived from large scale mass spectrometry (MS) datasets
+# 3. Human Proteome Project
+
+The [HUPO Human Proteome Project (HPP)](https://hupo.org/human-proteome-project) aims to provide mass spectrometry (MS) evidence for the existence of each protein in the human proteome. MS-based proteomic data deposited 
+into proteomeXchange databases is reprocessed and scored by the [PeptideAtlas](https://peptideatlas.org/) [Trans-Proteomics Pipeline](http://www.tppms.org/) and used by UniProt to verify the existence of each protein, 
+meeting the stringency described by the HPP 3.0 guidelines described in; [Human Proteome Project Mass Spectrometry Data Interpretation Guideline 3.0](https://pubs.acs.org/doi/10.1021/acs.jproteome.9b00542). All proteins 
+identified by the qualifying number of unique peptides of a set minimum length are annotated with the keyword [‘proteomics identification’](https://www.uniprot.org/keywords/KW-1267), and the protein existence level is set
+to [‘experimental evidence at protein level’](https://www.uniprot.org/help/protein_existence).
+
+HPP data can be found in the feature viewer Proteomics track under ‘Human proteome project’, example [Q9BXU3](https://www.uniprot.org/uniprotkb/Q9BXU3/feature-viewer). For programmatic download use the UniProt Proteins 
+API, Proteomics, [‘Human proteome project’](https://www.ebi.ac.uk/proteins/api/doc/#!/hpp/search_0).
+
+# 4. Post-translational modification (PTM) data derived from large scale mass spectrometry (MS) datasets
 
 UniProt also facilitates the curation of post-translation modification enriched large scale proteomics datasets, this data is imported into both SwissProt and TrEMBL entries, however does not affect protein evidence values or keywords. Post-translational modified peptide data is available to view in the PTM/Processing section of protein entry pages and in the feature viewer under 'PTM modified residue (large scale data)' and 'Proteomics PTM-containing peptides'.
 
