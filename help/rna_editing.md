@@ -10,7 +10,7 @@ RNA editing data can be found in both the protein entry page and the feature vie
 
 ## Protein entry page
 
-Within the protein entry page RNA editing information can be found in the 'Sequence' section under the 'RNA editing' subsection as well as the 'Natural variant' subsection.
+Within the protein entry page RNA editing information can be found in the 'Sequence' section under the 'RNA editing' subsection as well as the the 'Disease/Phenotypes and variants' section under the 'Natural variant' subsection.
 
 The 'RNA editing' subsection provides information relevant to all types of RNA editing events (conversion, insertion, deletion of nucleotides) that lead to one or more amino acid changes compared to the translation of the non-edited RNA version.
 
