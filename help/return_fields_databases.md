@@ -37,8 +37,8 @@ Please see example in [Return Fields](https://www.uniprot.org/help/return_fields
 | Label         | Returned Field     | Has full version |
 | ------------- | ------------------ | ---------------- |
 | BioGRID       | xref_biogrid       | yes              |
-| ComplexPortal | xref_corum         | no               |
-| CORUM         | xref_complexportal | yes              |
+| ComplexPortal | xref_complexportal | yes              |
+| CORUM         | xref_corum         | no               |
 | DIP           | xref_dip           | no               |
 | ELM           | xref_elm           | no               |
 | IntAct        | xref_intact        | yes              |
