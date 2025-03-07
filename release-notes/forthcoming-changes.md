@@ -7,26 +7,14 @@ date: 2099-01-01
 
 **Table of contents**
 
-   * Change of URIs for the HAMAP database - **On April 09, 2025**
+   * Change of URIs for taxonomic ranks in RDF - **On June 04, 2025**
 
-### Change of URIs for the HAMAP database
+### Change of URIs for taxonomic ranks in RDF
 
-For historic reasons, UniProt had to generate URIs to cross-reference databases that did not have an RDF representation or did not provide stable URIs such as [PURLs](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) (permanent uniform resource locators). The SIB Swiss Institute of Bioinformatics has now committed to provide stable URIs for the resources that it supports, and the first database to adopt this is HAMAP. We will change the HAMAP URIs accordingly:
- 
-* The links to HAMAP signatures (used in UniProtKB cross-references and in UniParc) will change from:  
-    ```
-    http://purl.uniprot.org/hamap/MF_00012
-    ```  
-  to:  
-    ```
-    https://purl.expasy.org/hamap/signature/MF_00012
-    ```
+The NCBI [replaced the taxonomic rank 'Superkingdom' by the new ranks 'Domain' and 'Realm'](https://ncbiinsights.ncbi.nlm.nih.gov/2025/02/27/new-ranks-ncbi-taxonomy/). We use this opportunity to change the URIs of all ranks by adding the prefix ```Taxonomic_Rank_``` to add context to terms like 'Domain' that can have several meanings in the context of UniProt. For instance,
 
-* The links to HAMAP annotation rules (used in UniProtKB attributions) will change from:  
-    ```
-    http://purl.uniprot.org/hamap-rule/MF_00012
-    ```  
-  to:  
-    ```
-    https://purl.expasy.org/hamap/rule/MF_00012
-    ```
+```<owl:Thing rdf:about="http://purl.uniprot.org/core/Species">```
+
+will be changed to:
+
+```<owl:Thing rdf:about="http://purl.uniprot.org/core/Taxonomic_Rank_Species">```
