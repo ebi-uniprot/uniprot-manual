@@ -131,8 +131,7 @@ else {
 
 # See also
 
-- [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api)
-- \- batch retrieval, ID mapping, queries, downloads, etc
+- [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api) (batch retrieval, ID mapping, queries, downloads etc).
 - [How can I (programmatically) obtain the number of results returned by my query?](https://www.uniprot.org/help/entry_count)
 
 \* Before July 2022, the "Last-Modified" header was inaccurately used for this.
