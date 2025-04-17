@@ -7,7 +7,7 @@ date: 2099-01-01
 **Table of contents**
 
    * Change of URIs for taxonomic ranks in RDF - **On June 18, 2025**
-   * Change of URIs for the PROSITE database - **On June 18, 2025**
+   * Change of URIs for the PROSITE database in RDF - **On June 18, 2025**
    * Introduction of explicit links between citations and their retraction notice in UniProt RDF - **On June 18, 2025**
 
 ### Change of URIs for taxonomic ranks in RDF
@@ -20,7 +20,7 @@ will be changed to:
 
 ```<owl:Thing rdf:about="http://purl.uniprot.org/core/Taxonomic_Rank_Species">```
 
-### Change of URIs for the PROSITE database
+### Change of URIs for the PROSITE database in RDF
 
 For historic reasons, UniProt had to generate URIs to cross-reference databases that did not have an RDF representation or did not provide stable URIs such as [PURLs](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) (permanent uniform resource locators). The SIB Swiss Institute of Bioinformatics has now committed to provide stable URIs for the resources that it supports. [PROSITE](https://prosite.expasy.org/) is now also using this service, therefore we will change the PROSITE URIs accordingly:
 
