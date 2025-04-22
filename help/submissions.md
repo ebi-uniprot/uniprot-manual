@@ -4,35 +4,43 @@ type: help
 categories: About_UniProt,UniProtKB,Biocuration,Technical,Publications,help
 ---
 
-<div>
+# Sequence data flow into UniProt
 
-<table><tbody><tr><td><img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/spin.png" /> <a href="https://www.ebi.ac.uk/swissprot/Submissions/spin/"><strong>Submit protein sequences</strong></a><p>obtained by direct protein sequencing (see also <a href="https://insideuniprot.blogspot.com/2015/07/do-you-have-protein-to-share-with-world.html">Do you have a protein to share with the world? - UniProt blog</a>).</p></td></tr><tr class="even"><td><img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/webin.png" /> <a href="https://www.ebi.ac.uk/embl/Submission/webin.html"><strong>Submit nucleotide sequences</strong></a><p>the translations of these sequences will be entered into UniProtKB automatically (see also <a href="https://www.uniprot.org/help/synchronization">What is the synchronization delay with other databases?</a>).</p></td></tr><tr><td><a href="https://www.uniprot.org/update"><img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/comment.png" /> <strong>Update UniProtKB</strong></a><p>send updates or corrections <span style="color: grey;"> e.g. experimental results (published or not), typos... </span></p></td></tr><tr class="even"><td><img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/orcid.png" /> <a href="https://community.uniprot.org/bbsub/home.html"><strong>Associate publications and annotations to UniProt entries</strong></a><p>using your <a href="https://orcid.org/help">ORCID identifier</a> (see also <a href="https://insideuniprot.blogspot.com/2019/07/">Become a contributor of literature and knowledge in UniProt - UniProt blog</a>).</p></td></tr></tbody></table>
+We import protein sequences from a range of collaborative resources during our production cycle, for more information on these sources please see our [help page](https://www.uniprot.org/help/sequence_origin).
 
-For any other kind of feedback, use our [contact form](https://www.uniprot.org/contact).
+UniProt creates novel protein entries for sequences imported from a variety of sources, including; 
+<ul>
+  <li>Translated nucleotide sequences from ENA</li>
+  <li>Direct protein sequencing using Edman degradation or manual interpretation of MS spectra</li>
+  <li>De novo peptide sequencing</li>
+</ul>
 
----
+We import proteomics peptide data from publicly available datasets in ProteomeXchange to support the [existence](https://www.uniprot.org/help/protein_existence) of proteins in the UniProt database.
 
-<div id="guidelines">
+ ![Sequence flow into UniProt]( https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/Submit_data_pipeline.png)
 
-# Guidelines for submitting updates or corrections to UniProtKB data.
+# Submitting data to UniProt
 
-<table><tbody><tr><th>What to send?</th><td>We are grateful for <strong>any feedback</strong>, but welcome especially:<br />
-› sequence updates<br />
-› post-translational modifications<br />
-› confirmation at the protein level of part of a DNA translated sequence<br />
-› functional information<br />
-› presence of specific domains in the sequence<br />
-› alternative names for the protein or the gene coding for it<br />
-› subunit structure<br />
-› mass-spectrometry data<br />
-› strain name<br />
-</td></tr><tr class="even"><th>What format?</th><td>If you are familiar with the UniProtKB/Swiss-Prot format we encourage you to submit your updates and/or corrections using that format, but this is not a prerequisite and we prefer that you provide a longer textual description of what you are submitting rather than spend time trying to fit your data to our format.</td></tr><tr><th>Whose work?</th><td>When reporting:<br />
-› <em>published information</em> : please provide the complete reference (authors lists with initials, journal, volume, page range and year) or a PubMed identifier<br />
-› <em>unpublished information</em> : please provide the name of the people associated with a particular item of information<br />
-<p>Note that you don't have to be the original author to submit us updates, and can therefore report anybody's work.</p></td></tr><tr class="even"><th>What sequence position?</th><td>Whenever you are reporting data relevant to a particular position or stretch of residues in a sequence, always use an absolute numbering system that starts with the first residue of the sequence in the entry.</td></tr><tr><th>What next?</th><td>A UniProtKB/Swiss-Prot annotator will mail the revised sequence entry back to you. Any further comments can be sent directly to that annotator.</td></tr><tr class="even"><th>Where is my data?</th><td>UniProtKB/Swiss-Prot is a curated database and not an unedited archive or repository. We are therefore making no promise as to whether we will accept to represent in a given entry all data sent to us. But when we do not make use of some item of information, we will report back.</td></tr></tbody></table>
+If you have protein sequences that are a result of nucleotide translations, e.g. from genetic sequencing or mRNA sequence, then please submit to the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/submit).
 
-</div>
+We import [proteomics data](https://www.uniprot.org/help/proteomics) from bottom-up mass spectrometry (MS) experiments in which peptides are searched against a reference peptide database. If you have MS data where a search algorithm (such as Mascot) has been used to identify protein matches from experimental peptides then please submit to [PRIDE](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool) or [MassIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp?redirect=auth) databases.
 
-Related term: submission
+UniProt accepts direct submissions of previously uncharacterized protein sequences by Edman degradation sequencing or peptide sequences deduced by manual determination of individual amino acids based on their a/b/c/x/y/z ions. Protein sequences must be novel and not match the sequence of a current UniProt protein entry. To check if your protein sequence is already in UniProt please use our [BLAST tool](https://www.uniprot.org/blast). To submit directly to UniProt please use the [SPIN portal](https://www.ebi.ac.uk/swissprot/Submissions/spin/account/login;jsessionid=67E1CA0F482E1BE0CCDB057F9E441C2E).
 
-</div>
+For novel protein sequences that have been identified by de novo sequencing software (such as PEAK DB and DeepNovo) that identifies protein sequences without searching against a reference sequence database please email: uniprot-submissions@ebi.ac.uk with your methodology, protein sequence and species information.
+
+# UniProt update requests
+
+## Associate publications and annotations to a protein entry. 
+
+We welcome the addition of publications and annotations from the scientific community via our [community submission system](https://community.uniprot.org/bbsub/home.html). 
+Sign in using your [ORCID](https://support.orcid.org/hc/en-us) and receive recognition for your contribution to the UniProt database.
+
+## Requesting corrections or entry updates.
+
+If you have feedback relating to the content of protein entries, including corrections and requests to update the content of an entry please navigate to the entry in question and use our feedback tab on the right of the screen.
+
+## For general feedback and queries
+
+We welcome general feedback on our website, content and activities, please use our [contact form](https://www.uniprot.org/contact).
+

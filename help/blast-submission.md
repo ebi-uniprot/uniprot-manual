@@ -19,8 +19,8 @@ BLAST tool search results are saved in your [tools dashboard](https://www.unipro
 You can [access the BLAST tool](https://www.uniprot.org/blast) directly from various sections of the UniProt website:
 
 - **Main toolbar**: Easily accessible in the top left of the navigation.
-- **Basket**: Align multiple sequences stored in your basket.
-- **UniProtKB, UniRef and UniParc results pages**: directly from search results by selecting the results of interest and then selecting BLAST in the ‘tools’ dropdown menu.
+- **Basket**: Align multiple sequences stored in your basket by selecting your entries using the checkboxes on the left and selecting `BLAST` from the 'Tools' dropdown menu.
+- **UniProtKB, UniRef and UniParc results pages**: directly from search results by selecting the results of interest and then selecting BLAST in the 'Tools' dropdown menu.
 - **UniProtKB entry page**: in the sequences section you can BLAST isoforms of a specific protein entry.
 
 ## Job Submission Form

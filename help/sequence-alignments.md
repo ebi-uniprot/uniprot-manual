@@ -13,7 +13,7 @@ The **Align Tool** aligns multiple protein or nucleotide sequences using the [Cl
 You can access the **Align** tool directly from various sections of the UniProt website:
 
 - **Main toolbar**: Easily accessible from the top navigation.
-- **[Basket](https://www.uniprot.org/help/basket)**: Align multiple sequences stored in your basket.
+- **[Basket](https://www.uniprot.org/help/basket)**: Align multiple sequences stored in your basket by selecting your entries using the checkboxes on the left and selecting `Align` from the Tools dropdown.
 - **UniProtKB, UniRef and UniParc results pages**: Align directly from search results.
 - **UniProtKB entry page**: Align isoforms of a specific protein entry.
 
