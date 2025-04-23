@@ -43,13 +43,13 @@ Be sure to take note of the `jobId`. This will be used later to:
 # Various limits on ID Mapping Job Submission
 
 | **Limit** |                                    **Details**                                     |
-| :-------: | :--------------------------------------------------------------------------------: |
+|:---------:| :--------------------------------------------------------------------------------: |
 |  100,000  | Total number of ids allowed in comma separated param `ids` in `/idmapping/run` api |
 |  500,000  |                      Total number of "mapped to" ids allowed                       |
 |  100,000  |       Total number of "mapped to" ids allowed to be enriched by UniProt data       |
-|  10,000   |               Total number of "mapped to" ids allowed with filtering               |
+|  25,000   |               Total number of "mapped to" ids allowed with filtering               |
 
-Note: Very large mapping requests are likely to fail. Please do verify that your list does not contain any duplicates, and try to split it into smaller chunks in case of problems. If you prefer to run your mapping locally, you can also [download the data underlying this service](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/).
+Note: Very large mapping requests are likely to fail. Please do verify that your list does not contain any duplicates, and try to split it into smaller chunks in case of problems. If you prefer to run your mapping locally, you can also [download the data underlying this service](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/idmapping/).
 
 # Valid _from_ and _to_ databases pairs
 
@@ -259,8 +259,8 @@ Continuing our [example above](#example), we would download the results by makin
 ## Warnings and errors for /results
 
 | **Problem Type** | **Code** |                                             **Message**                                             |
-| :--------------: | :------: | :-------------------------------------------------------------------------------------------------: |
-|     Warning      |    20    |               Filters are not supported for mapping results with IDs more than 10,000               |
+| :--------------: | :------: |:---------------------------------------------------------------------------------------------------:|
+|     Warning      |    20    |               Filters are not supported for mapping results with IDs more than 25,000               |
 |     Warning      |    21    | UniProt data enrichment is not supported for mapping results with "mapped to" IDs more than 100,000 |
 |      Error       |    40    |     Id Mapping API is not supported for mapping results with "mapped to" IDs more than 500,000      |
 |      Error       |    50    |                               \<Actual application error as message\>                               |
