@@ -4,11 +4,13 @@ type: help
 categories: Technical,Sequence,help
 ---
 
-The following is a description of FASTA headers for UniProtKB (including alternative isoforms), UniRef, UniParc and archived UniProtKB versions. NCBI's program formatdb (in particular its -o option) is compatible with the UniProtKB fasta headers.
+The following is a description of FASTA headers for UniProtKB (including alternative isoforms), UniRef, UniParc (both generic and for proteomes) and archived UniProtKB versions. NCBI's program formatdb (in particular its -o option) is compatible with the UniProtKB fasta headers.
+
+Note that in the document below square brackets `[ ]` indicate optional fields.
 
 # UniProtKB
 
-    >db|UniqueIdentifier|EntryName ProteinName OS=OrganismName OX=OrganismIdentifier [GN=GeneName ]PE=ProteinExistence SV=SequenceVersion
+    >db|UniqueIdentifier|EntryName ProteinName OS=OrganismName OX=OrganismIdentifier[ GN=GeneName] PE=ProteinExistence SV=SequenceVersion
 
 Where:
 
@@ -64,6 +66,7 @@ Example:
     >UniRef50_Q9K794 Putative AgrB-like protein n=2 Tax=Bacillus TaxID=1386 RepID=AGRB_BACHD
 
 # UniParc
+## Generic UniParc
 
     >UniqueIdentifier status=Status
 
@@ -75,6 +78,29 @@ Where:
 Example:
 
     >UPI0000000005 status=active
+
+## UniParc for Proteomes
+    
+    >UniqueIdentifier[ ProteinNameList][ OS=OrganismName][ OX=OrganismIdentifier][ GN=GeneNameList][ AC=UniProtKBAcList][ SS=SourceAcList][ PC=(Proteome:Component)List]
+
+Where:
+
+- _UniqueIdentifier_ is the primary accession number of the UniParc entry.
+- _ProteinNameList_ is a list of protein names.
+- _OrganismName_ is the organism name.
+- _OrganismIdentifier_ is the NCBI taxonomy ID or organism identifier.
+- _GeneNameList_ is a list of gene names.
+- _UniProtKBAcList_ is a list of associated UniProtKB accessions.
+- _SourceAcList_ is a list of source accessions.
+- _(Proteome:Component)List_ is a list of proteome and component pairs in the format _ProteomeID:Component_.
+
+Additional Notes
+- Fields with multiple values are separated by the pipe symbol `|`.
+
+Examples:
+
+    >UPI0000000AE5 IS30 family transposase OS=Escherichia coli str. K-12 substr. MG1655 OX=511145 GN=insI2|insI3 SS=EMBL:AAC74486|EMBL:AAC77240 PC=UP000000625:Chromosome
+    >UPI0000038DD7 Pantothenate kinase OS=Escherichia coli str. K-12 substr. MG1655 OX=511145 GN=coaA SS=EMBL:AAC76952 PC=UP000000625:Chromosome
 
 # Archived UniProtKB sequence versions
 
@@ -100,29 +126,4 @@ Examples:
     >sp|P05067 archived from Release 9.2/51.2 28-NOV-2006 SV=3
     >tr|A0RTJ8 archived from Release 11.0/36.0 29-MAY-2007 SV=1
 
-# UniParc for redundant Proteomes
-    
-    >UniqueIdentifier [ProteinNameList] [OS=OrganismName] [OX=OrganismIdentifier] [GN=GeneNameList] [AC=UniProtKBAcList] [SS=SourceAcList] [PC=(Proteome:Component)List]
-
-Where:
-
-- UniqueIdentifier is the primary accession number of the UniParc entry.
-- ProteinNameList is a list of protein names.
-- OS=OrganismName is the organism name.
-- OX=OrganismIdentifier is the NCBI taxonomy ID or organism identifier.
-- GN=GeneNameList is a list of gene names.
-- AC=UniProtKBAcList is a list of associated UniProtKB accessions.
-- SS=SourceAcList is a list of source accessions.
-- PC=(Proteome:Component)List is a list of proteome and component pairs in the format ProteomeID:Component.
-
-Additional Notes
-- Fields with multiple values are separated by the pipe symbol |.
-- Square brackets [ ] indicate optional fields.
-
-Examples:
-
-    >UPI0000000AE5 IS30 family transposase OS=Escherichia coli str. K-12 substr. MG1655 OX=511145 GN=insI2|insI3 SS=EMBL:AAC74486|EMBL:AAC77240 PC=UP000000625:Chromosome
-    >UPI0000038DD7 Pantothenate kinase OS=Escherichia coli str. K-12 substr. MG1655 OX=511145 GN=coaA SS=EMBL:AAC76952 PC=UP000000625:Chromosome
-
-
-Related terms: FASTA header, FASTA format
+Related terms: FASTA header, FASTA format, FASTA comment
