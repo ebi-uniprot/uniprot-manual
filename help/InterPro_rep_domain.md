@@ -9,7 +9,7 @@ Representative domain sets are subject to change as member databases are updated
 
 For further information on how InterPro representative domains are selected and a full list of member databases, please see the [InterPro documentation](https://interpro-documentation.readthedocs.io/en/latest/represent_dom.html) pages.
 
-## Where can I find InterPro Representative Domains?
+# Where can I find InterPro Representative Domains?
 
 InterPro representative domains can be visualized in the ‘Domains’ track of the feature viewer, sub-track ‘InterPro Representative Domain’.\
 Example: [O75445](https://www.uniprot.org/uniprotkb/O75445/feature-viewer?loadFeatures=true)
