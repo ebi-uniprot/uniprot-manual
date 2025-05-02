@@ -100,4 +100,29 @@ Examples:
     >sp|P05067 archived from Release 9.2/51.2 28-NOV-2006 SV=3
     >tr|A0RTJ8 archived from Release 11.0/36.0 29-MAY-2007 SV=1
 
+# UniParc for redundant Proteomes
+    
+    >UniqueIdentifier [ProteinNameList] [OS=OrganismName] [OX=OrganismIdentifier] [GN=GeneNameList] [AC=UniProtKBAcList] [SS=SourceAcList] [PC=(Proteome:Component)List]
+
+Where:
+
+- UniqueIdentifier is the primary accession number of the UniParc entry.
+- ProteinNameList is a list of protein names.
+- OS=OrganismName is the organism name.
+- OX=OrganismIdentifier is the NCBI taxonomy ID or organism identifier.
+- GN=GeneNameList is a list of gene names.
+- AC=UniProtKBAcList is a list of associated UniProtKB accessions.
+- SS=SourceAcList is a list of source accessions.
+- PC=(Proteome:Component)List is a list of proteome and component pairs in the format ProteomeID:Component.
+
+Additional Notes
+- Fields with multiple values are separated by the pipe symbol |.
+- Square brackets [ ] indicate optional fields.
+
+Examples:
+
+    >UPI0000000AE5 IS30 family transposase OS=Escherichia coli str. K-12 substr. MG1655 OX=511145 GN=insI2|insI3 SS=EMBL:AAC74486|EMBL:AAC77240 PC=UP000000625:Chromosome
+    >UPI0000038DD7 Pantothenate kinase OS=Escherichia coli str. K-12 substr. MG1655 OX=511145 GN=coaA SS=EMBL:AAC76952 PC=UP000000625:Chromosome
+
+
 Related terms: FASTA header, FASTA format
