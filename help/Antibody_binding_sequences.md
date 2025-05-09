@@ -11,6 +11,6 @@ HPA provides antibody data pages for each protein against which they have tested
 
 # Where can I find this data in UniProt?
 
-Antibody binding sequence regions are shown under the ‘Antigenic sequences’ track of the protein entry Feature viewer in the ‘Antibody binding sequences’ sub-track. Selecting an antibody binding region opens a tooltip which displays data specific to this antigen region, including a link to the relevant HPA page.
+Antibody binding sequence regions are shown under the ‘Antigenic sequences’ track of the protein entry Feature viewer in the ‘Antibody binding sequences’ sub-track. Selecting an antibody binding region opens a tooltip which displays data specific to this antigen region, including a link to the relevant HPA page.<br>
+This data can only be found in human entries.<br>
 Example: [Q99959](https://www.uniprot.org/uniprotkb/Q99959/feature-viewer)
-This data can only be found in human entries.
