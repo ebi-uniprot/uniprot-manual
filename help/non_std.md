@@ -9,7 +9,7 @@ This subsection of the 'Sequence' section describes the occurrence of non-standa
 Selenocysteine and pyrrolysine are represented in the sequence using the one-letter codes 'U' for selenocysteine and 'O' for pyrrolysine.
 
 Incorporation of a selenocysteine or of a pyrrolysine in the protein sequence is due to a stop codon read-through event by which the meaning of the stop codon UGA or UAG, respectively, is redefined during the process of translation.  
-Examples: [P24183](https://www.uniprot.org/uniprotkb/P24183) (selenocysteine), [Q8TTA5](https://www.uniprot.org/uniprotkb/Q8TTA5) (pyrrolysine).
+Examples: [P24183](https://www.uniprot.org/uniprotkb/P24183/entry#sequences) (selenocysteine), [Q8TTA5](https://www.uniprot.org/uniprotkb/Q8TTA5/entry#sequences) (pyrrolysine).
 
 This subsection is only present when the incorporation of the non-standard amino acid has been experimentally proven. It can be propagated 'By similarity' to closely related homologs.
 
