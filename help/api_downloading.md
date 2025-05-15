@@ -4,11 +4,11 @@ type: help
 categories: UniProtKB,UniRef,UniParc,Programmatic_access,Download,help
 ---
 
-# Use `X-UniProt-Release-Date` To Avoid Re-Downloading The Same Data Per Release
+# Use `X-UniProt-Release-Date` to avoid re-downloading the same release data
 
 You can use the [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-UniProt-Release-Date:`\* to avoid downloading data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here is an example of how to do this in Perl:
 
-## Download all UniProt sequences for a given organism in FASTA format\*\*
+## Download all UniProt sequences for a given organism in FASTA format
 
 ```perl
 use strict;
@@ -43,7 +43,7 @@ else {
 }
 ```
 
-## Download the UniProt reference proteomes for all organisms below a given taxonomy node in compressed FASTA format\*\*
+## Download the UniProt reference proteomes for all organisms below a given taxonomy node in compressed FASTA format
 
 ```perl
 use strict;
@@ -133,5 +133,3 @@ else {
 
 - [REST API - Access the UniProt website programmatically](https://www.uniprot.org/help/api) (batch retrieval, ID mapping, queries, downloads etc).
 - [How can I (programmatically) obtain the number of results returned by my query?](https://www.uniprot.org/help/entry_count)
-
-\* Before July 2022, the "Last-Modified" header was inaccurately used for this.
