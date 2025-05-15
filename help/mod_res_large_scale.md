@@ -28,7 +28,7 @@ These are proteomics datasets submitted to [PRIDE](https://www.ebi.ac.uk/pride/)
 
 ## Which species is large-scale data available for?
 
-Currently the database contains large-scale PTM data for rice ([Oryza sativa subsp. japonica](https://www.uniprot.org/taxonomy/39947)), [Plasmodium falciparum](https://www.uniprot.org/taxonomy/36329) and [human](https://www.uniprot.org/taxonomy/9606), with future plans to include data for [Arabidopsis thaliana](https://www.uniprot.org/taxonomy/3702), yeast ([Saccharomyces cerevisiae](https://www.uniprot.org/taxonomy/559292)) and [mouse](https://www.uniprot.org/taxonomy/10090).
+For an up to date list of datasets that are available on UniProt as well as datasets that are currently in progress see the [PTMeXchange project](https://www.proteomexchange.org/ptmexchange/index.html) web pages.
 
 # How can I access this data in UniProt?
 
