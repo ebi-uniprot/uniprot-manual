@@ -38,7 +38,7 @@ Sign in using your [ORCID](https://support.orcid.org/hc/en-us) and receive recog
 
 ## Requesting corrections or entry updates.
 
-If you have feedback relating to the content of protein entries, including corrections and requests to update the content of an entry please navigate to the entry in question and use our feedback tab on the right of the screen.
+If you have feedback relating to the content of protein entries, including corrections and requests to update the content of an entry please navigate to the entry in question and use our 'Entry feedback' option at the top of the entry page.
 
 ## For general feedback and queries
 
