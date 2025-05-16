@@ -6,7 +6,7 @@ categories: PTM_processing,manual
 
 This subsection of the [PTM / Processing](https://www.uniprot.org/help/ptm_processing_section) section describes a propeptide, which is a part of a protein that is cleaved during maturation or activation. Once cleaved, a propeptide generally has no independent biological function.
 
-Examples: [P29958](https://www.uniprot.org/uniprotkb/P29958#ptm_processing), [P21588](https://www.uniprot.org/uniprotkb/P21588#ptm_processing)
+Example: [P29958](https://www.uniprot.org/uniprotkb/P29958#ptm_processing)
 
 This subsection is only present when the existence of the propeptide has been demonstrated experimentally in the protein concerned or in a closely related homolog.  
 Example: [Q8WXQ8](https://www.uniprot.org/uniprotkb/Q8WXQ8#ptm_processing)
