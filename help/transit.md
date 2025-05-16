@@ -41,11 +41,11 @@ This information can then be propagated ['By similarity'](https://www.uniprot.or
 Example: [Q0MQG1](https://www.uniprot.org/uniprotkb/Q0MQG1#ptm_processing)
 
 When a protein contains a transit peptide (according to experimental data or its similarity with a family of proteins), but the precise cleavage position has not been experimentally determined, we use a question mark instead of a precise position.  
-Example: [Q6GQ48](https://www.uniprot.org/uniprotkb/Q6GQ48#ptm_processing)
+Example: [P82673](https://www.uniprot.org/uniprotkb/P82673#ptm_processing)
 
 # 2. Annotation of predicted transit peptides:
 
-We also annotate transit peptides which are predicted by the application of the predictive tools [Mitofates](http://mitf.cbrc.jp/MitoFates/cgi-bin/top.cgi), [Predotar](http://urgi.versailles.inra.fr/predotar/predotar.html) and [TargetP](http://www.cbs.dtu.dk/services/TargetP/), but only when such predictions are consistent with the known or presumed subcellular location of the protein concerned. The predicted positions of the transit peptide are annotated with evidence ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).  
+We also annotate transit peptides which are predicted by the application of the predictive tools [Mitofates](http://mitf.cbrc.jp/MitoFates/cgi-bin/top.cgi), [Predotar](https://urgi.versailles.inra.fr/Tools/Predotar) and [TargetP](https://services.healthtech.dtu.dk/services/TargetP-2.0/), but only when such predictions are consistent with the known or presumed subcellular location of the protein concerned. The predicted positions of the transit peptide are annotated with evidence ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).  
 Example: [P91929](https://www.uniprot.org/uniprotkb/P91929#ptm_processing)
 
 # See also
