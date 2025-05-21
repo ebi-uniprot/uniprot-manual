@@ -49,7 +49,7 @@ We annotate both experimentally determined and predicted topological domains.
 # 1. Annotation of experimentally proven topological domains:
 
 Most often, there is proof for the **existence** of transmembrane domains, but not for their **boundaries**. As a consequence, the **extents** of [transmembrane regions](https://www.uniprot.org/help/transmem) and the corresponding neighboring topological domains are predicted. Even when supporting experimental evidence is available for the assignment of a particular region of a protein to a particular cellular compartment, the topological domains of a protein are therefore generally annotated using the evidence ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).  
-Example: [Q96BI3](https://www.uniprot.org/uniprotkb/Q96BI3#subcellular_location)
+Example: [Q8TCT9](https://www.uniprot.org/uniprotkb/Q8TCT9#subcellular_location)
 
 When there is clear experimental proof for the location of the N-terminus or the C-terminus in the cytoplasm (or some other cellular compartment), this is labeled with ['Experimental'](https://www.uniprot.org/help/evidences#ECO:0000269) or ['Curated'](https://www.uniprot.org/help/evidences#ECO:0000305) evidence depending on the level of confidence. In this case, the positions of the topological domains can be propagated to related entries ['By similarity'](https://www.uniprot.org/help/evidences#ECO:0000250) if applicable.  
 Examples: [Q8TCT9](https://www.uniprot.org/uniprotkb/Q8TCT9#subcellular_location) (experimental), [Q9D8V0](https://www.uniprot.org/uniprotkb/Q9D8V0#subcellular_location) (propagated by similarity)
