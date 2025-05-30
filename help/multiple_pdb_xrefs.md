@@ -1,27 +1,19 @@
 ---
-title: Why do I find many cross-references to PDB in UniProtKB/Swiss-Prot? Why do some cross-references appear to describe only a small subsequence of my protein, in complex or interacting with ligands or other proteins?
+title: Why are there multiple cross-references to PDB in a UniProtKB entry?
 type: help
 categories: UniProtKB,Cross-references,3D_structure,faq
 ---
 
-Some proteins are highly popular because they are of medical interest or can be used in biotechnology. As an example, human Thrombin ([P00734](https://www.uniprot.org/uniprotkb/P00734)) has a very important role in blood clotting, and mutations in this protein can cause dysprothrombinemia, a rare inherited blood clotting disorder.
+3D structures convey important experimental evidence on a protein: its secondary structure, how it is folded, which parts of the polypeptide chain are available for interactions with other proteins, and which residues are directly involved in the catalytic activity or in ligand-binding. 
 
-As a consequence, there is more than one cross-reference to PDB because a number of different structures are available for this protein. 
+There is often more than one experimentally determined structure available for a protein and this results in multiple cross-references to [PDB](https://www.ebi.ac.uk/pdbe), one for each available structure or PDB entry. 
 
-Thrombin structures differ for a number of reasons: 
-1) their resolutions are not the same, 
-2) some structures apply to the apoprotein while some others apply to the Thrombin complexed with various ligands,
-3) different structures cover different chains, and different sequence ranges.
+These structures may be different to each other for various reasons:
+1) They are solved by different experimental methods and have different resolutions. This may lead to different regions of the sequence observable in different structures.
+2) Some structures consist of the apoprotein while others are protein complexes bound to various ligands or other interacting partners (proteins or nucleic acids).
+3) Some structures consist of the wild-type protein while others may contain mutations or other modifications in the sequence.
+4) Some structures consist of the full-length protein while others may only cover a specific region or domain of the full protein, depending on the constructs used by the structural biologists.
 
-The following structures represent Thrombin complexed with 4 different inhibitors: [1A2C](https://www.rcsb.org/structure/1A2C), [1A3B](https://www.rcsb.org/structure/1A3B), [1A3E](https://www.rcsb.org/structure/1A3E), [1A46](https://www.rcsb.org/structure/1A46). What is more, scientists have also studied the 3D structures of various mutants.
+Given these differences, these structures might provide different information and therefore all should be considered.
 
-3D structures convey important experimental evidence on a protein: its secondary structure, how it is folded, which parts of the polypeptide chain are available for interactions with other proteins, which residues are directly involved in the catalytic activity, in metal-binding, etc.
-
-It is therefore essential to look at the sequence range coverered by each of the available structures in order to be able to choose one that is most relevant to the portion of the sequence you want to study.
-
-Because 3D structures are so important, we endeavour to be as up-to-date as possible and to show all available cross-references to PDB from proteins in our knowledgebase.
-
-# See also
-
-[3D-structure annotation in UniProtKB/Swiss-Prot](https://www.uniprot.org/help/3d-structure_annotation_in_swiss-prot)  
-[Structure section](https://www.uniprot.org/help/structure_section)
+For more information, please see [‘Structural annotation in UniProt’](https://www.uniprot.org/help/structure_section).
