@@ -33,7 +33,7 @@ AlphaFold models for proteins longer than 2,700 (UniProtKB/SwissProt entries) or
 
 
 
-## Description of structure table contents;
+## Description of structure table contents
 
 |                                                                                 |                                                                                 |
 |:--------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ AlphaFold models for proteins longer than 2,700 (UniProtKB/SwissProt entries) or
 Multiple experimentally determined structures may be available for one protein (see the [PDB cross-reference help page](https://www.uniprot.org/help/multiple_pdb_xrefs)). These structures may cover different ranges of the sequence, depending on the experimental method and the construct used to determine the structure. The sequence coverage of different structures are shown in the PDBe 3D structure coverage track of the protein feature viewer.<br>
 Example: [Q9H165](https://www.uniprot.org/uniprotkb/Q9H165/feature-viewer). 
 
-## AlphaMissense prediction of genetic variation consequence.
+## AlphaMissense prediction of genetic variation consequence
 [AlphaFold missense](https://alphamissense.hegelab.org/) is a machine-learning derived prediction of the likelihood of a human missense genetic variant being pathogenic (disease-causing) or benign (limited effect). It is a culmination of two types of data, amino acid residue evolutionary conservation and structural context of the residue based on AlphaFold2 predictions. <br>
 
 Pathogenicity scores are calculated per amino acid substitution in a heatmap visualization in the ‘AlphaMissense Pathogenicity’ track of the feature viewer. The higher the score (red) the more likely the variant is predicted to be pathogenic. These scores are then used to calculate an average likely pathogenicity score for each amino acid position within the protein sequence. This can be found in the ‘Average pathogenicity score’ track.<br>
