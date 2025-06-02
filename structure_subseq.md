@@ -17,6 +17,6 @@ For each structure the sequence coverage is shown in two locations:
 
 Multiple experimentally determined structures may be available for one protein (see the [PDB cross-reference help page](https://www.uniprot.org/help/multiple_pdb_xrefs)). These structures may cover different ranges of the sequence.
 Positions annotated in the [Structure section](https://www.uniprot.org/help/structure_section) of the entry refer to the protein sequence of the construct used to determine the structure. This can be longer than the observable sequence in the structure. It is useful to check the sequence coverage of different structures in the ‘PDBe 3D structure coverage’ track of the protein feature viewer to see if the sequence of interest is included in the structure.<br>
-Example:[Q9H165](https://www.uniprot.org/uniprotkb/Q9H165/feature-viewer).
+Example: [Q9H165](https://www.uniprot.org/uniprotkb/Q9H165/feature-viewer).
 
 For more information, please see [‘Structural annotation in UniProt’](https://www.uniprot.org/help/structure_section).
