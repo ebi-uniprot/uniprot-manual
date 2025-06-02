@@ -7,14 +7,15 @@ categories: 3D_structure,manual
 ## Why are protein structures informative?
 
 Protein structures can impart a wealth of information, for example they can:
-- Provide residual-level details that are not available from other techniques, including:
-     - Interactions with ligands and active sites
-     - Post-translational modifications
-     - Pathogenic mutations
+
 - Inform the architecture of multimeric complexes, including the interactions with other proteins, nucleic acids, carbohydrates and lipids
 - Reveal the topological arrangement and transmembrane domains
 - Prove the existence of specific protein folds and provide insights on protein folding
 - Confirm and provide a structural explanation of a protein’s functional role
+- Provide residual-level details that are not available from other techniques, including:
+     - Interactions with ligands and active sites
+     - Post-translational modifications
+     - Pathogenic mutations
 
 Related keyword: [3D-structure](https://www.uniprot.org/keywords/KW-0002)
 
@@ -43,7 +44,7 @@ AlphaFold models for proteins longer than 2,700 (UniProtKB/SwissProt entries) or
 | Resolution                                                                      | Effective resolution of the refinement by X-ray or EM. |
 | Chain                                                                           | A structure may consist of multiple entities (including proteins and nucleic acids) and each copy of an entity is assigned to a chain identifier in PDB. Not all the chains are shown for large structures, please refer to the PDB website for the full mapping.|
 | Positions                                                                       |The positions here indicate the construct used to determine the structure. This may vary from the observable sequence in the structure. The same residual-level mapping is used in the [SIFTS project](https://www.ebi.ac.uk/pdbe/docs/sifts/).|
-
+<br>
 ## Structure coverage
 
 Multiple experimentally determined structures may be available for one protein (see the [PDB cross-reference help page](https://www.uniprot.org/help/multiple_pdb_xrefs)). These structures may cover different ranges of the sequence, depending on the experimental method and the construct used to determine the structure. The sequence coverage of different structures are shown in the PDBe 3D structure coverage track of the protein feature viewer.<br>
