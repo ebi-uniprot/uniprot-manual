@@ -44,7 +44,7 @@ AlphaFold models for proteins longer than 2,700 (UniProtKB/SwissProt entries) or
 | Resolution                                                                      | Effective resolution of the refinement by X-ray or EM. |
 | Chain                                                                           | A structure may consist of multiple entities (including proteins and nucleic acids) and each copy of an entity is assigned to a chain identifier in PDB. Not all the chains are shown for large structures, please refer to the PDB website for the full mapping.|
 | Positions                                                                       |The positions here indicate the construct used to determine the structure. This may vary from the observable sequence in the structure. The same residual-level mapping is used in the [SIFTS project](https://www.ebi.ac.uk/pdbe/docs/sifts/).|
-
+  
 
     
 ## Structure coverage
