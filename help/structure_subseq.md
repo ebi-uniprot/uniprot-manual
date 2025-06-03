@@ -1,4 +1,3 @@
-
 ---
 title: Why do some structures only show a portion of the protein sequence?
 type: help
