@@ -21,13 +21,13 @@ You can access the ID mapping tool directly from various sections of the UniProt
 
 ## The ID mapping job submission form
 
-### Input sequences
+### Input identifiers
 
-You can submit sequences in multiple ways:
+You can submit identifiers in multiple ways:
 
 * Pre-populated e.g. from selections made in your search results or your basket.  
-* Sequence identifiers entered manually, separated by whitespace (space, tab, newline) or commas.  
-* Text file upload: Upload a text file containing the sequence IDs to map in a comma separated format.
+* Entry identifiers entered manually, separated by whitespace (space, tab, newline) or commas.  
+* Text file upload: Upload a text file containing the entry IDs to map in a comma separated format.
 
 Supported UniProt identifiers include:
 
@@ -69,7 +69,7 @@ In essence, you provide a list of IDs in the "From" database format, and ID mapp
 
 ### Job name
 
-By default, the job name is auto-generated based on the submitted sequences. Customising the name will allow you to find your ID Mapping results quickly in your tools dashboard.
+By default, the job name is auto-generated based on the submitted identifiers. Customising the name will allow you to find your ID Mapping results quickly in your tools dashboard.
 
 ## Programmatic Access for ID Mapping
 
