@@ -1,22 +1,20 @@
 ---
-title: ID Mapping
+title: Programmatic Access for ID Mapping
 type: help
 categories: Text_search,Technical,Website,help
 ---
 
-To explore and try out the ID Mapping services, please refer to:
+To explore and try out the ID mapping services on the website, please refer to the [ID mapping website tool](https://www.uniprot.org/id-mapping).  
+For technical documentation for the ID mapping API, please refer to our [Swagger document](https://www.uniprot.org/api-documentation/idmapping).
 
-- The [ID Mapping website tool](https://www.uniprot.org/id-mapping)
+## Overview
 
-# Overview
+The ID mapping service can map between the identifiers used in one database, to the identifiers of another, e.g.,
+from UniProt to Ensembl, or to PomBase, etc. If you map to UniProtKB, UniParc or UniRef data, the full entries will be returned to you for convenience.
 
-The ID Mapping service can map between the identifiers used in one database, to the identifiers of another, e.g.,
-from UniProt to Ensembl, or to PomBase, etc. If you map to UniProtKB, UniParc or UniRef data, the full entries will be returned to you
-for convenience.
+This document serves as a basic guide to using the ID mapping services offered.
 
-This document serves as a basic guide to using the ID Mapping services offered.
-
-# Submitting an ID Mapping job
+## Submitting an ID mapping job
 
 > POST /idmapping/run
 
@@ -28,7 +26,7 @@ For example, to map UniProtKB entries P21802, P12345, we could POST a request to
 > % curl --request POST 'https://rest.uniprot.org/idmapping/run' --form 'ids="P21802,P12345"' --form 'from="UniProtKB_AC-ID"' --form 'to="UniRef90"'
 > ```
 >
-> **Reponse**
+> **Response**
 >
 > ```bash
 > {"jobId":"27a020f6334184c4eb382111fbcad0e848f40300"}
@@ -40,7 +38,7 @@ Be sure to take note of the `jobId`. This will be used later to:
 - fetch/download the results
 - get details about the job
 
-# Various limits on ID Mapping Job Submission
+## Various limits on ID mapping job submission
 
 | **Limit** |                                    **Details**                                     |
 |:---------:| :--------------------------------------------------------------------------------: |
@@ -51,7 +49,7 @@ Be sure to take note of the `jobId`. This will be used later to:
 
 Note: Very large mapping requests are likely to fail. Please do verify that your list does not contain any duplicates, and try to split it into smaller chunks in case of problems. If you prefer to run your mapping locally, you can also [download the data underlying this service](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/).
 
-# Valid _from_ and _to_ databases pairs
+## Valid _from_ and _to_ databases pairs
 
 You can map `from` one database `to` another database. To find the name of all the possible valid databases pairs (both from and to), use the below curl command:
 
@@ -91,7 +89,7 @@ It has the following attributes:
 - taxonId: Boolean flag indicating whether a third optional param `taxId`(Taxonomy Id) is allowed in API requests
   in addition to the `from` and `to` request parameters.
 
-## Example: finding which databases UniParc identifiers can be mapped to
+### Example: finding which databases UniParc identifiers can be mapped to
 
 1. Given the response from the above request and looking within the `groups.items` entities, find an
    item where `displayName` or `name` matches `UniParc` and, importantly, `from` is `true`. The relevant `item` is:
@@ -153,7 +151,7 @@ Giving a concrete example:
    --form 'to="UniProtKB"'
 ```
 
-# Polling the status of a job
+## Polling the status of a job
 
 > GET /idmapping/status/{jobId}
 
@@ -180,9 +178,9 @@ Continuing the above example, we can use the `jobId` to find out the status of t
 Note that the `jobStatus` is finished, indicating that the job's results are ready to be fetched. Note also the [HTTP 303](https://httpstatuses.com/303)
 header that indicates the results can be retrieved via the URL in the `Location` header.
 
-# Fetching the results of a job
+## Fetching the results of a job
 
-## Paged results
+### Paged results
 
 The results of a job can be retrieved one page at a time using one of following end-points:
 
@@ -223,7 +221,7 @@ using a [bigger page size](https://www.uniprot.org/help/api_queries#tips) and/or
 
 Alternatively, the stream endpoint detailed in the next section can be used.
 
-## Downloading results
+### Downloading results
 
 Downloading the results of a job is achieved via one of the following end-points:
 
@@ -256,7 +254,7 @@ Continuing our [example above](#example), we would download the results by makin
 > **NOTE** to add the content-disposition header, e.g., so that a download file dialogue appears in a browser, include
 > the request parameter, `download=true`.
 
-## Warnings and errors for /results
+### Warnings and errors for /results
 
 | **Problem Type** | **Code** |                                             **Message**                                             |
 | :--------------: | :------: |:---------------------------------------------------------------------------------------------------:|
@@ -267,7 +265,7 @@ Continuing our [example above](#example), we would download the results by makin
 
 <br>
 
-# Fetching details about a job
+## Fetching details about a job
 
 Details of a submitted job, including the `from`, `to` and `ids` to map, can be obtained via this end-point:
 
@@ -293,7 +291,7 @@ For example:
 > }
 > ```
 
-# Python example
+## Python example
 
 ```
 import re
@@ -487,7 +485,7 @@ print(results)
 
 If a job has been submitted from the website you can download these programmatically:
 
-1. From the ID Mapping results page click `Download`
+1. From the ID mapping results page click `Download`
 2. Select the desired file format and if a tabular format is selected fields can be selected and reordered
 3. Click `Generate URL for API`
 4. There are two choices for the URL:
@@ -531,7 +529,7 @@ def get_data_frame_from_xlsx_results(xlxs_results):
 
 ```
 
-# R example
+## R example
 
 ```
 library(httr)

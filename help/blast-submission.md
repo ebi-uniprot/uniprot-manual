@@ -14,7 +14,7 @@ BLAST then assigns a score to each match and calculates an E-value to indicate t
 
 BLAST tool search results are saved in your [tools dashboard](https://www.uniprot.org/tool-dashboard) for a maximum of 7 days. Even after 7 days the job can be resubmitted from the tools dashboard with the same parameters.
 
-## Where to Find the BLAST Tool
+## Where to find the BLAST tool
 
 You can [access the BLAST tool](https://www.uniprot.org/blast) directly from various sections of the UniProt website:
 
@@ -23,9 +23,9 @@ You can [access the BLAST tool](https://www.uniprot.org/blast) directly from var
 - **UniProtKB, UniRef and UniParc results pages**: directly from search results by selecting the results of interest and then selecting BLAST in the 'Tools' dropdown menu.
 - **UniProtKB entry page**: in the sequences section you can BLAST isoforms of a specific protein entry.
 
-## Job Submission Form
+## Job submission form
 
-### Input Sequences
+### Input sequences
 
 You can submit sequences in multiple ways:
 
@@ -54,7 +54,7 @@ You can also submit **subsequences** when using the FASTA format:
 FVNQHLCGSHLVEALYLVCGERGFFYTPKT
 `````
 
-### Choosing the Right Target Database
+### Choosing the correct target database
 
 Choose the correct target database for your use case, this will determine the search space for your BLAST search and significantly affect the results that are returned to you.
 
@@ -75,18 +75,18 @@ Target Database Descriptions
 
 <br>
 
-### Restrict by Taxonomy
+### Restrict by taxonomy
 
 Whenever possible limit your search to specific taxonomic groups by using this option, specifying taxonomy will reduce BLAST search time and focus your results on a taxonomy or taxonomic group of interest.
 
 It is possible to focus on matches within a specific clade or species, and is useful for narrowing results to homologs from certain lineages, e.g., mammals, bacteria, or plants.
 Use the text input box to search and select taxonomic groups.
 
-### Job Name
+### Job name
 
 By default, the job name is auto-generated based on the submitted sequences. Customising the name will allow you to find your BLAST results quickly in your tools dashboard.
 
-### Advanced Parameters
+### Advanced parameters
 
 | **Option**             | **Description**                       |
 |------------------------|---------------------------------------|
