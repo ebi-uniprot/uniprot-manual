@@ -44,7 +44,7 @@ Related keyword: [Disease variant](https://www.uniprot.org/keywords/KW-0225)
 # 3. RNA editing
 
 RNA editing events include conversion, insertion and deletion of nucleotides. We annotate only those RNA editing events that change the protein sequence. Silent events are not annotated. For partial RNA editing events, we show the translation of the underlying genomic DNA sequence and indicate the potential amino acid change due to RNA editing in the 'Natural variant' subsection and in the 'Sequence and Isoform subsection.  
-Example: [P28335 - Sequence and Isoform section](https://www.uniprot.org/uniprotkb/P28335#sequences), [P28335 - Natural variant](https://www.uniprot.org/uniprotkb/P28335/entry#disease_variants).
+Example: [P28335 - Sequence and Isoform section](https://www.uniprot.org/uniprotkb/P28335#sequences), [P28335 - Natural variant section](https://www.uniprot.org/uniprotkb/P28335/entry#disease_variants).
 
 Additional information on RNA editing events can be found in the ['RNA editing'](https://www.uniprot.org/help/rna_editing) help page.
 
