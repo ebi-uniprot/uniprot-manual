@@ -35,7 +35,9 @@ Supported UniProt identifiers include:
 | ----- | ----- | ----- |
 | UniProt AC/ID | P00750 | UniProt provides protein sequence and functional information. Each entry is assigned a stable accession number (e.g., P05067) that uniquely identifies a specific protein. UniProt entries may be from UniProtKB/Swiss-Prot (reviewed) or UniProtKB/TrEMBL (unreviewed). |
 | UniParc | UPI0000000001 | UniParc stores all unique protein sequences, regardless of source. Each unique sequence gets a UPI (UniParc Identifier) (e.g., UPI000000000B) that never changes, even if the sequence is later modified or removed in other databases. It ensures sequence-level tracking. |
-| UniRef100<br>UniRef90<br>UniRef50 | UniRef100\_P00750 UniRef90\_A0A009GNA4 UniRef50\_A0A009HQ86 | UniRef groups similar protein sequences to reduce redundancy.  Identifiers are prefixed by the cluster type: UniRef100: Identical sequences (e.g., UniRef100\_A0A001) UniRef90: Sequences with ≥90% identity (e.g., UniRef90\_A0A009GNA4) UniRef50: Sequences with ≥50% identity (e.g., UniRef50\_A0A009HQ86) Each cluster is represented by a stable UniRef ID derived from a representative UniProt entry.  |
+| UniRef100<br>UniRef90<br>UniRef50 | UniRef100\_P00750 UniRef90\_A0A009GNA4 UniRef50\_A0A009HQ86 | UniRef groups similar protein sequences to reduce redundancy.  Identifiers are prefixed by the cluster type.<br>UniRef100: Identical sequences (e.g., UniRef100\_A0A001)<br>UniRef90: Sequences with ≥90% identity (e.g., UniRef90\_A0A009GNA4)<br>UniRef50: Sequences with ≥50% identity (e.g., UniRef50\_A0A009HQ86)<br>Each cluster is represented by a stable UniRef ID derived from a representative UniProt entry.  |
+
+<br>
 
 You may submit up to a maximum of 100,000 IDs for mapping.
 
@@ -67,6 +69,8 @@ In essence, you provide a list of IDs in the "From" database format, and ID mapp
 | Gene expression databases | CollecTF |
 | Family and domain databases | DisProt, IDEAL |
 
+<br>
+
 ### Job name
 
 By default, the job name is auto-generated based on the submitted identifiers. Customising the name will allow you to find your ID Mapping results quickly in your tools dashboard.
@@ -75,5 +79,5 @@ By default, the job name is auto-generated based on the submitted identifiers. C
 
 ID mapping is also available programmatically. For documentation regarding programmatic access and API usage, please refer to the links below:
 
-* [Programmatic access for ID mapping](https://www.uniprot.org/help/id_mapping)  
+* [Programmatic access for ID mapping](https://www.uniprot.org/help/id_mapping_prog)  
 * [UniProt API](https://www.uniprot.org/api-documentation/idmapping)
