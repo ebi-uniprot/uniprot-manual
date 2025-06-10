@@ -105,7 +105,7 @@ Where:
 - _OrganismName_ is the scientific name of the proteome's source organism.
 - _OrganismIdentifier_ is the [unique identifier of the proteome's source organism, assigned by the NCBI](https://www.uniprot.org/help/taxonomic_identifier).
 - _GeneNameList_ is an optional list of gene names.
-- _UniProtKBAcList_ is an optional list of UniProtKB primary UniProtKB accession numbers.
+- _UniProtKBAcList_ is an optional list of UniProtKB primary accession numbers.
 - _SourceIdList_ is the list of 'Source Sequence' identifiers in the UniParc entry that are linked to the requested proteome. These are the identifiers of the proteins that are annotated on the associated genome records from EMBL, Ensembl or RefSeq.
 - _Proteome:ComponentList_ is the identifier of the requested proteome, separated by ':' from a list of the components where the genes are encoded.
 
@@ -117,7 +117,6 @@ Examples:
 
 Sequence that exists in UniProtKB: protein and gene name come from the UniProtKB entry (AC=P37636):
   
-    >UPI000013B286 Multidrug resistance protein MdtE OS=Escherichia coli (strain K12) OX=83333 GN=mdtE AC=P37636 SS=EMBL:AAC76538 PC=UP000000625:Chromosome
     >UPI000013B286 Multidrug resistance protein MdtE OS=Escherichia coli (strain K12) OX=83333 GN=mdtE AC=P37636 SS=EMBL:AAC76538 PC=UP000000625:Chromosome
     
 Sequence that does not exist in UniProtKB: protein and gene name come from the 'Source Sequence' entry (SS=EMBL:CQR80801):
