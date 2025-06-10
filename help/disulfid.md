@@ -4,7 +4,7 @@ type: help
 categories: PTM_processing,manual
 ---
 
-This subsection of the PTM / Processing":/help/ptm_processing_section section describes the positions of cysteine residues participating in disulfide bonds.
+This subsection of the PTM / Processing section describes the positions of cysteine residues participating in disulfide bonds.
 
 Disulfide bond formation generally occurs in the endoplasmic reticulum by oxidation. Therefore disulfide bonds are mostly found in extracellular, secreted and periplasmic proteins, although they can also be formed in cytoplasmic proteins under conditions of oxidative stress.
 
