@@ -8,7 +8,7 @@ date: 2099-01-01
 
    * [Change of URIs for taxonomic ranks in RDF](#change-of-uris-for-taxonomic-ranks-in-rdf) - **On June 18, 2025**
    * [Change of URIs for the PROSITE database in RDF](#change-of-uris-for-the-prosite-database-in-rdf) - **On June 18, 2025**
-   * [Introduction of explicit links between citations and their retraction notice in UniProt RDF](#introduction-of-explicit-links-between-citations-and-their-retraction-notice-in-uniprot-rdf) - **On June 18, 2025**
+   * [Introduction of explicit links between citations and their retraction notice in UniProt RDF](#introduction-of-explicit-links-between-citations-and-their-retraction-notice-in-uniprot-rdf) - **On August 27, 2025**
 
 ### Change of URIs for taxonomic ranks in RDF
 
