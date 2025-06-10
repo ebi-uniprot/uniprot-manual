@@ -15,7 +15,7 @@ We provide additional information concerning the modification, such as:
 1.  the **form of the protein** which undergoes the modification; this may be either a specific **isoform**, a particular **processed or modified form** of the protein, or a specific **sequence variant** ;  
     Examples: [P41500](https://www.uniprot.org/uniprotkb/P41500#ptm_processing) (isoform), [P84715](https://www.uniprot.org/uniprotkb/P84715#ptm_processing) (processed form), [P68871](https://www.uniprot.org/uniprotkb/P68871#ptm_processing) (sequence variant)
 2.  the **enzyme** which carries out the modification ('by...'). For proteins of infectious organisms, such as viruses, phages and bacteria, we also indicate whether the modification is carried out by a **host** protein;  
-    Examples: [P03279](https://www.uniprot.org/uniprotkb/P03279#ptm_processing) (modifying enzyme indicated), [Q53EZ4](https://www.uniprot.org/uniprotkb/Q53EZ4#ptm_processing) (viral protein modified by host protein)
+    Examples: [Q53EZ4](https://www.uniprot.org/uniprotkb/Q53EZ4#ptm_processing) (modifying enzyme indicated), [P03279](https://www.uniprot.org/uniprotkb/P03279#ptm_processing) (viral protein modified by host protein)
 3.  information on the **frequency** of the modification or the **relationship with another feature** ('partial', 'alternate', 'transient'). The term **'partial'** indicates that not all protein molecules are modified, **'alternate'** means that the same amino acid can be modified in more than one way, and **'transient'** is applied to exceptional cases of otherwise stable modifications. For partial modifications, we do not propagate this comment to homologous proteins and we do not specify the fraction of proteins modified, as this may depend on the experimental conditions.  
     Examples: [P16157](https://www.uniprot.org/uniprotkb/P16157#ptm_processing) (partial modification), [Q9UKV3](https://www.uniprot.org/uniprotkb/Q9UKV3#ptm_processing) (alternate modification), [Q9FX54](https://www.uniprot.org/uniprotkb/Q9FX54#ptm_processing) (transient modification)
 
@@ -31,12 +31,12 @@ We annotate experimentally determined sites of modification. These are propagate
 
 Propagation is generally restricted to closely related species, e.g. among mammals or bacteria from the same taxonomic group. We usually do not propagate information concerning modified residues among plants or unicellular fungi. Specific details regarding the type of modification may be generalized during propagation. For instance, a particular lysine can be subjected to mono-or dimethylation in _E.coli_ strain K12, but this information is not propagated to the _E.coli_ O157:H7 orthologous entry, where we simply indicate that methylation occurs.  
 
-Example: [P0CE47](https://www.uniprot.org/uniprotkb/P0CE47#ptm_processing) (source entry), [P0A6N3(https://www.uniprot.org/uniprotkb/P0A6N3#ptm_processing) (orthologous entry)
+Example: [P0CE47](https://www.uniprot.org/uniprotkb/P0CE47#ptm_processing) (source entry), [P0A6N3](https://www.uniprot.org/uniprotkb/P0A6N3#ptm_processing) (orthologous entry)
 
 **Sites that are not modified**
 
-When a site is found not to be modified, and if this is of biological significance, we indicate it in the 'Site' subsection. This information is not propagated in related entries.  
-Examples: [Q10471](https://www.uniprot.org/uniprotkb/Q10471#ptm_processing), [P62152](https://www.uniprot.org/uniprotkb/P62152#ptm_processing), [P32457](https://www.uniprot.org/uniprotkb/P32457#ptm_processing), [P07173](https://www.uniprot.org/uniprotkb/P07173#ptm_processing).
+When a site is found not to be modified, and if this is of biological significance, we indicate it in the 'Site' subsection of the features table. This information is not propagated in related entries.  
+Examples: [Q10471](https://www.uniprot.org/uniprotkb/Q10471/entry#function), [P62152](https://www.uniprot.org/uniprotkb/P62152/entry#function), [P32457](https://www.uniprot.org/uniprotkb/P32457/entry#function), [P07173](https://www.uniprot.org/uniprotkb/P07173/entry#function).
 
 **Unknown sites bearing unknown modifications**
 
@@ -170,7 +170,7 @@ This modification has been observed in eukaryotes (including mammals, plants, in
 Synonyms: pyrrolidone carboxylic acid (Pca), pyroglutamic acid (Pga), pyroglutamate (pyro-Glu, pGlu, Pyr).  
 _Note_ : Pyro-Glu is often indicated in papers as 'pGlu' and sometimes, in one-letter code as "U", although this is now used for selenocysteine. In figures of publications, it may be cited as Z, pQ or E.
 
-Examples: [P30233](https://www.uniprot.org/uniprotkb/P30233#ptm_processing), [P68000](https://www.uniprot.org/uniprotkb/P68000#ptm_processing), [P02945](https://www.uniprot.org/uniprotkb/P02945#ptm_processing)
+Examples: [P30233](https://www.uniprot.org/uniprotkb/P30233#ptm_processing), [P02945](https://www.uniprot.org/uniprotkb/P02945#ptm_processing)
 
 Related keyword: [Pyrrolidone carboxylic acid](https://www.uniprot.org/keywords/873)
 
@@ -217,7 +217,7 @@ Examples: [Q5E9E3](https://www.uniprot.org/uniprotkb/Q5E9E3#ptm_processing), [P6
 
 **3-hydroxyproline**
 
-Examples: [P30754](https://www.uniprot.org/uniprotkb/P30754#ptm_processing), [Q9S8M0](https://www.uniprot.org/uniprotkb/Q9S8M0#ptm_processing), [Q16665](https://www.uniprot.org/uniprotkb/Q16665#ptm_processing)
+Examples: [P30754](https://www.uniprot.org/uniprotkb/P30754#ptm_processing), [Q16665](https://www.uniprot.org/uniprotkb/Q16665#ptm_processing)
 
 The information on hydroxyproline may be propagated 'By similarity' to closely related organisms.
 
@@ -259,13 +259,13 @@ Example: [Q7LZ52](https://www.uniprot.org/uniprotkb/Q7LZ52#ptm_processing)
 Examples: [Q01974](https://www.uniprot.org/uniprotkb/Q01974#ptm_processing), [Q8IIJ9](https://www.uniprot.org/uniprotkb/Q8IIJ9#ptm_processing)
 
 We annotate not only experimentally determined sites of tyrosine sulfation (as well as that on serine and threonine residues), but also tyrosine sulfation sites predicted with the ['Sulfinator'](http://web.expasy.org/sulfinator/) tool. Sulfation prediction is taken into account only when this modification is known to occur on the protein concerned but the exact site is not known. The annotation of a predicted site is flagged with 'Sequence Analysis' (Sequence Model).  
-Example: [P30443](https://www.uniprot.org/uniprotkb/P30443#ptm_processing)
+Example: [P04439](https://www.uniprot.org/uniprotkb/P04439/entry#ptm_processing)
 
 # 9. Flavin-binding
 
 Enzymes involved in electron transport, oxidation and reduction often contain a flavin group (flavin mononucleotide \[FMN\]) or flavin adenine dinucleotide \[FAD\]) as a cofactor. When the cofactor is covalently bound to the protein, this is considered as a post-translational modification and is annotated in the 'Amino acid modifications' subsection. When the cofactor is not covalently bound, the binding region is annotated in the ['Binding'](https://www.uniprot.org/help/binding) subsection. The flavin can be transferred to the hydroxyl group of a serine, threonine or tyrosine, to the one or the other nitrogen of a histidine or to the sulfhydryl group of a cysteine. Flavin-binding has been observed in all organisms.
 
-Examples: [P21398](https://www.uniprot.org/uniprotkb/P21398#ptm_processing), [P09788](https://www.uniprot.org/uniprotkb/P09788#ptm_processing), [Q9UI17](https://www.uniprot.org/uniprotkb/Q9UI17#ptm_processing), [Q752Y3](https://www.uniprot.org/uniprotkb/Q752Y3#ptm_processing), [Q9K0M5](https://www.uniprot.org/uniprotkb/Q9K0M5#ptm_processing), [Q9KPS2](https://www.uniprot.org/uniprotkb/Q9KPS2#ptm_processing), [O34627](https://www.uniprot.org/uniprotkb/O34627#ptm_processing), [Q48303](https://www.uniprot.org/uniprotkb/Q48303#ptm_processing), [P40875](https://www.uniprot.org/uniprotkb/P40875#ptm_processing)
+Examples: [P21398](https://www.uniprot.org/uniprotkb/P21398#ptm_processing), [P09788](https://www.uniprot.org/uniprotkb/P09788#ptm_processing), [Q752Y3](https://www.uniprot.org/uniprotkb/Q752Y3#ptm_processing), [Q9K0M5](https://www.uniprot.org/uniprotkb/Q9K0M5#ptm_processing), [Q9KPS2](https://www.uniprot.org/uniprotkb/Q9KPS2#ptm_processing), [O34627](https://www.uniprot.org/uniprotkb/O34627#ptm_processing), [Q48303](https://www.uniprot.org/uniprotkb/Q48303#ptm_processing), [P40875](https://www.uniprot.org/uniprotkb/P40875#ptm_processing)
 
 Related keywords: [Flavoprotein](https://www.uniprot.org/keywords/285), [FAD](https://www.uniprot.org/keywords/274), [FMN](https://www.uniprot.org/keywords/288)
 
@@ -280,7 +280,7 @@ In response to severe oxidative stress, cysteines are irreversibly oxidized to c
 
 ## Sulfenic and sulfinic acid
 
-Examples: [P13448](https://www.uniprot.org/uniprotkb/P13448#ptm_processing), [P03122](https://www.uniprot.org/uniprotkb/P03122#ptm_processing)
+Example: [P13448](https://www.uniprot.org/uniprotkb/P13448#ptm_processing)
 
 Related keyword: [Oxidation](https://www.uniprot.org/keywords/558)
 
