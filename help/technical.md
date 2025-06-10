@@ -4,7 +4,7 @@ type: help
 categories: Technical,Programmatic_access,UniProtKB,Website,help
 ---
 
-[UniProtKB entry view manual](https://www.uniprot.org/help?facets=category:manual)  
+[UniProtKB entry view manual](https://www.ebi.ac.uk/training/online/courses/uniprot-exploring-protein-sequence-and-functional-info/)  
 User manual for the UniProtKB entry view.
 
 [UniProtKB flat file manual](https://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/complete/docs/userman.htm)  
