@@ -6,42 +6,7 @@ date: 2099-01-01
 
 **Table of contents**
 
-   * [Change of URIs for taxonomic ranks in RDF](#change-of-uris-for-taxonomic-ranks-in-rdf) - **On June 18, 2025**
-   * [Change of URIs for the PROSITE database in RDF](#change-of-uris-for-the-prosite-database-in-rdf) - **On June 18, 2025**
    * [Introduction of explicit links between citations and their retraction notice in UniProt RDF](#introduction-of-explicit-links-between-citations-and-their-retraction-notice-in-uniprot-rdf) - **On August 27, 2025**
-
-### Change of URIs for taxonomic ranks in RDF
-
-The NCBI [replaced the taxonomic rank 'Superkingdom' by the new ranks 'Domain' and 'Realm'](https://ncbiinsights.ncbi.nlm.nih.gov/2025/02/27/new-ranks-ncbi-taxonomy/). We use this opportunity to change the URIs of all ranks by adding the prefix ```Taxonomic_Rank_``` to add context to terms like 'Domain' that can have several meanings in the context of UniProt. For instance,
-
-```<owl:Thing rdf:about="http://purl.uniprot.org/core/Species">```
-
-will be changed to:
-
-```<owl:Thing rdf:about="http://purl.uniprot.org/core/Taxonomic_Rank_Species">```
-
-### Change of URIs for the PROSITE database in RDF
-
-For historic reasons, UniProt had to generate URIs to cross-reference databases that did not have an RDF representation or did not provide stable URIs such as [PURLs](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) (permanent uniform resource locators). The SIB Swiss Institute of Bioinformatics has now committed to provide stable URIs for the resources that it supports. [PROSITE](https://prosite.expasy.org/) is now also using this service, therefore we will change the PROSITE URIs accordingly:
-
-The links to PROSITE signatures (used in UniProtKB cross-references and in UniParc) will change from:
-
-```
-http://purl.uniprot.org/prosite/PS50835
-```
-to:
-```
-https://purl.expasy.org/prosite/signature/PS50835
-```
-
-The links to PROSITE annotation rules (aka: ProRule as used in UniProtKB attributions) will change from:
-```
-http://purl.uniprot.org/prosite-prorule/PRU00114
-```
-to:
-```
-https://purl.expasy.org/prosite/rule/PRU00114
-```
 
 ### Introduction of explicit links between citations and their retraction notice in UniProt RDF
 
