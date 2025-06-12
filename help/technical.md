@@ -7,8 +7,8 @@ categories: Technical,Programmatic_access,UniProtKB,Website,help
 [UniProt online tutorial](https://www.ebi.ac.uk/training/online/courses/uniprot-exploring-protein-sequence-and-functional-info/)  
 Online tutorial about the UniProt databases and website.
 
-[UniProtKB entry view manual](https://www.uniprot.org/help?facets=category:manual)  
-User manual for the UniProtKB entry view.
+[UniProtKB entry view manual](https://www.uniprot.org/help?query=category%3Amanual)  
+User manual for the UniProtKB entry view (list of articles).
 
 [UniProtKB flat file manual](https://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/complete/docs/userman.htm)  
 User manual for the UniProtKB flat file format.

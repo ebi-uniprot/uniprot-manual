@@ -9,7 +9,7 @@ categories: Biocuration,UniProtKB,Protein_existence,Names_and_taxonomy,help
 This document describes the manual curation procedure used by the UniProt Consortium members. The UniProt manual curation process comprises manual review of results from a range of sequence analysis programs and literature curation of experimental data as well as attribution of all information to its original source.
 
 UniProtKB/Swiss-Prot document: [Standard operating procedure (SOP) for UniProt manual curation](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf)  
-UniProt web page: [UniProt manual annotation program](https://www.uniprot.org/help?facets=category%3Abiocuration%2Ccategory%3Aproject&query=%2A)
+UniProt web page: [UniProt manual annotation program](https://www.uniprot.org/help?query=category%3Abiocuration+AND+category%3Aproject)
 
 [How do we manually annotate a UniProtKB entry?](https://www.uniprot.org/help/manual_curation)  
 [Why is UniProtKB composed of 2 sections, UniProtKB/Swiss-Prot and UniProtKB/TrEMBL?](https://www.uniprot.org/help/uniprotkb_sections)
