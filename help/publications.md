@@ -14,21 +14,25 @@ The UniProt Consortium
 
 ...or choose the publication that best covers the UniProt aspects or components you used in your work:
 
+## 2025
+Ahmad S, da Costa Gonzales L J, Bowler-Barnett E H, Rice D L, Kim M, Wijerathne S, Luciani A, Kandasaamy S, Luo J, Watkins X, Turner E, Martin M J, UniProt Consortium
+**The UniProt website API: facilitating programmatic access to protein knowledge**
+[Nucleic Acids Research, gkaf394 (2025)](https://doi.org/10.1093/nar/gkaf394)
+
 ## 2023
 Coudert E, Gehant S, de Castro E, Pozzato M, Baratin D, Neto T,  Sigrist C J A, Redaschi N, Bridge A, UniProt Consortium.  
 **Annotation of biologically relevant ligands in UniProtKB using ChEBI**  
-[Bioinformatics 39:btac793(2023)](https://doi.org/10.1093/bioinformatics/btac793)
+[Bioinformatics 39:btac793 (2023)](https://doi.org/10.1093/bioinformatics/btac793)
 
 The UniProt Consortium  
 **UniProt: the Universal Protein Knowledgebase in 2023**  
 [Nucleic Acids Res. 51:D523–D531 (2023)](https://doi.org/10.1093/nar/gkac1052)
 
-
 ## 2021
 
 The UniProt Consortium  
 **UniProt: the Universal Protein Knowledgebase in 2021**  
-[Nucleic Acids Res. 49:D480–D489(2021)](https://doi.org/10.1093/nar/gkaa1100)
+[Nucleic Acids Res. 49:D480–D489 (2021)](https://doi.org/10.1093/nar/gkaa1100)
 
 Wang Y, Wang Q, Huang H, Huang W, Chen Y, McGarvey PB, Wu CH, Arighi CN, UniProt Consortium.  
 **A crowdsourcing open platform for literature curation in UniProt**  
@@ -104,7 +108,7 @@ Nightingale A, Antunes R, Alpi E, Bursteinas B, Gonzales L, Liu W, Luo J, Qi G, 
 
 Poux S, Arighi, CN, Magrane M, Bateman A, Wei C-H, Lu Z, Boutet E, Bye-A-Jee H, Famiglietti ML, Roechert B., UniProt Consortium  
 **On expert curation and scalability: UniProtKB/Swiss-Prot as a case study**  
-[Bioinformatics 33:3454-3460](https://academic.oup.com/bioinformatics/article/33/21/3454/3964379 "2017")
+[Bioinformatics 33:3454-3460 (2017)](https://academic.oup.com/bioinformatics/article/33/21/3454/3964379 "2017")
 
 Pundir S, Martin MJ, O'Donovan C.  
 **UniProt Protein Knowledgebase**  

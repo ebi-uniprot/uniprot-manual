@@ -41,7 +41,7 @@ See also: [Evidence](https://www.uniprot.org/help/evidences)
 We define 4 types of single-pass transmembrane proteins in UniProtKB/Swiss-Prot. Each of these 4 topologies is specified according to a controlled vocabulary in the ['Subcellular location'](https://www.uniprot.org/help/subcellular_location_section) subsection.
 
 -   Type I: (N-terminus out): characterized by the feature key: 'Signal peptide' in the ['PTM / Processing'](https://www.uniprot.org/help/ptm_processing_section) section.  
-    Example: [P14778](https://www.uniprot.org/uniprotkb/P14778#subcellular_location)
+    Example: [P14778](https://www.uniprot.org/uniprotkb/P14778/entry#ptm_processing)
 
 -   Type II (N-terminus in): characterized by the description: 'Signal-anchor for type II membrane protein'. The transmembrane region is located close to the N-terminus of the protein and functions as an anchor.  
     Example: [P08195](https://www.uniprot.org/uniprotkb/P08195#subcellular_location)

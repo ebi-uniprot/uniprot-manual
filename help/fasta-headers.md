@@ -4,9 +4,21 @@ type: help
 categories: Technical,Sequence,help
 ---
 
-The following is a description of FASTA headers for UniProtKB (including alternative isoforms), UniRef, UniParc (both generic and for proteomes) and archived UniProtKB versions. NCBI's program formatdb (in particular its -o option) is compatible with the UniProtKB fasta headers.
+The following is a description of FASTA headers for UniProtKB (including alternative isoforms), UniRef, UniParc (including proteomes) and archived UniProtKB versions. NCBI's program formatdb (in particular its -o option) is compatible with the UniProtKB FASTA headers.
 
 Note that in the document below square brackets `[ ]` indicate optional fields.
+
+
+**Table of contents**
+
+* [UniProtKB](#uniprotkb)
+   * [UniProtKB alternative isoforms](#uniprotkb-alternative-isoforms)
+* [UniRef](#uniref)
+* [UniParc](#uniparc)
+   * [UniParc proteomes](#uniparc-proteomes)
+* [Archived UniProtKB sequence versions](#archived-uniprotkb-sequence-versions)
+
+
 
 # UniProtKB
 
@@ -18,7 +30,7 @@ Where:
 - _UniqueIdentifier_ is the primary [accession number](https://www.uniprot.org/help/accession_numbers) of the UniProtKB entry.
 - _EntryName_ is the [entry name](https://www.uniprot.org/help/entry_name) of the UniProtKB entry.
 - _ProteinName_ is the [recommended name](https://www.uniprot.org/help/protein_names) of the UniProtKB entry as annotated in the `RecName` field. For UniProtKB/TrEMBL entries without a `RecName` field, the `SubName` field is used. In case of multiple `SubNames`, the first one is used. The 'precursor' attribute is excluded, 'Fragment' is included with the name if applicable.
-- _OrganismName_ is the [scientific name of the organism](https://www.uniprot.org/help/organism-name) of the UniProtKB entry.
+- _OrganismName_ is the [scientific name of the source organism](https://www.uniprot.org/help/organism-name) of the UniProtKB entry.
 - _OrganismIdentifier_ is the [unique identifier of the source organism, assigned by the NCBI](https://www.uniprot.org/help/taxonomic_identifier).
 - _GeneName_ is the first [gene name](https://www.uniprot.org/help/gene_name) of the UniProtKB entry. If there is no gene name, `OrderedLocusName` or `ORFname`, the `GN` field is not listed.
 - _ProteinExistence_ is the numerical value describing the [evidence for the existence](https://www.uniprot.org/help/protein_existence) of the protein.
@@ -33,7 +45,9 @@ Examples:
     >tr|Q3SA23|Q3SA23_9HIV1 Protein Nef (Fragment) OS=Human immunodeficiency virus 1  OX=11676 GN=nef PE=3 SV=1
     >tr|Q8N2H2|Q8N2H2_HUMAN cDNA FLJ90785 fis, clone THYRO1001457, moderately similar to H.sapiens protein kinase C mu OS=Homo sapiens OX=9606 PE=2 SV=1
 
-## Alternative isoforms (this only applies to UniProtKB/Swiss-Prot):
+## UniProtKB alternative isoforms
+
+This format only applies to UniProtKB/Swiss-Prot alternative isoform sequences.
 
     >sp|IsoID|EntryName Isoform IsoformName of ProteinName OS=OrganismName OX=OrganismIdentifier[ GN=GeneName]
 
@@ -54,7 +68,7 @@ Example:
 
 Where:
 
-- _UniqueIdentifier_ is the primary accession number of the UniRef cluster.
+- _UniqueIdentifier_ is the unique identifier of the UniRef cluster.
 - _ClusterName_ is the name of the UniRef cluster.
 - _Members_ is the number of UniRef cluster members.
 - _TaxonName_ is the scientific name of the lowest common taxon shared by all UniRef cluster members.
@@ -66,41 +80,53 @@ Example:
     >UniRef50_Q9K794 Putative AgrB-like protein n=2 Tax=Bacillus TaxID=1386 RepID=AGRB_BACHD
 
 # UniParc
-## Generic UniParc
 
     >UniqueIdentifier status=Status
 
 Where:
 
-- _UniqueIdentifier_ is the primary accession number of the UniParc entry.
+- _UniqueIdentifier_ is the unique identifier of the UniParc entry.
 - _Status_ is 'active' if the UniParc entry has at least one active cross-reference, and 'inactive' if it does not have any active cross-references.
 
 Example:
 
     >UPI0000000005 status=active
 
-## UniParc for Proteomes
-    
-    >UniqueIdentifier[ ProteinNameList][ OS=OrganismName][ OX=OrganismIdentifier][ GN=GeneNameList][ AC=UniProtKBAcList][ SS=SourceAcList][ PC=(Proteome:Component)List]
+## UniParc proteomes
 
+This format is only available for UniParc entry sets that correspond to the sequences of a proteome. It contains biological information from the UniParc source database entries that are associated with the requested proteome.
+
+```>UniqueIdentifier[ ProteinNameList] OS=OrganismName OX=OrganismIdentifier[ GN=GeneNameList][ AC=UniProtKBAcList] SS=SourceIdList PC=Proteome:ComponentList```
+    
 Where:
 
-- _UniqueIdentifier_ is the primary accession number of the UniParc entry.
-- _ProteinNameList_ is a list of protein names.
-- _OrganismName_ is the organism name.
-- _OrganismIdentifier_ is the NCBI taxonomy ID or organism identifier.
-- _GeneNameList_ is a list of gene names.
-- _UniProtKBAcList_ is a list of associated UniProtKB accessions.
-- _SourceAcList_ is a list of source accessions.
-- _(Proteome:Component)List_ is a list of proteome and component pairs in the format _ProteomeID:Component_.
+- _UniqueIdentifier_ is the unique identifier of the UniParc entry.
+- _ProteinNameList_ is an optional list of protein names.
+- _OrganismName_ is the scientific name of the proteome's source organism.
+- _OrganismIdentifier_ is the [unique identifier of the proteome's source organism, assigned by the NCBI](https://www.uniprot.org/help/taxonomic_identifier).
+- _GeneNameList_ is an optional list of gene names.
+- _UniProtKBAcList_ is an optional list of UniProtKB primary accession numbers.
+- _SourceIdList_ is the list of 'Source Sequence' identifiers in the UniParc entry that are linked to the requested proteome. These are the identifiers of the proteins that are annotated on the associated genome records from EMBL, Ensembl or RefSeq.
+- _Proteome:ComponentList_ is the identifier of the requested proteome, separated by ':' from a list of the components where the genes are encoded.
 
-Additional Notes
-- Fields with multiple values are separated by the pipe symbol `|`.
+Lists are allowed in several fields to represent paraloguous genes that encode the same sequence. List elements are separated by the pipe symbol '|'.
+
+The protein and gene names come from the corresponding UniProtKB entries, where these exist, and otherwise from the 'Source Sequence' database entries.
 
 Examples:
 
-    >UPI0000000AE5 IS30 family transposase OS=Escherichia coli str. K-12 substr. MG1655 OX=511145 GN=insI2|insI3 SS=EMBL:AAC74486|EMBL:AAC77240 PC=UP000000625:Chromosome
-    >UPI0000038DD7 Pantothenate kinase OS=Escherichia coli str. K-12 substr. MG1655 OX=511145 GN=coaA SS=EMBL:AAC76952 PC=UP000000625:Chromosome
+Sequence that exists in UniProtKB: protein and gene name come from the UniProtKB entry (AC=P37636):
+  
+    >UPI000013B286 Multidrug resistance protein MdtE OS=Escherichia coli (strain K12) OX=83333 GN=mdtE AC=P37636 SS=EMBL:AAC76538 PC=UP000000625:Chromosome
+    
+Sequence that does not exist in UniProtKB: protein and gene name come from the 'Source Sequence' entry (SS=EMBL:CQR80801):
+  
+    >UPI000000E135 Oligopeptide transporter subunit OS=Escherichia coli (strain K12) OX=83333 GN=oppF SS=EMBL:CQR80801 PC=UP000033172:Chromosome I
+
+Sequence that corresponds to 3 paraloguous genes that are encoded on 3 different chromosomes:
+  
+    >UPI00000000C1 Calmodulin-1|Calmodulin-2|Calmodulin-3 OS=Homo sapiens OX=9606 GN=CALM1|CALM2|CALM3 AC=P0DP23|P0DP24|P0DP25 SS=Ensembl:ENSP00000349467|Ensembl:ENSP00000272298|Ensembl:ENSP00000291295|Ensembl:ENSP00000472141 PC=UP000005640:Chromosome 14|Chromosome 2|Chromosome 19
+
 
 # Archived UniProtKB sequence versions
 
@@ -125,5 +151,6 @@ Examples:
 
     >sp|P05067 archived from Release 9.2/51.2 28-NOV-2006 SV=3
     >tr|A0RTJ8 archived from Release 11.0/36.0 29-MAY-2007 SV=1
+
 
 Related terms: FASTA header, FASTA format, FASTA comment
