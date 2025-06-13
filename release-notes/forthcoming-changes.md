@@ -6,7 +6,22 @@ date: 2099-01-01
 
 **Table of contents**
 
+   * [Reorganizing the protein space in UniProtKB](#reorganizing-the-protein-space-in-uniprotkb) - **On August 27, 2025**
    * [Introduction of explicit links between citations and their retraction notice in UniProt RDF](#introduction-of-explicit-links-between-citations-and-their-retraction-notice-in-uniprot-rdf) - **On August 27, 2025**
+
+
+### Reorganizing the protein space in UniProtKB
+
+Starting from release 2025_04 (currently scheduled 27th August 2025), we will be refactoring our [Reference Proteome](https://www.uniprot.org/help/reference_proteome) selection pipeline to ensure an improved representation of species biodiversity in the UniProt KnowledgeBase (UniProtKB). From release 2026_01 onwards (currently scheduled 25th February 2026), we will restrict the protein space in UniProtKB to only those sequences which are part of a Reference Proteome in addition to the expert reviewed UniProtKB/Swiss-Prot section, and also unreviewed entries associated with experimental [Gene Ontology](https://www.uniprot.org/help/gene-ontology) annotations or additional biologically important data such as a 3D structure.
+
+The changes in UniProt, between 2025_04 and 2026_01, will result in a change in the size of UniProtKB. There will be a decrease of 43% in the number of proteins in UniProtKB despite a 36% increase in the total number of Reference Proteomes, reflecting a 34% increase on species covered by a Reference Proteome in the Tree of Life.
+
+All deprecated proteomes ([download list](https://ftp.ebi.ac.uk/pub/contrib/UniProt/proteomes/proteomes_to_be_removed_from_UPKB.csv)), plus all proteomes which do not qualify for consideration in the new pipeline, will be available through [UniParc](https://www.uniprot.org/uniparc/). When you search in the [Proteomes](https://www.uniprot.org/proteomes/) portal for these proteomes, you will be directed to UniParc to access your protein set. To download your proteome, we recommend to use the new [UniParc proteomes FASTA format](https://www.uniprot.org/help/fasta-headers#uniparc-proteomes) which contains biological information from the UniParc source database entries that are associated with the requested proteome.
+
+If the annotation provided by UniProtKB is particularly important to your work, or your organism is actively worked on by a research community but has not been selected as a Reference Proteome, please [contact us](https://www.uniprot.org/contact) and we will consider promoting it to Reference Proteome status.
+
+Please go to [https://insideuniprot.blogspot.com/](https://insideuniprot.blogspot.com) for further information.
+
 
 ### Introduction of explicit links between citations and their retraction notice in UniProt RDF
 
