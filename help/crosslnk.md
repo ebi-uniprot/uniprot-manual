@@ -53,7 +53,7 @@ Ubiquitination often leads to the degradation of the modified protein by the pro
 
 Example of target: [Q04119](https://www.uniprot.org/uniprotkb/Q04119#ptm_processing)
 
-Example of modifier: [P62990](https://www.uniprot.org/uniprotkb/P62990#ptm_processing)
+Example of modifier: [P0CG53](https://www.uniprot.org/uniprotkb/P0CG53/entry#ptm_processing)
 
 ### Sumoylation
 

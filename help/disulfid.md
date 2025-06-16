@@ -4,7 +4,7 @@ type: help
 categories: PTM_processing,manual
 ---
 
-This subsection of the PTM / Processing":/help/ptm_processing_section section describes the positions of cysteine residues participating in disulfide bonds.
+This subsection of the PTM / Processing section describes the positions of cysteine residues participating in disulfide bonds.
 
 Disulfide bond formation generally occurs in the endoplasmic reticulum by oxidation. Therefore disulfide bonds are mostly found in extracellular, secreted and periplasmic proteins, although they can also be formed in cytoplasmic proteins under conditions of oxidative stress.
 
@@ -16,10 +16,10 @@ Example: [P10846](https://www.uniprot.org/uniprotkb/P10846#ptm_processing)
 # 1. Intrachain disulfide bonds
 
 Intrachain disulfide bonds are formed between two cysteines within the same protein chain.  
-Example: [Q43495](https://www.uniprot.org/uniprotkb/Q43495#ptm_processing)
+Example: [P18844](https://www.uniprot.org/uniprotkb/P18844#ptm_processing)
 
 Intrachain disulfide bonds are usually conserved and can be propagated 'By similarity' to homologous proteins.  
-Example: [P18844](https://www.uniprot.org/uniprotkb/P18844#ptm_processing)
+Example: [Q43495](https://www.uniprot.org/uniprotkb/Q43495#ptm_processing)
 
 In some cases, it is unclear which cysteines participate in disulfide bond formation. In these cases, we indicate the possible alternate bonds which form using the syntax 'or C-X with C-Y'.  
 Example: [Q9U8R2](https://www.uniprot.org/uniprotkb/Q9U8R2#ptm_processing)
@@ -45,7 +45,7 @@ Disulfide bonds formed between 2 proteolytically generated parts of the same pro
 Example: [P11140](https://www.uniprot.org/uniprotkb/P11140#ptm_processing)
 
 A few proteins form an intrachain disulfide bond when monomeric, and an interchain disulfide bond when dimeric.  
-Example: [P68432](https://www.uniprot.org/uniprotkb/P68432#ptm_processing)
+Example: [P06276](https://www.uniprot.org/uniprotkb/P06276/entry#ptm_processing)
 
 ## c. Disulfide bonds between heterodimers
 
@@ -57,7 +57,7 @@ If the position of the cysteine on the partner chain is unknown, we only indicat
 Example: [O35348](https://www.uniprot.org/uniprotkb/O35348#ptm_processing)
 
 In some cases, it is unclear which cysteines of the partner protein participate in disulfide bond formation; in these cases, we indicate the possible cysteines involved in the bond using the syntax 'or C-X with C-Y'.  
-Example: [P09930](https://www.uniprot.org/uniprotkb/P09930#ptm_processing)
+Example: [F5B8W8](https://www.uniprot.org/uniprotkb/F5B8W8/entry#ptm_processing)
 
 # 3. Redox-active centers
 
@@ -69,5 +69,5 @@ Related keyword: [Redox-active center](https://www.uniprot.org/keywords/676)
 
 # 4. Annotation of predicted disulfide bonds
 
-Some domains, such as Ig-like and C-lectin domains, are known to contain intrachain disulfide bonds formed between conserved cysteines. The positions of the potential disulfide bonds can therefore be predicted based on the alignment of individual sequences with the profiles describing such domains. These predicted disulfide bonds are tagged with the qualifier 'By similarity'.  
+Some domains, such as Ig-like and C-lectin domains, are known to contain intrachain disulfide bonds formed between conserved cysteines. The positions of the potential disulfide bonds can therefore be predicted based on the alignment of individual sequences with the profiles describing such domains. These predicted disulfide bonds are tagged with the qualifier 'PROSITE-ProRule Annotation'.  
 Example: [Q865R3](https://www.uniprot.org/uniprotkb/Q865R3#ptm_processing)
