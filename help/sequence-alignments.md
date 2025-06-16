@@ -113,7 +113,7 @@ The following symbols are shown below each line of the alignment, denoting the d
 - `*` : Fully conserved residues.
 - `:` : Conservation between groups of strongly similar properties (Gonnet PAM 250 score > 0.5).
 - `.` : Conservation between groups of weakly similar properties (Gonnet PAM 250 score ≤ 0.5).
-- ` ` : Non-conserved residues.
+- `&nbsp;` : Non-conserved residues.
 
 ### Input parameters
 
