@@ -49,7 +49,7 @@ AlphaFold models for proteins longer than 2,700 (UniProtKB/SwissProt entries) or
 
 ## Structure coverage
 
-Multiple experimentally determined structures may be available for one protein (see the [PDB cross-reference help page](https://www.uniprot.org/help/multiple_pdb_xrefs)). These structures may cover different ranges of the sequence, depending on the experimental method and the construct used to determine the structure. The sequence coverage of different structures are shown in the PDBe 3D structure coverage track of the protein feature viewer.<br>
+Multiple experimentally determined structures may be available for one protein (see the [PDB cross-reference help page](https://www.uniprot.org/help/multiple_pdb_xrefs)). These structures may [cover different ranges of the sequence](https://www.uniprot.org/help/structure_subseq), depending on the experimental method and the construct used to determine the structure. The sequence coverage of different structures are shown in the PDBe 3D structure coverage track of the protein feature viewer.<br>
 Example: [Q9H165](https://www.uniprot.org/uniprotkb/Q9H165/feature-viewer). 
 
 ## AlphaMissense prediction of genetic variation consequence

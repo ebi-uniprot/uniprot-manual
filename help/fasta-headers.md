@@ -96,7 +96,7 @@ Example:
 
 This format is only available for UniParc entry sets that correspond to the sequences of a proteome. It contains biological information from the UniParc source database entries that are associated with the requested proteome.
 
-```>UniqueIdentifier[ ProteinNameList] OS=OrganismName OX=OrganismIdentifier[ GN=GeneNameList][ AC=UniProtKBAcList] SS=SourceIdList PC=Proteome:ComponentList```
+```>UniqueIdentifier[ ProteinNameList] OS=OrganismName OX=OrganismIdentifier[ GN=GeneNameList][ AC=UniProtKBAcList][ SS=SourceIdList] PC=Proteome:ComponentList```
     
 Where:
 
@@ -105,9 +105,9 @@ Where:
 - _OrganismName_ is the scientific name of the proteome's source organism.
 - _OrganismIdentifier_ is the [unique identifier of the proteome's source organism, assigned by the NCBI](https://www.uniprot.org/help/taxonomic_identifier).
 - _GeneNameList_ is an optional list of gene names.
-- _UniProtKBAcList_ is an optional list of UniProtKB primary accession numbers.
-- _SourceIdList_ is the list of 'Source Sequence' identifiers in the UniParc entry that are linked to the requested proteome. These are the identifiers of the proteins that are annotated on the associated genome records from EMBL, Ensembl or RefSeq.
-- _Proteome:ComponentList_ is the identifier of the requested proteome, separated by ':' from a list of the components where the genes are encoded.
+- _UniProtKBAcList_ is an optional list of the UniProtKB primary accession numbers that are linked to the proteome.
+- _SourceIdList_ is an optional list of the 'Source Sequence' identifiers that are linked to the proteome. These are the identifiers of the proteins that are annotated on the associated genome records from EMBL, Ensembl or RefSeq.
+- _Proteome:ComponentList_ is the identifier of the proteome, separated by ':' from a list of the components where the genes are encoded.
 
 Lists are allowed in several fields to represent paraloguous genes that encode the same sequence. List elements are separated by the pipe symbol '|'.
 
