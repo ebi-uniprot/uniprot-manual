@@ -1,7 +1,7 @@
 ---
 title: Programmatic Access for ID Mapping
 type: help
-categories: Text_search,Technical,Website,help
+categories: Programmatic_access,Technical,Website,help
 ---
 
 To explore and try out the ID mapping services on the website, please refer to the [ID mapping website tool](https://www.uniprot.org/id-mapping).  
