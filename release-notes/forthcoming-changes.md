@@ -20,7 +20,7 @@ All deprecated proteomes ([download list](https://ftp.ebi.ac.uk/pub/contrib/UniP
 
 If the annotation provided by UniProtKB is particularly important to your work, or your organism is actively worked on by a research community but has not been selected as a Reference Proteome, please [contact us](https://www.uniprot.org/contact) and we will consider promoting it to Reference Proteome status.
 
-Please go to the [UniProt blog](https://insideuniprot.blogspot.com/2025/06/) for further information.
+Please go to the [UniProt blog](https://insideuniprot.blogspot.com/2025/06/capturing-diversity-of-life.html) for further information.
 
 
 ### Introduction of explicit links between citations and their retraction notice in UniProt RDF
