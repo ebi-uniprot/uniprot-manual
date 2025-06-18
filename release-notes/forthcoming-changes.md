@@ -6,42 +6,22 @@ date: 2099-01-01
 
 **Table of contents**
 
-   * [Change of URIs for taxonomic ranks in RDF](#change-of-uris-for-taxonomic-ranks-in-rdf) - **On June 18, 2025**
-   * [Change of URIs for the PROSITE database in RDF](#change-of-uris-for-the-prosite-database-in-rdf) - **On June 18, 2025**
-   * [Introduction of explicit links between citations and their retraction notice in UniProt RDF](#introduction-of-explicit-links-between-citations-and-their-retraction-notice-in-uniprot-rdf) - **On June 18, 2025**
+   * [Reorganizing the protein space in UniProtKB](#reorganizing-the-protein-space-in-uniprotkb) - **On August 27, 2025**
+   * [Introduction of explicit links between citations and their retraction notice in UniProt RDF](#introduction-of-explicit-links-between-citations-and-their-retraction-notice-in-uniprot-rdf) - **On August 27, 2025**
 
-### Change of URIs for taxonomic ranks in RDF
 
-The NCBI [replaced the taxonomic rank 'Superkingdom' by the new ranks 'Domain' and 'Realm'](https://ncbiinsights.ncbi.nlm.nih.gov/2025/02/27/new-ranks-ncbi-taxonomy/). We use this opportunity to change the URIs of all ranks by adding the prefix ```Taxonomic_Rank_``` to add context to terms like 'Domain' that can have several meanings in the context of UniProt. For instance,
+### Reorganizing the protein space in UniProtKB
 
-```<owl:Thing rdf:about="http://purl.uniprot.org/core/Species">```
+Starting from release 2025_04 (currently scheduled 27th August 2025), we will be refactoring our [Reference Proteome](https://www.uniprot.org/help/reference_proteome) selection pipeline to ensure an improved representation of species biodiversity in the UniProt KnowledgeBase (UniProtKB). From release 2026_01 onwards (currently scheduled 25th February 2026), we will restrict the protein space in UniProtKB to only those sequences which are part of a Reference Proteome in addition to the expert reviewed UniProtKB/Swiss-Prot section, and also unreviewed entries associated with experimental [Gene Ontology](https://www.uniprot.org/help/gene-ontology) annotations or additional biologically important data such as a 3D structure.
 
-will be changed to:
+This reorganization, between release 2025_04 and 2026_01, will result in a change in the size of UniProtKB. There will be a decrease of 43% in the number of proteins in UniProtKB, despite a 36% increase in the total number of Reference Proteomes, reflecting a 34% increase on species covered by a Reference Proteome.
 
-```<owl:Thing rdf:about="http://purl.uniprot.org/core/Taxonomic_Rank_Species">```
+All deprecated proteomes ([download list](https://ftp.ebi.ac.uk/pub/contrib/UniProt/proteomes/proteomes_to_be_removed_from_UPKB.csv)), plus all proteomes which do not qualify for consideration in the new pipeline, will be available through [UniParc](https://www.uniprot.org/uniparc/). When you search in the [Proteomes](https://www.uniprot.org/proteomes/) portal for these proteomes, you will be directed to UniParc to access your protein set. To download your proteome, we recommend to use the new [UniParc proteomes FASTA format](https://www.uniprot.org/help/fasta-headers#uniparc-proteomes) which contains biological information from the UniParc source database entries that are associated with the requested proteome.
 
-### Change of URIs for the PROSITE database in RDF
+If the annotation provided by UniProtKB is particularly important to your work, or your organism is actively worked on by a research community but has not been selected as a Reference Proteome, please [contact us](https://www.uniprot.org/contact) and we will consider promoting it to Reference Proteome status.
 
-For historic reasons, UniProt had to generate URIs to cross-reference databases that did not have an RDF representation or did not provide stable URIs such as [PURLs](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) (permanent uniform resource locators). The SIB Swiss Institute of Bioinformatics has now committed to provide stable URIs for the resources that it supports. [PROSITE](https://prosite.expasy.org/) is now also using this service, therefore we will change the PROSITE URIs accordingly:
+Please go to the [UniProt blog](https://insideuniprot.blogspot.com/2025/06/) for further information.
 
-The links to PROSITE signatures (used in UniProtKB cross-references and in UniParc) will change from:
-
-```
-http://purl.uniprot.org/prosite/PS50835
-```
-to:
-```
-https://purl.expasy.org/prosite/signature/PS50835
-```
-
-The links to PROSITE annotation rules (aka: ProRule as used in UniProtKB attributions) will change from:
-```
-http://purl.uniprot.org/prosite-prorule/PRU00114
-```
-to:
-```
-https://purl.expasy.org/prosite/rule/PRU00114
-```
 
 ### Introduction of explicit links between citations and their retraction notice in UniProt RDF
 
