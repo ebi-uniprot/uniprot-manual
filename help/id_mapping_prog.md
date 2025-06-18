@@ -47,7 +47,7 @@ Be sure to take note of the `jobId`. This will be used later to:
 |  100,000  |       Total number of "mapped to" ids allowed to be enriched by UniProt data       |
 |  25,000   |               Total number of "mapped to" ids allowed with filtering               |
 
-Note: Very large mapping requests are likely to fail. Please do verify that your list does not contain any duplicates, and try to split it into smaller chunks in case of problems. If you prefer to run your mapping locally, you can also [download the data underlying this service](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/).
+Note: Very large mapping requests are likely to fail. Please do verify that your list does not contain any duplicates, and try to split it into smaller chunks in case of problems. If you prefer to run your mapping locally, you can also [download the data underlying this service](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/idmapping/).
 
 ## Valid _from_ and _to_ databases pairs
 
