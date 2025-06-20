@@ -26,7 +26,8 @@ Enter a personalized job name in the ‘Name your Peptide search job’ field to
 
 The peptide search tool can be found at the top of the webpage in the tool bar and also on the UniProt [homepage](https://www.uniprot.org/) in the ‘analysis tools’ section.
 
-Programmatic access to the peptide search tool
+## Programmatic access to the peptide search tool
+
 For details on how to use the peptide search tool programmatically please see our [Peptide search asynchronous RESTful API](https://peptidesearch.uniprot.org/) page.
 
 For searches with shorter peptide lengths or for searches greater than 100 peptides please use our [downloadable command line tool](https://research.bioinformatics.udel.edu/peptidematch/commandlinetool.jsp).
