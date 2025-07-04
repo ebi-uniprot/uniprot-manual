@@ -13,15 +13,15 @@ for use by anyone who wants to name a protein to promote consistency in protein 
 across databases, which aids data retrieval and improves communication.
 
 ## Table of contents
-1. Introduction
-2. Formats for protein names
+1. **Introduction**
+2. **Formats for protein names**
    - A. Language
    - B. Abbrviations and symbols
    - C. Punctuation
    - D. Notation
    - E. Style and format
    - F. Word useage
-3. Choosing protein names
+3. **Choosing protein names**
    - A. Sources of protein name annotation
    - B. Naming proceedure for specific cases
   
@@ -40,7 +40,7 @@ identification/prediction.
 - **Use American spelling, not British spelling** <br>
 *Examples:*
   - *uncharacterized protein **not** uncharacterised protein*
-  - *hemoglobin **not** haemoglobin
+  - *hemoglobin **not** haemoglobin*
  <br>
  
 - **Use protein names ending in 'in' (not 'ine')**
@@ -49,7 +49,7 @@ identification/prediction.
  
 - **Avoid diacritics such as accents, umlauts etc.**
   - *Example: protein spatzle 5 **not** protein spätzle 5*
-<b>
+<br>
 
 - **Avoid pluralization for names based on domain and repeat content**
   - *Example: ankyrin repeat-containing protein **not** ankyrin repeats-containing protein*
@@ -67,7 +67,7 @@ different protein.
 
 ### B. Abbreviations and symbols
 - **Avoid using abbreviations as the complete name**
-  - acyl carrier protein **not** ACP
+  - *Example: acyl carrier protein **not** ACP*
 <br>
 
 - **An abbreviation may be part of a protein name**
@@ -79,20 +79,18 @@ different protein.
   Protein and gene symbols should use the same abbreviation. Some gene and protein
 symbols are easily recognized by database users in certain research communities and
 can be used as part of a protein name to provide specification and aid data retrieval.
-<br>
 
   - **Prokaryote symbol guidelines**
     - A protein symbol is most commonly used in prokaryote protein names in combination with a functional protein name.
     - The first letter of a protein symbol is capitalized for prokaryotes e.g. RecA
-    - In rare occurrences when there is no functional protein name, the format "protein <PS>" may be used, not "<PS> protein".
+    - In rare occurrences when there is no functional protein name, the format "protein \<PS\>" may be used, not "\<PS\> protein".
     - *Example: recombinase RecA*
-  <br>
   
   - **Eukaryote symbol guidelines**
     - A gene symbol is commonly used in eukaryote protein names in combination with a functional protein name.
     - Capitalization conventions of gene symbols differ between organism communities and this is reflected in the casing of gene symbols used as part of eukaryotic protein names. For vertebrates, use an all uppercase gene symbol in a protein name. For non-vertebrate eukaryotes, follow the gene casing conventions of the species in question.
     - In the case of conserved genes, if there is no known gene symbol in use in the species already, a known orthologous gene symbol from a species where the symbol was originally defined may be used.
-    - In rare occurrences when there is no functional protein name, the format “protein <GS>” may be used, not “<GS> protein”.
+    - In rare occurrences when there is no functional protein name, the format “protein \<GS\>” may be used, not “\<GS\> protein”.
     - *Examples:*
       - *Human: tyrosine-protein kinase ABL1*
       - *Mouse: tyrosine-protein kinase ABL1*
@@ -127,6 +125,7 @@ can be used as part of a protein name to provide specification and aid data retr
   - Cofactors: FAD, FMN, NAD, NADP
   - Classes for transporters that inform about structure (e.g. ABC, MFS, RND, MATE, SMR) rather than substrate (e.g. **not** MDR)
   - *Example: rRNA methyltransferase **not** ribosomal RNA methyltransferase*
+<br>
 
 ### C. Punctuation
 - **Slash**
@@ -170,10 +169,10 @@ repeat- and SAM domain-containing protein 6*
    - Remove trailing periods from names.
    - Avoid use of commas except when their usage is part of accepted chemical names.<br>
 *Example: SGT2 family TPR domain-containing protein **not** TPR repeat protein, SGT2 family*<br>
-  ***Exception example**: 3-hydroxy-16-methoxy-2,3-dihydrotabersonine Nmethyltransferase*
+  ***Exception** example: 3-hydroxy-16-methoxy-2,3-dihydrotabersonine Nmethyltransferase*
    - Avoid the semi-colon ";" or colon “:” except when it is part of an enzyme name.<br>
 *Example: type I cuticular keratin Ha8 **not** “Keratin, type I cuticular Ha8; Hair keratin,type I Ha8; Keratin-38; K38”* <br>
-***Exception example:** phospholipid:diacylglycerol acyltransferase*
+***Exception** example: phospholipid:diacylglycerol acyltransferase*
    - Avoid the percentage sign ‘%’
    - Avoid the at sign '@’
    - Avoid the equal sign ‘=’<br>
@@ -182,6 +181,7 @@ repeat- and SAM domain-containing protein 6*
 
 -  **Avoid autocorrection of protein names**
    - Data submitters should not let Microsoft Excel, Word, Outlook, or any other utility with format interpolation and spelling autocorrection touch any protein names, especially those with quotes and double-hyphens.
+<br>
 
 ### D. Notation
 -  **Use Arabic rather than Roman numerals** <br>
@@ -195,6 +195,7 @@ widely accepted formal nomenclature like “RNA polymerase II”.
   Use Arabic numbers to specify the different members encoded by a multigene
 family. Refrain from inventing new numbers if a notation system for protein/gene
 family members has been previously published.
+<br>
 
 ### E. Style and format
 - **Capitalization** <br>
@@ -224,7 +225,7 @@ not append the term ‘enzyme’ to the enzyme name.
 <br>
 
 - **Protein name based on a pathway** <br>
-Use this format: "<Pathway> synthesis protein <GS>" <br>
+Use this format: "\<Pathway\> synthesis protein \<GS>\" <br>
 *Examples:*
   - *thiamine synthesis protein ThiC*
   - *folic acid synthesis protein FOL1 **not** trifunctional dihydropteroate
@@ -239,7 +240,7 @@ separated by a double hyphen (--). <br>
 <br>
 
  - **tRNA-charging enzymes** <br>
-Use this format: <amino acid being attached>--tRNA (tRNA type using the threeletter amino acid code with the first letter capitalized) ligase. <br>
+Use this format: \<amino acid being attached\>--tRNA (tRNA type using the threeletter amino acid code with the first letter capitalized) ligase. <br>
 *Example: tyrosine--tRNA (Tyr) ligase*
 <br>
 
@@ -313,8 +314,8 @@ Protein names are ideally supported by evidence from expert sources, the literat
 and other protein signatures, and/or domain architectures. NCBI-RefSeq and UniProt aim to
 store, and publicly report, name source information of curated records which may include
 the expert database name, individual scientist name, PubMed ID, HMM ID, and curated
-domain architectures. The current rank of sources for protein naming is: a) expert sources >
-b) experimental reports > c) HMMs and other signatures > d) domain architectures. Note
+domain architectures. The current rank of sources for protein naming is: a) expert sources \>
+b) experimental reports \> c) HMMs and other signatures \> d) domain architectures. Note
 that BLAST results, FASTA headers and definition lines in database records may contain
 information such as organism names and other information which should not be included in
 a protein name. Be aware that sources of functional protein annotation listed below do not
@@ -348,7 +349,7 @@ contains two or more sets of brackets/parentheses <br>
 - Keep the double hyphen '- -' used for transferases and ligases. <br>
 *Example: formylmethanofuran--tetrahydromethanopterin formyltransferase*
 - Use the following format for enzymes that remove or transfer phosphate groups:
-"<modified_residues>-protein <activity>”. <br>
+"\<modified_residues\>-protein \<activity\>”. <br>
 *Example: tyrosine-protein phosphatase*
 <br>
 
@@ -414,7 +415,7 @@ regulation.
   - No need to list all functions.
   - If no other name is applicable, the words bifunctional or multifunctional may be used in combination with the functional names.
   - When using bifunctional, list the functions based on the order of the domains in the sequence and separate them with a forward slash.
-  - In rare cases and when no other name is applicable, enzymes with more than two functions may use the format: “multifunctional protein <GS>”
+  - In rare cases and when no other name is applicable, enzymes with more than two functions may use the format: “multifunctional protein \<GS\>”
   - *Examples:*
     - *bifunctional adenylyltransferase/ADP-heptose synthase cyclohydrolase*
     - *fatty acid oxidation complex subunit alpha **not** multifunctional enoylCoA hydratase/3-hydroxybutyryl-CoA epimerase/3-hydroxyacyl-CoA dehydrogenase*
@@ -429,7 +430,7 @@ regulation.
 *Example: 26S proteasome non-ATPase regulatory subunit 1*
   - If a subunit has a designator, then that follows the term ‘subunit’, e.g.
 subunit 1, subunit A, subunit AbcD, subunit alpha. The preference for
-designator use is: number > letter > gene symbol > greek letter spelled out. <br>
+designator use is: number \> letter \> gene symbol \> greek letter spelled out. <br>
 *Example: F1F0 ATP synthase subunit alpha **not** F1F0 ATP synthase alpha*
 subunit
   - An abbreviation may be part of a protein complex name. <br>
@@ -485,7 +486,7 @@ identifiers and the signatures themselves are not stable and may change,
 requiring review and renaming of proteins named using this method. <br>
 *Example: TIGR01212 family radical SAM protein* <br>
 
-  - **where no domain or motif is observed:** If a gene symbol or protein symbol has been published for this protein, use the protein <GS> or protein <PS> format. Otherwise, use the default name ‘hypothetical protein’ or ‘uncharacterized protein’ (all lowercase) with no further specifications.<br> 
+  - **where no domain or motif is observed:** If a gene symbol or protein symbol has been published for this protein, use the protein \<GS\> or protein \<PS\> format. Otherwise, use the default name ‘hypothetical protein’ or ‘uncharacterized protein’ (all lowercase) with no further specifications.<br> 
 *Examples:*
     - *hypothetical protein **not** hypothetical protein, conserved*
     - *uncharacterized protein **not** uncharacterized protein conserved in archaea*
