@@ -32,6 +32,8 @@ across databases, which aids data retrieval and improves communication.
    - B. Naming proceedure for specific cases
   
 # 1. Introduction 
+<br>
+
 Consistent protein nomenclature is indispensable for communication, literature searching
 and entry retrieval. A good protein name is one which is unique, unambiguous, can be
 attributed to orthologs from other species and follows official gene nomenclature where
