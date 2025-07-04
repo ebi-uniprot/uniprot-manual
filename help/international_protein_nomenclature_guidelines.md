@@ -12,8 +12,12 @@ Information Resource (PIR) and the Swiss Institute for Bioinformatics (SIB) and 
 for use by anyone who wants to name a protein to promote consistency in protein naming
 across databases, which aids data retrieval and improves communication.
 
-## Table of contents
+# Table of contents
+<br>
+
 1. **Introduction**
+<br>
+
 2. **Formats for protein names**
    - A. Language
    - B. Abbrviations and symbols
@@ -21,11 +25,13 @@ across databases, which aids data retrieval and improves communication.
    - D. Notation
    - E. Style and format
    - F. Word useage
+<br>
+
 3. **Choosing protein names**
    - A. Sources of protein name annotation
    - B. Naming proceedure for specific cases
   
-## 1. Introduction 
+# 1. Introduction 
 Consistent protein nomenclature is indispensable for communication, literature searching
 and entry retrieval. A good protein name is one which is unique, unambiguous, can be
 attributed to orthologs from other species and follows official gene nomenclature where
@@ -35,8 +41,12 @@ formatting. This document provides guidelines on naming choices and universal fo
 This does not include best practices on methods to be used for sequence function
 identification/prediction.
 
-## 2. Formats for protein names
-### A. Language 
+# 2. Formats for protein names
+<br>
+
+## A. Language 
+<br>
+
 - **Use American spelling, not British spelling** <br>
 *Examples:*
   - *uncharacterized protein **not** uncharacterised protein*
@@ -65,7 +75,9 @@ names such as ‘protein IMPACT’.
 different protein.
 <br>
 
-### B. Abbreviations and symbols
+## B. Abbreviations and symbols
+<br>
+
 - **Avoid using abbreviations as the complete name**
   - *Example: acyl carrier protein **not** ACP*
 <br>
@@ -85,6 +97,7 @@ can be used as part of a protein name to provide specification and aid data retr
     - The first letter of a protein symbol is capitalized for prokaryotes e.g. RecA
     - In rare occurrences when there is no functional protein name, the format "protein \<PS\>" may be used, not "\<PS\> protein".
     - *Example: recombinase RecA*
+  <br>
   
   - **Eukaryote symbol guidelines**
     - A gene symbol is commonly used in eukaryote protein names in combination with a functional protein name.
@@ -127,7 +140,9 @@ can be used as part of a protein name to provide specification and aid data retr
   - *Example: rRNA methyltransferase **not** ribosomal RNA methyltransferase*
 <br>
 
-### C. Punctuation
+## C. Punctuation
+<br>
+
 - **Slash**
   - Do not use a back slash: ‘\’.
   - For separating multiple domains or functions, the forward slash ‘/’ or the word ‘and’ may be used.
@@ -183,7 +198,9 @@ repeat- and SAM domain-containing protein 6*
    - Data submitters should not let Microsoft Excel, Word, Outlook, or any other utility with format interpolation and spelling autocorrection touch any protein names, especially those with quotes and double-hyphens.
 <br>
 
-### D. Notation
+## D. Notation
+<br>
+
 -  **Use Arabic rather than Roman numerals** <br>
 Use Arabic numbers for notation (e.g. 1, 2, 3, etc.) unless Roman numerals are a
 widely accepted formal nomenclature like “RNA polymerase II”.
@@ -197,7 +214,9 @@ family. Refrain from inventing new numbers if a notation system for protein/gene
 family members has been previously published.
 <br>
 
-### E. Style and format
+## E. Style and format
+<br>
+
 - **Capitalization** <br>
 Use lowercase except for acronyms or proper nouns. <br>
 *Examples:*
@@ -281,7 +300,9 @@ which can be included in rare cases where it will make a name more
 descriptive and less general. <br>
 ***Exception** example: staphylococcal nuclease domain-containing protein 1*
 
-### F. Word usage
+## F. Word usage
+<br>
+
 - **Avoid linking words and phrases**
   - Avoid the following linking words: for, or (as in name1 or name2), of, to, with. <br>
 *Example: two-component system sensor histidine kinase **not** histidine kinase sensor of two component system*
@@ -308,8 +329,12 @@ to match widespread community/publication usage <br>
 topic “Novel proteins of unknown function” in section 3B.
 <br>
 
-## 3. Choosing Protein Names
-### A. Sources of protein name annotation
+# 3. Choosing Protein Names
+<br>
+
+## A. Sources of protein name annotation
+<br>
+
 Protein names are ideally supported by evidence from expert sources, the literature, HMMs
 and other protein signatures, and/or domain architectures. NCBI-RefSeq and UniProt aim to
 store, and publicly report, name source information of curated records which may include
@@ -322,7 +347,9 @@ a protein name. Be aware that sources of functional protein annotation listed be
 necessarily meet all the international protein nomenclature guidelines. In particular,
 resources may not be available to retroactively update older data. 
 <br>
-#### a) Expert sources of specific and definitive names may include:
+### a) Expert sources of specific and definitive names may include:
+<br>
+
 **Species-specific naming authorities**
 - Established and maintained database authorities such as species-specific nomenclature bodies (some are listed [here](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist.txt).)
 - Avoid names from species-specific authorities that relate to phenotype, anatomical
@@ -361,12 +388,12 @@ contains two or more sets of brackets/parentheses <br>
 - Individual scientists who specialize in a protein family.
 <br>
 
-#### b) Experimental reports
+### b) Experimental reports
 - A recent literature-supported name from a paper that characterized the protein function is likely the most specific and definitive name to apply (with format refinement as needed). The literature may provide a history of names over time.
 - Newer more functionally specific names are preferred over older more general or biosystem-related names.
 <br>
 
-#### c) HMMs and other signatures
+### c) HMMs and other signatures
 -  Equivalogs are homologs that have retained a specific function from their common ancestor, whatever the evolutionary path of each protein. This stands in contrast to
 the definitions of orthologs (homologs from speciation events only), paralogs
 (homologs from duplication events), and xenologs (homologs from lateral transfer
@@ -390,7 +417,7 @@ TIGR03077. These proteins are not bona fide glycine cleavage protein H which bel
 to family TIGR00528.*
 <br>
 
-#### d) Profiles and domain architectures
+### d) Profiles and domain architectures
 - The domain architecture is defined as the sequential order of conserved domains in
 a protein sequence. In some cases the architecture consists of a single domain that
 covers the full length of the protein. Domain architecture names are usually more
@@ -405,7 +432,9 @@ domain or profile may end up being uninformative e.g. Pfam accession PF00083,
 Sugar_tr which results in a protein product called ‘sugar’.
 <br>
 
-### B. Naming procedure for specific cases
+## B. Naming procedure for specific cases
+<br>
+
 - **Multifunctional proteins**
   - Multifunctional proteins may catalyze multiple enzymatic reactions such as
 human protein GNE which has both epimerase and kinase activities or they
@@ -451,7 +480,6 @@ name for such cases. <br>
 - **Novel proteins of unknown function** <br>
 Where no functional information is available, any of the following methods may be
 used to name a protein. <br>
-
   -  **where domains, repeats or motifs associated with a variety of architectures
 are observed:** Use the format ‘xxx domain-containing protein’ but avoid
 transferring ‘xxx domain-containing protein’ names based on a BLAST search.
