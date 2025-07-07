@@ -22,25 +22,25 @@ Each tab of this section contains a table listing the respective homology data w
 
 ### Orthology
 
-| Column       | Description                                                                                                             |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| Species      | Target organism in which this ortholog candidate resides                                                                |
-| Gene Symbol  | Gene symbol of the ortholog in the target species                                                                       |
-| Best         | Indicates this gene is the top-scoring (highest-count) ortholog candidate within this species                           |
-| Best Reverse | Indicates this gene pair is also the top-scoring (highest-count) ortholog when roles are reversed (reciprocal best hit) |
-| Method       | Results of orthology-inference resource and algorithm methods.                                                          |
-| Match count  | Number of independent orthology-inference resource and algorithm methods that support this gene pair.                   |
+| Column       | Description                                                                                                              |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Species      | Target organism in which this ortholog candidate resides.                                                                |
+| Gene Symbol  | Gene symbol of the ortholog in the target species.                                                                       |
+| Best         | Indicates this gene is the top-scoring (highest-count) ortholog candidate within this species.                           |
+| Best Reverse | Indicates this gene pair is also the top-scoring (highest-count) ortholog when roles are reversed (reciprocal best hit). |
+| Method       | Results of orthology-inference resource and algorithm methods.                                                           |
+| Match count  | Number of independent orthology-inference resource and algorithm methods that support this gene pair.                    |
 
 ### Paralogy
 
 | Column      | Description                                                                                          |
 | ----------- | ---------------------------------------------------------------------------------------------------- |
-| Gene Symbol | Gene symbol of the paralog in the same species                                                       |
-| Rank        | Rank of this gene among all paralog candidates based on supporting evidence                          |
-| Length      | Length (in amino acids) of the paralogous protein sequence                                           |
-| Similarity  | Percent sequence similarity between the query gene and its paralog                                   |
-| Identity    | Percent sequence identity between the query gene and its paralog                                     |
-| Method      | Result of paralogy-inference resource and algorithm                                                  |
+| Gene Symbol | Gene symbol of the paralog in the same species.                                                      |
+| Rank        | Rank of this gene among all paralog candidates based on supporting evidence.                         |
+| Length      | Length (in amino acids) of the paralogous protein sequence.                                          |
+| Similarity  | Percent sequence similarity between the query gene and its paralog.                                  |
+| Identity    | Percent sequence identity between the query gene and its paralog.                                    |
+| Method      | Result of paralogy-inference resource and algorithm.                                                 |
 | Match count | Number of independent paralogy-inference resource and algorithm methods that support this gene pair. |
 
 ## Additional information and help
