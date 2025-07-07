@@ -14,7 +14,7 @@ Ths section provides orthology and paralogy information which has been retrieved
 
 ## Data source
 
-The orthology and paralogy data presented within UniProtKB entry pages is sourced from the Alliance of Genome Resources (AGR), a collaborative effort that integrates comprehensive genetic and genomic data from multiple model organisms and humans. AGR utilizes the DRSC Integrative Ortholog Prediction Tool (DIOPT), which consolidates results from various ortholog and paralog prediction methods along with expert-curated information from resources like HGNC (human and mouse), Xenbase (frog), ZFIN (zebrafish), and SGD (yeast).
+The orthology and paralogy data presented within UniProtKB entry pages is sourced from the [Alliance of Genome Resources (AGR)](https://www.alliancegenome.org/), a collaborative effort that integrates comprehensive genetic and genomic data from multiple model organisms and humans. AGR utilizes the DRSC Integrative Ortholog Prediction Tool ([DIOPT](https://www.flyrnai.org/diopt)), which consolidates results from various ortholog and paralog prediction methods along with expert-curated information from resources like [HGNC](https://www.genenames.org/) (human), [MGI](https://www.informatics.jax.org/) (mouse), [Xenbase](https://www.xenbase.org/) (frog), [ZFIN](https://zfin.org/) (zebrafish), and [SGD](https://www.yeastgenome.org/) (yeast).
 
 ## Additional information and help
 
