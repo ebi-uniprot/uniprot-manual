@@ -71,9 +71,8 @@ Fax: (+41) 22 379 58 58
 
 [Protein Information Resource (PIR)](https://proteininformationresource.org/)  
 Georgetown University Medical Center  
-3300 Whitehaven Street NW  
-Suite 1200  
+2115 Wisconsin Ave NW  
+Suite 200A  
 Washington, DC 20007  
 United States of America  
-Phone: (+1) 202 687 1039  
-Fax: (+1) 202 687 0057
+
