@@ -6,13 +6,13 @@ date: 2099-01-01
 
 **Table of contents**
 
-   * [Reorganizing the protein space in UniProtKB](#reorganizing-the-protein-space-in-uniprotkb) - **On August 27, 2025**
-   * [Introduction of explicit links between citations and their retraction notice in UniProt RDF](#introduction-of-explicit-links-between-citations-and-their-retraction-notice-in-uniprot-rdf) - **On August 27, 2025**
+   * [Reorganizing the protein space in UniProtKB](#reorganizing-the-protein-space-in-uniprotkb) - **On October 8, 2025**
+   * [Introduction of explicit links between citations and their retraction notice in UniProt RDF](#introduction-of-explicit-links-between-citations-and-their-retraction-notice-in-uniprot-rdf) - **Not before October 8, 2025**
 
 
 ### Reorganizing the protein space in UniProtKB
 
-Starting from release 2025_04 (currently scheduled 27th August 2025), we will be refactoring our [Reference Proteome](https://www.uniprot.org/help/reference_proteome) selection pipeline to ensure an improved representation of species biodiversity in the UniProt Knowledgebase (UniProtKB). From release 2026_01 onwards (currently scheduled 25th February 2026), we will restrict the protein space in UniProtKB to only those sequences which are part of a Reference Proteome in addition to the expert reviewed UniProtKB/Swiss-Prot section, and also unreviewed entries associated with experimental [Gene Ontology](https://www.uniprot.org/help/gene-ontology) annotations or additional biologically important data such as a 3D structure.
+Starting from release 2025_04 (currently scheduled 8th October 2025), we will be refactoring our [Reference Proteome](https://www.uniprot.org/help/reference_proteome) selection pipeline to ensure an improved representation of species biodiversity in the UniProt Knowledgebase (UniProtKB). From release 2026_01 onwards (currently scheduled 25th February 2026), we will restrict the protein space in UniProtKB to only those sequences which are part of a Reference Proteome in addition to the expert reviewed UniProtKB/Swiss-Prot section, and also unreviewed entries associated with experimental [Gene Ontology](https://www.uniprot.org/help/gene-ontology) annotations or additional biologically important data such as a 3D structure.
 
 This reorganization, between release 2025_04 and 2026_01, will result in a change in the content and size of the database. The number of Reference Proteomes will increase by 36% (reflecting a 34% increase on species covered), while the number of proteins in UniProtKB can be decreased by 43%.
 
