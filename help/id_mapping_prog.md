@@ -29,7 +29,7 @@ For example, to map UniProtKB entries P21802, P12345, we could POST a request to
 > **Response**
 >
 > ```bash
-> {"jobId":"27a020f6334184c4eb382111fbcad0e848f40300"}
+> {"jobId":"ecuuh9h0Md"}
 > ```
 
 Be sure to take note of the `jobId`. This will be used later to:
@@ -160,7 +160,7 @@ Continuing the above example, we can use the `jobId` to find out the status of t
 > **Request**
 >
 > ```bash
-> % curl -i 'https://rest.uniprot.org/idmapping/status/27a020f6334184c4eb382111fbcad0e848f40300'
+> % curl -i 'https://rest.uniprot.org/idmapping/status/ecuuh9h0Md'
 > ```
 >
 > **Response**
@@ -168,7 +168,7 @@ Continuing the above example, we can use the `jobId` to find out the status of t
 > ```bash
 > HTTP/1.1 303
 > Server: nginx/1.17.7
-> Location: https://rest.uniprot.org/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300
+> Location: https://rest.uniprot.org/idmapping/uniref/results/ecuuh9h0Md
 > Content-Type: application/json
 > Access-Control-Allow-Origin: *
 > ...
@@ -192,7 +192,7 @@ For example, when mapping [P21802, P12345 to UniRef90](#example) could do:
 > **Request**
 >
 > ```bash
-> % curl -s "https://rest.uniprot.org/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300"
+> % curl -s "https://rest.uniprot.org/idmapping/uniref/results/ecuuh9h0Md"
 > ```
 >
 > **Response**
@@ -233,7 +233,7 @@ Continuing our [example above](#example), we would download the results by makin
 > **Request**
 >
 > ```bash
-> % curl -s "https://rest.uniprot.org/idmapping/uniref/results/stream/27a020f6334184c4eb382111fbcad0e848f40300"
+> % curl -s "https://rest.uniprot.org/idmapping/uniref/results/stream/ecuuh9h0Md"
 > ```
 >
 > **Response**
@@ -276,7 +276,7 @@ For example:
 > **Request**
 >
 > ```bash
-> % curl -s "https://rest.uniprot.org/idmapping/uniref/details/27a020f6334184c4eb382111fbcad0e848f40300"
+> % curl -s "https://rest.uniprot.org/idmapping/uniref/details/ecuuh9h0Md"
 > ```
 >
 > **Response**
@@ -287,7 +287,7 @@ For example:
 >   "to": "UniRef90",
 >   "ids": "P21802,P12345",
 >   "taxId": null,
->   "redirectURL": "https://rest.uniprot.org/idmapping/uniref/results/27a020f6334184c4eb382111fbcad0e848f40300"
+>   "redirectURL": "https://rest.uniprot.org/idmapping/uniref/results/ecuuh9h0Md"
 > }
 > ```
 
