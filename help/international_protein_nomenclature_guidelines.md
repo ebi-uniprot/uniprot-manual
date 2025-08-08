@@ -19,10 +19,9 @@ These guidelines have been produced jointly by the European Bioinformatics Insti
       * [D. Notation](#D.-Notation)
       * [E. Style and format](#E.-Style-and-format)
       * [F. Word usage](#F.-Word-usage)
-   * [3. Choosing Protein Names](3.-Choosing-protein-names)
+    * [3. Choosing Protein Names](3.-Choosing-protein-names)
       * [A. Sources of protein name annotation](A.-Sources-of-protein-name-annotation)
       * [B. Naming procedure for specific cases](B.-Naming-procedure-for-specific-cases)
-
 
 
 ## 1. Introduction
