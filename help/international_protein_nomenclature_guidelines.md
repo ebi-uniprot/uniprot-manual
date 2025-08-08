@@ -11,17 +11,17 @@ These guidelines have been produced jointly by the European Bioinformatics Insti
 
 **Table of contents**
 
-   * [1. Introduction](#1.-Introduction)
-   * [2. Formats for Protein Names](#2.-Formats-for-Protein-Names)
-      * [A. Language](#A.-Language)
-      * [B. Abbreviations and symbols](#B.-Abbreviations-and-symbols)
-      * [C. Punctuation](#C.-Punctuation)
-      * [D. Notation](#D.-Notation)
-      * [E. Style and format](#E.-Style-and-format)
-      * [F. Word usage](#F.-Word-usage)
-    * [3. Choosing Protein Names](3.-Choosing-protein-names)
-      * [A. Sources of protein name annotation](A.-Sources-of-protein-name-annotation)
-      * [B. Naming procedure for specific cases](B.-Naming-procedure-for-specific-cases)
+   * [1. Introduction](www.uniprot.org/help/international_protein_nomenclature_guidelines#1-introduction)
+   * [2. Formats for Protein Names](www.uniprot.org/help/international_protein_nomenclature_guidelines#2-formats-for-protein-names)
+      * [A. Language](www.uniprot.org/help/international_protein_nomenclature_guidelines#a-language)
+      * [B. Abbreviations and symbols](www.uniprot.org/help/international_protein_nomenclature_guidelines#b-abbreviations-and-symbols)
+      * [C. Punctuation](www.uniprot.org/help/international_protein_nomenclature_guidelines#c-punctuation)
+      * [D. Notation](www.uniprot.org/help/international_protein_nomenclature_guidelines#d-notation)
+      * [E. Style and format](www.uniprot.org/help/international_protein_nomenclature_guidelines#e-style-and-format)
+      * [F. Word usage](www.uniprot.org/help/international_protein_nomenclature_guidelines#f-word-usage)
+   * [3. Choosing Protein Names](www.uniprot.org/help/international_protein_nomenclature_guidelines#3-choosing-protein-names)
+      * [A. Sources of protein name annotation](www.uniprot.org/help/international_protein_nomenclature_guidelines#a-sources-of-protein-name-annotation)
+      * [B. Naming procedure for specific cases](www.uniprot.org/help/international_protein_nomenclature_guidelines#b-naming-procedure-for-specific-cases)
 
 
 
