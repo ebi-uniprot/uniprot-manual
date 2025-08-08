@@ -324,7 +324,7 @@ Consistent protein nomenclature is indispensable for communication, literature s
     -   cell surface, cell surface protein, conserved hypothetical, hypothetical conserved, identified by, identity to, involved in, implicated in, protein domain protein, protein of unknown function, protein hypothetical, protein protein, protein putative, putative putative, questionable protein, related to, signal peptide protein, similar to, surface antigen, surface protein, unknown protein, authentic point mutation, low quality protein, C term(inal), N term(inal), inactivated derivative, conserved uncharacterized, uncharacterized conserved
 
 -   **Terms to avoid**
-    -   antigen, CDS, conserved, cytoplasmic, deletion, dubious, doubtful, expressed, fragment, frame shift, frameshift, genome, homolog (unless phylogenetically determined), interrupt, KDa, K Da, likely, locus, locus\_tag, novel, ORF, partial, possible, potential, predicted, probable, pseudo, pseudogene, secreted, strongly, truncat(ed), under, unique, unnamed, WGS, Xray, X-ray
+    -   antigen, CDS, clone, conserved, cytoplasmic, deletion, dubious, doubtful, expressed, fragment, frame shift, frameshift, genome, homolog (unless phylogenetically determined), interrupt, KDa, K Da, likely, locus, locus\_tag, novel, ORF, partial, possible, potential, predicted, probable, pseudo, pseudogene, secreted, strongly, truncat(ed), under, unique, unnamed, WGS, Xray, X-ray
         -   Naming proteins as antigens is discouraged but there may be rare exceptions to match widespread community/publication usage.
 
         **Exception** example: *cellular tumor antigen p53*
