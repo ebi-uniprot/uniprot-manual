@@ -12,16 +12,16 @@ These guidelines have been produced jointly by the European Bioinformatics Insti
 **Table of contents**
 
    * [1. Introduction](#1.-Introduction)
-   * [2. Formats for Protein Names](#Formats-for-Protein-Names)
-      * [A. Language](#Language)
-      * [B. Abbreviations and symbols](#Abbreviations-and-symbols)
-      * [C. Punctuation](#Punctuation)
-      * [D. Notation](#Notation)
-      * [E. Style and format](#Style-and-format)
-      * [F. Word usage](#Word-usage)
-   * [3. Choosing Protein Names](Choosing-protein-names)
-      * [A. Sources of protein name annotation](Sources-of-protein-name-annotation)
-      * [B. Naming procedure for specific cases](Naming-procedure-for-specific-cases)
+   * [2. Formats for Protein Names](#2.-Formats-for-Protein-Names)
+      * [A. Language](#A.-Language)
+      * [B. Abbreviations and symbols](#B.-Abbreviations-and-symbols)
+      * [C. Punctuation](#C.-Punctuation)
+      * [D. Notation](#D.-Notation)
+      * [E. Style and format](#E.-Style-and-format)
+      * [F. Word usage](#F.-Word-usage)
+   * [3. Choosing Protein Names](3.-Choosing-protein-names)
+      * [A. Sources of protein name annotation](A.-Sources-of-protein-name-annotation)
+      * [B. Naming procedure for specific cases](B.-Naming-procedure-for-specific-cases)
 
 
 
