@@ -24,6 +24,7 @@ These guidelines have been produced jointly by the European Bioinformatics Insti
       * [B. Naming procedure for specific cases](B.-Naming-procedure-for-specific-cases)
 
 
+
 ## 1. Introduction
 
 Consistent protein nomenclature is indispensable for communication, literature searching and entry retrieval. A good protein name is one which is unique, unambiguous, can be attributed to orthologs from other species and follows official gene nomenclature where applicable. The process of associating a name with a protein sequence has various components: sequence function identification/prediction, choosing a name and applying formatting. This document provides guidelines on naming choices and universal formatting. This does not include best practices on methods to be used for sequence function identification/prediction.
