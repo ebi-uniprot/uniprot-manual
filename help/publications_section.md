@@ -177,6 +177,7 @@ Many bacterial or fungal strains have names composed of an acronym (ATCC, DSM, N
 | USDA    | U.S. Department of Agriculture; USA                                                                     |
 | UTEX    | Culture collection of Algae at the University of Texas at Austin; USA                                   |
 
+
 # Expertly curated bibliography
 
 There is an ongoing effort to [curate published literature](https://www.uniprot.org/help/manual_curation) and associated data into Reviewed/SwissProt entries, this is done by a team of expert biocurators who read the literature and according to [stringent guidelines](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf) manually add the data and biological context to the protein entries.
