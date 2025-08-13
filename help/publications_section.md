@@ -177,6 +177,7 @@ Many bacterial or fungal strains have names composed of an acronym (ATCC, DSM, N
 | USDA    | U.S. Department of Agriculture; USA                                                                     |
 | UTEX    | Culture collection of Algae at the University of Texas at Austin; USA                                   |
 
+<br>
 
 # Expertly curated bibliography
 
