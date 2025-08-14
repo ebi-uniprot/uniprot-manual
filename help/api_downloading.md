@@ -85,7 +85,7 @@ for my $index ( 1 .. $#lines ) {
     my @taxonomic_lineage_column = split( /,\s/, $line[1] );
     my $domain                   = $taxonomic_lineage_column[1]; # first column is "cellular organisms", second is kingdom
     my $organism_id              = $line[2];
-    my $url = "https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/$domain/$upid/$upid\_$organism_id.fasta.gz";
+    my $url = "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/$domain/$upid/$upid\_$organism_id.fasta.gz";
     my $file = "$upid.fasta.gz";
     my $response_ftp = getstore( $url, $file );
 

@@ -13,10 +13,10 @@ categories: release,statistics
 Release `YYYY_NN` statistics can be found in the directory:
 
 ```
-https://ftp.ebi.ac.uk/pub/databases/uniprot/previous_releases/release-YYYY_NN/knowledgebase/
+https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-YYYY_NN/knowledgebase/
 ```
 
 Examples:
 
-- UniProtKB/Swiss-Prot statistics for release 2017_01: [https://ftp.ebi.ac.uk/pub/databases/uniprot/previous_releases/release-2017_01/knowledgebase/UniProtKB_SwissProt-relstat.html](https://ftp.ebi.ac.uk/pub/databases/uniprot/previous_releases/release-2017_01/knowledgebase/UniProtKB_SwissProt-relstat.html).
-- UniProtKB/TrEMBL statistics for release 2020_01: [https://ftp.ebi.ac.uk/pub/databases/uniprot/previous_releases/release-2020_01/knowledgebase/UniProtKB_TrEMBL-relstat.html](https://ftp.ebi.ac.uk/pub/databases/uniprot/previous_releases/release-2020_01/knowledgebase/UniProtKB_TrEMBL-relstat.html).
+- UniProtKB/Swiss-Prot statistics for release 2017_01: [https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2017_01/knowledgebase/UniProtKB_SwissProt-relstat.html](https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2017_01/knowledgebase/UniProtKB_SwissProt-relstat.html).
+- UniProtKB/TrEMBL statistics for release 2020_01: [https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2020_01/knowledgebase/UniProtKB_TrEMBL-relstat.html](https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2020_01/knowledgebase/UniProtKB_TrEMBL-relstat.html).
