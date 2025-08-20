@@ -301,7 +301,7 @@ Consistent protein nomenclature is indispensable for communication, literature s
                 -   *Prokaryotes: 50S ribosomal protein subunit L1*
                 -   *myosin heavy chain 1*
 
-    -   Avoid referencing chromosomal or cytogenetic locations of the gene**
+    -   Avoid referencing chromosomal or cytogenetic locations of the gene
 
         *Example: methylcytosine dioxygenase TET1 **not*** *ten-eleven translocation-1*
 
