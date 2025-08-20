@@ -341,7 +341,7 @@ Protein names are ideally supported by evidence from expert sources, the literat
 
 **Species-specific naming authorities**
 
--   Established and maintained database authorities such as species-specific nomenclature bodies (some are listed here: [*http://www.uniprot.org/docs/nomlist*](http://www.uniprot.org/docs/nomlist)).
+-   Established and maintained database authorities such as species-specific nomenclature bodies (some are listed here: [*https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist.txt)).
 
 -   Avoid names from species-specific authorities that relate to phenotype, anatomical features or any taxon-specific characteristics. In these cases, use the widely recognized gene symbol in combination with a functional name rather than a phenotypical name. For example, ‘minichromosome maintenance complex component 7’ is not applicable to organisms which do not have minichromosomes so to avoid transferring such a protein name, use the gene symbol MCM7 combined with a functional name instead.
 
@@ -391,7 +391,7 @@ Protein names are ideally supported by evidence from expert sources, the literat
 
    -   Most TIGRFAM models are designated equivalogs, meaning they assign a specific name to proteins conserved in function from a common ancestral sequence.
 
-       *Example of an equivalog type name versus a general name (see UniProtKB/SwissProt record [*P0A288*](https://www.ncbi.nlm.nih.gov/protein/P0A288.1)): peptide chain release factor 1 **versus** PCRF domain-containing protein*
+       *Example of an equivalog type name versus a general name (see UniProtKB/SwissProt record [*https://www.uniprot.org/uniprotkb/P0A288/entry)): peptide chain release factor 1 **versus** PCRF domain-containing protein*
 
    -   To apply names to proteins related to proteins named by equivalog type HMMs, use XXX-like protein or XXX family protein. These synonymous terms will carry the association that, despite obvious sequence similarity to XXX, it may or may not have the same role and function as XXX and thus it might be XXX itself, or something related. Also see the usage of “putative XXX” in section 3B about Novel proteins of unknown function.
 
