@@ -33,7 +33,7 @@ Consistent protein nomenclature is indispensable for communication, literature s
 
 ### A. Language
 
--   **Use American spelling, not British spelling **
+-   **Use American spelling, not British spelling**
 
     *Examples:*
 
@@ -41,7 +41,7 @@ Consistent protein nomenclature is indispensable for communication, literature s
 
     -   *hemoglobin **not** haemoglobin*
 
--   **Use protein names ending in 'in' (not 'ine') **
+-   **Use protein names ending in 'in' (not 'ine')**
 
     *Example: maurocalcin **not** maurocalcine*
 
@@ -298,10 +298,12 @@ Consistent protein nomenclature is indispensable for communication, literature s
 
         **Exception** examples:
                 -   *Eukaryotes: 60S ribosomal protein subunit L19B*
-                        -   *Prokaryotes: 50S ribosomal protein subunit L1*
-                                -   *myosin heavy chain 1*
-                                    -   Avoid referencing chromosomal or cytogenetic locations of the gene
-                                           *Example: methylcytosine dioxygenase TET1 **not*** *ten-eleven translocation-1*
+                -   *Prokaryotes: 50S ribosomal protein subunit L1*
+                -   *myosin heavy chain 1*
+
+    -   Avoid referencing chromosomal or cytogenetic locations of the gene**
+
+        *Example: methylcytosine dioxygenase TET1 **not*** *ten-eleven translocation-1*
 
     -   Avoid locus\_tag identifiers.
 
@@ -325,7 +327,8 @@ Consistent protein nomenclature is indispensable for communication, literature s
 
 -   **Terms to avoid**
     -   antigen, CDS, clone, conserved, cytoplasmic, deletion, dubious, doubtful, expressed, fragment, frame shift, frameshift, genome, homolog (unless phylogenetically determined), interrupt, KDa, K Da, likely, locus, locus\_tag, novel, ORF, partial, possible, potential, predicted, probable, pseudo, pseudogene, secreted, strongly, truncat(ed), under, unique, unnamed, WGS, Xray, X-ray
-        -   Naming proteins as antigens is discouraged but there may be rare exceptions to match widespread community/publication usage.
+
+    -   Naming proteins as antigens is discouraged but there may be rare exceptions to match widespread community/publication usage.
 
         **Exception** example: *cellular tumor antigen p53*
 
