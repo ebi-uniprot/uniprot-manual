@@ -37,6 +37,6 @@ The format of the 'Protein names' section in UniProtKB/TrEMBL closely follows th
 
 # Related documents
 
-[International protein nomenclature guidelines](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/International_Protein_Nomenclature_Guidelines.pdf)  
+[International protein nomenclature guidelines](https://www.uniprot.org/help/international_protein_nomenclature_guidelines)  
 [Protein nomenclature information](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist.txt)  
 [Why does the UniProtKB use so many different names for the same protein?](https://www.uniprot.org/help/different_protein_gene_names)

@@ -95,7 +95,7 @@ Personal data will only be disclosed to authorized staff at the institutions tha
 
 There are no personal data transfers to international organisations outside of the UniProt Consortium.
 
-UniProt uses [Google Analytics](https://policies.google.com/privacy), [Hotjar](https://www.hotjar.com/legal/policies/privacy/) and [Sentry](https://sentry.io/privacy/) as third-party analytics services to collect information about website performance and how users navigate through and use our website to help us design better interfaces. We do not use any of these services to track you individually or collect personal data.
+UniProt uses [Google Analytics](https://policies.google.com/privacy), [Contentsquare/Hotjar](https://www.hotjar.com/legal/policies/privacy/) and [Sentry](https://sentry.io/privacy/) as third-party analytics services to collect information about website performance and how users navigate through and use our website to help us design better interfaces. We do not use any of these services to track you individually or collect personal data.
 
 # 6. How long do we keep your personal data?
 
