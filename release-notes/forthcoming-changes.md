@@ -24,9 +24,7 @@ Please go to the [UniProt blog](https://insideuniprot.blogspot.com/2025/06/captu
 
 # Change in UniParc XML format to associate proteome IDs and components
 
-In the current UniParc format, a `dbReference` proteome information is currently split into 2 different `property`, leading to possible confusion when a `dbReference` is linked to multiple proteomes.
-
-The new format will group this information into 1 `property` of type `proteomeid_component` per pair of proteome and component, joined together by a colon sign `:`.
+In the current UniParc format, the proteome information that is provided for some `dbReference` types is given with the two `property` types `proteome_id` and `component`. In the future we will provide proteome information for new `dbReference` types that may be linked to more than one proteome. For this reason we have to group the proteome information in a single new `property` type `proteomeid_component` whose value is the proteome ID and component, joined together by a colon sign `:`.
 
 Example: [UPI0000000239](https://rest.uniprot.org/uniparc/UPI0000000239.xml)
 
