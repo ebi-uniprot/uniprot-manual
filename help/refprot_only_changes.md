@@ -9,7 +9,7 @@ A comprehensive list of affected protein entries and proteomes is available \[he
 
 # Our current release
 ## Release 2025\_04 
-**15th October 2025**
+15th October 2025
 
 Changes that we are making in this release:
 
@@ -31,7 +31,7 @@ How this might affect you:
 # Future releases
 
 ## Release 2026\_01
-**Currently expected early 2026**
+Currently expected early 2026
 
 Changes that we are making in this release:
 
@@ -46,7 +46,7 @@ How this might affect you:
 - There will only be minimal changes in UniProtKB and Proteomes that will be unlikely to affect users.
 
 ## Release 2026\_02
-**Currently expected in the late first or second quarter of 2026**
+Currently expected in the late first or second quarter of 2026
 
 Changes that we are making in this release:
 
