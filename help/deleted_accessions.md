@@ -1,5 +1,5 @@
 ---
-title: Why have some UniProtKB accession numbers been deleted? How can I track them?
+title: Why have some UniProtKB accession numbers been deleted?
 type: help
 categories: UniProtKB,Entry_information,UniParc,Release,faq
 ---
@@ -13,6 +13,8 @@ Most **UniProtKB/TrEMBL** deletions are due to the deletion of the corresponding
 For UniProtKB/TrEMBL entries from [proteomes](https://www.uniprot.org), there are two additional common deletion reasons: [proteome redundancy reduction](https://www.uniprot.org/help/proteome_redundancy) and [proteome exclusion](https://www.uniprot.org/help/proteome_exclusion_reasons).
 
 Redundant sequences and over-represented sequences mean that we have too many instances of a protein in UniProtKB. One example would be SARS-CoV-2, where we initially, after the outbreak of the pandemic, created UniProtKB entries for all submitted SARS-CoV-2 sequences. This has caused an over-representation, and thus most of the redundant proteins have later been deleted.
+
+# How can I track UniProtKB accessions that have been deleted?
 
 Like all UniProtKB sequences, all protein sequences deleted from UniProtKB can be found in [UniParc](https://www.uniprot.org/help/uniparc). Example: [O00597](https://www.uniprot.org/uniprotkb/O00597) can be found in UniParc, under [UPI000013C29B](https://www.uniprot.org/uniparc/UPI000013C29B) (with the tag 'Active=No').
 
@@ -40,6 +42,7 @@ The full list of reasons for UniProtKB/TrEMBL entry deletion can be found here:
 | [Redundant proteome](deleted_accessions#redundant_proteome)                         |
 | [Excluded proteome](deleted_accessions#excluded_proteome)                           |
 | [Over-represented sequence](deleted_accessions#over-represented_sequence)           |
+| [Not part of a reference proteome](deleted_accessions#not-part-of-a-reference-proteome)           |
 
 <h2 id="deleted_source_embl">Deleted from sequence source (EMBL)</h2>
 
@@ -84,6 +87,9 @@ An excluded proteome is deemed unsuitable to be retained in UniProtKB, and its e
 <h2 id="over-represented_sequence">Over-represented sequence</h2>
 
 The entry has been deleted because its sequence is redundant. Redundant sequences and over-represented sequences mean that we have too many instances of a protein in UniProtKB. One example would be SARS-CoV-2, where we initially, after the outbreak of the pandemic, created UniProtKB entries for all submitted SARS-CoV-2 sequences. This has caused an over-representation, and thus most of the redundant proteins have later been deleted.
+
+<h2 id="not-part-of-a-reference-proteome">Not part of a reference-proteome</h2>
+The entry has been deleted because it is not part of a reference proteome. UniProtKB is undergoing a change where it will be composed of entries from reference proteomes, and other proteins of biological interest.
 
 # See also
 
