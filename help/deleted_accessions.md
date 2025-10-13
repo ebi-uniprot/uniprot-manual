@@ -42,7 +42,7 @@ The full list of reasons for UniProtKB/TrEMBL entry deletion can be found here:
 | [Redundant proteome](deleted_accessions#redundant_proteome)                         |
 | [Excluded proteome](deleted_accessions#excluded_proteome)                           |
 | [Over-represented sequence](deleted_accessions#over-represented_sequence)           |
-| [Not part of a reference proteome](deleted_accessions#Not-part-of-a-reference-proteome)           |
+| [Not part of a reference proteome](deleted_accessions#not-part-of-a-reference-proteome)           |
 
 <h2 id="deleted_source_embl">Deleted from sequence source (EMBL)</h2>
 
