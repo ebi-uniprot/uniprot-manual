@@ -88,7 +88,7 @@ An excluded proteome is deemed unsuitable to be retained in UniProtKB, and its e
 
 The entry has been deleted because its sequence is redundant. Redundant sequences and over-represented sequences mean that we have too many instances of a protein in UniProtKB. One example would be SARS-CoV-2, where we initially, after the outbreak of the pandemic, created UniProtKB entries for all submitted SARS-CoV-2 sequences. This has caused an over-representation, and thus most of the redundant proteins have later been deleted.
 
-<h2 id="Not-part-of-a-reference-proteome">Not part of a reference-proteome</h2>
+<h2 id="not-part-of-a-reference-proteome">Not part of a reference-proteome</h2>
 The entry has been deleted because it is not part of a reference proteome. UniProtKB is undergoing a change where it will be composed of entries from reference proteomes, and other proteins of biological interest.
 
 # See also
