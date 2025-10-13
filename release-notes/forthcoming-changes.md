@@ -7,7 +7,6 @@ date: 2099-01-01
 **Table of contents**
 
    * [Reorganizing the protein space in UniProtKB](#reorganizing-the-protein-space-in-uniprotkb) - **From October 15, 2025**
-   * [Change in UniParc XML format to associate proteome IDs and components](#change-in-uniparc-xml-format-to-associate-proteome-ids-and-components) - **From release 2026_01**
 
 
 # Reorganizing the protein space in UniProtKB
