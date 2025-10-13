@@ -21,4 +21,4 @@ If the annotation provided by UniProtKB is particularly important to your work, 
 
 For more details on our novel workflow and how reference proteomes are changing, check: [Inside UniProt: Capturing the Diversity of Life - Reorganizing the Protein Space in UniProtKB](https://insideuniprot.blogspot.com/2025/06/capturing-diversity-of-life.html)
 
-For a brief summary of the changes to proteomes and subsequent UniProtKB changes please visit our [summary of proteomes](uniprot/org/help/refprot_only_changes) changes help page.
+For a brief summary of the changes to proteomes and subsequent UniProtKB changes please visit our [summary of proteomes](https://www.uniprot.org/help/refprot_only_changes) changes help page.
