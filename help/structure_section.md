@@ -54,7 +54,7 @@ Multiple experimentally determined structures may be available for one protein (
 Example: [Q9H165](https://www.uniprot.org/uniprotkb/Q9H165/feature-viewer). 
 
 # AlphaMissense prediction of genetic variation consequence
-[AlphaFold missense](https://alphamissense.hegelab.org/) is a machine-learning derived prediction of the likelihood of a human missense genetic variant being pathogenic (disease-causing) or benign (limited effect). It is a culmination of two types of data, amino acid residue evolutionary conservation and structural context of the residue based on AlphaFold2 predictions.
+[AlphaMissense](https://alphamissense.hegelab.org/) is a machine-learning derived prediction of the likelihood of a human missense genetic variant being pathogenic (disease-causing) or benign (limited effect). It is a culmination of two types of data, amino acid residue evolutionary conservation and structural context of the residue based on AlphaFold2 predictions.
 
 Pathogenicity scores are calculated per amino acid substitution in a heatmap visualization in the ‘AlphaMissense Pathogenicity’ track of the feature viewer. The higher the score (red) the more likely the variant is predicted to be pathogenic. These scores are then used to calculate an average likely pathogenicity score for each amino acid position within the protein sequence. This can be found in the ‘Average pathogenicity score’ track.
 
