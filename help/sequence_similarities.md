@@ -10,8 +10,6 @@ This subsection only states sequence similarity, thus excluding proteins with a 
 
 The 'Sequence similarities' subsection provides information on protein families the protein **belongs to**.
 
-The lines are listed in alphanumerical order.
-
 Examples: [Q9C9W3](https://www.uniprot.org/uniprotkb/Q9C9W3#family_and_domains), [Q03395](https://www.uniprot.org/uniprotkb/Q03395#family_and_domains), [Q15022](https://www.uniprot.org/uniprotkb/Q15022#family_and_domains), [P0A6X0](https://www.uniprot.org/uniprotkb/P0A6X0#family_and_domains), [O31792](https://www.uniprot.org/uniprotkb/O31792#family_and_domains)
 
 A protein may belong to two (or even more) different families. In this case, we indicate which part of the protein belongs to a given family.
