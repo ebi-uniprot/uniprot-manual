@@ -4,9 +4,11 @@ type: help
 categories: Publications,manual
 ---
 
-The set of publications **fully curated in UniProtKB/Swiss-Prot** and publications **imported in UniProtKB/TrEMBL** is complemented by [additional publications that have been computationally mapped](https://www.uniprot.org/help/publications_section#additional-bibliography) from other resources to UniProtKB entries, as well as by [community-submitted](https://www.uniprot.org/help/publications_section#community-submitted-bibliography) publications.
+The set of publications **[fully curated](https://www.uniprot.org/help/biocuration) in UniProtKB/Swiss-Prot** and publications **imported in UniProtKB/TrEMBL** is complemented by [additional publications that have been computationally mapped](https://www.uniprot.org/help/publications_section#additional-bibliography) from other resources to UniProtKB entries, as well as by [community-submitted](https://www.uniprot.org/help/publications_section#community-submitted-bibliography) publications.
 
-The publications annotated in UniProtKB, the computationally mapped and the community-submitted publications are combined into a "Publications" view, which can be accessed from a link under the "Display" heading on the left hand side of a UniProtKB page. In this view, you can filter the publications list by source and categories that are based on the type of data a publication contains about the protein (such as function, interaction, sequence, etc.), or by the number of proteins it describes ("small scale" vs "large scale").
+The publications from multiple sources are shown in the "Publications" view, which can be accessed from a link under the "Display" heading on the left hand side of a UniProtKB page. 
+Publications can be expertly annotated by curator, computationally mapped or community-curated, publications can be filtered by source and categories (information provided by the publication) or by the number of proteins it describes ("small scale" vs "large scale") by using the filters on the left of the page.
+
 
 References are numbered and contain several subsections allowing a precise description of a given citation.
 
@@ -175,11 +177,32 @@ Many bacterial or fungal strains have names composed of an acronym (ATCC, DSM, N
 | USDA    | U.S. Department of Agriculture; USA                                                                     |
 | UTEX    | Culture collection of Algae at the University of Texas at Austin; USA                                   |
 
+<br>
+
+# Expertly curated bibliography
+
+There is an ongoing effort to [curate published literature](https://www.uniprot.org/help/manual_curation) and associated data into Reviewed/SwissProt entries, this is done by a team of expert biocurators who read the literature and according to [stringent guidelines](https://github.com/ebi-uniprot/uniprot-manual/raw/main/pdfs/sop_manual_curation.pdf) manually add the data and biological context to the protein entries.
+
+## Where to find expertly curated bibliography
+
+Expertly curated literature can be found in the publications tab on the protein entry page, which can be filtered for expertly curated citations by selecting ‘UniProtKB reviewed (Swiss-Prot)’ in the tool bar on the left of the page.
+
+Expertly curated literature can be searched using either the ‘Literature citation / PubMed ID’ (lit_pubmed) field or the ‘Citation ID’ (lit_citation_ID) field. The ‘Citation ID’ field will return entries where the query PubMed ID is either expertly curated or computationally mapped to an entry. However the ‘PubMed ID’ column in the results table will only show the PubMed ID when it has been expertly curated as part of a protein entry. Therefore a search for a PubMed ID in the ‘Citation ID’ field may return protein entries that do not contain the query PubMed ID in the ‘PubMed ID’ column of the results table.
+
+
 # Additional bibliography
 
 As a comprehensive and high-quality resource of protein sequence and functional information, UniProtKB strives to provide comprehensive literature citations associated with protein sequences and their characterization. Currently about 2 thirds of the UniProtKB PubMed citations are found in UniProtKB/Swiss-Prot, as a result of active integration in the course of manual curation.
 
 In order to keep up with the explosive growth of literature and to give our users access to additional publications, we decided to integrate additional sources of literature from other annotated databases into UniProtKB. For this purpose we selected a number external databases, e.g. Entrez Gene (GeneRIFs), SGD, MGI, GAD and PDB, and extracted citations that were mapped to UniProtKB entries. This additional protein bibliography information helps our users to better explore the existing knowledge of their proteins of interest.
+
+## Where to find additional bibliography
+Additional bibliography literature can be found in the publications tab on the protein entry page, which can be filtered for additional bibliography citations by selecting ‘Computationally mapped’ in the tool bar on the left of the page.
+Additional bibliography literature can be searched using the following advanced search fields:
+‘Literature citation / Computational PubMed ID’ (computational_pubmed_id), searches for a PubMed ID that has been computationally mapped to either a Reviewed (SwissProt) or Unreviewed (TrEMBL) UniProt protein entry.
+‘Citation ID’ (lit_citation_ID) searches for a PubMed ID in both expert curated and computational curated bibliography lists.
+When viewing these search results please be aware that the result column ‘PubMed ID’ will only show PubMed ID’s that have been expertly curated as part of that protein entry. PubMed ID’s will therefore not appear in this results column if they have been computationally mapped. As a result, a search for a PubMed ID in the ‘Citation ID’ field may return protein entries that do not contain the query PubMed ID in the ‘PubMed ID’ column of the results table.
+
 
 # Community-submitted bibliography
 
