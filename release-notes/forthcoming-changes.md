@@ -7,7 +7,7 @@ date: 2099-01-01
 **Table of contents**
 
    * [Reorganizing the protein space in UniProtKB](#reorganizing-the-protein-space-in-uniprotkb) - **From October 15, 2025**
-
+   * [ChEBI data model change in UniProt SPARQL endpoint](#chebi-data-model-change-in-uniprot-sparql-endpoint) - **From release 2026_01**
 
 # Reorganizing the protein space in UniProtKB
 
@@ -22,3 +22,8 @@ If the annotation provided by UniProtKB is particularly important to your work, 
 For more details on our novel workflow and how reference proteomes are changing, check: [Inside UniProt: Capturing the Diversity of Life - Reorganizing the Protein Space in UniProtKB](https://insideuniprot.blogspot.com/2025/06/capturing-diversity-of-life.html)
 
 For a brief summary of the changes to proteomes and subsequent UniProtKB changes please visit our [summary of proteomes](https://www.uniprot.org/help/refprot_only_changes) changes help page.
+
+
+# ChEBI data model change in UniProt SPARQL endpoint
+
+The [UniProt SPARQL enpoint](https://sparql.uniprot.org/) includes a snapshot of the ChEBI ontology that is in sync with a specific UniProt release. We will adapt our snapshots to match the data model changes in the core [ChEBI ontology provided by the ChEBI team](https://chembl.blogspot.com/2025/07/chebi-20-data-products.html).
