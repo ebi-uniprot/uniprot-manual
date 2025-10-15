@@ -342,7 +342,7 @@ Protein names are ideally supported by evidence from expert sources, the literat
 
 **Species-specific naming authorities**
 
--   Established and maintained database authorities such as species-specific nomenclature bodies (some are listed here: [*https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist.txt)).
+-   Established and maintained database authorities such as species-specific nomenclature bodies (some are listed here: [*https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/nomlist.txt)).
 
 -   Avoid names from species-specific authorities that relate to phenotype, anatomical features or any taxon-specific characteristics. In these cases, use the widely recognized gene symbol in combination with a functional name rather than a phenotypical name. For example, ‘minichromosome maintenance complex component 7’ is not applicable to organisms which do not have minichromosomes so to avoid transferring such a protein name, use the gene symbol MCM7 combined with a functional name instead.
 
