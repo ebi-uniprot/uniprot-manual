@@ -19,7 +19,7 @@ Changes that we are making in this release:
 Changes in numbers:
 
 - Removal of 85 million protein entries from UniProtKB that are mainly from taxonomically unclassified species.  
-- Addition of 31 million protein entries to UniProtKB, most of which from new reference proteomes.  
+- Addition of 31 million protein entries to UniProtKB, most of which are from new reference proteomes.  
 - Resulting in a total decrease in the protein entries found in UniProtKB from 253 million to 199 million.
 
 How this might affect you:
