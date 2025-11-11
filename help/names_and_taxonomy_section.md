@@ -13,7 +13,7 @@ The information is filed in different subsections. The current subsections and t
 | **Subsection**                                                                       | **Content**                                                                       |
 | [Protein names](https://www.uniprot.org/help/protein_names)                          | Name and synonyms of the protein                                                  |
 | [Gene names](https://www.uniprot.org/help/gene_name)                                 | Name(s) of the gene(s) that code for the protein                                  |
-| [Encoded on](https://www.uniprot.org/help/encoded_on)                                | Organelle or plasmid gene source                                                  |
+| [Encoded in](https://www.uniprot.org/help/encoded_in)                                | Encoded in (previously named organelle or plasmid gene source)                                                  |
 | [Organism](https://www.uniprot.org/help/organism-name)                               | Name of the source organism                                                       |
 | [Taxonomic identifier](https://www.uniprot.org/help/taxonomic_identifier)            | NCBI unique identifier for the source organism                                    |
 | [Taxonomic lineage](https://www.uniprot.org/help/taxonomic_lineage)                  | Taxonomic classification of the source organism                                   |
