@@ -45,7 +45,7 @@ The `Label` is the readable name of the returned field. The `Label` is shown on 
 | ------------------------------- | ----------------------- |
 | Alternative products            | cc_alternative_products |
 | Alternative sequence            | ft_var_seq              |
-| Erroneous gene model prediction | error_gmodel_pred       |
+| Erroneous gene model prediction | cc_sc_epred             |
 | Fragment                        | fragment                |
 | Gene encoded in                 | encoded_in              |
 | Length                          | length                  |
