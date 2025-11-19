@@ -28,22 +28,161 @@ Information found in the feature viewer can be downloaded by using the ‘Downlo
 Each track within the feature viewer shows a category of biological data for the protein displayed. Some tracks can be expanded into sub-tracks which show further categories within that track and allow a more detailed view of the features. 
 Tracks will only be shown if there is data available for that feature type for a selected protein.
 
-Find below a list of all possible tracks, sub-tracks and their associated help pages. 
+Find below a list of all possible tracks, sub-tracks and their associated help pages.
 
-|                                                                                                                                   |                                                                                                                                            |
-| :-------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| **Track**                                                                                                                    | **Sub-track**                                                                                                                                |
-| [Sequence status](https://www.uniprot.org/help/sequence_status)                                                                   | Indicates if the protein sequence is complete or not                                                                                       |
-| [Sequence processing](https://www.uniprot.org/help/sequence_processing)                                                           | Indicates if the mature form of a protein is derived by processing of a precursor                                                          |
-| [Sequence](https://www.uniprot.org/help/sequences)                                                                                | Canonical protein sequence data and list of described protein isoforms                                                                     |
-| [Alternative products](https://www.uniprot.org/help/alternative_products)                                                         | Description of the different proteins generated from the same gene                                                                         |
-| [Computationally mapped potential isoform sequences](https://www.uniprot.org/help/gene_centric_isoform_mapping)                   | Automatic gene-centric isoform mapping for eukaryotic reference proteome sequences                                                         |
-| [Sequence caution](https://www.uniprot.org/help/sequence_caution)                                                                 | Warning about possible errors related to the protein sequence                                                                              |
-| [RNA editing](https://www.uniprot.org/help/rna_editing)                                                                           | Description of amino acid change(s) due to RNA editing                                                                                     |
-| [Mass spectrometry](https://www.uniprot.org/help/mass_spectrometry)                                                               | Information derived from mass spectrometry experiments                                                                                     |
-| [Polymorphism](https://www.uniprot.org/help/polymorphism)                                                                         | Description of polymorphism(s)                                                                                                             |
-| [Natural variant](https://www.uniprot.org/help/variant)                                                                           | Natural variants documented for the protein                                                                                                |
-| [Alternative sequence](https://www.uniprot.org/help/var_seq)                                                                      | Amino acid change(s) producing alternate protein isoforms                                                                                  |
-| [Sequence uncertainty](https://www.uniprot.org/help/unsure)                                                                       | Regions of uncertainty in the sequence                                                                                                     |
-| [Sequence conflict](https://www.uniprot.org/help/conflict)                                                                        | Description of sequence discrepancies of unknown origin                                                                                    |
-| [Non-adjacent residues](https://www.uniprot.org/help/non_cons)                                                                    | Indicates that two residues in a sequence are not consecutive                                                                              |                                 
+<table>
+  <thead>
+    <tr>
+      <th><strong>Track</strong></th>
+      <th><strong>Sub-track</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6">Molecule processing</td>
+      <td><a href="https://www.uniprot.org/help/signal">Signal peptide</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/chain">Chain</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/transit">Transit peptide</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/init_met">Initiator methionine</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/propep">Propeptide</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/peptide">Peptide</a></td>
+    </tr>
+    <tr>
+      <td rowspan="5">Sequence information</td>
+      <td><a href="https://www.uniprot.org/help/conflict">Sequence conflict</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/non_cons">Non-adjacent residues</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/non_ter">Non-terminal residues</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/unsure">Sequence uncertainty</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/non_std">Non-standard residue</a></td>
+    </tr>
+    <tr>
+      <td rowspan="3">Topology</td>
+      <td><a href="https://www.uniprot.org/help/topo_dom">Topological domain</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/transmem">Transmembrane</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/intramem">Intramembrane</a></td>
+    </tr>
+    <tr>
+      <td rowspan="6">Domains</td>
+      <td><a href="https://www.uniprot.org/help/domain">Domain</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/InterPro_rep_domain">InterPro Representative Domain</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/region">Region</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/repeat">Repeat</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/motif">Motif</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/zn_fing">Zinc finger</a></td>
+    </tr>
+    <tr>
+      <td rowspan="7">Sites</td>
+      <td><a href="https://www.uniprot.org/help/binding">Metal binding</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/site">Site</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/binding">Calcium binding</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/dna_bind">DNA binding</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/binding">Nucleotide binding</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/binding">Binding site</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/act_site">Active site</a></td>
+    </tr>
+    <tr>
+      <td rowspan="6">PTM</td>
+      <td><a href="https://www.uniprot.org/help/mod_res">Modified residue</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/mod_res_large_scale">Modified residue (large scale data)</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/carbohyd">Glycosylation</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/disulfid">Disulfide bond</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/crosslnk">Cross-link</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/lipid">Lipidation</a></td>
+    </tr>
+    <tr>
+      <td>Epitopes</td>
+      <td><a href="https://www.uniprot.org/help/epitopes">Epitope</a></td>
+    </tr>
+    <tr>
+      <td>Antigenic sequences</td>
+      <td><a href="https://www.uniprot.org/help/Antibody_binding_sequences">Antibody binding sequences</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Mutagenesis</td>
+      <td><a href="https://www.uniprot.org/help/mutagen">Mutagenesis</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/mutagen">Mutagenesis (large scale data)</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><a href="https://www.uniprot.org/help/variant_viewer">Variants</a></td>
+    </tr>
+    <tr>
+      <td rowspan="4">Proteomics</td>
+      <td><a href="https://www.uniprot.org/help/proteomics#1-data-from-public-mass-spectrometry-based-proteomics-resources">Unique peptide</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/proteomics#1-data-from-public-mass-spectrometry-based-proteomics-resources">Non-unique peptide</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/proteomics#3-human-proteome-project">Human proteome project</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/help/proteomics#4-post-translational-modification-ptm-data-derived-from-large-scale-mass-spectrometry-ms-datasets">PTM-containing peptide</a></td>
+    </tr>
+    <tr>
+      <td>PDBe 3D structure coverage</td>
+      <td><a href="https://www.uniprot.org/help/structure_section#structure_coverage">PDBe coverage</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><a href="https://www.uniprot.org/help/structure_section#alphafold-structural-models">AlphaFold Confidence</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><a href="https://www.uniprot.org/help/structure_section#alphamissense-prediction-of-genetic-variation-consequence">AlphaMissense Pathogenicity</a></td>
+    </tr>
+  </tbody>
+</table>
