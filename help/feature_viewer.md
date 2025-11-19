@@ -176,13 +176,13 @@ Find below a list of all possible tracks, sub-tracks and their associated help p
     </tr>
     <tr>
       <td>PDBe 3D structure coverage</td>
-      <td><a href="https://www.uniprot.org/help/structure_section#structure_coverage">PDBe coverage</a></td>
+      <td><a href="https://www.uniprot.org/help/structure_section#structure-coverage">PDBe coverage</a></td>
     </tr>
     <tr>
       <td colspan="2"><a href="https://www.uniprot.org/help/structure_section#alphafold-structural-models">AlphaFold Confidence</a></td>
     </tr>
     <tr>
-      <td colspan="2"><a href="https://www.uniprot.org/help/structure_section#alphamissense-prediction-of-genetic-variation-consequence">AlphaMissense Pathogenicity</a></td>
+      <td colspan="2"><a href="https://www.uniprot.org/help/structure_section#alphamissense-prediction-of-genetic-variation-consequence-in-the-feature-viewer">AlphaMissense Pathogenicity</a></td>
     </tr>
   </tbody>
 </table>
