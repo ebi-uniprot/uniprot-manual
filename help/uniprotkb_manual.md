@@ -22,4 +22,4 @@ Annotations of a UniProtKB entry are structured into the following sections:
 - [Miscellaneous](https://www.uniprot.org/help/miscellaneous_section)
 - [Similar Proteins](https://www.uniprot.org/help/similar_proteins_section)
 
-[User manual for the UniProtKB flat file format](http://web.expasy.org/docs/userman.html)
+[User manual for the UniProtKB flat file format](https://web.expasy.org/docs/userman.html)
