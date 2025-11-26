@@ -44,10 +44,10 @@ User manual: [Pathway](https://www.uniprot.org/help/pathway)
 
 # Plasmids
 
-The [Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid.txt) lists the currently valid values for the plasmids cited in the [Encoded on](https://www.uniprot.org/help/encoded_on) subsection of the 'Names and origin' section and in the [cross-references](https://www.uniprot.org/help/cross_references_section) section of UniProtKB/Swiss-Prot entries.
+The [Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid.txt) lists the currently valid values for the plasmids cited in the [Encoded in](https://www.uniprot.org/help/encoded_in) subsection of the 'Names and origin' section and in the [cross-references](https://www.uniprot.org/help/cross_references_section) section of UniProtKB/Swiss-Prot entries.
 
 UniProtKB/Swiss-Prot document: [Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid.txt)  
-User manual: [Encoded on](https://www.uniprot.org/help/encoded_on)
+User manual: [Encoded in](https://www.uniprot.org/help/encoded_in)
 
 # Post-translational modifications
 

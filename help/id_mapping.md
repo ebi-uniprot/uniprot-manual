@@ -47,6 +47,8 @@ The "From" database is where your list of identifiers originates. This is the da
 
 In essence, you provide a list of IDs in the "From" database format, and ID mapping will attempt to find the corresponding IDs in the "To" database format. For example, you might map IDs "From" RefSeq Protein "To" UniProtKB.
 
+If you are not sure which database to select from the "From" database list, you can start with a simple text search in UniProtKB with one of your identifiers, click on the matching entry and use the browser's "Find in page" functionality to find out which database your identifier is associated with.
+
 #### Supported databases
 
 | Database type | Databases supported |
@@ -81,3 +83,7 @@ ID mapping is also available programmatically. For documentation regarding progr
 
 * [Programmatic access for ID mapping](https://www.uniprot.org/help/id_mapping_prog)  
 * [UniProt API](https://www.uniprot.org/api-documentation/idmapping)
+
+## See also
+
+[Can I convert gene symbols to UniProtKB identifiers?](https://www.uniprot.org/help/gene_symbol_mapping)
