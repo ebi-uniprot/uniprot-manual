@@ -6,7 +6,7 @@ categories: UniProtKB,disease_phenotypes_variants,faq
 
 The UniProt consortium does not sell any biological products, neither proteins nor organisms. To obtain additional commercial information you need to access the on-line catalogs of the many suppliers of biochemicals and reagents for the life sciences.
 
-To the best of our knowledge this information is not available in any exhaustive public compilation i.e. one that includes all suppliers. There are some exceptions such as, for example, the commercial availability of restriction enzymes which can be obtained from the [REBASE database](http://rebase.neb.com/rebase/rebase.html) or for peptides (amino acids, peptide synthesis reagents, or peptides) from the [Peptide Resource Page](https://www.csbio.com/peptides.html). Another useful site may be the [Enzyme Directory](http://www.enzymedirectory.com/). 
+To the best of our knowledge this information is not available in any exhaustive public compilation i.e. one that includes all suppliers. There are some exceptions such as, for example, the commercial availability of restriction enzymes which can be obtained from the [REBASE database](https://rebase.neb.com/rebase/rebase.html) or for peptides (amino acids, peptide synthesis reagents, or peptides) from the [Peptide Resource Page](https://www.csbio.com/peptides.html). Another useful site may be the [Enzyme Directory](https://www.enzymedirectory.com/). 
 
 For certain entries, the UniProtKB database provides annotation which may be of interest in this context.
 

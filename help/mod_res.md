@@ -258,7 +258,7 @@ Example: [Q7LZ52](https://www.uniprot.org/uniprotkb/Q7LZ52#ptm_processing)
 
 Examples: [Q01974](https://www.uniprot.org/uniprotkb/Q01974#ptm_processing), [Q8IIJ9](https://www.uniprot.org/uniprotkb/Q8IIJ9#ptm_processing)
 
-We annotate not only experimentally determined sites of tyrosine sulfation (as well as that on serine and threonine residues), but also tyrosine sulfation sites predicted with the ['Sulfinator'](http://web.expasy.org/sulfinator/) tool. Sulfation prediction is taken into account only when this modification is known to occur on the protein concerned but the exact site is not known. The annotation of a predicted site is flagged with 'Sequence Analysis' (Sequence Model).  
+We annotate not only experimentally determined sites of tyrosine sulfation (as well as that on serine and threonine residues), but also tyrosine sulfation sites predicted with the ['Sulfinator'](https://web.expasy.org/sulfinator/) tool. Sulfation prediction is taken into account only when this modification is known to occur on the protein concerned but the exact site is not known. The annotation of a predicted site is flagged with 'Sequence Analysis' (Sequence Model).  
 Example: [P04439](https://www.uniprot.org/uniprotkb/P04439/entry#ptm_processing)
 
 # 9. Flavin-binding

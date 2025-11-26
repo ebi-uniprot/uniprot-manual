@@ -18,7 +18,7 @@ References:
 
 [Nomenclature and symbolism for amino acids and peptides (Recommendation 1983)(IUPAC)](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)
 
-[IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN) and Nomenclature Committee of IUBMB (NC-IUBMB), newsletter 1999](http://dx.doi.org/doi:10.1046/j.1432-1327.1999.news99.x)
+[IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN) and Nomenclature Committee of IUBMB (NC-IUBMB), newsletter 1999](https://dx.doi.org/doi:10.1046/j.1432-1327.1999.news99.x)
 
 # Related documents
 

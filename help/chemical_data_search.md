@@ -7,10 +7,10 @@ categories: Text_search,Function,UniProtKB,faq
 
 **Table of contents**
 
-   * [Search for small molecules](#search-for-small-molecules)
-      * [Search with name or identifier](#search-with-name-or-identifier)
-      * [Chemical structure search with InChIKey](#chemical-structure-search-with-inchikey)
-   * [Search for catalytic activity and reaction data](#search-for-catalytic-activity-and-reaction-data)
+   * [Search for small molecules](https://www.uniprot.org/help/chemical_data_search#search-for-small-molecules)
+      * [Search with name or identifier](https://www.uniprot.org/help/chemical_data_search#search-with-name-or-identifier)
+      * [Chemical structure search with InChIKey](https://www.uniprot.org/help/chemical_data_search#chemical-structure-search-with-inchikey)
+   * [Search for catalytic activity and reaction data](https://www.uniprot.org/help/chemical_data_search#search-for-catalytic-activity-and-reaction-data)
    * [Video tutorial](https://www.youtube.com/watch?v=5eW-eZJ08wc)
 
 
@@ -62,9 +62,9 @@ The InChIKey is made of layers. You can search with a complete InChIKey, as well
 
 Enzyme-catalysed reactions are annotated in the [Catalytic activity](https://www.uniprot.org/help/catalytic_activity) section.
 
-Historically, UniProt has followed the recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology ([NC-IUBMB](http://www.chem.qmul.ac.uk/iubmb/enzyme/)) for the description of enzymatic activities. The NC-IUBMB use their own names for the reactants, and sometimes the catalytic activity from IUBMB is a free text reaction description. In [2018](https://www.uniprot.org/release-notes/2018-12-05-release), UniProt has started to use the [Rhea](https://www.rhea-db.org/) knowledgebase as a vocabulary to annotate and represent enzyme-catalysed reactions in UniProtKB. Rhea uses ChEBI to represent small molecule reactants and in addition its own compounds for reactants that are not within the scope of ChEBI.
+Historically, UniProt has followed the recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology ([NC-IUBMB](https://iubmb.qmul.ac.uk/enzyme/)) for the description of enzymatic activities. The NC-IUBMB use their own names for the reactants, and sometimes the catalytic activity from IUBMB is a free text reaction description. In [2018](https://www.uniprot.org/release-notes/2018-12-05-release), UniProt has started to use the [Rhea](https://www.rhea-db.org/) knowledgebase as a vocabulary to annotate and represent enzyme-catalysed reactions in UniProtKB. Rhea uses ChEBI to represent small molecule reactants and in addition its own compounds for reactants that are not within the scope of ChEBI.
 
-The [Advanced search](https://www.uniprot.org/help/advanced_search) can be used to search in these annotations by reaction participant (name or identifier from [ChEBI](https://www.ebi.ac.uk/chebi/) or [Rhea](https://www.rhea-db.org/)), Rhea reaction identifier, or by [InChIKey](#chemical-structure-search-with-inchikey).
+The [Advanced search](https://www.uniprot.org/help/advanced_search) can be used to search in these annotations by reaction participant (name or identifier from [ChEBI](https://www.ebi.ac.uk/chebi/) or [Rhea](https://www.rhea-db.org/)), Rhea reaction identifier, or by [InChIKey](https://www.uniprot.org/help/chemical_data_search#chemical-structure-search-with-inchikey).
 
 The autocompletion mechanism works for all reactants from ChEBI and Rhea.
 

@@ -12,7 +12,7 @@ Example: [B9FXV5](https://www.uniprot.org/uniprotkb/B9FXV5/entry#ptm_processing)
 
 ## Where does the data come from?
 
-The data comes from a refined set of large-scale enriched PTM (e.g. phosphorylation) proteomics datasets publicly available in the [PRIDE database](https://www.ebi.ac.uk/pride/) or the wider [ProteomeXchange](http://proteomecentral.proteomexchange.org) Consortium of proteomics resources. The links to each source dataset can be found in the expandable “evidence tag” section for each PTM, next to the protein modification name in the ‘Description’ column of the table. In addition, links to PeptideAtlas species-specific PTM builds are also available.
+The data comes from a refined set of large-scale enriched PTM (e.g. phosphorylation) proteomics datasets publicly available in the [PRIDE database](https://www.ebi.ac.uk/pride/) or the wider [ProteomeXchange](https://proteomecentral.proteomexchange.org/) Consortium of proteomics resources. The links to each source dataset can be found in the expandable “evidence tag” section for each PTM, next to the protein modification name in the ‘Description’ column of the table. In addition, links to PeptideAtlas species-specific PTM builds are also available.
 
 The data originates from two collaborative projects:
 

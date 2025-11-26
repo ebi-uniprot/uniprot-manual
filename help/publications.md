@@ -82,7 +82,7 @@ Morgat A, Lombardot T, Coudert E, Axelsen K, Neto TB, Gehant S, Bansal P, Bollem
 
 The UniProt Consortium.  
 **UniProt: the universal protein knowledgebase**  
-[Nucleic Acids Res. 46:2699 (2018)](http://dx.doi.org/doi:10.1093/nar/gky092)
+[Nucleic Acids Res. 46:2699 (2018)](https://dx.doi.org/doi:10.1093/nar/gky092)
 
 Pichler K, Warner K, Magrane M, UniProt Consortium.
 **SPIN: Submitting Sequences Determined at Protein Level to UniProt**  
@@ -92,7 +92,7 @@ Pichler K, Warner K, Magrane M, UniProt Consortium.
 
 The UniProt Consortium.
 **UniProt: the universal protein knowledgebase**  
-[Nucleic Acids Res. 45:D158-D169 (2017)](http://dx.doi.org/doi:10.1093/nar/gkw1099)
+[Nucleic Acids Res. 45:D158-D169 (2017)](https://dx.doi.org/doi:10.1093/nar/gkw1099)
 
 Chen C, Huang H, Wu CH.  
 **Protein Bioinformatics Databases and Resources**  
@@ -120,7 +120,7 @@ Watkins X, Garcia LJ, Pundir S, Martin MJ, UniProt Consortium
 
 Zaru R, Magrane M, O'Donovan C, UniProt Consortium  
 **From the research laboratory to the database: the Caenorhabditis elegans kinome in UniProtKB**  
-[Biochem J. 474(4):493-515 (2017)](http://www.biochemj.org/content/474/4/493)
+[Biochem J. 474(4):493-515 (2017)](https://www.biochemj.org/content/474/4/493)
 
 ## 2016
 
@@ -232,7 +232,7 @@ Pedruzzi I, Rivoire C, Auchincloss AH, Coudert E, Keller G, de Castro E, Baratin
 
 The UniProt Consortium  
 **Update on activities at the Universal Protein Resource (UniProt) in 2013**  
-[Nucleic Acids Res. 41: D43-D47 (2013)](http://dx.doi.org/doi:10.1093/nar/gks1068)
+[Nucleic Acids Res. 41: D43-D47 (2013)](https://dx.doi.org/doi:10.1093/nar/gks1068)
 
 Velankar S, Dana JM, Jacobsen J, van Ginkel G, Gane PJ, Luo J, Oldfield TJ, O'Donovan C, Martin MJ, Kleywegt GJ.  
 **SIFTS: Structure Integration with Function, Taxonomy and Sequences resource**  
@@ -254,7 +254,7 @@ Dimmer EC, Huntley RP, Alam-Faruque Y, Sawford T, O'Donovan C, Martin MJ, Bely B
 
 Jungo F, Bougueleret L, Xenarios I, Poux S.  
 **The UniProtKB/Swiss-Prot Tox-Prot program: A central hub of integrated venom protein data**  
-[Toxicon 60:551-557 (2012)](http://dx.doi.org/10.1016/j.toxicon.2012.03.010)
+[Toxicon 60:551-557 (2012)](https://dx.doi.org/10.1016/j.toxicon.2012.03.010)
 
 Schneider M, Poux S, UniProt Consortium  
 **UniProtKB amid the turmoil of plant proteomics research front**  
@@ -266,7 +266,7 @@ Wang Q, Arighi CN, King BL, Polson SW, Vincent J, Chen C, Huang H, Kingham BF, P
 
 The UniProt Consortium  
 **Reorganizing the protein space at the Universal Protein Resource (UniProt)**  
-[Nucleic Acids Res. 40: D71-D75 (2012)](http://dx.doi.org/doi:10.1093/nar/gkr981)
+[Nucleic Acids Res. 40: D71-D75 (2012)](https://dx.doi.org/doi:10.1093/nar/gkr981)
 
 ## 2011
 
@@ -318,15 +318,15 @@ Vasudevan S, Vinayaka CR, Natale DA, Huang H, Kahsay RY, Wu CH.
 
 Hinz U, UniProt Consortium  
 **From protein sequences to 3D-structures and beyond: the example of the UniProt knowledgebase**  
-[Cell. Mol. Life Sci. 67:1049-1064 (2010)](http://dx.doi.org/10.1007/s00018-009-0229-6)
+[Cell. Mol. Life Sci. 67:1049-1064 (2010)](https://dx.doi.org/10.1007/s00018-009-0229-6)
 
 Jungo F, Estreicher A, Bairoch A, Bougueleret L, Xenarios I.  
 **Animal Toxins: How is complexity represented in databases?**  
-[Toxins 2:262-282 (2010)](http://dx.doi.org/doi:10.3390/toxins2020261)
+[Toxins 2:262-282 (2010)](https://dx.doi.org/doi:10.3390/toxins2020261)
 
 The UniProt Consortium  
 **The Universal Protein Resource (UniProt) in 2010**  
-[Nucleic Acids Res. 38:D142-D148 (2010)](http://nar.oxfordjournals.org/content/38/suppl_1/D142.long)
+[Nucleic Acids Res. 38:D142-D148 (2010)](https://nar.oxfordjournals.org/content/38/suppl_1/D142.long)
 
 ## 2009
 
@@ -336,25 +336,25 @@ In: Metagenomics: Theory, methods, and applications. Marco D (Ed), pp 79-105 (20
 
 Jain E, Bairoch A, Duvaud S, Phan I, Redaschi N, Suzek BE, Martin MJ, McGarvey P, Gasteiger E.  
 **Infrastructure for the life sciences: design and implementation of the UniProt website**  
-[BMC Bioinformatics 10:136 (2009)](http://dx.doi.org/doi:10.1186/1471-2105-10-136)
+[BMC Bioinformatics 10:136 (2009)](https://dx.doi.org/doi:10.1186/1471-2105-10-136)
 
 Lima T, Auchincloss AH, Coudert E, Keller G, Michoud K, Rivoire C, Bulliard V, de Castro E, Lachaize C, Baratin D, Phan I, Bougueleret L, Bairoch A.  
 **HAMAP: a database of completely sequenced microbial proteome sets and manually curated microbial protein families in UniProtKB/Swiss-Prot**  
-[Nucleic Acids Res. 37:D471-D478 (2009)](http://nar.oxfordjournals.org/content/37/suppl_1/D471.long)
+[Nucleic Acids Res. 37:D471-D478 (2009)](https://nar.oxfordjournals.org/content/37/suppl_1/D471.long)
 
 Schneider M, Lane L, Boutet E, Lieberherr D, Tognolli M, Bougueleret L, Bairoch A.  
 **The UniProtKB/Swiss-Prot knowledgebase and its Plant Proteome Annotation Program**  
-[J. Proteomics 72:567-573 (2009)](http://dx.doi.org/10.1016/j.jprot.2008.11.010)
+[J. Proteomics 72:567-573 (2009)](https://dx.doi.org/10.1016/j.jprot.2008.11.010)
 
 The UniProt Consortium  
 **The Universal Protein Resource (UniProt)**  
-[Nucleic Acids Res. 37:D169-D174 (2009)](http://nar.oxfordjournals.org/content/37/suppl_1/D169.long)
+[Nucleic Acids Res. 37:D169-D174 (2009)](https://nar.oxfordjournals.org/content/37/suppl_1/D169.long)
 
 ## 2008
 
 Braconi Quintaje S, Orchard S.  
 **The annotation of both human and mouse kinomes in UniProtKB/Swiss-Prot: one small step in manual annotation, one giant leap for full comprehension of genomes**  
-[Mol. Cell. Proteomics 7:1409-1419 (2008)](http://dx.doi.org/10.1074/mcp.R700001-MCP200)
+[Mol. Cell. Proteomics 7:1409-1419 (2008)](https://dx.doi.org/10.1074/mcp.R700001-MCP200)
 
 Bridge A, Veuthey A-L.  
 **Resources for functional annotation**  
@@ -382,7 +382,7 @@ Patient S, Wieser D, Kleen M, Kretschmann E, Martin M, Apweiler R.
 
 The UniProt Consortium  
 **The Universal Protein Resource (UniProt)**  
-[Nucleic Acids Res. 36:D190-D195 (2008)](http://nar.oxfordjournals.org/content/36/suppl_1/D190.long)
+[Nucleic Acids Res. 36:D190-D195 (2008)](https://nar.oxfordjournals.org/content/36/suppl_1/D190.long)
 
 Yip YL, Famiglietti M, Gos A, Duek PD, David FP, Gateau A, Bairoch A.  
 **Annotating single amino acid polymorphisms in the UniProt/Swiss-Prot knowledgebase**  
@@ -412,11 +412,11 @@ Rice Annotation Project, Itoh T, Tanaka T, Barrero RA, Yamasaki C, Fujii Y, Hilt
 
 Suzek BE, Huang H, McGarvey P, Mazumder R, Wu CH.  
 **UniRef: Comprehensive and Non-Redundant UniProt Reference Clusters**  
-[Bioinformatics 23:1282-1288 (2007)](http://bioinformatics.oxfordjournals.org/content/23/10/1282.long)
+[Bioinformatics 23:1282-1288 (2007)](https://bioinformatics.oxfordjournals.org/content/23/10/1282.long)
 
 The UniProt Consortium  
 **The Universal Protein Resource (UniProt)**  
-[Nucleic Acids Res. 35:D193-D197 (2007)](http://nar.oxfordjournals.org/content/35/suppl_1/D193.long)
+[Nucleic Acids Res. 35:D193-D197 (2007)](https://nar.oxfordjournals.org/content/35/suppl_1/D193.long)
 
 Yip YL, Lachenal N, Pillet V, Veuthey AL.  
 **Retrieving mutation-specific information for human proteins in UniProt/Swiss-Prot Knowledgebase**  
@@ -434,7 +434,7 @@ Han B, Obradovic Z, Hu ZZ, Wu CH, Vucetic S.
 
 Leinonen R, Nardone F, Zhu W, Apweiler R.  
 **UniSave: the UniProtKB Sequence/Annotation Version database**  
-[Bioinformatics 22:1284-1285 (2006)](http://bioinformatics.oxfordjournals.org/content/22/10/1284.long)
+[Bioinformatics 22:1284-1285 (2006)](https://bioinformatics.oxfordjournals.org/content/22/10/1284.long)
 
 Liu H, Hu ZZ, Torii M, Wu C, Friedman CJ.  
 **Quantitative assessment of dictionary-based protein named entity tagging**  
@@ -466,7 +466,7 @@ Whitfield EJ, Pruess M, Apweiler R.
 
 Wu CH, Apweiler R, Bairoch A, Natale DA, Barker WC, Boeckmann B, Ferro S, Gasteiger E, Huang H, Lopez R, Magrane M, Martin MJ, Mazumder R, O'Donovan C, Redaschi N, Suzek B.  
 **The Universal Protein Resource (UniProt): an expanding universe of protein information**  
-[Nucleic Acids Res. 34:D187-D191 (2006)](http://nar.oxfordjournals.org/content/34/suppl_1/D187.long)
+[Nucleic Acids Res. 34:D187-D191 (2006)](https://nar.oxfordjournals.org/content/34/suppl_1/D187.long)
 
 Yuan X, Hu ZZ, Wu HT, Torii M, Narayanaswamy M, Ravikumar KE, Vijay-Shanker K, Wu CH.  
 **An online literature mining tool for protein phosphorylation**  
@@ -476,11 +476,11 @@ Yuan X, Hu ZZ, Wu HT, Torii M, Narayanaswamy M, Ravikumar KE, Vijay-Shanker K, W
 
 Bairoch A, Apweiler R, Wu CH, Barker WC, Boeckmann B, Ferro S, Gasteiger E, Huang H, Lopez R, Magrane M, Martin MJ, Natale DA, O'Donovan C, Redaschi N, Yeh LS.  
 **The Universal Protein Resource (UniProt)**  
-[Nucleic Acids Res. 33:D154-D159 (2005)](http://dx.doi.org/10.1093/nar/gki070)
+[Nucleic Acids Res. 33:D154-D159 (2005)](https://dx.doi.org/10.1093/nar/gki070)
 
 Boeckmann B, Blatter M-C, Famiglietti L, Hinz U, Lane L, Roechert B, Bairoch A.  
 **Protein variety and functional diversity: Swiss-Prot annotation in its biological context**  
-[C. R. Biol. 328:882-899 (2005)](http://dx.doi.org/10.1016/j.crvi.2005.06.001)
+[C. R. Biol. 328:882-899 (2005)](https://dx.doi.org/10.1016/j.crvi.2005.06.001)
 
 Hu ZZ, Narayanaswamy M, Ravikumar KE, Vijay-Shanker K, Wu CH.  
 **Literature mining and database annotation of protein phosphorylation using a rule-based system**  
@@ -492,21 +492,21 @@ Jones P, Vinod N, Down T, Hackmann A, Kahari A, Kretschmann E, Wieder D, Hermjak
 
 Jungo F, Bairoch A.  
 **Tox-Prot, the toxin protein annotation program of the Swiss-Prot protein knowledgebase**  
-[Toxicon 45:293-301 (2005)](http://dx.doi.org/10.1016/j.toxicon.2004.10.018)
+[Toxicon 45:293-301 (2005)](https://dx.doi.org/10.1016/j.toxicon.2004.10.018)
 
 Schneider M, Bairoch A, Wu CH, Apweiler R.  
 **Plant Protein Annotation in the UniProt Knowledgebase**  
-[Plant Physiol. 138:59-66 (2005)](http://dx.doi.org/10.1104/pp.104.058933)
+[Plant Physiol. 138:59-66 (2005)](https://dx.doi.org/10.1104/pp.104.058933)
 
 ## 2004
 
 Apweiler R, Bairoch A, Wu CH.  
 **Protein sequence databases**  
-[Curr. Opin. Chem. Biol. 8:76-80 (2004)](http://dx.doi.org/10.1016/j.cbpa.2003.12.004)
+[Curr. Opin. Chem. Biol. 8:76-80 (2004)](https://dx.doi.org/10.1016/j.cbpa.2003.12.004)
 
 Apweiler R, Bairoch A, Wu CH, Barker WC, Boeckmann B, Ferro S, Gasteiger E, Huang H, Lopez R, Magrane M, Martin MJ, Natale DA, O'Donovan C, Redaschi N, Yeh LS.  
 **UniProt: the Universal Protein knowledgebase**  
-[Nucleic Acids Res. 32:D115-D119 (2004)](http://dx.doi.org/10.1093/nar/gkh131)
+[Nucleic Acids Res. 32:D115-D119 (2004)](https://dx.doi.org/10.1093/nar/gkh131)
 
 Bairoch A, Boeckmann B, Ferro S, Gasteiger E.  
 **Swiss-Prot: juggling between evolution and stability**  
@@ -514,11 +514,11 @@ Bairoch A, Boeckmann B, Ferro S, Gasteiger E.
 
 Farriol-Mathis N, Garavelli JS, Boeckmann B, Duvaud S, Gasteiger E, Gateau A, Veuthey A-L, Bairoch A.  
 **Annotation of post-translational modifications in the Swiss-Prot knowledgebase**  
-[Proteomics 4:1537-1550 (2004)](http://dx.doi.org/10.1002/pmic.200300764)
+[Proteomics 4:1537-1550 (2004)](https://dx.doi.org/10.1002/pmic.200300764)
 
 Leinonen R, Diez FG, Binns D, Fleischmann W, Lopez R, Apweiler R.  
 **UniProt Archive**  
-[Bioinformatics 20:3236-3237 (2004)](http://dx.doi.org/10.1093/bioinformatics/bth191)
+[Bioinformatics 20:3236-3237 (2004)](https://dx.doi.org/10.1093/bioinformatics/bth191)
 
 Wieser D, Kretschmann E, Apweiler R.  
 **Filtering Erroneous Protein Annotation**  
@@ -532,7 +532,7 @@ Yip YL, Scheib H, Diemand AV, Gattiker A, Famiglietti LM, Gasteiger E, Bairoch A
 
 Boeckmann B, Bairoch A, Apweiler R, Blatter M-C, Estreicher A, Gasteiger E, Martin MJ, Michoud K, O'Donovan C, Phan I, Pilbout S, Schneider M.  
 **The Swiss-Prot protein knowledgebase and its supplement TrEMBL in 2003**  
-[Nucleic Acids Res. 31:365-370 (2003)](http://view.ncbi.nlm.nih.gov/pubmed/12520024)
+[Nucleic Acids Res. 31:365-370 (2003)](https://view.ncbi.nlm.nih.gov/pubmed/12520024)
 
 Gattiker A, Michoud K, Rivoire C, Auchincloss AH, Coudert E, Lima T, Kersey P, Pagni M, Sigrist CJ, Lachaize C, Veuthey A-L, Gasteiger E, Bairoch A.  
 **Automated annotation of microbial proteomes in Swiss-Prot**  
@@ -544,44 +544,44 @@ Wu CH, Huang H, Yeh L-S, Barker WC.
 
 O'Donovan C, Martin MJ, Gattiker A, Gasteiger E, Bairoch A, Apweiler R.  
 **High-quality protein knowledge resource: Swiss-Prot and TrEMBL**  
-[Brief. Bioinform. 3:275-284 (2002)](http://view.ncbi.nlm.nih.gov/pubmed/12230036)
+[Brief. Bioinform. 3:275-284 (2002)](https://view.ncbi.nlm.nih.gov/pubmed/12230036)
 
 Apweiler R.  
 **Functional information in Swiss-Prot: the basis for large-scale characterisation of protein sequences**  
-[Brief. Bioinform. 2:9-18 (2001)](http://view.ncbi.nlm.nih.gov/pubmed/11465066)
+[Brief. Bioinform. 2:9-18 (2001)](https://view.ncbi.nlm.nih.gov/pubmed/11465066)
 
 Gasteiger E, Jung E, Bairoch A.  
 **Swiss-Prot: connecting biomolecular knowledge via a protein database**  
-[Curr. Issues Mol. Biol. 3:47-55 (2001)](http://view.ncbi.nlm.nih.gov/pubmed/11488411)
+[Curr. Issues Mol. Biol. 3:47-55 (2001)](https://view.ncbi.nlm.nih.gov/pubmed/11488411)
 
 Jung E, Veuthey A-L, Gasteiger E, Bairoch A.  
 **Annotation of glycoproteins in the Swiss-Prot database**  
-[Proteomics 1:262-268 (2001)](http://view.ncbi.nlm.nih.gov/pubmed/11680872)
+[Proteomics 1:262-268 (2001)](https://view.ncbi.nlm.nih.gov/pubmed/11680872)
 
 O'Donovan C, Apweiler R, Bairoch A.  
 **The human proteomics initiative (HPI)**  
-[Trends Biotechnol. 19:178-181 (2001)](http://view.ncbi.nlm.nih.gov/pubmed/11301130)
+[Trends Biotechnol. 19:178-181 (2001)](https://view.ncbi.nlm.nih.gov/pubmed/11301130)
 
 Kersey P, Hermjakob H, Apweiler R.  
 **VARSPLIC: alternatively-spliced protein sequences derived from Swiss-Prot and TrEMBL**  
-[Bioinformatics 16:1048-1049 (2000)](http://view.ncbi.nlm.nih.gov/pubmed/11159319)
+[Bioinformatics 16:1048-1049 (2000)](https://view.ncbi.nlm.nih.gov/pubmed/11159319)
 
 Fleischmann W, Moeller S, Gateau A, Apweiler R.  
 **A novel method for automatic functional annotation of proteins**  
-[Bioinformatics 15:228-233 (1999)](http://view.ncbi.nlm.nih.gov/pubmed/10222410)
+[Bioinformatics 15:228-233 (1999)](https://view.ncbi.nlm.nih.gov/pubmed/10222410)
 
 Junker VL, Apweiler R, Bairoch A.  
 **Representation of functional information in the Swiss-Prot data bank**  
-[Bioinformatics 15:1066-1067 (1999)](http://view.ncbi.nlm.nih.gov/pubmed/10746001)
+[Bioinformatics 15:1066-1067 (1999)](https://view.ncbi.nlm.nih.gov/pubmed/10746001)
 
 Moeller S, Leser U, Fleischmann W, Apweiler R.  
 **EDITtoTrEMBL: a distributed approach to high-quality automated protein sequence annotation**  
-[Bioinformatics 15:219-227 (1999)](http://view.ncbi.nlm.nih.gov/pubmed/10222409)
+[Bioinformatics 15:219-227 (1999)](https://view.ncbi.nlm.nih.gov/pubmed/10222409)
 
 O'Donovan C, Martin MJ, Glemet E, Codani JJ, Apweiler R.  
 **Removing redundancy in Swiss-Prot and TrEMBL**  
-[Bioinformatics 15:258-259 (1999)](http://view.ncbi.nlm.nih.gov/pubmed/10222414)
+[Bioinformatics 15:258-259 (1999)](https://view.ncbi.nlm.nih.gov/pubmed/10222414)
 
 Bairoch A, Apweiler R.  
 **The Swiss-Prot protein sequence database: its relevance to human molecular medical research**  
-[J. Mol. Med. 75:312-316 (1997)](http://view.ncbi.nlm.nih.gov/pubmed/9181472)
+[J. Mol. Med. 75:312-316 (1997)](https://view.ncbi.nlm.nih.gov/pubmed/9181472)

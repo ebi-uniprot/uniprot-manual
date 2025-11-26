@@ -25,7 +25,7 @@ categories: help
 
 - Swissknife  
   Object-oriented Perl library for parsing the UniProtKB text format.  
-  URL: <http://swissknife.sourceforge.net/>  
+  URL: <https://swissknife.sourceforge.net/>  
   License: [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) or any later version
 
 - Varsplic  
@@ -50,7 +50,7 @@ categories: help
 - UniFIRE  
   UniFIRE (The UniProt Functional annotation Inference Rule Engine) is an engine to execute rules in the UniProt Rule Markup Language (URML) format. It can be used to execute the UniProt annotation rules ([UniRule](https://www.uniprot.org/help/unirule) and [ARBA](https://www.uniprot.org/help/arba)).  
   URL: <https://gitlab.ebi.ac.uk/uniprot-public/unifire>  
-  License: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+  License: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 - PIRsitePredict  
   PIRsitePredict predicts functional residues within uncharacterized proteins using position-specific site conditional template annotation rules (PIR Site Rules) derived from known protein structural and experimental data curated by structural biologists. PIR Site Rules are part of [UniRule](https://www.uniprot.org/help/unirule).  

@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,Keywords,Text_search,Human,disease_phenotypes_variants,faq
 ---
 
-Information relevant to diseases associated with a given protein are found in the section 'Disease/Phenotypes and variants'. The information given (including the disease name) is consistent with the literature and the [OMIM database](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim).
+Information relevant to diseases associated with a given protein are found in the section 'Disease/Phenotypes and variants'. The information given (including the disease name) is consistent with the literature and the [OMIM database](https://www.ncbi.nlm.nih.gov/omim).
 
 You can use three methods to search proteins associated with a given disease.
 

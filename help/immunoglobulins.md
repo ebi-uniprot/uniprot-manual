@@ -18,7 +18,7 @@ All immunoglobulin entries can be retrieved with the keyword [Immunoglobulin](ht
 
 # Cross-references to IMGT/Gene-DB
 
-Cross-references to [IMGT/Gene-DB](http://www.imgt.org/genedb/doc) in UniProtKB/Swiss-Prot immunoglobulin entries, provide direct access to the dedicated IMGT® resource and its comprehensive sequence repertoire, which describes almost 100 alleles from 462 functional and non-functional genes together with a wealth of additional information concerning immunoglobulins (Aug 2017). Reciprocal links to UniProtKB from IMGT ensure easy navigation between both resources.
+Cross-references to [IMGT/Gene-DB](https://www.imgt.org/genedb/) in UniProtKB/Swiss-Prot immunoglobulin entries, provide direct access to the dedicated IMGT® resource and its comprehensive sequence repertoire, which describes almost 100 alleles from 462 functional and non-functional genes together with a wealth of additional information concerning immunoglobulins (Aug 2017). Reciprocal links to UniProtKB from IMGT ensure easy navigation between both resources.
 
 # Non-germline immunoglobulins
 

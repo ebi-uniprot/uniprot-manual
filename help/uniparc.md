@@ -35,29 +35,29 @@ The UniParc data in xml or fasta format has been split into smaller files for mo
 
 Currently UniParc contains protein sequences from the following publicly available databases:
 
-- [EMBL-Bank](https://www.ebi.ac.uk/embl/) / [DDBJ](http://www.ddbj.nig.ac.jp/) / [GenBank](http://www.ncbi.nlm.nih.gov/Genbank/) nucleotide sequence databases
-- [Ensembl](http://www.ensembl.org/)
-- [EnsemblGenomes](http://www.ensemblgenomes.org/)
+- [EMBL-Bank](https://www.ebi.ac.uk/embl/) / [DDBJ](https://www.ddbj.nig.ac.jp/index-e.html) / [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) nucleotide sequence databases
+- [Ensembl](https://www.ensembl.org/)
+- [EnsemblGenomes](https://www.ensemblgenomes.org/)
 - [EnsemblRapid](https://rapid.ensembl.org/)
-- [European Patent Office (EPO)](http://www.european-patent-office.org/)
-- [FlyBase](http://flybase.bio.indiana.edu/)
+- [European Patent Office (EPO)](https://www.epo.org/)
+- [FlyBase](https://flybase.org/)
 - [H-Invitational Database (H-InvDB)](http://www.h-invitational.jp/)
 - [International Protein Index (IPI)](https://www.ebi.ac.uk/IPI/)
-- [Japan Patent Office (JPO)](http://www.jpo.go.jp/)
-- [Korean Intellectual Property Office (KIPO)](http://www.kipo.go.kr/)
+- [Japan Patent Office (JPO)](https://www.jpo.go.jp/)
+- [Korean Intellectual Property Office (KIPO)](https://www.kipo.go.kr/ko/MainApp.do)
 - [Pathosystems Resource Integration Center (PATRIC)](http://patricbrc.org/)
-- [Protein Data Bank (PDB)](http://www.pdb.org/)
-- [Protein Research Foundation (PRF)](http://www.prf.or.jp/index-e.html)
-- [RefSeq](http://www.ncbi.nlm.nih.gov/RefSeq/)
-- [Saccharomyces Genome database (SGD)](http://www.yeastgenome.org/)
+- [Protein Data Bank (PDB)](https://www.wwpdb.org/)
+- [Protein Research Foundation (PRF)](https://www.prf.or.jp//index-e.html)
+- [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/)
+- [Saccharomyces Genome database (SGD)](https://www.yeastgenome.org/)
 - [TAIR Arabidopsis thaliana Information Resource](http://www.arabidopsis.org/)
-- [The Seed (SEED)](http://theseed.org/)
+- [The Seed (SEED)](https://theseed.org/wiki/Home_of_the_SEED)
 - [TROME](ftp://ftp.isrec.isb-sib.ch/pub/databases/trome)
-- [USA Patent Office (USPTO)](http://www.uspto.gov/)
+- [USA Patent Office (USPTO)](https://www.uspto.gov/)
 - [UniProtKB/Swiss-Prot, UniProtKB/Swiss-Prot protein isoforms, UniProtKB/TrEMBL](https://www.uniprot.org/uniprot)
-- [Vertebrate Genome Annotation database (VEGA)](http://vega.sanger.ac.uk/)
-- [WormBase](http://www.wormbase.org/)
-- [WormBase ParaSite (WBParaSite)](http://parasite.wormbase.org/)
+- [Vertebrate Genome Annotation database (VEGA)](https://vega.archive.ensembl.org/index.html)
+- [WormBase](https://www.wormbase.org/)
+- [WormBase ParaSite (WBParaSite)](https://parasite.wormbase.org/index.html)
 
 UniParc also contains and will continue to keep cross-references to the following discontinued databases:
 

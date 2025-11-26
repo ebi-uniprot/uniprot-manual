@@ -8,16 +8,14 @@ categories: About_UniProt,UniProtKB,Biocuration,Technical,Publications,help
 
 We import protein sequences from a range of collaborative resources during our production cycle, for more information on these sources please see our [help page](https://www.uniprot.org/help/sequence_origin).
 
-UniProt creates novel protein entries for sequences imported from a variety of sources, including; 
-<ul>
-  <li>Translated nucleotide sequences from ENA</li>
-  <li>Direct protein sequencing using Edman degradation or manual interpretation of MS spectra</li>
-  <li>De novo peptide sequencing</li>
-</ul>
+UniProt creates novel protein entries for sequences imported from a variety of sources, including;
+- Translated nucleotide sequences from ENA
+- Direct protein sequencing using Edman degradation or manual interpretation of MS spectra
+- De novo peptide sequencing
 
 We import proteomics peptide data from publicly available datasets in ProteomeXchange to support the [existence](https://www.uniprot.org/help/protein_existence) of proteins in the UniProt database.
 
- ![Sequence flow into UniProt]( https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/Submit_data_pipeline.png)
+![Sequence flow into UniProt](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/Submit_data_pipeline.png)
 
 # Submitting data to UniProt
 

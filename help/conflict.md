@@ -11,7 +11,7 @@ The 'Sequence conflict' subsection indicates the position at which a submitted s
 We usually define the canonical sequence as the most frequent protein sequence or the most conserved in orthologous species. For organisms whose genome has been fully sequenced, we generally define the canonical protein sequence as the one derived from the translation of the genomic sequence. All sequence conflicts are described with reference to this canonical sequence.  
 Example: [O94335](https://www.uniprot.org/uniprotkb/O94335#sequences)
 
-The [INSDC](http://www.insdc.org/) unique identifier of the conflicting sequence is given in the 'Description' field.  
+The [INSDC](https://www.insdc.org/) unique identifier of the conflicting sequence is given in the 'Description' field.  
 Example: [Q5NAW2](https://www.uniprot.org/uniprotkb/Q5NAW2#sequences)
 
 The sequence differences described in this subsection complement those in the ['Sequence caution'](https://www.uniprot.org/help/sequence_caution) subsection, which describes substantial sequence differences, such as errors in translation, frameshifts or erroneous gene model predictions.

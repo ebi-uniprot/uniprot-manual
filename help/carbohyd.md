@@ -41,7 +41,7 @@ Example: [P08195](https://www.uniprot.org/uniprotkb/P08195#ptm_processing)
 If the type of N-linked glycan is known, it is indicated in the 'Description' field using the terms 'high mannose', 'hybrid' or 'complex'.  
 Examples: [P18892](https://www.uniprot.org/uniprotkb/P18892#ptm_processing), [P01830](https://www.uniprot.org/uniprotkb/P01830#ptm_processing)
 
-The consensus sequence for N-glycosylation is Asn-Xaa-Ser/Thr (where Xaa is not Pro; note that Thr is more common than Ser) and more rarely Asn-X-Cys. We annotate experimentally identified N-glycosylation sites and predicted sites of N-glycosylation identified by the 'NetNGlyc' predictor (for mammalian entries) or the PROSITE pattern [PS00001](http://prosite.expasy.org/PDOC00001)  
+The consensus sequence for N-glycosylation is Asn-Xaa-Ser/Thr (where Xaa is not Pro; note that Thr is more common than Ser) and more rarely Asn-X-Cys. We annotate experimentally identified N-glycosylation sites and predicted sites of N-glycosylation identified by the 'NetNGlyc' predictor (for mammalian entries) or the PROSITE pattern [PS00001](https://prosite.expasy.org/PDOC00001)  
 (for non-mammalian entries). The PROSITE pattern is also applied to mammalian entries when NetNGlyc returns a negative prediction for a protein known to contain N-glycosylated sites. Predicted sites are only annotated in regions of proteins that are known or predicted to be extracellular, and are tagged as 'Sequence Analysis' (Sequence model). In general, we avoid propagating N-glycosylation sites 'By similarity' to related proteins.  
 Example: [Q94BT2](https://www.uniprot.org/uniprotkb/Q94BT2#ptm_processing)
 

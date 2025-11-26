@@ -6,7 +6,7 @@ categories: UniProtKB,UniRef,UniParc,Programmatic_access,Download,help
 
 # Use `X-UniProt-Release-Date` to avoid re-downloading the same release data
 
-You can use the [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) `X-UniProt-Release-Date:`\* to avoid downloading data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here is an example of how to do this in Perl:
+You can use the HTTP header `X-UniProt-Release-Date:`\* (non-[standard](https://www.rfc-editor.org/rfc/rfc9110.html#fields), specific to UniProt) to avoid downloading data more than once per release, if you use a download tool that makes use of this information, e.g. the unix commands `lwp-mirror` or `curl` with the `-z` option. Here is an example of how to do this in Perl:
 
 ## Download all UniProt sequences for a given organism in FASTA format
 
@@ -100,7 +100,7 @@ for my $index ( 1 .. $#lines ) {
 
 # Release number and date
 
-If you would like to record the UniProt release number and/or date of the data which you retrieve, you can extract this information from the [HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) of the response (see this Perl example):
+If you would like to record the UniProt release number and/or date of the data which you retrieve, you can extract this information from the [HTTP header](https://www.rfc-editor.org/rfc/rfc9110.html#fields) of the response (see this Perl example):
 
 ```perl
 use strict;
