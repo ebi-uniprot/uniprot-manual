@@ -26,7 +26,7 @@ How this might affect you:
 
 - Taxonomically unclassified proteins that were previously found in UniProtKB can still be accessed in [UniParc](https://www.uniprot.org/uniparc). In UniParc users can find information such as the protein sequence, gene and protein names, and InterPro signatures etc. UniParc can be searched by protein accession number or proteome identifier, either through the website or programmatically via our [APIs](https://www.uniprot.org/help/programmatic_access), to locate your protein(s) of interest.  
 - Addition of novel protein entries to UniProtKB from new reference proteomes.  
-- In the weeks leading up to December 2025, users have the opportunity to provide [feedback](https://www.uniprot.org/contact) on the changes and express possible concerns about specific entries that are due to be removed from UniProtKB in 2026_02.
+- In the weeks leading up to December 2025, users had the opportunity to provide feedback on the changes and express possible concerns about specific entries that are due to be removed from UniProtKB in 2026_02.
 
 # Future releases
 
