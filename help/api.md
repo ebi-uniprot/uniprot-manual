@@ -1,16 +1,18 @@
 ---
-title: How can I access resources on this website programmatically?
+title: How can I access UniProt resources programmatically?
 type: help
 categories: UniProtKB,UniRef,UniParc,Text_search,Programmatic_access,Technical,faq
 ---
 
-This document describes how this website can be accessed with programs. All resources (individual entries as well as sets of entries retrieved by queries) are accessible using simple URLs ([REST](https://en.wikipedia.org/wiki/Representational_State_Transfer)) that can be bookmarked, linked and used in programs.
+UniProt has a number of freely available APIs that allow users to access data in their favourite programming languages.
+Please see our [Programmatic access](https://www.uniprot.org/help/programmatic_access) page for further details of our API services and data endpoints.
 
-Please consider providing a contact email address as part of the User-Agent header that your programs set. This will allow us to contact you in case of problems (see our [privacy notice](https://www.uniprot.org/help/privacy)).
+All resources (individual entries as well as sets of entries retrieved by queries) are accessible through RESTful URLs that can be bookmarked, linked and used in programs.
+Please see our [online training resources](https://www.ebi.ac.uk/training/services/uniprot), many of which include programmatic examples of how to access UniProt data.
 
-# Overview of the services that can be accessed programmatically
+# Examples of the services that can be accessed programmatically
 
-Please click on the links below for documentation for the specific topics, including code examples:
+Please see the links below for topic-specific documentation, including code examples:
 
 - [Retrieving individual entries](https://www.uniprot.org/help/api_retrieve_entries)
 - [Retrieving entries via queries](https://www.uniprot.org/help/api_queries)
