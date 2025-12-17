@@ -8,7 +8,7 @@ categories: UniProtKB,UniRef,UniParc,Cross-references,Download,Release,faq
 
 UniProt releases are published every 2-3 months, with possible exceptions in January and summer due to reduced staff during holiday periods.
 
-The current release number format is YYYY_XX where YYYY is the calendar year and XX a 2-digit number that is incremented for each release of a given year, e.g. 2025_04, 2026_01, etc.
+The current release number format is YYYY\_XX where YYYY is the calendar year and XX a 2-digit number that is incremented for each release of a given year, e.g. 2025\_04, 2026\_01, etc.
 
 # What is the synchronization delay with other databases?
 
