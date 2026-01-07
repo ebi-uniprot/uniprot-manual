@@ -26,7 +26,7 @@ In addition to the predefined FASTA, XML, RDF/XML and text formats, search resul
   - Choosing the option `FASTA (canonical and isoform)` allows retrieval of all canonical sequences plus all manually reviewed isoform sequences described within UniProtKB/Swiss-Prot. These manually reviewed isoform sequences are available as distinct sequences in FASTA format only within this expanded downloadable set.
   - Choosing `Tab-separated` or `Excel` allows retrieval of your search result table reflecting the columns you have [chosen to include](https://www.uniprot.org/help/customize).
 
-To automate the above, please read the section [Downloading data at every UniProt release](https://www.uniprot.org/help/api_downloading) of our [Programmatic access](https://www.uniprot.org/help/api) documentation.
+To automate the above, please read our [Programmatic access](https://www.uniprot.org/help/api) documentation.
 
 ## Retrieving sequences from the FTP site
 

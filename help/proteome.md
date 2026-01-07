@@ -74,7 +74,7 @@ To download the results of a text search in UniProtKB:
 - Click the **Download** button
 - Choose the download format
 
-To download your favorite proteomes programmatically, please go to the help page [Downloading data at every UniProt release](https://www.uniprot.org/help/api_downloading), where you will find a code example that illustrates how to download the proteomes for all organisms below a given taxonomic node in FASTA format.
+To download your favorite proteomes programmatically, you can do so using [our APIs](https://www.uniprot.org/help/programmatic_access).
 
 Note that the download formats which describe complete UniProtKB entries (flat text, XML, RDF/XML) include only the ['canonical'](https://www.uniprot.org/help/canonical_and_isoforms) or displayed protein sequences of UniProtKB entries. These canonical sequences can also be downloaded in FASTA format (option `Canonical sequence data in FASTA format`), as can a set of protein sequences including both canonical and manually reviewed 'isoform sequences' from UniProtKB/Swiss-Prot (where available) using the option `Canonical and isoform sequence data in FASTA format`.
 
