@@ -1,5 +1,5 @@
 ---
-title: Subunit
+title: Subunit structure
 type: help
 categories: Interaction,manual
 ---
