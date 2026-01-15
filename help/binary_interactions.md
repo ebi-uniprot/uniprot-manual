@@ -35,4 +35,4 @@ More examples: [Q8T4F7](https://www.uniprot.org/uniprotkb/Q8T4F7#interaction), [
 # Related documents
 
 [Why are only a subset of binary interactions from the IntAct database reported in UniProtKB?](https://www.uniprot.org/help/binary_interactions_import)  
-[Subunit - information about the protein quaternary structure and interaction(s) with other proteins or protein complexes](https://www.uniprot.org/help/subunit_structure)
+[Subunit structure - information about the protein quaternary structure and interaction(s) with other proteins or protein complexes](https://www.uniprot.org/help/subunit_structure)
