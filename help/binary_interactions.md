@@ -6,13 +6,14 @@ categories: Interaction,manual
 
 This subsection of the '[Interaction](https://www.uniprot.org/help/interaction_section)' section provides information about binary protein-protein interactions. The data presented in this section are a quality-filtered subset of binary interactions automatically derived from the [IntAct database](https://www.ebi.ac.uk/intact/). It is updated at every [UniProt release](https://www.uniprot.org/help/synchronization).
 
-## Binary interaction plot
+# Binary interaction plot
 
 This is a graphical plot representation of the binary interactions available for a protein. The first entry name (in bold) on the X- and Y-axis of the plot is the selected protein entry, and a circle indicates an interaction with a partner protein. Interactions between partner proteins are also shown on the graphic. Selecting an interaction circle will open a tooltip containing further information on the interaction, including UniProtKB accession numbers and links to the IntAct database.
-The plot can be filtered by subcellular location and/or disease if data is available. <br>
+The plot can be filtered by subcellular location and/or disease if data is available.
+
 For usability reasons, the binary interaction plot will not be available if there are more than 50 binary interactions for the selected protein entry.
 
-## Binary interaction table
+# Binary interaction table
 
 Interactions with the displayed protein, or with one of its isoforms or proteolytic products, are shown in the table:
 
