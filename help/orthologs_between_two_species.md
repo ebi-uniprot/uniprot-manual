@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,Text_search,Cross-references,Taxonomy,faq
 ---
 
-There are no such ready-made files available from UniProt, but a number of phylogenomic databases exist which may be in a better position to answer this question. There is quite a useful [thread on the BioStars website.](http://www.biostars.org/p/7568/)
+There are no such ready-made files available from UniProt, but a number of phylogenomic databases exist which may be in a better position to answer this question. There is quite a useful [thread on the BioStars website.](https://www.biostars.org/p/7568/)
 
 If you want to use UniProtKB, you should first find out which of the [phylogenomic databases cross-referenced by UniProtKB](https://www.uniprot.org/database?facets=category_exact%3APhylogenomic%20databases&query=%2A) provides the best coverage for your organisms.
 

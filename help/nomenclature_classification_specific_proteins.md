@@ -14,7 +14,7 @@ Relevant UniProtKB/Swiss-Prot entries [cross-referenced to Allergome](https://ww
 
 # Glycosyl hydrolases
 
-O-Glycosyl hydrolases ([EC 3.2.1.-](http://enzyme.expasy.org/EC/3.2.1.-)) are a widespread group of enzymes which hydrolyse the glycosidic bond between two or more carbohydrates or between a carbohydrate and a non-carbohydrate moiety. The IUB-MB Enzyme nomenclature of glycosyl hydrolases is based on their substrate specificity and occasionally on their molecular mechanism; such a classification does not reflect (and was not intended to) the structural features of these enzymes. A classification of glycosyl hydrolases in families based on amino acid sequence similarities has been proposed.
+O-Glycosyl hydrolases ([EC 3.2.1.-](https://enzyme.expasy.org/EC/3.2.1.-)) are a widespread group of enzymes which hydrolyse the glycosidic bond between two or more carbohydrates or between a carbohydrate and a non-carbohydrate moiety. The IUB-MB Enzyme nomenclature of glycosyl hydrolases is based on their substrate specificity and occasionally on their molecular mechanism; such a classification does not reflect (and was not intended to) the structural features of these enzymes. A classification of glycosyl hydrolases in families based on amino acid sequence similarities has been proposed.
 
 UniProtKB/Swiss-Prot document: [Classification of glycosyl hydrolase families and list of entries](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/glycosid.txt)  
 Related keyword: [Glycosidase](https://www.uniprot.org/keywords/KW-0326)  

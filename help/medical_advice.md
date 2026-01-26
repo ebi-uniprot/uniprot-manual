@@ -12,13 +12,11 @@ see:
 
 - [How can I get all the proteins involved in a given disease?](https://www.uniprot.org/help/disease_query)
 
-Much more information on diseases is available from the [OMIM database](http://www.omim.org/).
+Much more information on diseases is available from the [OMIM database](https://www.omim.org/).
 
-In case you are interested in a "rare" genetic disease you can look up the [Orphanet website](http://www.orpha.net/), which is cross-referenced from UniProtKB/Swiss-Prot entry pages and also has links to disease-specific patient organizations.
+In case you are interested in a "rare" genetic disease you can look up the [Orphanet website](https://www.orpha.net/), which is cross-referenced from UniProtKB/Swiss-Prot entry pages and also has links to disease-specific patient organizations.
 
 In addition, the following sites may be of help as they offer a variety of links to information sources on medical topics:
 
-- [HON - The Health On the Net foundation server](http://www.hon.ch/)
-- [MedicineNet - Medical Reference Site](http://www.medicinenet.com/)
 - [Medline Plus: NLM list of resources for health questions](https://medlineplus.gov/)
-- [The Medical Reference Resource Library](http://www.guidetohealthcareschools.com/library/medical-reference)
+- [MedicineNet - Medical Reference Site](https://www.medicinenet.com/)

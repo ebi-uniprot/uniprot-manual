@@ -7,14 +7,14 @@ categories: Programmatic_access,Technical,Website,help
 To explore and try out the ID mapping services on the website, please refer to the [ID mapping website tool](https://www.uniprot.org/id-mapping).  
 For technical documentation for the ID mapping API, please refer to our [Swagger document](https://www.uniprot.org/api-documentation/idmapping).
 
-## Overview
+# Overview
 
 The ID mapping service can map between the identifiers used in one database, to the identifiers of another, e.g.,
 from UniProt to Ensembl, or to PomBase, etc. If you map to UniProtKB, UniParc or UniRef data, the full entries will be returned to you for convenience.
 
 This document serves as a basic guide to using the ID mapping services offered.
 
-## Submitting an ID mapping job
+# Submitting an ID mapping job
 
 > POST /idmapping/run
 
@@ -38,7 +38,7 @@ Be sure to take note of the `jobId`. This will be used later to:
 - fetch/download the results
 - get details about the job
 
-## Various limits on ID mapping job submission
+# Various limits on ID mapping job submission
 
 | **Limit** |                                    **Details**                                     |
 |:---------:| :--------------------------------------------------------------------------------: |
@@ -49,7 +49,7 @@ Be sure to take note of the `jobId`. This will be used later to:
 
 Note: Very large mapping requests are likely to fail. Please do verify that your list does not contain any duplicates, and try to split it into smaller chunks in case of problems. If you prefer to run your mapping locally, you can also [download the data underlying this service](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/).
 
-## Valid _from_ and _to_ databases pairs
+# Valid _from_ and _to_ databases pairs
 
 You can map `from` one database `to` another database. To find the name of all the possible valid databases pairs (both from and to), use the below curl command:
 
@@ -57,7 +57,7 @@ You can map `from` one database `to` another database. To find the name of all t
 % curl https://rest.uniprot.org/configure/idmapping/fields
 ```
 
-## How to interpret the response
+# How to interpret the response
 
 The response has two top sections:
 
@@ -89,7 +89,7 @@ It has the following attributes:
 - taxonId: Boolean flag indicating whether a third optional param `taxId`(Taxonomy Id) is allowed in API requests
   in addition to the `from` and `to` request parameters.
 
-### Example: finding which databases UniParc identifiers can be mapped to
+## Example: finding which databases UniParc identifiers can be mapped to
 
 1. Given the response from the above request and looking within the `groups.items` entities, find an
    item where `displayName` or `name` matches `UniParc` and, importantly, `from` is `true`. The relevant `item` is:
@@ -107,13 +107,13 @@ It has the following attributes:
 The important parts of this JSON object to note are:
 
 - `from`: since this is `true`, we know that the value of `name` (`UniParc`) can be used as the `from` request parameter
-  in a POST request to [`/idmapping/run`](#submitting-an-id-mapping-job).
+  in a POST request to [`/idmapping/run`](https://www.uniprot.org/help/id_mapping_prog#submitting-an-id-mapping-job).
 - `to`: since this is `true`, we know that the value of `name` (`UniParc`) can be used as the `to` request parameter in
-  a POST request to [`/idmapping/run`](#submitting-an-id-mapping-job).
+  a POST request to [`/idmapping/run`](https://www.uniprot.org/help/id_mapping_prog#submitting-an-id-mapping-job).
 - `ruleId`: take note of the value, `2`, as this will be used to identify _all_ valid databases that UniParc identifiers
   can be mapped to.
 
-2. Given the response from the [above request](#example_uniparc) and looking within the `rules` array, find a rule where
+2. Given the response from the [above request](https://www.uniprot.org/help/id_mapping_prog#example_uniparc) and looking within the `rules` array, find a rule where
    `ruleId` is 2. The relevant JSON object is given below:
 
 ```json
@@ -127,7 +127,7 @@ The important parts of this JSON object to note are:
 
 The important parts of this object to note are:
 
-- `tos`: this array lists _all possible valid_ `to` values for a POST request to [`/idmapping/run`](#submitting-an-id-mapping-job), when
+- `tos`: this array lists _all possible valid_ `to` values for a POST request to [`/idmapping/run`](https://www.uniprot.org/help/id_mapping_prog#submitting-an-id-mapping-job), when
   `UniParc` is used as `from` request parameter value. Passing anything other than the values listed in `tos` will result
   in an error.
 - `taxonId`: The `taxonId` flag is set to false, indicating that this `from` and `to` combination does not accept an
@@ -151,7 +151,7 @@ Giving a concrete example:
    --form 'to="UniProtKB"'
 ```
 
-## Polling the status of a job
+# Polling the status of a job
 
 > GET /idmapping/status/{jobId}
 
@@ -178,16 +178,16 @@ Continuing the above example, we can use the `jobId` to find out the status of t
 Note that the `jobStatus` is finished, indicating that the job's results are ready to be fetched. Note also the [HTTP 303](https://httpstatuses.com/303)
 header that indicates the results can be retrieved via the URL in the `Location` header.
 
-## Fetching the results of a job
+# Fetching the results of a job
 
-### Paged results
+## Paged results
 
 The results of a job can be retrieved one page at a time using one of following end-points:
 
 > GET /idmapping/results/{jobId}<br>
 > GET /idmapping/{uniprot_db}/results/{jobId} ## where {uniprot_db} is one of UniParc, UniProtKB or UniRef
 
-For example, when mapping [P21802, P12345 to UniRef90](#example) could do:
+For example, when mapping P21802, P12345 to UniRef90 could do:
 
 > **Request**
 >
@@ -221,14 +221,14 @@ using a [bigger page size](https://www.uniprot.org/help/api_queries#tips) and/or
 
 Alternatively, the stream endpoint detailed in the next section can be used.
 
-### Downloading results
+## Downloading results
 
 Downloading the results of a job is achieved via one of the following end-points:
 
 > GET /idmapping/stream/{jobId}<br>
 > GET /idmapping/{uniprot_db}/results/stream/{jobId}
 
-Continuing our [example above](#example), we would download the results by making a request to the following URL:
+Continuing our example above, we would download the results by making a request to the following URL:
 
 > **Request**
 >
@@ -254,7 +254,7 @@ Continuing our [example above](#example), we would download the results by makin
 > **NOTE** to add the content-disposition header, e.g., so that a download file dialogue appears in a browser, include
 > the request parameter, `download=true`.
 
-### Warnings and errors for /results
+## Warnings and errors for /results
 
 | **Problem Type** | **Code** |                                             **Message**                                             |
 | :--------------: | :------: |:---------------------------------------------------------------------------------------------------:|
@@ -265,7 +265,7 @@ Continuing our [example above](#example), we would download the results by makin
 
 <br>
 
-## Fetching details about a job
+# Fetching details about a job
 
 Details of a submitted job, including the `from`, `to` and `ids` to map, can be obtained via this end-point:
 
@@ -291,7 +291,7 @@ For example:
 > }
 > ```
 
-## Python example
+# Python example
 
 ```
 import re
@@ -481,7 +481,7 @@ print(results)
 # {'results': [{'from': 'P05067', 'to': 'CHEMBL2487'}], 'failedIds': ['P12345']}
 ```
 
-## Retrieving website results programmatically
+# Retrieving website results programmatically
 
 If a job has been submitted from the website you can download these programmatically:
 
@@ -502,9 +502,9 @@ get_id_mapping_results_stream("https://rest.uniprot.org/idmapping/uniprotkb/resu
 get_id_mapping_results_search("https://rest.uniprot.org/idmapping/uniprotkb/results/2a0489825ffd01e63a6682b3ae89ba43bfe47169?format=fasta&size=500")
 ```
 
-## Getting a Pandas DataFrame from results
+# Getting a Pandas DataFrame from results
 
-### From TSV results
+## From TSV results
 
 ```
 import csv
@@ -515,7 +515,7 @@ def get_data_frame_from_tsv_results(tsv_results):
     return pd.DataFrame(list(reader))
 ```
 
-### From Excel/XLSX results
+## From Excel/XLSX results
 
 ```
 import io
@@ -529,7 +529,7 @@ def get_data_frame_from_xlsx_results(xlxs_results):
 
 ```
 
-## R example
+# R example
 
 ```
 library(httr)

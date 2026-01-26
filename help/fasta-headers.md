@@ -8,16 +8,14 @@ The following is a description of FASTA headers for UniProtKB (including alterna
 
 Note that in the document below square brackets `[ ]` indicate optional fields.
 
-
 **Table of contents**
 
-* [UniProtKB](#uniprotkb)
-   * [UniProtKB alternative isoforms](#uniprotkb-alternative-isoforms)
-* [UniRef](#uniref)
-* [UniParc](#uniparc)
-   * [UniParc proteomes](#uniparc-proteomes)
-* [Archived UniProtKB sequence versions](#archived-uniprotkb-sequence-versions)
-
+* [UniProtKB](https://www.uniprot.org/help/fasta-headers#uniprotkb)
+   * [UniProtKB alternative isoforms](https://www.uniprot.org/help/fasta-headers#uniprotkb-alternative-isoforms)
+* [UniRef](https://www.uniprot.org/help/fasta-headers#uniref)
+* [UniParc](https://www.uniprot.org/help/fasta-headers#uniparc)
+   * [UniParc proteomes](https://www.uniprot.org/help/fasta-headers#uniparc-proteomes)
+* [Archived UniProtKB sequence versions](https://www.uniprot.org/help/fasta-headers#archived-uniprotkb-sequence-versions)
 
 
 # UniProtKB

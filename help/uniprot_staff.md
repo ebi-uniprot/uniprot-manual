@@ -8,7 +8,7 @@ categories: Staff,help
 
 [Alex Bateman](https://www.uniprot.org/help/bateman)  
 [Alan J. Bridge](https://www.uniprot.org/help/bridge)  
-[Cathy H. Wu](http://pir.georgetown.edu/pirwww/aboutpir/wubio.shtml)
+[Cathy H. Wu](https://bioinformatics.udel.edu/people/cathy-wu-phd/)
 
 # Key staff
 

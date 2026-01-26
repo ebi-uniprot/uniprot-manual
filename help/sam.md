@@ -10,11 +10,11 @@ UniProt's [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic
 
 Predictions of sequence features such as [Signal](https://www.uniprot.org/help/signal), [Transmembrane](https://www.uniprot.org/help/transmem), [Coiled coil](https://www.uniprot.org/help/coiled) and [intrinsically disordered](https://en.wikipedia.org/wiki/Intrinsically_disordered_proteins) regions (the latter described in [Region](https://www.uniprot.org/help/region) and [Compositional bias](https://www.uniprot.org/help/compbias) annotations) are generated using the following software from external providers:
 
-- [TMHMM](http://www.cbs.dtu.dk/services/TMHMM/)
-- [SignalP](http://www.cbs.dtu.dk/services/SignalP/)
-- [Phobius](http://phobius.sbc.su.se/)
+- [TMHMM](https://services.healthtech.dtu.dk/services/TMHMM-2.0/)
+- [SignalP](https://services.healthtech.dtu.dk/services/SignalP-5.0/)
+- [Phobius](https://phobius.sbc.su.se/)
 - [Coils](http://embnet.vital-it.ch/software/COILS_form.html)
-- [MobiDB-lite](http://protein.bio.unipd.it/mobidblite/)
+- [MobiDB-lite](https://protein.bio.unipd.it/mobidblite/)
 
 These methods are applied to UniProtKB sequences by [InterPro](https://www.ebi.ac.uk/interpro) to predict sequence features. More annotations (mainly [keywords](https://www.uniprot.org/help/keywords)) are then added automatically to enrich the generated predictions. The new predictions are propagated to all the UniProtKB/TrEMBL records that do not already contain such feature predictions from the [UniRule](https://www.uniprot.org/help/unirule) automatic annotation system.
 

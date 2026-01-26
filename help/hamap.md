@@ -8,7 +8,7 @@ HAMAP is a system, based on manually curated family profiles and associated anno
 
 UniProtKB/TrEMBL sequences that match one of the HAMAP profiles are annotated using the associated annotation rule. The results of this annotation are integrated into UniProtKB/TrEMBL.
 
-More information on the [HAMAP website](http://hamap.expasy.org/).
+More information on the [HAMAP website](https://hamap.expasy.org/).
 
 # See also
 

@@ -10,7 +10,7 @@ The **UniProtKB/Swiss-Prot _Homo sapiens_ proteome** contains one representative
 
 - Query: [proteome:up000005640 AND reviewed:true](https://www.uniprot.org/uniprotkb?query=reviewed%3Atrue+AND+proteome%3Aup000005640)
 
-In 2011, a complementary pipeline for import of predicted human protein sequences in UniProtKB/TrEMBL has been developed in collaboration with [Ensembl](http://www.ensembl.org/) to complete the set of human isoform sequences produced by genes present in UniProtKB/Swiss-Prot.
+In 2011, a complementary pipeline for import of predicted human protein sequences in UniProtKB/TrEMBL has been developed in collaboration with [Ensembl](https://www.ensembl.org/) to complete the set of human isoform sequences produced by genes present in UniProtKB/Swiss-Prot.
 
 This pipeline works in the following way:
 

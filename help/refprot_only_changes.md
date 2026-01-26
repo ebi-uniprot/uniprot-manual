@@ -26,7 +26,7 @@ How this might affect you:
 
 - Taxonomically unclassified proteins that were previously found in UniProtKB can still be accessed in [UniParc](https://www.uniprot.org/uniparc). In UniParc users can find information such as the protein sequence, gene and protein names, and InterPro signatures etc. UniParc can be searched by protein accession number or proteome identifier, either through the website or programmatically via our [APIs](https://www.uniprot.org/help/programmatic_access), to locate your protein(s) of interest.  
 - Addition of novel protein entries to UniProtKB from new reference proteomes.  
-- In the weeks leading up to December 2026, users have the opportunity to provide [feedback](https://www.uniprot.org/contact) on the changes and express possible concerns about specific entries that are due to be removed from UniProtKB in 2026_02.
+- In the weeks leading up to December 2025, users had the opportunity to provide feedback on the changes and express possible concerns about specific entries that are due to be removed from UniProtKB in 2026_02.
 
 # Future releases
 
@@ -65,3 +65,13 @@ How this might affect you:
 For a further explanation of why we are making these changes to UniProt Proteomes please see our blog article: [Capturing the Diversity of Life - Reorganizing the Protein Space in UniProtKB](https://insideuniprot.blogspot.com/2025/06/capturing-diversity-of-life.html)
 
 For further help regarding Proteomes please see our related [help pages](https://www.uniprot.org/help?query=proteome) 
+
+# FAQs
+## How are bacterial strains being taken into account by the new reference proteome selection workflow?
+Proteomes from the categories “Reference”, “Redundant” and “Other” are analyzed in the new workflow. All strains within these proteomes are considered, and from this pool of proteomes one or a few reference proteomes are selected. UniProt ensures that all species have at least one reference proteome, but it does not ensure that all strains have reference proteomes.
+
+## How would having one reference proteome per species be applied to virus isolates?
+Viral reference proteomes are selected based on the International Committee on Taxonomy of Viruses ([ICTV](https://ictv.global/)) which publishes exemplar genomes (well-characterized virus isolates) for each virus species in its Virus Metadata Resource ([VMR](https://ictv.global/vmr)). There are additional non-ICTV-based reference proteomes that are promoted because these are considered biologically relevant as a result of additional UniProt curation considerations.
+
+## How will entries removed by this change be identified in UniParc?
+UniProtKB accessions that are part of non-reference proteomes can still be searched within UniParc, where all entries will be kept. Searching in UniProtKB for accessions for removed entries will redirect you to the corresponding UniParc page and the history of this entry will still be available. Inside each UniParc entry you can add even more information by clicking the “Generate Annotations” button (this is based on [UniFIRE](https://gitlab.ebi.ac.uk/uniprot-public/unifire), a software that uses [UniRule](https://www.uniprot.org/help/unirule) and [ARBA](https://www.uniprot.org/help/arba) to predict annotations).

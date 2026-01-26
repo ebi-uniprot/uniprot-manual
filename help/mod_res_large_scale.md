@@ -6,13 +6,13 @@ categories: PTM_processing
 
 # Modified residues from large scale data
 
-In addition to manually curated [post-translational modification](https://www.uniprot.org/help/post-translational_modification) (PTM) data which is included in the downloadable versions of our data, some entries on our website also include additional large-scale PTM data. These originate from large-scale mass-spectrometry (MS) datasets, which have been reanalyzed.
+In addition to manually curated [post-translational modification](https://www.uniprot.org/help/post-translational_modification) (PTM) data which is included in the downloadable versions of our data, some entries on our website also include additional large-scale PTM data. These originate from large-scale mass spectrometry (MS) datasets, which have been reanalyzed.
 
 Example: [B9FXV5](https://www.uniprot.org/uniprotkb/B9FXV5/entry#ptm_processing)
 
 ## Where does the data come from?
 
-The data comes from a refined set of large-scale enriched PTM (e.g. phosphorylation) proteomics datasets publicly available in the [PRIDE database](https://www.ebi.ac.uk/pride/) or the wider [ProteomeXchange](http://proteomecentral.proteomexchange.org) Consortium of proteomics resources. The links to each source dataset can be found in the expandable “evidence tag” section for each PTM, next to the protein modification name in the ‘Description’ column of the table. In addition, links to PeptideAtlas species-specific PTM builds are also available.
+The data comes from a refined set of large-scale enriched PTM (e.g. phosphorylation) proteomics datasets publicly available in the [PRIDE database](https://www.ebi.ac.uk/pride/) or the wider [ProteomeXchange](https://proteomecentral.proteomexchange.org/) Consortium of proteomics resources. The links to each source dataset can be found in the expandable “evidence tag” section for each PTM, next to the protein modification name in the ‘Description’ column of the table. In addition, links to PeptideAtlas species-specific PTM builds are also available.
 
 The data originates from two collaborative projects:
 
@@ -20,11 +20,11 @@ The data originates from two collaborative projects:
 Human large-scale PTM data has been imported as part of a project from a reanalysed dataset ([PXD012174](https://www.ebi.ac.uk/pride/archive/projects/PXD012174)) combining multiple large-scale phosphoproteomics studies. This project aimed to map the human phosphoproteome from publicly available phosphorylation-enriched MS-based proteomics datasets in the PRIDE database. Data from multiple datasets was reanalysed in tandem and filtered for a confidence of &lt;1% site-based false discovery rate, and a greater than 75% localization probability. The data includes both tissues and cell lines derived from 'healthy' and 'disease' states. For detailed methodology see [The functional landscape of the human phosphoproteome.](https://www.nature.com/articles/s41587-019-0344-3)
 
 *PTMeXchange project:*
-Data for rice and other model organisms originates from large-scale mass-spectrometry (MS) datasets, which have been reanalyzed via the [PTMeXchange project](https://www.proteomexchange.org/ptmexchange). This project facilitates confident identification of PTM sites across multiple datasets. The confidence score reflects the strength of the evidence for PTMs at that site. For detailed methodology see  [Method for Independent Estimation of the False Localization Rate for Phosphoproteomics](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.1c00827).
+Data for rice and other model organisms originates from large-scale MS datasets, which have been reanalyzed via the [PTMeXchange project](https://www.proteomexchange.org/ptmexchange). This project facilitates confident identification of PTM sites across multiple datasets. The confidence score reflects the strength of the evidence for PTMs at that site. For detailed methodology see  [Method for Independent Estimation of the False Localization Rate for Phosphoproteomics](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.1c00827).
 
 ## Evidence
 
-These are proteomics datasets submitted to [PRIDE](https://www.ebi.ac.uk/pride/), for example in support of studies performed by the group generating the data. We include links to these, so that the full data provenance is clear. Mass Spectrometry raw data from these sources has been re-processed, and thus any identification or quantification data under those records has not been used. Studies are listed by dataset ID (ProteomeXchange ID, PXD ID, e.g. [PXD004939](https://www.ebi.ac.uk/pride/archive/projects/PXD004939)). A single PTM may have supporting data in multiple datasets.
+These are proteomics datasets submitted to [PRIDE](https://www.ebi.ac.uk/pride/), for example in support of studies performed by the group generating the data. We include links to these, so that the full data provenance is clear. MS raw data from these sources has been re-processed, and thus data processing such as identification or quantification analysis carried out in the original study has been disregarded. Studies are listed by dataset ID (ProteomeXchange ID, PXD ID, e.g. [PXD004939](https://www.ebi.ac.uk/pride/archive/projects/PXD004939)). A single PTM may have supporting data in multiple datasets.
 
 ## Which species is large-scale data available for?
 
@@ -44,7 +44,7 @@ Alternatively the Proteins API can be used to generate examples of request code 
 
 # What is a peptidoform?
 
-A "peptidoform" is the exact peptide sequence, including the position of the protein modifications, which can be identified in one particular Peptide spectrum match (PSM). It derives from the term ‘proteoform’, which represents the same concept for protein sequences \[PMID: 23443629]. A peptidoform could include the target PTM of interest, but also artefactual modifications introduced during sample handling and MS (e.g. carbamydo-methylation of Cysteine).
+A "peptidoform" is the exact peptide sequence, including the position of the protein modifications, which can be identified in one particular Peptide Spectrum Match (PSM). It derives from the term ‘proteoform’, which represents the same concept for protein sequences (PMID: [23443629](https://pubmed.ncbi.nlm.nih.gov/23443629/)). In this context the ‘Peptidoform’ will describe the biologically-occurring modifications present in a peptide. Additionally in the ‘PTM statistical attributes’ section ‘[Experimental Peptidoform](https://www.uniprot.org/help/mod_res_large_scale#experimental_peptidoform)’ will describe all modifications present in a peptide, including experiment-induced artefactual modifications.
 
 
 # Scoring and statistical analysis for PTM’s imported from the PTMeXchange project.
@@ -62,7 +62,7 @@ Observed PTM sites are ranked by a probability of detection, calculated as follo
 
 ### What is the gold/silver/bronze criterion?
 
-A modified residue is classified into three categories based on its false localization rate (FLR) across multiple datasets.
+A modified residue is classified into three categories based on its false localization rate (FLR) across multiple datasets. This does not reflect its biological relevance or significance.
 
 |              |                                                                                        |
 | :----------: | :------------------------------------------------------------------------------------: |
@@ -85,8 +85,12 @@ The PSM count details the number of spectra collected that match the exact pepti
 
 ### Site probability
 
-Observed PTM sites are ranked by a probability of detection, calculated as follows. The pipeline first models the probability _p1_ that a peptide sequence with modifications (peptidoform) has been identified, then creates an orthogonal probability _p2_, that the exact site has been correctly localized on the peptide. The “final probability” is derived by multiplying _p1_ by _p2_.
+Observed PTM sites are ranked by a probability of detection, calculated as follows. The pipeline first models the probability _p1_ that a peptide sequence with modifications (peptidoform) has been identified, then creates an orthogonal probability _p2_, that the exact site has been correctly localized on the peptide. The final “site probability” is derived by multiplying _p1_ by _p2_.
 
 ### Universal Spectrum Identifier (USI) 
 
 The concept of Universal Spectrum Identifier (USI) is described in this [publication](https://www.nature.com/articles/s41592-021-01184-6). The USI allows a single mass spectrum, and optionally the corresponding peptidoform interpretation, to be unambiguously described, and then resolved across multiple ProteomeXchange databases, for public datasets.
+
+### Experimental Peptidoform
+
+An ‘Experimental Peptidoform’ describes biologically occurring PTMs as well as artefactual modifications which can be identified in one particular Peptide Spectrum Match (PSM) using [ProForma notation](https://github.com/HUPO-PSI/ProForma). Artefactual modifications are non-endogenously occurring modifications that are typically introduced during sample handling and MS analysis (e.g. carbamydo-methylation of Cysteine (see ubiquitinated Lys85 in the PTM-containing peptide track of [P49841](https://www.uniprot.org/uniprotkb/P49841/feature-viewer)). Each modification is linked to a unique [UNIMOD](https://www.unimod.org/modifications_list.php?a=return) identifier that describes the modification in a controlled format.

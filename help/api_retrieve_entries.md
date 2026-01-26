@@ -32,7 +32,7 @@ For the RDF/XML format there is an option to include data from referenced data s
 
     https://rest.uniprot.org/uniprotkb/P12345.rdf?include=yes
 
-The following [status codes](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) may be returned:
+The following [status codes](https://www.rfc-editor.org/rfc/rfc9110.html#status.codes) may be returned:
 
 | Code | Description                                                                                            |
 | :--- | :----------------------------------------------------------------------------------------------------- |
@@ -47,7 +47,7 @@ The following [status codes](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.h
 
 A request for an address such as
 
-    http://purl.uniprot.org/uniprot/P12345
+    https://purl.uniprot.org/uniprot/P12345
 
 will be resolved, where possible, by redirection to the corresponding resource (see previous section). For UniProt resources, entries are returned in RDF/XML format if the HTTP [`'Accept'` request header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) is set to `'application/rdf+xml'`.
 
@@ -57,4 +57,3 @@ will be resolved, where possible, by redirection to the corresponding resource (
 - [REST API - Retrieve entries](https://www.uniprot.org/help/api_retrieve_entries)
 - [REST API - ID Mapping](https://www.uniprot.org/help/id_mapping)
 - [REST API - Retrieving entries via queries](https://www.uniprot.org/help/api_queries)
-- [REST API - Downloading](https://www.uniprot.org/help/api_downloading)

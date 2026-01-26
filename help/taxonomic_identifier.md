@@ -13,4 +13,4 @@ The NCBI provides unique taxonomic identifiers for all organisms (taxons) that a
 
 Taxonomic identifiers are generally stable, but under some rare circumstances, they may change, for instance when one taxon is merged with another.
 
-We also provide a link to the [NCBI taxonomy database](http://www.ncbi.nlm.nih.gov/Taxonomy/).
+We also provide a link to the [NCBI taxonomy database](https://www.ncbi.nlm.nih.gov/taxonomy).

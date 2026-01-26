@@ -22,7 +22,7 @@ Example: [P75093](https://www.uniprot.org/uniprotkb/P75093#family_and_domains)
 
 Zinc finger proteins of the C2H2-type are amongst the most frequently occurring proteins in the genome of Homo sapiens. Most C2H2-type zinc finger proteins are transcriptional activators or repressors that bind DNA. C2H2-type zinc fingers are frequently found in multiple copies in the same protein, in which case individual copies are numbered. Numbering of zinc fingers is optional if the protein is a fragment at the N-terminus and no complete orthologous sequence is available from which the exact numbering can be inferred.
 
-We annotate C2H2-type zinc fingers which can be detected using Pfam, SMART or the PROSITE profile [PS50157](https://prosite.expasy.org/PS50157) and the PROSITE pattern [PS00028](http://prosite.expasy.org/PDOC00028) :
+We annotate C2H2-type zinc fingers which can be detected using Pfam, SMART or the PROSITE profile [PS50157](https://prosite.expasy.org/PS50157) and the PROSITE pattern [PS00028](https://prosite.expasy.org/PDOC00028) :
 
     C-x(2,4)-C-x(3)-[LIVMFYWC]-x(8)-H-x(3,5)-H
 

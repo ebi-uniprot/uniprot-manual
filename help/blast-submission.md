@@ -105,8 +105,8 @@ By default, the job name is auto-generated based on the submitted sequences. Cus
 
 | **Tool**                                                                      |  **Description**                                                                                      |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **[BLAST](https://www.ebi.ac.uk/Tools/sss/ncbiblast/) (EBI)**                 |  Sequence similarity search                                                                           |
-| **[FASTA](https://www.ebi.ac.uk/Tools/sss/fasta/) (EBI)**                     |  Sequence similarity search                                                                           |
+| **[BLAST](https://www.ebi.ac.uk/jdispatcher/sss/ncbiblast) (EBI)**                 |  Sequence similarity search                                                                           |
+| **[FASTA](https://www.ebi.ac.uk/jdispatcher/sss/fasta) (EBI)**                     |  Sequence similarity search                                                                           |
 | **[InterProScan](https://www.ebi.ac.uk/interpro/search/sequence/) (EBI)**     |  Query a sequence against the InterPro database, which contains protein families, domains, and motifs |
-| **[ScanProsite](http://prosite.expasy.org/scanprosite/) (ExPASy)**            |  Scan a protein sequence for patterns, or use a pattern to scan protein sequences                     |
+| **[ScanProsite](https://prosite.expasy.org/scanprosite/) (ExPASy)**            |  Scan a protein sequence for patterns, or use a pattern to scan protein sequences                     |
 | **[HMMER](https://www.ebi.ac.uk/Tools/hmmer/) (EBI)**                         |  Sequence Similarity Search                                                                           |

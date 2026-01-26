@@ -58,8 +58,11 @@ Find below a list of all possible tracks, sub-tracks and their associated help p
       <td><a href="https://www.uniprot.org/help/peptide">Peptide</a></td>
     </tr>
     <tr>
-      <td rowspan="5">Sequence information</td>
-      <td><a href="https://www.uniprot.org/help/conflict">Sequence conflict</a></td>
+      <td rowspan="6">Sequence information</td>
+      <td><a href="https://www.uniprot.org/help/compbias">Compositional bias</a></td>
+    </tr>
+    <tr>
+    <td><a href="https://www.uniprot.org/help/conflict">Sequence conflict</a></td>
     </tr>
     <tr>
       <td><a href="https://www.uniprot.org/help/non_cons">Non-adjacent residues</a></td>
@@ -160,6 +163,9 @@ Find below a list of all possible tracks, sub-tracks and their associated help p
     </tr>
     <tr>
       <td colspan="2"><a href="https://www.uniprot.org/help/variant_viewer">Variants</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><a href="https://www.uniprot.org/help/rna_editing">RNA Editing</a></td>
     </tr>
     <tr>
       <td rowspan="4">Proteomics</td>

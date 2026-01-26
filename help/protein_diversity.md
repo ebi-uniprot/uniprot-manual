@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,Keywords,Text_search,Biocuration,Sequence,faq
 ---
 
-The article [C. R. Biol. (2005)](http://dx.doi.org/10.1016/j.crvi.2005.06.001) ([2008 version](http://education.expasy.org/CRB_2008.pdf)) gives an overview on cellular processes that can lead to sequence variety and structural diversity in eukaryotes. It explains, with examples, how such processes are represented in UniProtKB.
+The article [C. R. Biol. (2005)](https://dx.doi.org/10.1016/j.crvi.2005.06.001) gives an overview on cellular processes that can lead to sequence variety and structural diversity in eukaryotes. It explains, with examples, how such processes are represented in UniProtKB.
 
 This tutorial also shows how to use the UniProtKB annotation to extract specific datasets of entries, e.g.:
 

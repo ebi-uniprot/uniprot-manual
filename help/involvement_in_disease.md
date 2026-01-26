@@ -4,7 +4,7 @@ type: help
 categories: disease_phenotypes_variants,manual
 ---
 
-This subsection of the 'Disease/Phenotypes and variants' section provides information on the disease(s) associated with genetic variations in a given protein. The information is extracted from the scientific literature and diseases that are also described in the [OMIM](http://www.ncbi.nlm.nih.gov/sites/entrez?db=omim) database are represented with a [controlled vocabulary](https://www.uniprot.org/diseases) in the following way:
+This subsection of the 'Disease/Phenotypes and variants' section provides information on the disease(s) associated with genetic variations in a given protein. The information is extracted from the scientific literature and diseases that are also described in the [OMIM](https://www.ncbi.nlm.nih.gov/omim) database are represented with a [controlled vocabulary](https://www.uniprot.org/diseases) in the following way:
 
 Disease name (Disease abbreviation) \[Link to OMIM\]: Disease description.
 

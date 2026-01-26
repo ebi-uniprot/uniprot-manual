@@ -12,7 +12,7 @@ The UniProt Knowledgebase consists of two sections: a section containing manuall
 
 # Where do the protein sequences come from?
 
-More than 95 % of the protein sequences provided by UniProtKB are derived from the translation of the coding sequences (CDS) which have been submitted to the public nucleic acid databases, the EMBL-Bank/GenBank/DDBJ databases ([INSDC](http://www.insdc.org/)). All these sequences, as well as the related data submitted by the authors, are automatically integrated into UniProtKB/TrEMBL.
+More than 95 % of the protein sequences provided by UniProtKB are derived from the translation of the coding sequences (CDS) which have been submitted to the public nucleic acid databases, the EMBL-Bank/GenBank/DDBJ databases ([INSDC](https://www.insdc.org/)). All these sequences, as well as the related data submitted by the authors, are automatically integrated into UniProtKB/TrEMBL.
 
 [Where do the UniProtKB protein sequences come from?](https://www.uniprot.org/help/sequence_origin)
 

@@ -31,18 +31,18 @@ The full list of reasons for UniProtKB/TrEMBL entry deletion can be found here:
 
 | Deletion reason                                                                     |
 | ----------------------------------------------------------------------------------- |
-| [Deleted from sequence source (EMBL)](deleted_accessions#deleted_source_embl)       |
-| [Deleted from sequence source (TAIR)](deleted_accessions#deleted_source_tair)       |
-| [Deleted from sequence source (SGD)](deleted_accessions#deleted_source_sgd)         |
-| [Deleted from sequence source (ENSEMBL)](deleted_accessions#deleted_source_ensembl) |
-| [Deleted from sequence source (PDB)](deleted_accessions#deleted_source_pdb)         |
-| [Deleted from sequence source (RefSeq)](deleted_accessions#deleted_source_refseq)   |
-| [Deleted from Swiss-Prot](deleted_accessions#deleted_swiss-prot)                    |
-| [Redundant sequence](deleted_accessions#redundant_sequence)                         |
-| [Redundant proteome](deleted_accessions#redundant_proteome)                         |
-| [Excluded proteome](deleted_accessions#excluded_proteome)                           |
-| [Over-represented sequence](deleted_accessions#over-represented_sequence)           |
-| [Not part of a reference proteome](deleted_accessions#not-part-of-a-reference-proteome)           |
+| [Deleted from sequence source (EMBL)](https://www.uniprot.org/help/deleted_accessions#deleted_source_embl)       |
+| [Deleted from sequence source (TAIR)](https://www.uniprot.org/help/deleted_accessions#deleted_source_tair)       |
+| [Deleted from sequence source (SGD)](https://www.uniprot.org/help/deleted_accessions#deleted_source_sgd)         |
+| [Deleted from sequence source (ENSEMBL)](https://www.uniprot.org/help/deleted_accessions#deleted_source_ensembl) |
+| [Deleted from sequence source (PDB)](https://www.uniprot.org/help/deleted_accessions#deleted_source_pdb)         |
+| [Deleted from sequence source (RefSeq)](https://www.uniprot.org/help/deleted_accessions#deleted_source_refseq)   |
+| [Deleted from Swiss-Prot](https://www.uniprot.org/help/deleted_accessions#deleted_swiss-prot)                    |
+| [Redundant sequence](https://www.uniprot.org/help/deleted_accessions#redundant_sequence)                         |
+| [Redundant proteome](https://www.uniprot.org/help/deleted_accessions#redundant_proteome)                         |
+| [Excluded proteome](https://www.uniprot.org/help/deleted_accessions#excluded_proteome)                           |
+| [Over-represented sequence](https://www.uniprot.org/help/deleted_accessions#over-represented_sequence)           |
+| [Not part of a reference proteome](https://www.uniprot.org/help/deleted_accessions#not-part-of-a-reference-proteome)           |
 
 <h2 id="deleted_source_embl">Deleted from sequence source (EMBL)</h2>
 
