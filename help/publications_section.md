@@ -57,7 +57,7 @@ The reference information contains the conventional citation information for the
 
 The reference information for a journal citation includes the journal abbreviation, the volume number, the page range and the year of publication.
 
-Journal names are abbreviated according to the conventions used by the National Library of Medicine (NLM) and are based on the existing ISO and ANSI standards. A list of the abbreviations currently in use is given in the document [Controlled vocabulary of journals](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/jourlist.txt).  
+Journal names are abbreviated according to the conventions used by the National Library of Medicine (NLM) and are based on the existing ISO and ANSI standards. A list of the abbreviations currently in use is given in the document [Controlled vocabulary of journals](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/jourlist.txt).  
 Example: [P03024](https://www.uniprot.org/uniprotkb/P03024/publications)
 
 When a reference is made to a publication which is 'in press' at the time the database is released, the page range, and possibly the volume number, are indicated as '0' (zero).
@@ -148,11 +148,11 @@ Examples: [P17427](https://www.uniprot.org/uniprotkb/P17427/publications), [P008
 
 The sequence origin is optional and indicates the strain(s), tissue(s), plasmid(s) and transposon(s) from which the sequence is derived.
 
-The strains listed in the 'Strains' token are sorted alphabetically. All frequently occuring strains in UniProtKB are listed in the document ['Controlled vocabulary of strains'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains.txt).
+The strains listed in the 'Strains' token are sorted alphabetically. All frequently occuring strains in UniProtKB are listed in the document ['Controlled vocabulary of strains'](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains.txt).
 
-The tissues listed in the 'Tissue' token are sorted alphabetically. All tissues indicated in this token in UniProtKB/Swiss-Prot are listed in the document ['Controlled vocabulary of tissues'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/tisslist.txt). Whenever possible, UniProtKB/TrEMBL also makes use of this controlled tissue list, and efforts are made to automatically match tissues in UniProtKB/TrEMBL entries to tissues from this list. However, due to the nature of the data in UniProtKB/TrEMBL, this is not always possible.
+The tissues listed in the 'Tissue' token are sorted alphabetically. All tissues indicated in this token in UniProtKB/Swiss-Prot are listed in the document ['Controlled vocabulary of tissues'](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/tisslist.txt). Whenever possible, UniProtKB/TrEMBL also makes use of this controlled tissue list, and efforts are made to automatically match tissues in UniProtKB/TrEMBL entries to tissues from this list. However, due to the nature of the data in UniProtKB/TrEMBL, this is not always possible.
 
-The 'Plasmid' token is only used if an entry describes an identical sequence encoded on more than one plasmid. The document ['Controlled vocabulary of plasmids'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid.txt) lists all the plasmids that are used in UniProtKB/Swiss-Prot in the context of the 'plasmid' token.  
+The 'Plasmid' token is only used if an entry describes an identical sequence encoded on more than one plasmid. The document ['Controlled vocabulary of plasmids'](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid.txt) lists all the plasmids that are used in UniProtKB/Swiss-Prot in the context of the 'plasmid' token.  
 Examples: [P18445](https://www.uniprot.org/uniprotkb/P18445/publications), [Q28125](https://www.uniprot.org/uniprotkb/Q28125/publications), [P30867](https://www.uniprot.org/uniprotkb/P30867/publications), [P12121](https://www.uniprot.org/uniprotkb/P12121/publications), [P00810](https://www.uniprot.org/uniprotkb/P00810/publications), [Q9EVG8](https://www.uniprot.org/uniprotkb/Q9EVG8/publications).
 
 Many bacterial or fungal strains have names composed of an acronym (ATCC, DSM, NRRL...) followed by a number. These strains are maintained in specific culture collections. The most frequently cited are the following:
@@ -213,11 +213,11 @@ The column 'PubMed ID' only documents PubMed IDs that are UniProtKB reviewed (Sw
 
 # Related documents
 
-[Controlled vocabulary of journals](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/jourlist.txt)  
-[Controlled vocabulary of tissues](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/tisslist.txt)  
-[Controlled vocabulary of strains](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains.txt)  
-[Controlled vocabulary of species](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist.txt)  
-[Controlled vocabulary of plasmids](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid.txt)  
+[Controlled vocabulary of journals](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/jourlist.txt)  
+[Controlled vocabulary of tissues](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/tisslist.txt)  
+[Controlled vocabulary of strains](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/strains.txt)  
+[Controlled vocabulary of species](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/speclist.txt)  
+[Controlled vocabulary of plasmids](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/plasmid.txt)  
 [On what basis are literature references inserted in UniProtKB/Swiss-Prot entries?](https://www.uniprot.org/help/literature_references)  
 [What journal abbreviations are used in UniProtKB?](https://www.uniprot.org/help/journal_abbreviations)  
 [On expert curation and scalability: UniProtKB/Swiss-Prot as a case study, Bioinformatics (2017)](https://pubmed.ncbi.nlm.nih.gov/29036270/)
