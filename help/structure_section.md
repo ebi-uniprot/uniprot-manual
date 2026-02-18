@@ -22,7 +22,7 @@ Related keyword: [3D-structure](https://www.uniprot.org/keywords/KW-0002)
 # Structure Section
 
 This section within the protein entry page provides a list of tertiary structures available for proteins from [cross-referenced databases](https://www.uniprot.org/database?facets=category_exact%3A3D%20structure%20databases&query=%2A).<br>
-This includes experimentally determined structures from [PDB](https://www.ebi.ac.uk/pdbe/), predicted structural models from [AlphaFold](https://alphafold.ebi.ac.uk/), and structural models from 3D-Beacons network [data providers](https://www.ebi.ac.uk/pdbe/pdbe-kb/3dbeacons/guidelines).
+This includes experimentally determined structures from [PDB](https://www.ebi.ac.uk/pdbe/), predicted structural models from [AlphaFold DB](https://alphafold.ebi.ac.uk/), and structural models from 3D-Beacons network [data providers](https://www.ebi.ac.uk/pdbe/pdbe-kb/3dbeacons/guidelines).
 
 # Experimental structures from PDB
 
@@ -36,15 +36,17 @@ Multiple experimentally determined structures may be available for one protein (
 
 Example: [Q9H165](https://www.uniprot.org/uniprotkb/Q9H165/feature-viewer). 
 
-# AlphaFold structural models
+# AlphaFold DB structural models
 
-A 3D structural model from AlphaFold prediction is always presented as a full-length monomeric protein based on the protein canonical sequence, without any ligands or interacting partners. These structural models are shown with a per-residue confidence score (pLDDT) that indicates the confidence of the prediction. Confidence is color-coded in the 3D structural viewer of a protein entry, and in the AlphaFold confidence track of the protein feature viewer, to indicate the confidence of the prediction along the amino acid sequence.
+A 3D structural model from an AlphaFold DB prediction is usually presented as a full-length monomeric protein based on the protein canonical sequence, without any ligands or interacting partners. These structural models are shown with a per-residue confidence score (pLDDT) that indicates the confidence of the prediction. Confidence is color-coded in the 3D structural viewer of a protein entry, and in the AlphaFold confidence track of the protein feature viewer, to indicate the confidence of the prediction along the amino acid sequence.
 
 Example: [P05067](https://www.uniprot.org/uniprotkb/P05067/feature-viewer).
 
-It is possible that an AlphaFold prediction is not available for your protein of interest, this might be for multiple reasons, such as sequence length (longer sequences might not be included). It is also possible that the canonical sequence could have been updated since the AlphaFold prediction was made and therefore the 3D-structural prediction may not be based on the latest canonical sequence. If this is the case, a warning will be displayed.
+AlphaFold DB is also providing large-scale datasets from scientific communities with deep domain expertise, which may result in multiple structural models for a protein provided by AlphaFold DB. Please see the AlphaFold DB [collaborators page](https://www.alphafold.com/collaborators) for details.
 
-For all reasons why an AlphaFold prediction might not be available, please [see the AlphaFoldDB FAQ](https://alphafold.ebi.ac.uk/faq#faq-4).
+It is possible that an AlphaFold DB prediction is not available for your protein of interest, this might be for multiple reasons, such as sequence length (longer sequences might not be included). It is also possible that the canonical sequence could have been updated since the AlphaFold DB prediction was made and therefore the 3D-structural prediction may not be based on the latest canonical sequence. If this is the case, a warning will be displayed.
+
+For all reasons why an AlphaFold DB prediction might not be available, please [see the AlphaFold DB FAQ](https://alphafold.ebi.ac.uk/faq#faq-4).
 
 # 3D-Beacons structural models
 
