@@ -7,7 +7,7 @@ categories: Get_started, UniProtKB
 
 [UniProtKB](https://www.uniprot.org/help/uniprotkb) is a protein database that consists of individual entries, each of which provides detailed information about a particular protein. The top of each protein entry page provides key identifying information about the protein and the status of the entry. 
 
-Firstly the unique [UniProtKB accession number](https://www.uniprot.org/help/accession_numbers), which is a stable identifier given to each UniProtKB entry (example: [P49841](https://www.uniprot.org/uniprotkb/P49841/entry)). Then the [entry name](https://www.uniprot.org/help/entry_name), which is a mnemonic identifier for each protein entry, however this is not guaranteed to be stable (example: [GSK3B_HUMAN](https://www.uniprot.org/uniprotkb/P49841/entry)).
+Firstly the unique [UniProtKB accession number](https://www.uniprot.org/help/accession_numbers), which is a stable identifier given to each UniProtKB entry (example: [P49841](https://www.uniprot.org/uniprotkb/P49841/entry)). Then the [entry name](https://www.uniprot.org/help/entry_name), which is a mnemonic identifier for each protein entry, which is however not guaranteed to be stable (example: [GSK3B_HUMAN](https://www.uniprot.org/uniprotkb/P49841/entry)).
 These identifiers are followed by information on the [protein name](https://www.uniprot.org/help/protein_names), [gene name](https://www.uniprot.org/help/gene_name), [review status](https://www.uniprot.org/help/entry_status) of the entry, [organism](https://www.uniprot.org/help/organism-name), sequence length (amino acids), [protein existence](https://www.uniprot.org/help/protein_existence) level and [annotation score](https://www.uniprot.org/help/annotation_score). 
 Example: [P01116](https://www.uniprot.org/uniprotkb/P01116/entry)
 
@@ -31,12 +31,12 @@ The [feature viewer](https://www.uniprot.org/uniprotkb/P49841/feature-viewer) ta
 Example: [P49841](https://www.uniprot.org/uniprotkb/P49841/feature-viewer).
 
 ## Genomic coordinates
-The [genomic coordinates](https://www.uniprot.org/help/genomic_coordinates) tab displays genomic coordinate information for the corresponding nucleotide sequences for that protein entry, which are mainly created from translations of coding sequences (CDS). Exon coordinates are shown for both the canonical and isoforms sequences. Example: [P49841](https://www.uniprot.org/uniprotkb/P49841/genomic-coordinates).
+The [genomic coordinates](https://www.uniprot.org/help/genomic_coordinates) tab displays genomic coordinate information for the corresponding nucleotide sequences for that protein entry, which are mainly created from translations of coding sequences (CDS). Exon coordinates are shown for both the canonical and isoform sequences. Example: [P49841](https://www.uniprot.org/uniprotkb/P49841/genomic-coordinates).
 
 If this tab is disabled, it means no genomic coordinate mapping is available for this entry.
 
 ## Publications
-The [publications](https://www.uniprot.org/help/publications_section) tab shows the publications associated with that protein entry, and includes publications that are [fully curated](https://www.uniprot.org/help/biocuration) in UniProtKB/Swiss-Prot, publications that are [computationally mapped](https://www.uniprot.org/help/publications_section#additional-bibliography) to the UniProtKB entry from other resources, and [community-submitted](https://www.uniprot.org/help/publications_section#community-submitted-bibliography) publications. Example: [P49841](https://www.uniprot.org/uniprotkb/P49841/publications).
+The [publications](https://www.uniprot.org/help/publications_section) tab shows the publications associated with that protein entry, and includes publications that are [fully curated](https://www.uniprot.org/help/biocuration) in UniProtKB/Swiss-Prot, or imported from the sequence source database in UniProtKB/TrEMBL, publications that are [computationally mapped](https://www.uniprot.org/help/publications_section#additional-bibliography) to the UniProtKB entry from other resources, and [community-submitted](https://www.uniprot.org/help/publications_section#community-submitted-bibliography) publications. Example: [P49841](https://www.uniprot.org/uniprotkb/P49841/publications).
 
 ## External links
 The external links tab collates a list of links to external resources that provide data about the protein entry, categorized by the type of biological data that the database provides. Example: [P49841](https://www.uniprot.org/uniprotkb/P49841/external-links)
