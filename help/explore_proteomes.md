@@ -12,8 +12,7 @@ The UniProt proteomes resource can be accessed from the UniProt homepage and als
 Proteomes search results will be shown in a results table which can be filtered using a variety of options that are found to the left of the table. Each proteome has a [unique proteome identifier](https://www.uniprot.org/help/proteome_id) (UPID), which is specific to a particular organism. The number of proteins in the proteome is provided and links to the set of these proteins in UniProtKB or UniParc. The results table will also indicate the [proteome completeness](https://www.uniprot.org/help/assessing_proteomes) (BUSCO and CPD), and [further columns](https://www.uniprot.org/help/customize) can be added or removed.
 
 Selecting the UPID will open the proteome page for that particular proteome which contains further information, along with the publication that accompanies the assembly at the bottom of the page, and for some proteomes, a brief description of the organism.The download button opens a side window which gives the user a number of download options for that proteome in a range of widely accepted formats.
-Selecting the number of entries will open a results table populated with all of the protein entries mapped to that proteome, either in UniProtKB for Reference Proteomes, or in [UniParc](https://www.uniprot.org/help/uniparc) for other categories of proteomes. 
-
+Selecting the number of entries will open a results table populated with all of the protein entries mapped to that proteome, either in UniProtKB for Reference Proteomes, or in [UniParc](https://www.uniprot.org/help/uniparc) for other categories of proteomes.
 
 For more help on how to use UniProt:
 * visit our [Help center](https://www.uniprot.org/help)

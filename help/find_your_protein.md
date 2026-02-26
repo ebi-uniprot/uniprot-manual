@@ -7,7 +7,7 @@ The UniProt Knowledgebase ([UniProtKB](https://www.uniprot.org/help/uniprotkb)) 
 
 UniProtKB entries can be searched in a number of different ways.
 
-## Finding proteins using the website search 
+# Finding proteins using the website search 
 
 On the UniProt website [homepage](https://www.uniprot.org/) and at the top of all UniProt pages, you can use the search bar (with the UniProtKB database selected in the dropdown box on the left) and enter a free text query to search. A general free text search of UniProtKB will return all entries that contain the query search term within any section of the protein entry. More information can be found in the “[How to search UniProt](https://www.ebi.ac.uk/training/online/courses/uniprot-exploring-protein-sequence-and-functional-info/how-to-search-uniprot/)” section of our online training tutorial.
 
@@ -15,7 +15,7 @@ Performing an [advanced search](https://www.uniprot.org/help/advanced_search) wi
 More information can be found in the “[Advanced search](https://www.ebi.ac.uk/training/online/courses/uniprot-exploring-protein-sequence-and-functional-info/how-to-search-uniprot/advanced-search/)” section of our online training tutorial.
 
 
-## Finding proteins using BLAST search 
+# Finding proteins using BLAST search 
 
 Proteins can also be found by [searching for similar amino acid sequences](https://www.uniprot.org/help/blast-submission) using the [BLAST](https://www.uniprot.org/blast) sequence similarity search, available on the UniProt homepage, on the tool bar and within a protein entry page. 
 
@@ -26,11 +26,11 @@ When a protein entry of interest is sparsely annotated, performing a sequence si
 
 For a detailed walkthrough of our BLAST tool, see our [online training tutorial](https://www.ebi.ac.uk/training/online/courses/uniprot-exploring-protein-sequence-and-functional-info/how-to-use-uniprot-tools-clone/blast-sequence-similarity-searching/).
 
-## Finding proteins programmatically
+# Finding proteins programmatically
 
 UniProt has several application programming interfaces (API) which users can query, see our [programmatic access](https://www.uniprot.org/help/programmatic_access) page for information on each of our APIs.
 
-Protein entries in UniProtKB can be queried through the [UniProt website REST API](https://www.uniprot.org/api-documentation/uniprotkb) using the same search fields as those available in the website’s [advanced search](https://www.uniprot.org/help/advanced_search).This allows users to build their search query interactively on the website, and verify that the results correspond to what is expected. Once the result is as intended, results table columns can be [customized](https://www.uniprot.org/help/customize) to display required information from the entries. The ‘Download’ option at the top of the results table gives users a ‘General URL for API’ link that can be directly used in programmatic queries of the UniProt website REST API.
+Protein entries in UniProtKB can be queried through the [UniProt website REST API](https://www.uniprot.org/api-documentation/uniprotkb) using the same search fields as those available in the website’s [advanced search](https://www.uniprot.org/help/advanced_search).This allows users to build their search query interactively on the website, and verify that the results correspond to what is expected. Once the result is as intended, results table columns can be [customized](https://www.uniprot.org/help/customize) to display required information from the entries. The ‘Download’ option at the top of the results table gives users a ‘Generate URL for API’ link that can be directly used in programmatic queries of the UniProt website REST API.
 
 Full documentation is available, as is a complete list of the valid [search fields](https://rest.uniprot.org/configure/uniprotkb/result-fields).
 

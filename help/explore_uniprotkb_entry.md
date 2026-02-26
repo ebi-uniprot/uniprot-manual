@@ -5,7 +5,7 @@ categories: Get_started, UniProtKB
 ---
 # Key identifying information
 
-[UniProtKB](https://www.uniprot.org/help/uniprotkb) is a protein database that consists of individual entries, each of which provides detailed information about a particular protein. The top of each protein entry page provides key identifying information about the protein and the status of the entry. 
+[UniProtKB](https://www.uniprot.org/help/uniprotkb) is a protein database that consists of individual entries, each of which provides detailed information about a particular protein. The top of each protein entry page provides key identifying information about the protein and the status of the entry.
 
 Firstly the unique [UniProtKB accession number](https://www.uniprot.org/help/accession_numbers), which is a stable identifier given to each UniProtKB entry (example: [P49841](https://www.uniprot.org/uniprotkb/P49841/entry)). Then the [entry name](https://www.uniprot.org/help/entry_name), which is a mnemonic identifier for each protein entry, which is however not guaranteed to be stable (example: [GSK3B_HUMAN](https://www.uniprot.org/uniprotkb/P49841/entry)).
 These identifiers are followed by information on the [protein name](https://www.uniprot.org/help/protein_names), [gene name](https://www.uniprot.org/help/gene_name), [review status](https://www.uniprot.org/help/entry_status) of the entry, [organism](https://www.uniprot.org/help/organism-name), sequence length (amino acids), [protein existence](https://www.uniprot.org/help/protein_existence) level and [annotation score](https://www.uniprot.org/help/annotation_score). 
@@ -42,7 +42,7 @@ The [publications](https://www.uniprot.org/help/publications_section) tab shows 
 The external links tab collates a list of links to external resources that provide data about the protein entry, categorized by the type of biological data that the database provides. Example: [P49841](https://www.uniprot.org/uniprotkb/P49841/external-links)
 
 ## History
-The history tab details the history of the protein entry since it first entered UniProtKB. For each version of the entry, the following is provided: a text file with the entry content, a FASTA file with the protein sequence, [entry name](https://www.uniprot.org/help/entry_name), [review status](https://www.uniprot.org/help/entry_status) (database), [release](https://www.uniprot.org/help/synchronization) number, release date and any additional notes. Example: [P49841](https://www.uniprot.org/uniprotkb/P49841/history)
+The history tab details the history of the protein entry since it first entered UniProtKB. For each version of the entry, the following is provided: a text file with the entry content, a FASTA file with the protein sequence, [entry name](https://www.uniprot.org/help/entry_name), [review status](https://www.uniprot.org/help/entry_status) (database), [release](https://www.uniprot.org/help/synchronization) number, release date and any additional notes. Example: [P49841](https://www.uniprot.org/uniprotkb/P49841/history).
 In the case of a [deleted entry](https://www.uniprot.org/help/deleted_accessions), this will be the only available tab. Example: [O00597](https://www.uniprot.org/uniprotkb/O00597/history)
 
 # Tools and Feedback Links
