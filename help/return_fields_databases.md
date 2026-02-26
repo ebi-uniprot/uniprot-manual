@@ -10,17 +10,19 @@ Cross-references can be queried using the [UniProt website REST API](https://www
 For a complete list of results fields please see: https://rest.uniprot.org/configure/uniprotkb/result-fields
 
 Cross references are described by ‘label’, ‘name’ and ‘id’
-- ‘label’ is the name of the cross-reference that is shown on the website, tsv or Excel format.
+- ‘label’ is the name of the cross-reference that is shown on the website, TSV or Excel format.
 - ‘name’ is the full designation of the cross-reference within the API
 - ‘id’ is the database group/label for that cross-reference
 
 
 Example for the cross reference database MGI
-```
-     "label": "MGI",
-     "name": "xref_mgi",
-     "isMultiValueCrossReference": true,
-     "id": "organism-specific/mgi"
+```json
+{
+  "label": "MGI",
+  "name": "xref_mgi",
+  "isMultiValueCrossReference": true,
+  "id": "organism-specific/mgi"
+}
 ```
 
 Optionally, these cross-reference description objects might also include the `isMultiValueCrossReference` field with a value of `true`, highlighting the fact that there exists a version of this field with multiple values, usually secondary IDs, that can be accessed by appending `_full` to the name of the field in a query.
