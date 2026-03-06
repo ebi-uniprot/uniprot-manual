@@ -35,7 +35,7 @@ Non-redundancy means in:
 
 # UniParc
 
-[UniParc](https://www.uniprot.org/help/uniparc) is 'non-redundant' in the sense that all identical protein sequences are stored in a single record regardless of the species. Each record is characterized by a unique identifier, UPI. For example, identical ubiquitin sequences from various organisms can be found in UniParc record [UPI00000006C4](https://www.uniprot.org/uniparc/UPI00000006C4).
+[UniParc](https://www.uniprot.org/help/uniparc) is 'non-redundant' in the sense that all identical protein sequences are stored in a single record regardless of the species. Each record is characterized by a unique identifier, [UPI](https://www.uniprot.org/help/uniparc_id). For example, identical ubiquitin sequences from various organisms can be found in UniParc record [UPI00000006C4](https://www.uniprot.org/uniparc/UPI00000006C4).
 
 # UniRef
 
