@@ -36,7 +36,7 @@ CPD score is defined as:
 
 ![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/assessing_proteomes-12.png)
 
-Figure 1 caption: _CPD status descriptions are defined by how the protein count of a proteome compares to the distribution of protein counts in a group of at least 30 closely related proteomes. The proteomes chosen for comparison are as closely related as possible in order to find at least 30 proteomes. If not enough proteomes can be found within the same taxonomic class then the proteome is scored "Unknown"._
+Figure 1 caption: CPD status descriptions are defined by how the protein count of a proteome compares to the distribution of protein counts in a group of at least 30 closely related proteomes. The proteomes chosen for comparison are as closely related as possible in order to find at least 30 proteomes. If not enough proteomes can be found within the same taxonomic class then the proteome is scored "Unknown".
 
 
 # Benchmarking Universal Single-Copy Orthologs (BUSCO)
