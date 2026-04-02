@@ -32,3 +32,5 @@ GO causal activity models ([GO-CAMs](https://geneontology.org/docs/gocam-overvie
 If GO-CAM data is available for a given protein, a second tab labeled ‘GO-CAM’ can be found in the ‘Function’ section of the protein entry, displaying GO causal activity models to which the protein has been annotated. 
 
 Only GO-CAM models that have been curated by UniProt curators are displayed to maintain consistency across the database. If a protein does not have an annotated GO-CAM model, a message will be displayed in the tab.
+
+Please note that GO-CAM models cannot be viewed on a mobile device.
