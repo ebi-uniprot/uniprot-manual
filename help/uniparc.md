@@ -4,7 +4,7 @@ type: help
 categories: About_UniProt,UniParc,Sequence,Cross-references,help
 ---
 
-The UniProt Archive (UniParc) is a comprehensive and non-redundant database of protein sequences. These sequences are sourced from public sequence databases, and each unique sequence is stored in a UniParc entry with a stable unique identifier (UPI). A UPI is never removed, changed or reassigned to a different sequence. In addition to the protein sequence, a UniParc entry contains cross-references to all source database entries in which the sequence exists or existed, with a date range that shows when the sequence was first and last seen in each source entry. In this way UniParc tracks sequence changes in the source databases and archives the history of all changes.
+The UniProt Archive (UniParc) is a comprehensive and non-redundant database of protein sequences. These sequences are sourced from public sequence databases, and each unique sequence is stored in a UniParc entry with a stable unique identifier ([UPI](https://www.uniprot.org/help/uniparc_id)). A UPI is never removed, changed or reassigned to a different sequence. In addition to the protein sequence, a UniParc entry contains cross-references to all source database entries in which the sequence exists or existed, with a date range that shows when the sequence was first and last seen in each source entry. In this way UniParc tracks sequence changes in the source databases and archives the history of all changes.
 
 # Content of an entry
 
