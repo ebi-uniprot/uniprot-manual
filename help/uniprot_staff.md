@@ -46,14 +46,11 @@ Nadine Gruaz
 Chantal Hulo  
 Nevila Hyka-Nouspikel  
 Florence Jungo  
-Damien Lieberherr  
 Minna Lehvaslaiho  
 Kati Laiho  
 Philippe Le Mercier  
 Antonia Lock  
-Yvonne Lussi  
 Patrick Masson  
-Anne Morgat  
 Sandrine Pilbout  
 Lucille Pourcel  
 Pedro Raposo  
@@ -61,12 +58,12 @@ Catherine Rivoire
 Christian Sigrist  
 Shyamala Sundaram  
 C. R. Vinayaka  
-Nadya Urakova  
 Conny Wing-Heng Yu  
 
 # Development
 
 Shadab Ahmad  
+Leslie Arminski  
 Parit Bansal  
 Delphine Baratin  
 Teresa Batista Neto  
@@ -74,6 +71,7 @@ Jerven Bolleman
 Chuming Chen  
 Beatrice Cuche  
 Edouard De Castro  
+Chuqiao Gong  
 Khawaja Talal Ibrahim  
 Minjoon Kim  
 Jun Fan  
@@ -91,10 +89,10 @@ Arnaud Kerhornou
 Supun Wijerathne  
 Jie Luo  
 Juan Sebastian Martinez Martin  
-Raja Mazumder  
 Monica Pozzato  
 Daniel Rice  
-Vijay Shanker  
 James Stephenson  
 Prabhat Totoo  
 Jian Zhang  
+Vinicius de Souza  
+Tanushree Tunstall  
