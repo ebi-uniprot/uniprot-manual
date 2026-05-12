@@ -8,12 +8,13 @@ categories: Staff,help
 
 [Alex Bateman](https://www.uniprot.org/help/bateman)  
 [Alan J. Bridge](https://www.uniprot.org/help/bridge)  
-[Cathy H. Wu](https://bioinformatics.udel.edu/people/cathy-wu-phd/)
+[Cathy H. Wu](https://bioinformatics.udel.edu/people/cathy-wu-phd/)  
 
 # Key staff
 
 [Lionel Breuza](https://www.uniprot.org/help/key_staff#breuza)  
 [Elisabeth Coudert](https://www.uniprot.org/help/key_staff#coudert)   
+Stephanie Lo  
 [Michele Magrane](https://www.uniprot.org/help/key_staff#magrane)  
 [Maria J. Martin](https://www.uniprot.org/help/key_staff#martin)  
 [Peter McGarvey](https://www.uniprot.org/help/key_staff#mcgarvey)  
@@ -23,8 +24,8 @@ categories: Staff,help
 [Sylvain Poux](https://www.uniprot.org/help/key_staff#poux)  
 [Nicole Redaschi](https://www.uniprot.org/help/key_staff#redaschi)  
 [Karen Ross](https://www.uniprot.org/help/key_staff#ross)  
-Shiqi Ye 
-Yuqi Wang
+Yuqi Wang  
+Friday Ojie Ehiguese  
 
 # Content / Curation
 
@@ -38,7 +39,6 @@ Emily Bowler-Barnett
 David Carpentier  
 Cristina Casals Casas  
 Paul Denny  
-Anne Estreicher  
 Maria Livia Famiglietti  
 Marc Feuermann  
 Arnaud Gos  
@@ -88,15 +88,13 @@ Vishal Joshi
 Dushyanth Jyothi  
 Swaathi Kandasaamy  
 Arnaud Kerhornou  
-Aurélien Luciani  
 Supun Wijerathne  
 Jie Luo  
-Juan Sebastian Martinez Martin   
-Raja Mazumder   
+Juan Sebastian Martinez Martin  
+Raja Mazumder  
 Monica Pozzato  
 Daniel Rice  
 Vijay Shanker  
 James Stephenson  
-Anastasia Sveshnikova  
 Prabhat Totoo  
-Jian Zhang
+Jian Zhang  
