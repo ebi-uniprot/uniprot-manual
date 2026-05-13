@@ -9,8 +9,8 @@ categories: Staff,help
 Dr. Breuza joined the Swiss-Prot group at the SIB Swiss Institute of Bioinformatics in 2004 where he worked as a Swiss-Prot database biocurator with a focus on vertebrate proteomes. Since 2009 he heads the chordata curation program at the SIB, managing a team of biocurators and organizing the curation work of vertebrate proteins and in particular of the human proteome.
 
 <strong id="coudert">Elisabeth Coudert, Ph.D.</strong>  
-<u>Head of Transversal Curation (SIB)</u>  
-Dr. Coudert joined the Swiss-Prot group at the SIB Swiss Institute of Bioinformatics in Geneva in 2000 where she worked as a biocurator in the Prokaryotic Protein Annotation Program. In 2008 she became responsible for this program. She is now the leader of a team whose members are involved in various projects including the development of the Rhea, ENZYME, SwissLipids and PROSITE resources, toxin biocuration, and taxonomy data management.
+<u>Head of Chemistry Curation (SIB)</u>  
+Dr. Coudert joined the Swiss-Prot group at the SIB Swiss Institute of Bioinformatics in Geneva in 2000 where she worked as a biocurator in the Prokaryotic Protein Annotation Program, which she led from 2008 to 2018. She now leads the Chemistry team responsible for the curation of chemical knowledge in UniProtKB using Rhea, ChEBI, and ENZYME.
 
 <strong id="magrane">Michele Magrane, B.Sc. (Hons.)</strong>  
 <u>Curation Coordinator (EMBL-EBI)</u>  

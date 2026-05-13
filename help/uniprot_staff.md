@@ -26,6 +26,7 @@ Stephanie Lo
 [Karen Ross](https://www.uniprot.org/help/key_staff#ross)  
 Yuqi Wang  
 Friday Ojie Ehiguese  
+Manuela Pruess  
 
 # Content / Curation
 
