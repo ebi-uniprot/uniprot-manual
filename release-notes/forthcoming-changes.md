@@ -64,7 +64,7 @@ e.g
 Users searching UniParc for a proteome component using the API will need to enter the fully qualified name of the proteome component in the form of <proteome_id>:<component_name> when submitting the query.
 User using the website advanced search functionality will be able to carry out the same query using the search fields ```proteome_id``` and ```component_name```.
 
-```proteomecomponent:'UP000008269:Segment'```
+```proteomecomponent:"UP000008269:Segment"```
 
 
 # ChEBI data model change in UniProt SPARQL endpoint
