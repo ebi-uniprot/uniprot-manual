@@ -42,10 +42,11 @@ To date these pipelines have been used to populate UniProtKB with additional seq
 
 # Which sequenced genomes are available as proteomes at UniProt?
 
-The [Proteomes resource](https://www.uniprot.org/proteomes/) offers protein sequence sets obtained from the translation of completely sequenced genomes. Published genomes from [INSDC](https://www.insdc.org/) are brought into UniProt if they satisfy the following criteria:
+The [Proteomes](https://www.uniprot.org/proteomes/) resource offers protein sequence sets obtained from the translation of completely sequenced genomes. Published genomes from [INSDC](https://www.insdc.org/) are brought into UniProt if they satisfy the following criteria:
 
-- The genome is annotated and a set of coding sequences is available.
-- The taxonomy or bioproject is imported, and is not considered unfit for import.
+- The genome is annotated and a set of coding sequences is available;
+- The taxonomy or bioproject is imported, and is not considered ineligible for import;
+- The proteome has to have nuclear genome components.
 
 Protein sequences that are part of reference proteomes can be found in UniProtKB (and also in UniParc), whilst protein sequences from non-reference proteomes and excluded proteomes can be found only in UniParc. 
 
