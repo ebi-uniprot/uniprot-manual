@@ -4,25 +4,15 @@ type: help
 categories: Proteomes,Taxonomy,UniProtKB
 ---
 
-This page is designed to give a quick summary of the [Proteomes](https://www.uniprot.org/proteomes) and [UniProtKB](https://www.uniprot.org/uniprotkb) changes happening in the coming months and how this might affect user work-flows.  
+As of release 2026_02 (May 2026) a comprehensive package of changes to our [reference proteome workflow](https://www.uniprot.org/help/ref_proteomes_workflow) will be complete. The changes will affect how [reference proteomes](https://www.uniprot.org/help/reference_proteome) are selected and also what protein entries are included in [UniProtKB](https://www.uniprot.org/help/uniprotkb).
+
 A comprehensive list of affected protein entries and proteomes is available [here](https://ftp.ebi.ac.uk/pub/contrib/UniProt/proteomes/).
 
+See below a summary of the changes implemented at each release since 2025_04 and how this might affect user workflows.
+
 # Our current release
-## Release 2026_01
-28th January 2026
-
-Changes that we are making in this release:
-- No major changes \- this is to provide time for users to adapt their work to correspond to future changes coming in release 2026_02.
-
-Changes in numbers:
-- Very few changes will be made to UniProtKB and Proteomes outside of the scope of our usual release cycle.
-
-How this might affect you:
-- There will only be minimal changes in UniProtKB and Proteomes that will be unlikely to affect users.
-
-# Future releases
 ## Release 2026_02
-Currently expected in the late first or second quarter of 2026
+10th June 2026
 
 Changes that we are making in this release:
 
@@ -30,14 +20,27 @@ Changes that we are making in this release:
 
 Changes in numbers:
 
-- Removal of approximately 60 million protein entries from UniProtKB, which will result in an estimated total of 139 million entries remaining.
+- Removal of approximately 57 million protein entries, which will result in an estimated total of 150 million protein entries in UniProtKB.
 
 How this might affect you:
 
-- Protein entries that do not belong to a Reference Proteome or that are not considered to be of high biological relevance can still be found in UniParc, where users can find some information such as the protein sequence, gene and protein names, InterPro signatures, etc.
+- Protein entries that do not belong to a Reference Proteome or that are not considered to be of high biological relevance can still be found in [UniParc](https://www.uniprot.org/uniparc), where users can find some information such as the protein sequence, gene and protein names, InterPro signatures, etc.
 
 
 # Past releases
+## Release 2026_01
+28th January 2026
+
+Changes that we are making in this release:
+- No major changes \- this is to provide time for users to adapt their work to correspond to future changes coming in release 2026_02.
+
+Changes in numbers:
+- Very few changes will be made to UniProtKB and Proteomes outside of the scope of our usual [release cycle](https://www.uniprot.org/help/synchronization).
+
+How this might affect you:
+- There will only be minimal changes in UniProtKB and Proteomes that will be unlikely to affect users.
+
+
 ## Release 2025_04 
 15th October 2025
 
@@ -54,7 +57,7 @@ Changes in numbers:
 
 How this might affect you:
 
-- Taxonomically unclassified proteins that were previously found in UniProtKB can still be accessed in [UniParc](https://www.uniprot.org/uniparc). In UniParc users can find information such as the protein sequence, gene and protein names, and InterPro signatures etc. UniParc can be searched by protein accession number or proteome identifier, either through the website or programmatically via our [APIs](https://www.uniprot.org/help/programmatic_access), to locate your protein(s) of interest.  
+- Taxonomically unclassified proteins that were previously found in UniProtKB can still be accessed in UniParc. In UniParc users can find information such as the protein sequence, gene and protein names, and InterPro signatures etc. UniParc can be searched by protein accession number or proteome identifier, either through the website or programmatically via our [APIs](https://www.uniprot.org/help/programmatic_access), to locate your protein(s) of interest.  
 - Addition of novel protein entries to UniProtKB from new reference proteomes.  
 - In the weeks leading up to December 2025, users had the opportunity to provide feedback on the changes and express possible concerns about specific entries that are due to be removed from UniProtKB in 2026_02.
 
@@ -67,10 +70,10 @@ For further help regarding Proteomes please see our related [help pages](https:/
 
 # FAQs
 ## How are bacterial strains being taken into account by the new reference proteome selection workflow?
-Proteomes from the categories “Reference”, “Redundant” and “Other” are analyzed in the new workflow. All strains within these proteomes are considered, and from this pool of proteomes one or a few reference proteomes are selected. UniProt ensures that all species have at least one reference proteome, but it does not ensure that all strains have reference proteomes.
+Proteomes from the categories “Reference”, “Redundant” (now obsolete) and “Other” are analyzed in the new workflow. All strains within these proteomes are considered, and from this pool of proteomes one or a few reference proteomes are selected. UniProt ensures that all species have at least one reference proteome, but it does not ensure that all strains have reference proteomes.
 
 ## How would having one reference proteome per species be applied to virus isolates?
 Viral reference proteomes are selected based on the International Committee on Taxonomy of Viruses ([ICTV](https://ictv.global/)) which publishes exemplar genomes (well-characterized virus isolates) for each virus species in its Virus Metadata Resource ([VMR](https://ictv.global/vmr)). There are additional non-ICTV-based reference proteomes that are promoted because these are considered biologically relevant as a result of additional UniProt curation considerations.
 
 ## How will entries removed by this change be identified in UniParc?
-UniProtKB accessions that are part of non-reference proteomes can still be searched within UniParc, where all entries will be kept. Searching in UniProtKB for accessions for removed entries will redirect you to the corresponding UniParc page and the history of this entry will still be available. Inside each UniParc entry you can add even more information by clicking the “Generate Annotations” button (this is based on [UniFIRE](https://gitlab.ebi.ac.uk/uniprot-public/unifire), a software that uses [UniRule](https://www.uniprot.org/help/unirule) and [ARBA](https://www.uniprot.org/help/arba) to predict annotations).
+UniProtKB accessions that are part of non-reference proteomes can still be searched within UniParc, where all entries will be kept. Searching in UniProtKB for accessions for removed entries will redirect you to the corresponding UniParc page and the history of this entry will still be available. Inside each UniParc entry additional annotations are added automatically (this is based on [UniFIRE](https://gitlab.ebi.ac.uk/uniprot-public/unifire), a software that uses [UniRule](https://www.uniprot.org/help/unirule) and [ARBA](https://www.uniprot.org/help/arba) to predict annotations).
