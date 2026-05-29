@@ -16,17 +16,18 @@ The manual selection of reference proteomes is done by a team of expert curators
 
 
 # Reference proteomes workflow
-1. Identification of candidate proteomes to become reference proteomes.
-For cellular organisms, proteomes must meet stringent criteria to be considered by the workflow as candidates to become reference proteomes:
-  - The proteome must belong to a defined species (a proteome must have a species name with complete binomial nomenclature including both genus and epithet). Example: A defined species is Salmonella enterica (taxonomy ID: [28901](https://www.ncbi.nlm.nih.gov/datasets/taxonomy/28901/)), as opposed to an undefined species such as Salmonella sp. (taxonomy ID: [599](https://www.ncbi.nlm.nih.gov/datasets/taxonomy/599/)) where the taxonomy is not resolved at the species rank (e.g., genus-level assignment like "Escherichia spp.");
-  - The proteomes cannot be excluded[https://www.uniprot.org/help/proteome_exclusion_reasons];
-  - Novel proteomes from metagenome assemblies are not currently considered for promotion to a reference proteome, pending further work to establish a high quality set of assemblies;
-  - Novel proteomes from surveillance projects are not considered for promotion to a reference proteome;
-  - Novel proteomes from organisms with the status ‘Candidatus’ are not currently considered for promotion to a reference proteome.
+1. Identification of candidate proteomes to become reference proteomes. <br><br>For cellular organisms, proteomes must meet stringent criteria to be considered by the workflow as candidates to become reference proteomes:
+    - The proteome must belong to a defined species (a proteome must have a species name with complete binomial nomenclature including both genus and epithet). Example: A defined species is Salmonella enterica (taxonomy ID: [28901](https://www.ncbi.nlm.nih.gov/datasets/taxonomy/28901/)), as opposed to an undefined species such as Salmonella sp. (taxonomy ID: [599](https://www.ncbi.nlm.nih.gov/datasets/taxonomy/599/)) where the taxonomy is not resolved at the species rank (e.g., genus-level assignment like "Escherichia spp.");
+    - The proteomes cannot be excluded[https://www.uniprot.org/help/proteome_exclusion_reasons];
+    - Novel proteomes from metagenome assemblies are not currently considered for promotion to a reference proteome, pending further work to establish a high quality set of assemblies;
+    - Novel proteomes from surveillance projects are not considered for promotion to a reference proteome;
+    - Novel proteomes from organisms with the status ‘Candidatus’ are not currently considered for promotion to a reference proteome.
+
 2. If the candidate proteome is the only one from that species, it will be automatically promoted as a reference proteome.
 3. If there is more than one proteome per species, the MMseqs2 clustering analysis is used to suggest which proteome to promote as a reference proteome:
-  - Protein clustering: firstly, it clusters similar proteins from different proteomes of the same species. The more proteins a proteome has in different clusters, the more likely it is to be selected as a reference proteome;
-  - Proteome clustering: secondly, it calculates how similar proteomes within the same species are, based on the number of protein clusters shared between any two proteomes. For each proteome cluster, the best representative proteome (in the protein space) will be selected as the reference proteome.
+    - Protein clustering: firstly, it clusters similar proteins from different proteomes of the same species. The more proteins a proteome has in different clusters, the more likely it is to be selected as a reference proteome;
+    - Proteome clustering: secondly, it calculates how similar proteomes within the same species are, based on the number of protein clusters shared between any two proteomes. For each proteome cluster, the best representative proteome (in the protein space) will be selected as the reference proteome.
+
 4. The suggested promotions (in which a non-reference proteome is proposed to become a reference proteome), or demotions (in which a reference proteome is proposed to become a non-reference proteome) are manually reviewed by curators.
 
 The reference proteomes workflow described in this page was introduced in [release](https://www.uniprot.org/help/synchronization) 2025_04.
