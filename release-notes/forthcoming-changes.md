@@ -9,7 +9,6 @@ date: 2099-01-01
    * [Finalizing the reorganization of the protein space in UniProtKB](#finalizing-the-reorganization-of-the-protein-space-in-uniprotkb) - **With release 2026_02**
    * [UniParc XML changes](#uniparc-xml-changes) - **With release 2026_02**
    * [UniParc API changes](#uniparc-api-changes) - **With release 2026_02**
-   * [ChEBI data model change in UniProt SPARQL endpoint](#chebi-data-model-change-in-uniprot-sparql-endpoint) - **From release 2026_02**
    * [Planned automatic annotation service developments](#planned-automatic-annotation-service-developments) - **From release 2026_02**
 
 # Finalizing the reorganization of the protein space in UniProtKB
@@ -66,10 +65,6 @@ User using the website advanced search functionality will be able to carry out t
 
 ```proteomecomponent:'UP000008269:Segment'```
 
-
-# ChEBI data model change in UniProt SPARQL endpoint
-
-The [UniProt SPARQL endpoint](https://sparql.uniprot.org/) includes a snapshot of the ChEBI ontology that is in sync with a specific UniProt release. We will adapt our snapshots to match the data model changes in the core [ChEBI ontology provided by the ChEBI team](https://chembl.blogspot.com/2025/07/chebi-20-data-products.html).
 
 # Planned automatic annotation service developments
 We aim to provide a better automatic annotation service, both in UniParc and as a downloadable tool, through [UniFIRE](https://gitlab.ebi.ac.uk/uniprot-public/unifire).
