@@ -6,28 +6,9 @@ date: 2099-01-01
 
 **Table of contents**
 
-   * [Finalizing the reorganization of the protein space in UniProtKB](#finalizing-the-reorganization-of-the-protein-space-in-uniprotkb) - **With release 2026_02**
    * [UniParc XML changes](#uniparc-xml-changes) - **With release 2026_02**
    * [UniParc API changes](#uniparc-api-changes) - **With release 2026_02**
    * [Planned automatic annotation service developments](#planned-automatic-annotation-service-developments) - **From release 2026_02**
-
-# Finalizing the reorganization of the protein space in UniProtKB
-
-Release 2026_02 will see the completion of our proteomes changes that have been in progress since release 2025_04 (15th Oct 2025). 
-Key changes you will see in the 2026_02 release will include:
-- The protein space in UniProtKB will be restricted to only those sequences which are part of a Reference Proteome. It will also contain additional proteins that are expertly reviewed/Swiss-Prot entries, or unreviewed/TrEMBL entries associated with experimental [Gene Ontology](https://www.uniprot.org/help/gene-ontology) annotations or additional biologically important data, such as proteins with an experimental 3D structure;
-- New pan proteome dataset created for all species with at least 3 proteomes. One representative sequence for each protein cluster, including both reference and non-reference proteomes;
-- Deprecation of proteome redundancy. We now have a new method for selecting reference proteomes that encompasses redundancy;
-- Deprecation of protein redundancy. We will provide unique UniProtKB accessions for each protein sequence;
-- Update of proteomes categories. As a result of proteome redundancy deprecation, the proteome category “redundant proteomes” will be removed. UniProt is now categorizing proteomes as either ‘reference’, ‘non-reference’ or ‘excluded’;
-- Update of proteome exclusion reasons. New exclusion reasons from RefSeq or UniProt have been added to the list of exclusion reasons;
-- Similarity (in percentage) of non-reference proteomes against the reference proteomes for that species will be available.
-
-Since release 2025_04 the number of Reference Proteomes will have increased by 36% (reflecting a 34% increase on species covered), while the number of proteins in UniProtKB will have decreased by 45%.
-
-For more details on our novel workflow and how reference proteomes are changing, check: Inside UniProt: [Capturing the Diversity of Life - Reorganizing the Protein Space in UniProtKB](https://insideuniprot.blogspot.com/2025/06/capturing-diversity-of-life.html)
-
-For a brief summary of the changes to proteomes and subsequent UniProtKB changes please visit our [summary of proteomes](https://www.uniprot.org/help/refprot_only_changes) changes help page.
 
 
 # UniParc XML changes
