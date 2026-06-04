@@ -6,8 +6,8 @@ categories: Proteomes,manual
 
 A [proteome](https://www.uniprot.org/help/proteome) is the set of proteins thought to be expressed by an organism.
 
-## Protein count
-Number of protein sequence entries associated with a proteome.
+## Proteome status
+There are 3 proteome status categories: reference proteome and non-reference proteome,  which are assigned based on the [reference proteome selection workflow](https://www.uniprot.org/help/ref_proteomes_workflow), and [excluded proteomes](https://www.uniprot.org/help/proteome_exclusion_reasons).
 
 ## Number of entries
 Number of [UniProtKB](https://www.uniprot.org/help/uniprotkb) entries for reference proteomes, or [UniParc](https://www.uniprot.org/help/uniparc) entries for non-reference and [excluded proteomes](https://www.uniprot.org/help/proteome_exclusion_reasons).
