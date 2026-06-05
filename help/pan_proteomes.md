@@ -8,13 +8,13 @@ A pan proteome is a set of proteins from multiple [proteomes](https://www.unipro
 
 ## What pan proteomes does UniProt provide?
 
-UniProt provides pan proteomes at the species level to capture unique sequences absent from the [reference proteome](https://www.uniprot.org/help/reference_proteome), in order to reflect the proteome diversity of the species.  A pan proteome is composed of a set of protein sequences, where each sequence represents a protein cluster from the analyzed proteomes of that species. A protein cluster is a group of similar protein sequences based on specified criteria, such as sequence identity and alignment coverage. Each representative sequence in the pan proteome FASTA file is assigned a [Protein Frequency](https://www.uniprot.org/help/pan_proteomes_workflow#faqs) (PF), indicating how commonly the corresponding protein cluster occurs among the analyzed proteomes. 
+UniProt provides pan proteomes at the species level to capture unique sequences absent from the [reference proteome](https://www.uniprot.org/help/reference_proteome), in order to reflect the proteome diversity of the species.  A pan proteome is composed of a set of protein sequences, where each sequence represents a protein cluster from the analyzed proteomes of that species. A protein cluster is a group of similar protein sequences based on specified criteria, such as sequence identity and alignment coverage. Each representative sequence in the pan proteome FASTA file is assigned a [Protein Frequency](https://www.uniprot.org/help/pan_proteomes_workflow#5-what-is-protein-frequency) (PF), indicating how commonly the corresponding protein cluster occurs among the analyzed proteomes. 
 
 A species’ pan proteome captures:
 
 - Core proteins: found in most or all proteomes of that species
 - Accessory proteins: found only in a subset of proteomes
-- [Singleton protein clusters](https://www.uniprot.org/help/pan_proteomes_workflow#faqs) from reference proteomes only
+- [Singleton protein clusters](https://www.uniprot.org/help/pan_proteomes_workflow#2-what-is-a-singleton-protein-cluster) from reference proteomes only
 
 ## How are species pan proteomes generated?
 
