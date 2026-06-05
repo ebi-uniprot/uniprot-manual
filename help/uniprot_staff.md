@@ -7,7 +7,7 @@ categories: Staff,help
 # Principal investigators
 
 [Alex Bateman](https://www.uniprot.org/help/bateman)  
-[Alan J. Bridge](https://www.uniprot.org/help/bridge)  
+[Paul D. Thomas](https://www.uniprot.org/help/thomas)  
 [Cathy H. Wu](https://bioinformatics.udel.edu/people/cathy-wu-phd/)  
 
 # Key staff
