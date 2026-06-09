@@ -23,8 +23,8 @@ Email: <span>dpo</span><span>&nbsp;*[at]*&nbsp;</span><span>embl.org</span>
 EMBL Heidelberg, Meyerhofstraße 1, 69117 Heidelberg, Germany.
 
 The SIB data controller's contact details are:  
-Alan Bridge, Director SIB Swiss-Prot Group  
-Email: <span>Alan.Bridge</span><span>&nbsp;*[at]*&nbsp;</span><span>sib.swiss</span>  
+Paul D. Thomas, Co-Director SIB Swiss-Prot Group  
+Email: <span>Paul.Thomas</span><span>&nbsp;*[at]*&nbsp;</span><span>sib.swiss</span>  
 SIB Swiss Institute of Bioinformatics, CMU, 1 rue Michel Servet, 1211 Geneva, Switzerland.
 
 The SIB Data Protection Officer's contact details are:  
