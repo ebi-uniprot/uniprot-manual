@@ -6,7 +6,7 @@ categories: UniProtKB,Automatic_annotation,help
 
 UniProt’s [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic_annotation) enhances [unreviewed](https://www.uniprot.org/help/uniprotkb_sections)/TrEMBL [UniProtKB](https://www.uniprot.org/uniprotkb) entries with automatic classification and annotation.
 
-UniProt leverages machine learning artificial intelligence (AI) using a Protein Natural Language Model (ProtNLM) developed by collaborators at [Google DeepMind](https://deepmind.google/science/). ProtNLM was originally used to predict [protein names](https://www.uniprot.org/help/protein_names) but has now been expanded with ProtNLM2 to include predictions for [function](https://www.uniprot.org/help/function) comments, [subcellular locations](https://www.uniprot.org/help/subcellular_location), [keywords](https://www.uniprot.org/help/keywords), and [Gene Ontology](https://www.uniprot.org/help/gene_ontology) (GO) terms.
+UniProt leverages machine learning / artificial intelligence (AI) using a Protein Natural Language Model (ProtNLM) developed by collaborators at [Google DeepMind](https://deepmind.google/science/). ProtNLM was originally used to predict [protein names](https://www.uniprot.org/help/protein_names) but has now been expanded with ProtNLM2 to include predictions for [function](https://www.uniprot.org/help/function) comments, [subcellular locations](https://www.uniprot.org/help/subcellular_location), [keywords](https://www.uniprot.org/help/keywords), and [Gene Ontology](https://www.uniprot.org/help/gene_ontology) (GO) terms.
 
 # ProtNLM methodology
 
