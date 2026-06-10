@@ -4,7 +4,7 @@ type: help
 categories: UniProtKB,UniParc,UniRef,Download,faq
 ---
 
-You can download the data underlying our [database identifier service mapping service](https://www.uniprot.org/id-mapping) from [https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/)
+You can download the data underlying our [database identifier service mapping service](https://www.uniprot.org/id-mapping) from [https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/idmapping/](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/idmapping/)
 
 Additional information on the database mapping service (accessible via [Retrieve/ID mapping](https://www.uniprot.org/id-mapping)):
 

@@ -22,7 +22,7 @@ UniProtKB entries from these reference proteomes are tagged with the keyword '[R
 
 # Reference proteome download
 
-Our [FTP server](https://www.uniprot.org/downloads) allows the download of precomputed [data sets for reference proteomes](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/README), based on a [gene-centric perspective](https://www.uniprot.org/help/gene_centric_isoform_mapping).
+Our [FTP server](https://www.uniprot.org/downloads) allows the download of precomputed [data sets for reference proteomes](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/README), based on a [gene-centric perspective](https://www.uniprot.org/help/gene_centric_isoform_mapping).
 
 # See also
 

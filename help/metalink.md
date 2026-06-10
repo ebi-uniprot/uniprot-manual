@@ -6,8 +6,8 @@ categories: Download,Technical,faq
 
 # FTP downloads
 
-Every folder on our [FTP server](https://ftp.uniprot.org/) contains a file called RELEASE.metalink that specifies the size and MD5 checksum of every file in that folder, e.g.  
-<https://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/complete/RELEASE.metalink>
+Every folder on our [FTP server](https://ftp.ebi.ac.uk/) contains a file called RELEASE.metalink that specifies the size and MD5 checksum of every file in that folder, e.g.  
+<https://ftp.ebi.ac.uk/pub/databases/uniprot/knowledgebase/complete/RELEASE.metalink>
 
 [Metalink](https://en.wikipedia.org/wiki/Metalink) is an extensible metadata file format that describes one or more computer files available for download. It facilitates file verification and recovery from data corruption and lists alternate download sources (mirror URIs).
 
@@ -15,13 +15,13 @@ Various command line download tools, e.g. [cURL](https://curl.haxx.se/) version
 
 Example: The following command will download all files in the `current_release/` folder and verify their MD5 checksums:
 
-    curl --metalink https://ftp.uniprot.org/pub/databases/uniprot/current_release/RELEASE.metalink
+    curl --metalink https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/RELEASE.metalink
 
 They will be downloaded from one of the alternative locations mentioned in the metalink file. If one FTP server goes down during a download, programs can automatically switch to another mirror location. Some programs can also download segments from several FTP locations at the same time, which can make downloads much faster.
 
 Please note that UniProt can be downloaded from the consortium member FTP sites at three different geographical locations:
 
-USA: <https://ftp.uniprot.org/pub/databases/uniprot>  
+USA: <https://ftp.ebi.ac.uk/pub/databases/uniprot>  
 UK: <https://ftp.ebi.ac.uk/pub/databases/uniprot>  
 Switzerland: <https://ftp.expasy.org/databases/uniprot>
 

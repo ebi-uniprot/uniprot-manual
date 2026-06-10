@@ -19,7 +19,7 @@ Cell images from the [SwissBioPics](https://www.swissbiopics.org/) library of in
 
 # Related documents
 
-[Controlled vocabulary of subcellular locations and membrane topologies and orientations (subcell.txt)](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/subcell.txt)
+[Controlled vocabulary of subcellular locations and membrane topologies and orientations (subcell.txt)](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/subcell.txt)
 
 [Supporting data set: Locations](https://www.uniprot.org/locations)
 

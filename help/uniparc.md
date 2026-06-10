@@ -25,7 +25,7 @@ A database cross-reference links a protein sequence to its origin database. It c
 # Download
 
 UniProt can be downloaded from 
-- [ftp.uniprot.org (USA)](https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/)
+- [ftp.ebi.ac.uk (USA)](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/uniparc/)
 - [ftp.ebi.ac.uk (UK)](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/uniparc/)
 - [ftp.expasy.org (Switzerland)](https://ftp.expasy.org/databases/uniprot/current_release/uniparc/)
  

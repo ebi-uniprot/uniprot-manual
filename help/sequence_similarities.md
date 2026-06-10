@@ -18,6 +18,6 @@ Example: [P40939](https://www.uniprot.org/uniprotkb/P40939#family_and_domains), 
 
 # Related documents
 
-[Index of protein families](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/similar)  
+[Index of protein families](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/similar)  
 [How is orthology established in UniProtKB/Swiss-Prot?](https://www.uniprot.org/help/orthology)  
 [How is protein family membership assigned in UniProtKB?](https://www.uniprot.org/help/family_membership)
