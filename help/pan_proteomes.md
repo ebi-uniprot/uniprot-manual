@@ -28,7 +28,7 @@ The UniProt pan proteome dataset consists of:
 ## Where can I find this data in UniProt?
 ### Access via the website
 
-Access to all UniProt data is provided through the UniProt [FTP](https://ftp.ebi.ac.uk/pub/databases/uniprot/). If a proteome is part of a pan proteome, this is indicated on the proteome page in the 'Pan proteome' section (see Figure 1). You will also see a link to download the pan proteome in FASTA format, e.g. [*Escherichia coli* strain K12](https://www.uniprot.org/proteomes/UP000000625).
+Access to all UniProt data is provided through the UniProt [FTP](https://ftp.ebi.ac.uk/pub/databases/uniprot/). If a proteome is part of a pan proteome, this is indicated on the proteome page in the 'Pan proteome' section (see Figure 1). You will also see a link to the corresponding species FTP directory, e.g. [*Escherichia coli* strain K12](https://www.uniprot.org/proteomes/UP000000625).
 
 <figure style="width:80%">
   <img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/Pan_proteome_summary_example.png" alt="Proteome status" />
