@@ -27,7 +27,7 @@ Proteins from all eligible proteomes are clustered with MMseqs2 using parameters
 - Coverage. This sets the coverage of the alignment between two sequences for them to be considered a match. At least 50% of the sequence lengths must be covered by the alignment
 - Bidirectional alignment coverage. The alignment coverage requirement is applied to both the query and target sequences
 
-Full parameter details can be found in [README_pp_mmseqs](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_mmseqs).
+Full parameter details can be found in [README_pp_mmseqs](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_mmseqs).
 
 ## 3. Filtering for singleton protein clusters
 
@@ -59,16 +59,16 @@ If entries from multiple reference proteomes are present in the same protein clu
 
 ## 6. Release and versioning
 
-The species pan proteome selection workflow is run as part of the production pipeline during each UniProt release cycle. Updates are released with each [UniProt release](https://www.uniprot.org/help/synchronization); the corresponding release identifier is recorded in the stats files ((pp<taxid>_stats.json), and any methodology or format changes are tracked in [CHANGELOG](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/CHANGELOG).
+The species pan proteome selection workflow is run as part of the production pipeline during each UniProt release cycle. Updates are released with each [UniProt release](https://www.uniprot.org/help/synchronization); the corresponding release identifier is recorded in the stats files ((pp<taxid>_stats.json), and any methodology or format changes are tracked in [CHANGELOG](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/CHANGELOG).
 
 For detailed technical information, please refer to the Pan Proteomes documentation files:
 
-- UniProt pan proteomes [README](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README)
-- Pan Proteomes MMseqs2 parameters [README_pp_mmseqs](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_mmseqs)
-- Pan proteome FASTA file format [README_pp_fasta](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_fasta)
-- Pan proteome matrix file format [README_pp_matrix](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_matrix)
-- Pan proteome statistics file format  [README_pp_stats](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_stats)
-- Citations [CITATION](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/CITATION)
+- UniProt pan proteomes [README](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README)
+- Pan Proteomes MMseqs2 parameters [README_pp_mmseqs](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_mmseqs)
+- Pan proteome FASTA file format [README_pp_fasta](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_fasta)
+- Pan proteome matrix file format [README_pp_matrix](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_matrix)
+- Pan proteome statistics file format  [README_pp_stats](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_stats)
+- Citations [CITATION](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/CITATION)
 
 # FAQs
 
@@ -94,7 +94,7 @@ Protein frequency (PF) is the percentage of clustered proteomes for a species th
 
 ## 6. What are “core” and “accessory” proteins?  
 
-Proteins present in almost all proteomes analyzed are termed ‘core proteins’, and they have high PF values (conventionally defined as >90%). Proteins present in a subset of the proteomes analyzed (conventionally defined between 10-90%) are termed ‘accessory proteins’ and have lower PF values. We do not give strict definitions of core and accessory protein clusters. The PF value is provided so users can filter according to their use case. We also provide a script [`filter_pp_fasta.py`](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/filter_pp_fasta.py)that can filter a pan proteome FASTA file by the user-specified PF.
+Proteins present in almost all proteomes analyzed are termed ‘core proteins’, and they have high PF values (conventionally defined as >90%). Proteins present in a subset of the proteomes analyzed (conventionally defined between 10-90%) are termed ‘accessory proteins’ and have lower PF values. We do not give strict definitions of core and accessory protein clusters. The PF value is provided so users can filter according to their use case. We also provide a script [`filter_pp_fasta.py`](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/filter_pp_fasta.py)that can filter a pan proteome FASTA file by the user-specified PF.
 
 ## 7. How is the representative sequence chosen for each protein cluster?  
 
@@ -140,11 +140,11 @@ To retrieve the data:
 
 ## 10. Where are MMseqs2 clustering parameters documented?
 
-MMseq2 clustering parameters can be found in the [README_pp_mmseqs](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_mmseqs), This document includes the MMseqs2 parameter set, and the MMseqs2 version used.
+MMseq2 clustering parameters can be found in the [README_pp_mmseqs](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_mmseqs), This document includes the MMseqs2 parameter set, and the MMseqs2 version used.
 
 ## 11. Where should users go for full technical details of the pan proteomes selection workflow?
 
-Users can access the full technical details of the pan proteome selection workflow in the Pan Proteomes [README and README_pp_* files](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/) and the [associated publication](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/CITATION) (in preparation).
+Users can access the full technical details of the pan proteome selection workflow in the Pan Proteomes [README and README_pp_* files](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/) and the [associated publication](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/CITATION) (in preparation).
 
 ## 12. What should users consider when interpreting pan proteome results?
 

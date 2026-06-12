@@ -28,7 +28,7 @@ The UniProt pan proteome dataset consists of:
 ## Where can I find this data in UniProt?
 ### Access via the website
 
-Access to all UniProt data is provided through the UniProt [FTP](https://ftp.ebi.ac.uk/pub/databases/uniprot/). If a proteome is part of a pan proteome, this is indicated on the proteome page in the 'Pan proteome' section (see Figure 1). You will also see a link to the corresponding species FTP directory, e.g. [*Escherichia coli* strain K12](https://www.uniprot.org/proteomes/UP000000625).
+Access to all UniProt data is provided through the UniProt [FTP](https://ftp.uniprot.org/pub/databases/uniprot/). If a proteome is part of a pan proteome, this is indicated on the proteome page in the 'Pan proteome' section (see Figure 1). You will also see a link to the corresponding species FTP directory, e.g. [*Escherichia coli* strain K12](https://www.uniprot.org/proteomes/UP000000625).
 
 <figure style="width:80%">
   <img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/Pan_proteome_summary_example.png" alt="Proteome status" />
@@ -43,7 +43,7 @@ Interactive web browsing for all pan proteomes in UniProt is planned for future 
 ### Access via FTP download
 
 #### 1. Accessing pan proteomes for all species 
-The complete set of pan proteomes can be accessed via our [FTP](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/) site.
+The complete set of pan proteomes can be accessed via our [FTP](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/) site.
 
 This location contains all available pan proteomes, organized as: `pp<species_taxid>/`  
 It also includes supporting documentation files (for example, README, README_pp_fasta, README_pp_matrix, and README_pp_stats) which describe file formats and generation methods.
@@ -54,7 +54,7 @@ Example: This proteome is part of the *Escherichia coli* pan proteome.
 ![Summary information of a pan proteome](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/Species_specific_proteome_example.png)
 
 #### 2. Accessing a species-specific pan proteome 
-You can also navigate directly to a species-specific pan proteome folder on the FTP using the corresponding `pp<species_taxid>/` directory which hosts all pan proteome related files for that species. For example, *Escherichia coli* species taxID 562) is directed to `pp562/` on the [FTP](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/pp562) 
+You can also navigate directly to a species-specific pan proteome folder on the FTP using the corresponding `pp<species_taxid>/` directory which hosts all pan proteome related files for that species. For example, *Escherichia coli* species taxID 562) is directed to `pp562/` on the [FTP](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/pp562) 
 showing files:
 
 - pp562.fasta.gz (representative sequences in a FASTA file)
@@ -70,7 +70,7 @@ showing files:
 
 Contains one representative protein sequence per protein cluster, with identifiers (example: ENA AAC76437) and annotation fields (e.g., cluster metadata, source identifiers, frequency information).
 
-Please see the Pan Proteome [FASTA header](https://www.uniprot.org/help/fasta-headers) help page or [README_pp_fasta](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_fasta) for more information.
+Please see the Pan Proteome [FASTA header](https://www.uniprot.org/help/fasta-headers) help page or [README_pp_fasta](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_fasta) for more information.
 
 #### Pan Proteome Matrix
 
@@ -80,7 +80,7 @@ A tab-separated file describing protein cluster distribution across species pan 
 - Columns represent [proteome identifier](https://www.uniprot.org/help/proteome_id) (UPID identifiers)
 - Values indicate the number of proteins contributed by each proteome to the cluster
 
-Please see the [README_pp_matrix](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_matrix) for more information.
+Please see the [README_pp_matrix](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_matrix) for more information.
 
 #### Pan Proteome Statistics
 
@@ -88,7 +88,7 @@ Please see the [README_pp_matrix](https://ftp.ebi.ac.uk/pub/databases/uniprot/cu
 
 Summary statistics for the species pan proteome, including clustered proteome counts, pan proteome size, frequency distributions, and other information.
 
-Please see the [README_pp_stats](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_stats) for more information.
+Please see the [README_pp_stats](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/pan_proteomes/README_pp_stats) for more information.
 
 
 # See also

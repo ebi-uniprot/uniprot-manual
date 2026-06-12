@@ -28,9 +28,9 @@ The value **'Protein uncertain'** indicates that the existence of the protein is
 
 Only the highest or most reliable level of supporting evidence for the existence of a protein is displayed for each entry. For example, if the existence of a protein is supported by both the presence of ESTs and direct protein sequencing, the protein is assigned the value 'Experimental evidence at protein level'.
 
-The 'protein existence' value is assigned automatically, based on the annotation elements present in the entry. The criteria used by this automatic procedure are listed in the document ['Criteria used to assign the PE level of entries'](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pe_criteria.txt).
+The 'protein existence' value is assigned automatically, based on the annotation elements present in the entry. The criteria used by this automatic procedure are listed in the document ['Criteria used to assign the PE level of entries'](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pe_criteria.txt).
 
 # Related documents
 
-[Criteria description for protein existence](https://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pe_criteria.txt)  
+[Criteria description for protein existence](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/pe_criteria.txt)  
 [Why do we keep dubious sequences in UniProtKB? How to discard them from a protein set?](https://www.uniprot.org/help/dubious_sequences)
