@@ -1,3 +1,9 @@
+---
+title: Forthcoming changes
+type: releaseNotes
+date: 2026-09-02
+---
+
 **Table of contents**
 
 * [UniParc and UniProtKB RDF changes: regarding IRIs of InterPro matching regions](#uniparc-and-uniprotkb-rdf-changes:-regarding-iris-of-interpro-matching-regions)  * - **With release 2026_03**
