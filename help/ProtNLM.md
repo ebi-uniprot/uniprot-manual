@@ -10,7 +10,7 @@ UniProt leverages machine learning / artificial intelligence (AI) using a Protei
 
 # ProtNLM methodology
 
-ProtNLM is a [transformer-based sequence-to-sequence AI model](https://storage.googleapis.com/brain-genomics-public/research/proteins/protnlm/uniprot_2022_04/protnlm_preprint_draft.pdf) trained on a snapshot of UniProtKB data to generate annotations for unreviewed/TrEMBL UniProtKB entries. It uses an approach similar to AI natural language models that generate titles or captions for images. Predictions were originally generated using amino acid sequence as input, while later models have added [organism TaxID](https://www.uniprot.org/help/taxonomic_identifier) and secondary structure predictions from [AlphaFoldDB](https://alphafold.ebi.ac.uk/) to the inputs.
+ProtNLM is trained on a snapshot of UniProtKB data to generate annotations for unreviewed UniProtKB entries (UniProtKB/TrEMBL). The model uses the amino acid sequence as input and processes it through a [transformer-based sequence-to-sequence AI model](https://storage.googleapis.com/brain-genomics-public/research/proteins/protnlm/uniprot_2022_04/protnlm_preprint_draft.pdf) for whole-protein functional annotation in an approach similar to AI natural language models that generate titles or captions for images. Each prediction is assessed by an independent bioinformatics pipeline that provides corroborating evidence found in entries with sequence and/or structural similarity
 
 # Timeline of ProtNLM generated data in UniProt
 
@@ -22,13 +22,16 @@ ProtNLM has continued to develop over time. Early iterations of ProtNLM data use
 - Release 2022_05 - Predictions updated using an ensemble of 3 models that take only the amino acid sequence as input, and 3 models that take both the amino acid sequence and the organism TaxID as input.
 - Release 2023_01 - Model score threshold introduced and improved post-processing to enhance prediction accuracy.
 - Release 2023_02 - A new ensemble of 7 models was trained on the original data, including 1 model that uses AlphaFoldDB secondary structure predictions as input.
-
-![ProtNLM: Ensemble of seven models](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/ProtNLM_model_ensemble.png)
+- Ongoing evaluation of ProtNLM prediction has suggested there is no significant gain from AlphaFold-predicted secondary structure in the input over just using amino acid sequence and this ensemble element has been deprecated since the 2023_02 release.
+- Google DeepMind continues to develop and refine ProtNLM. The model(s) used and their architecture is likely to change in future releases. This includes reverting to a single model using only amino acid sequence as input for ProtNLM2 described below.
 
 # ProtNLM2: expanding annotation beyond protein names
 
-A second iteration of ProtNLM (ProtNLM2) expands annotation predictions to include protein names, protein function comments, subcellular locations, keywords and Gene Ontology terms. ProtNLM2 is trained on 240 million proteins from UniProt release 2023_04, including both [curator reviewed](https://www.uniprot.org/help/manual_curation)/Swiss-Prot entries and unreviewed/TrEMBL entries with submitter provided names (SubNames) and annotated by the UniProt [Automatic Annotation](https://www.uniprot.org/help/automatic_annotation) pipeline. 
-An initial ProtNLM2 pilot release, providing annotations for roughly [26,000 TrEMBL entries](https://ftp.ebi.ac.uk/pub/contrib/UniProt/ProtNLM2/List_of_UniProt_accessions_that_have_ProtNLM2_annotations.tsv) from the species most commonly searched for on the UniProtKB website, has been made public in conjunction with the UniProt 2026_02 release.
+A second iteration of ProtNLM (ProtNLM2) expands annotation predictions to include [protein names](https://www.uniprot.org/help/protein_names), [protein function](https://www.uniprot.org/help/function) comments,[subcellular locations](https://www.uniprot.org/help/subcellular_location), [keywords](https://www.uniprot.org/help/keywords) and [Gene Ontology](https://www.uniprot.org/help/gene_ontology) terms. These predictions are supported by corroborating evidence provided by an automatic bioinformatics pipeline developed by Google DeepMind and described in more detail below. An initial ProtNLM2 pilot release, providing annotations for roughly [26,000 TrEMBL entries](https://ftp.ebi.ac.uk/pub/contrib/UniProt/ProtNLM2/List_of_UniProt_accessions_that_have_ProtNLM2_annotations.tsv) from the species most commonly searched for on the UniProtKB website, has been made public in conjunction with the UniProt 2026\_02 release.
+
+ProtNLM2 predictions are made by a new single model trained on 240 million protein entries from UniProt release 2023\_04, including both [curator reviewed](https://www.uniprot.org/help/manual_curation)/Swiss-Prot entries and unreviewed/TrEMBL entries. This means ProtNLM is trained on annotations from the UniProt [Automatic Annotation](https://www.uniprot.org/help/automatic_annotation) pipeline and with submitter provided names (SubNames) present in these TrEMBL entries.
+
+![ProtNLM Annotation Pipeline](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/Protnlm_annotation_pipeline.png)
 
 # ProtNLM2 prediction quality assessment
 
