@@ -6,7 +6,7 @@ date: 2099-01-01
 
 **Table of contents**
 
-   * [Simplification of UniParc XML root tag] - **From November 4, 2026**
+   * [Simplification of UniParc XML root tag](#simplification-of-uniparc-xml-root-tag) - **From November 4, 2026**
    
 # Simplification of UniParc XML root tag
 
