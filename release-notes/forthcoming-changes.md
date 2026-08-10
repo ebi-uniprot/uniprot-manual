@@ -4,20 +4,19 @@ type: releaseNotes
 date: 2099-01-01
 ---
 
-# Simplification of UniParc XML Root Tag (Effective Release 2026_04)
+**Table of contents**
 
-We are simplifying the root tag of UniParc XML output by removing the `xmlns:xsi`, `xsi:schemaLocation` and `checkpoint` attributes.
+   * [Simplification of UniParc XML root tag] - **From November 4, 2026**
+   
+# Simplification of UniParc XML root tag
 
-Before:
-```xml
-<uniparc xmlns="http://uniprot.org/uniparc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ftp.uniprot.org/pub/databases/uniprot/current_release/uniparc/uniparc.xsd" checkpoint="23739">
-```
+We are going to simplify the root tag of the UniParc XML format by removing all attributes except the namespace:
 
-After:
 ```xml
 <uniparc xmlns="http://uniprot.org/uniparc">
 ```
 
-**Why:** Newer XML parsers are adopting a stricter "strip mode" that rejects namespaced attribute names like `xmlns:xsi` inside the root tag, throwing `Illegal name character ':'`. These parsers treat the attribute as a plain tag name rather than a namespace declaration, so the colon breaks parsing. Removing the unused namespace declaration and schema location avoids this incompatibility.
+**Why:** Modern high-performance data processing frameworks (such as Apache Spark 4 and Databricks) utilize strict streaming XML APIs (like StAX / XMLStreamWriter). Characters like ``xmlns:xsi`` fail token validation, causing these engines to crash. Simplifying the root tag to the namespace element eliminates these character validation failures and ensures seamless integration with modern, large-scale streaming data pipelines.
 
-**Impact:** Any code that parses the root tag and expects `xsi:schemaLocation` or `checkpoint` to be present should be updated to not rely on them.
+
+**Impact:** Any code that parses the root tag and expects attributes other than the namespace must be updated to not rely on them.
