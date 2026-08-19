@@ -97,10 +97,10 @@ Example: [P05067](https://www.uniprot.org/uniprotkb/P05067/entry#structure)
 
 Pathogenicity scores are calculated per amino acid substitution in a heatmap visualization in the ‘AlphaMissense Pathogenicity’ track of the feature viewer. The higher the score (red), the more likely the variant is predicted to be pathogenic. These scores are then used to calculate an average likely pathogenicity score for each amino acid position within the protein sequence. This can be found in the ‘Average pathogenicity score’ track.
 
-Example: [Q12834](https://https://www.uniprot.org/uniprotkb/Q12834/feature-viewer)
+Example: [Q12834](https://www.uniprot.org/uniprotkb/Q12834/feature-viewer)
 
 ## See also
 
-[Why are there multiple cross-references to PDB in a UniProtKB entry?](https://uniprot.org/help/multiple_pdb_xrefs)  
-[How can I retrieve UniProtKB entries that have a PDB 3D structure cross-reference?](https://uniprot.org/help/retrieve_3d)  
-[Why do some structures only show a portion of the protein sequence?](https://uniprot.org/help/structure_subseq)
+[Why are there multiple cross-references to PDB in a UniProtKB entry?](https://www.uniprot.org/help/multiple_pdb_xrefs)  
+[How can I retrieve UniProtKB entries that have a PDB 3D structure cross-reference?](https://www.uniprot.org/help/retrieve_3d)  
+[Why do some structures only show a portion of the protein sequence?](https://www.uniprot.org/help/structure_subseq)
