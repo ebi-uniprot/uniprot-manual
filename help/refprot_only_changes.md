@@ -1,45 +1,14 @@
 ---
-title: A quick summary of proteomes changes
+title: A brief summary of proteomes changes
 type: help
 categories: Proteomes,Taxonomy,UniProtKB
 ---
 
-As of release 2026_02 (May 2026) a comprehensive package of changes to our [reference proteome workflow](https://www.uniprot.org/help/ref_proteomes_workflow) will be complete. The changes will affect how [reference proteomes](https://www.uniprot.org/help/reference_proteome) are selected and also what protein entries are included in [UniProtKB](https://www.uniprot.org/help/uniprotkb).
+Between releases 2025_04 and 2026_02 UniProtKB and Proteomes underwent a major, phased package of changes due to the implementation of a new [reference protome workflow](https://www.uniprot.org/help/ref_proteomes_workflow). These changes affected how [reference proteomes](https://www.uniprot.org/help/reference_proteome) are selected and also what protein entries are included in [UniProtKB](https://www.uniprot.org/help/uniprotkb).
 
 A comprehensive list of affected protein entries and proteomes is available [here](https://ftp.ebi.ac.uk/pub/contrib/UniProt/proteomes/).
 
-See below a summary of the changes implemented at each release since 2025_04 and how this might affect user workflows.
-
-# Our current release
-## Release 2026_02
-10th June 2026
-
-Changes that we are making in this release:
-
-- Removal of all remaining non-reference proteome protein entries (except reviewed (Swiss-Prot) or biologically highly relevant protein entries) from UniProtKB.
-
-Changes in numbers:
-
-- Removal of approximately 57 million protein entries, which will result in an estimated total of 150 million protein entries in UniProtKB.
-
-How this might affect you:
-
-- Protein entries that do not belong to a Reference Proteome or that are not considered to be of high biological relevance can still be found in [UniParc](https://www.uniprot.org/uniparc), where users can find some information such as the protein sequence, gene and protein names, InterPro signatures, etc.
-
-
-# Past releases
-## Release 2026_01
-28th January 2026
-
-Changes that we are making in this release:
-- No major changes \- this is to provide time for users to adapt their work to correspond to future changes coming in release 2026_02.
-
-Changes in numbers:
-- Very few changes will be made to UniProtKB and Proteomes outside of the scope of our usual [release cycle](https://www.uniprot.org/help/synchronization).
-
-How this might affect you:
-- There will only be minimal changes in UniProtKB and Proteomes that will be unlikely to affect users.
-
+See below a summary of the changes implemented at each release since 2025_04 and how this might have affected user workflows.
 
 ## Release 2025_04 
 15th October 2025
@@ -55,11 +24,42 @@ Changes in numbers:
 - Addition of 31 million protein entries to UniProtKB, most of which are from new reference proteomes.  
 - Resulting in a total decrease in the protein entries found in UniProtKB from 253 million to 199 million.
 
-How this might affect you:
+How this might affect users:
 
 - Taxonomically unclassified proteins that were previously found in UniProtKB can still be accessed in UniParc. In UniParc users can find information such as the protein sequence, gene and protein names, and InterPro signatures etc. UniParc can be searched by protein accession number or proteome identifier, either through the website or programmatically via our [APIs](https://www.uniprot.org/help/programmatic_access), to locate your protein(s) of interest.  
 - Addition of novel protein entries to UniProtKB from new reference proteomes.  
 - In the weeks leading up to December 2025, users had the opportunity to provide feedback on the changes and express possible concerns about specific entries that are due to be removed from UniProtKB in 2026_02.
+
+## Release 2026_01
+28th January 2026
+
+Changes that were made in this release:
+
+- No major changes \- this was to provide time for users to adapt their work to correspond to future changes coming in release 2026_02.
+
+Changes in numbers:
+
+- Very few changes were made to UniProtKB and Proteomes outside of the scope of our usual [release cycle](https://www.uniprot.org/help/synchronization).
+
+How this might affect users:
+
+- There were minimal changes in UniProtKB and Proteomes that will be unlikely to affect users.
+
+## Release 2026_02
+10th June 2026
+
+Changes that were made in this release:
+
+- Removal of all remaining non-reference proteome protein entries (except reviewed (Swiss-Prot) or biologically highly relevant protein entries) from UniProtKB.
+
+Changes in numbers:
+
+- Removal of approximately 57 million protein entries, resulting in 150 million protein entries in UniProtKB.
+
+How this might affect users:
+
+- Protein entries that do not belong to a Reference Proteome or that are not considered to be of high biological relevance can still be found in [UniParc](https://www.uniprot.org/uniparc), where users can find some information such as the protein sequence, gene and protein names, InterPro signatures, etc.
+
 
 \* Taxonomically unclassified entries refer to UniProtKB proteins where the associated species is unspecific, i.e., taxa that do not have a binomial species name (consisting of the genus name and species epithet). For example, both the taxa [Escherichia sp.](https://www.uniprot.org/taxonomy/1884818) (and [its proteomes](https://www.uniprot.org/proteomes?query=%28organism\_id%3A1884818%29)) and [Athelia sp. TMB](https://www.uniprot.org/taxonomy/2748771) (and [its proteome](https://www.uniprot.org/proteomes?query=%28organism\_id%3A2748771%29)) are taxonomically unclassified, whereas the species [Arabis nemorensis](https://www.uniprot.org/taxonomy/586526) is classified.
 
