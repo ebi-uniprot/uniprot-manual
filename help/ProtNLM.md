@@ -96,7 +96,7 @@ ProtNLM uses the amino acid sequence as input and processes it through a [transf
 
 The current ProtNLM2 model generates predictions using a single model trained entirely on amino acid sequences. It was trained on 240 million protein entries from UniProt release 2023\_04, using both curator-reviewed/Swiss-Prot entries and unreviewed/TrEMBL entries, including those annotated by the UniProt [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic_annotation).
 
-The original iteration of ProtNLM, trained on protein name data from UniProt release 2021\_02 (including all recommended names (RecNames), alternative names (AltNames) and submitted names (SubNames)), has provided predicted protein names for proteins with the name “Uncharacterized protein”. From UniProt release 2022\_04 onwards, these predicted protein names have been included in unreviewed/TrEMBL entry pages with the “Automatic Annotation ([ECO:0008006](https://www.ebi.ac.uk/QuickGO/term/ECO:0008006) ) Google:ProtNLM” evidence tag.
+The original iteration of ProtNLM, trained on protein name data from UniProt release 2021\_02 (including all recommended names (RecNames), alternative names (AltNames) and submitted names (SubNames)), has provided predicted protein names for proteins with the name “Uncharacterized protein”. From UniProt release 2022\_04 onwards, these predicted protein names have been included in unreviewed/TrEMBL entry pages with the “Automatic Annotation ([ECO:0008006](https://www.ebi.ac.uk/QuickGO/term/ECO:0008006)) Google:ProtNLM” evidence tag.
 
 ProtNLM has undergone continuous evaluation and refinement since its introduction:
 
