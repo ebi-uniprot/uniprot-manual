@@ -1,4 +1,8 @@
-# Similar Proteins in Genomic Context from SeqHub
+---
+title: Similar Proteins in Genomic Context from SeqHub
+type: help
+categories: UniProtKB,Genomic_context,help
+---
 
 Prokaryotic protein entries in UniProt include a genomic context panel, powered by SeqHub. The panel (in the Sequence section of UniProt) shows similar proteins to the current entry, each displayed in its genomic context: neighboring genes from its source genome.
 
