@@ -11,11 +11,11 @@ A protein's genomic neighborhood can reveal functional and evolutionary relation
 
 ## What you're looking at
 
-The panel is made up of up to four rows, each representing a retrieved contig containing functionally similar proteins (see Technical Details section) to what you searched in UniProt. Here's how to read it (using [Chaperonin GroEL](https://www.uniprot.org/uniprotkb/P0A6F5/entry) example):
-
-![Pinned genes](../images/Seqhub-iframe_pinned.png)
+The panel is made up of up to four rows, each representing a retrieved contig containing functionally similar proteins (see Technical Details section) to what you searched in UniProt. Here's how to read it (using [Chaperonin GroEL](https://www.uniprot.org/uniprotkb/P0A6F5/entry) example)
 
 **1\. The pinned genes** The pinned genes (shown with a pin on the left side, centered within the row) correspond to the proteins SeqHub identified as the most functionally similar to the protein you searched in UniProt. The rows shown are the top 4 matches, out of up to 100 retrieved, ranked by functional similarity, with the closest match appearing at the top.
+
+![Pinned genes](../images/Seqhub-iframe_pinned.png)
 
 **2\. Surrounding genes** The genes on either side of the pinned gene make up its genomic neighborhood, the genes physically located next to it in its source genome. Genes shown in color (vs. gray) are ones that commonly co-occur alongside the pinned match across genomes and taxa.
 
