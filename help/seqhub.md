@@ -11,19 +11,7 @@ A protein's genomic neighborhood can reveal functional and evolutionary relation
 
 ## What you're looking at
 
-The panel is made up of up to four rows, each representing a retrieved contig containing functionally similar proteins (see Technical Details section) to what you searched in UniProt. Here's how to read it using [Chaperonin GroEL (P0A6F5)](https://www.uniprot.org/uniprotkb/P0A6F5/entry) as an example: 
-
-![SeqHub overview](https://github.com/ebi-uniprot/uniprot-manual/raw/seqhub-help-doc/images/Seqhub-fullview.png)
-
-<table style="border: none; border-collapse: collapse;">
-  <tr style="border: none;">
-    <td style="border: none;">**1. The pinned genes** The pinned genes (shown with a pin on the left side, centered within the row) correspond to the proteins SeqHub identified as the most functionally similar to the protein you searched in UniProt. The rows shown are the top 4 matches, out of up to 100 retrieved, ranked by functional similarity, with the closest match appearing at the top.</td>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none;">![Pinned genes](https://github.com/ebi-uniprot/uniprot-manual/raw/seqhub-help-doc/images/Seqhub-iframe_pinned.png)</td>
-  </tr>
-</table>
-
+The panel is made up of up to four rows, each representing a retrieved contig containing functionally similar proteins (see Technical Details section) to what you searched in UniProt. Here's how to read it using [Chaperonin GroEL (P0A6F5)](https://www.uniprot.org/uniprotkb/P0A6F5/entry) as an example:
 
 **1. The pinned genes** The pinned genes (shown with a pin on the left side, centered within the row) correspond to the proteins SeqHub identified as the most functionally similar to the protein you searched in UniProt. The rows shown are the top 4 matches, out of up to 100 retrieved, ranked by functional similarity, with the closest match appearing at the top.
 
