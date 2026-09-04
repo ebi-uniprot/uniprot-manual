@@ -7,7 +7,7 @@ categories: UniProtKB,Genomic_context,help
 Prokaryotic protein entries in UniProt include a genomic context panel, powered by SeqHub. The panel (in the Sequence section of UniProt) shows similar proteins to the current entry, each displayed in its genomic context: neighboring genes from its source genome.
 
 ![SeqHub inside UniProtKB entry pages](https://github.com/ebi-uniprot/uniprot-manual/raw/seqhub-help-doc/images/SeqHub-embed_example.png)
-*UniProtKB entry [P0A6F5](https://www.uniprot.org/uniprotkb/P0A6F5/entry)*
+*Genomic context similarity within UniProtKB entry [P0A6F5](https://www.uniprot.org/uniprotkb/P0A6F5/entry)*
 
 ## Why genomic context matters
 
