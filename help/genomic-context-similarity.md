@@ -15,7 +15,7 @@ A protein's genomic neighborhood can reveal functional and evolutionary relation
 
 ## What you're looking at
 
-The panel is made up of up to four rows, each representing a retrieved contig containing functionally similar proteins (see Technical Details section) to what you searched in UniProt. Here's how to read it using [Chaperonin GroEL (P0A6F5)](https://www.uniprot.org/uniprotkb/P0A6F5/entry) as an example:
+The panel is made up of up to four rows, each representing a retrieved contig containing functionally similar proteins (see [Technical Details](#technical-methodology) section) to what you searched in UniProt. Here's how to read it using [Chaperonin GroEL (P0A6F5)](https://www.uniprot.org/uniprotkb/P0A6F5/entry) as an example:
 
 ### 1. The pinned genes
 
@@ -49,6 +49,7 @@ Hovering over any gene brings up a card with:
 
 
 ### 5. Taxonomic lineage
+
 Each row lists the full taxonomic lineage of the organism the contig comes from.
 
 ![Taxonomic lineage](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/Seqhub-iframe_taxonomic_lineage.png)
