@@ -16,7 +16,7 @@ Note that in the document below square brackets `[ ]` indicate optional fields.
 * [UniParc](https://www.uniprot.org/help/fasta-headers#uniparc)
    * [UniParc proteomes](https://www.uniprot.org/help/fasta-headers#uniparc-proteomes)
 * [Archived UniProtKB sequence versions](https://www.uniprot.org/help/fasta-headers#archived-uniprotkb-sequence-versions)
-* [Pan Proteomes FASTA](https://www.uniprot.org/help/fasta-headers#pan-proteome-fasta)
+* [Pan-Proteomes FASTA](https://www.uniprot.org/help/fasta-headers#pan-proteome-fasta)
 
 
 # UniProtKB
@@ -172,7 +172,7 @@ Examples:
 Related terms: FASTA header, FASTA format, FASTA comment
 
 
-# Pan Proteome FASTA
+# Pan-Proteome FASTA
 ```
 >ppIdentifier|UniparcIdentifier ProteinFrequency ProteomeIdentifier SourceIdentifier OX=OrganismIdentifier OS=OrganismName [ ; db|EntryAccession|EntryName ProteinName GN=GeneName PE=ProteinExistence SV=SequenceVersion]
 ```
@@ -180,8 +180,8 @@ Related terms: FASTA header, FASTA format, FASTA comment
 
 Where:
 
- - *ppIdentifier* is the pan proteome identifier in the format pp<species_taxid> (for example, pp562).
- - *UniparcIdentifier* is the [UniParc identifier](https://www.uniprot.org/help/uniparc_id) (UPI) of the representative sequence; together with ppIdentifier, it identifies the pan proteome protein cluster.
+ - *ppIdentifier* is the pan-proteome identifier in the format pp<species_taxid> (for example, pp562).
+ - *UniparcIdentifier* is the [UniParc identifier](https://www.uniprot.org/help/uniparc_id) (UPI) of the representative sequence; together with ppIdentifier, it identifies the pan-proteome protein cluster.
  - *ProteinFrequency* is the percentage of clustered proteomes containing at least one sequence in that cluster.
  - *ProteomeIdentifier* is the UniProt [proteome identifier](https://www.uniprot.org/help/proteome_id) (UPID) of the proteome containing the displayed sequence.
  - *SourceIdentifier* is the sequence identifier in the source genome database (for example, ENA AAC76437).
