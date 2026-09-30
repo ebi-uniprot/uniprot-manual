@@ -117,10 +117,14 @@ annotation for TrEMBL entries. Some aspects are absent, specifically:
   types will be missing
 - GO predictions
 
+##### Download
+
 The annotation is available for download directly from the API endpoint as a
 JSON file. The download URL takes the form
 `/uniprotkb/precomputed/{UPI}/{taxID}` (for example
 `uniprotkb/precomputed/UPI0000000012/10245`)
+
+These annotations are available to download for a whole proteome as well. The download URL takes the form - `/uniprotkb/precomputed/proteome/{proteomeID}/stream?compressed=true&download=true` (for example `uniprotkb/precomputed/proteome/UP000005641/stream?compressed=true&download=true`) 
 
 #### Annotation via UniFire
 
