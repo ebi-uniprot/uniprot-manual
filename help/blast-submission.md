@@ -12,16 +12,16 @@ BLAST uses a heuristic approach, which makes it faster than traditional alignmen
 
 BLAST then assigns a score to each match and calculates an E-value to indicate the likelihood of finding that match by chance. A lower E-value suggests a more significant match.
 
-BLAST tool search results are saved in your [tools dashboard](https://www.uniprot.org/tool-dashboard) for a maximum of 7 days. Even after 7 days the job can be resubmitted from the tools dashboard with the same parameters.
+BLAST tool search results are saved in your [tools dashboard](https://www.uniprot.org/tool-dashboard) for a maximum of 7 days. After 7 days the job can be resubmitted from the tools dashboard with the same parameters.
 
 ## Where to find the BLAST tool
 
 You can [access the BLAST tool](https://www.uniprot.org/blast) directly from various sections of the UniProt website:
 
-- **Main toolbar**: Easily accessible in the top left of the navigation.
+- **Main toolbar**: Easily accessible in the top left of the navigation toolbar.
 - **Basket**: Align multiple sequences stored in your basket by selecting your entries using the checkboxes on the left and selecting `BLAST` from the 'Tools' dropdown menu.
-- **UniProtKB, UniRef and UniParc results pages**: directly from search results by selecting the results of interest and then selecting BLAST in the 'Tools' dropdown menu.
-- **UniProtKB entry page**: in the sequences section you can BLAST isoforms of a specific protein entry.
+- **UniProtKB, UniRef and UniParc results pages**: Directly from search results by selecting the results of interest using the checkboxes on the left and then selecting BLAST in the 'Tools' dropdown menu.
+- **UniProtKB entry page**: Accessible in the tool bar and in the sequences section of a protein entry. You can BLAST isoforms of a specific protein entry in the sequences section.
 
 ## Job submission form
 
@@ -56,17 +56,15 @@ FVNQHLCGSHLVEALYLVCGERGFFYTPKT
 
 ### Choosing the correct target database
 
-Choose the correct target database for your use case, this will determine the search space for your BLAST search and significantly affect the results that are returned to you.
+Choose the correct target database for your use case, this will determine the search space for your BLAST search and significantly affect the results that are returned to you. The size of the search space will also affect the speed at which your BLAST search results are returned.
 
 Target Database Descriptions
 
 | **Option**             | **Description**                       |
 |------------------------|---------------------------------------|
-| **UniProtKB reference proteomes + Swiss-Prot** | This option is the default selection for BLAST searches. <br><br> [Swiss-Prot](https://www.uniprot.org/help/uniprotkb_sections)'s section of [UniProtKB](https://www.uniprot.org/help/uniprotkb) includes manually reviewed protein sequences with high-quality annotations. Swiss-Prot gives the most reliable and well-annotated entries, this is useful if you’re looking for functional information, conserved domains, or known characterized protein families. <br><br> [Reference proteomes](https://www.uniprot.org/help/reference_proteome) are high-quality, representative sets of protein sequences selected to represent the proteomes of species across the tree of life. These reference proteomes are designed to serve as benchmarks for comparative genomics, evolutionary studies, and functional annotation. <br><br> Swiss-Prot data undergoes expert manual curation, so it contains high-quality data  but is smaller in scope compared to unreviewed data. Reference proteomes are included in the search to provide wider coverage to supplement Swiss-Prot entries. |
-| **UniProtKB**           | the whole of [UniProtKB](https://www.uniprot.org/help/uniprotkb) includes both [Swiss-Prot and TrEMBL sections](https://www.uniprot.org/help/uniprotkb_sections), TrEMBL contains computationally analyzed protein sequences that have not been manually reviewed. It is much larger than Swiss-Prot and encompasses more species, however these protein entries are not manually annotated.      |
+| **UniProtKB**           | The whole of [UniProtKB](https://www.uniprot.org/help/uniprotkb) includes both [Swiss-Prot and TrEMBL sections](https://www.uniprot.org/help/uniprotkb_sections), TrEMBL contains computationally analyzed protein sequences that have not been manually reviewed. It is much larger than Swiss-Prot and encompasses more species, however these protein entries are not manually annotated.      |
 | **UniProtKB with 3D structure (PDB)**           | This option includes [entries in UniProtKB that have a PDB 3D structure](https://www.uniprot.org/uniprotkb?query=%28structure_3d%3Atrue%29)                  |
 | **UniProtKB with 3D structure predictions (AlphaFold)**      | This option includes [entries in UniProtKB that have an AlphaFold 3D structure prediction](https://www.uniprot.org/uniprotkb?query=%28database%3Aalphafolddb%29)                         |
-| **UniProtKB reference proteomes**   | [Reference proteomes](https://www.uniprot.org/help/reference_proteome) are high-quality, representative sets of protein sequences selected to represent the proteomes of species across the tree of life. These reference proteomes are designed to serve as benchmarks for comparative genomics, evolutionary studies, and functional annotation.                          |
 | **UniProtKB Swiss-Prot**  |   [Swiss-Prot](https://www.uniprot.org/help/uniprotkb) includes manually reviewed protein sequences with high-quality annotations. Swiss-Prot gives the most reliable and well-annotated entries, this is useful if you’re looking for functional information, conserved domains, or known characterized protein families.    |
 | **UniRef100**  | [UniRef100](https://www.uniprot.org/help/uniref#uniref100) contains all UniProt Knowledgebase records plus selected UniParc records. In UniRef100, all identical sequences and subfragments with 11 or more residues are placed into a single record.  |
 | **UniRef90**  | [UniRef90](https://www.uniprot.org/help/uniref#uniref90) is generated by clustered UniRef100 sequences with 11 or more residues, such that each cluster is composed of sequences that have at least 90% sequence identity to and 90% overlap with the [seed sequence](https://www.uniprot.org/help/uniref_seed).  |
