@@ -30,7 +30,7 @@ The pinned genes (shown with a pin on the left side, centered within the row) co
 
 ### 2. Surrounding genes
 
-The genes on either side of the pinned gene make up its genomic neighborhood, the genes physically located next to it in its source genome. Genes shown in color (vs. gray) are ones that commonly co-occur alongside the pinned match gene across genomes and taxa.
+The genes on either side of the pinned gene make up its genomic neighborhood, the genes physically located next to it in its source genome. Genes shown in color (vs. gray) are ones that commonly co-occur alongside the pinned match gene across genomes and taxa. Colored lines below each gene indicate Pfam domains. Additionally, Rfam hits are shown as striped boxes between genes.
 
 ![Surrounding genes](<https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/Seqhub-iframe_surrounding genes.png>)
 <br>
@@ -47,7 +47,7 @@ These two values describe how closely the pinned protein matches the sequence of
 Hovering over a gene brings up a tooltip with:
 
 * Predicted protein name (e.g., “Chaperonin GroEL") based on gLM2 (Tatta Bio’s model), which links to the associated protein entry page in UniProt 
-* Strand, length, gap to match and genomic position (in base pairs) for the gene associated with the protein
+* Pfam domain hits identified on the protein sequence
 
 ![Functional annotations on mouse hover](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/Seqhub-iframe_hover_annotation.png)
 
