@@ -13,7 +13,7 @@ In **UniProtKB/Swiss-Prot**, we annotate transmembrane regions, when:
 
 For multi-pass membrane proteins, we do not number transmembrane regions except in cases when an accepted numbering system exists, such as for seven-transmembrane proteins, ion channels, bacteriorhodopsin and others. In these cases we use the numbering system applied to the specific protein family concerned.
 
-In **UniProtKB/TrEMBL**, transmembrane regions are annotated automatically by our [sequence annotation module using TMHMM.](https://www.uniprot.org/help/sam)
+In **UniProtKB/TrEMBL**, transmembrane regions are annotated automatically by our [sequence annotation module using TMbed.](https://www.uniprot.org/help/sam)
 
 # 1. Annotation of experimentally proven transmembrane regions
 
@@ -28,7 +28,7 @@ Having said this, unfortunately [not all UniProtKB/Swiss-Prot annotations have e
 
 # 2. Annotation of predicted transmembrane regions
 
-We also annotate transmembrane regions which are predicted by the application of the predictive tools TMHMM, Memsat, Phobius and the hydrophobic moment plot method of Eisenberg and coworkers. Note that these tools predict only alpha-helical membrane spanning regions: the positions of membrane spanning beta-sheet regions are annotated strictly according to experimental information.
+We also annotate transmembrane regions which are predicted by the application of the predictive tools TMbed, Memsat, Phobius and the hydrophobic moment plot method of Eisenberg and coworkers. Note that these tools predict only alpha-helical membrane spanning regions: the positions of membrane spanning beta-sheet regions are annotated strictly according to experimental information.
 
 For predicted alpha-helical transmembrane regions at least two methods must return a positive prediction in order for a region to be annotated as transmembrane in UniProtKB/Swiss-Prot. When predicted N-terminal signal peptides and transmembrane regions overlap, the Phobius prediction is used to discriminate between the two. In all cases predicted transmembrane regions are annotated with evidence ['Sequence analysis'](https://www.uniprot.org/help/evidences#ECO:0000255).
 
