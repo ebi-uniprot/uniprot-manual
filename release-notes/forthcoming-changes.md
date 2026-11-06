@@ -14,7 +14,7 @@ We will introduce an additional field in the cross-references to the "Maize Gene
 
 ### Text format
 
-Example: [P24067]:(https://rest.uniprot.org/uniprotkb/P24067.txt)
+Example: [P24067](https://rest.uniprot.org/uniprotkb/P24067.txt)
 
 Current format:
 ```
@@ -29,7 +29,7 @@ DR   MaizeGDB; Zm00001eb229930; bip1.
 
 ### XML format
 
-Example: {P24067]:(https://rest.uniprot.org/uniprotkb/P24067.xml)
+Example: [P24067](https://rest.uniprot.org/uniprotkb/P24067.xml)
 
 Current format:
 
@@ -49,7 +49,7 @@ This change does not affect the XSD, but may nevertheless require code changes.
 
 ### RDF format
 
-Example: [P24067]:(https://rest.uniprot.org/uniprotkb/P24067.ttl)
+Example: [P24067](https://rest.uniprot.org/uniprotkb/P24067.ttl)
 
 Current format
 
