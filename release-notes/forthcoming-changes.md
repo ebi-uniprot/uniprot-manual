@@ -10,7 +10,7 @@ date: 2099-01-01
 
 # Change to the cross-references to MaizeGDB
 
-We will introduce an additional field in the cross-references to the "Maize Genetics and Genomics Database":https://www.maizegdb.org/. This will allow us to provide the gene name or the gene symbol curated by MaizeGDB curators, in addition to the gene identifier.
+We will introduce an additional field in the cross-references to the [Maize Genetics and Genomics Database](https://www.maizegdb.org/). This will allow us to provide the gene name or the gene symbol curated by MaizeGDB curators, in addition to the gene identifier.
 
 ### Text format
 
