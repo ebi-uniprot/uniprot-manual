@@ -74,17 +74,19 @@ uniprot:P24067
 ```
 
 # Pan-Proteome FASTA header changes
-The fasta headers will include protein names from UniParc as well and the order of the ProteinName and GeneName are changed, 
+Pan-Proteome FASTA header will include `ProteinName` and `GN=GeneName` in the main header, before `OX=`. These fields were previously only part of the optional UniProtKB entry section. Protein names can now also come from UniParc, so they're present even when there's no linked UniProtKB entry.
 
-```
-ProteinName: the recommended name of the UniProtKB entry or the submitted name
-             from the source of a UniParc entry
-             (https://www.uniprot.org/help/protein_names)
+[Protein Name](https://www.uniprot.org/help/protein_names): 
 
-GN (GeneName): the first gene name of the UniProtKB entry or the gene name from
-               the source of a UniParc entry
-               (https://www.uniprot.org/help/gene_name)
-```
+The recommended name of the UniProtKB entry or the submitted name from the source of a UniParc entry 
+
+
+
+[GN (GeneName)](https://www.uniprot.org/help/gene_name):
+
+The first gene name of the UniProtKB entry or the gene name from the source of a UniParc entry
+
+
                
 
 Current format
