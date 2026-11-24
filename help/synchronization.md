@@ -6,7 +6,7 @@ categories: UniProtKB,UniRef,UniParc,Cross-references,Download,Release,faq
 
 # How frequently is UniProt released?
 
-UniProt releases are published every 2-3 months, with possible exceptions in January and summer due to reduced staff during holiday periods.
+UniProt releases are published roughly four times a year, with possible exceptions in January and summer due to reduced staff during holiday periods.
 
 The current release number format is YYYY\_XX where YYYY is the calendar year and XX a 2-digit number that is incremented for each release of a given year, e.g. 2025\_04, 2026\_01, etc.
 
