@@ -7,6 +7,7 @@ date: 2099-01-01
 **Table of contents**
 
    * [Change to the cross-references to MaizeGDB](#change-to-the-cross-references-to-maizegdb) - **From January 13, 2027**
+   * [Pan-Proteome FASTA header format change](#pan-proteome-fasta-header-format-change) - **2027_02**
 
 # Change to the cross-references to MaizeGDB
 
@@ -70,4 +71,31 @@ uniprot:P24067
  rdf:type up:Resource ;
  up:database <http://purl.uniprot.org/database/MaizeGDB> .
  rdfs:comment "bip1" . 
+```
+
+# Pan-Proteome FASTA header format change
+Pan-Proteome FASTA header will now include ProteinName and GN=GeneName for all entries, located before the OX= field. Those were previously only part of the optional UniProtKB entry section.
+
+[Protein Name](https://www.uniprot.org/help/protein_names): 
+The recommended name of the UniProtKB entry or the submitted name from the source of a UniParc entry 
+
+[GN (GeneName)](https://www.uniprot.org/help/gene_name):
+The first gene name of the UniProtKB entry or the gene name from the source of a UniParc entry              
+
+Current format
+```
+>ppIdentifier|UniparcIdentifier ProteinFrequency ProteomeIdentifier SourceIdentifier OX=OrganismIdentifier OS=OrganismName [ ; db|EntryAccession|EntryName ProteinName GN=GeneName PE=ProteinExistence SV=SequenceVersion ]
+```
+Example:
+```
+>pp562|UPI0000138ECA 79% UP000000625 AAC75106 OX=83333 OS=Escherichia coli str. K-12 sub str. MG1655 ; sp|P71242|WCAK_ECOLI Colanic acid biosynthesis protein WcaK GN=wcaK PE=3 SV=2
+```
+
+New format
+```
+>ppIdentifier|UniparcIdentifier ProteinFrequency ProteomeIdentifier SourceIdentifier ProteinName GN=GeneName OX=OrganismIdentifier OS=OrganismName [ ; db|EntryAccession|EntryName PE=ProteinExistence SV=SequenceVersion ]
+```
+Example:
+```
+>pp562|UPI0000138ECA 79% UP000000625 AAC75106 Colanic acid biosynthesis protein WcaK GN=wcaK OX=83333 OS=Escherichia coli str. K-12 sub str. MG1655 ; sp|P71242|WCAK_ECOLI PE=3 SV=2
 ```
