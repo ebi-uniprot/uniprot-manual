@@ -56,9 +56,7 @@ FVNQHLCGSHLVEALYLVCGERGFFYTPKT
 
 ### Choosing the correct target database
 
-Choose the correct target database for your use case, this will determine the search space for your BLAST search and significantly affect the results that are returned to you. The size of the search space will also affect the speed at which your BLAST search results are returned.
-
-Target Database Descriptions
+Choose the correct target database for your use case. This will determine the search space for your BLAST search and significantly affect the results that are returned to you. The size of the search space will also affect the speed at which your BLAST search results are returned.
 
 | **Option**             | **Search speed** | **Restrict by taxonomy** | **Description**                       |
 |------------------------|------------------|--------------------------|---------------------------------------|
@@ -73,11 +71,19 @@ Target Database Descriptions
 
 <br>
 
-#### Search speed
+### Search speed
 
-The time a BLAST search takes depends mostly on the size of the target database: the more sequences there are to compare your query against, the longer the search. Searches against Swiss-Prot or the PDB subset typically finish quickly, whereas a search against UniParc, which is many times larger than Swiss-Prot, can take much longer. The search speeds in the table above are rough guides, ranked by the approximate size of each database (see the [release statistics](https://www.uniprot.org/help/release-statistics) for current numbers); actual times also depend on the length and number of your query sequences and on server load.
+The time a BLAST search takes depends on several factors:
 
-If a search is slow, consider a smaller target database (e.g. UniRef90 or UniRef50 instead of UniRef100, or UniProtKB instead of UniParc), or [restrict the search by taxonomy](#restrict-by-taxonomy) where the target database supports it (UniProtKB, UniProtKB with 3D structure (PDB) and UniProtKB Swiss-Prot).
+1. **Size of the target database**: your query is compared against every sequence in the target database, so the more sequences it contains, the longer the search. For example, searches against UniProtKB Swiss-Prot typically finish quickly, whereas a search against the much larger UniParc database will, on average, take longer. The search speeds in the [target database table](#choosing-the-correct-target-database) are rough guides.
+
+2. **Taxonomy restriction**: for target databases which support it, [restricting the search by taxonomy](#restrict-by-taxonomy) reduces the number of sequences your query is compared against and will speed up your search.
+
+3. **Query sequence length**: longer query sequences take longer to search, because there are more residues to compare against each sequence in the target database. If you submit several sequences, each one runs as a separate job, which you can follow in your [tools dashboard](https://www.uniprot.org/tool-dashboard).
+
+4. **Server load**: Jobs from all users share the same servers. When many jobs are being submitted at once, your job may have to wait in a queue before it starts running.
+
+You don't need to keep the page open while your search runs: you can return to the job and its results later, in the same browser, from your [tools dashboard](https://www.uniprot.org/tool-dashboard).
 
 ### Restrict by taxonomy
 
