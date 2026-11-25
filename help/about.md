@@ -40,7 +40,7 @@ UniProt conforms with [EMBL-EBI's long-term data preservation](https://www.ebi.a
 
 # Logo
 
-The UniProt logo is available [here in SVG format](https://raw.githubusercontent.com/ebi-uniprot/uniprot-website/main/src/images/uniprot-logo.img.svg).
+The UniProt logo is available [here in SVG format](https://www.uniprot.org/uniprot-logo.img.0df091.svg).
 
 # Contact the UniProt consortium members
 
