@@ -40,11 +40,11 @@ UniProt conforms with [EMBL-EBI's long-term data preservation](https://www.ebi.a
 
 # Logo
 
-The UniProt logo is available [here in SVG format](https://raw.githubusercontent.com/ebi-uniprot/uniprot-website/main/src/images/uniprot-logo.img.svg).
+The UniProt logo is available [here in SVG format](https://www.uniprot.org/uniprot-logo.img.0df091.svg).
 
 # Contact the UniProt consortium members
 
-<img src="https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/embl-logo.png" width=150 />
+<img src="https://www.uniprot.org/embl-ebi-logo.img.48e02e.svg" width=150 />
 
 [European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/)  
 Wellcome Trust Genome Campus  
@@ -55,7 +55,7 @@ Fax: (+44) 1223 494 468
 
 <br/>
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/logo_sib.png)
+![image](https://www.uniprot.org/sib-logo.d55d59.png)
 
 [SIB Swiss Institute of Bioinformatics](https://www.sib.swiss/)  
 Centre Medical Universitaire  
@@ -67,7 +67,7 @@ Fax: (+41) 22 379 58 58
 
 <br/>
 
-![image](https://github.com/ebi-uniprot/uniprot-manual/raw/main/images/logo_pir.png)
+![image](https://www.uniprot.org/pir-logo.653769.jpg)
 
 [Protein Information Resource (PIR)](https://proteininformationresource.org/)  
 Georgetown University Medical Center  
