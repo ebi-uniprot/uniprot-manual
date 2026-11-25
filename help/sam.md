@@ -10,11 +10,11 @@ UniProt's [Automatic Annotation pipeline](https://www.uniprot.org/help/automatic
 
 Predictions of sequence features such as [Signal](https://www.uniprot.org/help/signal), [Transmembrane](https://www.uniprot.org/help/transmem), [Coiled coil](https://www.uniprot.org/help/coiled) and [intrinsically disordered](https://en.wikipedia.org/wiki/Intrinsically_disordered_proteins) regions (the latter described in [Region](https://www.uniprot.org/help/region) and [Compositional bias](https://www.uniprot.org/help/compbias) annotations) are generated using the following software from external providers:
 
-- [TMHMM](https://services.healthtech.dtu.dk/services/TMHMM-2.0/)
-- [SignalP](https://services.healthtech.dtu.dk/services/SignalP-5.0/)
+- [TMbed](https://github.com/BernhoferM/TMbed)
+- [SignalP](https://services.healthtech.dtu.dk/services/SignalP-6.0/)
 - [Phobius](https://phobius.sbc.su.se/)
 - [Coils](http://embnet.vital-it.ch/software/COILS_form.html)
-- [MobiDB-lite](https://protein.bio.unipd.it/mobidblite/)
+- [MobiDB-lite](https://github.com/BioComputingUP/MobiDB-lite)
 
 These methods are applied to UniProtKB sequences by [InterPro](https://www.ebi.ac.uk/interpro) to predict sequence features. More annotations (mainly [keywords](https://www.uniprot.org/help/keywords)) are then added automatically to enrich the generated predictions. The new predictions are propagated to all the UniProtKB/TrEMBL records that do not already contain such feature predictions from the [UniRule](https://www.uniprot.org/help/unirule) automatic annotation system.
 
@@ -24,7 +24,7 @@ We use the overlap of different methods to confirm the presence of a predicted s
 
 ## Transmembrane region
 
-TMHMM and Phobius predictors are used to infer transmembrane regions. If there is an overlap of at least 10 amino acids between TMHMM and Phobius results, the transmembrane region is annotated using the sequence ranges predicted by Phobius. Otherwise, if there is no such overlap, no predictions are generated.
+TMbed and Phobius predictors are used to infer transmembrane regions. If there is an overlap of at least 10 amino acids between TMbed and Phobius results, the transmembrane region is annotated using the sequence ranges predicted by Phobius. Otherwise, if there is no such overlap, no predictions are generated.
 
 # See also
 
@@ -34,9 +34,9 @@ TMHMM and Phobius predictors are used to infer transmembrane regions. If there i
 
 ## Signal peptide
 
-TMHMM, SignalP and Phobius predictors are used to infer signal peptides. If there is a prediction from SignalP and none from TMHMM in the same range, the signal peptide is annotated.  
+TMbed, SignalP and Phobius predictors are used to infer signal peptides. If there is a prediction from SignalP and none from TMbed in the same range, the signal peptide is annotated.  
 If SignalP and Phobius both predict a signal peptide, then it is annotated.  
-When predicted N-terminal signal peptides (as predicted by SignalP) and transmembrane regions (as predicted by TMHMM) overlap, then the prediction returned by Phobius is used to discriminate between the two possibilities.  
+When predicted N-terminal signal peptides (as predicted by SignalP) and transmembrane regions (as predicted by TMbed) overlap, then the prediction returned by Phobius is used to discriminate between the two possibilities.  
 In all the above cases, we annotate the sequence region predicted by SignalP.
 
 ### See also
